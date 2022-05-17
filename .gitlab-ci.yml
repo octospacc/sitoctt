@@ -2,15 +2,15 @@ image: alpine:latest
 
 before_script:
   - apk update
-  - apk add python3 py3-pip git
-  - pip3 install importlib-metadata
+  - apk add python3 py3-pip npm git
+  - pip3 install Markdown
+  - npm install -g pug-cli
 
 pages:
   stage: deploy
   script:
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-  - mv staticoso/Source/* ./
-  - python3 Build.py
+  - python3 staticoso/Source/Build.py
   artifacts:
     paths:
     - public

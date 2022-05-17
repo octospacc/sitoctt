@@ -9,7 +9,6 @@
 
 Body {
 	Margin: 0;
-	//Padding: var(--ScreenBorderPadding);
 	Box-Sizing: Border-Box;
 	Width: 100vw;
 	Position: Absolute;
@@ -29,21 +28,14 @@ Body {
 #LeftBox {
 	Float: Left;
 	Padding: var(--ContentPadding);
-	//Border: 2px Solid Purple;
 	user-select: none;
 }
 #RightBox {
-	//Position: Inherit;
-	//Border: 2px Solid Purple;
-	//Top: 16px;
-	//Right: 16px;
-//	Margin: 0;
 	Padding: var(--ContentPadding);
 	Float: Right;
 	user-select: none;
 }
 #MainBox {
-	//Text-Align: Center;
 	Margin: Auto;
 	Position: Absolute;
 	Z-Index: -1;
@@ -56,7 +48,6 @@ Body {
 	Border: 2px Solid Purple;
 	Position: Fixed;
 	Bottom: 0; //var(--ScreenBorderPadding);
-	//Margin: var(--ScreenBorderPadding);
 	Left: 0;
 	Right: 0;
 	Padding: var(--ContentPadding);
