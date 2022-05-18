@@ -1,4 +1,4 @@
-// Template: Standard.html
+// LastUpdated: Show
 
 h1 Ciao!!
 
@@ -6,21 +6,69 @@ p Sei entrat<span class="BlinkA">a</span><span class="BlinkO">o</span> nel...
 
 // Credits: https://codepen.io/jh3y/pen/WNrXqYz
 h1(class='NoTitle WavyText' style='--x: 6; --y: -6;')
-	for letter, index in 'postoctt'.split('')
+	for letter, index in '✨postoctt✨'.split('')
 		span(style=`--index: ${index}; --alpha-l: 0.125; --alpha-u: 0.25;`)= letter
 h1(class='NoTitle WavyText' style='--x: 3; --y: -3;')
-	for letter, index in 'postoctt'.split('')
+	for letter, index in '✨postoctt✨'.split('')
 		span(style=`--index: ${index}; --alpha-l: 0.25; --alpha-u: 0.5;`)= letter
 h1(class='NoTitle WavyText')
-	for letter, index in 'postoctt'.split('')
+	for letter, index in '✨postoctt✨'.split('')
 		span(style=`--index: ${index}; --alpha-l: 0.5; --alpha-u: 1;`)= letter
 br
 
-p.
-	Esatto, il <b>postoctt</b>, Letteralmente il mio posto, perchè io sono octt e quindi
-	posto + octt = postoctt.
-	Se preferisci, puoi chiamarlo postocto.
+p
+	| Esatto, il #[strong ✨postoctt✨], Letteralmente il mio posto, perchè io sono octt e quindi posto + octt = ✨postoctt✨.
+	br
+	| Se preferisci, puoi chiamarlo postocto. O anche sitoctt! È pur sempre un sito web questo!
 
-h3 Di che si tratta?
+p
+	| Come puoi vedere da elementi segnaposto mezzi rotti ai bordi della pagina, tutto questo ambaradan è ancora pesantemente in costruzione.
+	br
+	| Gli aggiornamenti sono continui e avvengono senza preavviso, quindi dovresti rivisitare questo sito almeno qualche volta a settimana se ti interessano le novità sempre fresche.
 
-p A breve.
+p
+	| A tal proposito, per la migliore esperienza DEVI usare un browser con supporto almeno a CSS3.
+	br
+	| Preferibilmente non Chromium, che ha degli strani memory leak su pagine con animazioni complesse, oltre ad andare a scatti. Firefox non ha questo problema, ma usa molto di più la CPU. Ephiphany usa anche meno RAM di Firefox, ma al costo del doppio della CPU..
+	br
+	| Direi che la scelta non è tra il migliore ma tra il meno peggio..
+
+p Codici JavaScript, al momento in cui sto scrivendo questa pagina, non ne uso neanche uno, perché non voglio costringere chi (per validi motivi di sicurezza) non vuole attivare JavaScript ad avere un'esperienza degradata.
+
+p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori.
+
+dl
+	dt • Browser, con supporto completo a CSS3
+	dd (Perfetto!)
+	dt • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile
+	dd (Richiede muovere il foglio a mano ma ottimo!)
+	dt • Browser, con supporto incompleto a CSS3
+	dd (Meh, OK..)
+	dt • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate
+	dd (Buuu, mancano le animazioni..)
+	dt • Browser / Stampa su carta normale, zero supporto CSS 
+	dd (Ma che è sto schifo?!?!)
+
+h2 Ma di che si tratta?
+
+p Su questo spazio web metterò di tutto. Spero.
+
+p Per ora, sicuramente metto articoli che per un blog normale (come quello che al momento ho su noblogo) sono troppo corti o poco caratterizzati, ma voglio mettere anche tante raccolte sulle cose che mi piacciono, in forma sia testuale che di media. Una specie di galleria sulle cose che per me valgono.
+
+p
+	| Oltre che degli effettivi contenuti, però, voglio che il sito sia galleria di sé stesso. Voglio creare qualcosa che abbia un suo carattere unico, come i siti web amatoriali degli anni 1995-2005, dove ogni luogo di Internet aveva sempre un'atmosfera diversa da tutto ciò visitato un attimo prima.
+	br
+	| L'ascesa dei social come li abbiamo oggi ha purtroppo rovinato il web sotto questo punto di vista, portando alla standardizzazione completa e alla morte della creatività espressa con la forma.
+	br
+	| Voglio che questo mio spazio web sia diverso da tutti gli altri, caratterizzati da testo monocromatico e temi riciclati, perché è un peccato avere strumenti potentissimi e non sfruttarli davvero.
+
+p
+	| Per questo, cercherò di inventarmi di continuo modi di abbellire le pagina con il CSS, non solo con layouting o effetti del testo fissi, ma soprattutto con le animazioni.
+	br
+	| Al resto della forma, come l'ordine ad albero delle pagine nel sito o dei paragrafi nelle pagine, non penserò molto, altrimenti mi distraggo dal creare contenuti e la voglia mi passa.
+
+p Ricapitolando, le mie intenzioni attuali sono queste, poi non lo so cosa ci finirà qui sopra col tempo per davvero..
+
+h2 Disponibilità del sito
+
+h2 Sorgenti e licenze

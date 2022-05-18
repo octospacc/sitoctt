@@ -15,7 +15,7 @@ Body {
 	Left: Auto;
 	Right: Auto;
 	Background: #eeddff;
-	Font-Family: "Liberation Mono";
+	Font-Family: "Liberation Mono", monospace, monospace;
 }
 #Container {
 	Box-Sizing: Border-Box;
@@ -47,7 +47,7 @@ Body {
 	Box-Sizing: Border-Box;
 	Border: 2px Solid Purple;
 	Position: Fixed;
-	Bottom: 0; //var(--ScreenBorderPadding);
+	Bottom: 0;
 	Left: 0;
 	Right: 0;
 	Padding: var(--ContentPadding);
