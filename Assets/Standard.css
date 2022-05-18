@@ -5,6 +5,9 @@
 * {
 	Box-Sizing: Border-Box;
 }
+a {
+	Color: #d000d0;
+}
 Body {
 	Margin: 0;
 	Box-Sizing: Border-Box;
@@ -25,11 +28,11 @@ Body {
 	Background: #300030;
 	Color: #fafaf0;
 }
-#LeftBox a, #RightBox a {
+#LeftBox a, #RightBox a, #BottomBox a {
 	Color: #eeddff;
 }
 #TopBox {
-	Border: 2px Solid Purple;
+	//Border: 2px Solid Purple;
 	Padding: var(--ContentPadding);
 }
 #LeftBox, #LeftBoxContainer {
@@ -43,8 +46,8 @@ Body {
 	user-select: none;
 }
 #RightBox, #RightBoxContainer {
-	Padding: var(--ContentPadding);
 	Float: Right;
+	Padding: var(--ContentPadding);
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -59,16 +62,18 @@ Body {
 	Left: 0;
 	Right: 0;
 	Width: 80%;
-	Padding-Bottom: calc(var(--ContentPadding) + 32px);
+	Padding-Bottom: calc(var(--ContentPadding) + 64px);
 }
 #BottomBox {
 	Box-Sizing: Border-Box;
-	Border: 2px Solid Purple;
+	//Border: 2px Solid Purple;
+	Color: #fafaf0;
+	Background: rgba(64, 0, 64, 0.6);
 	Position: Fixed;
 	Bottom: 0;
 	Left: 0;
 	Right: 0;
-	Padding: var(--ContentPadding);
+	Padding: var(--ScreenBorderPadding);
 	Width: 100%;
 	Text-Align: Right;
 }
