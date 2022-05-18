@@ -16,11 +16,21 @@
 		[HTML:Part:Standard/TopBox.html]
 	</div>
 	<div id="MiddleBox">
-		<div id="LeftBox">
-			[HTML:Part:Standard/LeftBox.html]
+		<div id="LeftBoxContainer">
+			<label id="LeftBoxLabel" for="LeftBoxCheck"><b>[🗃️]</b></label>
+			<input type="checkbox" id="LeftBoxCheck" checked>
+			<br>
+			<div id="LeftBox" class="ToggleBox">
+				[HTML:Part:Standard/LeftBox.html]
+			</div>
 		</div>
-		<div id="RightBox">
-			[HTML:Page:RightBox]
+		<div id="RightBoxContainer">
+			<label id="RightBoxLabel" for="RightBoxCheck"><b>[🔖️]</b></label>
+			<input type="checkbox" id="RightBoxCheck" checked>
+			<br>
+			<div id="RightBox" class="ToggleBox">
+				[HTML:Page:RightBox]
+			</div>
 		</div>
 		<div id="MainBox">
 			[HTML:Page:MainBox]

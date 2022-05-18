@@ -2,37 +2,54 @@
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
 }
-
 * {
 	Box-Sizing: Border-Box;
 }
-
 Body {
 	Margin: 0;
 	Box-Sizing: Border-Box;
-	Width: 100vw;
+	Width: 100%;
+	Max-Width: 100%;
 	Position: Absolute;
 	Left: Auto;
 	Right: Auto;
+	Color: #04040c;
 	Background: #eeddff;
-	Font-Family: "Liberation Mono", monospace, monospace;
+	Font-Family: Consolas, "Liberation Mono", Courier, monospace, monospace;
 }
 #Container {
 	Box-Sizing: Border-Box;
 }
 
+#LeftBox, #RightBox {
+	Background: #300030;
+	Color: #fafaf0;
+}
+#LeftBox a, #RightBox a {
+	Color: #eeddff;
+}
 #TopBox {
 	Border: 2px Solid Purple;
 	Padding: var(--ContentPadding);
 }
-#LeftBox {
+#LeftBox, #LeftBoxContainer {
 	Float: Left;
 	Padding: var(--ContentPadding);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 }
-#RightBox {
+#RightBox, #RightBoxContainer {
 	Padding: var(--ContentPadding);
 	Float: Right;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 }
 #MainBox {
@@ -42,6 +59,7 @@ Body {
 	Left: 0;
 	Right: 0;
 	Width: 80%;
+	Padding-Bottom: calc(var(--ContentPadding) + 32px);
 }
 #BottomBox {
 	Box-Sizing: Border-Box;
@@ -51,14 +69,35 @@ Body {
 	Left: 0;
 	Right: 0;
 	Padding: var(--ContentPadding);
-	Width: 100vw;
+	Width: 100%;
 	Text-Align: Right;
 }
 
+#LeftBoxCheck, #LeftBoxLabel {
+	Float: Left;
+	Left: 0;
+	Margin: var(--ScreenBorderPadding);
+}
+#RightBoxCheck, #RightBoxLabel {
+	Float: Right;
+	Right: 0;
+	Margin: var(--ScreenBorderPadding);
+}
+#LeftBoxCheck, #RightBoxCheck {
+	Position: Fixed;
+	Opacity: 0;
+}
+:Checked ~ .ToggleBox {
+	Display: None;
+	Visibility: Hidden;
+}
+
+/*
 @Media (Max-Width: 800px) {
 	#LeftBox {Display: None;}
 	#RightBox {Display: None;}
 }
+*/
 
 .BlinkA {
 	Animation: BlinkerA 0.25s Step-Start Infinite;
@@ -85,26 +124,26 @@ Body {
 
 /* Credits: https://codepen.io/jh3y/pen/WNrXqYz */
 .WavyText {
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  white-space: nowrap;
-  transform: translate(-50%, -50%) translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%));
-  font-variation-settings: 'wght' var(--lower);
-  margin: 0;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	white-space: nowrap;
+	transform: translate(-50%, -50%) translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%));
+	font-variation-settings: 'wght' var(--lower);
+	margin: 0;
 }
 .WavyText span {
-  color: hsla(300, 100%, 10%, var(--alpha-l));
-  animation: rise 2.25s infinite ease-in-out;
-  animation-delay: calc((var(--index) - 6) * 0.225s);
-  display: inline-block;
+	color: hsla(300, 100%, 20%, var(--alpha-l));
+	animation: rise 2.25s infinite ease-in-out;
+	animation-delay: calc((var(--index) - 6) * 0.225s);
+	display: inline-block;
 }
 @keyframes rise {
-  50% {
-    font-variation-settings: 'wght' var(--upper);
-    color: hsla(300, 100%, 20%, var(--alpha-u));
-    transform: translate(0, -15%);
-  }
+	50% {
+		font-variation-settings: 'wght' var(--upper);
+		color: hsla(300, 100%, 30%, var(--alpha-u));
+		transform: translate(0, -15%);
+	}
 }
 
