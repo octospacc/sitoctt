@@ -5,16 +5,18 @@ h1 Ciao!!
 p Sei entrat#[span(class='BlinkA') a]#[span(class='BlinkO') o] nel...
 
 // Credits: https://codepen.io/jh3y/pen/WNrXqYz
-h1(class='NoTitle WavyText' style='--x: 6; --y: -6;')
-	for letter, index in '✨postoctt✨'.split('')
-		span(style=`--index: ${index}; --alpha-l: 0.125; --alpha-u: 0.25;`)= letter
-h1(class='NoTitle WavyText' style='--x: 3; --y: -3;')
-	for letter, index in '✨postoctt✨'.split('')
-		span(style=`--index: ${index}; --alpha-l: 0.25; --alpha-u: 0.5;`)= letter
-h1(class='NoTitle WavyText')
-	for letter, index in '✨postoctt✨'.split('')
-		span(style=`--index: ${index}; --alpha-l: 0.5; --alpha-u: 1;`)= letter
-br
+div
+	br
+	h1(class='NoTitle WavyText' style='--x: 6; --y: -6;')
+		for letter, index in '✨postoctt✨'.split('')
+			span(style=`--index: ${index}; --alpha-l: 0.125; --alpha-u: 0.25;`)= letter
+	h1(class='NoTitle WavyText' style='--x: 3; --y: -3;')
+		for letter, index in '✨postoctt✨'.split('')
+			span(style=`--index: ${index}; --alpha-l: 0.25; --alpha-u: 0.5;`)= letter
+	h1(class='NoTitle WavyText')
+		for letter, index in '✨postoctt✨'.split('')
+			span(style=`--index: ${index}; --alpha-l: 0.5; --alpha-u: 1;`)= letter
+	br
 
 p
 	| Esatto, il #[strong ✨postoctt✨], Letteralmente il mio posto, perchè io sono octt e quindi posto + octt = ✨postoctt✨.
