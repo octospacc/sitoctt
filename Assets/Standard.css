@@ -1,3 +1,5 @@
+@import url('/sitoctt-assets/Fonts/SpaceMono/Font.css');
+
 :root {
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
@@ -18,7 +20,8 @@ Body {
 	Right: Auto;
 	Color: #04040c;
 	Background: #eeddff;
-	Font-Family: "Liberation Mono", "Droid Sans Mono", Consolas, Courier, monospace, monospace;
+	Font-Family: 'Space Mono', monospace;
+	Font-Size: 13pt;
 }
 #Container {
 	Box-Sizing: Border-Box;
@@ -62,7 +65,7 @@ Body {
 	Left: 0;
 	Right: 0;
 	Width: 80%;
-	Padding-Bottom: calc(var(--ContentPadding) + 64px);
+	Padding-Bottom: calc(var(--ContentPadding) + 80px);
 }
 #BottomBox {
 	Box-Sizing: Border-Box;
