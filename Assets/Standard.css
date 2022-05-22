@@ -2,12 +2,6 @@
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
 }
-* {
-	Box-Sizing: Border-Box;
-}
-a {
-	Color: #d000d0;
-}
 Body {
 	Margin: 0;
 	Box-Sizing: Border-Box;
@@ -24,6 +18,16 @@ Body {
 	Box-Sizing: Border-Box;
 }
 
+* {
+	Box-Sizing: Border-Box;
+}
+a {
+	Color: #d000d0;
+}
+ul {
+	padding-left: 20px;
+}
+
 #LeftBox, #RightBox {
 	Background: #300030;
 	Color: #fafaf0;
@@ -32,7 +36,6 @@ Body {
 	Color: #eeddff;
 }
 #TopBox {
-	//Border: 2px Solid Purple;
 	Padding: var(--ContentPadding);
 }
 #LeftBox, #LeftBoxContainer {
@@ -66,7 +69,6 @@ Body {
 }
 #BottomBox {
 	Box-Sizing: Border-Box;
-	//Border: 2px Solid Purple;
 	Color: #fafaf0;
 	Background: rgba(64, 0, 64, 0.6);
 	Position: Fixed;
@@ -97,13 +99,9 @@ Body {
 	Visibility: Hidden;
 }
 
-/*
-@Media (Max-Width: 800px) {
-	#LeftBox {Display: None;}
-	#RightBox {Display: None;}
+.NoDisplay {
+	Display: None;
 }
-*/
-
 .BlinkA {
 	Animation: BlinkerA 0.25s Step-Start Infinite;
 }
@@ -121,34 +119,40 @@ Body {
 	100% {Position: Static; Visibility: Visible;}
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@699;700&display=swap");
-:root {
-  --lower: 100;
-  --upper: 700;
+.MainIdTextGradientL {
+	Background: linear-gradient(to left, #d000d0, #8040d0);
+	Color: Transparent;
+	-webkit-background-clip: Text;
+	Background-Clip: Text;
+}
+.MainIdTextGradientR {
+	Background: linear-gradient(to right, #d000d0, #8040d0);
+	Color: Transparent;
+	-webkit-background-clip: Text;
+	Background-Clip: Text;
 }
 
 /* Credits: https://codepen.io/jh3y/pen/WNrXqYz */
 .WavyText {
-	font-family: 'Roboto Mono', monospace;
-	text-align: center;
-	position: absolute;
-	left: 50%;
-	white-space: nowrap;
-	transform: translate(-50%, -50%) translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%));
+	Text-Align: center;
+	Position: absolute;
+	Left: 50%;
+	White-Space: nowrap;
+	Transform: translate(-50%, -50%) translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%));
 	font-variation-settings: 'wght' var(--lower);
-	margin: 0;
+	Margin: 0;
 }
-.WavyText span {
-	color: hsla(300, 100%, 20%, var(--alpha-l));
-	animation: rise 2.25s infinite ease-in-out;
-	animation-delay: calc((var(--index) - 6) * 0.225s);
-	display: inline-block;
+.WavyText Span {
+	Color: hsla(300, 100%, 20%, var(--alpha-l));
+	Animation: Rise 2.25s infinite ease-in-out;
+	Animation-Delay: calc((var(--index) - 6) * 0.225s);
+	Display: inline-block;
 }
-@keyframes rise {
+@keyframes Rise {
 	50% {
 		font-variation-settings: 'wght' var(--upper);
-		color: hsla(300, 100%, 30%, var(--alpha-u));
-		transform: translate(0, -15%);
+		Color: hsla(300, 100%, 30%, var(--alpha-u));
+		Transform: translate(0, -15%);
 	}
 }
 
