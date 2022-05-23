@@ -25,15 +25,20 @@ a {
 	Color: #d000d0;
 }
 ul {
-	padding-left: 20px;
+	Padding-Left: 16px;
+	Padding-Right: 4px;
 }
 
 #LeftBox, #RightBox {
+	Max-Width: 90vw;
 	Background: #300030;
 	Color: #fafaf0;
 }
 #LeftBox a, #RightBox a, #BottomBox a {
 	Color: #eeddff;
+}
+#LeftBox ul li, #RightBox ul li {
+	List-Style-Type: None;
 }
 #TopBox {
 	Padding: var(--ContentPadding);
@@ -65,6 +70,7 @@ ul {
 	Left: 0;
 	Right: 0;
 	Width: 80%;
+	Padding-Top: calc(var(--ContentPadding) + 24px);
 	Padding-Bottom: calc(var(--ContentPadding) + 80px);
 }
 #BottomBox {
