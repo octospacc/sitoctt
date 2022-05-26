@@ -5,15 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="[HTML:Page:CSS]">
 	<link href="/sitoctt-assets/Fonts/SpaceMono/Style.css" rel="stylesheet">
+	<link href="/sitoctt-assets/twemoji-amazing.min.css" rel="stylesheet">
 	<title>[HTML:Page:Title] - postoctt</title>
 	<style>
-		[HTML:Page:Style]
+[HTML:Page:Style]
 	</style>
 </head>
 <body>
 <div id="Container">
 	<div id="TopBox">
-		[HTML:Part:Standard/TopBox.html]
+[HTML:Part:Standard/TopBox.html]
 	</div>
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
@@ -21,9 +22,9 @@
 			<input type="checkbox" id="LeftBoxCheck" checked>
 			<br>
 			<div id="LeftBox" class="ToggleBox">
-				[HTML:Part:Standard/LeftBoxTop.html]
-				[HTML:Page:LeftBox]
-				[HTML:Part:Standard/LeftBoxBottom.html]
+[HTML:Part:Standard/LeftBoxTop.html]
+[HTML:Page:LeftBox]
+[HTML:Part:Standard/LeftBoxBottom.html]
 			</div>
 		</div>
 		<div id="RightBoxContainer">
@@ -31,15 +32,19 @@
 			<input type="checkbox" id="RightBoxCheck" checked>
 			<br>
 			<div id="RightBox" class="ToggleBox">
-				[HTML:Page:RightBox]
+[HTML:Page:RightBox]
 			</div>
 		</div>
 		<div id="MainBox">
-			[HTML:Page:MainBox]
+[HTML:Page:MainBox]
 		</div>
 	</div>
-	<div id="BottomBox">
-		[HTML:Part:Standard/BottomBox.html]
+	<div id="BottomBoxContainer">
+		<label id="BottomBoxLabel" for="BottomBoxCheck"><b>[🏷️]</b></label>
+		<input type="checkbox" id="BottomBoxCheck">
+		<div id="BottomBox" class="ToggleBox">
+[HTML:Part:Standard/BottomBox.html]
+		</div>
 	</div>
 </div>
 </body>

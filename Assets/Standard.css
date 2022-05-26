@@ -74,16 +74,22 @@ ul {
 	Padding-Bottom: calc(var(--ContentPadding) + 80px);
 }
 #BottomBox {
-	Box-Sizing: Border-Box;
 	Color: #fafaf0;
 	Background: rgba(64, 0, 64, 0.6);
+	Text-Align: Right;
+	Z-Index: -1;
+}
+#BottomBoxContainer {
+	Color: #808080;
+}
+#BottomBox, #BottomBoxContainer {
+	Box-Sizing: Border-Box;
 	Position: Fixed;
 	Bottom: 0;
 	Left: 0;
 	Right: 0;
 	Padding: var(--ScreenBorderPadding);
 	Width: 100%;
-	Text-Align: Right;
 }
 
 #LeftBoxCheck, #LeftBoxLabel {
@@ -96,7 +102,18 @@ ul {
 	Right: 0;
 	Margin: var(--ScreenBorderPadding);
 }
-#LeftBoxCheck, #RightBoxCheck {
+#BottomBoxCheck, #BottomBoxLabel {
+	Float: Left;
+	Left: 0;
+	Margin: var(--ScreenBorderPadding);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#LeftBoxCheck, #RightBoxCheck, #BottomBoxCheck {
 	Position: Fixed;
 	Opacity: 0;
 }
