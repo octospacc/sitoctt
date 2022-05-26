@@ -24,6 +24,9 @@ Body {
 a {
 	Color: #d000d0;
 }
+a img {
+	Color: None;
+}
 ul {
 	Padding-Left: 16px;
 	Padding-Right: 4px;
@@ -41,7 +44,7 @@ ul {
 	List-Style-Type: None;
 }
 #TopBox {
-width: 100%;
+	Width: 100%;
 	Padding: var(--ContentPadding);
 }
 #LeftBox, #LeftBoxContainer {
@@ -75,7 +78,7 @@ width: 100%;
 	Padding-Bottom: calc(var(--ContentPadding) + 80px);
 }
 #BottomBox {
-width: 100%;
+	Width: 100%;
 	Color: #fafaf0;
 	Background: rgba(64, 0, 64, 0.6);
 	Text-Align: Right;
