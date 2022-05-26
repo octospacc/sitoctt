@@ -41,6 +41,7 @@ ul {
 	List-Style-Type: None;
 }
 #TopBox {
+width: 100%;
 	Padding: var(--ContentPadding);
 }
 #LeftBox, #LeftBoxContainer {
@@ -74,6 +75,7 @@ ul {
 	Padding-Bottom: calc(var(--ContentPadding) + 80px);
 }
 #BottomBox {
+width: 100%;
 	Color: #fafaf0;
 	Background: rgba(64, 0, 64, 0.6);
 	Text-Align: Right;
