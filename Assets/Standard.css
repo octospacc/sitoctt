@@ -21,11 +21,11 @@ Body {
 * {
 	Box-Sizing: Border-Box;
 }
+.Trans {
+	Color: Transparent !important;
+}
 a {
 	Color: #d000d0;
-}
-a img {
-	Color: None;
 }
 ul {
 	Padding-Left: 16px;
