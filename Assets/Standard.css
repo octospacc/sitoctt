@@ -56,7 +56,7 @@ ul {
 	Width: 100%;
 	Padding: var(--ContentPadding);
 }
-#TopBox * {
+#TopBox h1, #TopBox h2, #TopBox h3, #TopBox h4, #TopBox h5, #TopBox h6 {
 	Display: Inline;
 }
 #LeftBox, #LeftBoxContainer {
