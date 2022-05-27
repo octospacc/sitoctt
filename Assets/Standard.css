@@ -17,11 +17,16 @@ Body {
 #Container {
 	Box-Sizing: Border-Box;
 }
+Details Div {
+	Border: 2px Solid Purple;
+	Margin: 8px;
+	Padding: 4px;
+}
 
 * {
 	Box-Sizing: Border-Box;
 }
-.Trans {
+.NoCol {
 	Color: Transparent !important;
 }
 a {
