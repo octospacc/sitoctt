@@ -89,7 +89,7 @@ ul {
 	Text-Align: Right;
 	Z-Index: -1;
 }
-#BottomBoxContainer {
+#LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer {
 	Color: #808080;
 }
 #BottomBox, #BottomBoxContainer {
