@@ -18,6 +18,10 @@ Body {
 	Box-Sizing: Border-Box;
 }
 Details Div {
+	Margin: 8px;
+	Padding: 4px;
+}
+Details Div Details {
 	Border: 2px Solid Purple;
 	Margin: 8px;
 	Padding: 4px;
@@ -51,6 +55,9 @@ ul {
 #TopBox {
 	Width: 100%;
 	Padding: var(--ContentPadding);
+}
+#TopBox * {
+	Display: Inline;
 }
 #LeftBox, #LeftBoxContainer {
 	Float: Left;
@@ -87,6 +94,8 @@ ul {
 	Color: #fafaf0;
 	Background: rgba(64, 0, 64, 0.6);
 	Text-Align: Right;
+	Padding-Left: var(--ContentPadding) !important;
+	Padding-Right: var(--ContentPadding) !important;
 	Z-Index: -1;
 }
 #LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer {
@@ -100,6 +109,15 @@ ul {
 	Right: 0;
 	Padding: var(--ScreenBorderPadding);
 	Width: 100%;
+}
+#TopBoxLeft {
+	Text-Align: Left;
+	Display: Inline-Block;
+}
+#TopBoxRight {
+	Text-Align: Right;
+	Float: Right;
+	Clear: Both;
 }
 
 #LeftBoxCheck, #LeftBoxLabel {
@@ -135,6 +153,24 @@ ul {
 .NoDisplay {
 	Display: None;
 }
+
+/* Gradienti */
+
+.MainIdTextGradientL {
+	Background: linear-gradient(to left, #d000d0, #8040d0);
+	Color: Transparent;
+	-webkit-background-clip: Text;
+	Background-Clip: Text;
+}
+.MainIdTextGradientR {
+	Background: linear-gradient(to right, #d000d0, #8040d0);
+	Color: Transparent;
+	-webkit-background-clip: Text;
+	Background-Clip: Text;
+}
+
+/* Animazioni */
+
 .BlinkA {
 	Animation: BlinkerA 0.25s Step-Start Infinite;
 }
@@ -150,19 +186,6 @@ ul {
 	0% {Position: Static; Visibility: Visible;}
 	50% {Position: Absolute; Visibility: Hidden;}
 	100% {Position: Static; Visibility: Visible;}
-}
-
-.MainIdTextGradientL {
-	Background: linear-gradient(to left, #d000d0, #8040d0);
-	Color: Transparent;
-	-webkit-background-clip: Text;
-	Background-Clip: Text;
-}
-.MainIdTextGradientR {
-	Background: linear-gradient(to right, #d000d0, #8040d0);
-	Color: Transparent;
-	-webkit-background-clip: Text;
-	Background-Clip: Text;
 }
 
 /* Credits: https://codepen.io/jh3y/pen/WNrXqYz */
