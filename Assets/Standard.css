@@ -13,6 +13,7 @@ Body {
 	Color: #04040c;
 	Background: #eeddff;
 	Font-Size: 13pt;
+	Padding: var(--ContentPadding);
 }
 #Container {
 	Box-Sizing: Border-Box;
@@ -29,6 +30,9 @@ Details Div Details {
 
 * {
 	Box-Sizing: Border-Box;
+}
+.NoDisplay {
+	Display: None;
 }
 .NoCol {
 	Color: Transparent !important;
@@ -56,7 +60,8 @@ ul {
 	Width: 100%;
 	Padding: var(--ContentPadding);
 }
-#TopBox h1, #TopBox h2, #TopBox h3, #TopBox h4, #TopBox h5, #TopBox h6 {
+#TopBox h1, #TopBox h2, #TopBox h3, #TopBox h4, #TopBox h5, #TopBox h6,
+#BottomBox h1, #BottomBox h2, #BottomBox h3, #BottomBox h4, #BottomBox h5, #BottomBox h6 {
 	Display: Inline;
 }
 #LeftBox, #LeftBoxContainer {
@@ -87,15 +92,14 @@ ul {
 	Right: 0;
 	Width: 80%;
 	Padding-Top: calc(var(--ContentPadding) + 24px);
-	Padding-Bottom: calc(var(--ContentPadding) + 80px);
+	Padding-Bottom: calc(var(--ContentPadding) + 64px);
 }
 #BottomBox {
 	Width: 100%;
 	Color: #fafaf0;
 	Background: rgba(64, 0, 64, 0.6);
 	Text-Align: Right;
-	Padding-Left: var(--ContentPadding) !important;
-	Padding-Right: var(--ContentPadding) !important;
+	Padding: var(--ContentPadding);
 	Z-Index: -1;
 }
 #LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer {
@@ -107,8 +111,10 @@ ul {
 	Bottom: 0;
 	Left: 0;
 	Right: 0;
-	Padding: var(--ScreenBorderPadding);
 	Width: 100%;
+}
+#BottomBoxContainer {
+	Padding: var(--ScreenBorderPadding);
 }
 #TopBoxLeft {
 	Text-Align: Left;
@@ -148,10 +154,6 @@ ul {
 :Checked ~ .ToggleBox {
 	Display: None;
 	Visibility: Hidden;
-}
-
-.NoDisplay {
-	Display: None;
 }
 
 /* Gradienti */
