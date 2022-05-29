@@ -93,13 +93,14 @@ p Ricapitolando, le mie intenzioni attuali sono queste, poi non lo so cosa ci fi
 
 h2 Disponibilità del sito
 
-p
-	| Al momento, questo sito è disponibile solo su #[span(style='Color:#fc6d26;') GitLab], all'indirizzo di #[a(href='https://octtspacc.gitlab.io/postoctt') octtspacc.gitlab.io/postoctt]. In realtà non lo so se rimarrà sul dominio octtspacc oppure lo sposterò sul vecchio octospacc, al momento ho dei casini con #[span(style='Color:#fc6d26;') GitLab] che dovrei prima vedere di risolvere.
-	br
-	| Non so nemmeno se il nome rimarrà postoctt, oppure rinominerò il tutto in sitoctt, perché il nome attuale mi da l'impressione di qualche servizio postale...
+p Al momento, questo sito è disponibile per la navigazione a 2 indirizzi diversi (i contenuti sono identici).
+
+ul
+	li Sul Web, sui server di #[span(style='Color:#fc6d26;') GitLab]: #[a(href='https://octtspacc.gitlab.io/postoctt') octtspacc.gitlab.io/postoctt]. In realtà non lo so se rimarrà sul dominio octtspacc oppure lo sposterò sul vecchio octospacc, al momento ho dei casini con #[span(style='Color:#fc6d26;') GitLab] che dovrei prima vedere di risolvere.
+	li Sulla rete #[span(style='Color:#59316b;') Tor], sui server di Replit: #[a(href='http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion') onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion]. Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, una console Nintendo Switch con Ubuntu).. speriamo solo non vada offline, è un problema con Replit non immediato da arginare.
 
 p
-	| Appena finisco di organizzare un pò le cose in maniera più o meno ordinata, metterò in piedi un mirror esatto del sito, sempre aggiornato, sul mio server in casa, e lo renderò accessibile tramite rete #[span(style='Color:#59316b;') Tor]. Il dominio sarà indicato qui appena possibile.
+	| Non so comunque se il nome in generale rimarrà postoctt, oppure rinominerò il tutto in sitoctt, perché il nome attuale mi da l'impressione di qualche servizio postale...
 	br
 	| Dovrei pensare anche a qualche altro mirror in cloud da diversi provider (ovviamente gratuiti), se voglio che il postoctt sopravviva ad octt stessa me medesima e superi la prova del tempo... Ma per ora il sito è vuoto, dovrei un po' riempirlo prima di pensare a sta roba.
 
@@ -129,14 +130,14 @@ details
 		p Alcuni bottoni 88x31: #[a(href='https://cyber.dabamos.de/88x31' target='_blank' rel='noopener') 88x31 GIF Collection di cyber.dabamos.de]
 
 p
-	| Parlando dei sorgenti del sito, quelli HTML dell'effettiva pagina caricata dal browser potrebbero essere difficili da leggere. Questo è perché in realtà non scrivo direttamente l'HTML completo per comporre il sito.
+	| Parlando dei sorgenti del sito, quelli HTML dell'effettiva pagina caricata dal browser potrebbero essere difficili da leggere. Questo è perché in realtà non scrivo direttamente l'HTML completo per comporre le pagine.
 	br
 	| Non solo sarebbe un casino replicare le mie varie barre e sezioni di navigazione su tutte le pagine, e se devo fare modifiche a queste poi è un inferno replicare la cosa ovunque, ma la sintassi HTML è sporca e faticosa da scrivere.
 
 p
-	| Proprio per questi motivi, ho creato un mio generatore di siti statici (anche quello, come questo sito stesso, incompleto ma aggiornato di tanto in tanto quando mi serve), che preprocessa il mio codice sorgente per includere le mie barre in tutte le pagine, generare le sezioni della pagina (che appaiono nel menu di destra), e #[i altre cosette]. Passaggio importante, eventuali file Markdown o Pug vengono tradotti in HTML per essere comprensibili da normali browser, ed ecco qua.
+	| Proprio per questi motivi, ho creato un mio generatore di siti statici (anche quello, come questo sito stesso, incompleto ma aggiornato di tanto in tanto quando mi serve), che preprocessa il mio codice sorgente per includere le mie barre in tutte le pagine, generare le sezioni della pagina (che appaiono nel menu a destra), generare la lista di pagine del sito (del menu a sinistra), e #[i altre cosette]. Passaggio importante, eventuali file Markdown o Pug vengono tradotti in HTML per essere comprensibili da normali browser, ed ecco qua.
 	br
-	| Ah, si, sto dicendo "#[i altre cosette]" perché si tratta di roba che al momento della scrittura di questa pagina è assente o incompleta, e scrivendo come scrivo mi paro le chiappette e non devo fare future modifiche. #[i H e h .]
+	| Ah, si, sto dicendo "#[i altre cosette]" perché si tratta di roba che al momento della scrittura di questo capitolo della pagina è assente o incompleta, e scrivendo come scrivo mi paro le chiappette e non devo fare future modifiche. #[i H e h .]
 
 p
 	| Per terminare, trovate tutti i miei sorgenti sulle rispettive repo Git.
