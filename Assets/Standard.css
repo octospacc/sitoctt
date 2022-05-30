@@ -14,8 +14,9 @@ Body {
 	Background: #eeddff;
 	Font-Size: 13pt;
 	Padding: var(--ContentPadding);
+	Overflow-Wrap: Break-Word;
 }
-#Container {
+Div {
 	Box-Sizing: Border-Box;
 }
 Details Div {
@@ -28,9 +29,6 @@ Details Div Details {
 	Padding: 4px;
 }
 
-* {
-	Box-Sizing: Border-Box;
-}
 .NoDisplay {
 	Display: None;
 }
@@ -45,6 +43,9 @@ ul {
 	Padding-Right: 4px;
 }
 
+#Container {
+	Max-Width: 100%;
+}
 #LeftBox, #RightBox {
 	Max-Width: 90vw;
 	Background: #300030;
