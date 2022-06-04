@@ -10,7 +10,7 @@ pages:
   stage: deploy
   script:
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-  - python3 staticoso/Source/Build.py --SiteRoot "/postoctt/"
+  - python3 staticoso/Source/Build.py --SiteRoot "/sitoctt/"
   artifacts:
     paths:
     - public
