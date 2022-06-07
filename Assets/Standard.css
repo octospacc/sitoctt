@@ -61,6 +61,10 @@ ul {
 	Width: 100%;
 	Padding: var(--ContentPadding);
 }
+.HeaderElement {
+	Border: 2px Solid Purple;
+	Padding: 0px 8px 8px 8px;
+}
 #TopBox h1, #TopBox h2, #TopBox h3, #TopBox h4, #TopBox h5, #TopBox h6,
 #BottomBox h1, #BottomBox h2, #BottomBox h3, #BottomBox h4, #BottomBox h5, #BottomBox h6 {
 	Display: Inline;
