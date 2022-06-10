@@ -99,6 +99,9 @@ ul {
 	Padding-Top: calc(var(--ContentPadding) + 24px);
 	Padding-Bottom: calc(var(--ContentPadding) + 64px);
 }
+#MainBoxTop {
+	Color: #505050;
+}
 #BottomBox {
 	Width: 100%;
 	Color: #fafaf0;
