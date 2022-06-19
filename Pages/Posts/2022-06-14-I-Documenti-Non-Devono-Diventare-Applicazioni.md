@@ -1,8 +1,8 @@
 // Type: Post
 // Title: 📄 I documenti non devono diventare applicazioni
 // HTMLTitle: <span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni
+// Categories: Blog
 // CreatedOn: 2022-06-14
-// Index: None
 
 # I documenti non devono diventare applicazioni
 
