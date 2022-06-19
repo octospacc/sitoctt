@@ -4,7 +4,7 @@
 // Categories: Blog
 // CreatedOn: 2022-06-14
 
-# I documenti non devono diventare applicazioni
+# 📄 I documenti non devono diventare applicazioni
 
 Il Web di oggi è indiscutibilmente molto diverso da quello di 20 anni fa, e cambia sempre di più ogni anno che passa.  
 Guardare i lati positivi del progresso è sempre molto facile e rassicurante, e per questo poco spesso si pensa ai lati oscuri che, in tante tante cose, ci sono. Il Web, purtroppo, è una di queste.
