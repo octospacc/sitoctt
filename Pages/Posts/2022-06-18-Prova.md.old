@@ -1,11 +1,19 @@
 // Type: Post
 // Title: Prova
-// Categories: Tests
+// Categories: Tests Blog
 
 # Prova
 
 Questo post è una prova. Fine.
 
+## Prova
+
+Prova.
+
 ## Fine
 
 Fine.
+
+### Prova
+
+Prova.
