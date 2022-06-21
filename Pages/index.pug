@@ -43,11 +43,9 @@ p
 	br
 	| Gli aggiornamenti sono continui e avvengono senza preavviso, quindi dovresti rivisitare questo sito almeno qualche volta a settimana se ti interessano le novità sempre fresche.
 	br
-	| Ah, non so se hai notato, ma negli angoli in alto dello schermo ci sono dei tastini. Lo sto scrivendo perché ho paura non si capisca, che devo fare... Vabbe, se premi lì puoi accedere ai menu ad albero, rispettivamente delle pagine del sito a sinistra (
-	big(class='twa twa-books') #[span 📚]
-	| ), e delle sezioni della pagina a destra (
-	big(class='twa twa-bookmark-tabs') #[span 📑]
-	| ). Quello di sinistra soprattutto è importante per navigare il sito.
+	| Ah, non so se hai notato, ma negli angoli in alto dello schermo ci sono dei tastini. Lo sto scrivendo perché ho paura non si capisca, che devo fare... Vabbe, se premi lì puoi accedere ai menu ad albero, rispettivamente delle pagine del sito a sinistra (<big class='twa twa-books'><span>📚</span></big>),
+	| e delle sezioni della pagina a destra (<big class='twa twa-bookmark-tabs'><span>📑</span></big>).
+	| Quello di sinistra soprattutto è importante per navigare il sito.
 
 p
 	| A tal proposito, per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3. Chissà se usando un browser antico si rompe roba in giro, eh...
@@ -56,7 +54,7 @@ p
 	br
 	| Direi che la scelta non è tra il migliore ma tra il meno peggio..
 
-p Codici JavaScript, al momento in cui sto scrivendo questa pagina, non ne uso neanche uno, perché non voglio costringere chi (per validi motivi di sicurezza) non vuole attivare JavaScript ad avere un'esperienza degradata.
+p Codici JavaScript, al momento in cui sto scrivendo questa pagina, non ne uso neanche uno, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: #[a(href='Posts/2022-06-14-I-Documenti-Non-Devono-Diventare-Applicazioni.html') <span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni].
 
 p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori.
 
@@ -97,7 +95,7 @@ h2 Disponibilità del sito
 p Al momento, questo sito è disponibile per la navigazione a 2 indirizzi diversi (i contenuti sono identici).
 
 ul
-	li Sul Web, sui server di #[span(style='Color:#fc6d26;') GitLab]: #[a(href='https://octtspacc.gitlab.io/sitoctt') octtspacc.gitlab.io/sitoctt].
+	li Sul Web, sui server di #[span(style='Color:#fc6d26;') GitLab]: #[del #[a(href='https://octtspacc.gitlab.io/sitoctt') octtspacc.gitlab.io/sitoctt]] #[a(style='Color:#5555ff;' href='https://sitoctt.octt.eu.org') sitoctt.octt.eu.org] #[i(style='Color:#9090ff;') (Nuovo dominio!)].
 	li Sulla rete #[span(style='Color:#59316b;') Tor], sui server di Replit: #[a(href='http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion') onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion]. Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, una console Nintendo Switch con Ubuntu).. speriamo solo non vada offline, è un problema con Replit non immediato da arginare.
 
 p
@@ -140,7 +138,7 @@ p
 p
 	| Proprio per questi motivi, ho creato un mio generatore di siti statici (anche quello, come questo sito stesso, incompleto ma aggiornato di tanto in tanto quando mi serve), che preprocessa il mio codice sorgente per includere le mie barre in tutte le pagine, generare le sezioni della pagina (che appaiono nel menu a destra), generare la lista di pagine del sito (del menu a sinistra), e #[i altre cosette]. Passaggio importante, eventuali file Markdown o Pug vengono tradotti in HTML per essere comprensibili da normali browser, ed ecco qua.
 	br
-	| Ah, si, sto dicendo "#[i altre cosette]" perché si tratta di roba che al momento della scrittura di questo capitolo della pagina è assente o incompleta, e scrivendo come scrivo mi paro le chiappette e non devo fare future modifiche. #[i H e h .]
+	| Ah, si, sto dicendo "#[i altre cosette]" perché si tratta di roba che al momento della scrittura di questo capitolo della pagina è assente o incompleta, e scrivendo come scrivo mi paro le chiappette e non devo fare future modifiche. #[pre(class='Inline') #[i H e h .]]
 
 p
 	| Per terminare, trovate tutti i miei sorgenti sulle rispettive repo Git.

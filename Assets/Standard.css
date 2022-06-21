@@ -2,6 +2,12 @@
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
 }
+* {
+	Transition: 0.3s;
+}
+::selection {
+	Background-Color: rgba(170, 170, 255, 0.2);
+}
 Body {
 	Margin: 0;
 	Box-Sizing: Border-Box;
@@ -10,7 +16,7 @@ Body {
 	Position: Absolute;
 	Left: Auto;
 	Right: Auto;
-	Color: #04040c;
+	Color: #080810;
 	Background: #eeddff;
 	Font-Size: 13pt;
 	Padding: var(--ContentPadding);
@@ -38,11 +44,36 @@ Details Div Details {
 a {
 	Color: #d000d0;
 }
+h1, h2, h3, h4, h5, h6 {
+	Color: #503080;
+}
 ul {
 	Padding-Left: 16px;
 	Padding-Right: 4px;
 }
 
+#MainBox > * > a::before,
+#MainBox > * > * > a::before,
+#MainBox > * > * > * > a::before {
+	content: '🔗 ';
+}
+
+a:hover:not(h3 > a), details > summary:hover {
+	Font-Size: 15pt;
+}
+h1:hover {
+	Font-Size: 28pt;
+}
+h2:hover {
+	Font-Size: 21.5pt;
+}
+h3:hover {
+	Font-Size: 17.5pt;
+}
+
+.Inline {
+	Display: Inline;
+}
 #Container {
 	Max-Width: 100%;
 }
