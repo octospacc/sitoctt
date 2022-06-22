@@ -14,16 +14,16 @@
 	<meta property="og:url" content="https://octtspacc.gitlab.io/sitoctt/[HTML:Page:Path]">
 	<meta property="og:image" content="[HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/RichPreview/index.png">
 	<style>
-[HTML:Page:Style]
+		[HTML:Page:Style]
 	</style>
 </head>
 <body id="Body">
 <div id="Header">
-[HTML:ContextPart:*/Header]
+	[HTML:ContextPart:*/Header]
 </div>
 <div id="Container">
 	<div id="TopBox">
-[HTML:Part:Standard/TopBox.html]
+		[HTML:Part:Standard/TopBox.html]
 	</div>
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
@@ -31,9 +31,9 @@
 			<input type="checkbox" id="LeftBoxCheck" checked>
 			<br>
 			<div id="LeftBox" class="ToggleBox">
-[HTML:Part:Standard/LeftBoxTop.html]
-[HTML:Page:LeftBox]
-[HTML:Part:Standard/LeftBoxBottom.html]
+				[HTML:Part:Standard/LeftBoxTop.html]
+				[HTML:Page:LeftBox]
+				[HTML:Part:Standard/LeftBoxBottom.html]
 			</div>
 		</div>
 		<div id="RightBoxContainer">
@@ -41,21 +41,25 @@
 			<input type="checkbox" id="RightBoxCheck" checked>
 			<br>
 			<div id="RightBox" class="ToggleBox">
-[HTML:Page:RightBox]
+				[HTML:Page:RightBox]
 			</div>
 		</div>
 		<div id="MainBox">
 			<div id="MainBoxTop">
-[HTML:Page:ContentHeader]
+				[HTML:Page:ContentHeader]
 			</div>
-[HTML:Page:Content]
+			[HTML:Page:Content]
+			<div id="MainBoxBottom">
+				<br>
+				[HTML:ContextPart:*/Footer]
+			</div>
 		</div>
 	</div>
 	<div id="BottomBoxContainer">
 		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label"><span>🏷️</span></span>]</b></big></label>
 		<input type="checkbox" id="BottomBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
-[HTML:Part:Standard/BottomBox.html]
+			[HTML:Part:Standard/BottomBox.html]
 		</div>
 	</div>
 </div>

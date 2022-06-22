@@ -10,7 +10,7 @@ pages:
   stage: deploy
   script:
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-  - python3 staticoso/Source/Build.py --SiteLang="it" --SiteRoot="/sitoctt/" --FolderRoots="{'*':'//octtspacc.gitlab.io'}"
+  - python3 staticoso/Source/Build.py --SiteLang="it" --SiteRoot="/sitoctt/" --FolderRoots="{'*':'//octtspacc.gitlab.io'}" --ContextParts="{'Footer':['StatCounter.html']}"
   artifacts:
     paths:
     - public

@@ -54,11 +54,17 @@ ul {
 
 #MainBox > * > a::before,
 #MainBox > * > * > a::before,
-#MainBox > * > * > * > a::before {
+#MainBox > * > * > * > a::before,
+#MainBox > * > * > * > * > a::before {
 	content: '🔗 ';
 }
 
-a:hover:not(h3 > a), details > summary:hover {
+#StatCounter > a::before {
+	content: '';
+}
+
+a:hover:not(h3 > a, .NoABigger),
+details > summary:hover {
 	Font-Size: 15pt;
 }
 h1:hover {
