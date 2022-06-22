@@ -136,6 +136,9 @@ h3:hover {
 	Padding-Top: calc(var(--ContentPadding) + 24px);
 	Padding-Bottom: calc(var(--ContentPadding) + 64px);
 }
+#MainBox img {
+	Max-Width: 100%;
+}
 #MainBoxTop {
 	Color: #505050;
 }
