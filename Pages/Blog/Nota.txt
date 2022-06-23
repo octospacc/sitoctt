@@ -1,2 +1,0 @@
-Questa vecchia cartella /Blog la tengo solo per cercare di non rompere i vecchi link pubblicati sul web.
-I nuovi post andranno in /Raccolte/Posts o /Posts, e questa cartella andrà cancellata.
