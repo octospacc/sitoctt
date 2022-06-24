@@ -2,18 +2,16 @@ image: alpine:latest
 
 before_script:
   - apk update
-  - apk add python3 py3-pip npm git
-  - pip3 install Markdown
+  - apk add python3 npm git
   - npm install -g pug-cli
 
 pages:
   stage: deploy
   script:
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-  - python3 staticoso/Source/Build.py --SiteLang="it" --SiteRoot="/sitoctt/" --FolderRoots="{'*':'//octtspacc.gitlab.io'}" --ContextParts="{'Footer':['StatCounter.html']}"
+  - Scripts/Deploy.GitLab.sh
   artifacts:
     paths:
     - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
-
