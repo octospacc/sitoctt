@@ -2,7 +2,8 @@ image: alpine:latest
 
 before_script:
   - apk update
-  - apk add python3 npm git
+  - apk add python3 py3-pip npm git
+  - pip3 install lxml
   - npm install -g pug-cli
 
 pages:
