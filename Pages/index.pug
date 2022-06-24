@@ -106,11 +106,24 @@ p
 
 h3 Feed e notifiche
 
-p Ad oggi, il sitocto non ha alcuna forma interna di feed, in nessun formato, nemmeno per blogocto e picoblog.
+p Da ora il sitocto (il blogocto, nello specifico) ha dei feed integrati, che vengono automaticamente aggiornati quando pubblico un nuovo articolo!
 
-p Devo risolvere il prima possibile ma, finché non muovo il culetto e aggiorno il mio codice, a meno che proprio TU non voglia aiutarmi a sistemarlo (info #[a(href='#-Codice-sorgente') qui] :D), nel frattempo ci si può appoggiare al feed Atom generato da GitLab: #[a(href='https://gitlab.com/octtspacc/sitoctt/-/commits/main?format=atom') gitlab.com/octtspacc/sitoctt/-/commits/main?format=atom].
+p
+	b(style='color:#ff6a00;') Feed Atom
+	|  (moderno, #[b consigliato], contiene post completi): 
+	b #[a(href='./feed/atom.xml') feed/atom.xml]
+	br
+	| Feed RSS (obsoleto, disponibile per compatibilità): 
+	a(href='./feed/rss.xml') feed/rss.xml
 
-p Non è un'ottima soluzione, considerando che non solo gli aggiornamenti del feed non contengono il testo di eventuali pagine, ma se aperti riportano alla repo di Git anziché al sito, ma è un buon modo per sapere almeno quando faccio aggiornamenti.
+p
+	| Ti serve un aggregatore di feed compatibile per usarli.
+	br
+	| Su PC desktop consiglio Thunderbird o Seamonkey.
+	br
+	| Su Android.. domani lo scrivo.
+	br
+	| Consiglio: se usi Friendica, puoi copiare il link al feed e incollarlo nella barra di ricerca, per poterlo seguire come se fosse un profilo!
 
 h2 Sorgenti e licenze
 
