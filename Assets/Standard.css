@@ -56,11 +56,18 @@ ul {
 #MainBox > * > * > a::before,
 #MainBox > * > * > * > a::before,
 #MainBox > * > * > * > * > a::before {
-	content: '🔗 ';
+	Content: '🔗 ';
 }
 
+.NoLinkLink::before,
 #StatCounter > a::before {
-	content: '';
+	Content: '' !important;
+}
+
+#MainBox > p > img,
+#MainBox > ul > li > p > img {
+	Margin-Top: 4px;
+	Margin-Bottom: -4px;
 }
 
 a:hover:not(h3 > a, .NoABigger),
@@ -109,22 +116,10 @@ h3:hover {
 #LeftBox, #LeftBoxContainer {
 	Float: Left;
 	Padding: var(--ContentPadding);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 #RightBox, #RightBoxContainer {
 	Float: Right;
 	Padding: var(--ContentPadding);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 #MainBox {
 	Margin: Auto;
@@ -173,6 +168,12 @@ h3:hover {
 	Float: Right;
 	Clear: Both;
 }
+#MainBoxGlobalFooter {
+	Text-Align: Center;
+}
+#MainBoxGlobalFooter span {
+	Vertical-Align: Top;
+}
 
 #LeftBoxCheck, #LeftBoxLabel {
 	Float: Left;
@@ -188,12 +189,6 @@ h3:hover {
 	Float: Left;
 	Left: 0;
 	Margin: var(--ScreenBorderPadding);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 #LeftBoxCheck, #RightBoxCheck, #BottomBoxCheck {
 	Position: Fixed;
@@ -202,6 +197,21 @@ h3:hover {
 :Checked ~ .ToggleBox {
 	Display: None;
 	Visibility: Hidden;
+}
+
+/* No selezione */
+#LeftBox,
+#LeftBoxContainer,
+#RightBox,
+#RightBoxContainer, 
+#BottomBoxCheck,
+#BottomBoxLabel {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	User-select: none;
 }
 
 /* Gradienti */
