@@ -1,0 +1,134 @@
+# Ciao!! (UwU)
+
+Sei entrat a / o nel...
+
+# ✨ s i t o c t t ✨
+
+# ✨ s i t o c t t ✨
+
+# ✨ s i t o c t t ✨
+
+Esatto, il ✨ sitoctt ✨. Letteralmente il mio sito, perchè io sono octt e quindi sito + octt = ✨ sitoctt ✨.
+Se preferisci, puoi chiamarlo sitocto. O anche postoctt! È pur sempre un posto questo, il mio posto, anche se virtuale!
+
+Come puoi vedere dalla vuotezza generale del sito, tutto questo ambaradan è ancora pesantemente in costruzione.
+Gli aggiornamenti sono continui e avvengono senza preavviso, quindi dovresti rivisitare questo sito almeno qualche volta a settimana se ti interessano le novità sempre fresche.
+Ah, non so se hai notato, ma negli angoli in alto dello schermo ci sono dei tastini. Lo sto scrivendo perché ho paura non si capisca, che devo fare... Vabbe, se premi lì puoi accedere ai menu ad albero, rispettivamente delle pagine del sito a sinistra (📚), e delle sezioni della pagina a destra (📑). Quello di sinistra soprattutto è importante per navigare il sito.
+
+A tal proposito, per la migliore esperienza DEVI usare un browser con supporto almeno a CSS3. Chissà se usando un browser antico si rompe roba in giro, eh...
+Preferibilmente non usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, oltre ad andare a scatti. Firefox non ha questo problema, ma usa molto di più la CPU. Ephiphany usa anche meno RAM di Firefox, ma al costo del doppio della CPU..
+Direi che la scelta non è tra il migliore ma tra il meno peggio..
+
+Codici JavaScript, al momento in cui sto scrivendo questa pagina, non ne uso neanche uno, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: 📄 I documenti non devono diventare applicazioni.
+
+=> Posts/2022-06-14-I-Documenti-Non-Devono-Diventare-Applicazioni.html  
+
+Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori.
+
+• Browser, con supporto completo a CSS3 (Perfetto!) • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile (Richiede muovere il foglio a mano ma ottimo!) • Browser, con supporto incompleto a CSS3 (Meh, OK..) • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate (Buuu, mancano le animazioni..) • Browser / Stampa su carta normale, zero supporto CSS (Ma che è sto schifo?!?!)
+
+## Ma di che si tratta?
+
+Su questo spazio web metterò di tutto. Spero.
+
+Per ora, sicuramente metto articoli che per un blog normale (come quello che al momento ho su noblogo) sono troppo corti o poco caratterizzati, ma voglio mettere anche tante raccolte sulle cose che mi piacciono, in forma sia testuale che di media. Una specie di galleria sulle cose che per me valgono.
+
+Oltre che degli effettivi contenuti, però, voglio che il sito sia galleria di sé stesso. Voglio creare qualcosa che abbia un suo carattere unico, come i siti web amatoriali degli anni 1995-2005, dove ogni luogo di Internet aveva sempre un'atmosfera diversa da tutto ciò visitato un attimo prima.
+L'ascesa dei social come li abbiamo oggi ha purtroppo rovinato il web sotto questo punto di vista, portando alla standardizzazione completa e alla morte della creatività espressa con la forma.
+Voglio che questo mio spazio web sia diverso da tutti gli altri, caratterizzati da testo monocromatico e temi riciclati, perché è un peccato avere strumenti potentissimi e non sfruttarli davvero.
+
+Per questo, cercherò di inventarmi di continuo modi di abbellire le pagina con il CSS, non solo con layouting o effetti del testo fissi, ma soprattutto con le animazioni.
+Al resto della forma, come l'ordine ad albero delle pagine nel sito o dei paragrafi nelle pagine, non penserò molto, altrimenti mi distraggo dal creare contenuti e la voglia mi passa.
+
+Ricapitolando, le mie intenzioni attuali sono queste, poi non lo so cosa ci finirà qui sopra col tempo per davvero..
+
+## Disponibilità del sito
+
+Al momento, questo sito è disponibile per la navigazione a 2 indirizzi diversi (i contenuti sono identici).
+
+* Sul Web, sui server di GitLab : octtspacc.gitlab.io/sitoctt sitoctt.octt.eu.org (Nuovo dominio!).
+* Sulla rete Tor, sui server di Replit: onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion (Nuovo dominio!). Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, una console Nintendo Switch con Ubuntu).. speriamo solo non vada offline, è un problema con Replit non immediato da arginare.
+
+Tralaltro, il nome è di recente cambiato in sitoctt da postoctt, perché il vecchio nome mi dava l'impressione di qualche servizio postale...
+Dovrei pensare anche a qualche altro mirror in cloud da diversi provider (ovviamente gratuiti), se voglio che il sitocto sopravviva ad octt stessa me medesima e superi la prova del tempo... Ma per ora il sito è vuoto, dovrei un po' riempirlo prima di pensare a sta roba.
+
+=> https://octtspacc.gitlab.io/sitoctt  octtspacc.gitlab.io/sitoctt
+=> https://sitoctt.octt.eu.org  sitoctt.octt.eu.org
+=> http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion  onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion
+=> http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion  sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion
+
+### Feed e notifiche
+
+Da ora il sitocto (il blogocto, nello specifico) ha dei feed integrati, che vengono automaticamente aggiornati quando pubblico un nuovo articolo!
+
+Feed Atom (moderno, consigliato, contiene post completi): feed/atom.xml
+Feed RSS (obsoleto, disponibile per compatibilità): feed/rss.xml
+
+Ti serve un aggregatore di feed compatibile per usarli.
+Su PC desktop consiglio Thunderbird o SeaMonkey Mail.
+Su Android consiglio Feeder o Simple Rss.
+Consiglio: se usi Friendica, puoi copiare il link al feed e incollarlo nella barra di ricerca, per poterlo seguire come se fosse un profilo!
+
+=> ./feed/atom.xml  feed/atom.xml
+=> ./feed/rss.xml  feed/rss.xml
+=> https://thunderbird.net  Thunderbird 
+=> https://www.seamonkey-project.org  SeaMonkey Mail
+=> https://f-droid.org/packages/com.nononsenseapps.feeder  Feeder 
+=> https://f-droid.org/packages/com.poloure.simplerss  Simple Rss
+
+In alternativa, se usi una qualunque piattaforma del Fediverso ActivityPub (Mastodon, Pleroma, Misskey, ...), puoi semplicemente seguire il mio profilo Friendica. Pubblico anche altre cose ogni tanto, ma ho soprattutto la pubblicazione automatica dei link ai miei articoli, quando ne creo di nuovi.
+Vai a Chi-Sono#-I-miei-contatti per scoprire di più.
+
+=> ./Chi-Sono.html#-I-miei-contatti  Chi-Sono#-I-miei-contatti
+
+## Sorgenti e licenze
+
+### Licenze dei contenuti
+
+Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza CC BY-SA 4.0, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.
+
+Sono presenti, però, anche contenuti non miei.
+In ogni caso, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino.
+Per la roba presa in prestito, invece, verrà sempre indicata la fonte da cui ho prelevato e la licenza, che sia questa di dominio pubblico, Creative Commons, o non specificata.
+Occhio, che i crediti per le cosine HTML e CSS spesso li lascio soltanto nei sorgenti della pagina.. Quindi, in caso, controllate lì per questo genere di crediti. Per cose come immagini o testi, invece, eventuali crediti sono parte visibile della pagina, vicini all'oggetto preso in prestito.
+Comunque, ho pensato di creare una sezione della pagina qui sotto, dedicata a crediti speciali (che compilo quando mi ricordo).
+
+=> https://creativecommons.org/licenses/by-sa/4.0/deed.it  CC BY-SA 4.0
+
+### Codice sorgente
+
+Parlando dei sorgenti del sito, quelli HTML dell'effettiva pagina caricata dal browser potrebbero essere difficili da leggere. Questo è perché in realtà non scrivo direttamente l'HTML completo per comporre le pagine.
+Non solo sarebbe un casino replicare le mie varie barre e sezioni di navigazione su tutte le pagine, e se devo fare modifiche a queste poi è un inferno replicare la cosa ovunque, ma la sintassi HTML è sporca e faticosa da scrivere.
+
+Proprio per questi motivi, ho creato un mio generatore di siti statici (anche quello, come questo sito stesso, incompleto ma aggiornato di tanto in tanto quando mi serve), che preprocessa il mio codice sorgente per includere le mie barre in tutte le pagine, generare le sezioni della pagina (che appaiono nel menu a destra), generare la lista di pagine del sito (del menu a sinistra), e altre cosette. Passaggio importante, eventuali file Markdown o Pug vengono tradotti in HTML per essere comprensibili da normali browser, ed ecco qua.
+Ah, si, sto dicendo " altre cosette " perché si tratta di roba che al momento della scrittura di questo capitolo della pagina è assente o incompleta, e scrivendo come scrivo mi paro le chiappette e non devo fare future modifiche.
+
+```
+H e h .
+```
+
+Per terminare, trovate tutti i miei sorgenti sulle rispettive repo Git.
+Quelli del mio sito (divisi in repo multiple), alle condizioni descritte sopra: gitlab.com/octtspacc/sitoctt; sitoctt-assets.
+Quelli del mio generatore, anche questo rilasciato sotto una licenza libera, la AGPL: gitlab.com/octtspacc/staticoso.
+
+=> https://gitlab.com/octtspacc/sitoctt  gitlab.com/octtspacc/sitoctt
+=> https://gitlab.com/octtspacc/sitoctt-assets  sitoctt-assets
+=> https://gitlab.com/octtspacc/staticoso  gitlab.com/octtspacc/staticoso
+
+### Crediti speciali
+Espandi la lista di crediti e ringraziamenti speciali a chi ho preso materiale in prestito
+
+Titolo animato ad onda: Waaaves di jh3y
+
+Famiglia caratteri: Space Mono di Colophon Foundry
+
+Pacchetto emoji: Twemoji di Twitter, via Twemoji-Amazing di SebastianAigner
+
+=> https://codepen.io/jh3y/pen/WNrXqYz  Waaaves di jh3y
+=> https://fonts.google.com/specimen/Space+Mono  Space Mono di Colophon Foundry
+=> https://twemoji.twitter.com  Twemoji di Twitter
+=> https://github.com/SebastianAigner/twemoji-amazing  Twemoji-Amazing di SebastianAigner
+
+Alcuni bottoni 88x31: 88x31 GIF Collection di cyber.dabamos.de
+
+=> https://cyber.dabamos.de/88x31  88x31 GIF Collection di cyber.dabamos.de
