@@ -26,6 +26,8 @@ Link con immagine:
 
 ## Personali
 
+
+
 - 🇬🇧 Ledomsoft  
 Sito resuscitato da archivi dell'autore di più di un decennio fa, programmato come si faceva ai tempi. Bello colorato con GIF e tutto, ma moderato, non senza ritegno.  
 Clearweb: [ledomsoft.com](https://ledomsoft.com){: target='_blank' rel='noopener nofollow' }
@@ -33,6 +35,10 @@ Clearweb: [ledomsoft.com](https://ledomsoft.com){: target='_blank' rel='noopener
 - 🇮🇹 Il covo di Thushi  
 Sito ultraminimale, nessuna grafica (:'c), ma bello schema di (3) colori e bei contenuti.  
 Onion web: [m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion](http://m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion){: target='_blank' rel='noopener nofollow' }
+
+- 🇮🇹 Arcisito  
+Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anche Aurora). Lo ha messo in piedi oggi (2022-06-30), dopo che ha detto di non sapere cosa fare con tutto il tempo libero estivo, e io le ho detto "fai l'Arcisito".  
+Clearweb: [arci.me](https://arci.me){: target='_blank' rel='noopener nofollow' }
 
 - 🇬🇧 🇮🇹 astral town  
 ![serimemo]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Serimemo.png)  

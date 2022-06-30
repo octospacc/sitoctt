@@ -5,4 +5,6 @@ python3 staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--SiteLang="it" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
-	--ContextParts="{'Footer':['StatCounter.html']}"
+	--ContextParts="{'Footer':['StatCounter.html']}" \
+	--MastodonURL="https://botsin.space" \
+	--MastodonToken="$MastodonToken"

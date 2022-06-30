@@ -168,7 +168,8 @@ h3:hover {
 	Float: Right;
 	Clear: Both;
 }
-#MainBoxGlobalFooter {
+#MainBoxGlobalFooter,
+#StatCounter {
 	Text-Align: Center;
 }
 #MainBoxGlobalFooter span {
