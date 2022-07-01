@@ -7,6 +7,7 @@ echo "https://$GitUserName:$GitPassword@gitlab.com" > ~/.git-credentials
 
 git clone --depth 1 https://gitlab.com/octtspacc/octt.gmi
 cd octt.gmi
+rm -rf ./sitoctt
 mv ../public.gmi ./sitoctt
 
 git add .
