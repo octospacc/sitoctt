@@ -12,7 +12,8 @@ pages:
   - git clone --depth 1 https://github.com/LukeEmmet/html2gmi
   - cd html2gmi
   - go get github.com/LukeEmmet/html2gmi
-  - echo "#!/bin/sh; cd $PWD; go run ." > ./html2gmi
+  - echo "#!/bin/sh" > ./html2gmi
+  - echo "cd $PWD; go run ." >> ./html2gmi
   - chmod +x ./html2gmi
   - PATH=$PATH:$PWD
   - cd ..
