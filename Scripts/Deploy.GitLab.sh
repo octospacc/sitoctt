@@ -7,4 +7,5 @@ python3 staticoso/Source/Build.py \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
 	--ContextParts="{'Footer':['StatCounter.html']}" \
 	--MastodonURL="https://botsin.space" \
-	--MastodonToken="$MastodonToken"
+	--MastodonToken="$MastodonToken" \
+	--GemtextOut=True

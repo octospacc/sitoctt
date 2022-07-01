@@ -2,15 +2,23 @@ image: alpine:latest
 
 before_script:
   - apk update
-  - apk add python3 py3-pip npm git
+  - apk add python3 py3-pip npm go git
   - pip3 install requests lxml
   - npm install -g pug-cli
 
 pages:
   stage: deploy
   script:
+  - git clone --depth 1 https://github.com/LukeEmmet/html2gmi
+  - cd html2gmi
+  - go get github.com/LukeEmmet/html2gmi
+  - echo "#!/bin/sh; cd $PWD; go run ." > ./html2gmi
+  - chmod +x ./html2gmi
+  - PATH=$PATH:$PWD
+  - cd ..
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
   - Scripts/Deploy.GitLab.sh
+  - Scripts/Deploy.Gemini.sh
   artifacts:
     paths:
     - public
