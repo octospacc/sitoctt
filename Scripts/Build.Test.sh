@@ -7,6 +7,6 @@ python3 ../staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--SiteLang="it" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
-	--GemtextOut=True #\
-	#--MastodonURL="https://botsin.space" \
-	#--MastodonToken="$MastodonToken"
+	--MastodonURL="https://botsin.space" \
+	--MastodonToken="$MastodonToken"
+	#--GemtextOut=True #\
