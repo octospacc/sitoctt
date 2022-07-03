@@ -2,7 +2,6 @@
 // HTMLTitle: <span class="twa twa-notebook"><span>📓️</span></span> Blog
 // Order: 55
 
-h1 <span class="twa twa-notebook"><span>📓️</span></span> blogoctt
+# <span class="twa twa-notebook"><span>📓️</span></span> blogoctt
 
-div
-	span [HTML:Category:Blog]
+<div><span>[HTML:Category:Blog]</span></div>
