@@ -2,7 +2,7 @@
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
 }
-* {
+h1, h2, h3, a, img, summary {
 	Transition: 0.3s;
 }
 ::selection {
@@ -133,6 +133,16 @@ h3:hover {
 }
 #MainBox img {
 	Max-Width: 100%;
+	Max-Height: 80vh;
+}
+#MainBox img:hover {
+	Max-Height: 90vh;
+}
+#MainBox > p > img:not(.NoImgCenter),
+#MainBox > p > a > img:not(.NoImgCenter) {
+	Display: Block;
+	Margin-Left: Auto;
+	Margin-Right: Auto;
 }
 #MainBoxTop {
 	Color: #505050;

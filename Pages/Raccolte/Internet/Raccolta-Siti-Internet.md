@@ -19,7 +19,7 @@ Link solo testo:
 `<a href="https://sitoctt.octt.eu.org" target="_blank" rel="noopener nofollow">✨ sitoctt ✨</a>`
 
 Link con immagine:  
-![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png)  
+![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png){: .NoImgCenter }  
 `
 <a href="https://sitoctt.octt.eu.org" target="_blank" rel="noopener nofollow"><img alt="✨ sitoctt ✨" src="https://octtspacc.gitlab.io/sitoctt-assets/Buttons/Sites/Sitoctt-1.png"></a>
 `

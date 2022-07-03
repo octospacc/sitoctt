@@ -49,9 +49,11 @@ p
 	| Quello di sinistra soprattutto è importante per navigare il sito.
 
 p
-	| A tal proposito, per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3. Chissà se usando un browser antico si rompe roba in giro, eh...
+	| A tal proposito, per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF. Se usi un browser antico ti garantisco che troverai troppa roba rotta (ma comunque il sito sarà navigabile lo stesso).
 	br
-	| Preferibilmente non usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, oltre ad andare a scatti. Firefox non ha questo problema, ma usa molto di più la CPU. Ephiphany usa anche meno RAM di Firefox, ma al costo del doppio della CPU..
+	| Essendo che questo sito contiene immagini AVIF, assicurati che il tuo browser sia aggiornato e decente. Safari di Apple, per esempio, mi dicono che non supporta AVIF, quindi #[span(style='Color:#d00000;') buttalo via].
+	br
+	| Preferibilmente non usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, oltre ad andare a scatti. Firefox non ha questo problema, ma usa molto di più la CPU.
 	br
 	| Direi che la scelta non è tra il migliore ma tra il meno peggio..
 
@@ -60,15 +62,15 @@ p Codici JavaScript, al momento in cui sto scrivendo questa pagina, non ne uso n
 p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori.
 
 dl
-	dt • Browser, con supporto completo a CSS3
+	dt • Browser Web, con supporto completo a CSS3
 	dd (Perfetto!)
 	dt • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile
 	dd (Richiede muovere il foglio a mano ma ottimo!)
-	dt • Browser, con supporto incompleto a CSS3
+	dt • Browser Web, con supporto incompleto a CSS3
 	dd (Meh, OK..)
 	dt • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate
 	dd (Buuu, mancano le animazioni..)
-	dt • Browser / Stampa su carta normale, zero supporto CSS 
+	dt • Browser vecchio (Web vecchio, Web testuale, o Gemini) / Stampa su carta normale, zero supporto CSS 
 	dd (Ma che è sto schifo?!?!)
 
 h2 Ma di che si tratta?
@@ -93,9 +95,16 @@ p Ricapitolando, le mie intenzioni attuali sono queste, poi non lo so cosa ci fi
 
 h2 Disponibilità del sito
 
-p Al momento, questo sito è disponibile per la navigazione su vari indirizzi diversi (i contenuti sono sempre identici).
+p 
+	| Al momento, questo sito è disponibile per la navigazione su vari indirizzi diversi (i contenuti sono sempre identici).
+	br
+	| Per chi non sapesse, comunque, il nome è da un mesetto cambiato in sitoctt da postoctt, perché il vecchio nome mi dava l'impressione di qualche servizio postale...
+	br
+	| Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamente gratuiti), se voglio che il sitocto sopravviva ad octt stessa me medesima e superi la prova del tempo... Ma questa è una questione lunga.
 
 h3 Web
+
+	p Il sito Web è disponibile da diverse fonti.
 
 ul
 	li Sul clearweb, sui server di #[span(style='Color:#fc6d26;') GitLab]: #[small #[del #[a(href='https://octtspacc.gitlab.io/sitoctt') octtspacc.gitlab.io/sitoctt]]] #[a(style='Color:#5555ff;' href='https://sitoctt.octt.eu.org') sitoctt.octt.eu.org] #[i(style='Color:#9090ff;') (Nuovo dominio!)].
@@ -108,12 +117,7 @@ p
 	br
 	| Ovviamente (per chi conosce Gemini), è tutto più castrato, e la forma non è esattamente la migliore perché tutte le pagine sono una diretta conversione dall'HTML del sito Web (e il programma su cui mi appoggio per farla è un po' rotto, per giunta).
 	br
-	| Vai alla octocapsula, gentilmente ospitata da koyu.space: #[a href='gemini://koyu.space/octt' gemini://koyu.space/octt]
-
-p
-	| Per chi non sapesse, comunque, il nome è da un mesetto cambiato in sitoctt da postoctt, perché il vecchio nome mi dava l'impressione di qualche servizio postale...
-	br
-	| Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamente gratuiti), se voglio che il sitocto sopravviva ad octt stessa me medesima e superi la prova del tempo... Ma questa è una questione lunga.
+	| Vai alla octocapsula, gentilmente ospitata da koyu.space: #[a(href='gemini://koyu.space/octt') gemini://koyu.space/octt]
 
 h3 Feed e notifiche
 
@@ -144,12 +148,7 @@ p
 	br
 	| Consiglio: se usi Friendica, puoi copiare il link al feed e incollarlo nella barra di ricerca, per poterlo seguire come se fosse un profilo!
 
-p
-	| In alternativa, se usi una qualunque piattaforma del Fediverso ActivityPub (Mastodon, Pleroma, Misskey, ...), puoi semplicemente seguire il mio profilo Friendica. Pubblico anche altre cose ogni tanto, ma ho soprattutto la pubblicazione automatica dei link ai miei articoli, quando ne creo di nuovi.
-	br
-	| Vai a 
-	a(href='./Chi-Sono.html#-I-miei-contatti') Chi-Sono#-I-miei-contatti
-	|  per scoprire di più.
+p Inoltre, se usi una qualunque piattaforma del Fediverso ActivityPub (Mastodon, Pleroma, Misskey, ...) puoi seguire il bot del sitoctt, così da ricevere nel tuo feed Home i nuovi post: #[a(href='https://botsin.space/@sitoctt' target='_blank' rel='noopener') @sitoctt@botsin.space]!
 
 h2 Sorgenti e licenze
 
