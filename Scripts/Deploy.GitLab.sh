@@ -8,4 +8,9 @@ python3 staticoso/Source/Build.py \
 	--ContextParts="{'Footer':['StatCounter.html']}" \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken" \
-	--GemtextOut=True
+	--GemtextOut=True \
+	--GemtextHeader="# sitoctt
+Alcune informazioni importanti sono disponibili su:
+=> /octt/index.gmi octocapsula/index
+
+"
