@@ -132,10 +132,11 @@ h3:hover {
 	Padding-Bottom: calc(var(--ContentPadding) + 64px);
 }
 #MainBox img {
-	Max-Width: 100%;
+	Max-Width: 90%;
 	Max-Height: 80vh;
 }
 #MainBox img:hover {
+	Max-Width: 100%;
 	Max-Height: 90vh;
 }
 #MainBox > p > img:not(.NoImgCenter),

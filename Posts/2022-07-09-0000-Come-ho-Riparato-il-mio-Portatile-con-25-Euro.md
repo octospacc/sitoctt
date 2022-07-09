@@ -21,9 +21,9 @@ Già da almeno un annetto, il mio uso del laptop è calato decisamente, perché 
 Andando con ordine, - non ricordo con precisione, ma si parla di almeno 3 o 4 anni fa, quando questo era il mio solo PC personale - i problemini iniziarono quando il tasto W smise di funzionare, nel corso di qualche giorno. Azz.  
 È vero che sono un'utente Linux, e che all'epoca ero anche eccessivamente gamer, ma non ho mai preso a martellate quello o qualunque altro tasto, contrariamente a cosa gli stereotipi sulle mie categorie possano raccontare.  
 La lezione da imparare qui è: se si è a casa, e si ha quindi modo di usare una tastiera esterna, meglio usare quella per giocare, altrimenti nel corso di qualche anno si brucia completamente il tasto che (in molti videogiochi 3D) si usa per andare avanti.  
-La cosa divertente è che, come ho detto, il tasto si è rotto nell'arco di qualche giorno, non subito. Inizialmente era diventato soltanto duro a registrare le pressioni, cosa che mi ha inevitabilmente portata a premere sempre più forte, fin quando non l'ho, evidentemente, sfondato.
+La cosa divertente è che, come ho detto, il tasto si è rotto nell'arco di qualche giorno, non subito. Inizialmente era diventato soltanto duro a registrare le pressioni, cosa che mi ha inevitabilmente portata a premere sempre più forte, fin quando non l'ho, evidentemente, **sfondato**.
 
-Acer merda? Direi, Acer merda.  
+Acer merda? Direi, **Acer merda**.  
 Ma, a quanto pare, tutti i produttori di PC portatili, anche quelli grossi e famosi, spesso erroneamente associati alla qualità solo per la loro fama, sfornano troppo spesso prodotti con terribili errori di progettazione o costruzione. Il portatile che malauguratamente è capitato a me, come abbiamo capito, non è stato da meno.
 
 ### Le conseguenze
@@ -33,7 +33,7 @@ Sulla mia scrivania non c'erano chissà che problemi, ho collegato una tastiera 
 Nelle altre situazioni, digitare la W (per scrivere in italiano non serve ad una mazza, ma per tante altre cose si) ha iniziato a richiedere l'uso della tastiera virtuale su schermo, con il mouse per premere la W, che poi avrebbe iniziato a fare il giro di CTRL+C e CTRL+V ogni volta che mi serviva.
 
 In ogni caso, da quel momento, l'uso della tastiera del notebook si è ridotto, sia perché usavo una tastiera esterna quando possibile, sia perché poco più avanti ho assemblato il PC nuovo e ho iniziato ad usare meno il portatile in generale (difficile fare altrimenti, quando sulla scrivania c'è spazio confortevole per una sola tastiera esterna, che per ovvi motivi deve essere collegata al PC fisso).  
-Cosa molto strana è che, da circa 1 anno fa, nonostante l'uso scarso, molti altri tasti hanno iniziato velocemente a cedere, dal nulla. Non saprei dire se qualche altro tasto sia completamente morto, ma sicuramente il 60% almeno della tastiera ha iniziato a volere le botte per registrare le pressioni.  
+Cosa molto strana è che, da circa 1 anno fa, nonostante l'uso scarso, molti altri tasti hanno iniziato velocemente a cedere, dal nulla. Non saprei dire se qualche altro tasto sia poi completamente morto, ma sicuramente il 60% almeno della tastiera ha iniziato a volere **le botte** per registrare le pressioni.  
 È da qui che l'uso del mio laptop è calato a picco.
 
 ## I realized
@@ -56,8 +56,8 @@ Avrei dovuto onestamente comprarla subito, quando la W si ruppe, ma, banalmente,
 
 ## La tastiera sostitutiva arriva
 
-Senza perdere troppo ulteriore tempo, ho fatto in modo di ordinarla (3 giorni dopo, ma poteva andare molto peggio), e dopo 2 giorni era già a casa (in anticipo, rispetto a periodo di consegna riportato). 20+7€.. ben spesi? È da vedersi.  
-Il prezzo della tastiera credo ci stia, quello della spedizione non mi è piaciuto.
+Senza perdere troppo ulteriore tempo, ho fatto in modo di ordinarla (3 giorni dopo, ma poteva andare molto peggio), e dopo 2 giorni era già a casa (in anticipo, rispetto a periodo di consegna riportato). 20+7€.. ben spesi? È **da vedersi**.  
+Il prezzo della tastiera credo ci stia, quello della spedizione non mi è piaciuto >:(.
 
 ![Particolare della scatola in cui mi è arrivata la tastiera. Lo sfondo è bianco e presenta il logo del distributore del prodotto (new NET)]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Scatola-Fronte-Sinistra.avif)
 
@@ -67,17 +67,17 @@ Le possibilità che esca un qualcosa di orribilmente brutto sono alte, ma io son
 ## La sostituzione
 
 Non mi perdo d'animo, e vedo di iniziare a svitare le innumerevoli viti che tengono la scocca del portatile insieme, e separo le sezioni di plastica. Poi scollego i 3 cavi flex di tasto power, tastiera, e touchpad, e sollevo la parte superiore della scocca. Nulla di nuovo, comunque, dovetti già fare questa procedura quando installai l'SSD.  
-Dopo questa cosa, però, altre viti. Mannaggia! Tutte ste viti, e diventa un casino rimettere tutto a posto. Basta viti.
+Dopo questa cosa, però, altre viti. _Mannaggia!_ Tutte ste viti, e diventa un casino rimettere tutto a posto. Basta viti.
 
 ![Tutte le viti esterne del portatile, estratte e raccolte]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Viti.avif)
 
-Ma bisogna continuare. Tolte le viti (mannaggia!!) che tengono insieme la tastiera, in mezzo al supporto esterno di plastica e quello interno di metallo, si può togliere la tastiera vecchia e mettere la nuova, per poi fare tutto il resto al contrario.
+Ma bisogna continuare. Tolte le viti _(mannaggia!!)_ che tengono insieme la tastiera, in mezzo al supporto esterno di plastica e quello interno di metallo, si può togliere la tastiera vecchia e mettere la nuova, per poi fare tutto il resto al contrario.  
+O quasi.
 
 ![I frame di plastica (esterno) e metallo (interno), che servono a tenere insieme la tastiera, separati]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Frame-Tastiera-Smontati.avif)
 
 ### Lavoretti "già che ci sono"
 
-O quasi.  
 Visto che c'ero, ho voluto approfittarne anche per pulire un po' la ventola e il suo filtro, che negli anni hanno accumulato polvere, permettendo a meno aria di passare e facendo così che la CPU arrivasse a ben ~50°C in idle.  
 Pensavo più polvere, onestamente, vabbè.
 
@@ -85,21 +85,21 @@ Pensavo più polvere, onestamente, vabbè.
 
 Ho anche controllato al volo (forse, troppo al volo) la pasta termica.  
 Per farlo, ho dovuto capovolgere la scheda madre, dopo aver tolto ancora altre viti. Si intravedeva un po' della pasta fuori dal perimetro di CPU, e quel poco che ho visto non mi è sembrato particolarmente secco. Non so effettivamente ogni quanto andrebbe davvero cambiata la pasta termica, se non è secchissima, quindi ho lasciato stare.  
-Avrei effettivamente dovuto svitare (che palle!!!) il dissipatore dal processore e vedere com'era la pasta lì? Non mi interessa, basta viti.
+Avrei effettivamente dovuto svitare _(che palle!!!)_ il dissipatore dal processore e vedere com'era la pasta lì? Non mi interessa, basta viti.
 
 Ci sarebbe un altro problema, che volevo approfittare per sistemare, ma riguardo il quale non c'è stato verso di fare nulla.  
-Sempre tanti anni fa, la punta di un cavo audio difettoso si spezzò, incastrandosi nella porta jack da 3.5mm del laptop (mannaggia!!!!!), e tutti i miei scarsi tentativi passati di tirarla via da fuori sono sempre falliti.  
+Sempre tanti anni fa, la punta di un cavo audio difettoso si spezzò, incastrandosi nella porta jack da 3.5mm del laptop _(mannaggia!!!!!)_, e tutti i miei scarsi tentativi passati di tirarla via da fuori sono sempre falliti.  
 Purtroppo, anche internamente, la porta è un pezzo di plastica quasi completamente chiuso, quindi anche la mia idea di infilare qualcosa nella parte bucata interna è fallita, perché banalmente non c'è alcun buco. Magari non succede nulla se con il giusto strumento creo io il buco, riesco a spingere fuori il pezzo incastrato e la porta torna a funzionare come dovrebbe.. ma, per adesso, lascio stare.  
 Si vede che continuerò ad usare la scheda audio USB (6€ su Amazon) per usare gli auricolari, come ho fatto ormai per anni.
 
 ## Lavoro finito!
 
-Un po' a fatica, rimonto tutto, e ammiro il nuovo stato del PC.
+Un po' a fatica, rimonto tutto, e ammiro il nuovo stato del PC - il quale tra l'altro, in idle dopo l'avvio, ora che ho pulito la ventola, arriva a ~40°C, direi decisamente meglio di prima!
 
 ![Il portatile rimontato e acceso, con in vista sia la nuova tastiera, che quella vecchia (appoggiata sopra), oltre al mio desktop]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Portatile-Rimontato-Acceso.avif)
 
 Che dire, si vede proprio che uso GNU+Linux.  
-Non solo ora il portatile ha un contrasto estetico bruttino (ma almeno funziona!), ma nella foto si vede com'era la vecchia tastiera bianca: lercia e ingiallita. Oh, almeno faceva pendant con il tema del mio emulatore terminale, solarizzato - faceva e non fa più, purtroppo, un po' mi dispiace.
+Non solo ora il portatile ha un contrasto estetico bruttino (ma almeno funziona!), ma nella foto si vede com'era la vecchia tastiera bianca: lercia e ingiallita. Oh, almeno faceva pendant con il tema del mio emulatore terminale, solarizzato chiaro - faceva e non fa più, purtroppo, un po' mi dispiace.
 
 Riguardo la vecchia tastiera, devo mettere in chiaro che la plastica del tasto W l'ho persa dopo che il tasto in sé si era già rotto, quindi che non si vada a dire che mi si rompono i tasti perché mi metto a staccarli: la verità sta nell'esatto opposto.  
 Questo è anche il motivo per cui non tenterò di staccare i segnalettere neri dalla nuova tastiera per metterci i vecchi bianchi al loro posto.. non vale la pena rischiare di rompere qualche tasto.  
