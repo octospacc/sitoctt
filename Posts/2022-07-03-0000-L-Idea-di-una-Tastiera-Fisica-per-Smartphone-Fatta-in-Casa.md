@@ -14,6 +14,8 @@ Più gli smartphone hanno iniziato a diffondersi, e più le tastiere fisiche han
 
 Non ricordo se questo periodo dell'anno scorso era di poco prima o poco dopo aver comprato un nuovo smartphone, il mio corrente ad oggi; fatto sta che ho dovuto sceglierlo in base a criteri precisi e restrittivi, in primis il costo e, purtroppo, non c'era alcun basso di gamma con una tastiera fisica.
 
+## Un nuovo spunto
+
 Con il tempo che passava ho un po' dimenticato la questione, fino a che, qualche settimana fa, mi imbatto in un video su Invidious ([YouTube/JXdLzinnqms](https://invidious.snopyta.org/JXdLzinnqms){: target='_blank' rel='noopener' }) che mostra una modifica fatta in casa ad uno smartphone.  
 Il video mostra, e la discussione su XDA collegata spiega, una trovata interessante: è stata comprata una cover a scorrimento con tastiera Bluetooth integrata, e la si è adattata per ospitare un telefono completamente diverso (ma di simili dimensioni) da quello per cui la cover è pensata.
 
@@ -25,12 +27,16 @@ Un affare, e quindi ho comprato.
 
 ![Il fronte della mini-tastiera]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Mini-Bluetooth-Keyboard/Tastiera-Fronte.avif)
 
+## Dopo l'acquisto
+
 A casa l'ho messa un po' a caricare e l'ho provata al volo. Che dire, funzionava e la sensazione di quando si digita non l'ho trovata male, nonostante parliamo di una tastiera a membrana.  
 Tutto benissimo quindi.  
 O così sembrava.
 
 La mattina dopo, provo di nuovo ad accendere il bell'oggettino, per fare altre prove. Non si accende. Che? Come? Rimetto in carica la tastiera, e in effetti dopo due minuti funziona.  
 Che strano, eppure l'ho tenuta in carica per ore il giorno prima. Magari non si è caricata bene dalla porta del mio PC, quindi anche questo giorno la tastiera resta in carica, stavolta dal blocco che uso per cellulare e altri dispositivi.
+
+### Investigare sulle stranezze
 
 La mattina dopo, stessa questione. Qualquadra non cosa, è evidente che la batteria subisce un drenaggio pesante, dal nulla, per qualche motivo. Per la cronaca, la tastiera ha un interruttore fisico, che non ho mai dimenticato di spegnere dopo aver riposto la tastiera.. tutto molto strano.  
 Decido di farla caricare un po', per poi smontarla, e misurare con un multimetro la tensione della batteria al litio saldata alla scheda, che noto scendere di 0.01V ogni 10 secondi circa. Oh.
@@ -43,6 +49,8 @@ In effetti, non solo la batteria era visivamente abbastanza gonfia, ma riporta u
 Giurerei che la tastiera stessa sia anche più vecchia, considerando i richiami ad un epoca anche un po' precedente presenti sulla scatola e le istruzioni: iPhone 4 e iOS pre-7, Galaxy S4 e una Touchwiz visibilmente vecchissima, Windows Mobile 6 e Windows 8 desktop, Symbian 3, la PS3.. insomma, ne è passato di tempo.
 
 ![Scansioni di alcune parti del retro della scatola e delle istruzioni, contenenti rimandi a cose vecchie.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Mini-Bluetooth-Keyboard/Rimandi-Vecchi.avif)
+
+## Fine bruttina
 
 Che dire. Avrei forse dovuto aspettarmelo un problema del genere? Forse si. Sicuramente, però, dubito che altre persone al posto mio se lo sarebbero aspettato.  
 Per finire, l'unica cosa che posso dire è che questo articolo non sarebbe dovuto uscire; o meglio, non con questa fine. Avrei dovuto parlare del Prototipo 0, già realizzato, del mio supporto per smartphone che aggiunge questa tastiera piccina, ma, purtroppo, sento di non aver avuto modo di testarlo abbastanza.

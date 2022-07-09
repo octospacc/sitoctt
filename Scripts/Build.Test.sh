@@ -8,6 +8,7 @@ python3 ../staticoso/Source/Build.py \
 	--SiteLang="it" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
 	--FeedEntries=0 \
+	--AutoCategories=True \
 	--GemtextHeader="# Spacc
 
 " \
