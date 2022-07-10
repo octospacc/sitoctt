@@ -26,8 +26,6 @@ Link con immagine:
 
 ## Personali
 
-
-
 - 🇬🇧 Ledomsoft  
 Sito resuscitato da archivi dell'autore di più di un decennio fa, programmato come si faceva ai tempi. Bello colorato con GIF e tutto, ma moderato, non senza ritegno.  
 Clearweb: [ledomsoft.com](https://ledomsoft.com){: target='_blank' rel='noopener nofollow' }
