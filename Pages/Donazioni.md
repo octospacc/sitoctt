@@ -34,7 +34,7 @@ Al momento, accetto buoni regalo per questi negozi:
 
 - Amazon.it
 
-Per inviarmi il codice di un buono regalo che hai e vorresti donarmi, consulta la lista dei miei contatti pubblici, dove puoi messaggiarmi e fare le belle cose 😸: [Chi-Sono.html#-I-miei-contatti](./Chi-Sono.html#-I-miei-contatti)
+Per inviarmi il codice di un buono regalo che hai e vorresti donarmi, consulta la lista dei miei contatti pubblici, dove puoi messaggiarmi e fare le belle cose 😸: [Chi-Sono.html#--I-miei-contatti](./Chi-Sono.html#--I-miei-contatti)
 
 ## Dona tramite contanti
 

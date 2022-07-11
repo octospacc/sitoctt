@@ -60,7 +60,8 @@ ul {
 }
 
 .NoLinkLink::before,
-#StatCounter > a::before {
+#StatCounter > a::before,
+#RingsDiv > p > a::before {
 	Content: '' !important;
 }
 
