@@ -1,6 +1,8 @@
+// Title: 💰 Donazioni
+// HTMLTitle: <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
 // Order: 25
 
-# 💰 Donazioni
+# <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
 
 Mi hanno detto che dovrei rendere il sitoctt a **scopo di lucro**.
 
@@ -11,9 +13,9 @@ Se il sitoctt ti piace, e vuoi aiutarmi a migliorarlo ed aggiornarlo più freque
 
 (_Si, la roba dello scopo di lucro **è uno scherzo**, mi faceva ridere e ho voluto scriverla, ma il sito rimarrà sempre e comunque una robina che faccio perché semplicemente mi piace e non ho molto di meglio o più produttivo da fare._)
 
-## Dona tramite criptovalute
+## Dona tramite criptomonete
 
-Le criptovalute sono il modo ideale di effettuare transazioni finanziarie tramite Internet, forse ancor più per donazioni che per pagamenti.
+Le criptomonete sono il modo ideale di effettuare transazioni finanziarie tramite Internet, forse ancor più per donazioni che per pagamenti.
 
 Apri la mia pagina di Coindrop per vedere le criptovalute che accetto e i relativi indirizzi: <a href="https://coindrop.to/octt" target="_blank" rel="noopener nofollow">coindrop.to/octt</a>!  
 _Nota: Coindrop richiede l'esecuzione di codice JavaScript (libero) per funzionare. È un problema che in qualche modo va risolto, secondo me, ma per ora questo è._
