@@ -50,3 +50,9 @@ Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.or
 - 🇬🇧 Fra/Website  
 Più che un sito, una demo JavaScript con una lista di link e cose così, ma è unica. Non dico altro, meglio vedere di persona!  
 Clearweb: [francescomasala.me](https://francescomasala.me){: target='_blank' rel='noopener nofollow' }
+
+## Miscellanea
+
+- 🇬🇧 XXIIVV  
+Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto il resto. Però ha delle belle grafiche e mi piace.  
+Clearweb: [xxiivv.com](https://xxiivv.com){: target='_blank' rel='noopener nofollow' }
