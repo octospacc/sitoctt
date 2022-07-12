@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="[HTML:Page:Lang]">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,22 +30,22 @@
 	</div>
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
-			<label id="LeftBoxLabel" for="LeftBoxCheck"><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></label>
-			<input type="checkbox" id="LeftBoxCheck" checked>
-			<br>
-			<div id="LeftBox" class="ToggleBox">
-				[HTML:Part:Standard/LeftBoxTop.html]
-				[HTML:Site:Menu]
-				[HTML:Part:Standard/LeftBoxBottom.html]
-			</div>
+			<details>
+				<summary><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></summary>
+				<div id="LeftBox">
+					[HTML:Part:Standard/LeftBoxTop.html]
+					[HTML:Site:Menu]
+					[HTML:Part:Standard/LeftBoxBottom.html]
+				</div>
+			</details>
 		</div>
 		<div id="RightBoxContainer">
-			<label id="RightBoxLabel" for="RightBoxCheck"><big><b>[<span class="twa twa-bookmark-tabs"><span>📑</span></span>]</b></big></label>
-			<input type="checkbox" id="RightBoxCheck" checked>
-			<br>
-			<div id="RightBox" class="ToggleBox">
-				[HTML:Page:Chapters]
-			</div>
+			<details>
+				<summary><big><b>[<span class="twa twa-bookmark-tabs"><span>📑</span></span>]</b></big></summary>
+				<div id="RightBox">
+					[HTML:Page:Chapters]
+				</div>
+			</details>
 		</div>
 		<div id="MainBox">
 			<div id="MainBoxTop">

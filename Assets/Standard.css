@@ -122,6 +122,9 @@ h3:hover {
 	Float: Right;
 	Padding: var(--ContentPadding);
 }
+#RightBoxContainer > Details > Summary {
+	Text-Align: Right;
+}
 #MainBox {
 	Margin: Auto;
 	Position: Absolute;
