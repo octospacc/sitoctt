@@ -6,6 +6,7 @@ python3 staticoso/Source/Build.py \
 	--ContextParts="{'Footer':['StatCounter.html']}" \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken" \
+	--SitemapOut=True \
 	--GemtextOut=True \
 	--GemtextHeader="# sitoctt
 Alcune informazioni importanti sono disponibili su:

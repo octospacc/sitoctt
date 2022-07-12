@@ -9,6 +9,7 @@ python3 ../staticoso/Source/Build.py \
 	--GemtextHeader="# Spacc
 
 " #\
-	#--GemtextOut=True
+	#--GemtextOut=True \
+	#--SitemapOut=True \
 	#--MastodonURL="https://botsin.space" \
 	#--MastodonToken="$MastodonToken"
