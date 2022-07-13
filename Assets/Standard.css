@@ -183,6 +183,13 @@ h3:hover {
 	Float: Right;
 	Clear: Both;
 }
+/*
+#LeftBox img,
+#TopBoxRight img {
+	Padding-Left: 3px;
+	Padding-Right: 3px;
+}
+*/
 #MainBoxGlobalFooter,
 #StatCounter {
 	Text-Align: Center;

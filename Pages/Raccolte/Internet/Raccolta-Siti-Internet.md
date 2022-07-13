@@ -18,7 +18,7 @@ Link solo testo:
 ✨ sitoctt ✨  
 `<a href="https://sitoctt.octt.eu.org" target="_blank" rel="noopener nofollow">✨ sitoctt ✨</a>`
 
-Link con immagine:  
+Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
 ![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png){: .NoImgCenter }  
 `
 <a href="https://sitoctt.octt.eu.org" target="_blank" rel="noopener nofollow"><img alt="✨ sitoctt ✨" src="https://octtspacc.gitlab.io/sitoctt-assets/Buttons/Sites/Sitoctt-1.png"></a>
@@ -44,7 +44,7 @@ Sito colorato e accogliente, boh non c'è altro da dire.
 Clearweb: [astral.town](https://astral.town){: target='_blank' rel='noopener nofollow' }
 
 - 🇮🇹 Officina di Ribby  
-Il tema di questo sito a me da davvero una sensazione di officina, non so in che altro modo spiegarlo! Pochi fronzoli ma ha un suo stile, e la divisione in categorie sempre visibile è stata di parziale ispirazione per ciò che ho sul mio sito ora.  
+Il tema di questo sito mi da davvero una sensazione di officina, per così dire. Pochi fronzoli ma ha un suo stile, e la sua divisione in categorie è stata di parziale ispirazione per ciò che ho sul mio sito ora.  
 Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.org){: target='_blank' rel='noopener nofollow' }
 
 - 🇬🇧 Fra/Website  
@@ -53,6 +53,14 @@ Clearweb: [francescomasala.me](https://francescomasala.me){: target='_blank' rel
 
 ## Miscellanea
 
+- 🇬🇧 The Yesterweb  
+Sito collettivo che rimanda, concettualmente e visivamente, al web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
+Clearweb: [yesterweb.org](https://yesterweb.org){: target='_blank' rel='noopener nofollow' }
+
 - 🇬🇧 XXIIVV  
 Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto il resto. Però ha delle belle grafiche e mi piace.  
 Clearweb: [xxiivv.com](https://xxiivv.com){: target='_blank' rel='noopener nofollow' }
+
+- 🇬🇧 OpenBooks  
+Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del web personale. Il sito ha persino una bella grafica.  
+Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){: target='_blank' rel='noopener nofollow' }
