@@ -47,6 +47,10 @@ Clearweb: [astral.town](https://astral.town){: target='_blank' rel='noopener nof
 Il tema di questo sito mi da davvero una sensazione di officina, per così dire. Pochi fronzoli ma ha un suo stile, e la sua divisione in categorie è stata di parziale ispirazione per ciò che ho sul mio sito ora.  
 Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.org){: target='_blank' rel='noopener nofollow' }
 
+- 🇬🇧 daedalOS  
+I visualizzatori di documenti (browser) Web moderni sono una piattaforma eccessiva, dove cose assurde possono essere realizzate. Come un vero **sistema operativo** (libero), creato da _Dustin Brett_, per portfolio. **Pazzia**.  
+Clearweb: [dustinbrett.com](https://dustinbrett.com){: target='_blank' rel='noopener nofollow' }
+
 - 🇬🇧 Fra/Website  
 Più che un sito, una demo JavaScript con una lista di link e cose così, ma è unica. Non dico altro, meglio vedere di persona!  
 Clearweb: [francescomasala.me](https://francescomasala.me){: target='_blank' rel='noopener nofollow' }
@@ -54,7 +58,8 @@ Clearweb: [francescomasala.me](https://francescomasala.me){: target='_blank' rel
 ## Miscellanea
 
 - 🇬🇧 The Yesterweb  
-Sito collettivo che rimanda, concettualmente e visivamente, al web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
+![Yesterweb]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Yesterweb.png)  
+Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
 Clearweb: [yesterweb.org](https://yesterweb.org){: target='_blank' rel='noopener nofollow' }
 
 - 🇬🇧 XXIIVV  
@@ -62,5 +67,5 @@ Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto i
 Clearweb: [xxiivv.com](https://xxiivv.com){: target='_blank' rel='noopener nofollow' }
 
 - 🇬🇧 OpenBooks  
-Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del web personale. Il sito ha persino una bella grafica.  
+Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
 Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){: target='_blank' rel='noopener nofollow' }
