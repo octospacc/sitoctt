@@ -3,7 +3,7 @@
 python3 staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
-	--ContextParts="{'Footer':['StatCounter.html']}" \
+	--ContextParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html']}" \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken" \
 	--SitemapOut=True \
