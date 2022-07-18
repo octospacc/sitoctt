@@ -119,8 +119,10 @@ h3:hover {
 	Padding: var(--ContentPadding);
 }
 #RightBox, #RightBoxContainer {
-	Float: Right;
 	Padding: var(--ContentPadding);
+}
+#RightBox {
+	Float: Right;
 }
 #RightBoxContainer > Details > Summary {
 	Text-Align: Right;

@@ -1,10 +1,12 @@
+// Title: 🥸️ Come la nostra impronta digitale sociale ci frega
+// HTMLTitle: <span class="twa twa-disguised-face"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci frega
 // Categories: Blog
 // CreatedOn: 2022-07-17
 
-# Come la nostra impronta digitale sociale ci frega
+# 🥸️ Come la nostra impronta digitale sociale ci frega
 
 Questa storia, più pratica che mai, è secondo me incredibile.  
-Non solo dimostra a cosa possano arrivare le loli con troppo tempo libero, tipo me; mostra come chiunque tra noi abbia una specie di "impronta digitale personale" che, se non adeguatamente mascherata, ci può far identificare.
+Non solo dimostra a cosa possano arrivare le loli con troppo tempo libero, tipo me; mostra come chiunque tra noi abbia una specie di "impronta digitale sociale" che, se non adeguatamente mascherata, ci può far identificare.
 
 ## Note importanti
 
