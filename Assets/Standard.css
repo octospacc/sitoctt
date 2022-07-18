@@ -29,6 +29,8 @@ Details Div {
 	Margin: 8px;
 	Padding: 4px;
 }
+.BorderBox,
+.BorderBoxContainer > *,
 Details Div Details {
 	Border: 2px Solid Purple;
 	Margin: 8px;
