@@ -37,7 +37,7 @@ Provando la stessa formula subito dopo, ma con il telefono spento, mi pare che i
 
 L'ultimo test l'ho fatto verso le 14, quando il cielo si era purtroppo scurito. Ho appoggiato il pannellino su un piano e ho usato il telefono normalmente, ascoltando musica e credo usando app di messaggistica online. Come sospettavo, non si è ricaricato, ma almeno è stato quasi senza scaricarsi, il che è comunque buono considerate le condizioni atmosferiche.
 
-![Schermata di una foto inviata in chat. La foto mostra il pannello appoggiato sul tettuccio di un'auto parcheggiata, con un cavo collegato che scende giù. La didascalia recita "La nostra macchina è parcheggiata e io ci appoggio il pannello solare sopra".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/OctoVoLTE-16754.png){: target='_blank' rel='noopener' }
+![Schermata di una foto inviata in chat. La foto mostra il pannello appoggiato sul tettuccio di un'auto parcheggiata, con un cavo collegato che scende giù. La didascalia recita "La nostra macchina è parcheggiata e io ci appoggio il pannello solare sopra".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/OctoVoLTE-16754.png)
 
 ### Guardiamo oltre..
 

@@ -1,12 +1,12 @@
-:root {
+:Root {
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
 }
 h1, h2, h3, a, img, summary {
 	Transition: 0.3s;
 }
-::selection {
-	Background-Color: rgba(170, 170, 255, 0.2);
+::Selection {
+	Background-Color: RGBA(170, 170, 255, 0.2);
 }
 Body {
 	Margin: 0;
@@ -19,7 +19,7 @@ Body {
 	Color: #080810;
 	Background: #eeddff;
 	Font-Size: 13pt;
-	Padding: var(--ContentPadding);
+	Padding: Var(--ContentPadding);
 	Overflow-Wrap: Break-Word;
 }
 Div {
@@ -106,7 +106,7 @@ h3:hover {
 }
 #TopBox {
 	Width: 100%;
-	Padding: var(--ContentPadding);
+	Padding: Var(--ContentPadding);
 }
 .HeaderElement {
 	Border: 2px Solid Purple;
@@ -118,10 +118,10 @@ h3:hover {
 }
 #LeftBox, #LeftBoxContainer {
 	Float: Left;
-	Padding: var(--ContentPadding);
+	Padding: Var(--ContentPadding);
 }
 #RightBox, #RightBoxContainer {
-	Padding: var(--ContentPadding);
+	Padding: Var(--ContentPadding);
 }
 #RightBox {
 	Float: Right;
@@ -136,8 +136,8 @@ h3:hover {
 	Left: 0;
 	Right: 0;
 	Width: 80%;
-	Padding-Top: calc(var(--ContentPadding) + 32px);
-	Padding-Bottom: calc(var(--ContentPadding) + 64px);
+	Padding-Top: Calc(Var(--ContentPadding) + 32px);
+	Padding-Bottom: Calc(Var(--ContentPadding) + 64px);
 }
 #MainBox img {
 	Max-Width: 90%;
@@ -147,8 +147,13 @@ h3:hover {
 	Max-Width: 100%;
 	Max-Height: 90vh;
 }
-#MainBox > p > img:not(.NoImgCenter),
-#MainBox > p > a > img:not(.NoImgCenter) {
+.Img50 img {
+	Max-Height: 50vh !important;
+}
+.Img50 img:hover {
+	Max-Height: 75vh !important;
+}
+#MainBox p img:not(.NoImgCenter) {
 	Display: Block;
 	Margin-Left: Auto;
 	Margin-Right: Auto;
@@ -159,9 +164,9 @@ h3:hover {
 #BottomBox {
 	Width: 100%;
 	Color: #fafaf0;
-	Background: rgba(64, 0, 64, 0.6);
+	Background: RGBA(64, 0, 64, 0.6);
 	Text-Align: Right;
-	Padding: var(--ContentPadding);
+	Padding: Var(--ContentPadding);
 	Z-Index: -1;
 }
 #LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer {
@@ -176,7 +181,7 @@ h3:hover {
 	Width: 100%;
 }
 #BottomBoxContainer {
-	Padding: var(--ScreenBorderPadding);
+	Padding: Var(--ScreenBorderPadding);
 }
 #TopBoxLeft {
 	Text-Align: Left;
@@ -195,7 +200,8 @@ h3:hover {
 }
 */
 #MainBoxGlobalFooter,
-#StatCounter {
+#StatCounter,
+.Center {
 	Text-Align: Center;
 }
 #MainBoxGlobalFooter span {
@@ -205,17 +211,17 @@ h3:hover {
 #LeftBoxCheck, #LeftBoxLabel {
 	Float: Left;
 	Left: 0;
-	Margin: var(--ScreenBorderPadding);
+	Margin: Var(--ScreenBorderPadding);
 }
 #RightBoxCheck, #RightBoxLabel {
 	Float: Right;
 	Right: 0;
-	Margin: var(--ScreenBorderPadding);
+	Margin: Var(--ScreenBorderPadding);
 }
 #BottomBoxCheck, #BottomBoxLabel {
 	Float: Left;
 	Left: 0;
-	Margin: var(--ScreenBorderPadding);
+	Margin: Var(--ScreenBorderPadding);
 }
 #LeftBoxCheck, #RightBoxCheck, #BottomBoxCheck {
 	Position: Fixed;
@@ -277,24 +283,24 @@ h3:hover {
 
 /* Credits: https://codepen.io/jh3y/pen/WNrXqYz */
 .WavyText {
-	Text-Align: center;
-	Position: absolute;
+	Text-Align: Center;
+	Position: Absolute;
 	Left: 50%;
-	White-Space: nowrap;
-	Transform: translate(-50%, -50%) translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%));
-	font-variation-settings: 'wght' var(--lower);
+	White-Space: NoWrap;
+	Transform: Translate(-50%, -50%) Translate(Calc(Var(--x, 0) * 1%), Calc(Var(--y, 0) * 1%));
+	font-variation-settings: 'wght' Var(--lower);
 	Margin: 0;
 }
 .WavyText Span {
-	Color: hsla(300, 100%, 20%, var(--alpha-l));
+	Color: HSLA(300, 100%, 20%, Var(--alpha-l));
 	Animation: Rise 2.25s infinite ease-in-out;
-	Animation-Delay: calc((var(--index) - 6) * 0.225s);
-	Display: inline-block;
+	Animation-Delay: Calc((Var(--index) - 6) * 0.225s);
+	Display: Inline-Block;
 }
 @keyframes Rise {
 	50% {
-		font-variation-settings: 'wght' var(--upper);
-		Color: hsla(300, 100%, 30%, var(--alpha-u));
-		Transform: translate(0, -15%);
+		font-variation-settings: 'wght' Var(--upper);
+		Color: HSLA(300, 100%, 30%, Var(--alpha-u));
+		Transform: Translate(0, -15%);
 	}
 }
