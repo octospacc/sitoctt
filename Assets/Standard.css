@@ -151,16 +151,20 @@ H3:hover {
 	Max-Width: 100%;
 	Max-Height: 90vh;
 }
-.Img50 img {
-	Max-Height: 50vh !important;
+.Img36 img {
+	Max-Height: 36vh !important;
 }
-.Img50 img:hover {
-	Max-Height: 75vh !important;
+.Img36 img:hover {
+	Max-Height: 64vh !important;
 }
-#MainBox p img:not(.NoImgCenter) {
+#MainBox p img:not(.NoImgCenter img) {
 	Display: Block;
 	Margin-Left: Auto;
 	Margin-Right: Auto;
+}
+.ImgSidePadding img {
+	Padding-Left: 16px;
+	Padding-Right: 16px;
 }
 #MainBoxTop {
 	Color: #505050;

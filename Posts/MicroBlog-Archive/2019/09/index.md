@@ -2,7 +2,7 @@
 
 ## Archivi MicroBlog di Settembre 2019
 
-<div markdown="1" class="BorderBoxContainer Img50">
+<div markdown="1" class="BorderBoxContainer NoImgCenter Img36 ImgSidePadding">
 
 <details markdown="1">
 <summary>[2019-09-17 15:16] Test più disparati con il Galaxy Player </summary>
@@ -81,7 +81,7 @@
 
 > &#x3A; A parte Zelda che ho provato ora, gli altri giochi hanno un framerate stabile se vedete, nice, un Lagsung di 8 anni fa si sta riscattando.  
 > &#x3A; Vi avverto che ci potrebbe essere un trigger epilettico quando avvio quake 2 eh xd  
-> <video controls><source src="[HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Galaxy-Player-3.6-N64-Misc.webm" type="video/webm">N64</video>
+> <video controls><source src="[HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/GP3.6-N64-Misc.webm" type="video/webm">N64</video>
 
 > &#x3A; Vabbè per ora basta test sul Lagsung
 
