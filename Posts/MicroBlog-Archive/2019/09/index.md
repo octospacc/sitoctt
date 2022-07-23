@@ -61,19 +61,19 @@
 > &#x3A; Non ho registrato ma il framerate dei giochi era sempre stabile e giocabile.. purtroppo i giochi non sono tanto giocabili, ma soltanto perchè ci sono gravi glitch grafici  
 > &#x3A; Credo sia colpa dell'emulatore che è vecchio (purtroppo su Android 2.3.6 non posso fare molto)
 
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-2.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-3.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-2.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-3.avif)  
 
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-0.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-1.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-2.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-0.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-1.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-2.avif)  
 
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-0.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-1.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-2.avif)  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-3.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-0.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-1.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-2.avif)  
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-3.avif)  
 
 > &#x3A; Gli screen li ho fatti direttamente sul Lagsung con una app
 
@@ -84,6 +84,21 @@
 > <video controls><source src="[HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/GP3.6-N64-Misc.webm" type="video/webm">N64</video>
 
 > &#x3A; Vabbè per ora basta test sul Lagsung
+
+</details>
+
+<details markdown="1">
+<summary>[2019-09-16 18:35] Memewei memoria piena</summary>
+
+> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/P9-Lite-Mini/Memewei-Memoria-Piena.avif)
+
+> &#x3A; Il Memewei si dimostra valido kek
+
+> &#x3A; Vaffanculo un giorno sto coso lo spacco
+
+> &#x3A; A parte che è già tipo piegato, perché ha preso tante volte le botte perché faceva il meme
+
+> &#x3A; Ma il Lagsoong può avere anche solo 1 KB libero e non rompe con popup cinesi
 
 </details>
 
