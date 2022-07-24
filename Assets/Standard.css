@@ -67,6 +67,11 @@ Table Td, Table Th, Table Tr  {
 	Border: 2px Solid Purple;
 	Padding: 4px;
 }
+.ScrollBorderBox {
+	Border: 2px Solid Purple;
+	Padding: 8px;
+	Overflow-X: Auto;
+}
 
 #MainBox > * > A::before,
 #MainBox > * > * > A::before,
@@ -189,6 +194,12 @@ H3:hover {
 	Padding-Left: 16px;
 	Padding-Right: 16px;
 }
+.Pixelated,
+.Pixelated Img {
+	Image-Rendering: Pixelated;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+
 #MainBoxTop {
 	Color: #505050;
 }
