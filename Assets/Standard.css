@@ -1,10 +1,20 @@
+/*--------------------------------------------------------*
+ *    Costanti Globali                                    *
+ *--------------------------------------------------------*/
+
 :Root {
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
 }
-H1, H2, H3, A, Img, Video, Summary {
-	Transition: 0.3s;
-}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Fritto Misto - Andrebbe ordinato                    *
+ *--------------------------------------------------------*/
+
 ::Selection {
 	Background-Color: RGBA(170, 170, 255, 0.2);
 }
@@ -71,13 +81,20 @@ Table Td, Table Th, Table Tr  {
 	Content: '' !important;
 }
 
-#MainBox > P > Img,
-#MainBox > Ul > Li > P > Img {
+A:hover:not(
+	H3 > A, H4 > A, H5 > A, H6 > A,
+	.NoABigger, .NoABigger A,
+	.NoHoverLight, .NoHoverLight A
+) {
+	Color: #eeddff !important;
+	Background: #700070 !important;
+}
+
+#MainBox Img {
 	Margin-Top: 4px;
 	Margin-Bottom: -4px;
 }
 
-A:hover:not(H3 > A, .NoABigger),
 Details > Summary:hover {
 	Font-Size: 15pt;
 }
@@ -161,8 +178,8 @@ H3:hover {
 .Img36 Video:hover {
 	Max-Height: 64vh !important;
 }
-#MainBox p Img:not(.NoImgCenter Img),
-#MainBox p Video:not(.NoImgCenter Video) {
+#MainBox p Img:not(.NoImgCenter, .NoImgCenter Img),
+#MainBox p Video:not(.NoImgCenter, .NoImgCenter Video) {
 	Display: Block;
 	Margin-Left: Auto;
 	Margin-Right: Auto;
@@ -206,13 +223,6 @@ H3:hover {
 	Float: Right;
 	Clear: Both;
 }
-/*
-#LeftBox img,
-#TopBoxRight img {
-	Padding-Left: 3px;
-	Padding-Right: 3px;
-}
-*/
 #MainBoxGlobalFooter,
 #StatCounter,
 .Center {
@@ -261,7 +271,13 @@ H3:hover {
 	User-select: none;
 }
 
-/* Gradienti */
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Gradienti                                           *
+ *--------------------------------------------------------*/
 
 .MainIdTextGradientL {
 	Background: linear-gradient(to left, #d000d0, #8040d0);
@@ -276,7 +292,17 @@ H3:hover {
 	Background-Clip: Text;
 }
 
-/* Animazioni */
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Animazioni                                          *
+ *--------------------------------------------------------*/
+
+H1, H2, H3, A, Img, Video, Summary {
+	Transition: 0.3s;
+}
 
 .BlinkA {
 	Animation: BlinkerA 0.25s Step-Start Infinite;
@@ -295,7 +321,7 @@ H3:hover {
 	100% {Position: Static; Visibility: Visible;}
 }
 
-/* Credits: https://codepen.io/jh3y/pen/WNrXqYz */
+/*---   Credits: https://codepen.io/jh3y/pen/WNrXqYz   ---*/
 .WavyText {
 	Text-Align: Center;
 	Position: Absolute;
@@ -318,3 +344,6 @@ H3:hover {
 		Transform: Translate(0, -15%);
 	}
 }
+/*---   --------------------------------------------   ---*/
+
+/*--------------------------------------------------------*/

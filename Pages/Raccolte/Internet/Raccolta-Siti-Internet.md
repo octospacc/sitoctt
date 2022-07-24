@@ -9,6 +9,8 @@ Una raccolta dedicata ad alcuni siti Internet carini (non solo web!), di varie t
 A parte la divisione in categorie, non c'e alcun ordine particolare.  
 Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai nomi indicano le lingue primarie dei contenuti del sito.
 
+<div markdown="1" class="NoImgCenter">
+
 ## Il mio..
 
 Se il mio sito ti piace, e ne hai anche tu uno con una pagina simile a questa lista dove vuoi consigliarlo, puoi linkarlo anche come bottone PNG!  
@@ -69,3 +71,5 @@ Clearweb: [xxiivv.com](https://xxiivv.com){: target='_blank' rel='noopener nofol
 - 🇬🇧 OpenBooks  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
 Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){: target='_blank' rel='noopener nofollow' }
+
+</div>

@@ -178,6 +178,7 @@
 > &#x3A; Ah e, ovviamente, metodi per avere 🅱olte sul telefono
 
 Da questi messaggi ebbe ufficialmente inizio la storia di OctoVoLTE. Di Memewei se n'è parlato lì in questi anni, forse anche troppo; Di metodi per avere VoLTE, non se n'è avuto nemmeno uno, tipo. Sad.
+
 </details>
 
 </div>
