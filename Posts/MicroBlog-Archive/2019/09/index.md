@@ -5,13 +5,13 @@
 <div markdown="1" class="BorderBoxContainer NoImgCenter Img36 ImgSidePadding">
 
 <details markdown="1">
-<summary>[2019-09-17 15:16] Test più disparati con il Galaxy Player </summary>
+<summary>[2019-09-17 15:16] Test più disparati con il Galaxy Player</summary>
 
 > &#x3A; Good Lagsung  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
+![Foto del Galaxy Player, che mostra il canale Telegram in Plus Messenger.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
 
 > &#x3A; 512 MB di RAM e gira meglio del Lagwei  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Task-Manager-RAM.avif)
+![Schermata "RAM" in "Gestione Attività" del Galaxy Player. Sono indicati 215 MB su 488 MB di RAM occupati.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Task-Manager-RAM.avif)
 
 > &#x3A; Ora proviamo l'emulatore del N64 e del DS, così esplode 
 
@@ -36,10 +36,10 @@
 {: .Center }
 
 > &#x3A; Ho trovato una cosa nella memoria del lag  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/CWM-Backup-2017-12-09.avif)
+![Schermata di una cartella, con dentro i file di un NANDroid backup del Galaxy Player risalente al 2017-12-09.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/CWM-Backup-2017-12-09.avif)
 
 > &#x3A; Ecco un motivo per cui le nuove versioni di Android fanno schifo [gestiscono il collegamento come memoria USB peggio di Android 2.3, ndr]  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Archivio-USB.avif)  
+![Foto del Galaxy Player che mostra la schermata "Archivio USB in uso".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Archivio-USB.avif)  
 > &#x3A; In realtà ce ne sono tanti, poi ne parleremo
 
 > &#x3A; E ora testiamo gli altri giochi
@@ -61,19 +61,19 @@
 > &#x3A; Non ho registrato ma il framerate dei giochi era sempre stabile e giocabile.. purtroppo i giochi non sono tanto giocabili, ma soltanto perchè ci sono gravi glitch grafici  
 > &#x3A; Credo sia colpa dell'emulatore che è vecchio (purtroppo su Android 2.3.6 non posso fare molto)
 
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-2.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-3.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-2.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-3.avif)  
 
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-0.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-1.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-2.avif)  
+> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-0.avif)  
+> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-1.avif)  
+> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-2.avif)  
 
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-0.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-1.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-2.avif)  
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-3.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-0.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-1.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-2.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-3.avif)  
 
 > &#x3A; Gli screen li ho fatti direttamente sul Lagsung con una app
 
@@ -90,7 +90,7 @@
 <details markdown="1">
 <summary>[2019-09-16 18:35] Memewei memoria piena</summary>
 
-> ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/P9-Lite-Mini/Memewei-Memoria-Piena.avif)
+> !["Schermata del P9 Lite Mini che dice che la memoria è quasi piena e ciò rallenterebbe il dispositivo."]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/P9-Lite-Mini/Memewei-Memoria-Piena.avif)
 
 > &#x3A; Il Memewei si dimostra valido kek
 
@@ -99,6 +99,8 @@
 > &#x3A; A parte che è già tipo piegato, perché ha preso tante volte le botte perché faceva il meme
 
 > &#x3A; Ma il Lagsoong può avere anche solo 1 KB libero e non rompe con popup cinesi
+
+Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo solo ~100 MB liberi sulla memoria interna, fa uscire circa ogni 3 minuti questo popup, che fastidioso è dire poco. E credetemi, è facile riempire la memoria di uno smartphone con Android 7 che, tolto lo spazio occupato dai componenti di sistema, ha solo 7,5 GB di spazio disponibile all'utente.
 
 </details>
 
@@ -118,7 +120,7 @@
 
 > &#x3A; Non ha quelle emoji tossiche perché ha di meglio  
 > &#xA0; MOLTO MEGLIO  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Notepad-Emoticon-Keyboard.avif)
+![Foto del Galaxy Player che mostra la app di note, con aperta la tastiera sulla scheda delle emoticon, che sono nel vecchio stile a simboli, non emoji.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Notepad-Emoticon-Keyboard.avif)
 
 [...]
 {: .Center }
@@ -142,10 +144,10 @@
 > &#xA0; Ho lasciato il coso lì attaccato quasi mezz'ora e non andava, quindi stacco
 
 > &#x3A; Lo riaccendo e  
-![Sticker]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Lolis-Reading-Am-I-Retarded-Book.avif)
+![Sticker distorto di Kanna e Tohru (due loli drago) che leggono un libro chiamato "Am I retarded?".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Lolis-Reading-Am-I-Retarded-Book.avif)
 
 > &#x3A; Si, perché c'era una bella schermata che diceva   
-![Firmware update encountered an issue. Please select recovery mode in Kies & try again.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Softbrick-Bootloader.avif)
+![Foto del Galaxy Player che, sul bootloader, mostra un triangolo di avvertimento e la scritta "Firmware update encountered an issue. Please select recovery mode in Kies & try again.".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Softbrick-Bootloader.avif)
 
 > &#x3A; E quindi, niente, io visto che ho la segatura nel cervello, per letteralmente quasi un anno ho creduto fosse la mia ROM corrotta, perché anche se riflashavo dava sempre errore alla fine, e letteralmente per un anno ho perso tempo a cercare altre ROM inutilmente
 
@@ -164,7 +166,7 @@
 > &#xA0; Compresi i miei oldissimi mondi di Minecraft
 
 > &#x3A; E niente sar, questo è il Lagsoong di nuovo in vita dopo un anno di coma  
-![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
+![Foto della schermata di blocco del Galaxy Player, con uno sfondo di Astolfo non-canon.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
 
 </details>
 
