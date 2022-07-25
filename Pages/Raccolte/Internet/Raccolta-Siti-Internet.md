@@ -13,7 +13,7 @@ Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai
 
 ## Il mio..
 
-Se il mio sito ti piace, e ne hai anche tu uno con una pagina simile a questa lista dove vuoi consigliarlo, puoi linkarlo anche come bottone PNG!  
+Se il mio sito ti piace, e ne hai anche tu uno con una pagina simile a questa lista dove vuoi consigliarlo, puoi linkarlo, come link testuale o anche come bottone 88x31!  
 Seguono i codici HTML che puoi copiare e incollare.
 
 Link testuale:  

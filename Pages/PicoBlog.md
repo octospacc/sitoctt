@@ -24,6 +24,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-07-25] L'emulazione NDS su Android</summary>
+Nel 2022, è ancora un vero casino. E ci sono dei lati oscuri. Approfondirò bene nel prossimo post del blogoctt, che è già in scrittura.
+</details>
+
+<details markdown="1">
 <summary>[2022-07-23] WikiSpacc</summary>
 Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dello Spacc. Abbastanza grave. Lo spacc in generale, comunque, è menzionato da qualche parte.. e se non sapete cosa sia, adesso posso semplicemente dire: ho creato una wiki riguardo l'argomento e tutto ciò che ci sta attorno. Ancora è da riempire bene, ma c'è già qualcosa. Su, andate a leggere [WikiSpacc.miraheze.org/wiki/Spacc](https://wikispacc.miraheze.org/wiki/Spacc){: target='_blank' rel='noopener' } :)
 </details>
