@@ -24,6 +24,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-07-26] Vodafone lota</summary>
+Oggi, a casaccio, è saltata la linea Internet di casa per tipo 40 minuti buoni, Vodafone lota,.,.,
+</details>
+
+<details markdown="1">
 <summary>[2022-07-25] L'emulazione NDS su Android</summary>
 Nel 2022, è ancora un vero casino. E ci sono dei lati oscuri. Approfondirò bene nel prossimo post del blogoctt, che è già in scrittura.
 </details>
