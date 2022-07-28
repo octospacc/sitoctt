@@ -73,9 +73,9 @@ Tenendo in mente che questi test sono stati fatti guardando semplicemente le pre
 Come bonus, menziono anche questo altro emulatore che, cercando robe, ho scoperto per caso: [NooDS](https://github.com/Hydr8gon/NooDS){: target='_blank' rel='noopener' }. Si fissa come obbiettivo quello di essere un emulatore veloce, ma al momento, da come ho potuto constatare e da cosa il README dice, ancora non ci siamo.  
 Mi gira più o meno come l'APK di melonDS che fino ad ora ho menzionato. Spero che lo sviluppo continui e vada a buon fine, comunque, il progetto promette.
 
-## Una sola soluzione
-
 Quindi, è la fine della storia? Mi devo accontentare di emulare il gioco rallentato di almeno un buon 7-10% su melonDS? Beh, in realtà, no.. _forse_.
+
+## Una sola soluzione
 
 Nella scena dell'emulazione NDS per Android, tutti gli emulatori di cui ho parlato fino ad ora sono in realtà i meno famosi (anche se, ultimamente, melonDS sta guadagnando terreno). Ne esiste uno molto più conosciuto, che chi almeno una volta ha provato ad emulare il DS su Android conoscerà almeno di nome.  
 Insomma, parliamo un po' di [Drastic](https://play.google.com/store/apps/details?id=com.dsemu.drastic){: target='_blank' rel='noopener' }.
@@ -164,7 +164,7 @@ Ed è proprio così che, con questa storia, oggi riconfermiamo due importanti fa
 ## Cosa abbiamo imparato?
 
 1. **I DRM si dimostrano**, ancora una volta, non solo come inutili (eludibili, visto che io ora starei giocando con una versione modificata di Drastic con il DRM tolto), ma soprattutto come **dannosi** (visto che, anche comprando Drastic stando alle regole, non lo potrei usare comunque sui miei dispositivi);  
-In generale, i programmi che usano DRM, ossia quel software proprietario che non garantisce nemmeno la "[libertà](https://www.gnu.org/philosophy/free-sw.it.html) 0" (poter eseguire il software come si vuole), si dimostrano come inaffidabile. Meglio preferire sempre software senza DRM e, quando possibile, completamente libero e comunitario.
+In generale, i programmi che usano DRM, ossia quel software proprietario che non garantisce nemmeno la "[libertà](https://www.gnu.org/philosophy/free-sw.it.html){: target='_blank' rel='noopener' } 0" (poter eseguire il software come si vuole), si dimostrano come inaffidabile. Meglio preferire sempre software senza DRM e, quando possibile, completamente libero e comunitario.
 
 2. **Google**, come troppe altre multinazionali, **non merita un briciolo di fiducia**. Sul suo store ha la spazzatura e se ne frega volutamente, pur avendo in teoria dei sistemi automatici per controllare le marsità che, tra l'altro, [fanno spesso vittime innocenti](https://www.ghisler.ch/board/viewtopic.php?t=76643){: target='_blank' rel='noopener' }.  
 Prima che arrivino i fanboy: no, ok che l'Apple App Store è un po' messo meglio del Google Play Store - anche perché la tassa per poter pubblicare qualcosa lì è di un'ingorda somma di [99$ all'anno](https://developer.apple.com/it/support/enrollment){: target='_blank' rel='noopener' }, anziché i [25$ una tantum](https://support.google.com/googleplay/android-developer/answer/6112435?hl=it#zippy=%2Cstep-pay-registration-fee%2Cpassaggio-paga-la-quota-di-registrazione){: target='_blank' rel='noopener' } di Google - ma anche lì ogni tanto cicciano fuori app discutibili, spesso predatorie per gli utenti. Almeno, però, Google vede il permettere l'installazione di applicazioni da fonti non ufficiali come parte standard del suo sistema operativo, mentre Apple mette attivamente i bastoni tra le ruote al sideloading perché "è per la sicurezza degli utenti";  
