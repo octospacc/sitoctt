@@ -43,46 +43,46 @@ Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi s
 
 - 🇬🇧 Ledomsoft  
 Sito resuscitato da archivi dell'autore di più di un decennio fa, programmato come si faceva ai tempi. Bello colorato con GIF e tutto, ma moderato, non senza ritegno.  
-Clearweb: [ledomsoft.com](https://ledomsoft.com){: target='_blank' rel='noopener nofollow' }
+Clearweb: [ledomsoft.com](https://ledomsoft.com){[:MdTgtBlankNofw:]}
 
 - 🇮🇹 Il covo di Thushi  
 Sito ultraminimale, nessuna grafica (:'c), ma bello schema di (3) colori e bei contenuti.  
-Onion web: [m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion](http://m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion){: target='_blank' rel='noopener nofollow' }
+Onion web: [m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion](http://m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion){[:MdTgtBlankNofw:]}
 
 - 🇮🇹 Arcisito  
 Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anche Aurora). Lo ha messo in piedi oggi (2022-06-30), dopo che ha detto di non sapere cosa fare con tutto il tempo libero estivo, e io le ho detto "fai l'Arcisito".  
-Clearweb: [arci.me](https://arci.me){: target='_blank' rel='noopener nofollow' }
+Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 🇮🇹 astral town  
 ![serimemo]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Serimemo.png)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
-Clearweb: [astral.town](https://astral.town){: target='_blank' rel='noopener nofollow' }
+Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 
 - 🇮🇹 Officina di Ribby  
 Il tema di questo sito mi da davvero una sensazione di officina, per così dire. Pochi fronzoli ma ha un suo stile, e la sua divisione in categorie è stata di parziale ispirazione per ciò che ho sul mio sito ora.  
-Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.org){: target='_blank' rel='noopener nofollow' }
+Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.org){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 daedalOS  
 I visualizzatori di documenti (browser) Web moderni sono una piattaforma eccessiva, dove cose assurde possono essere realizzate. Come un vero **sistema operativo** (libero), creato da _Dustin Brett_, per portfolio. **Pazzia**.  
-Clearweb: [dustinbrett.com](https://dustinbrett.com){: target='_blank' rel='noopener nofollow' }
+Clearweb: [dustinbrett.com](https://dustinbrett.com){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 Fra/Website  
 Più che un sito, una demo JavaScript con una lista di link e cose così, ma è unica. Non dico altro, meglio vedere di persona!  
-Clearweb: [francescomasala.me](https://francescomasala.me){: target='_blank' rel='noopener nofollow' }
+Clearweb: [francescomasala.me](https://francescomasala.me){[:MdTgtBlankNofw:]}
 
 ## Miscellanea
 
 - 🇬🇧 The Yesterweb  
 ![Yesterweb]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Yesterweb.png)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
-Clearweb: [yesterweb.org](https://yesterweb.org){: target='_blank' rel='noopener nofollow' }
+Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 XXIIVV  
 Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto il resto. Però ha delle belle grafiche e mi piace.  
-Clearweb: [xxiivv.com](https://xxiivv.com){: target='_blank' rel='noopener nofollow' }
+Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 OpenBooks  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
-Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){: target='_blank' rel='noopener nofollow' }
+Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
 
 </div>
