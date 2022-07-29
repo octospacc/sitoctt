@@ -1,5 +1,6 @@
 // Title: 💰 Donazioni
 // HTMLTitle: <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
+// Index: True
 // Order: 25
 
 # <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
@@ -21,7 +22,7 @@ Apri la mia pagina di Coindrop per vedere le criptovalute che accetto e i relati
 _Nota: Coindrop richiede l'esecuzione di codice JavaScript (libero) per funzionare. È un problema che in qualche modo va risolto, secondo me, ma per ora questo è._
 
 _Nota: ETH è listato per completezza, ma la rete Ethereum fa schifo ed è inutilizzabile per le fees; però, le donazioni sulla rete di Binance per quell'indirizzo sono gradite._  
-Dovrei accettare altre valute in futuro, per esempio sarei interessata a provare [Nano](https://nano.org){[:MdTgtBlankNofw:]}, che dice di avere un basso impatto ambientale.
+Dovrei accettare altre valute in futuro, per esempio sarei interessata a provare [Nano](https://nano.org){[:MdTgtBlank:]}, che dice di avere un basso impatto ambientale.
 
 Se proprio desideri, puoi scegliere di installare tu, sulle tue macchine, un software di mining per la criptovaluta che vorresti donarmi, impostando il programma in modo da far arrivare i pagamenti al mio indirizzo. Seguendo questa strada, non ti serve nemmeno un portafoglio per la valuta in questione, e banalmente userai la tua corrente elettrica per ottenere i soldi da donarmi.  
 Tieni conto che non mi interesso di mining da un po', quindi non so quali programmi consigliare, ti direi di chiedere a persone più esperte. Ti prego però, non creare una mining farm alimentata a dinosauri morti, a petrolio, a gas metano, e a non ne ho idea, solo per donare a me (o, in realtà, non farlo in generale, ti prego)! Il top sarebbe usare un [Rasperino Solare](./Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html), se riesci.

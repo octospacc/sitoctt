@@ -5,13 +5,36 @@
 <div markdown="1" class="BorderBoxContainer NoImgCenter Img36 ImgSidePadding">
 
 <details markdown="1">
+<summary>[2019-09-18 20:58] Lagwei lazur</summary>
+
+> A.y&#x3A; ooooo  
+> ![Foto del Huawei di A.y, che sembra emettere un laser viola dal sensore di prossimità.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/A.y-Huawei-Laser.avif)
+
+> Octt&#x3A; cosa ezere quel lazur viola  
+
+> Octt&#x3A;  i misteri del lagwei  
+
+[...]
+{: .Center }
+
+> A.y&#x3A; esere sensore di prossimità  
+
+> A.y&#x3A; se tu spaca vetro sopra quelo  
+> ![Sticker di un violinista che suona. In questo contesto di chat sottintende qualcosa di finito male.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Violin.avif)
+
+> A.y&#x3A; lo so per esperienza  
+> &#xA0; no non è vero
+
+</details>
+
+<details markdown="1">
 <summary>[2019-09-17 15:16] Test più disparati con il Galaxy Player</summary>
 
 > &#x3A; Good Lagsung  
-![Foto del Galaxy Player, che mostra il canale Telegram in Plus Messenger.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
+> ![Foto del Galaxy Player, che mostra il canale Telegram in Plus Messenger.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
 
 > &#x3A; 512 MB di RAM e gira meglio del Lagwei  
-![Schermata "RAM" in "Gestione Attività" del Galaxy Player. Sono indicati 215 MB su 488 MB di RAM occupati.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Task-Manager-RAM.avif)
+> ![Schermata "RAM" in "Gestione Attività" del Galaxy Player. Sono indicati 215 MB su 488 MB di RAM occupati.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Task-Manager-RAM.avif)
 
 > &#x3A; Ora proviamo l'emulatore del N64 e del DS, così esplode 
 
@@ -36,10 +59,10 @@
 {: .Center }
 
 > &#x3A; Ho trovato una cosa nella memoria del lag  
-![Schermata di una cartella, con dentro i file di un NANDroid backup del Galaxy Player risalente al 2017-12-09.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/CWM-Backup-2017-12-09.avif)
+> ![Schermata di una cartella, con dentro i file di un NANDroid backup del Galaxy Player risalente al 2017-12-09.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/CWM-Backup-2017-12-09.avif)
 
 > &#x3A; Ecco un motivo per cui le nuove versioni di Android fanno schifo [gestiscono il collegamento come memoria USB peggio di Android 2.3, ndr]  
-![Foto del Galaxy Player che mostra la schermata "Archivio USB in uso".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Archivio-USB.avif)  
+> ![Foto del Galaxy Player che mostra la schermata "Archivio USB in uso".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Archivio-USB.avif)  
 > &#x3A; In realtà ce ne sono tanti, poi ne parleremo
 
 > &#x3A; E ora testiamo gli altri giochi
@@ -120,7 +143,7 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 
 > &#x3A; Non ha quelle emoji tossiche perché ha di meglio  
 > &#xA0; MOLTO MEGLIO  
-![Foto del Galaxy Player che mostra la app di note, con aperta la tastiera sulla scheda delle emoticon, che sono nel vecchio stile a simboli, non emoji.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Notepad-Emoticon-Keyboard.avif)
+> ![Foto del Galaxy Player che mostra la app di note, con aperta la tastiera sulla scheda delle emoticon, che sono nel vecchio stile a simboli, non emoji.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Notepad-Emoticon-Keyboard.avif)
 
 [...]
 {: .Center }
@@ -144,10 +167,10 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 > &#xA0; Ho lasciato il coso lì attaccato quasi mezz'ora e non andava, quindi stacco
 
 > &#x3A; Lo riaccendo e  
-![Sticker distorto di Kanna e Tohru (due loli drago) che leggono un libro chiamato "Am I retarded?".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Lolis-Reading-Am-I-Retarded-Book.avif)
+> ![Sticker distorto di Kanna e Tohru (due loli drago) che leggono un libro chiamato "Am I retarded?".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Lolis-Reading-Am-I-Retarded-Book.avif)
 
 > &#x3A; Si, perché c'era una bella schermata che diceva   
-![Foto del Galaxy Player che, sul bootloader, mostra un triangolo di avvertimento e la scritta "Firmware update encountered an issue. Please select recovery mode in Kies & try again.".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Softbrick-Bootloader.avif)
+> ![Foto del Galaxy Player che, sul bootloader, mostra un triangolo di avvertimento e la scritta "Firmware update encountered an issue. Please select recovery mode in Kies & try again.".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Softbrick-Bootloader.avif)
 
 > &#x3A; E quindi, niente, io visto che ho la segatura nel cervello, per letteralmente quasi un anno ho creduto fosse la mia ROM corrotta, perché anche se riflashavo dava sempre errore alla fine, e letteralmente per un anno ho perso tempo a cercare altre ROM inutilmente
 
@@ -166,7 +189,7 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 > &#xA0; Compresi i miei oldissimi mondi di Minecraft
 
 > &#x3A; E niente sar, questo è il Lagsoong di nuovo in vita dopo un anno di coma  
-![Foto della schermata di blocco del Galaxy Player, con uno sfondo di Astolfo non-canon.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
+> ![Foto della schermata di blocco del Galaxy Player, con uno sfondo di Astolfo non-canon.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
 
 </details>
 
@@ -177,7 +200,9 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 
 > &#x3A; E Memewei, ma forse anche Xiaomeme
 
-> &#x3A; Ah e, ovviamente, metodi per avere 🅱olte sul telefono
+> &#x3A; Ah e, ovviamente, metodi per avere 🅱oLTE sul telefono
+
+> ![VoLTE]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/phh-VoLTE-JiOwO.avif)
 
 Da questi messaggi ebbe ufficialmente inizio la storia di OctoVoLTE. Di Memewei se n'è parlato lì in questi anni, forse anche troppo; Di metodi per avere VoLTE, non se n'è avuto nemmeno uno, tipo. Sad.
 

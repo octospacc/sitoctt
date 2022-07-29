@@ -16,7 +16,7 @@ Non ricordo se questo periodo dell'anno scorso era di poco prima o poco dopo ave
 
 ## Un nuovo spunto
 
-Con il tempo che passava ho un po' dimenticato la questione, fino a che, qualche settimana fa, mi imbatto in un video su Invidious ([YouTube/JXdLzinnqms](https://invidious.snopyta.org/JXdLzinnqms){[:MdTgtBlankNofw:]}) che mostra una modifica fatta in casa ad uno smartphone.  
+Con il tempo che passava ho un po' dimenticato la questione, fino a che, qualche settimana fa, mi imbatto in un video su Invidious ([YouTube/JXdLzinnqms](https://invidious.snopyta.org/JXdLzinnqms){[:MdTgtBlank:]}) che mostra una modifica fatta in casa ad uno smartphone.  
 Il video mostra, e la discussione su XDA collegata spiega, una trovata interessante: è stata comprata una cover a scorrimento con tastiera Bluetooth integrata, e la si è adattata per ospitare un telefono completamente diverso (ma di simili dimensioni) da quello per cui la cover è pensata.
 
 Subito mi è venuta la voglia di creare qualcosa del genere ma, cercando ho iniziato a pensare che questo tipo di cover non sia ormai più prodotto da nessuno.. è stato assolutamente impossibile trovarne una, non solo a buon prezzo, ma in assoluto. Né online, né in negozi fisici.

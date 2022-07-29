@@ -5,13 +5,13 @@
 
 # <span class="twa twa-laptop"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
 
-Da quasi 7 anni ho un PC portatile Acer, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389){[:MdTgtBlankNofw:]}, indubbiamente ormai un po' vetusto, senza lode e con qualche infamia.  
+Da quasi 7 anni ho un PC portatile Acer, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389){[:MdTgtBlank:]}, indubbiamente ormai un po' vetusto, senza lode e con qualche infamia.  
 Quando fu comprato, era in sostanza un notebook di fascia media come un altro, senza alcuna caratteristica degna di nota. Voglio dire, l'ho usato abbastanza e ha più o meno sempre fatto quello che doveva, finché circa 2 annetti fa ho iniziato a pretendere di usare giochini e strumenti di sviluppo pesanti, a quel punto il nuovo PC (fisso) è stato d'obbligo.
 
 ## Lo stato attuale
 
-Tutto sommato, con GNU+Linux come sistema operativo, le [mitigazioni Intel](https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs){[:MdTgtBlankNofw:]} non installate (si, ho proprio eliminato il microcode, anziché bloccarne il caricamento), e un SSD installato al posto dell'HDD già da anni prima, la macchina è ancora più che buona per molte attività che oggi svolgo primariamente con il PC fisso.  
-L'Intel [i5-5200U](https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2-70-ghz/specifications.html){[:MdTgtBlankNofw:]} macina di per sé ancora bene, e i 4GB di RAM non sono un enorme problema se si ha uno stack di sistema leggero e non si tengono 50 programmi aperti insieme.
+Tutto sommato, con GNU+Linux come sistema operativo, le [mitigazioni Intel](https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs){[:MdTgtBlank:]} non installate (si, ho proprio eliminato il microcode, anziché bloccarne il caricamento), e un SSD installato al posto dell'HDD già da anni prima, la macchina è ancora più che buona per molte attività che oggi svolgo primariamente con il PC fisso.  
+L'Intel [i5-5200U](https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2-70-ghz/specifications.html){[:MdTgtBlank:]} macina di per sé ancora bene, e i 4GB di RAM non sono un enorme problema se si ha uno stack di sistema leggero e non si tengono 50 programmi aperti insieme.
 
 ## Un problemino
 
@@ -122,4 +122,4 @@ Non buttate i vostri laptop, se hanno qualche piccolo problema che può essere r
 Se si rompe la tastiera, si cambia quella; se Windows diventa insopportabilmente lento, si installa una distribuzione Linux (GNU è raccomandato, ma non obbligatorio!) conforme alle proprie esigenze.  
 Così facendo, non solo si risparmiano anche diversi soldi; si riducono gli scarti elettronici, il cosiddetto e-waste, e si fa quindi un minimo di bene all'ambiente.
 
-_Nota: Alcune delle foto di questo articolo sono disponibili in JPEG, meno compresse, sul mio profilo Pixelfed: [pixelfed.uno/p/octo/451398427740616761](https://pixelfed.uno/p/octo/451398427740616761){[:MdTgtBlankNofw:]}_
+_Nota: Alcune delle foto di questo articolo sono disponibili in JPEG, meno compresse, sul mio profilo Pixelfed: [pixelfed.uno/p/octo/451398427740616761](https://pixelfed.uno/p/octo/451398427740616761){[:MdTgtBlank:]}_
