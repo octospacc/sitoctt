@@ -7,7 +7,7 @@
 Giustamente, venendo qui, che tu abbia o meno letto le informazioni generali del sito sulla [Home](./index.html), ti starai chiedendo chi sono io.
 
 Io sono octt. Si, esatto, octt da cui sitoctt, il mio sito, prende il nome.  
-Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress){: target='_blank' rel='noopener' } sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.  
+Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlankNofw:]} sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.  
 Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma quando mai??)</small>, ho immaginato il sito, ho iniziato a costruire il sito, ho messo in piedi strategie per semplificarmi la creazione del sito <small>(eee, che paroloni, ho scritto un programmino in Pitone)</small>, ed ecco qui il risultato.
 
 ## Cosa faccio?
@@ -44,9 +44,9 @@ Ah, e devo anche ancora andare a scuola. Un po' na' seccatura, vabbe, c'è poco 
 
 Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
-- <span style='Color:#FFA020;'>Friendica</span>: [@octt@poliverso.org](https://poliverso.org/profile/octt){: target='_blank' rel='noopener' }  
-- <span style='Color:#3088D4;'>Mastodon</span>: [@octo@mastodon.uno](https://mastodon.uno/@octo){: target='_blank' rel='noopener' }  
-- <span style='Color:#2D2D2D;'>Matrix</span>: [@octt:octt.ddns.net](https://matrix.to/#/@octt:octt.ddns.net){: target='_blank' rel='noopener' }
+- <span style='Color:#FFA020;'>Friendica</span>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlankNofw:]}  
+- <span style='Color:#3088D4;'>Mastodon</span>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlankNofw:]}  
+- <span style='Color:#2D2D2D;'>Matrix</span>: [@octt:octt.ddns.net](https://matrix.to/#/@octt:octt.ddns.net){[:MdTgtBlankNofw:]}
 
 # Fine?
 

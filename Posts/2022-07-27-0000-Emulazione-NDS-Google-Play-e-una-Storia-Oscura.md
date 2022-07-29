@@ -2,6 +2,7 @@
 // HTMLTitle: <span class="twa twa-alien-monster"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
 // Image: [HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif
 // CreatedOn: 2022-07-27
+// EditedOn: 2022-07-29
 // Categories: Blog Tecnologia Gaming
 
 # <span class="twa twa-alien-monster"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
@@ -154,7 +155,7 @@ La storia quindi, almeno per me, è finita bene.. ma **potrei aggiungere qualcos
 ## Google, Mannaggia.
 
 Le [norme per sviluppatori di Google Play](https://play.google.com/about/developer-content-policy){[:MdTgtBlankNofw:]} vietano categoricamente le applicazioni che, come queste ultime di cui ho parlato, violano il diritto d'autore. Eppure, queste 4 che stanno letteralmente rubando tutto il codice di un'altra app, proprietaria e venduta a pagamento, sono ancora tutte lì. Alcune da mesi, altre da anni, ma sono lì.  
-Tecnicamente, anche le applicazioni che integrano direttamente e immediatamente al loro interno app installabili, come quelle 2 specifiche, sarebbero contro le norme di Google Play, perché conterebbero come un app store alternativo.
+Tecnicamente, anche le applicazioni che integrano direttamente e immediatamente al loro interno app installabili per il solo scopo di esserne a tutti gli effetti degli "installatori impacchettati", come quelle 2 specifiche, sarebbero contro le norme di Google Play, perché ~~conterebbero come un app store alternativo~~ violerebbero delle specifiche norme riguardo l'uso dell'installatore di pacchetti Android da parte delle app.[^ APK dentro le app]
 
 In tutto questo, però, **Google cosa fa?** Cosa fa Google quando a violare le norme sono applicazioni poco famose che allo stesso tempo portano a Google stessa qualche soldino?  
 **Se ne sbatte, proprio.** Io credevo che nessuno avesse provato a segnalare queste applicazioni a Google per la rimozione, e invece effettivamente qualcuno lo ha fatto.. e non ha ottenuto nulla. Ci ho provato anche io ma, dopo ben 3 giorni, ancora è tutto sullo store e non ho nemmeno ricevuto una risposta via email da Google.
@@ -183,3 +184,7 @@ Grazie per la lettura. Vi invito a seguire il blog, anche se non in tutti gli ar
 **P.S.**: Ma quanto sono bellini tutti i miei androidi che fanno girare _ACWW_ insieme? Vi lascio la foto, giusto per.
 
 ![Foto di 3 dei miei dispositivi Android tascabili, che mostrano la schermata del titolo di Animal Crossing Wild World.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif)
+
+## 🏷️ Note/Riferimenti
+
+[^ APK dentro le app]: **Aggiornamento del 2022-07-29**: Ho corretto questa parte perché ricordavo che app del genere violassero le norme perché "conterebbero come app store alternativi", ma in realtà non riesco a verificare la cosa. Ho però trovato questa oscura pagina della guida per sviluppatori, che dice chiaramente a quali scopi le app possono richiamare l'installatore di pacchetti di sistema di Android: <https://support.google.com/googleplay/android-developer/answer/12085295?hl=it#zippy=%2Cutilizzi-consentiti-dellautorizzazione-request-install-packages%2Cutilizzi-non-validi>{[:MdTgtBlankNofw:]}. Lo scopo pratico di queste app, ossia quello di essere dei banali wrapped installer, tecnicamente non sarebbe a posto.

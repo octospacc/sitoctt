@@ -24,6 +24,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-07-29] Gaming intenso con Animal Crossing su telefono</summary>
+Eh, parliamo proprio di uno di quei giochi difficili, da qualche giorno l'ho voluto riprendere in mano. Meno male che grazie agli [emulatori](./Posts/2022-07-27-0000-Emulazione-NDS-Google-Play-e-una-Storia-Oscura.html) posso vivere l'intenso ovunque, anche quando ho solo il telefono con me.
+</details>
+
+<details markdown="1">
 <summary>[2022-07-26] Vodafone lota</summary>
 Oggi, a casaccio, è saltata la linea Internet di casa per tipo 40 minuti buoni, Vodafone lota,.,.,
 </details>
@@ -35,12 +40,12 @@ Nel 2022, è ancora un vero casino. E ci sono dei lati oscuri. Approfondirò ben
 
 <details markdown="1">
 <summary>[2022-07-23] WikiSpacc</summary>
-Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dello Spacc. Abbastanza grave. Lo spacc in generale, comunque, è menzionato da qualche parte.. e se non sapete cosa sia, adesso posso semplicemente dire: ho creato una wiki riguardo l'argomento e tutto ciò che ci sta attorno. Ancora è da riempire bene, ma c'è già qualcosa. Su, andate a leggere [WikiSpacc.miraheze.org/wiki/Spacc](https://wikispacc.miraheze.org/wiki/Spacc){: target='_blank' rel='noopener' } :)
+Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dello Spacc. Abbastanza grave. Lo spacc in generale, comunque, è menzionato da qualche parte.. e se non sapete cosa sia, adesso posso semplicemente dire: ho creato una wiki riguardo l'argomento e tutto ciò che ci sta attorno. Ancora è da riempire bene, ma c'è già qualcosa. Su, andate a leggere [WikiSpacc.miraheze.org/wiki/Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlankNofw:]} :)
 </details>
 
 <details markdown="1">
 <summary>[2022-07-21] Decreto fu fatto (20 luglio 2022)</summary>
-Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Files/Decreto-20-luglio-2022.pdf){: target='_blank' rel='noopener' }, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
+Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlankNofw:]}, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
 </details>
 
 <details markdown="1">
@@ -60,7 +65,7 @@ Ehh, mi sa che devo iniziare a metterlo. Sempre in modo intelligente e che non i
 
 <details markdown="1">
 <summary>[2022-07-15] Sistemi operativi in JavaScript</summary>
-Quando il JS è usato bene, ossia quando è usato per fare vere app interattive e non per siti che potrebbero benissimo essere statici, sono la prima ad essere entusiasta di tale tecnologia. E dall'altro ieri mi sono ricordata di [daedalOS](https://github.com/DustinBrett/daedalOS){: target='_blank' rel='noopener' }, a cui ho aperto un ticket ieri e fatto una pull request oggi!
+Quando il JS è usato bene, ossia quando è usato per fare vere app interattive e non per siti che potrebbero benissimo essere statici, sono la prima ad essere entusiasta di tale tecnologia. E dall'altro ieri mi sono ricordata di [daedalOS](https://github.com/DustinBrett/daedalOS){[:MdTgtBlankNofw:]}, a cui ho aperto un ticket ieri e fatto una pull request oggi!
 </details>
 
 <details markdown="1">
@@ -75,7 +80,7 @@ Ma quanto devo aspettare per vedermi il sitocto indicizzato? Cosa devo fare? Ogg
 
 <details markdown="1">
 <summary>[2022-07-11] Dispositivi improbabili</summary>
-Ho preso un Kindle da poco meno di una settimana. Ovviamente, l'ho hackerato seduta stante. [L'ho detto su Mastodon](https://mastodon.uno/@octo/108600089579737212){: target='_blank' rel='noopener' }, ma farò un post approfondito qui prima o poi. Comunque, questo tablettino si aggiunge alla lista di dispositivi strani su cui vorrei assicurarmi che il sitocto funge 😶‍🌫️️
+Ho preso un Kindle da poco meno di una settimana. Ovviamente, l'ho hackerato seduta stante. [L'ho detto su Mastodon](https://mastodon.uno/@octo/108600089579737212){[:MdTgtBlankNofw:]}, ma farò un post approfondito qui prima o poi. Comunque, questo tablettino si aggiunge alla lista di dispositivi strani su cui vorrei assicurarmi che il sitocto funge 😶‍🌫️️
 </details>
 
 <details markdown="1">
@@ -85,7 +90,7 @@ Apparentemente, per una settimana sana ho dimenticato che il mio PicoBlog esiste
 
 <details markdown="1">
 <summary>[2022-07-03] Ma i commenti?</summary>
-Eh eh, ops. La [repo](https://gitlab.com/octtspacc/PlainDiscuss){: target='_blank' rel='noopener' } non ha nuovi commit da settimane, morta. Che palle. Però, con l'integrazione ActivityPub che il sito ora ha da 2 giorni, c'è già una sorta di sistema di commenti per ogni singolo post del blogocto.. quindi il mio lavoro è finito?
+Eh eh, ops. La [repo](https://gitlab.com/octtspacc/PlainDiscuss){[:MdTgtBlankNofw:]} non ha nuovi commit da settimane, morta. Che palle. Però, con l'integrazione ActivityPub che il sito ora ha da 2 giorni, c'è già una sorta di sistema di commenti per ogni singolo post del blogocto.. quindi il mio lavoro è finito?
 </details>
 
 <details markdown="1">
@@ -100,7 +105,7 @@ Ormai, questo è ciò che staticoso sta diventando, contrariamente alle mie stes
 
 <details markdown="1">
 <summary>[2022-06-29] Minare domini Tor</summary>
-È esattamente quello che ho fatto! In che senso? È banalmente ciò che si fa con un programma come [mkp224o](https://github.com/cathugger/mkp224o){: target='_blank' rel='noopener' }, se si vuole ottenere un indirizzo contenente caratteri particolari. Il nuovo indirizzo, che inizia (questa la particolarità) con "<span style="Color:#59316b;">sitoctt</span>", è linkato su [Home # Disponibilità del sito](./index.html#-Disponibilit-del-sito).
+È esattamente quello che ho fatto! In che senso? È banalmente ciò che si fa con un programma come [mkp224o](https://github.com/cathugger/mkp224o){[:MdTgtBlankNofw:]}, se si vuole ottenere un indirizzo contenente caratteri particolari. Il nuovo indirizzo, che inizia (questa la particolarità) con "<span style="Color:#59316b;">sitoctt</span>", è linkato su [Home # Disponibilità del sito](./index.html#-Disponibilit-del-sito).
 </details>
 
 <details markdown="1">
@@ -110,7 +115,7 @@ Ora ho una pagina [Raccolta Siti Internet](./Raccolte/Internet/Raccolta-Siti-Int
 
 <details markdown="1">
 <summary>[2022-06-26] Ancora un'altra piattaforma ActivityPub</summary>
-Eh già, ce n'è già una nuova in beta da praticamente ieri. Che il suo archetipo sia Mastodon, lo si vede subito, ma [Bonfire](https://bonfirenetworks.org){: target='_blank' rel='noopener' } promette una filosofia diversa (?) e.. agli sviluppatori frega qualcosa del miglioramento progressivo, e gran parte della app già funziona senza JS! Già questo è abbastanza per farmi gioire.
+Eh già, ce n'è già una nuova in beta da praticamente ieri. Che il suo archetipo sia Mastodon, lo si vede subito, ma [Bonfire](https://bonfirenetworks.org){[:MdTgtBlankNofw:]} promette una filosofia diversa (?) e.. agli sviluppatori frega qualcosa del miglioramento progressivo, e gran parte della app già funziona senza JS! Già questo è abbastanza per farmi gioire.
 </details>
 
 <details markdown="1">
@@ -120,7 +125,7 @@ Finalmente staticoso integra la generazione di feed Atom/RSS! Se funziona tutto,
 
 <details markdown="1">
 <summary>[2022-06-22] L'esagerazione</summary>
-Mi è venuta voglia di esagerare e implementare un contatore delle visite sul sito. Per fortuna, ho trovato il servizio gratuito già pronto di [contatoreaccessi.com](https://contatoreaccessi.com){: target='_blank' rel='noopener' }, che funziona caricando assolutamente **zero JavaScript**, anche se conta anche i refresh, non le visite uniche.. vabbe.
+Mi è venuta voglia di esagerare e implementare un contatore delle visite sul sito. Per fortuna, ho trovato il servizio gratuito già pronto di [contatoreaccessi.com](https://contatoreaccessi.com){[:MdTgtBlankNofw:]}, che funziona caricando assolutamente **zero JavaScript**, anche se conta anche i refresh, non le visite uniche.. vabbe.
 </details>
 
 <details markdown="1">

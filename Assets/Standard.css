@@ -95,7 +95,7 @@ A:hover:not(
 	Background: #700070 !important;
 }
 
-#MainBox Img {
+.ImgShiftedH, .ImgShiftedH Img {
 	Margin-Top: 4px;
 	Margin-Bottom: -4px;
 }

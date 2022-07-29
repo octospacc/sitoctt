@@ -9,7 +9,7 @@ Una raccolta dedicata ad alcuni siti Internet carini (non solo web!), di varie t
 A parte la divisione in categorie, non c'e alcun ordine particolare.  
 Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai nomi indicano le lingue primarie dei contenuti del sito.
 
-<div markdown="1" class="NoImgCenter Pixelated">
+<div markdown="1" class="NoImgCenter ImgShiftedH Pixelated">
 
 ## Il mio..
 
@@ -26,7 +26,7 @@ Link testuale:
 </pre>
 
 Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
-![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png){: .NoImgCenter }  
+![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png)  
 <!-- `<a href="https://sitoctt.octt.eu.org" target="_blank" rel="noopener nofollow"><img style="image-rendering:pixelated;-ms-interpolation-mode:nearest-neighbor;" alt="✨ sitoctt ✨" title="✨ sitoctt ✨" src="https://octtspacc.gitlab.io/sitoctt-assets/Buttons/Sites/Sitoctt-1.png"></a>` -->
 <pre class="ScrollBorderBox">
 &lt;a

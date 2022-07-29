@@ -8,9 +8,8 @@
 
 In questi giorni ho sistemato i primi affari riguardanti il rendere disponibile il sitocto sulla rete <span style='Color:#59316b;'>Tor</span>. C'è chi mi definirà esagerata anche soltanto per aver avuto il pensiero di fare una cosa del genere, ma c'è poco da fare.  
 Se nulla è andato storto, il servizio Onion è ancora raggiungibile a questo indirizzo:
-~ ~~[onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion](http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion)~~ ~
-_(Modifica del 2022-06-29: ho cambiato il dominio per motivi estetici con questo nuovo! Info aggiuntive (ma pur sempre scarne) al post del [PicoBlog](../PicoBlog.html) di oggi)_{: style='Color:#404040;' }
-[sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion](http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion){: style='Color:#a060c0;' }
+^~ ~~[onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion](http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion){: style='Color:#a060c0;' }~~ ~^
+[sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion](http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion)[^ Nuovo dominio estetico]
 
 L'idea - apparentemente riuscita - è stata quella di utilizzare un servizio PaaS gratuito, Replit, per fare il tutto.  
 In questo modo, non appesantisco ulteriormente il mio improprio server. Ormai da mesi, precisamente da inizio-metà di febbraio 2022, uso una console Switch come server per troppe cose: oltre lo storico server SpaccCraft, ho una mia istanza Matrix, qualche bot Telegram che forse è la roba che meno richiede risorse, e software minori assortiti. Si, Nintendo Switch su cui ho avviato Ubuntu..  
@@ -21,7 +20,7 @@ Questo qui è anche il primissimo post che scrivo sul blog del postocto, chissà
 ## Come?
 
 Torniamo al discorso del postoctt: con Replit, prendendo come base un Repl trovato in giro che dimostrava come ospitare un altro tipo di servizio su Tor, ho costruito il mio Repl che: ad ogni nuovo avvio, scarica in locale tutto ciò che serve a compilare e distribuire il mio sito statico (dalle mie repo Git), prepara tutto, ed avvia un server HTTP e il demone Tor, che fa da proxy esponendo il server HTTP sull'esterno tramite la rete Tor. Poi all'infinito, tutto tramite Git, scarica eventuali aggiornamenti a qualsiasi delle parti e, quando necessario, rigenera il sito.  
-Lascio qui il link ad uno snippet GitLab con i miei file, per chiunque voglia fare il mio stesso servizio per un proprio sito web, magari costruito proprio con il mio generatore di siti statici di infima qualità (a livello di codice, se mi facesse schifo a livello concettuale o pratico non lo starei ancora a sviluppare pian piano): [gitlab.com/-/snippets/2338457](https://gitlab.com/-/snippets/2338457){: target='_blank' rel='noopener'}.
+Lascio qui il link ad uno snippet GitLab con i miei file, per chiunque voglia fare il mio stesso servizio per un proprio sito web, magari costruito proprio con il mio generatore di siti statici di infima qualità (a livello di codice, se mi facesse schifo a livello concettuale o pratico non lo starei ancora a sviluppare pian piano): [gitlab.com/-/snippets/2338457](https://gitlab.com/-/snippets/2338457){[:MdTgtBlankNofw:]}.
 
 Con servizi PaaS gratuiti come Replit, comunque, c'è un problemino: ci sono limiti sui tempi di esecuzione dei software. Nel caso di questa piattaforma, il tutto va in sospensione se l'indirizzo web del progetto non riceve ping per non ho capito bene quanti minuti. In caso ne riceva dopo, si risveglia dopo il tempo necessario a rifare le operazioni di avvio.  
 Peccato però che, a parte che significherebbe far aspettare 30 secondi minimo chi vuole visitare il mio sito per lo stabilimento del primo collegamento, è l'indirizzo HTTPS sul dominio di Replit che va contattato, per ovvi motivi non l'indirizzo Tor. E far collegare la gente tramite l'indirizzo HTTPS nullifica gli scopi dell'avere un sito Tor (a cui arrivo a breve, lo giuro).
@@ -48,7 +47,7 @@ Un dubbio che può sorgere ai non super-addetti ai lavori, però, è il perché 
 
 Non penso di dover spiegare i problemi derivanti dal passare dati in forma non cifrata via Internet: le informazioni possono essere non solo trafugate (che per un blog pubblico non è un grosso problema), ma persino modificate e presentate come se nulla fosse cambiato, con facilità disarmante, da una qualsiasi delle parti intermedie del collegamento, ad esempio l'ISP del client o del server.  
 HTTPS per i siti web risolve questo problema.. Male. Non se ne parla tanto, ma tutto il corretto funzionamento di questi sistemi di protezione dipende da una complessa infrastruttura metafisica globale, che ha più falle di quanto si pensi.  
-Cercando su Whoogle, ho trovato questo PDF, che più o meno da un rapido sguardo ai problemi di cui HTTPS è affetto: [Weakest_Link_in_the_Chain.pdf](https://www.accessnow.org/cms/assets/uploads/archive/docs/Weakest_Link_in_the_Chain.pdf){: target='_blank' rel='noopener' }.  
+Cercando su Whoogle, ho trovato questo PDF, che più o meno da un rapido sguardo ai problemi di cui HTTPS è affetto: [Weakest_Link_in_the_Chain.pdf](https://www.accessnow.org/cms/assets/uploads/archive/docs/Weakest_Link_in_the_Chain.pdf){[:MdTgtBlankNofw:]}.  
 Ciò che c'è da dire di importante in sostanza è che, tutto il sistema attuale, basato sulle CA, consiste nella fiducia verso un'autorità a monte. Senza andare nei dettagli, per cui rimando al PDF, il sistema è fragile e può essere rotto, potendo risultare, in rari speciali casi, negli stessi problemi di connessioni non cifrate; anzi, forse anche peggio, perché la presenza di HTTPS può indurre a fidarsi sempre e comunque: i browser web moderni ci hanno condizionato a farci domande solo quando vediamo il lucchetto aperto o un triangolo di avvertimento, non quando vediamo il lucchetto verde luccicante chiuso.
 
 Quando si usa Tor per collegarsi a siti su Tor, la connessione non solo viene smistata tra ancora più nodi della rete, ma i dati vengono cifrati con un sistema di chiave pubblica e privata tra il client e il server del servizio Onion: l'unico punto debole della catena è il server stesso, che conserva la chiave privata, non ci sono altre autorità di cui fidarsi.  
@@ -60,3 +59,7 @@ A dire il vero, io starei quindi sbagliando ad usare una macchina altrui per osp
 Tor non è assolutamente perfetto: ha delle falle di vario tipo, in genere basate sulla deanonimizzazione degli utenti perché è quello che interessa alle agenzie a 3 lettere, ma parliarmoci chiaramente: è un passo avanti per avere più protezione, e sicuramente è un enorme passo in avanti verso la sicurezza dei dati, in una maniera che fa si che la comunicazione tra client e server sia sicura soltanto quanto server e client, senza preoccuparsi delle minuzie introdotte da alcuna terza parte.
 
 Il fatto che Tor sia economicamente supportato almeno in parte dal governo statunitense comunque, senza scendere troppo nei dettagli, comporta forse alcune implicazioni profonde pericolose. Per questo voglio, più o meno a breve, dare una chance a servizi simili a Tor ma diversi da esso. Lokinet mi ispira, a dire la verità, penso sarà la prima rete alternativa che proverò.
+
+## 🏷️ Note/Riferimenti
+
+[^ Nuovo dominio estetico]: **Aggiornamento del 2022-06-29**: ho cambiato il dominio per motivi estetici con questo nuovo! Info aggiuntive (ma pur sempre scarne) al post del [PicoBlog](../PicoBlog.html) di oggi).
