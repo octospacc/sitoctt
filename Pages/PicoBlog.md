@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-02] C.</summary>
+Una sola lettera, ma quante rogne. Dall'altro giorno sto provando a scrivere [questo giochino](https://gitlab.com/octospacc/BloccSpacc){[:MdTgtBlank:]}, non dico il perché o perché ho scelto C qui, altrimenti fo il papiro.
+</details>
+
+<details markdown="1">
 <summary>[2022-07-29] Gaming intenso con Animal Crossing su telefono</summary>
 Eh, parliamo proprio di uno di quei giochi difficili, da qualche giorno l'ho voluto riprendere in mano. Meno male che grazie agli [emulatori](./Posts/2022-07-27-0000-Emulazione-NDS-Google-Play-e-una-Storia-Oscura.html) posso vivere l'intenso ovunque, anche quando ho solo il telefono con me.
 </details>

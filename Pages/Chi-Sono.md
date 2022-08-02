@@ -52,3 +52,10 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 # Fine?
 
 Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare che mi venga in mente nuova roba da scrivere. Non sperarci troppo, però, considerando che è da più di un mese che questa pagina non si espande 😬.
+
+---
+
+![Me su Animal Crossing Wild World.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)
+
+_Io? Cute. Assolutamente indiscutibile._  
+_Voi? Meh, forse, penso???_
