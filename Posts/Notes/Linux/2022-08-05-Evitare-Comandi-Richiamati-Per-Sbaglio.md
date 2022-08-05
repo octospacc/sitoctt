@@ -24,7 +24,7 @@ a=${RANDOM: -1}
 b=${RANDOM: -1}
 
 echo "[!] Confirm your command"
-echo "$a + $b ?"
+echo "[?] $a + $b = ?"
 read Input
 
 if [ "$Input" -eq "$((a+b))" ] 2>/dev/null
@@ -44,7 +44,7 @@ Ora, quando devo eseguire un comando marso, mi basta fare `comconf '<comando>'`;
 $ # Esempio
 $ comconf 'echo "Prova"; echo "Provina"'
 [!] Confirm your command
-1 + 3 ?
+[?] 1 + 3 = ?
 4
 Prova
 Provina
