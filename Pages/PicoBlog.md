@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-05] Il Miiverso</summary>
+Un [video YT](https://yewtu.be/watch?v=JjQDik3yNhA){[:MdTgtBlank:]} ha fatto tornare Miiverse alla mia memoria, social network di Nintendo che fu chiuso. Poi mi viene in mente che la community tentò di ricrearlo e.. scopro che il progetto [rverse](https://libredd.it/r/3dshacks/comments/l4klae/miiverse_patch_to_make_it_work_again_rverse/gmyx2e4/?context=3){[:MdTgtBlank:]} è in vita. E funziona! Ho di nuovo Miiverse!
+</details>
+
+<details markdown="1">
 <summary>[2022-08-02] C.</summary>
 Una sola lettera, ma quante rogne. Dall'altro giorno sto provando a scrivere [questo giochino](https://gitlab.com/octospacc/BloccSpacc){[:MdTgtBlank:]}, non dico il perché o perché ho scelto C qui, altrimenti fo il papiro.
 </details>
