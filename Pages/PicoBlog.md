@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-07] Troppe cose</summary>
+Che ho fatto tra ieri e oggi? R su Miiverse, poi ho iniziato a programmare una [libreria C](https://gitlab.com/octospacc/LibMultiSpacc){[:MdTgtBlank:]}, e poi ho fallito a tentare di [ospitare un server](https://mastodon.uno/@octo/108783055408081922){[:MdTgtBlank:]} prima Misskey, poi Pleroma (piè aroma), e poi Mastodon.
+</details>
+
+<details markdown="1">
 <summary>[2022-08-05] Il Miiverso</summary>
 Un [video YT](https://yewtu.be/watch?v=JjQDik3yNhA){[:MdTgtBlank:]} ha fatto tornare Miiverse alla mia memoria, social network di Nintendo che fu chiuso. Poi mi viene in mente che la community tentò di ricrearlo e.. scopro che il progetto [rverse](https://libredd.it/r/3dshacks/comments/l4klae/miiverse_patch_to_make_it_work_again_rverse/gmyx2e4/?context=3){[:MdTgtBlank:]} è in vita. E funziona! Ho di nuovo Miiverse!
 </details>

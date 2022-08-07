@@ -14,6 +14,8 @@ APKPure, uno store di app Android, integra per qualche motivo funzioni social. E
 
 ![]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Random/photo_31@18-09-2019_10-28-17.avif)
 
+_(Licenza della foto: Sconosciuta)_
+
 </details>
 
 </div>
