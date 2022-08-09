@@ -47,7 +47,7 @@
 > **[Sondaggio]** Devo provare del DS come prossimo gioco
 
 > | Totale                     | 3 |
-> |----------------------------|--:|
+> |----------------------------|---|
 > | Mario Kart DS              | 2 |
 > | Pokemon B/W 2              | 0 |
 > | Animal Crossing Wild World | 0 |

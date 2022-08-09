@@ -17,7 +17,7 @@ Avere una cronologia di Git così conciata intacca decisamente la sua qualità, 
 
 Per risolvere il problema, mi sono inventata questo scriptino (testato con _sh_ e _bash_), l'idea è di avviare i comandi "pericolosi" attraverso di lui nelle situazioni in cui devo fare quelle mie mosse con il terminale (ma, volendo, lo si può impostare come alias per richiamarlo in maniera implicita sempre per un dato comando).
 
-<pre class="ScrollBorderBox">
+<pre class="CodeScroll"><code>
 Profile="~/.bashrc"
 
 a=${RANDOM: -1}
@@ -33,14 +33,14 @@ then
 else
 	echo "[!] Wrong input"
 fi
-</pre>
+</code></pre>
 
 ## Come si usa
 
 Ho salvato il codice all'interno di una funzione `function comconf() { }` nel mio file di profilo bash.  
 Ora, quando devo eseguire un comando marso, mi basta fare `comconf '<comando>'`; il programma mi chiederà di scrivere il risultato di un'operazione aritmetica semplice generata casualmente, e solo se ciò che scrivo è giusto (quindi, solo se sto prestando attenzione) il mio comando verrà eseguito.
 
-<pre class="ScrollBorderBox" markdown="0">
+<pre class="CodeScroll"><code>
 $ # Esempio
 $ comconf 'echo "Prova"; echo "Provina"'
 [!] Confirm your command
@@ -49,7 +49,7 @@ $ comconf 'echo "Prova"; echo "Provina"'
 Prova
 Provina
 $
-</pre>
+</code></pre>
 
 ---
 

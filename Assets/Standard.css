@@ -68,9 +68,21 @@ Table Td, Table Th, Table Tr  {
 	Padding: 4px;
 }
 .ScrollBorderBox {
-	Border: 2px Solid Purple;
 	Padding: 8px;
+}
+.Code, Code, Pre Code, Pre.Code, .CodeScroll {
+	Color: #fafaf0;
+	Background: #300030;
+}
+.ScrollBorderBox, .CodeScroll {
+	Border: 2px Solid Purple;
 	Overflow-X: Auto;
+}
+Pre.Code, .CodeScroll {
+	Padding-Left: 8px;
+	Padding-Right: 8px;
+	Padding-Top: 0px;
+	Padding-Bottom: 16px;
 }
 
 #MainBox > * > A::before,

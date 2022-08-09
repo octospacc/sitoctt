@@ -18,17 +18,16 @@ Seguono i codici HTML che puoi copiare e incollare.
 
 Link testuale:  
 ✨ sitoctt ✨  
-<pre class="ScrollBorderBox">
+<pre class="CodeScroll"><code>
 &lt;a
 	href="https://sitoctt.octt.eu.org"
 	target="_blank" rel="noopener nofollow"
 &gt;✨ sitoctt ✨&lt;/a&gt;
-</pre>
+</code></pre>
 
 Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
 ![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png)  
-<!-- `<a href="https://sitoctt.octt.eu.org" target="_blank" rel="noopener nofollow"><img style="image-rendering:pixelated;-ms-interpolation-mode:nearest-neighbor;" alt="✨ sitoctt ✨" title="✨ sitoctt ✨" src="https://octtspacc.gitlab.io/sitoctt-assets/Buttons/Sites/Sitoctt-1.png"></a>` -->
-<pre class="ScrollBorderBox">
+<pre class="CodeScroll"><code>
 &lt;a
 	href="https://sitoctt.octt.eu.org"
 	target="_blank" rel="noopener nofollow"
@@ -37,7 +36,7 @@ Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi s
 	alt="✨ sitoctt ✨" title="✨ sitoctt ✨"
 	src="https://octtspacc.gitlab.io/sitoctt-assets/Buttons/Sites/Sitoctt-1.png"
 &gt;&lt;/a&gt;
-</pre>
+</code></pre>
 
 ## Personali
 
