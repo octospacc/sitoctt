@@ -15,7 +15,9 @@ Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma qua
 
 Beh, innanzitutto faccio questo sito. Scrivo le cose, che siano inutili fiumi di parole in lingua umana, oppure paroline magiche che il tuo computer interpreta per visualizzare queste pagine nella loro forma più gloriosa.
 
-Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra server Matrix, bot vari per diverse piattaforme, il server SpaccCraft, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, resa solo più difficile dal mio usare hardware di fortuna.
+Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}. In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma seguite i collegamenti per capire, non parlo dello Spacc qui.
+
+Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra server Matrix, bot vari per diverse piattaforme, il server [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, resa solo più difficile dal mio usare hardware di fortuna.
 
 A volte spendo <small>(o perdo?)</small> tempo sul Fediverso, anche lì a scrivere e condividere robette, su diverse piattaforme carine e ovviamente libere.
 

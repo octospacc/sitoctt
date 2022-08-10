@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-10] Meh</summary>
+Da ormai 2 giorni sono fuori casa, per una vacanza che non è tipo una vacanza. Bello il posto, ho fatto delle foto che penso poi pubblicherò, tra cui alcune di spacc (!), ma ci sono rogne e boh, mi sto più che scocciando.. vediamo come continua, va...
+</details>
+
+<details markdown="1">
 <summary>[2022-08-07] Troppe cose</summary>
 Che ho fatto tra ieri e oggi? R su Miiverse, poi ho iniziato a programmare una [libreria C](https://gitlab.com/octospacc/LibMultiSpacc){[:MdTgtBlank:]}, e poi ho fallito a tentare di [ospitare un server](https://mastodon.uno/@octo/108783055408081922){[:MdTgtBlank:]} prima Misskey, poi Pleroma (piè aroma), e poi Mastodon.
 </details>

@@ -40,6 +40,8 @@ p
 	br
 	| Se preferisci, puoi chiamarlo #[i(class='MainIdTextGradientL') sitocto]. O anche #[i(class='MainIdTextGradientR') postoctt]! È pur sempre un posto questo, il mio posto, anche se virtuale!
 
+h2 Stato del sito e come navigare
+
 p
 	| Nonostante abbia già un po' più di sostanza, tutto questo ambaradan è ancora pesantemente in costruzione. E lo sarà per sempre, perché avrò sempre roba nuova da condividere. E, quando sarò morta, sarà comunque non finito perché nella mia vita non avrò scritto tutto lo scibile universale teoricamente possibile sul sitoctt.
 	br
@@ -58,7 +60,19 @@ p
 	br
 	| Direi che la scelta non è tra il migliore ma tra il meno peggio..
 
-p Codici JavaScript, al momento in cui sto scrivendo questa pagina, non ne uso neanche uno, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: #[a(href='Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html') <span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni].
+h3 Script client-side
+
+p
+	| Il sito Web non usa alcuno script client-side per le funzioni di base, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: #[a(href='Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html') <span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni].
+	br
+	| Ad ogni modo, però.. per fornire alcune funzionalità extra, devo per forza avere del JS, c'è poco da fare. Qui sotto, la lista di cosa uso. #[i Tutti i file sono caricati dai server del mio sito, quindi è difficile che enti malevoli possano nasconderci malware dentro].
+
+details
+	summary Lista di script client-side usati nel sito Web (Espandi)
+	div
+		ul
+			li Polyfill per supportare le immagini AVIF su vecchi browser: #[a(href='https://github.com/Kagami/avif.js' target='_blank' rel='noopener') avif.js di Kagami] (#[i Non ancora attivato, lo sarà a breve])
+			li Sistema di distribuzione P2P dei file del sito a carico dei visitatori: #[a(href='https://github.com/xuset/planktos' target='_blank' rel='noopener') Planktos di xuset] (#[i Non ancora attivato, lo sarà a breve])
 
 p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori.
 
@@ -200,10 +214,12 @@ h3 Crediti speciali
 details
 	summary Lista di crediti e ringraziamenti speciali a chi ho preso materiale in prestito (Espandi)
 	div
-		p Titolo animato ad onda: #[a(href='https://codepen.io/jh3y/pen/WNrXqYz' target='_blank' rel='noopener') Waaaves di jh3y]
-		p Famiglia caratteri: #[a(href='https://fonts.google.com/specimen/Space+Mono' target='_blank' rel='noopener') Space Mono di Colophon Foundry]
-		p Pacchetto emoji: #[a(href='https://twemoji.twitter.com' target='_blank' rel='noopener') Twemoji di Twitter], via #[a(href='https://github.com/SebastianAigner/twemoji-amazing' target='_blank' rel='noopener') Twemoji-Amazing di SebastianAigner]
-		p Alcuni bottoni 88x31: #[a(href='https://cyber.dabamos.de/88x31' target='_blank' rel='noopener') 88x31 GIF Collection di cyber.dabamos.de]
+		ul
+			li Lista di #[a(href='#-Script-client-side') script client-side] del sito Web
+			li Titolo animato ad onda: #[a(href='https://codepen.io/jh3y/pen/WNrXqYz' target='_blank' rel='noopener') Waaaves di jh3y]
+			li Famiglia caratteri: #[a(href='https://fonts.google.com/specimen/Space+Mono' target='_blank' rel='noopener') Space Mono di Colophon Foundry]
+			li Pacchetto emoji CSS: #[a(href='https://twemoji.twitter.com' target='_blank' rel='noopener') Twemoji di Twitter], via #[a(href='https://github.com/SebastianAigner/twemoji-amazing' target='_blank' rel='noopener') Twemoji-Amazing di SebastianAigner]
+			li Alcuni bottoni 88x31: #[a(href='https://cyber.dabamos.de/88x31' target='_blank' rel='noopener') 88x31 GIF Collection di cyber.dabamos.de]
 
 br
 hr
