@@ -4,7 +4,7 @@ before_script:
   - apk update
   - apk add python3 py3-pip npm go git
   - pip3 install requests lxml
-  - npm install -g pug-cli
+  - npm install -g pug-cli planktos
 
 pages:
   stage: deploy
@@ -19,6 +19,7 @@ pages:
   - cd ..
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
   - Scripts/Deploy.GitLab.sh
+  - Scripts/Deploy.BitTorrent.sh
   - Scripts/Deploy.Gemini.sh
   artifacts:
     paths:

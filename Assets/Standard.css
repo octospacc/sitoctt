@@ -133,8 +133,8 @@ H3:hover {
 }
 #LeftBox, #RightBox {
 	Max-Width: 90vw;
-	Background: #300030;
 	Color: #fafaf0;
+	Background: #300030;
 }
 #LeftBox A, #RightBox A, #BottomBox A {
 	Color: #eeddff;
@@ -245,6 +245,20 @@ H3:hover {
 	Text-Align: Right;
 	Float: Right;
 	Clear: Both;
+}
+#PrivacyPopup {
+	Display: None;
+	Visibility: Hidden;
+	Position: Fixed;
+	Z-Index: 16;
+	Color: #fafaf0;
+	Background: #300030;
+	Max-Width: 60vw;
+	Max-Height: 50vh;
+	Overflow-Y: Scroll;
+	Bottom: 64px;
+	Right: Calc(Var(--ContentPadding) * 2);
+	Padding: Var(--ContentPadding);
 }
 #MainBoxGlobalFooter,
 #StatCounter,
