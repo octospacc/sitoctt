@@ -1,0 +1,91 @@
+/* Page body */
+body {
+	background: url('https://i.imgur.com/nwvG7qu.png');
+	background-size: auto fill;
+	height: 100%;
+	width: calc(100% - 32px);
+	background-position: center;
+	margin: 16px;
+}
+
+/* Blog title and description*/
+#blog-title a, header .description { 
+	color: #FFFFFF !important;
+}
+
+/* Header transitions */
+header, header nav:hover {
+	transition: 0.4s;
+	opacity: 100% !important;
+}
+header nav {
+	transition: 0.4s;
+	opacity: 40%;
+}
+
+/* Pinned pages */
+header nav {
+	color: #FFFFFF;
+}
+
+/* Article container */
+article {
+	padding: 0px;
+	border: double #C0C0C0 3px;
+	background: #C0C0C0;
+}
+
+/* Article title */
+article #title, section article .post-title {
+	margin: 0px !important;
+	padding: 3px 8px 3px 8px;
+	background: linear-gradient(90deg,#e564c9,#59a2ef);
+	color: #FFFFFF;
+	border: solid #808080 1px;
+}
+
+#ContentInfo {
+    color: #000000;
+	display: block;
+	width: Calc(100% - 6px);
+	background: #C0C0C0;
+	border: solid 1px;
+	border-color: #808080 #FFFFFF #FFFFFF #808080;
+	margin: 2px 0px 2px 0px;
+	padding: 2px;
+}
+
+/* Article content */
+article .e-content {
+	padding: 16px 12px 16px 12px;
+	border: solid #808080 1px;
+	background: #F0F0F0;
+}
+
+/* Fixing a strange spacing bug on home page for article content */
+section article div {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+/* Nice icon to the left of the article titlebar in home page */
+section article .post-title .u-url {
+	background-image: url('https://i.imgur.com/mOz4pTI.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 40px;
+}
+
+/* Forcing white text on titlebar on home page */
+section article .post-title a, section article .post-title div {
+	color: #FFFFFF !important;
+}
+
+/* Admin profile things, useless for readers */
+.has-submenu, .has-submenu a, .has-submenu * {
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+}
+header nav a {
+    color: #FFFFFF !important;
+}

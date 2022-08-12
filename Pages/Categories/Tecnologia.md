@@ -4,4 +4,4 @@
 
 # <span class="twa twa-satellite-antenna"><span>📡</span></span> Tecnologia
 
-<div><span>[HTML:Category:Tecnologia]</span></div>
+<div><span>[staticoso:Category:Tecnologia]</span></div>

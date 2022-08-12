@@ -5,4 +5,4 @@
 
 # <span class="twa twa-notebook"><span>📓️</span></span> blogoctt
 
-<div><span>[HTML:Category:Blog]</span></div>
+<div><span>[staticoso:Category:Blog]</span></div>

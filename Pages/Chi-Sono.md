@@ -57,7 +57,7 @@ Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare 
 
 ---
 
-![Me su Animal Crossing Wild World.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)
+![Me su Animal Crossing Wild World.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)
 
 _Io? Cute. Assolutamente indiscutibile._  
 _Voi? Meh, forse, penso???_

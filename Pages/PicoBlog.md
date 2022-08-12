@@ -66,7 +66,7 @@ Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dell
 
 <details markdown="1">
 <summary>[2022-07-21] Decreto fu fatto (20 luglio 2022)</summary>
-Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]}, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
+Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]}, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
 </details>
 
 <details markdown="1">

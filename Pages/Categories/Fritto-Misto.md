@@ -4,4 +4,4 @@
 
 # <span class="twa twa-unicorn"><span>🦄</span></span> Fritto Misto
 
-<div><span>[HTML:Category:Fritto-Misto]</span></div>
+<div><span>[staticoso:Category:Fritto-Misto]</span></div>

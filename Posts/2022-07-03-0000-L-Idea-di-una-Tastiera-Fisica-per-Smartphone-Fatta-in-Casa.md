@@ -2,7 +2,7 @@
 // HTMLTitle: <span class="twa twa-keyboard"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
 // Categories: Blog Tecnologia Mobile DIY
 // CreatedOn: 2022-07-03
-// Image: [HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Cover-Tastiera-mobilefun.com.avif
+// Image: [staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Cover-Tastiera-mobilefun.com.avif
 
 # <span class="twa twa-keyboard"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
 
@@ -25,7 +25,7 @@ Non essendoci speranza, ho provato a cambiare leggermente strategia, e cercare u
 La ricerca su Amazon è stata assolutamente infruttuosa, mah. Su AliExpress, attorno ai 13€ c'era la tastiera come la cercavo, ma per me comprare lì è una rogna a dir poco. Per fortuna, però, uno dei tanti casalinghi tuttoavere (quelli che vendono miliardi di cinesate) nella mia zona aveva il prodotto che mi serviva, a soli 2€ in più di quanto l'avrei pagato da Ali.  
 Un affare, e quindi ho comprato.
 
-![Il fronte della mini-tastiera]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Mini-Bluetooth-Keyboard/Tastiera-Fronte.avif)
+![Il fronte della mini-tastiera]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Mini-Bluetooth-Keyboard/Tastiera-Fronte.avif)
 
 ## Dopo l'acquisto
 
@@ -43,12 +43,12 @@ Decido di farla caricare un po', per poi smontarla, e misurare con un multimetro
 
 Supponendo che la scheda sia correttamente progettata, quindi che l'interruttore ON/OFF fisico tagli la corrente tra batteria e scheda al punto in cui dovrebbe, e che il circuito di gestione della batteria non sia una ciofeca, la colpa di un problema del genere può essere solo una: la banale vecchiaia della batteria.
 
-![Foto della piccola batteria della tastiera]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Batteria-SCW302030-2015-08-27.avif)
+![Foto della piccola batteria della tastiera]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Batteria-SCW302030-2015-08-27.avif)
 
 In effetti, non solo la batteria era visivamente abbastanza gonfia, ma riporta una data sull'esterno: "2015/8/27", quasi 8 anni fa.  
 Giurerei che la tastiera stessa sia anche più vecchia, considerando i richiami ad un epoca anche un po' precedente presenti sulla scatola e le istruzioni: iPhone 4 e iOS pre-7, Galaxy S4 e una Touchwiz visibilmente vecchissima, Windows Mobile 6 e Windows 8 desktop, Symbian 3, la PS3.. insomma, ne è passato di tempo.
 
-![Scansioni di alcune parti del retro della scatola e delle istruzioni, contenenti rimandi a cose vecchie.]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Mini-Bluetooth-Keyboard/Rimandi-Vecchi.avif)
+![Scansioni di alcune parti del retro della scatola e delle istruzioni, contenenti rimandi a cose vecchie.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Mini-Bluetooth-Keyboard/Rimandi-Vecchi.avif)
 
 ## Fine bruttina
 

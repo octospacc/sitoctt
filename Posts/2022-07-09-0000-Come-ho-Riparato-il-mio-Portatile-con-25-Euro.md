@@ -61,7 +61,7 @@ Avrei dovuto onestamente comprarla subito, quando la W si ruppe, ma, banalmente,
 Senza perdere troppo ulteriore tempo, ho fatto in modo di ordinarla (3 giorni dopo, ma poteva andare molto peggio), e dopo 2 giorni era già a casa (in anticipo, rispetto a periodo di consegna riportato). 20+7€.. ben spesi? È **da vedersi**.  
 Il prezzo della tastiera credo ci stia, quello della spedizione non mi è piaciuto >:(.
 
-![Particolare della scatola in cui mi è arrivata la tastiera. Lo sfondo è bianco e presenta il logo del distributore del prodotto (new NET)]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Scatola-Fronte-Sinistra.avif)
+![Particolare della scatola in cui mi è arrivata la tastiera. Lo sfondo è bianco e presenta il logo del distributore del prodotto (new NET)]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Scatola-Fronte-Sinistra.avif)
 
 La tastiera era disponibile solo nera, e tutto il resto del mio PC, inclusa la tastiera di fabbrica, è invece bianco.  
 Le possibilità che esca un qualcosa di orribilmente brutto sono alte, ma io sono un'utente Linux: è già tanto che io stia cercando di riparare il mio laptop mezzo scassato, anziché andare dicendo in giro che è il migliore computer che si possa usare; figurati se mi interessa che sia brutto o meno, se funziona va bene.
@@ -71,19 +71,19 @@ Le possibilità che esca un qualcosa di orribilmente brutto sono alte, ma io son
 Non mi perdo d'animo, e vedo di iniziare a svitare le innumerevoli viti che tengono la scocca del portatile insieme, e separo le sezioni di plastica. Poi scollego i 3 cavi flex di tasto power, tastiera, e touchpad, e sollevo la parte superiore della scocca. Nulla di nuovo, comunque, dovetti già fare questa procedura quando installai l'SSD.  
 Dopo questa cosa, però, altre viti. _Mannaggia!_ Tutte ste viti, e diventa un casino rimettere tutto a posto. Basta viti.
 
-![Tutte le viti esterne del portatile, estratte e raccolte]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Viti.avif)
+![Tutte le viti esterne del portatile, estratte e raccolte]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Viti.avif)
 
 Ma bisogna continuare. Tolte le viti _(mannaggia!!)_ che tengono insieme la tastiera, in mezzo al supporto esterno di plastica e quello interno di metallo, si può togliere la tastiera vecchia e mettere la nuova, per poi fare tutto il resto al contrario.  
 O quasi.
 
-![I frame di plastica (esterno) e metallo (interno), che servono a tenere insieme la tastiera, separati]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Frame-Tastiera-Smontati.avif)
+![I frame di plastica (esterno) e metallo (interno), che servono a tenere insieme la tastiera, separati]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Frame-Tastiera-Smontati.avif)
 
 ### Lavoretti "già che ci sono"
 
 Visto che c'ero, ho voluto approfittarne anche per pulire un po' la ventola e il suo filtro, che negli anni hanno accumulato polvere, permettendo a meno aria di passare e facendo così che la CPU arrivasse a ben ~50°C in idle.  
 Pensavo più polvere, onestamente, vabbè.
 
-![La ventola smontata, con un po' di polvere tolta e raccolta in una pallina]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Ventola.avif)
+![La ventola smontata, con un po' di polvere tolta e raccolta in una pallina]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Ventola.avif)
 
 Ho anche controllato al volo (forse, troppo al volo) la pasta termica.  
 Per farlo, ho dovuto capovolgere la scheda madre, dopo aver tolto ancora altre viti. Si intravedeva un po' della pasta fuori dal perimetro di CPU, e quel poco che ho visto non mi è sembrato particolarmente secco. Non so effettivamente ogni quanto andrebbe davvero cambiata la pasta termica, se non è secchissima, quindi ho lasciato stare.  
@@ -98,7 +98,7 @@ Si vede che continuerò ad usare la scheda audio USB (6€ su Amazon) per usare 
 
 Un po' a fatica, rimonto tutto, e ammiro il nuovo stato del PC - il quale tra l'altro, in idle dopo l'avvio, ora che ho pulito la ventola, arriva a ~40°C, direi decisamente meglio di prima!
 
-![Il portatile rimontato e acceso, con in vista sia la nuova tastiera, che quella vecchia (appoggiata sopra), oltre al mio desktop]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Portatile-Rimontato-Acceso.avif)
+![Il portatile rimontato e acceso, con in vista sia la nuova tastiera, che quella vecchia (appoggiata sopra), oltre al mio desktop]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Portatile-Rimontato-Acceso.avif)
 
 Che dire, si vede proprio che uso GNU+Linux.  
 Non solo ora il portatile ha un contrasto estetico bruttino (ma almeno funziona!), ma nella foto si vede com'era la vecchia tastiera bianca: lercia e ingiallita. Oh, almeno faceva pendant con il tema del mio emulatore terminale, solarizzato chiaro - faceva e non fa più, purtroppo, un po' mi dispiace.
@@ -107,7 +107,7 @@ Riguardo la vecchia tastiera, devo mettere in chiaro che la plastica del tasto W
 Questo è anche il motivo per cui non tenterò di staccare i segnalettere neri dalla nuova tastiera per metterci i vecchi bianchi al loro posto.. non vale la pena rischiare di rompere qualche tasto.  
 Piccolo **bonus**: una foto del fondo della vecchia tastiera.. il tasto W è **effettivamente sfondato**.
 
-![Dettaglio del fondo/retro della vecchia tastiera, con un buco in corrispondenza del tasto W. La zona circostante ha un dislivello di pochi centimetri di diametro, di profondità appena percettibile ad occhio nudo. Si vedono anche segni di affondo nel metallo attorno al buco, circa del diametro di uno spillo]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Vecchia-Tastiera-Sfondata.avif)
+![Dettaglio del fondo/retro della vecchia tastiera, con un buco in corrispondenza del tasto W. La zona circostante ha un dislivello di pochi centimetri di diametro, di profondità appena percettibile ad occhio nudo. Si vedono anche segni di affondo nel metallo attorno al buco, circa del diametro di uno spillo]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Vecchia-Tastiera-Sfondata.avif)
 
 ## La scelta giusta
 
@@ -116,7 +116,7 @@ Mi pento solo di non averla comprata prima.
 
 Un particolare curioso, ma che non mi fa assolutamente pensare di aver fatto una scelta errata, è il fatto che un'area di tasti sulla sinistra non sia esattamente a livello con tutti gli altri. Non sembra essere un problema nel pratico ma, esteticamente, boh, mi fa ridere.
 
-![I tasti più a sinistra (da W ad F) della nuova tastiera, che appaiono appena leggermente affondati verso l'interno in un angolo]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Tasti-Affondati.avif)
+![I tasti più a sinistra (da W ad F) della nuova tastiera, che appaiono appena leggermente affondati verso l'interno in un angolo]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Riparazione-Aspire-V3-572G/Tasti-Affondati.avif)
 
 Non buttate i vostri laptop, se hanno qualche piccolo problema che può essere risolto facilmente e spendendo poco.  
 Se si rompe la tastiera, si cambia quella; se Windows diventa insopportabilmente lento, si installa una distribuzione Linux (GNU è raccomandato, ma non obbligatorio!) conforme alle proprie esigenze.  

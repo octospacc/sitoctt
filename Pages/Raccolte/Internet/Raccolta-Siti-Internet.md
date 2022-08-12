@@ -26,7 +26,7 @@ Link testuale:
 </code></pre>
 
 Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
-![✨ sitoctt ✨]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png)  
+![✨ sitoctt ✨]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png)  
 <pre class="CodeScroll"><code>
 &lt;a
 	href="https://sitoctt.octt.eu.org"
@@ -53,7 +53,7 @@ Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anch
 Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 🇮🇹 astral town  
-![serimemo]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Serimemo.png)  
+![serimemo]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Serimemo.png)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
 Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 
@@ -72,7 +72,7 @@ Clearweb: [francescomasala.me](https://francescomasala.me){[:MdTgtBlankNofw:]}
 ## Miscellanea
 
 - 🇬🇧 The Yesterweb  
-![Yesterweb]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Yesterweb.png)  
+![Yesterweb]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Yesterweb.png)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
 Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
 

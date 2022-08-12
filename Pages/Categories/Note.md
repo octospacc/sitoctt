@@ -4,4 +4,4 @@
 
 # <span class="twa twa-memo"><span>📝️</span></span> Note
 
-<div><span>[HTML:Category:Note]</span></div>
+<div><span>[staticoso:Category:Note]</span></div>

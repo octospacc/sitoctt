@@ -4,4 +4,4 @@
 
 # <span class="twa twa-recycling-symbol"><span>♻️</span></span> Ecologia
 
-<div><span>[HTML:Category:Ecologia]</span></div>
+<div><span>[staticoso:Category:Ecologia]</span></div>

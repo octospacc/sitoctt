@@ -6,4 +6,4 @@
 
 _Nota: I contenuti negli archivi possono aver subito redazioni non segnalate._
 
-<div><span>[HTML:Category:MicroBlog]</span></div>
+<div><span>[staticoso:Category:MicroBlog]</span></div>

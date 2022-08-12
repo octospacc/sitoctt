@@ -7,7 +7,7 @@
 
 Qualche mese fa comprai un piccolo [pannello solare monocristallino](https://www.amazon.it/Lixada-Pannello-Monocristallino-Caricabatterie-Cellulare/dp/B071Z1LGFV){[:MdTgtBlank:]} online, dalle dimensioni simili a quelle di un foglio A4, per la cifra di circa 20€ (su Amazon.it i venditori sono tutti ladri, su Aliexpress sarebbe costato un pochino in meno).
 
-[![Schermata di una foto inviata in chat. La foto mostra il pannello nella sua scatola di cartone. La didascalia recita "❗️ L'ENEL la odia! ⚠️ Scopri come la Dea dello Spacc ha iniziato il lento ma proficuo percorso per l'indipendenza energetica! ➡️ @spacccraft".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/SpaccCraft-975.png)](https://t.me/SpaccCraft/975){[:MdTgtBlank:]}
+[![Schermata di una foto inviata in chat. La foto mostra il pannello nella sua scatola di cartone. La didascalia recita "❗️ L'ENEL la odia! ⚠️ Scopri come la Dea dello Spacc ha iniziato il lento ma proficuo percorso per l'indipendenza energetica! ➡️ @spacccraft".]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/SpaccCraft-975.png)](https://t.me/SpaccCraft/975){[:MdTgtBlank:]}
 
 ## Dubbi elettrici
 
@@ -37,7 +37,7 @@ Provando la stessa formula subito dopo, ma con il telefono spento, mi pare che i
 
 L'ultimo test l'ho fatto verso le 14, quando il cielo si era purtroppo scurito. Ho appoggiato il pannellino su un piano e ho usato il telefono normalmente, ascoltando musica e credo usando app di messaggistica online. Come sospettavo, non si è ricaricato, ma almeno è stato quasi senza scaricarsi, il che è comunque buono considerate le condizioni atmosferiche.
 
-![Schermata di una foto inviata in chat. La foto mostra il pannello appoggiato sul tettuccio di un'auto parcheggiata, con un cavo collegato che scende giù. La didascalia recita "La nostra macchina è parcheggiata e io ci appoggio il pannello solare sopra".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/OctoVoLTE-16754.png)
+![Schermata di una foto inviata in chat. La foto mostra il pannello appoggiato sul tettuccio di un'auto parcheggiata, con un cavo collegato che scende giù. La didascalia recita "La nostra macchina è parcheggiata e io ci appoggio il pannello solare sopra".]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/OctoVoLTE-16754.png)
 
 ### Guardiamo oltre..
 
@@ -65,7 +65,7 @@ Ho ben pensato, come prima cosa, di configurare BOINC su Raspbian, un software d
 Come ho già detto, il Raspino va alimentato dal powerbank, il pannello direttamente non gli da abbastanza corrente. Sembra che si accenda, ma in realtà pare vada in bootloop.  
 Bene, non ci girerò attorno troppo: mentre (con lo stesso powerbank, quello di credo 4000mAh) per alcune applicazioni a basso carico, come [Pwnagotchi](https://pwnagotchi.ai/){[:MdTgtBlank:]}, il Pi riesce a stare acceso per ore anche con uno schermo LCD retroilluminato collegato... la CPU al 100%, che svolge calcoli complessi, mangia tanta di quella corrente che la batteria si appiattisce in appena 1 ora.
 
-[![Schermata di un mio toot. La foto mostra il pannello appeso sul mio balcone con dei ganci, con un cavo che lo collega al Rasperino fissato al pannello stesso. Il testo recita "#RasperinoVitaEcologica Ho fissato il Pi al mio pannellino solare con gli elastici di stoffa delle mascherine usa e getta (prima di buttarle, stacco gli elastici, li lavo, e li conservo), e pare avere appena la corrente che gli serve per funzionare al pomeriggio. Oggi ho flashato la nuova SD con Raspbian, per ora scelgo di usare l'accrocco per eseguire #BOINC, strumento per il calcolo distribuito con cui si può donare potenza di calcolo a progetti scientifici. Domani si testa come va su BOINC".]([HTML:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161){[:MdTgtBlank:]}
+[![Schermata di un mio toot. La foto mostra il pannello appeso sul mio balcone con dei ganci, con un cavo che lo collega al Rasperino fissato al pannello stesso. Il testo recita "#RasperinoVitaEcologica Ho fissato il Pi al mio pannellino solare con gli elastici di stoffa delle mascherine usa e getta (prima di buttarle, stacco gli elastici, li lavo, e li conservo), e pare avere appena la corrente che gli serve per funzionare al pomeriggio. Oggi ho flashato la nuova SD con Raspbian, per ora scelgo di usare l'accrocco per eseguire #BOINC, strumento per il calcolo distribuito con cui si può donare potenza di calcolo a progetti scientifici. Domani si testa come va su BOINC".]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161){[:MdTgtBlank:]}
 
 _Psssss.. se vuoi vedere altre foto del pannello (3) e in qualità un po' più decente, le ho messe su Pixelfed: [pixelfed.uno/p/octo/426839557817260168](https://pixelfed.uno/p/octo/426839557817260168){[:MdTgtBlank:]}!_
 

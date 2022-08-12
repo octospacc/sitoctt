@@ -4,4 +4,4 @@
 
 # <span class="twa twa-globe-with-meridians"><span>🌐️</span></span> Internet
 
-<div><span>[HTML:Category:Internet]</span></div>
+<div><span>[staticoso:Category:Internet]</span></div>

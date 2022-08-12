@@ -4,4 +4,4 @@
 
 # <span class="twa twa-mobile-phone"><span>📱️</span></span> Mobile
 
-<div><span>[HTML:Category:Mobile]</span></div>
+<div><span>[staticoso:Category:Mobile]</span></div>
