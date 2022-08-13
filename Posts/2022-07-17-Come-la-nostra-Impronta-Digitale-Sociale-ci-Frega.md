@@ -1,7 +1,7 @@
-// Title: 🥸️ Come la nostra impronta digitale sociale ci frega
-// HTMLTitle: <span class="twa twa-disguised-face"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci frega
-// Categories: Blog
-// CreatedOn: 2022-07-17
+// % Title: 🥸️ Come la nostra impronta digitale sociale ci frega
+// % HTMLTitle: <span class="twa twa-disguised-face"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci frega
+// % Categories: Blog
+// % CreatedOn: 2022-07-17
 
 # <span class="twa twa-disguised-face"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci frega
 

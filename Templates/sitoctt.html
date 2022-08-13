@@ -18,25 +18,25 @@
 	<style>
 		[staticoso:Page:Style]
 	</style>
-	[staticoso:ContextPart:*/Head]
+	[staticoso:DynamicPart:*/Head]
 	<script src="[staticoso:Site:RelativeRoot]Assets/AVIF-Polyfill/index.js"></script>
 </head>
 <body id="Body">
 <div id="Header">
-	[staticoso:ContextPart:*/Header]
+	[staticoso:DynamicPart:*/Header]
 </div>
 <div id="Container">
 	<div id="TopBox">
-		[staticoso:Part:Standard/TopBox.html]
+		[staticoso:StaticPart:Standard/TopBox.html]
 	</div>
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
 			<details>
 				<summary><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></summary>
 				<div id="LeftBox">
-					[staticoso:Part:Standard/LeftBoxTop.html]
+					[staticoso:StaticPart:Standard/LeftBoxTop.html]
 					[staticoso:Site:Menu]
-					[staticoso:Part:Standard/LeftBoxBottom.html]
+					[staticoso:StaticPart:Standard/LeftBoxBottom.html]
 				</div>
 			</details>
 		</div>
@@ -56,10 +56,10 @@
 			<div id="MainBoxBottom">
 				[staticoso:Comments]
 				<br>
-				[staticoso:ContextPart:*/Footer]
+				[staticoso:DynamicPart:*/Footer]
 				<br>
 				<div id="MainBoxGlobalFooter" class="Pixelated">
-					[staticoso:Part:Standard/Footer.html]
+					[staticoso:StaticPart:Standard/Footer.html]
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label"><span>🏷️</span></span>]</b></big></label>
 		<input type="checkbox" id="BottomBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
-			[staticoso:Part:Standard/BottomBox.html]
+			[staticoso:StaticPart:Standard/BottomBox.html]
 		</div>
 	</div>
 	<div id="PrivacyPopup">

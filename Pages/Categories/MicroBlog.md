@@ -1,6 +1,6 @@
-// Title: 📒 MicroBlog
-// HTMLTitle: <span class="twa twa-ledger"><span>📒</span></span> MicroBlog
-// Index: True
+// % Title: 📒 MicroBlog
+// % HTMLTitle: <span class="twa twa-ledger"><span>📒</span></span> MicroBlog
+// % Index: True
 
 # <span class="twa twa-ledger"><span>📒</span></span> MicroBlog
 

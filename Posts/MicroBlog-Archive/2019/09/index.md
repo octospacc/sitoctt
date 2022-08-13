@@ -1,4 +1,4 @@
-// Categories: MicroBlog
+// % Categories: MicroBlog
 
 ## Archivi MicroBlog di Settembre 2019
 

@@ -1,5 +1,5 @@
-// Categories: Note
-// CreatedOn: 2022-08-09
+// % Categories: Note
+// % CreatedOn: 2022-08-09
 
 # Controllare statistiche interessanti e sulla salute di partizioni su Linux
 

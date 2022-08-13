@@ -259,6 +259,7 @@ H3:hover {
 	Bottom: 64px;
 	Right: Calc(Var(--ContentPadding) * 2);
 	Padding: Var(--ContentPadding);
+	Padding-Bottom: Calc(Var(--ContentPadding) * 2);
 }
 #MainBoxGlobalFooter,
 #StatCounter,

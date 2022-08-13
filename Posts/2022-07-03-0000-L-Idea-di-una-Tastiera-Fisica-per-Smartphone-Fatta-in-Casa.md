@@ -1,8 +1,8 @@
-// Title: ⌨️ L'idea di una tastiera fisica per smartphone fatta in casa
-// HTMLTitle: <span class="twa twa-keyboard"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
-// Categories: Blog Tecnologia Mobile DIY
-// CreatedOn: 2022-07-03
-// Image: [staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Cover-Tastiera-mobilefun.com.avif
+// % Title: ⌨️ L'idea di una tastiera fisica per smartphone fatta in casa
+// % HTMLTitle: <span class="twa twa-keyboard"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
+// % Categories: Blog Tecnologia Mobile DIY
+// % CreatedOn: 2022-07-03
+// % Image: [staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Cover-Tastiera-mobilefun.com.avif
 
 # <span class="twa twa-keyboard"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
 

@@ -3,12 +3,13 @@
 python3 staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
-	--ContextParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html']}" \
+	--DynamicParts="{'Head':['Privacy.html','Twemoji.html'], 'Footer':['StatCounter.html']}" \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken" \
 	--SitemapOut=True \
 	--GemtextOut=True \
-	--GemtextHeader="# sitoctt
+	--GemtextHeader="\
+# sitoctt
 Alcune informazioni importanti sono disponibili su:
 => /octt/index.gmi octocapsula/index
 

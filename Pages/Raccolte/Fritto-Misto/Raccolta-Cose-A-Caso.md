@@ -1,5 +1,5 @@
-// Categories: Fritto-Misto
-// Index: Categories
+// % Categories: Fritto-Misto
+// % Index: Categories
 
 # Raccolta Cose a Caso
 

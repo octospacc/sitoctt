@@ -1,6 +1,6 @@
-// Title: 📡 Tecnologia
-// HTMLTitle: <span class="twa twa-satellite-antenna"><span>📡</span></span> Tecnologia
-// Index: True
+// % Title: 📡 Tecnologia
+// % HTMLTitle: <span class="twa twa-satellite-antenna"><span>📡</span></span> Tecnologia
+// % Index: True
 
 # <span class="twa twa-satellite-antenna"><span>📡</span></span> Tecnologia
 

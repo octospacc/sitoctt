@@ -6,7 +6,9 @@ python3 ../staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
 	--Minify="False" \
-	--GemtextHeader="# Spacc
+	--DynamicParts="{'Head':['Privacy.html']}" \
+	--GemtextHeader="\
+# Spacc
 
 " #\
 	#--GemtextOut=True #\

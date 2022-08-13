@@ -1,6 +1,6 @@
-// Title: 🦄 Fritto Misto
-// HTMLTitle: <span class="twa twa-unicorn"><span>🦄</span></span> Fritto Misto
-// Index: True
+// % Title: 🦄 Fritto Misto
+// % HTMLTitle: <span class="twa twa-unicorn"><span>🦄</span></span> Fritto Misto
+// % Index: True
 
 # <span class="twa twa-unicorn"><span>🦄</span></span> Fritto Misto
 

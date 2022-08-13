@@ -1,7 +1,7 @@
-// Title: 💰 Donazioni
-// HTMLTitle: <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
-// Index: True
-// Order: 25
+// % Title: 💰 Donazioni
+// % HTMLTitle: <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
+// % Index: True
+// % Order: 25
 
 # <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
 
