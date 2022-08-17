@@ -159,6 +159,7 @@ H3:hover {
 	Padding: Var(--ContentPadding);
 }
 #RightBox, #RightBoxContainer {
+	Float: Right;
 	Padding: Var(--ContentPadding);
 }
 #RightBox {

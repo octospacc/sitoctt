@@ -25,8 +25,13 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-17] Lavoro poco ottimale</summary>
+È il mio stato corrente, dove vorrei avere tutta la mia roba di codice sempre perfettamente sincronizzata tra tutti i dispositivi, incluso lo Ximi. Ho chiesto consigli [qui](https://feddit.it/post/44715){[:MdTgtBlank:]} e qualcosa di buono ho già preso, vedremo in cosa andrò a finire.
+</details>
+
+<details markdown="1">
 <summary>[2022-08-13] Vecchi articoli e vecchi temi</summary>
-Vorrei iniziare ad importare articoli dal mio vecchio blog, perché lì non sono ben preservati. Il primo che già ripropongo è l'ultimo pubblicato lì: [Gli inaspettati vantaggi della chiavetta Linux](./Posts/Archive/2022-05-07-Gli-Inaspettati-Vantaggi-della-Chiavetta-Linux.html). Si, con (quasi) la stessa veste grafica che avevo sul vecchio blog, anziché con quello del resto del sitocto; con staticoso posso questo ed altro.
+Vorrei iniziare ad importare articoli dal mio vecchio blog, perché lì non sono ben preservati. Il primo che già ripropongo è l'ultimo pubblicato lì: [Gli inaspettati vantaggi della chiavetta Linux](./Posts/Archive/2022-05-07-Gli-Inaspettati-Vantaggi-della-Chiavetta-Linux.html). Si, con (quasi) la stessa veste grafica che avevo sul vecchio blog, anziché con quella del resto del sitocto; con staticoso posso questo ed altro.
 </details>
 
 <details markdown="1">
