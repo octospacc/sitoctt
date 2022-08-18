@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-18] Fallimento P2P</summary>
+Chi sul sitocto naviga con attenzione avrà forse notato che, circa una settimana fa, avevo incluso una [libreria JS non aggiornata da 4 anni](https://github.com/xuset/planktos){[:MdTgtBlank:]}, che avrebbe dovuto rendere il sito automaticamente distribuito via BitTorrent. Ecco, non c'è più: non solo non funzionava, ma non faceva più caricare il sito se attivata..
+</details>
+
+<details markdown="1">
 <summary>[2022-08-17] Lavoro poco ottimale</summary>
 È il mio stato corrente, dove vorrei avere tutta la mia roba di codice sempre perfettamente sincronizzata tra tutti i dispositivi, incluso lo Ximi. Ho chiesto consigli [qui](https://feddit.it/post/44715){[:MdTgtBlank:]} e qualcosa di buono ho già preso, vedremo in cosa andrò a finire.
 </details>
