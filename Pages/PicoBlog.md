@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-20] 3 mesi</summary>
+Solo oggi ci ho fatto caso: 3 mesi fa (meno 3 giorni) nasceva il sitocto - anzi, il postocto. Questo tempo è volato, ma se riguardo indietro c'è molto da dire; aspettatevi l'articol**octo** 🙃
+</details>
+
+<details markdown="1">
 <summary>[2022-08-18] Fallimento P2P</summary>
 Chi sul sitocto naviga con attenzione avrà forse notato che, circa una settimana fa, avevo incluso una [libreria JS non aggiornata da 4 anni](https://github.com/xuset/planktos){[:MdTgtBlank:]}, che avrebbe dovuto rendere il sito automaticamente distribuito via BitTorrent. Ecco, non c'è più: non solo non funzionava, ma non faceva più caricare il sito se attivata..
 </details>
