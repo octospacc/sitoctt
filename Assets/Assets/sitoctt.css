@@ -46,6 +46,9 @@ Details Div Details {
 	Margin: 8px;
 	Padding: 4px;
 }
+Summary > h1, Summary > h2, Summary > h3, Summary > h4, Summary > h5, Summary > h6 {
+	Display: Inline;
+}
 
 .NoDisplay {
 	Display: None;

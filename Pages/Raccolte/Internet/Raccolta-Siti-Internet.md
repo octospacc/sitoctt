@@ -14,7 +14,8 @@ Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai
 ## Il mio..
 
 Se il mio sito ti piace, e ne hai anche tu uno con una pagina simile a questa lista dove vuoi consigliarlo, puoi linkarlo, come link testuale o anche come bottone 88x31!  
-Seguono i codici HTML che puoi copiare e incollare.
+Seguono i codici HTML che puoi copiare e incollare.  
+(_Sono formattati in maniera **particolare** perché l'andare a capo può causare problemi di spaziatura nella visualizzazione; l'unica alternativa a ciò che ho fatto sarebbe di lasciare tutto su una sola riga._)
 
 Link testuale:  
 ✨ sitoctt ✨  
