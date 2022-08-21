@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-21] E quando l'articolocto?</summary>
+Da cosa ho iniziato a scrivere ieri è uscita fuori na roba che non finisce più, quindi va spezzettata in diversi articoli. Il primo potrei già pubblicarlo stasera, ma meglio lasciarlo a decantare una giornata, sia mai mi vengano idee da aggiungere.
+</details>
+
+<details markdown="1">
 <summary>[2022-08-20] 3 mesi</summary>
 Solo oggi ci ho fatto caso: 3 mesi fa (meno 3 giorni) nasceva il sitocto - anzi, il postocto. Questo tempo è volato, ma se riguardo indietro c'è molto da dire; aspettatevi l'articol**octo** 🙃
 </details>
