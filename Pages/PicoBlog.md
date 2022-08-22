@@ -25,6 +25,13 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1">
+<summary>[2022-08-22] Risolvere.</summary>
+Il sitoctt è dalla sua creazione no-bloat ed efficiente. Eccetto per una (1) risorsa caricata: il [CSS per le emoji](https://octtspacc.gitlab.io/sitoctt-assets/twemoji-amazing.min.css){[:MdTgtBlank:]}. Spreca 400KB di traffico, non va bene, ma ho già qualche idea per risolvere.
+
+![Schermata "Rete" degli strumenti sviluppatore di Firefox, che mostra i file più grossi caricati dalla home.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/Firefox-Devtools-sitoctt-index.html-2022-08-22-23-56-53.avif)
+</details>
+
+<details markdown="1">
 <summary>[2022-08-21] E quando l'articolocto?</summary>
 Da cosa ho iniziato a scrivere ieri è uscita fuori na roba che non finisce più, quindi va spezzettata in diversi articoli. Il primo potrei già pubblicarlo stasera, ma meglio lasciarlo a decantare una giornata, sia mai mi vengano idee da aggiungere.
 </details>

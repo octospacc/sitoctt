@@ -49,7 +49,7 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
 - <span style='Color:#FFA020;'>Friendica</span>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
 - <span style='Color:#3088D4;'>Mastodon</span>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
-- <span style='Color:#2D2D2D;'>Matrix</span>: [@octt:octt.ddns.net](https://matrix.to/#/@octt:octt.ddns.net){[:MdTgtBlank:]}
+- ~~<span style='Color:#2D2D2D;'>Matrix</span>: [@octt:octt.ddns.net](https://matrix.to/#/@octt:octt.ddns.net){[:MdTgtBlank:]}~~ (_Temporaneamente offline_)
 
 # Fine?
 

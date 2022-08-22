@@ -166,10 +166,12 @@ H3:hover {
 }
 #LeftBox, #LeftBoxContainer {
 	Float: Left;
+	Left: Var(--ContentPadding);
 	Padding: Var(--ContentPadding);
 }
 #RightBox, #RightBoxContainer {
 	Float: Right;
+	Right: Var(--ContentPadding);
 	Padding: Var(--ContentPadding);
 }
 #RightBox {
@@ -233,6 +235,9 @@ H3:hover {
 	Text-Align: Right;
 	Padding: Var(--ContentPadding);
 	Z-Index: -1;
+}
+#LeftBoxContainer, #RightBoxContainer {
+	Position: Absolute;
 }
 #LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer {
 	Color: #808080;
