@@ -73,7 +73,7 @@ Table Td, Table Th, Table Tr  {
 .ScrollBorderBox {
 	Padding: 8px;
 }
-.Code, Code, Pre Code, Pre.Code, .CodeScroll {
+.Code, Code:Not(.NoCode), Pre Code:Not(.NoCode), Pre.Code, .CodeScroll {
 	Color: #fafaf0;
 	Background: #300030;
 }
@@ -88,10 +88,10 @@ Pre.Code, .CodeScroll {
 	Padding-Bottom: 16px;
 }
 
-#MainBox > * > A::before,
-#MainBox > * > * > A::before,
-#MainBox > * > * > * > A::before,
-#MainBox > * > * > * > * > A::before {
+#MainBox > * > A::Before,
+#MainBox > * > * > A::Before,
+#MainBox > * > * > * > A::Before,
+#MainBox > * > * > * > * > A::Before {
 	Content: '🔗 ';
 }
 
@@ -113,6 +113,13 @@ A:hover:not(
 .ImgShiftedH, .ImgShiftedH Img {
 	Margin-Top: 4px;
 	Margin-Bottom: -4px;
+}
+
+.CCIcons > img, .CCIcon {
+	display: inline !important;
+	height: 1em !important;
+	margin-left: 3px;
+	vertical-align: sub;
 }
 
 Details > Summary:hover {

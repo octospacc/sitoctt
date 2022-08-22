@@ -18,24 +18,25 @@ Seguono i codici HTML che puoi copiare e incollare.
 (_Sono formattati in maniera **particolare** perché l'andare a capo può causare problemi di spaziatura nella visualizzazione; l'unica alternativa a ciò che ho fatto sarebbe di lasciare tutto su una sola riga._)
 
 Link testuale:  
-✨ sitoctt ✨  
+✨sitoctt✨  
 <pre class="CodeScroll"><code>
 &lt;a
 	href="https://sitoctt.octt.eu.org"
 	target="_blank" rel="noopener nofollow"
-&gt;✨ sitoctt ✨&lt;/a&gt;
+&gt;✨sitoctt✨&lt;/a&gt;
 </code></pre>
 
 Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
-![✨ sitoctt ✨]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Sitoctt-1.png)  
+![✨sitoctt✨]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/sitoctt-1.png)  
+_L'immagine è in formato PNG e già compressa il più possibile._  
 <pre class="CodeScroll"><code>
 &lt;a
 	href="https://sitoctt.octt.eu.org"
 	target="_blank" rel="noopener nofollow"
 &gt;&lt;img
 	style="image-rendering:pixelated; -ms-interpolation-mode:nearest-neighbor;"
-	alt="✨ sitoctt ✨" title="✨ sitoctt ✨"
-	src="https://octtspacc.gitlab.io/sitoctt-assets/Buttons/Sites/Sitoctt-1.png"
+	alt="✨sitoctt✨" title="✨sitoctt✨"
+	src="https://octtspacc.gitlab.io/sitoctt-assets/Media/Buttons/Sites/sitoctt-1.png"
 &gt;&lt;/a&gt;
 </code></pre>
 
@@ -54,7 +55,7 @@ Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anch
 Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 🇮🇹 astral town  
-![serimemo]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Serimemo.png)  
+![serimemo]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/serimemo.gif)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
 Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 
@@ -73,7 +74,7 @@ Clearweb: [francescomasala.me](https://francescomasala.me){[:MdTgtBlankNofw:]}
 ## Miscellanea
 
 - 🇬🇧 The Yesterweb  
-![Yesterweb]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Buttons/Sites/Yesterweb.png)  
+![Yesterweb]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/Yesterweb.gif)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
 Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
 

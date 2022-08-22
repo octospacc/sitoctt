@@ -56,6 +56,6 @@ Sarà privato di default, quindi non attribuirò mai l'identità della persona c
 Ancora non so se riporterò in generale tutte le donazioni, includendo quindi anche quelle anonime ma semplicemente senza specificare ad opera di chi sono; oppure menzionerò solo quelle di persone che vogliono avere i loro crediti, evitando di scrivere le altre. Magari deciderò quando arriverà la prima donazione anonima? :)
 
 ...  
-```
+<code class='NoCode'>
 ... nessun'anima ha ancora donato neanche una lira alla loli, dolore.
-```
+</code>
