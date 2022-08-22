@@ -9,7 +9,14 @@ before_script:
 pages:
   stage: deploy
   script:
-  - ./Scripts/Prepare.GitLab.html2gmi.sh
+  - git clone --depth 1 https://github.com/LukeEmmet/html2gmi
+  - cd html2gmi
+  - go get github.com/LukeEmmet/html2gmi
+  - echo "#!/bin/sh" > ./html2gmi
+  - echo "cd $PWD; go run ." >> ./html2gmi
+  - chmod +x ./html2gmi
+  - PATH=$PATH:$PWD
+  - cd ..
   - git clone --depth 1 https://gitlab.com/octtspacc/staticoso
   - ./Scripts/Deploy.GitLab.sh
   - ./Scripts/Deploy.Gemini.sh
