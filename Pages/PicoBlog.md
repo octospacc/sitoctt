@@ -24,6 +24,12 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 
 <div markdown="1" class="BorderBoxContainer">
 
+<details markdown="1"><summary>
+#### [2022-08-23] Devlogs </summary>
+Per mesi sto, occasionalmente, abusando del PicoBlog come devlog per la roba che faccio. Brutta idea, visto che la scrittura qui va limitata. Quindi, ora di inaugurare la sezione [Devlogs](./Devlogs.html).
+</details>
+
+<!-- #### [2022-08-22] Risolvere. </summary>  -->
 <details markdown="1">
 <summary>[2022-08-22] Risolvere.</summary>
 Il sitoctt è dalla sua creazione no-bloat ed efficiente. Eccetto per una (1) risorsa caricata: il [CSS per le emoji](https://octtspacc.gitlab.io/sitoctt-assets/twemoji-amazing.min.css){[:MdTgtBlank:]}. Spreca 400KB di traffico, non va bene, ma ho già qualche idea per risolvere.
