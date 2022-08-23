@@ -5,7 +5,7 @@ body {
 }
 
 /* Blog title and description */
-#blog-title a, header .description { 
+#blog-title a, header .description, #BuildTimeLine { 
 	color: #FFFFFF !important;
 }
 
@@ -86,6 +86,10 @@ article .e-content {
 	background: #F0F0F0;
 }
 
-#blog-title, header nav {
+#blog-title, #BuildTimeLine , header nav {
 	Font-Family: "Liberation Mono", "Droid Sans Mono", Consolas, Courier, monospace, monospace;
+}
+
+#BuildTimeLine > Span {
+	Display: Inline-Block;
 }

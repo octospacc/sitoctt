@@ -225,8 +225,11 @@ H3:hover {
 	-ms-interpolation-mode: nearest-neighbor;
 }
 
-#MainBoxTop {
+#MainBoxTop, #BuildTimeLine {
 	Color: #505050;
+}
+#BuildTimeLine > Span {
+	Display: Inline-Block;
 }
 #BottomBox {
 	Width: 100%;
