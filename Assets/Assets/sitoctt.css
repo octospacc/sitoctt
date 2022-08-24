@@ -46,7 +46,7 @@ Details Div Details {
 	Margin: 8px;
 	Padding: 4px;
 }
-Summary > h1, Summary > h2, Summary > h3, Summary > h4, Summary > h5, Summary > h6 {
+Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > H6 {
 	Display: Inline;
 }
 
@@ -54,10 +54,10 @@ Summary > h1, Summary > h2, Summary > h3, Summary > h4, Summary > h5, Summary > 
 	Display: None;
 }
 .NoCol {
-	Color: Transparent !important;
+	Color: Transparent !Important;
 }
 A {
-	Color: #d000d0;
+	Color: #D000D0;
 }
 H1, H2, H3, H4, H5, H6 {
 	Color: #503080;
@@ -74,7 +74,7 @@ Table Td, Table Th, Table Tr  {
 	Padding: 8px;
 }
 .Code, Code:Not(.NoCode), Pre Code:Not(.NoCode), Pre.Code, .CodeScroll {
-	Color: #fafaf0;
+	Color: #FAFAF0;
 	Background: #300030;
 }
 .ScrollBorderBox, .CodeScroll {
@@ -88,26 +88,37 @@ Pre.Code, .CodeScroll {
 	Padding-Bottom: 16px;
 }
 
-#MainBox > * > A::Before,
-#MainBox > * > * > A::Before,
-#MainBox > * > * > * > A::Before,
-#MainBox > * > * > * > * > A::Before {
+#MainBox A:not(
+	.NoLinkLink, .NoLinkLink A,
+	.SectionLink A,
+	#StatCounter A,
+	#RingsDiv A
+)::Before {
 	Content: '🔗 ';
 }
 
-.NoLinkLink::before,
-#StatCounter > A::before,
-#RingsDiv > P > A::before {
-	Content: '' !important;
+.SectionLink {
+	Position: Absolute;
+	Left: -1.5em;
+	Opacity: 0.1;
+}
+.SectionLink:Hover {
+	Opacity: 0.8;
+}
+.SectionLink > A::Before {
+	Content: '🔗';
+}
+.SectionLink > A > Span {
+	Font-Size: 0;
 }
 
-A:hover:not(
+A:Hover:Not(
 	H3 > A, H4 > A, H5 > A, H6 > A,
 	.NoABigger, .NoABigger A,
 	.NoHoverLight, .NoHoverLight A
 ) {
-	Color: #eeddff !important;
-	Background: #700070 !important;
+	Color: #EEDDFF !Important;
+	Background: #700070 !Important;
 }
 
 .ImgShiftedH, .ImgShiftedH Img {
@@ -115,11 +126,14 @@ A:hover:not(
 	Margin-Bottom: -4px;
 }
 
-.CCIcons > img, .CCIcon {
-	display: inline !important;
-	height: 1em !important;
-	margin-left: 3px;
-	vertical-align: sub;
+#RingsDiv Img,
+.CCIcons > Img, .CCIcon {
+	Display: Inline !Important;
+	Max-Height: 1em !Important;
+	Vertical-Align: Sub;
+}
+.CCIcons > Img, .CCIcon {
+	Margin-Left: 3px;
 }
 
 Details > Summary:hover {

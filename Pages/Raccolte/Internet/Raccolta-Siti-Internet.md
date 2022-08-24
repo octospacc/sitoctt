@@ -87,6 +87,7 @@ Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto i
 Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 OpenBooks  
+![OpenBooks]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/OpenBooks.gif)  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
 Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
 

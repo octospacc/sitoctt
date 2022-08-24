@@ -4,9 +4,8 @@
 
 <div markdown="1" class="BorderBoxContainer NoImgCenter Img36 ImgSidePadding">
 
-<details markdown="1">
-<summary>[2019-09-18 20:58] Lagwei lazur</summary>
-
+<details markdown="1"><summary>
+#### [2019-09-18 20:58] Lagwei lazur </summary>
 > A.y&#x3A; ooooo  
 > ![Foto del Huawei di A.y, che sembra emettere un laser viola dal sensore di prossimità.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/A.y-Huawei-Laser.avif)
 
@@ -24,12 +23,10 @@
 
 > A.y&#x3A; lo so per esperienza  
 > &#xA0; no non è vero
-
 </details>
 
-<details markdown="1">
-<summary>[2019-09-17 15:16] Test più disparati con il Galaxy Player</summary>
-
+<details markdown="1"><summary>
+#### [2019-09-17 15:16] Test più disparati con il Galaxy Player </summary>
 > &#x3A; Good Lagsung  
 > ![Foto del Galaxy Player, che mostra il canale Telegram in Plus Messenger.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
 
@@ -107,12 +104,10 @@
 > <video controls><source src="[staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/GP3.6-N64-Misc.webm" type="video/webm">N64</video>
 
 > &#x3A; Vabbè per ora basta test sul Lagsung
-
 </details>
 
-<details markdown="1">
-<summary>[2019-09-16 18:35] Memewei memoria piena</summary>
-
+<details markdown="1"><summary>
+#### [2019-09-16 18:35] Memewei memoria piena </summary>
 > !["Schermata del P9 Lite Mini che dice che la memoria è quasi piena e ciò rallenterebbe il dispositivo."]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/P9-Lite-Mini/Memewei-Memoria-Piena.avif)
 
 > &#x3A; Il Memewei si dimostra valido kek
@@ -124,12 +119,10 @@
 > &#x3A; Ma il Lagsoong può avere anche solo 1 KB libero e non rompe con popup cinesi
 
 Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo solo ~100 MB liberi sulla memoria interna, fa uscire circa ogni 3 minuti questo popup, che fastidioso è dire poco. E credetemi, è facile riempire la memoria di uno smartphone con Android 7 che, tolto lo spazio occupato dai componenti di sistema, ha solo 7,5 GB di spazio disponibile all'utente.
-
 </details>
 
-<details markdown="1">
-<summary>[2019-09-16 18:24] Brick e rinascita del Galaxy Player</summary>
-
+<details markdown="1"><summary>
+#### [2019-09-16 18:24] Brick e rinascita del Galaxy Player </summary>
 > &#x3A; Allora, come saprete oggi ho sbrickato il Lagsung, e la memoria interna non si è formattata
 
 > &#x3A; Ciò significa che ho trovato mondi [di Minecraft, ndr] risalenti al 2013 e oltre, che non ricordavo esistessero
@@ -190,12 +183,10 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 
 > &#x3A; E niente sar, questo è il Lagsoong di nuovo in vita dopo un anno di coma  
 > ![Foto della schermata di blocco del Galaxy Player, con uno sfondo di Astolfo non-canon.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
-
 </details>
 
-<details markdown="1">
-<summary>[2019-09-16 18:14] L'inizio di OctoVoLTE</summary>
-
+<details markdown="1"><summary>
+#### [2019-09-16 18:14] L'inizio di OctoVoLTE </summary>
 > &#x3A; Allora, su questo canale ci saranno cose del Lagsung
 
 > &#x3A; E Memewei, ma forse anche Xiaomeme
@@ -205,7 +196,6 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 > ![VoLTE]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/phh-VoLTE-JiOwO.avif)
 
 Da questi messaggi ebbe ufficialmente inizio la storia di OctoVoLTE. Di Memewei se n'è parlato lì in questi anni, forse anche troppo; Di metodi per avere VoLTE, non se n'è avuto nemmeno uno, tipo. Sad.
-
 </details>
 
 </div>
