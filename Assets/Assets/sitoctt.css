@@ -105,6 +105,7 @@ Pre.Code, .CodeScroll {
 	Left: -1.5em;
 	Opacity: 0.1;
 }
+.SectionLink:Target,
 .SectionLink:Hover {
 	Opacity: 0.8;
 }
