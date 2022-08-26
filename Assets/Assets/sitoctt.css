@@ -70,16 +70,19 @@ Table Td, Table Th, Table Tr  {
 	Border: 2px Solid Purple;
 	Padding: 4px;
 }
-.ScrollBorderBox {
+
+.ScrollBox, .ScrollBorderBox {
 	Padding: 8px;
 }
 .Code, Code:Not(.NoCode), Pre Code:Not(.NoCode), Pre.Code, .CodeScroll {
 	Color: #FAFAF0;
 	Background: #300030;
 }
+.ScrollBox, .ScrollBorderBox, .CodeScroll {
+	Overflow-X: Auto;
+}
 .ScrollBorderBox, .CodeScroll {
 	Border: 2px Solid Purple;
-	Overflow-X: Auto;
 }
 Pre.Code, .CodeScroll {
 	Padding-Left: 8px;

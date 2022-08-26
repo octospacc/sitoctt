@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-08-26] 1 mese senza blogocto </summary>
+Mamma mia agosto! Ha fatto andare un po' a rotoli i miei piani di scrittura, non ho mai avuto abbastanza tempo calmo e adatto per la scrittura ben fatta. Vabbè, dichiariamo finito questo ciclo lunare, è uscito [📈 il nuovo articoloctt](./Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html).
+</details>
+
+<details markdown="1"><summary>
 #### [2022-08-24] La home si rinnova </summary>
 **E non oso spoilerare oltre! Né quando, né come! 🤫️** Ma sappiate però che roba bolle in pentola.
 </details>
