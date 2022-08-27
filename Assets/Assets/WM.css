@@ -1,0 +1,108 @@
+/*--------------------------------------------------------*
+ *    Costanti Globali                                    *
+ *--------------------------------------------------------*/
+
+:Root {
+	--WindowPadding: 4px;
+	--TitleBarHeight: 28px;
+	--TaskBarHeight: 36px;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+Body {
+	Margin: 0;
+	Padding: 0;
+	Overflow-Y: Hidden;
+}
+
+
+
+/*--------------------------------------------------------*
+ *    Window Manager                                      *
+ *--------------------------------------------------------*/
+
+.Window {
+	Margin: Var(--WindowPadding);
+	Border: Solid 2px;
+	Color: #000000;
+	Background: #FFFFFF;
+}
+.WindowContent {
+	Min-Width: 100%;
+	Padding: Var(--WindowPadding);
+	Overflow-Y: Auto;
+}
+.Window:Hover {
+	Z-Index: 128 !important;
+}
+
+.TitleBar {
+	Padding: Var(--WindowPadding);
+	Color: #FFFFFF;
+	Background: #000000;
+	Text-Align: Center;
+	Vertical-Align: Top;
+	Max-Height: Var(--TitleBarHeight);
+}
+.TitleBar span:nth-child(1) {
+	Float: Left;
+}
+.TitleBar span:nth-child(3) {
+	Float: Right;
+}
+
+.TaskBar {
+	Width: 100%;
+	Color: #FFFFFF;
+	Background: #000000;
+	Position: Fixed;
+	Bottom: 0px;
+	Padding: Var(--WindowPadding);
+	Max-Height: Var(--TaskBarHeight);
+	Z-Index: 256;
+}
+.MenuButton {
+	Display: Inline-Block;
+	Min-Height: 100%;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Fritto Misto - Andrebbe ordinato                    *
+ *--------------------------------------------------------*/
+
+* {
+    Box-Sizing: Border-Box;
+}
+
+#MainWindow {
+	Width: 80vw;
+	Position: Absolute;
+	Top: 16px;
+	Right: 16px;
+	Max-Height: 80vh;
+	Z-Index: 16;
+}
+#MainWindow > .WindowContent {
+	Max-Height: Calc(80vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowPadding));
+}
+
+#TitlesWindow {
+	Width: 50vw;
+	Position: Absolute;
+	Top: 80px;
+	Left: 16px;
+	Max-Height: 50vh;
+	Z-Index: 8;
+}
+#TitlesWindow > .WindowContent {
+	Max-Height: Calc(50vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowPadding));
+}
+
+/*--------------------------------------------------------*/
