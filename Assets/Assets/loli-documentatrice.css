@@ -93,3 +93,19 @@ article .e-content {
 #BuildTimeLine > Span {
 	Display: Inline-Block;
 }
+
+.SectionTitle:Target {
+	Text-Decoration: Underline;
+}
+.SectionLink {
+	Opacity: 0.1;
+}
+.SectionLink:Hover {
+	Opacity: 0.8;
+}
+.SectionLink > A::Before {
+	Content: '🔗';
+}
+.SectionLink > A > Span {
+	Font-Size: 0;
+}

@@ -1,10 +1,35 @@
 /*--------------------------------------------------------*
- *    Costanti Globali                                    *
+ *    Globale                                             *
  *--------------------------------------------------------*/
 
 :Root {
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
+
+	--BodyTextColor: #080810;
+}
+
+* {
+	Box-Sizing: Border-Box;
+}
+
+::Selection {
+	Background-Color: RGBA(170, 170, 255, 0.2);
+}
+
+Body {
+	Margin: 0;
+	Box-Sizing: Border-Box;
+	Width: 100%;
+	Max-Width: 100%;
+	Position: Absolute;
+	Left: Auto;
+	Right: Auto;
+	Color: Var(--BodyTextColor);
+	Background: #eeddff;
+	Font-Size: 13pt;
+	Padding: Var(--ContentPadding);
+	Overflow-Wrap: Break-Word;
 }
 
 /*--------------------------------------------------------*/
@@ -15,26 +40,6 @@
  *    Fritto Misto - Andrebbe ordinato                    *
  *--------------------------------------------------------*/
 
-::Selection {
-	Background-Color: RGBA(170, 170, 255, 0.2);
-}
-Body {
-	Margin: 0;
-	Box-Sizing: Border-Box;
-	Width: 100%;
-	Max-Width: 100%;
-	Position: Absolute;
-	Left: Auto;
-	Right: Auto;
-	Color: #080810;
-	Background: #eeddff;
-	Font-Size: 13pt;
-	Padding: Var(--ContentPadding);
-	Overflow-Wrap: Break-Word;
-}
-Div {
-	Box-Sizing: Border-Box;
-}
 Details Div {
 	Margin: 8px;
 	Padding: 4px;
@@ -95,17 +100,22 @@ Pre.Code, .CodeScroll {
 	.NoLinkLink, .NoLinkLink A,
 	.SectionLink A,
 	#StatCounter A,
-	#RingsDiv A
+	#RingsDiv A,
+	.SectionTitle > A
 )::Before {
 	Content: '🔗 ';
 }
 
+.SectionTitle:Target {
+	Color: #EEDDFF !Important;
+	Background: #700070 !Important;
+	Text-Decoration: Underline;
+}
 .SectionLink {
 	Position: Absolute;
 	Left: -1.5em;
-	Opacity: 0.1;
+	Opacity: 0.08;
 }
-.SectionLink:Target,
 .SectionLink:Hover {
 	Opacity: 0.8;
 }
@@ -332,6 +342,7 @@ H3:hover {
 }
 
 /* No selezione */
+.NoSelect,
 #LeftBox,
 #LeftBoxContainer,
 #RightBox,
@@ -343,7 +354,7 @@ H3:hover {
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	User-select: none;
+	User-Select: none;
 }
 
 /*--------------------------------------------------------*/
