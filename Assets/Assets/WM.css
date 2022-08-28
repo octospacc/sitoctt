@@ -4,6 +4,7 @@
 
 :Root {
 	--WindowPadding: 4px;
+	--WindowBorderSize: 4px;
 
 	--TitleBarHeight: 28px;
 	--TitleBarForeground: #FFFFFF;
@@ -36,17 +37,22 @@ Body {
 
 .Window {
 	Margin: Var(--WindowPadding);
-	Border: Solid 3px Var(--TitleBarBackground);
+	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 	Color: #000000;
 	Background: #EEE0FF;
 }
 .WindowContent {
-	Min-Width: 100%;
+	Min-Width: Calc(100% + Var(--WindowPadding) + Var(--WindowPadding) + Var(--WindowBorderSize) + Var(--WindowBorderSize));
 	Padding: Var(--WindowPadding);
 	Overflow-Y: Auto;
+	Margin-Left: Calc(0px - Var(--WindowPadding) - Var(--WindowBorderSize));
+	Margin-Top: Var(--WindowBorderSize);
+	Color: #000000;
+	Background: #EEE0FF;
+	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 }
 .Window:Hover {
-	Z-Index: 128 !important;
+	Z-Index: 128 !Important;
 }
 
 .TitleBar {
@@ -60,7 +66,7 @@ Body {
 .TitleBar > span:nth-child(1) {
 	Float: Left;
 }
-.TitleBar > span:nth-child(3) {
+.TitleBar > span:nth-child(4) {
 	Float: Right;
 }
 
@@ -95,6 +101,22 @@ Body {
 /*--------------------------------------------------------*
  *    Fritto Misto - Andrebbe ordinato                    *
  *--------------------------------------------------------*/
+
+.CheckLabel:Before {
+	Content: '🔼';
+}
+#MainWindowCheck {
+	Position: Fixed;
+	Opacity: 0;
+}
+
+:Checked ~ Span > .CheckLabel:Before {
+	Content: '🔽' !Important;
+}
+:Checked ~ .ToggleBox {
+	Display: None;
+	Visibility: Hidden;
+}
 
 /* No selezione */
 .NoSelect,

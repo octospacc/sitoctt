@@ -24,13 +24,27 @@
 </head>
 <!-- TitleBar: <span> - ❌ </span> <span> [staticoso:Page:Title] </span> <span> 🔺 🔼 ⬜ 🔷 </span> -->
 <body id="Body">
+<div class="TaskBar">
+	<details>
+		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
+		<div>
+			[staticoso:Site:Menu]
+		</div>
+	</details>
+</div>
 <div class="Window" id="MainWindow">
 	<div class="TitleBar">
-		<span> 🔼 </span> &nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp; <span> <span class="twa twa-pencil"><span>✏️</span></span> </span>
+		<input type="checkbox" id="MainWindowCheck">
+		<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp; <span> <span class="twa twa-pencil"><span>✏️</span></span> </span>
+		<div class="WindowContent ToggleBox" id="MainWindowContent">
+			[staticoso:Page:Content]
+		</div>
 	</div>
-	<div class="WindowContent" id="MainWindowContent">
+<!--
+	<div class="WindowContent ToggleBox" id="MainWindowContent">
 		[staticoso:Page:Content]
 	</div>
+-->
 </div>
 <div class="Window" id="TitlesWindow">
 	<div class="TitleBar">
@@ -39,14 +53,6 @@
 	<div class="WindowContent" id="MainWindowContent">
 		[staticoso:Page:Chapters]
 	</div>
-</div>
-<div class="TaskBar">
-	<details>
-		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
-		<div>
-			[staticoso:Site:Menu]
-		</div>
-	</details>
 </div>
 </div>
 </body>

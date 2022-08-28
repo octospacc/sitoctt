@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-08-28] Kindolante </summary>
+Solo oggi ho scoperto che, installando [questo pacchetto](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/kindle-usbnet-0.22.N-r18897.tar.xz){[:MdTgtBlank:]}, posso avere un **client** SSH aggiornato sul mio Kindle. Non potevo saperlo, non stava scritto da nessuna parte.. meglio tardi che mai però, ora dal Kindle posso fare cosine su altre macchine.
+</details>
+
+<details markdown="1"><summary>
 #### [2022-08-26] 1 mese senza blogocto </summary>
 Mamma mia agosto! Ha fatto andare un po' a rotoli i miei piani di scrittura, non ho mai avuto abbastanza tempo calmo e adatto per la scrittura ben fatta. Vabbè, dichiariamo finito questo ciclo lunare, è uscito [📈 il nuovo articoloctt](./Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html).
 </details>
