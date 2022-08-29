@@ -6,8 +6,7 @@ python3 ./staticoso/Source/Build.py \
 	--DynamicParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html']}" \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken" \
-	--SitemapOut=True \
-	--GemtextOut=True \
+	--GemtextOutput=True \
 	--GemtextHeader="\
 # sitoctt
 Alcune informazioni importanti sono disponibili su:

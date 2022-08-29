@@ -39,6 +39,8 @@ Body {
 	Color: Transparent !Important;
 }
 
+
+
 /*--------------------------------------------------------*/
 
 
@@ -139,16 +141,6 @@ A:Hover:Not(
 .ImgShiftedH, .ImgShiftedH Img {
 	Margin-Top: 4px;
 	Margin-Bottom: -4px;
-}
-
-#RingsDiv Img,
-.CCIcons > Img, .CCIcon {
-	Display: Inline !Important;
-	Max-Height: 1em !Important;
-	Vertical-Align: Sub;
-}
-.CCIcons > Img, .CCIcon {
-	Margin-Left: 3px;
 }
 
 Details > Summary:hover {

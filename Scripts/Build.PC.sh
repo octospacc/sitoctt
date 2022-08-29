@@ -10,7 +10,7 @@ python3 ../staticoso/Source/Build.py \
 # Spacc
 
 " #\
-	#--GemtextOut=True #\
-	#--SitemapOut=True \
+	#--DiffBuild="True" \
+	#--GemtextOutput=True #\
 	#--MastodonURL="https://botsin.space" \
 	#--MastodonToken="$MastodonToken"

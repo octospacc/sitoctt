@@ -1,3 +1,13 @@
+#RingsDiv Img,
+.CCIcons > Img, .CCIcon {
+	Display: Inline !Important;
+	Max-Height: 1em !Important;
+	Vertical-Align: Sub;
+}
+.CCIcons > Img, .CCIcon {
+	Margin-Left: 3px;
+}
+
 .BlinkA {
 	Animation: BlinkerA 0.25s Step-Start Infinite;
 }

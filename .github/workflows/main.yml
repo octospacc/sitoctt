@@ -18,13 +18,15 @@ jobs:
     - name: Build
       run: |
         sudo apt update
-        sudo apt install software-properties-common
+        sudo apt install -y software-properties-common
         sudo add-apt-repository ppa:deadsnakes/ppa
-        sudo apt install python3.10 curl git
+        sudo apt update
+        sudo apt install -y npm python3.10 curl git
         curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.10
         sudo pip3 install lxml
+        sudo npm install -g pug-cli
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-        python3.10 ./staticoso/Source/Build.py
+        ./Scripts/Deploy.GitHub.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4

@@ -3,7 +3,8 @@
  *--------------------------------------------------------*/
 
 :Root {
-	--WindowPadding: 4px;
+	--WindowMargin: 4px;
+	--WindowPadding: 8px;
 	--WindowBorderSize: 4px;
 
 	--TitleBarHeight: 32px;
@@ -28,6 +29,14 @@ Body {
 .NoDisplay {
 	Display: None;
 }
+.Center {
+	Text-Align: Center;
+}
+
+Ul {
+	Padding-Left: 8px;
+	Padding-Right: 4px;
+}
 
 /*--------------------------------------------------------*/
 
@@ -38,16 +47,16 @@ Body {
  *--------------------------------------------------------*/
 
 .Window {
-	Margin: Var(--WindowPadding);
+	Margin: Var(--WindowMargin);
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 	Color: #000000;
 	Background: #EEE0FF;
 }
 .WindowContent {
-	Min-Width: Calc(100% + Var(--WindowPadding)*2 + Var(--WindowBorderSize)*2);
+	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
 	Padding: Calc(Var(--WindowPadding)*2);
 	Overflow-Y: Auto;
-	Margin-Left: Calc(0px - Var(--WindowPadding) - Var(--WindowBorderSize));
+	Margin-Left: Calc(0px - Var(--WindowMargin) - Var(--WindowBorderSize));
 	Margin-Top: Var(--WindowBorderSize);
 	Color: #000000;
 	Background: #EEE0FF;
@@ -58,7 +67,7 @@ Body {
 }
 
 .TitleBar {
-	Padding: Var(--WindowPadding);
+	Padding: Var(--WindowMargin);
 	Color: Var(--TitleBarForeground);
 	Background: Var(--TitleBarBackground);
 	Vertical-Align: Top;
@@ -81,7 +90,7 @@ Body {
 	Background: Var(--TaskBarBackground);
 	Position: Fixed;
 	Bottom: 0px;
-	Padding: Var(--WindowPadding);
+	Padding: Var(--WindowMargin);
 	Min-Height: Var(--TaskBarHeight);
 	Max-Height: Var(--TaskBarHeight);
 	Z-Index: 256;
@@ -152,7 +161,7 @@ Body {
 	Z-Index: 16;
 }
 #MainWindow .WindowContent {
-	Max-Height: Calc(90vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowPadding));
+	Max-Height: Calc(90vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
 }
 
 #TitlesWindow {
@@ -164,7 +173,11 @@ Body {
 	Z-Index: 8;
 }
 #TitlesWindow .WindowContent {
-	Max-Height: Calc(60vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowPadding));
+	Max-Height: Calc(60vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+}
+
+#TitlesWindow .WindowContent Ul Li, .TaskBarMenu Ul Li {
+	List-Style-Type: None !Important;
 }
 
 /*--------------------------------------------------------*/
