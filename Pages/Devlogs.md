@@ -19,6 +19,65 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-08-29] Titoli delle sezioni, ma ancora meglio </summary>
+-> #staticoso #sitoctt
+
+Soprattutto a causa della necessità di rendere **staticoso** leggermente più adatto alla creazione di siti di documentazione, oltre che di blog e cose così, ho sentito di dover apportare **qualche miglioramento** alla generazione dei _✨magici✨_ **titoli delle sezioni**.
+
+Ispirandomi parzialmente a cosa fa [mdBook](https://rust-lang.github.io/mdBook){[:MdTgtBlank:]}, ho aggiunto un **target ancora** (`<a>`) al fianco di ogni heading nel testo.  
+mdBook rende ogni titolo un link in sé; soluzione elegante ed intuitiva per copiare un link alla sezione all'istante, ma che può dare (da) problemi grossi in certi casi. Ad esempio, le sezioni `<details>`, _che io tanto amo_, diventerebbero difficili da aprire, perché gran parte della loro hitbox sarebbe coperta da quella di un link.  
+Dovevo inventarmi qualcos'altro.
+
+A livello di **HTML**, allora, staticoso genera per ogni titolo la seguente struttura: elemento heading, che contiene prima un elemento span racchiudente l'ancora, a sua volta contenente il semplice testo `»`, e poi un altro span (con id univoco) che ha il titolo in sé.  
+Facendo un esempio pratico, questo è cosa esce fuori:  
+<pre class="CodeScroll"><code>
+&lt;h1 class="SectionHeading">
+	&lt;span class="SectionLink">
+		&lt;a href="#-Titolo-di-esempio">
+			&lt;span>»&lt;/span>
+		&lt;/a>
+	&lt;/span>
+	&lt;span class="SectionTitle" id="-Titolo-di-esempio">
+		Titolo di esempio
+	&lt;/span>
+&lt;/h1>
+</code></pre>
+
+Senza CSS, i titoli sulla pagina renderizzata si vedono come al solito, eccetto per il fatto che hanno un carattere `»` cliccabile alla loro sinistra. Andrebbe bene già così, ma ovviamente io avevo la **personalizzazione** in mente da subito.  
+Sul tema principale del **sitoctt**, infatti, ho personalizzato la cosa in modo da avere:
+
+- L'emoji della catena (`🔗`) come carattere per il link;
+- Il posizionamento un po' a sinistra del tastino, per far rimanere i titoli in linea con il testo normale;
+- Opacità del carattere molto ridotta, e un po' meno ridotta quando il mouse/dito ci passa sopra;
+- Evidenziazione e sottolineatura di un heading attivato.
+
+In codice **CSS**, la mia visione si è tradotta in queste righe:  
+<pre class="CodeScroll"><code>
+.SectionTitle:Target {
+	Color: #EEDDFF !Important;
+	Background: #700070 !Important;
+	Text-Decoration: Underline;
+}
+.SectionLink {
+	Position: Absolute;
+	Left: -1.5em;
+	Opacity: 0.08;
+}
+.SectionLink:Hover {
+	Opacity: 0.8;
+}
+.SectionLink > A::Before {
+	Content: '🔗';
+}
+.SectionLink > A > Span {
+	Font-Size: 0;
+}
+</code></pre>
+
+In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs){[:MdTgtBlank:]}, credo **sarà utilissima**.
+</details>
+
+<details markdown="1"><summary>
 #### [2022-08-24] Titoli delle sezioni - ora ovunque </summary>
 -> #sitoctt
 

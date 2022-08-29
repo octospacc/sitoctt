@@ -1,5 +1,7 @@
 // % Title = 🏠 ~Home~
 // % HTMLTitle = <span class="twa twa-house"><span>🏠</span></span> ~Home~
+// // % Template = WM.html
+// % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/index.css";
 // % Index = True
 // % Order = 10
 // % Image = [staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/RichPreview/index.png
@@ -14,7 +16,7 @@ p
 	|  nel...
 
 // Credits: https://codepen.io/jh3y/pen/WNrXqYz
-div
+div(style='Position:Relative;')
 	br
 	h1(class='NoTitle WavyText' style='--x: 6; --y: -6;')
 		for letter, index in '✨sitoctt✨'.split('')
@@ -48,18 +50,23 @@ p
 	| Gli aggiornamenti al sito sono di diverso tipo: la pubblicazione di nuovi articoli di blog succede, boh, 3 volte al mese, è una buona idea usare i #[a(href='#-Feed-e-notifiche') feed] che metto a disposizione; le modifiche per pagine normali sono continue e avvengono a caso, quindi dovresti controllare magari ogni settimana quelle che ti interessano, se ti aspetti novità.
 
 p
-	| Ah, non so se hai notato, ma (da Web) negli angoli in alto dello schermo ci sono dei tastini. Lo sto scrivendo perché ho paura non si capisca, che devo fare... Vabbe, se premi lì puoi accedere ai menu ad albero, rispettivamente delle pagine del sito a sinistra (<big class='twa twa-books'><span>📚</span></big>),
-	| e delle sezioni della pagina a destra (<big class='twa twa-bookmark-tabs'><span>📑</span></big>).
-	| Quello di sinistra soprattutto è importante per navigare il sito.
+	| #[b Da tenere a mente] (da Web): quando ci sono per lo schermo i seguenti tastini, è perché possono nascondere menu collassabili.
+	| Possono stare in posizioni diverse su pagine diverse, perché mi piace sperimentare con diversi temi; però cerco di mantenere il loro significato coerente ovunque.
+	br
+	| Un'icona con l'emoji di una pila di libri (<big class='twa twa-books'><span>📚</span></big>) segnala il menu principale del sito, fondamentale per poterlo navigare saltando tra pagine completamente diverse e non collegate.
+	| Invece, l'icona con l'emoji di un foglio con un segnalibro (<big class='twa twa-bookmark-tabs'><span>📑</span></big>) indica l'elenco delle sezioni della pagina corrente - non è essenziale, ma può tornare utile per saltare tra parti diverse di un lungo testo.
 
 p
-	| A tal proposito, per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF. Se usi un browser antico ti garantisco che troverai troppa roba rotta (ma comunque il sito sarà navigabile lo stesso).
+	| A tal proposito, per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF (quest'ultima cosina, almeno finché non riesco a far funzionare il polyfill).
+	| Se usi un browser antico ti garantisco che troverai tanta, tanta roba rotta (ma comunque il sito dovrebbe essere navigabile lo stesso).
 	br
 	| Essendo che questo sito contiene immagini AVIF, assicurati che il tuo browser sia aggiornato e decente. Safari di Apple, per esempio, mi dicono che non supporta AVIF, quindi #[span(style='Color:#d00000;') buttalo via].
 	br
-	| Preferibilmente non usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, oltre ad andare a scatti. Firefox non ha questo problema, ma usa molto di più la CPU.
+	| Preferibilmente #[i non] usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, e ha qualche #[i glitch particolare]. #[b Firefox] non ha questo problema, ma usa molto di più la CPU.
 	br
 	| Direi che la scelta non è tra il migliore ma tra il meno peggio..
+	br
+	i Nota: se scegli Firefox, non usare la versione ESR! È per sua natura vecchia, fossilizzata, e manca sempre di funzionalità moderne - per esempio, al giorno d'oggi ancora non supporta AVIF.
 
 h3 Script client-side
 

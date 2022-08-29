@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/WM.css"> -->
-	<link rel="stylesheet" href="../Assets/Assets/WM.css">
+	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/WM.css">
+	<!-- <link rel="stylesheet" href="../Assets/Assets/WM.css"> -->
 	<link href="[staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Fonts/SpaceMono/Style.css" rel="stylesheet">
 	<link rel="alternate" type="application/atom+xml" title="Feed Atom" href="[staticoso:Site:RelativeRoot]feed/atom.xml">
 	<link rel="alternate" type="application/rss+xml" title="Feed RSS" href="[staticoso:Site:RelativeRoot]feed/rss.xml">
@@ -18,8 +18,12 @@
 	<meta property="og:image" content="[staticoso:Page:Image]">
 	<style>
 		[staticoso:Page:Style]
+		Body {
+			Background: url([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Backgrounds/Circles-Purple.png), #5C00CA;
+			Background-Repeat: Repeat;
+		}
 	</style>
-	<!-- [staticoso:DynamicPart:*/Head] -->
+	[staticoso:DynamicPart:*/Head]
 	<script src="[staticoso:Site:RelativeRoot]Assets/AVIF-Polyfill/index.js"></script>
 </head>
 <!-- TitleBar: <span> - ❌ </span> <span> [staticoso:Page:Title] </span> <span> 🔺 🔼 ⬜ 🔷 </span> -->
@@ -27,31 +31,31 @@
 <div class="TaskBar">
 	<details>
 		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
-		<div>
+		<div class="TaskBarMenu">
 			[staticoso:Site:Menu]
 		</div>
 	</details>
 </div>
 <div class="Window" id="MainWindow">
 	<div class="TitleBar">
-		<input type="checkbox" id="MainWindowCheck">
-		<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp; <span> <span class="twa twa-pencil"><span>✏️</span></span> </span>
-		<div class="WindowContent ToggleBox" id="MainWindowContent">
+		<input type="checkbox" class="CheckToggle" id="MainWindowCheck">
+		<div class="TitleBarContent">
+			<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil"><span>✏️</span></span> </span>
+		</div>
+		<div class="WindowContent ToggleBox">
 			[staticoso:Page:Content]
 		</div>
 	</div>
-<!--
-	<div class="WindowContent ToggleBox" id="MainWindowContent">
-		[staticoso:Page:Content]
-	</div>
--->
 </div>
 <div class="Window" id="TitlesWindow">
 	<div class="TitleBar">
-		<span> 🔼 </span> &nbsp; <span> <b>Sezioni</b> </span> &nbsp; <span> <span class="twa twa-bookmark-tabs"><span>📑</span></span> </span>
-	</div>
-	<div class="WindowContent" id="MainWindowContent">
-		[staticoso:Page:Chapters]
+		<input type="checkbox" class="CheckToggle" id="TitlesWindowCheck">
+		<div class="TitleBarContent">
+			<span> <label class="CheckLabel" id="TitlesWindowCheckLabel" for="TitlesWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Sezioni</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-bookmark-tabs"><span>📑</span></span> </span>
+		</div>
+		<div class="WindowContent ToggleBox">
+			[staticoso:Page:Chapters]
+		</div>
 	</div>
 </div>
 </div>

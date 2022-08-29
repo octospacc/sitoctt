@@ -32,6 +32,13 @@ Body {
 	Overflow-Wrap: Break-Word;
 }
 
+.NoDisplay {
+	Display: None;
+}
+.NoCol {
+	Color: Transparent !Important;
+}
+
 /*--------------------------------------------------------*/
 
 
@@ -55,12 +62,6 @@ Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > 
 	Display: Inline;
 }
 
-.NoDisplay {
-	Display: None;
-}
-.NoCol {
-	Color: Transparent !Important;
-}
 A {
 	Color: #D000D0;
 }
@@ -96,16 +97,16 @@ Pre.Code, .CodeScroll {
 	Padding-Bottom: 16px;
 }
 
-#MainBox A:not(
+#MainBox A:Not(
 	.NoLinkLink, .NoLinkLink A,
 	.SectionLink A,
 	#StatCounter A,
-	#RingsDiv A,
-	.SectionTitle > A
-)::Before {
+	#RingsDiv A
+):Before {
 	Content: '🔗 ';
 }
 
+/* Clickable link at the left of every section title */
 .SectionTitle:Target {
 	Color: #EEDDFF !Important;
 	Background: #700070 !Important;
@@ -406,30 +407,5 @@ H1, H2, H3, A, Img, Video, Summary {
 	50% {Position: Absolute; Visibility: Hidden;}
 	100% {Position: Static; Visibility: Visible;}
 }
-
-/*---   Credits: https://codepen.io/jh3y/pen/WNrXqYz   ---*/
-.WavyText {
-	Text-Align: Center;
-	Position: Absolute;
-	Left: 50%;
-	White-Space: NoWrap;
-	Transform: Translate(-50%, -50%) Translate(Calc(Var(--x, 0) * 1%), Calc(Var(--y, 0) * 1%));
-	font-variation-settings: 'wght' Var(--lower);
-	Margin: 0;
-}
-.WavyText Span {
-	Color: HSLA(300, 100%, 20%, Var(--alpha-l));
-	Animation: Rise 2.25s infinite ease-in-out;
-	Animation-Delay: Calc((Var(--index) - 6) * 0.225s);
-	Display: Inline-Block;
-}
-@keyframes Rise {
-	50% {
-		font-variation-settings: 'wght' Var(--upper);
-		Color: HSLA(300, 100%, 30%, Var(--alpha-u));
-		Transform: Translate(0, -15%);
-	}
-}
-/*---   --------------------------------------------   ---*/
 
 /*--------------------------------------------------------*/

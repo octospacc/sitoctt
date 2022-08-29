@@ -6,7 +6,7 @@
 	--WindowPadding: 4px;
 	--WindowBorderSize: 4px;
 
-	--TitleBarHeight: 28px;
+	--TitleBarHeight: 32px;
 	--TitleBarForeground: #FFFFFF;
 	--TitleBarBackground: #2A0A3A;
 
@@ -23,8 +23,10 @@ Body {
 	Margin: 0;
 	Padding: 0;
 	Overflow-Y: Hidden;
-	Background-Image: url(/home/octt/Dev/sitoctt-assets/public/Media/Backgrounds/Circles-Purple.png);
-	Background-Repeat: Repeat;
+}
+
+.NoDisplay {
+	Display: None;
 }
 
 /*--------------------------------------------------------*/
@@ -42,8 +44,8 @@ Body {
 	Background: #EEE0FF;
 }
 .WindowContent {
-	Min-Width: Calc(100% + Var(--WindowPadding) + Var(--WindowPadding) + Var(--WindowBorderSize) + Var(--WindowBorderSize));
-	Padding: Var(--WindowPadding);
+	Min-Width: Calc(100% + Var(--WindowPadding)*2 + Var(--WindowBorderSize)*2);
+	Padding: Calc(Var(--WindowPadding)*2);
 	Overflow-Y: Auto;
 	Margin-Left: Calc(0px - Var(--WindowPadding) - Var(--WindowBorderSize));
 	Margin-Top: Var(--WindowBorderSize);
@@ -59,14 +61,17 @@ Body {
 	Padding: Var(--WindowPadding);
 	Color: Var(--TitleBarForeground);
 	Background: Var(--TitleBarBackground);
-	Text-Align: Center;
 	Vertical-Align: Top;
 	Max-Height: Var(--TitleBarHeight);
 }
-.TitleBar > span:nth-child(1) {
+.TitleBarContent {
+	Text-Align: Center;
+}
+
+.TitleBarContent > Span:Nth-Child(1) {
 	Float: Left;
 }
-.TitleBar > span:nth-child(4) {
+.TitleBarContent > Span:Nth-Child(3) {
 	Float: Right;
 }
 
@@ -85,14 +90,37 @@ Body {
 	Position: Fixed;
 	Left: 0px;
 	Bottom: Var(--TaskBarHeight);
-	Padding: Var(--WindowPadding);
+	Padding: Calc(Var(--WindowPadding)*2);
 	Color: Var(--TaskBarForeground);
 	Background: Var(--TaskBarBackground);
+	Max-Height: Calc(90vh - Var(--TaskBarHeight));
+	Overflow-Y: Scroll;
+}
+.TaskBarMenu A {
+	Color: #DDCCFF !Important;
 }
 .MenuButton {
 	Display: Inline-Block;
 	Height: 100%;
 }
+
+/*---   "Shade window" button   --------------------------*/
+.CheckToggle {
+	Position: Fixed;
+	Opacity: 0;
+	Visibility: Hidden;
+}
+.CheckLabel:Before {
+	Content: '🔼';
+}
+:Checked ~ .TitleBarContent > Span > .CheckLabel:Before {
+	Content: '🔽' !Important;
+}
+:Checked ~ .ToggleBox {
+	Display: None;
+	Visibility: Hidden;
+}
+/****   --------------------------------------------   ****/
 
 /*--------------------------------------------------------*/
 
@@ -102,25 +130,9 @@ Body {
  *    Fritto Misto - Andrebbe ordinato                    *
  *--------------------------------------------------------*/
 
-.CheckLabel:Before {
-	Content: '🔼';
-}
-#MainWindowCheck {
-	Position: Fixed;
-	Opacity: 0;
-}
-
-:Checked ~ Span > .CheckLabel:Before {
-	Content: '🔽' !Important;
-}
-:Checked ~ .ToggleBox {
-	Display: None;
-	Visibility: Hidden;
-}
-
 /* No selezione */
 .NoSelect,
-.TitleBar,
+.TitleBarContent,
 .TaskBar,
 #TitlesWindow {
 	-webkit-touch-callout: none;
@@ -139,7 +151,7 @@ Body {
 	Max-Height: 90vh;
 	Z-Index: 16;
 }
-#MainWindow > .WindowContent {
+#MainWindow .WindowContent {
 	Max-Height: Calc(90vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowPadding));
 }
 
@@ -151,7 +163,7 @@ Body {
 	Max-Height: 60vh;
 	Z-Index: 8;
 }
-#TitlesWindow > .WindowContent {
+#TitlesWindow .WindowContent {
 	Max-Height: Calc(60vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowPadding));
 }
 
