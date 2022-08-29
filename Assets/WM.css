@@ -1,0 +1,183 @@
+/*--------------------------------------------------------*
+ *    Globale                                             *
+ *--------------------------------------------------------*/
+
+:Root {
+	--WindowMargin: 4px;
+	--WindowPadding: 8px;
+	--WindowBorderSize: 4px;
+
+	--TitleBarHeight: 32px;
+	--TitleBarForeground: #FFFFFF;
+	--TitleBarBackground: #2A0A3A;
+
+	--TaskBarForeground: #FFFFFF;
+	--TaskBarBackground: #2A0A3A;
+	--TaskBarHeight: 36px;
+}
+
+* {
+    Box-Sizing: Border-Box;
+}
+
+Body {
+	Margin: 0;
+	Padding: 0;
+	Overflow-Y: Hidden;
+}
+
+.NoDisplay {
+	Display: None;
+}
+.Center {
+	Text-Align: Center;
+}
+
+Ul {
+	Padding-Left: 8px;
+	Padding-Right: 4px;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Window Manager                                      *
+ *--------------------------------------------------------*/
+
+.Window {
+	Margin: Var(--WindowMargin);
+	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
+	Color: #000000;
+	Background: #EEE0FF;
+}
+.WindowContent {
+	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
+	Padding: Calc(Var(--WindowPadding)*2);
+	Overflow-Y: Auto;
+	Margin-Left: Calc(0px - Var(--WindowMargin) - Var(--WindowBorderSize));
+	Margin-Top: Var(--WindowBorderSize);
+	Color: #000000;
+	Background: #EEE0FF;
+	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
+}
+.Window:Hover {
+	Z-Index: 128 !Important;
+}
+
+.TitleBar {
+	Padding: Var(--WindowMargin);
+	Color: Var(--TitleBarForeground);
+	Background: Var(--TitleBarBackground);
+	Vertical-Align: Top;
+	Max-Height: Var(--TitleBarHeight);
+}
+.TitleBarContent {
+	Text-Align: Center;
+}
+
+.TitleBarContent > Span:Nth-Child(1) {
+	Float: Left;
+}
+.TitleBarContent > Span:Nth-Child(3) {
+	Float: Right;
+}
+
+.TaskBar {
+	Width: 100%;
+	Color: Var(--TaskBarForeground);
+	Background: Var(--TaskBarBackground);
+	Position: Fixed;
+	Bottom: 0px;
+	Padding: Var(--WindowMargin);
+	Min-Height: Var(--TaskBarHeight);
+	Max-Height: Var(--TaskBarHeight);
+	Z-Index: 256;
+}
+.TaskBar > Details > Div {
+	Position: Fixed;
+	Left: 0px;
+	Bottom: Var(--TaskBarHeight);
+	Padding: Calc(Var(--WindowPadding)*2);
+	Color: Var(--TaskBarForeground);
+	Background: Var(--TaskBarBackground);
+	Max-Height: Calc(90vh - Var(--TaskBarHeight));
+	Overflow-Y: Scroll;
+}
+.TaskBarMenu A {
+	Color: #DDCCFF !Important;
+}
+.MenuButton {
+	Display: Inline-Block;
+	Height: 100%;
+}
+
+/*---   "Shade window" button   --------------------------*/
+.CheckToggle {
+	Position: Fixed;
+	Opacity: 0;
+	Visibility: Hidden;
+}
+.CheckLabel:Before {
+	Content: '🔼';
+}
+:Checked ~ .TitleBarContent > Span > .CheckLabel:Before {
+	Content: '🔽' !Important;
+}
+:Checked ~ .ToggleBox {
+	Display: None;
+	Visibility: Hidden;
+}
+/****   --------------------------------------------   ****/
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Fritto Misto - Andrebbe ordinato                    *
+ *--------------------------------------------------------*/
+
+/* No selezione */
+.NoSelect,
+.TitleBarContent,
+.TaskBar,
+#TitlesWindow {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	User-Select: none;
+}
+
+#MainWindow {
+	Max-Width: 80vw;
+	Position: Absolute;
+	Top: 12px;
+	Right: 12px;
+	Max-Height: 90vh;
+	Z-Index: 16;
+}
+#MainWindow .WindowContent {
+	Max-Height: Calc(90vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+}
+
+#TitlesWindow {
+	Max-Width: 60vw;
+	Position: Absolute;
+	Top: 80px;
+	Left: 12px;
+	Max-Height: 60vh;
+	Z-Index: 8;
+}
+#TitlesWindow .WindowContent {
+	Max-Height: Calc(60vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+}
+
+#TitlesWindow .WindowContent Ul Li, .TaskBarMenu Ul Li {
+	List-Style-Type: None !Important;
+}
+
+/*--------------------------------------------------------*/
