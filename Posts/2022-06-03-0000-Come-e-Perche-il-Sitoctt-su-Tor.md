@@ -8,7 +8,7 @@
 
 In questi giorni ho sistemato i primi affari riguardanti il rendere disponibile il sitocto sulla rete <span style='Color:#59316b;'>Tor</span>. C'è chi mi definirà esagerata anche soltanto per aver avuto il pensiero di fare una cosa del genere, ma c'è poco da fare.  
 Se nulla è andato storto, il servizio Onion è ancora raggiungibile a questo indirizzo:
-^~ ~~[onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion](http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion){: style='Color:#a060c0;' }~~ ~^
+<small>~~[onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion](http://onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion){: style='Color:#a060c0;' }~~</small>
 [sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion](http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion)[^ Nuovo dominio estetico]
 
 L'idea - apparentemente riuscita - è stata quella di utilizzare un servizio PaaS gratuito, Replit, per fare il tutto.  

@@ -19,6 +19,32 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-09-01] Ottimizzazioni necessarie </summary>
+-> #staticoso
+
+Nei giorni appena passati ho apportato qualche **miglioria interna** a **staticoso**.
+
+La prima cosa che ho fatto è stata aggiungere il supporto alla **compilazione differenziale** dei siti, ossia: ad ogni esecuzione, il programma ricompila solo le pagine che sono effettivamente cambiate dalla compilazione precedente, arrivando quindi ad una **maggiore efficienza**.
+
+La funzione è **ancora da perfezionare**, in quanto non controlla se l'HTML di template cambia, ma solo se lo fanno i file di pagine e post.  
+La cosa può risultare in confusione durante l'uso: eventuali utenti che usano il software (_me in primis_) magari modificano un template, non vedono le differenze dopo una ricompilazione, e _apriti cielo_. Per questo motivo, per il momento la funzionalità non è attiva di default; chi vuole usarla deve attivare una flag.
+
+Oltre a ciò, la build differenziale va ancora a calcolare alcune cose che non cambiano, quindi non siamo ancora alla massima efficienza; per arrivarci, dovrò implementare una cache per alcune di quelle cose che servono solo durante l'esecuzione, in modo che il programma possa ripescarle dall'archiviazione locale.
+
+La compilazione differenziale può arrivare a far **risparmiare tantissimo tempo**, reale oltre che di CPU, ma si può fare di più per guadagnare fino all'ultimo millisecondo della prima categoria: usare il **multithreading**.  
+Con il multithreading - anche questo implementato parzialmente nei giorni passati - il programma può usare **tutti i processori** (fisici e logici) **allo stesso tempo**, anziché uno solo, dividendo quindi il tempo reale necessario al completamento di tutti i calcoli. Viene da sé che, più processori si hanno, più è possibile dividere il tempo.
+
+Il mio sito, con **30 pagine Markdown** (ho escluso l'unica in Pug, che richiede una chiamata ad un programma esterno, apposta per testare) che in totale ad oggi pesano **~180 KB**, appena qualche giorno fa impiegava attorno ai 2200 millisecondi per compilarsi sul mio PC desktop[^ groso 2022-09-01]. Con le nuove ottimizzazioni, invece.. si parla di **~850 ms** per una compilazione pulita, e **~450 ms** per una differenziale senza alcuna modifica da ricompilare. Non male!
+
+Giusto per, ho voluto fare un **test** - che, se avessi voluto fare davvero per bene, avrei dovuto fare in confronto ad altri generatori di siti statici - su un ipotetico sito da **1500 pagine**. Ho quindi copiato la cartella del mio sito, sdoppiato tutte le pagine per farle arrivare alla grossa cifra (in peso dei file avrò avuto un totale di **9 MB**, considerando `(180/30)*1500`), e ho acceso il programmino.  
+Esecuzioni diverse hanno dato risultati un po' diversi, forse perché avevo diversi _altri programmi_ aperti che _mangiavano CPU_ (primo di tutti, Firefox che riproduceva un video da Invidious; almeno il 20% di CPU era occupato); ma posso dire di aver visto **~160 s** per una build pulita e **~17 s** per la differenziale (di nuovo, senza alcuna effettiva modifica).
+
+![Schermata di Task Manager nel momento della compilazione del sito grosso.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/Task-Manager-staticoso-Test-1500-2022-08-30.avif)
+
+Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio codice **va ancora ottimizzato** - oltre il poco che ho già fatto. Vabbè, in ogni caso mi soddisfa già il punto in cui sono arrivata!
+</details>
+
+<details markdown="1"><summary>
 #### [2022-08-29] Titoli delle sezioni, ma ancora meglio </summary>
 -> #staticoso #sitoctt
 
@@ -113,3 +139,7 @@ _O almeno, così è al momento in cui scrivo_. Non è mica da escludere che lo s
 </details>
 
 </div>
+
+## [:HNotesRefsHTML:]
+
+[^ groso 2022-09-01]: In data **2022-09-01**, il mio PC fisso è: **CPU** [AMD Ryzen 3 3200G](https://www.amd.com/en/products/apu/amd-ryzen-3-3200g){[:MdTgtBlank:]}; **OS** [Void GNU+Linux](https://voidlinux.org){[:MdTgtBlank:]} x86_64, libc musl. 
