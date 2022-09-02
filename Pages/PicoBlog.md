@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-09-02] App carina </summary>
+[GitJournal](https://github.com/GitJournal/GitJournal){[:MdTgtBlank:]}, provata ieri qualche minuto, penso meriti. Se non usassi già Standard Notes, considereri questa app.
+</details>
+
+<details markdown="1"><summary>
 #### [2022-08-28] Kindolante </summary>
 Solo oggi ho scoperto che, installando [questo pacchetto](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/kindle-usbnet-0.22.N-r18897.tar.xz){[:MdTgtBlank:]}, posso avere un **client** SSH aggiornato sul mio Kindle. Non potevo saperlo, non stava scritto da nessuna parte.. meglio tardi che mai però, ora dal Kindle posso fare cosine su altre macchine.
 </details>

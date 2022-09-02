@@ -1,10 +1,12 @@
 // % Title = 💾 Devlogs
-// % HTMLTitle = <span class="twa twa-floppy-disk"><span>💾</span></span> Devlogs
+// % HTMLTitle = <span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs
+// % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Devlogs.css";
 // % Index = True
 // % Order = 35
 // % Categories = Tecnologia
+// $ Checkboxes = <input type="checkbox" id="CheckBox-sitoctt"><input type="checkbox" id="CheckBox-staticoso">
 
-# <span class="twa twa-floppy-disk"><span>💾</span></span> Devlogs
+# <span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs
 
 Per mesi, in maniera occasionale, ho (ab)usato il PicoBlog come se fosse un devlog.  
 Ad un certo punto (_era quasi ora.._) [ho però pensato](./PicoBlog.html#-2022-08-23-Devlogs) al fatto che le cose non andassero bene.
@@ -16,9 +18,14 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 
 ## Leggi i Devlogs
 
+<!-- noprocess />
+<input type="checkbox" id="CheckBox-sitoctt" checked>
+<input type="checkbox" id="CheckBox-staticoso" checked>
+</ noprocess -->
+
 <div markdown="1" class="BorderBoxContainer">
 
-<details markdown="1"><summary>
+<details markdown="1" class="Box-staticoso"><summary>
 #### [2022-09-01] Ottimizzazioni necessarie </summary>
 -> #staticoso
 
@@ -44,7 +51,7 @@ Esecuzioni diverse hanno dato risultati un po' diversi, forse perché avevo dive
 Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio codice **va ancora ottimizzato** - oltre il poco che ho già fatto. Vabbè, in ogni caso mi soddisfa già il punto in cui sono arrivata!
 </details>
 
-<details markdown="1"><summary>
+<details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
 #### [2022-08-29] Titoli delle sezioni, ma ancora meglio </summary>
 -> #staticoso #sitoctt
 
@@ -103,7 +110,7 @@ In codice **CSS**, la mia visione si è tradotta in queste righe:
 In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs){[:MdTgtBlank:]}, credo **sarà utilissima**.
 </details>
 
-<details markdown="1"><summary>
+<details markdown="1" class="Box-sitoctt"><summary>
 #### [2022-08-24] Titoli delle sezioni - ora ovunque </summary>
 -> #sitoctt
 
@@ -120,7 +127,7 @@ Eh già, perché l'injecting dell'attributo `id` da parte di staticoso va, giust
 Un po' con il trova e sostituisci del mio editor di testo, e un po' a manina, **ho fatto questa sistemazione** nelle _2_ pagine in cui dovevo. Ora, anche per quelle, ho la possibilità di **creare** dei **link di rimando alle sezioni** che voglio.
 </details>
 
-<details markdown="1"><summary>
+<details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
 #### [2022-08-24] La data di compilazione </summary>
 -> #staticoso #sitoctt
 
