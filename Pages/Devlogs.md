@@ -19,11 +19,51 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 ## Leggi i Devlogs
 
 <!-- noprocess />
-<input type="checkbox" id="CheckBox-sitoctt" checked>
-<input type="checkbox" id="CheckBox-staticoso" checked>
+<h3 class="NoTitle InlineBlock">Filtri:</h3>
+<input type="checkbox" id="CheckBox-sitoctt" checked><label for="CheckBox-sitoctt">#sitoctt</label>
+<input type="checkbox" id="CheckBox-staticoso" checked><label for="CheckBox-staticoso">#staticoso</label>
 </ noprocess -->
 
 <div markdown="1" class="BorderBoxContainer">
+
+<details markdown="1" class="Box-sitoctt"><summary>
+#### [2022-09-05] Filtri intelligenti </summary>
+-> #sitoctt
+
+_Le soluzioni semplici sono spesso le migliori_.  
+Con questa filosofia, come in altri casi, ho preso e ho implementato questa piccola cosa che mi serviva sul **sitoctt**.
+
+Al momento i Devlogs sono ancora un po' vuoti, ma, per quando inizieranno a riempirsi di più, sarebbe carino poter efficacemente **filtrare** le mie scritture **per categoria**.  
+Problema risolto in appena qualche riga di HTML e CSS!
+
+```{ .html .CodeScroll }
+<input type="checkbox" id="CheckBox-CATEGORIA" checked>
+<label for="CheckBox-CATEGORIA">#CATEGORIA</label>
+...
+```
+
+```{ .css .CodeScroll }
+.Box-CATEGORIA,
+...
+{
+	Display: None;
+}
+
+/*
+*/ #CheckBox-CATEGORIA:Checked ~ Div > .Box-CATEGORIA,
+...
+{
+	Display: Inherit;
+}
+```
+
+Mi basta questo codice di base - che devo però duplicare per ogni singola categoria - per definire degli elementi (che dovranno avere una o più classi di categoria, e io uso `<details>`) che possono essere fatti sparire quando si toglie la spunta alle eventuali caselle.  
+Diversi elementi possono inoltre appartenere a **multiple categorie**, cosa che per me è utile.
+
+La cosa è molto più complicata a spiegarsi, di quanto non lo sia a farsi e _ad essere usata.. quindi..._ 😳!
+
+_Nota: I simboli hash (#) nei nomi **visibili** delle categorie non centrano nulla con l'id HTML degli elementi, li uso come prefisso semplicemente per simboleggiare un hashtag._
+</details>
 
 <details markdown="1" class="Box-staticoso"><summary>
 #### [2022-09-01] Ottimizzazioni necessarie </summary>
@@ -63,7 +103,7 @@ Dovevo inventarmi qualcos'altro.
 
 A livello di **HTML**, allora, staticoso genera per ogni titolo la seguente struttura: elemento heading, che contiene prima un elemento span racchiudente l'ancora, a sua volta contenente il semplice testo `»`, e poi un altro span (con id univoco) che ha il titolo in sé.  
 Facendo un esempio pratico, questo è cosa esce fuori:  
-<pre class="CodeScroll"><code>
+<pre class="CodeScroll"><code class="language-html">
 &lt;h1 class="SectionHeading">
 	&lt;span class="SectionLink">
 		&lt;a href="#-Titolo-di-esempio">
@@ -85,7 +125,7 @@ Sul tema principale del **sitoctt**, infatti, ho personalizzato la cosa in modo 
 - Evidenziazione e sottolineatura di un heading attivato.
 
 In codice **CSS**, la mia visione si è tradotta in queste righe:  
-<pre class="CodeScroll"><code>
+```{ .css .CodeScroll }
 .SectionTitle:Target {
 	Color: #EEDDFF !Important;
 	Background: #700070 !Important;
@@ -105,7 +145,7 @@ In codice **CSS**, la mia visione si è tradotta in queste righe:
 .SectionLink > A > Span {
 	Font-Size: 0;
 }
-</code></pre>
+```
 
 In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs){[:MdTgtBlank:]}, credo **sarà utilissima**.
 </details>
