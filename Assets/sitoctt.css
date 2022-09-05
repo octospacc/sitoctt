@@ -38,8 +38,12 @@ Body {
 .NoCol {
 	Color: Transparent !Important;
 }
-
-
+.Inline {
+	Display: Inline;
+}
+.InlineBlock {
+	Display: Inline-Block;
+}
 
 /*--------------------------------------------------------*/
 
@@ -95,8 +99,11 @@ Table Td, Table Th, Table Tr  {
 Pre.Code, .CodeScroll {
 	Padding-Left: 8px;
 	Padding-Right: 8px;
-	Padding-Top: 0px;
+	Padding-Top: 8px;
 	Padding-Bottom: 16px;
+}
+Code:Not(Pre Code) {
+	Padding: 4px 4px 4px 4px;
 }
 
 #MainBox A:Not(
@@ -156,9 +163,6 @@ H3:hover {
 	Font-Size: 17.5pt;
 }
 
-.Inline {
-	Display: Inline;
-}
 #Container {
 	Max-Width: 100%;
 }

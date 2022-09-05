@@ -15,7 +15,10 @@ https://sitoctt.octt.eu.org/Devlogs.html
 https://sitoctt.octt.eu.org/Donazioni.html
 https://sitoctt.octt.eu.org/PicoBlog.html
 https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html
+https://sitoctt.octt.eu.org/Raccolte/Gaming/Raccolta-Videogiochi.html
 https://sitoctt.octt.eu.org/Raccolte/Internet/Raccolta-Siti-Internet.html
+https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
+https://sitoctt.octt.eu.org/Raccolte/Sistemi/Raccolta-del-Riso.html
 https://sitoctt.octt.eu.org/index.html
 https://sitoctt.octt.eu.org/Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html
 https://sitoctt.octt.eu.org/Posts/Notes/Linux/2022-08-09-Controllare-Statistiche-Interessanti-Partizioni-Linux.html
