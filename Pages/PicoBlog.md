@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-09-07] Gioco del Calamaro </summary>
+Ieri sera si è diffusa in Internet, con 3 giorni di anticipo rispetto al giorno di uscita del gioco, la ROM di Splatoon 3. Fino ad ora ho giocato solo il tutorial, con calma lo proverò bene poi. Vi lascio l'hash del torrent comunque... `🎈🚢👪🐉🎩🤣👝🌭🎥🥅🌟🐅🎦📨🎦🐁🎡🚿🏦🚵🎛🤰🏛🚯👦🔙🐞🤒🎈🚒👞🌩` :)
+</details>
+
+<details markdown="1"><summary>
 #### [2022-09-05] 🏛🙁🛫🏯🍌📢☕☕ </summary>
 Detto in breve: cercavo un'alternativa originale a base64, per una cosa. Ho pensato a creare un mio sistema che ha a che fare con le ASCII art, però mi ci vuole un po' di lavoro e il sistema mi serve subito. Ma poi ho scoperto [Ecoji](https://github.com/keith-turner/ecoji){[:MdTgtBlank:]} 🙏
 </details>

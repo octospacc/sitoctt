@@ -75,6 +75,10 @@ Clearweb: [dustinbrett.com](https://dustinbrett.com){[:MdTgtBlankNofw:]}
 Più che un sito, una demo JavaScript con una lista di link e cose così, ma è unica. Non dico altro, meglio vedere di persona!  
 Clearweb: [francescomasala.me](https://francescomasala.me){[:MdTgtBlankNofw:]}
 
+- 🇬🇧 🇮🇹 Tassoman's homepage  
+Solo una pagina principale e poca altra roba, ma solo l'idea del sito è un'esperienza.. **interessante**. L'unico sito visto fino ad ora che usa una precisa configurazione di Apache, con l'esatto scopo di rallentare il sito alle velocità del 14.4 kbps!  
+Clearweb: [tassoman.com](https://tassoman.com){.tassoman [:MdTgtBlankNofw:]}
+
 ## Miscellanea
 
 - 🇬🇧 The Yesterweb  
