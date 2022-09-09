@@ -30,6 +30,15 @@ Ma, insomma, già soltanto il carisma del personaggio protagonista fa venire vog
 Le premesse erano si creative, ma noiose: sei un essere umano che, per qualche motivo, va in viaggio a stabilirsi in un villaggio dove vivono animali umanoidi con cui puoi interagire. Nel frattempo, devi indebitarti con un procione che ti vende la nuova casa a carissimo prezzo, e fare quello che puoi per ripagare, con tempi che possono diventare infiniti. Ah, se vuoi puoi scegliere il tuo abbigliamento, arredare la tua casa, piazzare fiori in giardino... e?  
 Animal Crossing è uno di quei giochi che va banalmente provato per essere capito: la permanenza in quel mondo riesce ad indurre calma ed allegria per motivi che, apparentemente, vanno al di là della logica.
 
+- <span class="twa twa-"></span> Minecraft  
+Credo si possa dire che Minecraft è **il gioco** bene o male moderno che da semplici premesse sviluppa complessità potenzialmente infinita. In senso buono, ovviamente: la complessità va a colpire e a premiare chi la cerca, ma il titolo resta giocabile per chiunque.  
+All'inizio è fare "case" che sono buchi 4x4 sotto terra, ma dopo diventa creare installazioni titaniche, che siano puramente estetiche o anche funzionali - non dimentichiamo che Minecraft è Turing-complete. E alla fine? Beh, non si arriverà mai alla fine...
+
+- <span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge  
+Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  
+Ho giocato pochissimo la prima entrata della saga, perché fu la seconda uscita, Mirror's Edge Catalyst, ad introdurmi alla serie circa 2 anni fa. Catalyst lascia un po' da parte i colori molto saturi che erano parte dell'identità iniziale, per offrire grafica più realistica e immersiva. Anche la fisica e diversi dettagli minuti subiscono miglioramenti importanti rispetto al Mirror's Edge originale.  
+In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di speranza. È peculiare come i suoi piccoli dettagli riescano a farti sentire di essere effettivamente nel gioco - per un titolo non VR, è una grande vittoria. Il gameplay in sé è chiave per questa esperienza, ma anche la lore è di tutto rispetto.
+
 - <span class="twa twa-🐙">🐙</span> Splatoon  
 Sparatutto in terza persona che dire diverso dagli altri è poco. Splatoon rompe le aspettative di realismo di guerra del genere, e presenta un gameplay simpatico, fatto di colori accecanti, che non si ferma mai. Non ci sono umani a sparare proiettili con il ferro, ma calamari che spargono inchiostro.  
 Giocare in Mischie Mollusche (questo il nome delle battaglie online 4-contro-4) è divertente, ma profondità del gioco e inventiva del team di sviluppo si vedono in modalità storia.
