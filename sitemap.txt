@@ -12,6 +12,7 @@ https://sitoctt.octt.eu.org/Categories/Tecnologia.html
 https://sitoctt.octt.eu.org/Categories/index.html
 https://sitoctt.octt.eu.org/Chi-Sono.html
 https://sitoctt.octt.eu.org/Devlogs.html
+https://sitoctt.octt.eu.org/Diarylog.html
 https://sitoctt.octt.eu.org/Donazioni.html
 https://sitoctt.octt.eu.org/PicoBlog.html
 https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html
