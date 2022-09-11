@@ -16,3 +16,9 @@ Mi serve una sezione del sitoctt per scrivere cose troppo corte e con troppa poc
 In sintesi, ecco il mio **Diarylog** - perché "diario" e basta mi da un'impressione di qualcosa di troppo personale, quindi preferisco inventarmi l'ennesima parola bizzarra per descrivere questa nuova pagina!
 
 _In costruzione..._
+
+## Leggi il Diarylog
+
+<div markdown="1" class="BorderBoxContainer">
+
+</div>

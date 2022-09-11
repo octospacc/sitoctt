@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-09-11] La fiera </summary>
+Questi 4 giorni sono potuta andare, nonostante casini successi ultimamente, al FantaExpo di Salerno. Magari scriverò un po' di più di ciò nei giorni a venire. Tra questo, Splatoon 3, e programmare e creare nuove sezioni del sitoctt in alcuni tempi morti, ecco spiegato perché il PicoBlog ha dormito sti giorni.
+</details>
+
+<details markdown="1"><summary>
 #### [2022-09-07] Gioco del Calamaro </summary>
 Ieri sera si è diffusa in Internet, con 3 giorni di anticipo rispetto al giorno di uscita del gioco, la ROM di Splatoon 3. Fino ad ora ho giocato solo il tutorial, con calma lo proverò bene poi. Vi lascio l'hash del torrent comunque... `🎈🚢👪🐉🎩🤣👝🌭🎥🥅🌟🐅🎦📨🎦🐁🎡🚿🏦🚵🎛🤰🏛🚯👦🔙🐞🤒🎈🚒👞🌩` :)
 </details>
