@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-09-15] I pezzi </summary>
+Un sacco di roba mi si sta distruggendo. [La mia Nintendo Switch](https://t.me/SpaccInc/882){[:MdTgtBlank:]} cade letteralmente a pezzi, [il mio mouse pezzottissimo](https://t.me/SpaccInc/888){[:MdTgtBlank:]} ha perso un tasto laterale, e che cavolo, e mannaggia!!… Oggi oggi non si è spaccato niente, ma è bene tenere gli ma occhi aperti.
+</details>
+
+<details markdown="1"><summary>
 #### [2022-09-11] La fiera </summary>
 Questi 4 giorni sono potuta andare, nonostante casini successi ultimamente, al FantaExpo di Salerno. Magari scriverò un po' di più di ciò nei giorni a venire. Tra questo, Splatoon 3, e programmare e creare nuove sezioni del sitoctt in alcuni tempi morti, ecco spiegato perché il PicoBlog ha dormito sti giorni.
 </details>
