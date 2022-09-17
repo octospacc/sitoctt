@@ -21,6 +21,7 @@ https://sitoctt.octt.eu.org/Raccolte/Internet/Raccolta-Siti-Internet.html
 https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
 https://sitoctt.octt.eu.org/Raccolte/Sistemi/Raccolta-del-Riso.html
 https://sitoctt.octt.eu.org/index.html
+https://sitoctt.octt.eu.org/Posts/Notes/2022-09-18-Aggirare-i-DRM-dei-Libri-di-Scuola.html
 https://sitoctt.octt.eu.org/Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html
 https://sitoctt.octt.eu.org/Posts/Notes/Linux/2022-08-09-Controllare-Statistiche-Interessanti-Partizioni-Linux.html
 https://sitoctt.octt.eu.org/Posts/Notes/Linux/2022-08-05-Evitare-Comandi-Richiamati-Per-Sbaglio.html
