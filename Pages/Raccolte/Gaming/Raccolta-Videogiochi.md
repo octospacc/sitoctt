@@ -1,6 +1,7 @@
-// % Categories: Gaming
-// % Index: Categories
-// % EditedOn: 2022-09-14
+// % Categories = Gaming
+// % Index = Categories
+// % EditedOn = 2022-09-14
+// $ YouTubeEmbed = https://invidious.weblibre.org/embed/
 
 # Raccolta Videogiochi
 
@@ -40,18 +41,18 @@ All'inizio è fare "case" che sono buchi 4x4 sotto terra, ma dopo diventa creare
 ### <span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge  
 Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  
 Ho giocato pochissimo la prima entrata della saga, perché fu la seconda uscita, Mirror's Edge Catalyst, ad introdurmi alla serie circa 2 anni fa. Catalyst lascia un po' da parte i colori molto saturi che erano parte dell'identità iniziale, per offrire grafica più realistica e immersiva. Anche la fisica e diversi dettagli minuti subiscono miglioramenti importanti rispetto al Mirror's Edge originale.  
-In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di speranza. È peculiare come i suoi piccoli dettagli riescano a farti sentire di essere effettivamente nel gioco - per un titolo non VR, è una grande vittoria. Il gameplay in sé è chiave per questa esperienza, ma anche la lore è di tutto rispetto.
+In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di speranza. È peculiare come i suoi piccoli dettagli riescano a farti sentire di essere effettivamente nel gioco - per un titolo non VR, è una grande vittoria. Il gameplay in sé è chiave per questa esperienza, ma anche la lore è di tutto rispetto.  
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></iframe>
 
 ### <span class="twa twa-🐙">🐙</span> Splatoon  
 Sparatutto in terza persona che dire diverso dagli altri è poco. Splatoon rompe le aspettative di realismo di guerra del genere, e presenta un gameplay simpatico, fatto di colori accecanti, che non si ferma mai. Non ci sono umani a sparare proiettili con il ferro, ma calamari che spargono inchiostro.  
 Giocare in Mischie Mollusche (questo il nome delle battaglie online 4-contro-4) è divertente, ma profondità del gioco e inventiva del team di sviluppo si vedono in modalità storia.  
 	- Splatoon 3: Ottieni: <https://go.octt.eu.org/$8e62cec12c93>{[:MdTgtBlankNofw:]}
 
-### <span class="twa twa-🧱">🧱</span> Tetris  
-[Tetris ↩️](#--Tetris-2)
+### <a href="#--Tetris"><span class="twa twa-🧱">🧱</span> Tetris ↩️</a>  
 #### Tetris Effect  
 Tetris effect aggiunge a Tetris atmosfere ambient con tanti temi diversi. Effetti visivi e sonori lavorano gli uni per potenziare gli altri, e permettere la totale immersione, anche in un gioco che resta semplicemente fatto di cubi che cadono. Centinaia di migliaia di particelle ovunque, forme, colori, musica attraente, questa è la sua formula. Ha dei difetti, come l'essere particolarmente pesante per un Tetris e l'avere comandi non terribilmente responsivi, ma non per questo va buttato via. Resta da godere.  
-<iframe src="https://piped.kavin.rocks/embed/watch?v=PFVL6t8IHE8"></iframe>
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/PFVL6t8IHE8" style="Height:Calc(80vw / 16 * 9);"><!-- https://piped.kavin.rocks/embed/watch?v=PFVL6t8IHE8 ---></iframe>
 
 ## Giochi multiforma
 
@@ -61,8 +62,7 @@ Sostanzialmente, qui si parla di videogiochi classici per cui esistono centinaia
 ### <span class="twa twa-🧱">🧱</span> Tetris  
 Il gioco creato appositamente per far incastrare alla gente quadratini di forme particolari che cadono dal cielo.  
 Puzzle game particolarissimo nella sua semplicità dove, man mano che la difficoltà di gioco aumenta, la mancanza di riflessi pronti può far terminare prematuramente la partita.
-#### Tetris Effect  
-[Tetris Effect ↩️](#-Tetris-Effect)
+#### <a href="#-Tetris-Effect">Tetris Effect ↩️</a>
 
 ## Perle segrete
 
@@ -90,3 +90,4 @@ _I titoli che hanno soltanto una di queste due caratteristiche possono tranquill
 Celeste è un bel giochino platformer, con meccaniche originali e uno stile grafico unico. Però è troppo difficile.  
 Ho provato a giocarci tante volte, ma ad un certo punto della storia la difficoltà diventa per me troppo alta. Dovrei forse provare a finirlo in modalità guidata, visto che l'opzione c'è. Fino a quando non l'ho fatto, però, non vado a cercare video del finale e spoilerarmi roba, visto che dicono che il valore di Celeste sta proprio nel suo significato.  
 	- Ottieni: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/_bM0uEAis14" style="Height:Calc(80vw / 16 * 9);"></iframe>

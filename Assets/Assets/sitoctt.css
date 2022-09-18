@@ -165,7 +165,7 @@ H3:hover {
 
 IFrame {
 	Width: 100%;
-	Height: 90vh;
+	Max-Height: 90vh;
 }
 
 #Container {
