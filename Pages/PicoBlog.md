@@ -25,6 +25,13 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-09-19] Luigi ambience </summary>
+La musichetta del casinò di Luigi, nonostante lui sia bastardo, è molto raffinata e ci sta benissimo come ambience per l'appartamento. Cliccando sulla foto sotto la si può ascoltare da YouTube.
+
+[![Schermata del primo minigioco di Luigi in Super Mario 64 DS.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/Luigi-Casino.avif)]([:YouTubeURL:]/QoydhH3xODU){[:MdTgtBlank:]}
+</details>
+
+<details markdown="1"><summary>
 #### [2022-09-15] I pezzi </summary>
 Un sacco di roba mi si sta distruggendo. [La mia Nintendo Switch](https://t.me/SpaccInc/882){[:MdTgtBlank:]} cade letteralmente a pezzi, [il mio mouse pezzottissimo](https://t.me/SpaccInc/888){[:MdTgtBlank:]} ha perso un tasto laterale, e che cavolo, e mannaggia!!… Oggi oggi non si è spaccato niente, ma è bene tenere gli ma occhi aperti.
 </details>

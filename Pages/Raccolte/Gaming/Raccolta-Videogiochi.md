@@ -1,6 +1,6 @@
 // % Categories = Gaming
 // % Index = Categories
-// % EditedOn = 2022-09-14
+// % EditedOn = 2022-09-19
 // $ YouTubeEmbed = https://invidious.weblibre.org/embed/
 
 # Raccolta Videogiochi
@@ -42,7 +42,8 @@ All'inizio è fare "case" che sono buchi 4x4 sotto terra, ma dopo diventa creare
 Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  
 Ho giocato pochissimo la prima entrata della saga, perché fu la seconda uscita, Mirror's Edge Catalyst, ad introdurmi alla serie circa 2 anni fa. Catalyst lascia un po' da parte i colori molto saturi che erano parte dell'identità iniziale, per offrire grafica più realistica e immersiva. Anche la fisica e diversi dettagli minuti subiscono miglioramenti importanti rispetto al Mirror's Edge originale.  
 In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di speranza. È peculiare come i suoi piccoli dettagli riescano a farti sentire di essere effettivamente nel gioco - per un titolo non VR, è una grande vittoria. Il gameplay in sé è chiave per questa esperienza, ma anche la lore è di tutto rispetto.  
-<iframe frameBorder="0" src="[:YouTubeEmbed:]/2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></iframe>
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></iframe>  
+<cite>Da <a href="[:YouTubeURL:]/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>
 
 ### <span class="twa twa-🐙">🐙</span> Splatoon  
 Sparatutto in terza persona che dire diverso dagli altri è poco. Splatoon rompe le aspettative di realismo di guerra del genere, e presenta un gameplay simpatico, fatto di colori accecanti, che non si ferma mai. Non ci sono umani a sparare proiettili con il ferro, ma calamari che spargono inchiostro.  
@@ -52,7 +53,8 @@ Giocare in Mischie Mollusche (questo il nome delle battaglie online 4-contro-4) 
 ### <a href="#--Tetris"><span class="twa twa-🧱">🧱</span> Tetris ↩️</a>  
 #### Tetris Effect  
 Tetris effect aggiunge a Tetris atmosfere ambient con tanti temi diversi. Effetti visivi e sonori lavorano gli uni per potenziare gli altri, e permettere la totale immersione, anche in un gioco che resta semplicemente fatto di cubi che cadono. Centinaia di migliaia di particelle ovunque, forme, colori, musica attraente, questa è la sua formula. Ha dei difetti, come l'essere particolarmente pesante per un Tetris e l'avere comandi non terribilmente responsivi, ma non per questo va buttato via. Resta da godere.  
-<iframe frameBorder="0" src="[:YouTubeEmbed:]/PFVL6t8IHE8" style="Height:Calc(80vw / 16 * 9);"><!-- https://piped.kavin.rocks/embed/watch?v=PFVL6t8IHE8 ---></iframe>
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/PFVL6t8IHE8" style="Height:Calc(80vw / 16 * 9);"><!-- https://piped.kavin.rocks/embed/watch?v=PFVL6t8IHE8 ---></iframe>  
+<cite>Da <a href="[:YouTubeURL:]/PFVL6t8IHE8" [:HTMLTgtBlank:]>YouTube/PFVL6t8IHE8</a>.</cite>
 
 ## Giochi multiforma
 
@@ -90,4 +92,11 @@ _I titoli che hanno soltanto una di queste due caratteristiche possono tranquill
 Celeste è un bel giochino platformer, con meccaniche originali e uno stile grafico unico. Però è troppo difficile.  
 Ho provato a giocarci tante volte, ma ad un certo punto della storia la difficoltà diventa per me troppo alta. Dovrei forse provare a finirlo in modalità guidata, visto che l'opzione c'è. Fino a quando non l'ho fatto, però, non vado a cercare video del finale e spoilerarmi roba, visto che dicono che il valore di Celeste sta proprio nel suo significato.  
 	- Ottieni: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}
-<iframe frameBorder="0" src="[:YouTubeEmbed:]/_bM0uEAis14" style="Height:Calc(80vw / 16 * 9);"></iframe>
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/_bM0uEAis14" style="Height:Calc(80vw / 16 * 9);"></iframe>  
+<cite>Da <a href="[:YouTubeURL:]/_bM0uEAis14" [:HTMLTgtBlank:]>YouTube/_bM0uEAis14</a>.</cite>
+
+### <span class="twa twa-✈️">✈️</span> Pilotwings
+#### Pilotwings Resort  
+Pilotwings Resort continua la serie di Pilotwings, gioco di simulazione di volo arcade, in modo diverso. Finisce su una console portatile, il 3DS, tra l'altro una console che riesce a prenderti direttamente, con il suo display in 3D stereoscopico. Il gioco è ambientato su Wuhu Island, lo stesso posto pieno di storia, luoghi, e misteri di Wii Sports Resort. La modalità missioni riesce ad essere in certi casi una vera sfida se, come me, si ha la mania del platinaggio.. ma la modalità di volo libero è indiscutibilmente rilassante e, forse, direi anche più immersiva. In essa, comunque, non è che non si faccia nulla: si devono trovare, pochi alla volta, tutti e 120 gli anelli informazione, passandoci attraverso per sbloccarli.  
+<iframe frameBorder="0" src="[:YouTubeEmbed:]/QJCb8qnHauo" style="Height:Calc(80vw / 16 * 9);"></iframe>  
+<cite>Da <a href="[:YouTubeURL:]/QJCb8qnHauo" [:HTMLTgtBlank:]>YouTube/QJCb8qnHauo</a>.</cite>

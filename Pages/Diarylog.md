@@ -45,14 +45,19 @@ Ho pensato: e **se saldassi una flashcart DS al posto dello slot?** La cosa non 
 Prendo il cacciavite e le punte, e smonto la console. Tutto OK, l'ho fatto almeno 4 volte contando solo il DS Lite.  
 Ma poi, mi armo di saldatore.. onestamente dovrebbero togliermi il porto d'armi, considerando i danni che faccio.
 
-La prima cosa che mi trovo a dover fare è dissaldare lo slot. Ahia.  
-Dopo aver tagliato i punti non elettrici che tenevano fissato lo slot alla scheda madre - che sembravano punti di saldatura, ma non si scioglievano - inizio prima provando a riscaldare tutti i pin pian piano, tirando leggermente fuori lo slot. Ma non va. Allora provo a riscaldare ogni singolo pin e tirare via lo stagno con quello strumento strano che serve per aspirarlo.. ma ne viene su poco e niente. Alla fine torno al metodo iniziale, ma fatto più velocemente e scorrendo.. che disastro!
+La prima cosa che mi trovo a dover fare è dissaldare lo slot. _Ahia_.  
+Dopo aver tagliato i punti non elettrici che tenevano fissato lo slot alla scheda madre - che sembravano punti di saldatura, ma non si scioglievano - inizio prima provando a riscaldare tutti i pin pian piano, tirando leggermente fuori lo slot. Ma non va. Allora provo a riscaldare ogni singolo pin e tirare via lo stagno con quello strumento strano che serve per aspirarlo.. ma ne viene su poco e niente. Alla fine torno al metodo iniziale, ma fatto più velocemente e scorrendo.. **che disastro**!
+
+<div class="MediaRow2" markdown="1">
+![Foto dell'area in cui c'era lo slot DS.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/IMG_20220918_170148.avif)
+![Foto macro dell'area in cui c'era lo slot DS.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/IMG_20220918_170157.avif)
+</div>
 
 Se ne son venuti via quasi tutti i punti di saldatura, e ora c'è il marrone. Conosco il trucchetto del graffiare via lo strato verde della PCB, per esporre metallo pulito su cui saldare, ma qui proprio non c'è spazio. Su questa scheda è tutto messo vicino, non c'è il minimo spazio di manovra.
 
 Ci sono dei piccolissimi buchini con il diametro conduttivo attorno (largo appena quanto un singolo filino di rame), tipo testpoint, che in effetti sembrano essere collegati a dove erano collegati i pad di saldatura che ho distrutto. Giusto per, provo a saldare lì sopra, ma non c'è assolutamente da fare. Quelli son piccoli e non c'è spazio buono attorno, quindi lo stagno non si deposita.
 
-Ho solo perso tempo, e ridimostratomi che proprio non son capace a fare lavori di saldatura che vadano oltre il collegare 2 fili su pad enormi (cosa che comunque faccio male, con un lavoro sporco).  
+Ho solo perso tempo, e ridimostratami che proprio non son capace a fare lavori di saldatura che vadano oltre il collegare 2 fili su pad enormi (cosa che comunque faccio male, con un lavoro sporco).  
 Comprerò una flashcart GBA adesso, e la userò.. per avviare software DS. Con mia sorpresa, è possibile, e magari ne parlerò la prossima volta.
 </details>
 
