@@ -255,6 +255,21 @@ IFrame {
 	-ms-interpolation-mode: nearest-neighbor;
 }
 
+.MediaRow2 {
+	Padding: 0px;
+}
+.MediaRow2:After {
+	Content: "";
+	Clear: Both;
+	Display: Table;
+}
+.MediaRow2 Img,
+.MediaRow2 Video {
+	Float: Left;
+	Width: 50%;
+	Padding: 4px;
+}
+
 #MainBoxTop, #BuildTimeLine {
 	Color: #505050;
 }
