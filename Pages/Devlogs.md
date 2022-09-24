@@ -86,7 +86,7 @@ Il mio sito, con **30 pagine Markdown** (ho escluso l'unica in Pug, che richiede
 Giusto per, ho voluto fare un **test** - che, se avessi voluto fare davvero per bene, avrei dovuto fare in confronto ad altri generatori di siti statici - su un ipotetico sito da **1500 pagine**. Ho quindi copiato la cartella del mio sito, sdoppiato tutte le pagine per farle arrivare alla grossa cifra (in peso dei file avrò avuto un totale di **9 MB**, considerando `(180/30)*1500`), e ho acceso il programmino.  
 Esecuzioni diverse hanno dato risultati un po' diversi, forse perché avevo diversi _altri programmi_ aperti che _mangiavano CPU_ (primo di tutti, Firefox che riproduceva un video da Invidious; almeno il 20% di CPU era occupato); ma posso dire di aver visto **~160 s** per una build pulita e **~17 s** per la differenziale (di nuovo, senza alcuna effettiva modifica).
 
-![Schermata di Task Manager nel momento della compilazione del sito grosso.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/Task-Manager-staticoso-Test-1500-2022-08-30.avif)
+![Schermata di Task Manager nel momento della compilazione del sito grosso.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/Task-Manager-staticoso-Test-1500-2022-08-30.avif)
 
 Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio codice **va ancora ottimizzato** - oltre il poco che ho già fatto. Vabbè, in ogni caso mi soddisfa già il punto in cui sono arrivata!
 </details>

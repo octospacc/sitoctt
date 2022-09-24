@@ -1,6 +1,6 @@
 // % Title: 👾 L'emulazione NDS, Google Play, e una storia oscura
 // % HTMLTitle: <span class="twa twa-alien-monster"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
-// % Image: [staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif
+// % Image: [staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif
 // % CreatedOn: 2022-07-27
 // % EditedOn: 2022-07-29
 // % Categories: Blog Tecnologia Gaming Mobile
@@ -122,7 +122,7 @@ L'unica cosa di cui sono stupita, e non poco, è di aver trovato questa **app cl
 Comunque, bell'impegno che ci hanno messo i creatori dell'app nel rimuovere ogni riferimento a Drastic. Ci sono _quasi_ riusciti.  
 Nel programma non compare mai il famigerato nome, ma una decompilazione del file APK tramite [apktool](https://ibotpeaches.github.io/Apktool){[:MdTgtBlank:]}, e poi ricerca in tutti i file estratti (con `grep -iR Drastic *`) della stringa "Drastic", mostra che il nome della app da cui quella sospetta ha rubato il codice è presente 2 volte in totale, in 2 file diversi. Giusto così, ecco la conferma, nel caso ci fossero dubbi sulla natura di questa applicazione.
 
-![Schermata del comando grep sopracitato.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/Free-DS-Emulator-Grep-Drastic.avif)
+![Schermata del comando grep sopracitato.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/Free-DS-Emulator-Grep-Drastic.avif)
 
 ### Nuove ricerche
 
@@ -136,7 +136,7 @@ Gli screenshot presenti nelle pagine delle applicazioni puzzano di truffa da lon
 Tutte e due, quando le apro, mi presentano un bottone "Play" che, quando premuto, fa partire l'installazione di un APK (credo patchato) di Drastic (!!!).  
 Avete capito bene: questa **app**, **proveniente dal Play Store**, **contiene** nel suo pacchetto **un file** APK (non lo scarica nemmeno da Internet!), **crackato**, di un'altra app. Una delle due, tra l'altro, integra anche la ROM pirata di un gioco DS che non ho mai sentito prima: _Zoo Quest Puzzle Fun_. Che gentili, che bel regalo, non solo l'emulatore gratis ma anche il gioco gratis. Sembra di essere su app store strani, e invece siamo su Google Play.
 
-![Schermata delle pagine Google Play delle 2 app, affiancate, e schermata della lista dei file in violazione del copyright in uno dei due APK.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/Adware-Emulator-Installers.avif)
+![Schermata delle pagine Google Play delle 2 app, affiancate, e schermata della lista dei file in violazione del copyright in uno dei due APK.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/Adware-Emulator-Installers.avif)
 
 Per gli scettici, non solo vi rimando a <a href="https://mastodon.uno/@octo/108709092014240395" target="_blank" rel="noopener">questo video</a> che ho registrato qualche giorno fa, ma vi invito a scaricare le applicazioni in questione (e, magari, _bloccate l'accesso di rete o disattivate la connessione Internet_ prima di avviarle) e toccare con mano il tutto: [Green Emu NDS](https://play.google.com/store/apps/details?id=com.nud.ndsemu){[:MdTgtBlank:]}, [The FrieNDS Emu](https://play.google.com/store/apps/details?id=com.blackversion.citra_platinum){[:MdTgtBlank:]}.  
 Ad ogni modo, non è stata una scoperta utile: i regalini dati da queste app hanno gli stessi problemi degli APK di Drastic che si trovano sul Web.
@@ -146,7 +146,7 @@ Ad ogni modo, non è stata una scoperta utile: i regalini dati da queste app han
 Nel mio giro sullo store, finalmente, vedo ancora un'altra app che mi puzza di Drastic ribrandizzato, non so perché, forse per la disposizione dei tasti negli screenshot: [vDS](https://play.google.com/store/apps/details?id=com.icorewwwi.vDS){[:MdTgtBlank:]}. Costa ben 1,29€ ma, per fortuna, dopo neanche 10 secondi di ricerca ho già trovato l'APK ricaricato da altre persone sul Web, e l'ho installato.  
 All'apertura, confermo i miei sospetti: il menu principale è identico a quello di Drastic, eccetto per i colori cambiati. Anche tutti gli altri menu sono identici, e il motore di emulazione anche. Come se non bastasse, la cartella in cui salva i dati è esattamente la stessa di Drastic (`/sdcard/Drastic`!). Non ci hanno nemmeno provato a nascondere il furto, questi!
 
-![I menu iniziali di Drastic e di vDS, affiancati per confronto.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/Drastic-VS-vDS-Main-Menu.avif)
+![I menu iniziali di Drastic e di vDS, affiancati per confronto.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/Drastic-VS-vDS-Main-Menu.avif)
 
 Comunque, si, l'emulatore funziona, fa aprire i file e non fa il trolling del chiudersi in faccia. Da ormai 3 giorni lo sto usando, e non ho da ridire.
 
@@ -183,7 +183,7 @@ Nell'archivio ci sono anche altri emulatori sparsi, anche liberi, di cui ho comu
 Grazie per la lettura. Vi invito a seguire il blog, anche se non in tutti gli articoli futuri ci saranno file binari in regalo 😁!  
 **P.S.**: Ma quanto sono bellini tutti i miei androidi che fanno girare _ACWW_ insieme? Vi lascio la foto, giusto per.
 
-![Foto di 3 dei miei dispositivi Android tascabili, che mostrano la schermata del titolo di Animal Crossing Wild World.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif)
+![Foto di 3 dei miei dispositivi Android tascabili, che mostrano la schermata del titolo di Animal Crossing Wild World.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif)
 
 ## 🏷️ Note/Riferimenti
 

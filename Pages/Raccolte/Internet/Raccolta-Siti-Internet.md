@@ -31,7 +31,7 @@ Link testuale:
 </code></pre>
 
 Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
-![✨sitoctt✨]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/sitoctt-1.png)  
+![✨sitoctt✨]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/sitoctt-1.png)  
 _L'immagine è in formato PNG e già compressa il più possibile._  
 <pre class="CodeScroll"><code>
 &lt;a
@@ -59,7 +59,7 @@ Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anch
 Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 🇮🇹 astral town  
-![serimemo]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/serimemo.gif)  
+![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo.gif)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
 Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 
@@ -82,7 +82,7 @@ Clearweb: [tassoman.com](https://tassoman.com){.tassoman [:MdTgtBlankNofw:]}
 ## Miscellanea
 
 - 🇬🇧 The Yesterweb  
-![Yesterweb]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/Yesterweb.gif)  
+![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb.gif)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
 Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
 
@@ -91,7 +91,7 @@ Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto i
 Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
 
 - 🇬🇧 OpenBooks  
-![OpenBooks]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Buttons/Sites/OpenBooks.gif)  
+![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks.gif)  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
 Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
 

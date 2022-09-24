@@ -71,8 +71,8 @@ La prima cosa che mi trovo a dover fare è dissaldare lo slot. _Ahia_.
 Dopo aver tagliato i punti non elettrici che tenevano fissato lo slot alla scheda madre - che sembravano punti di saldatura, ma non si scioglievano - inizio prima provando a riscaldare tutti i pin pian piano, tirando leggermente fuori lo slot. Ma non va. Allora provo a riscaldare ogni singolo pin e tirare via lo stagno con quello strumento strano che serve per aspirarlo.. ma ne viene su poco e niente. Alla fine torno al metodo iniziale, ma fatto più velocemente e scorrendo.. **che disastro**!
 
 <div class="MediaRow2" markdown="1">
-![Foto dell'area in cui c'era lo slot DS.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/IMG_20220918_170148.avif)
-![Foto macro dell'area in cui c'era lo slot DS.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/IMG_20220918_170157.avif)
+![Foto dell'area in cui c'era lo slot DS.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/IMG_20220918_170148.avif)
+![Foto macro dell'area in cui c'era lo slot DS.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/IMG_20220918_170157.avif)
 </div>
 
 Se ne son venuti via quasi tutti i punti di saldatura, e ora c'è il marrone. Conosco il trucchetto del graffiare via lo strato verde della PCB, per esporre metallo pulito su cui saldare, ma qui proprio non c'è spazio. Su questa scheda è tutto messo vicino, non c'è il minimo spazio di manovra.

@@ -30,7 +30,7 @@ Di schede microSD veloci ne avrei, ma i miei adattatori USB per quelle schedine 
 
 Insomma, prendo la fidata pennina USB 2.0 da 2 GB, color menta (_sarebbe perfetta come media di installazione di Linux Mint!_), anche questa di Kingston, e parto.
 
-![Foto della chiavina USB che ho dedicato a Linux.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Chiavetta-Linux-2022-05-07.avif)
+![Foto della chiavina USB che ho dedicato a Linux.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Chiavetta-Linux-2022-05-07.avif)
 
 ### Scelta del software
 
@@ -60,7 +60,7 @@ Avendo provveduto ad impostare la cifratura [LUKS](https://en.m.wikipedia.org/wi
 Anche il gestore di finestre integrato, [JWM](https://en.m.wikipedia.org/wiki/JWM){[:MdTgtBlank:]}, è molto pulito e mi piace abbastanza - anche se mi piacerebbe avesse qualche funzione di allineamento delle finestre (sembra non abbia nulla, o mi sbaglio?).  
 E ora, infine, di spazio libero ne ho abbastanza; e ho anche Minecraft!
  
-![Schermata del desktop del mio Puppy Linux, con neofetch aperto sull'emulatore terminale.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/Desktop-Chiavetta-Linux-2022-05-07.png)  
+![Schermata del desktop del mio Puppy Linux, con neofetch aperto sull'emulatore terminale.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/Desktop-Chiavetta-Linux-2022-05-07.png)  
 _Crediti sfondo: [pixelartmaker.com/art/becdd8955dc57eb](http://pixelartmaker.com/art/becdd8955dc57eb){[:MdTgtBlank:]}_
 
 ### Vantaggi importanti

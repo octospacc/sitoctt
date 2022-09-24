@@ -7,7 +7,7 @@
 <details markdown="1"><summary>
 #### [2019-09-18 20:58] Lagwei lazur </summary>
 > A.y&#x3A; ooooo  
-> ![Foto del Huawei di A.y, che sembra emettere un laser viola dal sensore di prossimità.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/A.y-Huawei-Laser.avif)
+> ![Foto del Huawei di A.y, che sembra emettere un laser viola dal sensore di prossimità.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/A.y-Huawei-Laser.avif)
 
 > Octt&#x3A; cosa ezere quel lazur viola  
 
@@ -19,7 +19,7 @@
 > A.y&#x3A; esere sensore di prossimità  
 
 > A.y&#x3A; se tu spaca vetro sopra quelo  
-> ![Sticker di un violinista che suona. In questo contesto di chat sottintende qualcosa di finito male.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Violin.avif)
+> ![Sticker di un violinista che suona. In questo contesto di chat sottintende qualcosa di finito male.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Stickers/Violin.avif)
 
 > A.y&#x3A; lo so per esperienza  
 > &#xA0; no non è vero
@@ -28,10 +28,10 @@
 <details markdown="1"><summary>
 #### [2019-09-17 15:16] Test più disparati con il Galaxy Player </summary>
 > &#x3A; Good Lagsung  
-> ![Foto del Galaxy Player, che mostra il canale Telegram in Plus Messenger.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
+> ![Foto del Galaxy Player, che mostra il canale Telegram in Plus Messenger.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-OctoVoLTE.avif)
 
 > &#x3A; 512 MB di RAM e gira meglio del Lagwei  
-> ![Schermata "RAM" in "Gestione Attività" del Galaxy Player. Sono indicati 215 MB su 488 MB di RAM occupati.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Task-Manager-RAM.avif)
+> ![Schermata "RAM" in "Gestione Attività" del Galaxy Player. Sono indicati 215 MB su 488 MB di RAM occupati.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Task-Manager-RAM.avif)
 
 > &#x3A; Ora proviamo l'emulatore del N64 e del DS, così esplode 
 
@@ -39,7 +39,7 @@
 {: .Center }
 
 > &#x3A; Eeee i giochi del DS girano meglio su un Android di 8 anni fa che sul mio PC [l'Android in questo caso è ARMv7, mentre il PC è x86_64, ndr], perfetto  
-> <video controls><source src="[staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/GP3.6-Pokemon-Platino.webm" type="video/webm">Pokemon Platino</video>
+> <video controls><source src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/GP3.6-Pokemon-Platino.webm" type="video/webm">Pokemon Platino</video>
 
 > **[Sondaggio]** Devo provare del DS come prossimo gioco
 
@@ -56,10 +56,10 @@
 {: .Center }
 
 > &#x3A; Ho trovato una cosa nella memoria del lag  
-> ![Schermata di una cartella, con dentro i file di un NANDroid backup del Galaxy Player risalente al 2017-12-09.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/CWM-Backup-2017-12-09.avif)
+> ![Schermata di una cartella, con dentro i file di un NANDroid backup del Galaxy Player risalente al 2017-12-09.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/CWM-Backup-2017-12-09.avif)
 
 > &#x3A; Ecco un motivo per cui le nuove versioni di Android fanno schifo [gestiscono il collegamento come memoria USB peggio di Android 2.3, ndr]  
-> ![Foto del Galaxy Player che mostra la schermata "Archivio USB in uso".]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Archivio-USB.avif)  
+> ![Foto del Galaxy Player che mostra la schermata "Archivio USB in uso".]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Archivio-USB.avif)  
 > &#x3A; In realtà ce ne sono tanti, poi ne parleremo
 
 > &#x3A; E ora testiamo gli altri giochi
@@ -68,10 +68,10 @@
 {: .Center }
 
 > &#x3A; Super Mario 64 DS  
-> <video controls><source src="[staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/GP3.6-SM6464DS.webm" type="video/webm">Super Mario 64 DS</video>
+> <video controls><source src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/GP3.6-SM6464DS.webm" type="video/webm">Super Mario 64 DS</video>
 
 > &#x3A; Mario Kart DS  
-> <video controls><source src="[staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/GP3.6-MKDS.webm" type="video/webm">Mario Kart DS</video>
+> <video controls><source src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/GP3.6-MKDS.webm" type="video/webm">Mario Kart DS</video>
 
 > &#x3A; Allora, vorrei registrare altri giochi ma il Memewei è rotto e, nonostante abbia cancellato i video di prima, dice che non ho memoria
 
@@ -81,19 +81,19 @@
 > &#x3A; Non ho registrato ma il framerate dei giochi era sempre stabile e giocabile.. purtroppo i giochi non sono tanto giocabili, ma soltanto perchè ci sono gravi glitch grafici  
 > &#x3A; Credo sia colpa dell'emulatore che è vecchio (purtroppo su Android 2.3.6 non posso fare molto)
 
-> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
-> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
-> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-2.avif)  
-> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-3.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-2.avif)  
+> ![Schermata di Mario Kart 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-3.avif)  
 
-> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-0.avif)  
-> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-1.avif)  
-> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-2.avif)  
+> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-0.avif)  
+> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-1.avif)  
+> ![Schermata di Super Mario 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Super-Mario-64/GP3.6-SM64-2.avif)  
 
-> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-0.avif)  
-> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-1.avif)  
-> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-2.avif)  
-> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-3.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-0.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-1.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-2.avif)  
+> ![Schermata di Wave Race 64 emulato sul Galaxy Player.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/Wave-Race-64/GP3.6-WR64-3.avif)  
 
 > &#x3A; Gli screen li ho fatti direttamente sul Lagsung con una app
 
@@ -101,14 +101,14 @@
 
 > &#x3A; A parte Zelda che ho provato ora, gli altri giochi hanno un framerate stabile se vedete, nice, un Lagsung di 8 anni fa si sta riscattando.  
 > &#x3A; Vi avverto che ci potrebbe essere un trigger epilettico quando avvio quake 2 eh xd  
-> <video controls><source src="[staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/N64/GP3.6-N64-Misc.webm" type="video/webm">N64</video>
+> <video controls><source src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/N64/GP3.6-N64-Misc.webm" type="video/webm">N64</video>
 
 > &#x3A; Vabbè per ora basta test sul Lagsung
 </details>
 
 <details markdown="1"><summary>
 #### [2019-09-16 18:35] Memewei memoria piena </summary>
-> !["Schermata del P9 Lite Mini che dice che la memoria è quasi piena e ciò rallenterebbe il dispositivo."]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/P9-Lite-Mini/Memewei-Memoria-Piena.avif)
+> !["Schermata del P9 Lite Mini che dice che la memoria è quasi piena e ciò rallenterebbe il dispositivo."]([staticoso:Folder:Assets:AbsoluteRoot]/Media/P9-Lite-Mini/Memewei-Memoria-Piena.avif)
 
 > &#x3A; Il Memewei si dimostra valido kek
 
@@ -136,7 +136,7 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 
 > &#x3A; Non ha quelle emoji tossiche perché ha di meglio  
 > &#xA0; MOLTO MEGLIO  
-> ![Foto del Galaxy Player che mostra la app di note, con aperta la tastiera sulla scheda delle emoticon, che sono nel vecchio stile a simboli, non emoji.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Notepad-Emoticon-Keyboard.avif)
+> ![Foto del Galaxy Player che mostra la app di note, con aperta la tastiera sulla scheda delle emoticon, che sono nel vecchio stile a simboli, non emoji.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Notepad-Emoticon-Keyboard.avif)
 
 [...]
 {: .Center }
@@ -160,10 +160,10 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 > &#xA0; Ho lasciato il coso lì attaccato quasi mezz'ora e non andava, quindi stacco
 
 > &#x3A; Lo riaccendo e  
-> ![Sticker distorto di Kanna e Tohru (due loli drago) che leggono un libro chiamato "Am I retarded?".]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Stickers/Lolis-Reading-Am-I-Retarded-Book.avif)
+> ![Sticker distorto di Kanna e Tohru (due loli drago) che leggono un libro chiamato "Am I retarded?".]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Stickers/Lolis-Reading-Am-I-Retarded-Book.avif)
 
 > &#x3A; Si, perché c'era una bella schermata che diceva   
-> ![Foto del Galaxy Player che, sul bootloader, mostra un triangolo di avvertimento e la scritta "Firmware update encountered an issue. Please select recovery mode in Kies & try again.".]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Softbrick-Bootloader.avif)
+> ![Foto del Galaxy Player che, sul bootloader, mostra un triangolo di avvertimento e la scritta "Firmware update encountered an issue. Please select recovery mode in Kies & try again.".]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Softbrick-Bootloader.avif)
 
 > &#x3A; E quindi, niente, io visto che ho la segatura nel cervello, per letteralmente quasi un anno ho creduto fosse la mia ROM corrotta, perché anche se riflashavo dava sempre errore alla fine, e letteralmente per un anno ho perso tempo a cercare altre ROM inutilmente
 
@@ -182,7 +182,7 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 > &#xA0; Compresi i miei oldissimi mondi di Minecraft
 
 > &#x3A; E niente sar, questo è il Lagsoong di nuovo in vita dopo un anno di coma  
-> ![Foto della schermata di blocco del Galaxy Player, con uno sfondo di Astolfo non-canon.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
+> ![Foto della schermata di blocco del Galaxy Player, con uno sfondo di Astolfo non-canon.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif)
 </details>
 
 <details markdown="1"><summary>
@@ -193,7 +193,7 @@ Qui un po' di contesto è doveroso: questo schifo di smartphone, quando ha tipo 
 
 > &#x3A; Ah e, ovviamente, metodi per avere 🅱oLTE sul telefono
 
-> ![VoLTE]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Misc/phh-VoLTE-JiOwO.avif)
+> ![VoLTE]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/phh-VoLTE-JiOwO.avif)
 
 Da questi messaggi ebbe ufficialmente inizio la storia di OctoVoLTE. Di Memewei se n'è parlato lì in questi anni, forse anche troppo; Di metodi per avere VoLTE, non se n'è avuto nemmeno uno, tipo. Sad.
 </details>

@@ -4,7 +4,7 @@ source ./.env
 
 python3 ../staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
-	--FolderRoots="{'*':'https://octtspacc.gitlab.io'}" \
+	--FolderRoots="{'*':'https://octtspacc.gitlab.io', 'Assets':'https://octtspacc.gitlab.io/sitoctt-assets'}" \
 	--Minify="False" \
 	--GemtextHeader="\
 # Spacc

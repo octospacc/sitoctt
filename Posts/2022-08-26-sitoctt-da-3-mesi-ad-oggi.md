@@ -29,7 +29,7 @@ Non che le **1300** attuali siano tante - affatto, ed è meglio così - ma **la 
 
 Se però, con un'immagine (ignorando che il mio font non si sia caricato, anche se lo avevo già incluso al tempo), vediamo come era nel pratico il sito nei suoi primi giorni... ahhh, ma _quanto erano grezzi alcuni dettagli_, rispetto ad oggi?
 
-![La home page del sitoctt, vista come era il 25 maggio.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Screenshots/sitoctt-home-2022-05-25.png)
+![La home page del sitoctt, vista come era il 25 maggio.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/sitoctt-home-2022-05-25.png)
 
 Il mio _discorsone sconclusionato_ figurava più o meno ancora come lo fa oggi sulla home page, ma il resto è appena riconoscibile.  
 **Sembra tutto più vuoto**... essendo che mancano tutte le iconcine e i bottoni che ora ho ai bordi e nel menu globale. Si, quest'ultimo già c'era; la sua utilità in quei giorni era pressoché nulla, considerando che le pagine presenti erano di numero 2, ma diciamo che è stata buona cosa averlo creato da subito.
@@ -65,7 +65,7 @@ Ce ne sono si diversi altri di siti fondati su questa idea, dell'usare il Web co
 Con i siti Web si possono scegliere nei **minimi dettagli** animazioni, colori, sfondi, caratteri, disposizioni, allineamenti, categorizzazioni, abbellimenti, interazioni, ma sempre **rimanendo nel campo dei documenti**.  
 Davvero bello è il fatto che con il CSS scritto a mano, anche appena qualche decina di righe, si possa già istituire un'**identità grafica unica**. Poi il vero grosso del codice si traduce solo in dettagli minori (ma comunque apprezzabili).
 
-![Foto del monitor che mostra una parte del CSS del sitoctt.]([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Media/Foto/CSS-sitoctt.avif)
+![Foto del monitor che mostra una parte del CSS del sitoctt.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Foto/CSS-sitoctt.avif)
 
 Tralasciando i mezzi: questa, l'idea di creare una **galleria collaterale**, era uno dei miei obiettivi iniziali. In questi mesi l'ho un po' lasciato da parte, nel senso che mi sono concentrata principalmente sul creare contenuti, pensando che _✨ i dettagli scintillanti ✨_ avrei potuto metterli quando capita.. e dovrei iniziare a farlo, onestamente! Al momento solo la pagina home ha grandi particolarità, se escludiamo lo stile globale del sito a cui comunque ho lavorato con un minimo di regolarità.  
 
@@ -91,7 +91,7 @@ Alcuni contenuti non esclusivi sono ancora già disponibili in altri miei posti 
 Quelli non archiviati sono semplicemente disordinati e mal preservati, nonché senza garanzie per chi vuole copiarli o riutilizzarli; quelli, invece, che per un motivo o un altro sono archiviati, è come se per il mondo non esistessero, ed è facile che anche io li perda.  
 Alcuni di questi dati possono aver valore, quindi tutto **ciò è un peccato**.
 
-Come un mesetto fa annunciai con il mio [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ([staticoso:Folder:*:AbsoluteRoot]/sitoctt-assets/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]} --> (_non ci s'è capito una mazza, vè?_), questa è una cosa che richiede lavoro noioso (_prendere il vecchio, valutarne la qualità, copiare il testo, incollarlo sui nuovi file di testo impaginandolo bene, scaricare foto e video, ottimizzarli bene e caricarli..._ altro che il divertimento di creare, qui è una catena di montaggio!), ma **va fatta**.  
+Come un mesetto fa annunciai con il mio [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ([staticoso:Folder:Assets:AbsoluteRoot]/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]} --> (_non ci s'è capito una mazza, vè?_), questa è una cosa che richiede lavoro noioso (_prendere il vecchio, valutarne la qualità, copiare il testo, incollarlo sui nuovi file di testo impaginandolo bene, scaricare foto e video, ottimizzarli bene e caricarli..._ altro che il divertimento di creare, qui è una catena di montaggio!), ma **va fatta**.  
 Con i miei larghi tempi l'ho già iniziata a fare, e continuerò.  
 Anche i post del mio [vecchio blog](https://noblogo.org/loli-documentatrice){[:MdTgtBlank:]} vanno archiviati qui, sempre per organizzazione e preservazione - ma quelli sono più facili.
 
