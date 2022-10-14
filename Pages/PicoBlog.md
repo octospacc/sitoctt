@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-10-14] Che dire </summary>
+Di nuovo inattività qui, eh? Purtroppo un po' non avevo voglia, un po' non sapevo cosa mettere di nuovo, in queste settimane passate.. Ma ora è in lavorazione un nuovo articolo di [Blog](./Categories/Blog.html), e forse avrei anche un po' di cose da scrivere sui [Devlogs](./Devlogs.html).
+</details>
+
+<details markdown="1"><summary>
 #### [2022-09-19] Luigi ambience </summary>
 La musichetta del casinò di Luigi, nonostante lui sia bastardo, è molto raffinata e ci sta benissimo come ambience per l'appartamento. Cliccando sulla foto sotto la si può ascoltare da YouTube.
 

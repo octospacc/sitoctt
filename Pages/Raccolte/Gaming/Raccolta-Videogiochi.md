@@ -1,5 +1,6 @@
 // % Categories = Gaming
 // % Index = Categories
+// % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-Videogiochi.css";
 // % EditedOn = 2022-09-19
 // $ YouTubeEmbed = https://invidious.weblibre.org/embed/
 
