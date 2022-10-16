@@ -147,7 +147,7 @@ A:Hover:Not(
 
 .ImgShiftedH, .ImgShiftedH Img {
 	Margin-Top: 4px;
-	Margin-Bottom: -4px;
+	/* Margin-Bottom: -4px; */
 }
 
 Details > Summary:hover {
