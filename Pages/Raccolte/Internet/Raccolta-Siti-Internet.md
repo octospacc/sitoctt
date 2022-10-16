@@ -1,6 +1,7 @@
 // % Title: Raccolta Siti Internet
 // % Categories: Internet Tecnologia
 // % Index: Categories
+// % EditedOn: 2022-10-14
 
 # Raccolta Siti Internet
 
@@ -94,5 +95,13 @@ Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
 ![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks.gif)  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
 Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
+
+- 🇬🇧 FEMICOM Museum  
+Un museo virtuale dedicato ad illustrare quei rari contenuti informatici e videoludici che fanno del loro punto chiave estetiche ed esperienze femminili, colorate, e kawaii. Purtroppo, non tutte le pagine sono riempite, ma quel poco che c'è è carino!  
+Clearweb: [femicom.org](http://femicom.org){[:MdTgtBlankNofw:]}
+
+- 🇷🇺 🇬🇧 Encyclopedia Game Boy Advance  
+È un bel sito che ho trovato per caso, che raccoglie diverse informazioni sul Game Boy Advance da diversi punti di vista. È ben organizzato ed ha tante foto di supporto al materiale testuale. È disponibile in Inglese, ma la versione principale in Russo ha molti più contenuti.  
+Clearweb: [🇷🇺 v. Russa](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 v. Inglese](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
 
 </div>
