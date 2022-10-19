@@ -1,4 +1,5 @@
-// % Index: Categories
+// % Categories = Tecnologia
+// % Index = Categories
 // % EditedOn = 2022-10-14
 // % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
 

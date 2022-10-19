@@ -1,9 +1,11 @@
-// % Title: 📒 MicroBlog
-// % HTMLTitle: <span class="twa twa-ledger"><span>📒</span></span> MicroBlog
-// % Index: True
+// % Title = 📒 MicroBlog
+// % HTMLTitle = <span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog
+// % Index = True
+// % Order = 60
+// % URLs = MicroBlog.html Diarylog.html
 
-# <span class="twa twa-ledger"><span>📒</span></span> MicroBlog
+# <span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog
 
 _Nota: I contenuti negli archivi possono aver subito redazioni non segnalate._
 
-<div><span>[staticoso:Category:MicroBlog]</span></div>
+<div><staticoso:Category:MicroBlog></div>

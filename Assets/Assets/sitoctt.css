@@ -45,6 +45,11 @@ Body {
 	Display: Inline-Block;
 }
 
+.staticoso-ContentHeader-CreatedOn > .staticoso-Value,
+.staticoso-ContentHeader-EditedOn > .staticoso-Value {
+	Font-Weight: Bold;
+}
+
 /*--------------------------------------------------------*/
 
 
@@ -64,7 +69,8 @@ Details Div Details {
 	Margin: 8px;
 	Padding: 4px;
 }
-Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > H6 {
+Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > H6,
+Li > H1, Li > H3, Li > H3, Li > H4, Li > H5, Li > H6 {
 	Display: Inline;
 }
 

@@ -1,7 +1,7 @@
-// % Title: Raccolta Siti Internet
-// % Categories: Internet Tecnologia
-// % Index: Categories
-// % EditedOn: 2022-10-14
+// % Title = Raccolta Siti Internet
+// % Categories = Internet
+// % Index = Categories
+// % EditedOn = 2022-10-19
 
 # Raccolta Siti Internet
 
@@ -47,61 +47,69 @@ _L'immagine è in formato PNG e già compressa il più possibile._
 
 ## Personali
 
-- 🇬🇧 Ledomsoft  
+- **🇬🇧 Ledomsoft**  
 Sito resuscitato da archivi dell'autore di più di un decennio fa, programmato come si faceva ai tempi. Bello colorato con GIF e tutto, ma moderato, non senza ritegno.  
-Clearweb: [ledomsoft.com](https://ledomsoft.com){[:MdTgtBlankNofw:]}
+	• Clearweb: [ledomsoft.com](https://ledomsoft.com){[:MdTgtBlankNofw:]}
 
-- 🇮🇹 Il covo di Thushi  
+- **🇮🇹 Il covo di Thushi**  
 Sito ultraminimale, nessuna grafica (:'c), ma bello schema di (3) colori e bei contenuti.  
-Onion web: [m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion](http://m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion){[:MdTgtBlankNofw:]}
+	• Onion web: [m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion](http://m4vojazxsxvaxfoeklmq6na546fd5hjyo3zrgeq45cixdfm6kodkhdid.onion){[:MdTgtBlankNofw:]}
 
-- 🇮🇹 Arcisito  
+- **🇮🇹 Arcisito**  
 Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anche Aurora). Lo ha messo in piedi oggi (2022-06-30), dopo che ha detto di non sapere cosa fare con tutto il tempo libero estivo, e io le ho detto "fai l'Arcisito".  
-Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
+	• Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 🇮🇹 astral town  
+- **🇬🇧 🇮🇹 astral town**  
 ![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo.gif)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
-Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
+	• Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 
-- 🇮🇹 Officina di Ribby  
+- **🇮🇹 Officina di Ribby**  
 Il tema di questo sito mi da davvero una sensazione di officina, per così dire. Pochi fronzoli ma ha un suo stile, e la sua divisione in categorie è stata di parziale ispirazione per ciò che ho sul mio sito ora.  
-Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.org){[:MdTgtBlankNofw:]}
+	• Clearweb: [officinadiribby.altervista.org](https://officinadiribby.altervista.org){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 daedalOS  
+- **🇬🇧 daedalOS**  
 I visualizzatori di documenti (browser) Web moderni sono una piattaforma eccessiva, dove cose assurde possono essere realizzate. Come un vero **sistema operativo** (libero), creato da _Dustin Brett_, per portfolio. **Pazzia**.  
-Clearweb: [dustinbrett.com](https://dustinbrett.com){[:MdTgtBlankNofw:]}
+	• Clearweb: [dustinbrett.com](https://dustinbrett.com){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 Fra/Website  
+- **🇬🇧 Fra/Website**  
 Più che un sito, una demo JavaScript con una lista di link e cose così, ma è unica. Non dico altro, meglio vedere di persona!  
-Clearweb: [francescomasala.me](https://francescomasala.me){[:MdTgtBlankNofw:]}
+	• Clearweb: [francescomasala.me](https://francescomasala.me){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 🇮🇹 Tassoman's homepage  
+- **🇬🇧 🇮🇹 Tassoman's homepage**  
 Solo una pagina principale e poca altra roba, ma solo l'idea del sito è un'esperienza.. **interessante**. L'unico sito visto fino ad ora che usa una precisa configurazione di Apache, con l'esatto scopo di rallentare il sito alle velocità del 14.4 kbps!  
-Clearweb: [tassoman.com](https://tassoman.com){.tassoman [:MdTgtBlankNofw:]}
+	• Clearweb: [tassoman.com](https://tassoman.com){.tassoman [:MdTgtBlankNofw:]}
 
 ## Miscellanea
 
-- 🇬🇧 The Yesterweb  
+- **🇬🇧 The Yesterweb**  
 ![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb.gif)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
-Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
+	• Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 XXIIVV  
+- **🇬🇧 XXIIVV**  
 Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto il resto. Però ha delle belle grafiche e mi piace.  
-Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
+	• Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 OpenBooks  
+- **🇬🇧 OpenBooks**  
 ![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks.gif)  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
-Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
+	• Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
 
-- 🇬🇧 FEMICOM Museum  
+- **🇬🇧 LOW-TECH MAGAZINE**  
+Questo sito pubblica periodicamente articoli riguardo il mondo della tecnologia di bassa scala, per esplorare come tecnologie del passato dimenticate possono rivelarsi non solo utili al giorno d'oggi, ma anche più adatte delle soluzioni moderne ad alcune situazioni.  
+	• Clearweb: [lowtechmagazine.com](https://lowtechmagazine.com){[:MdTgtBlankNofw:]}  
+Oltre alla versione principale, che appare come un comunissimo blog, c'è anche una versione _più low-tech_. Questa, risiedendo su un serverino alimentato ad enegia solare, mira a ridurre drasticamente il consumo di energia necessario ad accedere ai contenuti; e a livello tecnico, le ottimizzazioni attuate sono decisamente interessanti!  
+	• Clearweb: [solar.lowtechmagazine.com](https://solar.lowtechmagazine.com){[:MdTgtBlankNofw:]}
+
+## Cultura
+
+- **🇬🇧 FEMICOM Museum**  
 Un museo virtuale dedicato ad illustrare quei rari contenuti informatici e videoludici che fanno del loro punto chiave estetiche ed esperienze femminili, colorate, e kawaii. Purtroppo, non tutte le pagine sono riempite, ma quel poco che c'è è carino!  
-Clearweb: [femicom.org](http://femicom.org){[:MdTgtBlankNofw:]}
+	• Clearweb: [femicom.org](http://femicom.org){[:MdTgtBlankNofw:]}
 
-- 🇷🇺 🇬🇧 Encyclopedia Game Boy Advance  
+- **🇷🇺 🇬🇧 Encyclopedia Game Boy Advance**  
 È un bel sito che ho trovato per caso, che raccoglie diverse informazioni sul Game Boy Advance da diversi punti di vista. È ben organizzato ed ha tante foto di supporto al materiale testuale. È disponibile in Inglese, ma la versione principale in Russo ha molti più contenuti.  
-Clearweb: [🇷🇺 v. Russa](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 v. Inglese](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
+	• Clearweb: [🇷🇺 v. Russa](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 v. Inglese](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
 
 </div>

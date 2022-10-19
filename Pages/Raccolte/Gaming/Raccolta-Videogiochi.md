@@ -33,7 +33,7 @@ Ma, insomma, già soltanto il carisma del personaggio protagonista fa venire vog
 ### <span class="twa twa-🍃">🍃</span> Animal Crossing  
 Le premesse erano si creative, ma noiose: sei un essere umano che, per qualche motivo, va in viaggio a stabilirsi in un villaggio dove vivono animali umanoidi con cui puoi interagire. Nel frattempo, devi indebitarti con un procione che ti vende la nuova casa a carissimo prezzo, e fare quello che puoi per ripagare, con tempi che possono diventare infiniti. Ah, se vuoi puoi scegliere il tuo abbigliamento, arredare la tua casa, piazzare fiori in giardino... e?  
 Animal Crossing è uno di quei giochi che va banalmente provato per essere capito: la permanenza in quel mondo riesce ad indurre calma ed allegria per motivi che, apparentemente, vanno al di là della logica.  
-	- Animal Crossing: New Horizons: Ottieni: <https://go.octt.eu.org/$afa0200c237a>{[:MdTgtBlankNofw:]}
+	• Animal Crossing: New Horizons: Ottieni: <https://go.octt.eu.org/$afa0200c237a>{[:MdTgtBlankNofw:]}
 
 ### <span class="twa twa-⛏️">⛏️</span> Minecraft  
 Credo si possa dire che Minecraft è **il gioco** bene o male moderno che da semplici premesse sviluppa complessità potenzialmente infinita. In senso buono, ovviamente: la complessità va a colpire e a premiare chi la cerca, ma il titolo resta giocabile per chiunque.  
@@ -49,7 +49,7 @@ In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di
 ### <span class="twa twa-🐙">🐙</span> Splatoon  
 Sparatutto in terza persona che dire diverso dagli altri è poco. Splatoon rompe le aspettative di realismo di guerra del genere, e presenta un gameplay simpatico, fatto di colori accecanti, che non si ferma mai. Non ci sono umani a sparare proiettili con il ferro, ma calamari che spargono inchiostro.  
 Giocare in Mischie Mollusche (questo il nome delle battaglie online 4-contro-4) è divertente, ma profondità del gioco e inventiva del team di sviluppo si vedono in modalità storia.  
-	- Splatoon 3: Ottieni: <https://go.octt.eu.org/$8e62cec12c93>{[:MdTgtBlankNofw:]}
+	• Splatoon 3: Ottieni: <https://go.octt.eu.org/$8e62cec12c93>{[:MdTgtBlankNofw:]}
 
 ### <a href="#--Tetris"><span class="twa twa-🧱">🧱</span> Tetris ↩️</a>  
 #### Tetris Effect  
@@ -82,7 +82,7 @@ Se proprio vuoi provare qualcosa da questa pagina, e non sai davvero cosa, io di
 
 ### <span class="twa twa-🏎️">🏎️</span> SuperTuxKart  
 Un gioco di corse in kart con ambienti carini e originali, e tante mascotte del mondo del software libero come personaggi. Ha diverse modalità di gioco, dalle corse classiche a missioni con obiettivi specifici, in solitaria o in multigiocatore. Per certi versi ha più di Mario Kart!  
-	- Sito Ufficiale: <https://supertuxkart.net/Main_Page>{[:MdTgtBlank:]}
+	• Sito Ufficiale: <https://supertuxkart.net/Main_Page>{[:MdTgtBlank:]}
 
 ## Il resto
 
@@ -92,7 +92,7 @@ _I titoli che hanno soltanto una di queste due caratteristiche possono tranquill
 ### <span class="twa twa-🧗‍♀️">🧗‍♀️</span> Celeste  
 Celeste è un bel giochino platformer, con meccaniche originali e uno stile grafico unico. Però è troppo difficile.  
 Ho provato a giocarci tante volte, ma ad un certo punto della storia la difficoltà diventa per me troppo alta. Dovrei forse provare a finirlo in modalità guidata, visto che l'opzione c'è. Fino a quando non l'ho fatto, però, non vado a cercare video del finale e spoilerarmi roba, visto che dicono che il valore di Celeste sta proprio nel suo significato.  
-	- Ottieni: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}
+	• Ottieni: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}
 <iframe frameBorder="0" src="[:YouTubeEmbed:]/_bM0uEAis14" style="Height:Calc(80vw / 16 * 9);"></iframe>  
 <cite>Da <a href="[:YouTubeURL:]/_bM0uEAis14" [:HTMLTgtBlank:]>YouTube/_bM0uEAis14</a>.</cite>
 

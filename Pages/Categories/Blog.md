@@ -1,8 +1,9 @@
-// % Title: 📓️ Blog
-// % HTMLTitle: <span class="twa twa-notebook"><span>📓️</span></span> Blog
-// % Index: True
-// % Order: 55
+// % Title = 📓️ Blog
+// % HTMLTitle = <span class="twa twa-notebook twa-📓️"><span>📓️</span></span> Blog
+// % Index = True
+// % Order = 55
+// % URLs = Blog.html
 
-# <span class="twa twa-notebook"><span>📓️</span></span> blogoctt
+# <span class="twa twa-notebook twa-📓️"><span>📓️</span></span> Il blogoctt
 
-<div><span>[staticoso:Category:Blog]</span></div>
+<div><staticoso:Category:Blog></div>
