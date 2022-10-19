@@ -12,7 +12,6 @@ https://sitoctt.octt.eu.org/Categories/Tecnologia.html
 https://sitoctt.octt.eu.org/Categories/index.html
 https://sitoctt.octt.eu.org/Chi-Sono.html
 https://sitoctt.octt.eu.org/Devlogs.html
-https://sitoctt.octt.eu.org/Diarylog.html
 https://sitoctt.octt.eu.org/Donazioni.html
 https://sitoctt.octt.eu.org/PicoBlog.html
 https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html
@@ -21,7 +20,11 @@ https://sitoctt.octt.eu.org/Raccolte/Internet/Raccolta-Siti-Internet.html
 https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
 https://sitoctt.octt.eu.org/Raccolte/Sistemi/Raccolta-del-Riso.html
 https://sitoctt.octt.eu.org/index.html
+https://sitoctt.octt.eu.org/Posts/MicroBlog/2022-10-16-Aggiornamenti-DSpacc-Tastino-Maledetto.html
+https://sitoctt.octt.eu.org/Posts/MicroBlog/2022-09-23-Nuove-Frontiere.html
 https://sitoctt.octt.eu.org/Posts/Notes/2022-09-18-Aggirare-i-DRM-dei-Libri-di-Scuola.html
+https://sitoctt.octt.eu.org/Posts/MicroBlog/2022-09-18-Quando-Metto-Mano-Io-Spacc.html
+https://sitoctt.octt.eu.org/Posts/MicroBlog/2022-09-11-Che-Accade.html
 https://sitoctt.octt.eu.org/Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html
 https://sitoctt.octt.eu.org/Posts/Notes/Linux/2022-08-09-Controllare-Statistiche-Interessanti-Partizioni-Linux.html
 https://sitoctt.octt.eu.org/Posts/Notes/Linux/2022-08-05-Evitare-Comandi-Richiamati-Per-Sbaglio.html
@@ -33,4 +36,4 @@ https://sitoctt.octt.eu.org/Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Espe
 https://sitoctt.octt.eu.org/Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html
 https://sitoctt.octt.eu.org/Posts/2022-06-03-0000-Come-e-Perche-il-Sitoctt-su-Tor.html
 https://sitoctt.octt.eu.org/Posts/Archive/2022-05-07-Gli-Inaspettati-Vantaggi-della-Chiavetta-Linux.html
-https://sitoctt.octt.eu.org/Posts/MicroBlog-Archive/2019/09/index.html
+https://sitoctt.octt.eu.org/Posts/MicroBlog/Archive/2019/09/index.html
