@@ -1,5 +1,6 @@
 // % Categories = MicroBlog
 // % CreatedOn = 2022-10-16
+// % UpdatedOn = 2022-10-20
 
 # Aggiornamenti DSpacc - Tastino maledetto
 
@@ -30,3 +31,7 @@ Vabbè, basta, mi scoccio di girarci ancora attorno: tento di saldare un filo su
 ![Foto macro della zona di saldatura del dorsale, con il pad centrale distrutto.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/DSpacc-Shoulder-PCB-Pad-Broken.avif)
 
 Era meglio un tasto dorsale che funziona con grande fatica, o è meglio non averlo proprio? Non lo so, e non voglio saperlo. Fatto sta che ora dovrò trovare delle soluzioni, ai numerosi problemi frutto di questa storiaccia,...,,,..,
+
+_**P.S, aggiornamento del 2022-10-20:** Vi concedo una foto del bottone rotto smontato, prima di buttarlo, perché no? La microSD nell'angolo fa da scala, per far capire le dimensioni._
+
+![Foto macro del tasto staccato e smontato.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/DSpacc-Shoulder-Button-Disassembled-Macro.avif)

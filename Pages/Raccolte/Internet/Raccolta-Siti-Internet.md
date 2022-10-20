@@ -1,7 +1,7 @@
 // % Title = Raccolta Siti Internet
 // % Categories = Internet
 // % Index = Categories
-// % EditedOn = 2022-10-19
+// % EditedOn = 2022-10-20
 
 # Raccolta Siti Internet
 
@@ -104,12 +104,16 @@ Oltre alla versione principale, che appare come un comunissimo blog, c'è anche 
 
 ## Cultura
 
+- **🏳️‍🌈 EverybodyWiki**  
+Una wiki aperta a chiunque voglia creare articoli su qualunque argomento, e senza gli standard stringenti di enciclopedie collaborative più serie come Wikipedia: non ci sono standard di qualità, né di utilità, mi pare di capire. Proprio per via delle regole molto lisce, non so quanto possa essere un punto di riferimento per qualsiasi cosa, però è un concetto interessante. È divisa in sottowiki per diverse lingue, e tenta anche di conservare gli articoli contrassegnati per cancellazione da Wikipedia.  
+	• Clearweb: [🇬🇧 en.everybodywiki.com](https://en.everybodywiki.com/Everybodywiki:Welcome){[:MdTgtBlankNofw:]}
+
 - **🇬🇧 FEMICOM Museum**  
 Un museo virtuale dedicato ad illustrare quei rari contenuti informatici e videoludici che fanno del loro punto chiave estetiche ed esperienze femminili, colorate, e kawaii. Purtroppo, non tutte le pagine sono riempite, ma quel poco che c'è è carino!  
 	• Clearweb: [femicom.org](http://femicom.org){[:MdTgtBlankNofw:]}
 
 - **🇷🇺 🇬🇧 Encyclopedia Game Boy Advance**  
 È un bel sito che ho trovato per caso, che raccoglie diverse informazioni sul Game Boy Advance da diversi punti di vista. È ben organizzato ed ha tante foto di supporto al materiale testuale. È disponibile in Inglese, ma la versione principale in Russo ha molti più contenuti.  
-	• Clearweb: [🇷🇺 v. Russa](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 v. Inglese](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
+	• Clearweb: [🇷🇺 gbasp.ru](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 en.gbasp.ru](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
 
 </div>

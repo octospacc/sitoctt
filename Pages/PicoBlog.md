@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-10-20] Più attenzione sul DS </summary>
+Sul [Diarylog](./Diarylog.html) 4 giorni ho detto com'è continuata la storia del DSpacc: ora ho la flashcart.. e per cosa la uso? Beh, guardando con scrupolo la libreria DS, scopro che in effetti un sacco di titoli sono giocabili con solo lo schermo inferiore! 🌝
+</details>
+
+<details markdown="1"><summary>
 #### [2022-10-14] Che dire </summary>
 Di nuovo inattività qui, eh? Purtroppo un po' non avevo voglia, un po' non sapevo cosa mettere di nuovo, in queste settimane passate.. Ma ora è in lavorazione un nuovo articolo di [Blog](./Categories/Blog.html), e forse avrei anche un po' di cose da scrivere sui [Devlogs](./Devlogs.html).
 </details>
