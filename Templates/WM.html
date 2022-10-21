@@ -26,32 +26,35 @@
 	[staticoso:DynamicPart:*/Head]
 	<script src="[staticoso:Site:RelativeRoot]Assets/AVIF-Polyfill/index.js"></script>
 </head>
-<!-- TitleBar: <span> - ❌ </span> <span> [staticoso:Page:Title] </span> <span> 🔺 🔼 ⬜ 🔷 </span> -->
 <body id="Body">
+
 <div class="TaskBar">
 	<details>
-		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
+		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books twa-📚"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
 		<div class="TaskBarMenu">
 			[staticoso:Site:Menu]
 		</div>
 	</details>
+	<span class="TaskBarRight">&nbsp;<h4 class="Inline"><a href="[staticoso:Site:RelativeRoot]index.html"><span class="twa twa-sparkles twa-✨">✨</span>sitoctt2022<span class="twa twa-sparkles twa-✨">✨</span></a></h4>&nbsp;</span>
 </div>
+
 <div class="Window" id="MainWindow">
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="MainWindowCheck">
 		<div class="TitleBarContent">
-			<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil"><span>✏️</span></span> </span>
+			<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil twa-✏️"><span>✏️</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
 			[staticoso:Page:Content]
 		</div>
 	</div>
 </div>
+
 <div class="Window" id="TitlesWindow">
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="TitlesWindowCheck">
 		<div class="TitleBarContent">
-			<span> <label class="CheckLabel" id="TitlesWindowCheckLabel" for="TitlesWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Sezioni</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-bookmark-tabs"><span>📑</span></span> </span>
+			<span> <label class="CheckLabel" id="TitlesWindowCheckLabel" for="TitlesWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Sezioni</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-bookmark-tabs twa-📑"><span>📑</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
 			[staticoso:Page:Chapters]

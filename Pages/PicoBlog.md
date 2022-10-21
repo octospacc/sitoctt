@@ -1,9 +1,9 @@
 // % Title = ✉️ PicoBlog
-// % HTMLTitle = <span class="twa twa-envelope"><span>✉️</span></span> PicoBlog
+// % HTMLTitle = <span class="twa twa-envelope twa-✉️"><span>✉️</span></span> PicoBlog
 // % Index = True
 // % Order = 40
 
-# <span class="twa twa-envelope"><span>✉️</span></span> PicoBlog
+# <span class="twa twa-envelope twa-✉️"><span>✉️</span></span> PicoBlog
 
 Stai avventurandoti in una sezione forse effimera del sitocto, ma che comunque, se esiste, vuol dire che ho pensato che ci debba stare lo stesso.
 
@@ -23,6 +23,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 ## Leggi il PicoBlog
 
 <div markdown="1" class="BorderBoxContainer">
+
+<details markdown="1"><summary>
+#### [2022-10-21] Diarylog - Non più, circa </summary>
+Un mesetto fa creai una sezione "Diarylog" qui, come il PicoBlog ma per ospitare scritture più lunghe di queste; non quanto post di Blog, ma più lunghe. Perché? Non lo so, ma ho realizzato solo l'altro giorno che non ha senso ed è difficile da mantenere, e quindi da ora creo normali post nella sezione [MicroBlog](./Categories/MicroBlog.html) per avere la stessa cosa..
+</details>
 
 <details markdown="1"><summary>
 #### [2022-10-20] Più attenzione sul DS </summary>
