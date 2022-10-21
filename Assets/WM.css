@@ -7,12 +7,17 @@
 	--WindowPadding: 8px;
 	--WindowBorderSize: 4px;
 
+	--WindowText: #000000;
+	/*--WindowLinks: #0000EE;*/
+	--WindowBackground: #EEE0FF;
+
 	--TitleBarHeight: 32px;
-	--TitleBarForeground: #FFFFFF;
+	--TitleBarText: #FFFFFF;
 	--TitleBarBackground: #2A0A3A;
 
-	--TaskBarForeground: #FFFFFF;
-	--TaskBarBackground: #2A0A3A;
+	--TaskBarText: #111111;
+	--TaskBarLinks: #0000EE;
+	--TaskBarBackground: #CCAADD;
 	--TaskBarHeight: 36px;
 }
 
@@ -24,10 +29,17 @@ Body {
 	Margin: 0;
 	Padding: 0;
 	Overflow-Y: Hidden;
+	Overflow-Wrap: Break-Word;
 }
 
+.Inline {
+	Display: Inline;
+}
 .NoDisplay {
 	Display: None;
+}
+.NoWrap {
+	White-Space: NoWrap;
 }
 .Center {
 	Text-Align: Center;
@@ -49,8 +61,8 @@ Ul {
 .Window {
 	Margin: Var(--WindowMargin);
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
-	Color: #000000;
-	Background: #EEE0FF;
+	Color: Var(--WindowText);
+	Background: Var(--WindowBackground);
 }
 .WindowContent {
 	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
@@ -58,17 +70,20 @@ Ul {
 	Overflow-Y: Auto;
 	Margin-Left: Calc(0px - Var(--WindowMargin) - Var(--WindowBorderSize));
 	Margin-Top: Var(--WindowBorderSize);
-	Color: #000000;
-	Background: #EEE0FF;
+	Color: Var(--WindowText);
+	Background: Var(--WindowBackground);
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 }
 .Window:Hover {
 	Z-Index: 128 !Important;
 }
+/*.Window A, .WindowContent A {
+	Color: Var(--WindowLinks);
+}*/
 
 .TitleBar {
 	Padding: Var(--WindowMargin);
-	Color: Var(--TitleBarForeground);
+	Color: Var(--TitleBarText);
 	Background: Var(--TitleBarBackground);
 	Vertical-Align: Top;
 	Max-Height: Var(--TitleBarHeight);
@@ -86,7 +101,7 @@ Ul {
 
 .TaskBar {
 	Width: 100%;
-	Color: Var(--TaskBarForeground);
+	Color: Var(--TaskBarText);
 	Background: Var(--TaskBarBackground);
 	Position: Fixed;
 	Bottom: 0px;
@@ -95,22 +110,31 @@ Ul {
 	Max-Height: Var(--TaskBarHeight);
 	Z-Index: 256;
 }
+.TaskBar > Details {
+	Z-Index: 296;
+}
 .TaskBar > Details > Div {
 	Position: Fixed;
 	Left: 0px;
 	Bottom: Var(--TaskBarHeight);
 	Padding: Calc(Var(--WindowPadding)*2);
-	Color: Var(--TaskBarForeground);
+	Color: Var(--TaskBarText);
 	Background: Var(--TaskBarBackground);
 	Max-Height: Calc(90vh - Var(--TaskBarHeight));
 	Overflow-Y: Scroll;
 }
 .TaskBarMenu A {
-	Color: #DDCCFF !Important;
+	Color: Var(--TaskBarLinks) !Important;
 }
 .MenuButton {
 	Display: Inline-Block;
 	Height: 100%;
+}
+.TaskBarRight {
+	Position: Absolute;
+	Bottom: 0;
+	Right: 0;
+	Height: Calc(Var(--TaskBarHeight) / 6 * 5);
 }
 
 /*---   "Shade window" button   --------------------------*/
