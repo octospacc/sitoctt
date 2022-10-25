@@ -1,8 +1,10 @@
 /*--------------------------------------------------------*
- *    Globale                                             *
+ *    Global                                              *
  *--------------------------------------------------------*/
 
 :Root {
+	--RectBlur: 4px;
+
 	--WindowMargin: 4px;
 	--WindowPadding: 8px;
 	--WindowBorderSize: 4px;
@@ -13,11 +15,11 @@
 
 	--TitleBarHeight: 32px;
 	--TitleBarText: #FFFFFF;
-	--TitleBarBackground: #2A0A3A;
+	--TitleBarBackground: RGBA(42,10,58,0.90) /*#2A0A3A*/;
 
 	--TaskBarText: #111111;
 	--TaskBarLinks: #0000EE;
-	--TaskBarBackground: #CCAADD;
+	--TaskBarBackground: RGBA(204,170,221,0.90) /*#CCAADD*/;
 	--TaskBarHeight: 36px;
 }
 
@@ -103,6 +105,7 @@ Ul {
 	Width: 100%;
 	Color: Var(--TaskBarText);
 	Background: Var(--TaskBarBackground);
+	Backdrop-Filter: blur(Var(--RectBlur));
 	Position: Fixed;
 	Bottom: 0px;
 	Padding: Var(--WindowMargin);
@@ -120,8 +123,12 @@ Ul {
 	Padding: Calc(Var(--WindowPadding)*2);
 	Color: Var(--TaskBarText);
 	Background: Var(--TaskBarBackground);
+	Backdrop-Filter: blur(Var(--RectBlur));
 	Max-Height: Calc(90vh - Var(--TaskBarHeight));
 	Overflow-Y: Scroll;
+}
+.TaskBarMenu {
+	Font-Size: Larger;
 }
 .TaskBarMenu A {
 	Color: Var(--TaskBarLinks) !Important;
@@ -160,7 +167,7 @@ Ul {
 
 
 /*--------------------------------------------------------*
- *    Fritto Misto - Andrebbe ordinato                    *
+ *    Mixed fried - Should be ordered                     *
  *--------------------------------------------------------*/
 
 /* No selezione */
@@ -202,6 +209,9 @@ Ul {
 
 #TitlesWindow .WindowContent Ul Li, .TaskBarMenu Ul Li {
 	List-Style-Type: None !Important;
+}
+#TitlesWindow Ul, .TaskBarMenu Ul {
+	Padding-Top: 0px;
 }
 
 /*--------------------------------------------------------*/
