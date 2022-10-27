@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-10-27] Libro particolare </summary>
+L'altro giorno ho scoperto il Codex Seraphinianus, una roba stranissima che forse mi sta per ispirare. A [questo thread su Mastodon](https://mastodon.uno/@octo/109225347482444777){[:MdTgtBlank:]} ho linkato un video ed il PDF del libro.. ma basta vedere le immagini che ogni tanto aggiungo per (non) capire di cosa si tratta.. 😁
+</details>
+
+<details markdown="1"><summary>
 #### [2022-10-21] Diarylog - Non più, circa </summary>
 Un mesetto fa creai una sezione "Diarylog" qui, come il PicoBlog ma per ospitare scritture più lunghe di queste; non quanto post di Blog, ma più lunghe. Perché? Non lo so, ma ho realizzato solo l'altro giorno che non ha senso ed è difficile da mantenere, e quindi da ora creo normali post nella sezione [MicroBlog](./Categories/MicroBlog.html) per avere la stessa cosa..
 </details>

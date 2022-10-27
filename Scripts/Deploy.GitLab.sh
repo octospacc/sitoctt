@@ -3,7 +3,7 @@
 python3 ./staticoso/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io', 'Assets':'https://octtspacc.gitlab.io/sitoctt-assets'}" \
-	--DynamicParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html']}" \
+	--DynamicParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html'], 'Other':['CountWindow.html']}" \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken" \
 	--GemtextOutput=True \

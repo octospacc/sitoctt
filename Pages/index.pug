@@ -5,6 +5,7 @@
 // % Index = True
 // % Order = 10
 // % Image = [staticoso:Folder:Assets:AbsoluteRoot]/RichPreview/index.png
+// % UpdatedOn = 2022-10-27
 
 h1 Ciao!! (UwU)
 
@@ -40,16 +41,16 @@ p
 	strong(class='twa twa-sparkles twa-✨') ✨
 	|  (#[i #[a(href='[staticoso:Folder:Assets:AbsoluteRoot]/Media/sitoctt-pronuncia.flac' target='_blank' rel='noopener') pronuncia: "sitòctt"]]).
 	br
-	| Se preferisci, puoi chiamarlo #[i(class='MainIdTextGradientL') sitocto]. O anche #[i(class='MainIdTextGradientR') postoctt]! È pur sempre un posto questo, il mio posto, anche se virtuale!
+	| Se preferisci, puoi chiamarlo #[i(class='MainIdTextGradientL') sitocto]. O anche #[i(class='MainIdTextGradientR') postoctt]! È pur sempre un posto questo - il mio posto - anche se virtuale!
 
 h2 Collegamenti rapidi
 
-p Sul sito, ormai, un po' di roba c'è. Dovresti navigare il menu principale per poter accedere a tutto (leggi il seguito) ma, se proprio non sai dove partire, allora perché non dare un'occhiata a qualcosa tra..
+p Sul sito, ormai, un po' di roba c'è. Dovresti navigare il menu principale per poter accedere a tutto (leggi il seguito) ma, se proprio non sai da dove partire, allora perché non dare un'occhiata ai miei post più recenti, dalla finestrella in alto a sinistra? Altrimenti, magari vai a qualcosa tra..
 
 <span>
 	<h3 class="Inline NoWrap"><a href="./Categories/Blog.html"><span class="twa twa-notebook twa-📓️"><span>📓️</span></span> Blog</a></h3>,
 	<h3 class="Inline NoWrap"><a href="./Categories/MicroBlog.html"><span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog</a></h3> o
-	<h3 class="Inline NoWrap"><a href="./PicoBlog.html"><span class="twa twa-envelope twa-✉️"><span>✉️</span></span> PicoBlog</a></h3> ?
+	<h3 class="Inline NoWrap"><a href="./PicoBlog.html"><span class="twa twa-envelope twa-✉️"><span>✉️</span></span> PicoBlog</a></h3>.
 </span>
 
 h2 Stato del sito e come navigare
@@ -66,17 +67,20 @@ p
 	| Un'icona con l'emoji di una pila di libri (<big class='twa twa-books twa-📚'>📚</big>) segnala il menu principale del sito, fondamentale per poterlo navigare saltando tra pagine completamente diverse e non collegate.
 	| Invece, l'icona con l'emoji di un foglio con un segnalibro (<big class='twa twa-bookmark-tabs twa-📑'>📑</big>) indica l'elenco delle sezioni della pagina corrente - non è essenziale, ma può tornare utile per saltare tra parti diverse di un lungo testo.
 
-p
-	| A tal proposito, per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF (quest'ultima cosina, almeno finché non riesco a far funzionare il polyfill).
-	| Se usi un browser antico ti garantisco che troverai tanta, tanta roba rotta (ma comunque il sito dovrebbe essere navigabile lo stesso).
-	br
-	| Essendo che questo sito contiene immagini AVIF, assicurati che il tuo browser sia aggiornato e decente. Safari di Apple, per esempio, mi dicono che non supporta AVIF, quindi #[span(style='Color:#d00000;') buttalo via].
-	br
-	| Preferibilmente #[i non] usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, e ha qualche #[i glitch particolare]. #[b Firefox] non ha questo problema, ma usa molto di più la CPU.
-	br
-	| Direi che la scelta non è tra il migliore ma tra il meno peggio..
-	br
-	i Nota: se scegli Firefox, non usare la versione ESR! È per sua natura vecchia, fossilizzata, e manca sempre di funzionalità moderne - per esempio, al giorno d'oggi ancora non supporta AVIF.
+details
+	summary #[h4 Note sulla compatibilità dei browser (Espandi)]
+	div
+		p
+			| Per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF (quest'ultima cosina, almeno finché non riesco a far funzionare il polyfill).
+			| Se usi un browser antico ti garantisco che troverai tanta, tanta roba rotta (ma comunque il sito dovrebbe essere navigabile lo stesso).
+			br
+			| Essendo che questo sito contiene immagini AVIF, assicurati che il tuo browser sia aggiornato e decente. Safari di Apple, per esempio, mi dicono che non supporta AVIF, quindi #[span(style='Color:#d00000;') buttalo via].
+			br
+			| Preferibilmente #[i non] usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, e ha qualche #[i glitch particolare]. #[b Firefox] non ha questo problema, ma usa molto di più la CPU.
+			br
+			| Direi che la scelta non è tra il migliore ma tra il meno peggio..
+			br
+			i Nota: se scegli Firefox, non usare la versione ESR! È per sua natura vecchia, fossilizzata, e manca sempre di funzionalità moderne - per esempio, al giorno d'oggi ancora non supporta AVIF.
 
 h3 Script client-side
 
@@ -86,25 +90,28 @@ p
 	| Ad ogni modo, però.. per fornire alcune funzionalità extra, devo per forza avere del JS, c'è poco da fare. Qui sotto, la lista di cosa uso. #[i Tutti i file sono caricati dai server del mio sito, quindi è difficile che enti malevoli possano nasconderci malware dentro].
 
 details
-	summary Lista di script client-side usati nel sito Web (Espandi)
+	summary #[h4 Lista di script client-side usati nel sito Web (Espandi)]
 	div
 		ul
 			li Script interni scritti da me: #[i Al momento, nessuno attivo!]
 			li #[del Polyfill per supportare le immagini AVIF su vecchi browser: #[a(href='https://github.com/Kagami/avif.js' target='_blank' rel='noopener') avif.js di Kagami]] (#[i Non ancora attivato, lo sarà a breve])
 
-p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori.
+p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori (nel possibile).
 
-dl
-	dt • Browser Web, con supporto completo a CSS3
-	dd (Perfetto!)
-	dt • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile
-	dd (Richiede muovere il foglio a mano ma ottimo!)
-	dt • Browser Web, con supporto incompleto a CSS3
-	dd (Meh, OK..)
-	dt • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate
-	dd (Buuu, mancano le animazioni..)
-	dt • Browser vecchio (Web vecchio, Web testuale, o Gemini) / Stampa su carta normale, zero supporto CSS 
-	dd (Ma che è sto schifo?!?!)
+details
+	summary #[h4 Mie inutili digressioni su modi assolutamente assurdi di consultare il sitoctt (Espandi)]
+	div
+		dl
+			dt • Browser Web, con supporto completo a CSS3
+			dd (Perfetto!)
+			dt • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile
+			dd (Richiede muovere il foglio a mano ma ottimo!)
+			dt • Browser Web, con supporto incompleto a CSS3
+			dd (Meh, OK..)
+			dt • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate
+			dd (Buuu, mancano le animazioni..)
+			dt • Browser vecchio (Web vecchio, Web testuale, o Gemini) / Stampa su carta normale, zero supporto CSS 
+			dd (Ma che è sto schifo?!?!)
 
 h2 Ma di che si tratta?
 
@@ -154,7 +161,7 @@ p
 
 h3 Feed e notifiche
 
-p Da ora il sitocto (il blogocto, nello specifico) ha dei feed integrati, che vengono automaticamente aggiornati quando pubblico un nuovo articolo!
+p Da ora il sitocto (il blogoctt e il MicroBlog, nello specifico) ha dei feed integrati, che vengono automaticamente aggiornati quando pubblico un nuovo articolo!
 
 p
 	b(style='color:#ff6a00;') Feed Atom
@@ -185,7 +192,7 @@ p
 	br
 	| - Suggerimento: se usi Friendica, puoi copiare il link al feed e incollarlo nella barra di ricerca, per poterlo seguire come se fosse un profilo!
 
-p Inoltre, se usi una qualunque piattaforma del Fediverso ActivityPub (Mastodon, Pleroma, Misskey, ...) puoi seguire il bot del sitoctt, così da ricevere nel tuo feed Home i nuovi post: #[a(href='https://botsin.space/@sitoctt' target='_blank' rel='noopener') @sitoctt@botsin.space]!
+p Inoltre, se usi una qualunque piattaforma del #[b Fediverso ActivityPub] (Mastodon, Pleroma, Misskey, ...) puoi seguire il bot del sitoctt, così da ricevere nel tuo feed Home i nuovi post: #[a(href='https://botsin.space/@sitoctt' target='_blank' rel='me noopener') @sitoctt@botsin.space]!
 
 h2 Sorgenti e licenze
 
@@ -219,7 +226,7 @@ p
 p
 	| Per terminare, trovate tutti i miei sorgenti sulle rispettive repo Git.
 	br
-	| Quelli del mio sito (divisi in repo multiple), alle condizioni descritte sopra: 
+	| Quelli del mio sito (divisi in repo multiple per tenere la cronologia pulita), alle condizioni descritte sopra: 
 	a(href='https://gitlab.com/octtspacc/sitoctt' target='_blank' rel='noopener') gitlab.com/octtspacc/sitoctt
 	| ; 
 	a(href='https://gitlab.com/octtspacc/sitoctt-assets' target='_blank' rel='noopener') sitoctt-assets

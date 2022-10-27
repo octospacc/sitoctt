@@ -34,24 +34,6 @@ Body {
 	Overflow-Wrap: Break-Word;
 }
 
-.Inline {
-	Display: Inline;
-}
-.NoDisplay {
-	Display: None;
-}
-.NoWrap {
-	White-Space: NoWrap;
-}
-.Center {
-	Text-Align: Center;
-}
-
-Ul {
-	Padding-Left: 8px;
-	Padding-Right: 4px;
-}
-
 /*--------------------------------------------------------*/
 
 
@@ -79,9 +61,9 @@ Ul {
 .Window:Hover {
 	Z-Index: 128 !Important;
 }
-/*.Window A, .WindowContent A {
-	Color: Var(--WindowLinks);
-}*/
+.Window A, .WindowContent A {
+	/*Color: Var(--WindowLinks);*/
+}
 
 .TitleBar {
 	Padding: Var(--WindowMargin);
@@ -141,7 +123,7 @@ Ul {
 	Position: Absolute;
 	Bottom: 0;
 	Right: 0;
-	Height: Calc(Var(--TaskBarHeight) / 6 * 5);
+	Height: Calc(Var(--TaskBarHeight) / 6 * 5); /* Try to vertically center the text lol */
 }
 
 /*---   "Shade window" button   --------------------------*/
@@ -170,7 +152,7 @@ Ul {
  *    Mixed fried - Should be ordered                     *
  *--------------------------------------------------------*/
 
-/* No selezione */
+/* No selection */
 .NoSelect,
 .TitleBarContent,
 .TaskBar,
@@ -184,34 +166,62 @@ Ul {
 }
 
 #MainWindow {
-	Max-Width: 80vw;
 	Position: Absolute;
-	Top: 12px;
-	Right: 12px;
+	Max-Width: 85vw;
 	Max-Height: 90vh;
+	Top: Calc(24px + Var(--TitleBarHeight));
+	Right: 12px;
 	Z-Index: 16;
 }
 #MainWindow .WindowContent {
-	Max-Height: Calc(90vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+	Max-Height: Calc(90vh - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
 }
 
 #TitlesWindow {
-	Max-Width: 60vw;
 	Position: Absolute;
-	Top: 80px;
-	Left: 12px;
+	Max-Width: 60vw;
 	Max-Height: 60vh;
-	Z-Index: 8;
+	Top: Calc(8px + 3vh + (Var(--TitleBarHeight)*2));
+	Left: 12px;
+	Z-Index: 12;
 }
 #TitlesWindow .WindowContent {
-	Max-Height: Calc(60vh - Calc(Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+	Max-Height: Calc(60vh - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
 }
 
-#TitlesWindow .WindowContent Ul Li, .TaskBarMenu Ul Li {
+#FeedWindow {
+	Position: Absolute;
+	Max-Width: 75vw;
+	Max-Height: 40vh;
+	Top: 8px;
+	Left: Calc(12px + 3vw);
+	Z-Index: 8;
+}
+#FeedWindow .WindowContent {
+	Max-Height: Calc(40vh - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+}
+
+#FeedWindow Ul Li, #TitlesWindow .WindowContent Ul Li, .TaskBarMenu Ul Li {
 	List-Style-Type: None !Important;
 }
-#TitlesWindow Ul, .TaskBarMenu Ul {
+#FeedWindow Ul, #TitlesWindow Ul, .TaskBarMenu Ul {
 	Padding-Top: 0px;
+	Padding-Left: 8px;
+	Padding-Right: 4px;
+}
+
+#CountWindow { /* Tared for a reasonable 256x32 image */
+	Position: Absolute;
+	Max-Width: Calc(256px + 8px);
+	Max-Height: Calc(32px + 8px + Var(--TitleBarHeight));
+	Bottom: Calc(8px + 32px + 8px + Var(--TitleBarHeight) + Var(--TaskBarHeight));
+	Left: 8px;
+	Z-Index: 4;
+}
+#CountWindow .WindowContent {
+	Padding: 0px;
+	Max-Height: Calc(32px + 8px);
+	Overflow: Hidden;
 }
 
 /*--------------------------------------------------------*/

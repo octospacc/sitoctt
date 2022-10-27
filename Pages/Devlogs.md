@@ -4,7 +4,6 @@
 // % Index = True
 // % Order = 35
 // % Categories = Tecnologia
-// $ Checkboxes = <input type="checkbox" id="CheckBox-sitoctt"><input type="checkbox" id="CheckBox-staticoso">
 
 # <span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs
 
@@ -22,7 +21,7 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 <h3 class="NoTitle InlineBlock">Filtri:</h3>
 <input type="checkbox" id="CheckBox-sitoctt" checked><label for="CheckBox-sitoctt">#sitoctt</label>
 <input type="checkbox" id="CheckBox-staticoso" checked><label for="CheckBox-staticoso">#staticoso</label>
-</ noprocess -->
+</ noprocess --->
 
 <div markdown="1" class="BorderBoxContainer">
 

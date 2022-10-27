@@ -2,13 +2,14 @@
 // % HTMLTitle: <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono
 // % Index: True
 // % Order: 20
+// % UpdatedOn = 2022-10-27
 
 # <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono?
 
 Giustamente, venendo qui, che tu abbia o meno letto le informazioni generali del sito sulla [Home](./index.html), ti starai chiedendo chi sono io.
 
 Io sono Octt. Si, esatto, Octt da cui sitoctt, il mio sito, prende il nome.  
-Octt [si pronuncia "òctt" - come sitoctt, ma senza "sit"]([staticoso:Folder:Assets:AbsoluteRoot]/Media/sitoctt-pronuncia.flac){[:MdTgtBlank:]}.  
+_Octt_ si pronuncia "òctt" - [come sitoctt, ma senza "sit"]([staticoso:Folder:Assets:AbsoluteRoot]/Media/sitoctt-pronuncia.flac){[:MdTgtBlank:]}.  
 Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlank:]} sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.  
 Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma quando mai??)</small>, ho immaginato il sito, ho iniziato a costruire il sito, ho messo in piedi strategie per semplificarmi la creazione del sito <small>(eee, che paroloni, ho scritto un programmino in Pitone)</small>, ed ecco qui il risultato.
 
@@ -16,7 +17,7 @@ Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma qua
 
 Beh, innanzitutto faccio questo sito. Scrivo le cose, che siano inutili fiumi di parole in lingua umana, oppure paroline magiche che il tuo computer interpreta per visualizzare queste pagine nella loro forma più gloriosa.
 
-Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}. In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma seguite i collegamenti per capire, non parlo dello Spacc qui.
+Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}. In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma lascio i collegamenti da seguire per capire, non parlo dello Spacc qui.
 
 Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra server Matrix, bot vari per diverse piattaforme, il server [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, resa solo più difficile dal mio usare hardware di fortuna.
 
@@ -58,7 +59,8 @@ Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare 
 
 ---
 
-![Me su Animal Crossing Wild World.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)
-
+<div class="Center" markdown="1">
+![Me su Animal Crossing Wild World.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
 _Io? Cute. Assolutamente indiscutibile._  
-_Voi? Meh, forse, penso???_
+_Voi? Meh, forse.. penso???_
+</div>

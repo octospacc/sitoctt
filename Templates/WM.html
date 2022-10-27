@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/Global.css">
 	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/WM.css">
-	<!-- <link rel="stylesheet" href="../Assets/Assets/WM.css"> -->
 	<link href="[staticoso:Folder:Assets:AbsoluteRoot]/Fonts/SpaceMono/Style.css" rel="stylesheet">
 	<link rel="alternate" type="application/atom+xml" title="Feed Atom" href="[staticoso:Site:RelativeRoot]feed/atom.xml">
 	<link rel="alternate" type="application/rss+xml" title="Feed RSS" href="[staticoso:Site:RelativeRoot]feed/rss.xml">
@@ -27,7 +27,6 @@
 	<script src="[staticoso:Site:RelativeRoot]Assets/AVIF-Polyfill/index.js"></script>
 </head>
 <body id="Body">
-
 <div class="TaskBar">
 	<details>
 		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books twa-📚"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
@@ -36,6 +35,18 @@
 		</div>
 	</details>
 	<span class="TaskBarRight">&nbsp;<h4 class="Inline"><a href="[staticoso:Site:RelativeRoot]index.html"><span class="twa twa-sparkles twa-✨">✨</span>sitoctt2022<span class="twa twa-sparkles twa-✨">✨</span></a></h4>&nbsp;</span>
+</div>
+
+<div class="Window" id="FeedWindow">
+	<div class="TitleBar">
+		<input type="checkbox" class="CheckToggle" id="FeedWindowCheck">
+		<div class="TitleBarContent">
+			<span> <label class="CheckLabel" id="FeedWindowCheckLabel" for="FeedWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Ultimi Post</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-📣"><span>📣</span></span> </span>
+		</div>
+		<div class="WindowContent ToggleBox">
+			<staticoso:Feed>
+		</div>
+	</div>
 </div>
 
 <div class="Window" id="MainWindow">
@@ -61,6 +72,8 @@
 		</div>
 	</div>
 </div>
+
+<staticoso:DynamicPart:WM/Other>
 </div>
 </body>
 </html>
