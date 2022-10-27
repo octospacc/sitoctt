@@ -1,0 +1,20 @@
+/* Global styles applied to all pages with any base template.
+ *
+ * Note to future self:
+ *   colors and things like that should **never** go here,
+ *   only formatting/layout rules and reusable classes
+ *   needed to fix HTML quirks.
+ */
+
+.Center { Text-Align: Center; }
+.Inline { Display: Inline; }
+.InlineBlock { Display: Inline-Block; }
+.NoCol { Color: Transparent !Important; }
+.NoDisplay { Display: None; }
+.NoWrap { White-Space: NoWrap; }
+
+/* Set Headings as Inline when inside Details Summaries and List Items */
+Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > H6,
+Li > H1, Li > H3, Li > H3, Li > H4, Li > H5, Li > H6 {
+	Display: Inline;
+}
