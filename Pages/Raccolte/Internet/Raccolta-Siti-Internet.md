@@ -60,7 +60,7 @@ Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anch
 	• Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
 - **🇬🇧 🇮🇹 astral town**  
-![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo.gif)  
+![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo.png)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
 	• Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 

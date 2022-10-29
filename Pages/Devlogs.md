@@ -56,7 +56,7 @@ Problema risolto in appena qualche riga di HTML e CSS!
 }
 ```
 
-Mi basta questo codice di base - che devo però duplicare per ogni singola categoria - per definire degli elementi (che dovranno avere una o più classi di categoria, e io uso `<details>`) che possono essere fatti sparire quando si toglie la spunta alle eventuali caselle.  
+Mi basta questo codice di base - che devo però duplicare per ogni singola categoria - per definire degli elementi (che dovranno avere una o più classi di categoria; io uso `<details>` per avere i collassabili) che possono essere fatti sparire quando si toglie la spunta alle eventuali caselle.  
 Diversi elementi possono inoltre appartenere a **multiple categorie**, cosa che per me è utile.
 
 La cosa è molto più complicata a spiegarsi, di quanto non lo sia a farsi e _ad essere usata.. quindi..._ 😳!
