@@ -51,6 +51,7 @@ Body {
 .WindowContent {
 	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
 	Padding: Calc(Var(--WindowPadding)*2);
+	Padding-Top: Var(--WindowPadding);
 	Overflow-Y: Auto;
 	Margin-Left: Calc(0px - Var(--WindowMargin) - Var(--WindowBorderSize));
 	Margin-Top: Var(--WindowBorderSize);
@@ -168,13 +169,13 @@ Body {
 #MainWindow {
 	Position: Absolute;
 	Max-Width: 85vw;
-	Max-Height: 90vh;
+	Max-Height: Calc(90vh - 24px);
 	Top: Calc(24px + Var(--TitleBarHeight));
 	Right: 12px;
 	Z-Index: 16;
 }
 #MainWindow .WindowContent {
-	Max-Height: Calc(90vh - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+	Max-Height: Calc(90vh - 24px - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
 }
 
 #TitlesWindow {
@@ -212,7 +213,7 @@ Body {
 
 #CountWindow { /* Tared for a reasonable 256x32 image */
 	Position: Absolute;
-	Max-Width: Calc(256px + 8px);
+	/*Max-Width: Calc(256px + 8px);*/
 	Max-Height: Calc(32px + 8px + Var(--TitleBarHeight));
 	Bottom: Calc(8px + 32px + 8px + Var(--TitleBarHeight) + Var(--TaskBarHeight));
 	Left: 8px;
@@ -222,6 +223,14 @@ Body {
 	Padding: 0px;
 	Max-Height: Calc(32px + 8px);
 	Overflow: Hidden;
+	Text-Align: Center;
+}
+#CountWindow .WindowContent Img {
+	Width: 100%;
+	/*
+	Margin-Left: -4px;
+	Margin-Right: -4px;
+	*/
 }
 
 /*--------------------------------------------------------*/
