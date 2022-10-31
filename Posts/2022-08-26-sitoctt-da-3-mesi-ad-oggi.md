@@ -1,9 +1,9 @@
 // % Title =  📈 sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
-// % HTMLTitle = <span class="twa twa-chart-increasing"><span>📈</span></span> sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
+// % HTMLTitle = <span class="twa twa-chart-increasing twa-📈"><span>📈</span></span> sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
 // % Categories = Blog Internet
 // % CreatedOn = 2022-08-26
 
-# <span class="twa twa-chart-increasing"><span>📈</span></span> sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
+# <span class="twa twa-chart-increasing twa-📈"><span>📈</span></span> sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
 
 Questo articolo si può probabilmente considerare come il primo di una serie sulla _filosofia del sitoctt_, se così vogliam dire.  
 Per iniziare, di cosa è meglio parlare, se non di tutto ciò che ha portato alla **nascita del sito** e ha iniziato a caratterizzarlo?

@@ -5,7 +5,7 @@
 
 Dall'altro giorno mi è, diciamo così, tornato alla mente il fatto che ho un [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc){[:MdTgtBlank:]} nel cassetto.
 
-![Il mio DSpacc, che esegue Pokémon Rubino dalla sua cartuccia.](https://static.miraheze.org/wikispaccwiki/thumb/c/c5/DSpacc_Pokemon_Rubino.jpg/960px-DSpacc_Pokemon_Rubino.jpg)
+![Il mio DSpacc, che esegue Pokémon Rubino dalla sua cartuccia.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/DSpacc_Pokemon_Rubino.jpg)
 
 Non mi vergogno ad ammettere che è in disuso, perché l'unica cosa a cui posso giocarci è Pokémon Rubino.  
 Ma mica perché è rimasto uno schermo solo! È perché..
