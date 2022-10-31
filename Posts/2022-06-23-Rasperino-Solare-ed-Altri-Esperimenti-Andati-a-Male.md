@@ -1,5 +1,6 @@
 // % Title: ☀️ Rasperino Solare (ed altri esperimenti andati a male)
 // % HTMLTitle: <span class="twa twa-sun"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
+// % URLs = Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html
 // % Categories: Blog Rasperino Ecologia Tecnologia
 // % CreatedOn: 2022-06-23
 

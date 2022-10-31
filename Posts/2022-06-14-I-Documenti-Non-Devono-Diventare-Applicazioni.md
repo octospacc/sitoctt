@@ -1,5 +1,6 @@
 // % Title: 📄 I documenti non devono diventare applicazioni
 // % HTMLTitle: <span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni
+// % URLs = Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html
 // % Categories: Blog Internet
 // % CreatedOn: 2022-06-14
 
