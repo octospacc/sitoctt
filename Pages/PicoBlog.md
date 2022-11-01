@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-11-01] Tutti contro il sitoctt </summary>
+La scelta di botsin.space come istanza per il mio bot ActivityPub del sito non è stata troppo lungimirante, visto che pare bloccata su molte altre per spam.. rendendo il bot completamente irraggiungibile. Oltre a questo, ci sta Google che ancora da le rogne per l'indicizzazione. 😐
+</details>
+
+<details markdown="1"><summary>
 #### [2022-10-27] Libro particolare </summary>
 L'altro giorno ho scoperto il Codex Seraphinianus, una roba stranissima che forse mi sta per ispirare. A [questo thread su Mastodon](https://mastodon.uno/@octo/109225347482444777){[:MdTgtBlank:]} ho linkato un video ed il PDF del libro.. ma basta vedere le immagini che ogni tanto aggiungo per (non) capire di cosa si tratta.. 😁
 </details>

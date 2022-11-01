@@ -1,40 +1,27 @@
 <!DOCTYPE html>
-<html lang="[staticoso:Page:Lang]">
+<html lang="<staticoso:PageLang>">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/Global.css">
-	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/WM.css">
-	<link href="[staticoso:Folder:Assets:AbsoluteRoot]/Fonts/SpaceMono/Style.css" rel="stylesheet">
-	<link rel="alternate" type="application/atom+xml" title="Feed Atom" href="[staticoso:Site:RelativeRoot]feed/atom.xml">
-	<link rel="alternate" type="application/rss+xml" title="Feed RSS" href="[staticoso:Site:RelativeRoot]feed/rss.xml">
-	<title>[staticoso:Page:Title] - [staticoso:Site:Name]</title>
-	<meta name="description" content="[staticoso:Page:Description]">
-	<link href="[staticoso:Site:RelativeRoot]favicon.png" rel="icon" type="image/png">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="[staticoso:Page:Title] - [staticoso:Site:Name]">
-	<meta property="og:description" content="[staticoso:Page:Description]">
-	<meta property="og:url" content="https://sitoctt.octt.eu.org/[staticoso:Page:Path]">
-	<meta property="og:image" content="[staticoso:Page:Image]">
+	<staticoso:StaticPart:Standard/GlobalHead.html>
+	<link rel="stylesheet" href="<staticoso:SiteRelativeRoot>Assets/WM.css">
+	<link href="<staticoso:CustomPath:Assets>/Fonts/SpaceMono/Style.css" rel="stylesheet">
 	<style>
-		[staticoso:Page:Style]
+		<staticoso:PageStyle>
 		Body {
-			Background: url([staticoso:Folder:Assets:AbsoluteRoot]/Media/Backgrounds/Circles-Purple.png), #5C00CA;
+			Background: url(<staticoso:CustomPath:Assets>/Media/Backgrounds/Circles-Purple.png), #5C00CA;
 			Background-Repeat: Repeat;
 		}
 	</style>
-	[staticoso:DynamicPart:*/Head]
-	<script src="[staticoso:Site:RelativeRoot]Assets/AVIF-Polyfill/index.js"></script>
+	<staticoso:DynamicPart:*/Head>
 </head>
 <body id="Body">
 <div class="TaskBar">
 	<details>
 		<summary><span class="MenuButton"><big><b>[<span class="twa twa-books twa-📚"><span>📚</span></span>] Menu</b></big></span><br><br></summary>
 		<div class="TaskBarMenu">
-			[staticoso:Site:Menu]
+			<staticoso:SiteMenu>
 		</div>
 	</details>
-	<span class="TaskBarRight">&nbsp;<h4 class="Inline"><a href="[staticoso:Site:RelativeRoot]index.html"><span class="twa twa-sparkles twa-✨">✨</span>sitoctt2022<span class="twa twa-sparkles twa-✨">✨</span></a></h4>&nbsp;</span>
+	<span class="TaskBarRight">&nbsp;<h4 class="Inline"><a href="<staticoso:SiteRelativeRoot>index.html"><span class="twa twa-sparkles twa-✨">✨</span>sitoctt2022<span class="twa twa-sparkles twa-✨">✨</span></a></h4>&nbsp;</span>
 </div>
 
 <div class="Window" id="FeedWindow">
@@ -53,10 +40,10 @@
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="MainWindowCheck">
 		<div class="TitleBarContent">
-			<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>[staticoso:Page:Title]</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil twa-✏️"><span>✏️</span></span> </span>
+			<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b><staticoso:PageTitle></b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil twa-✏️"><span>✏️</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
-			[staticoso:Page:Content]
+			<staticoso:PageContent>
 		</div>
 	</div>
 </div>
@@ -68,7 +55,7 @@
 			<span> <label class="CheckLabel" id="TitlesWindowCheckLabel" for="TitlesWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Sezioni</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-bookmark-tabs twa-📑"><span>📑</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
-			[staticoso:Page:Chapters]
+			<staticoso:PageSections>
 		</div>
 	</div>
 </div>

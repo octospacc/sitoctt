@@ -1,42 +1,30 @@
 <!DOCTYPE html>
-<html lang="[staticoso:Page:Lang]">
+<html lang="<staticoso:PageLang>">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/Global.css">
-	<link rel="stylesheet" href="[staticoso:Site:RelativeRoot]Assets/sitoctt.css">
-	<link href="[staticoso:Folder:Assets:AbsoluteRoot]/Fonts/SpaceMono/Style.css" rel="stylesheet">
-	<link rel="alternate" type="application/atom+xml" title="Feed Atom" href="[staticoso:Site:RelativeRoot]feed/atom.xml">
-	<link rel="alternate" type="application/rss+xml" title="Feed RSS" href="[staticoso:Site:RelativeRoot]feed/rss.xml">
-	<title>[staticoso:Page:Title] - [staticoso:Site:Name]</title>
-	<meta name="description" content="[staticoso:Page:Description]">
-	<link href="[staticoso:Site:RelativeRoot]favicon.png" rel="icon" type="image/png">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="[staticoso:Page:Title] - [staticoso:Site:Name]">
-	<meta property="og:description" content="[staticoso:Page:Description]">
-	<meta property="og:url" content="https://sitoctt.octt.eu.org/[staticoso:Page:Path]">
-	<meta property="og:image" content="[staticoso:Page:Image]">
+	<staticoso:StaticPart:Standard/GlobalHead.html>
+	<link rel="stylesheet" href="<staticoso:SiteRelativeRoot>Assets/sitoctt.css">
+	<link href="<staticoso:CustomPath:Assets>/Fonts/SpaceMono/Style.css" rel="stylesheet">
 	<style>
-		[staticoso:Page:Style]
+		<staticoso:PageStyle>
 	</style>
-	[staticoso:DynamicPart:*/Head]
-	<script src="[staticoso:Site:RelativeRoot]Assets/AVIF-Polyfill/index.js"></script>
+	<staticoso:DynamicPart:*/Head>
+
 </head>
 <body id="Body">
 <div id="Header">
-	[staticoso:DynamicPart:*/Header]
+	<staticoso:DynamicPart:*/Header>
 </div>
 <div id="Container">
 	<div id="TopBox">
-		[staticoso:StaticPart:Standard/TopBox.html]
+		<staticoso:StaticPart:Standard/TopBox.html>
 	</div>
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
 			<details>
 				<summary><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></summary>
 				<div id="LeftBox">
-					[staticoso:Site:Menu]
-					[staticoso:StaticPart:Standard/LeftBoxBottom.html]
+					<staticoso:SiteMenu>
+					<staticoso:StaticPart:Standard/LeftBoxBottom.html>
 				</div>
 			</details>
 		</div>
@@ -44,22 +32,22 @@
 			<details>
 				<summary><big><b>[<span class="twa twa-bookmark-tabs"><span>📑</span></span>]</b></big></summary>
 				<div id="RightBox">
-					[staticoso:Page:Chapters]
+					<staticoso:PageSections>
 				</div>
 			</details>
 		</div>
 		<div id="MainBox">
 			<div id="MainBoxTop">
-				[staticoso:Page:ContentInfo]
+				<staticoso:PageContentInfo>
 			</div>
-			[staticoso:Page:Content]
+			<staticoso:PageContent>
 			<div id="MainBoxBottom">
-				[staticoso:Comments]
+				<staticoso:Comments>
 				<br>
-				[staticoso:DynamicPart:*/Footer]
+				<staticoso:DynamicPart:*/Footer>
 				<br>
 				<div id="MainBoxGlobalFooter" class="Pixelated">
-					[staticoso:StaticPart:Standard/Footer.html]
+					<staticoso:StaticPart:Standard/Footer.html>
 				</div>
 			</div>
 		</div>
@@ -68,7 +56,7 @@
 		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label"><span>🏷️</span></span>]</b></big></label>
 		<input type="checkbox" id="BottomBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
-			[staticoso:StaticPart:Standard/BottomBox.html]
+			<staticoso:StaticPart:Standard/BottomBox.html>
 		</div>
 	</div>
 	<!-- <div id="PrivacyPopup"></div> -->

@@ -1,4 +1,4 @@
-// % Title = Storia antica del DSpacc
+// % Title = 🎮 Storia antica del DSpacc
 // % HTMLTitle = <span class="twa twa-🎮"><span>🎮</span></span> Storia antica del DSpacc
 // % Categories = Blog Gaming Tecnologia
 // % CreatedOn = 2022-10-31
