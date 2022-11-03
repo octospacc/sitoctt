@@ -33,7 +33,7 @@ Link testuale:
 
 Link con immagine _(Nota: sarebbe meglio se scarichi l'immagine e la ricarichi sul tuo server, cambiando l'URL nel codice di conseguenza, anziché usare il mio URL)_:  
 ![✨sitoctt✨]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/sitoctt-1.png)  
-_L'immagine è in formato PNG e già compressa il più possibile._  
+_L'immagine è in formato PNG e già compressa il più possibile.[^Comandi di Compressione PNG Lossless]_  
 <pre class="CodeScroll"><code>
 &lt;a
 	href="https://sitoctt.octt.eu.org"
@@ -60,7 +60,7 @@ Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anch
 	• Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
 - **🇬🇧 🇮🇹 astral town**  
-![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo.png)  
+![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo-88x31.png)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
 	• Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
 
@@ -80,10 +80,25 @@ Più che un sito, una demo JavaScript con una lista di link e cose così, ma è 
 Solo una pagina principale e poca altra roba, ma solo l'idea del sito è un'esperienza.. **interessante**. L'unico sito visto fino ad ora che usa una precisa configurazione di Apache, con l'esatto scopo di rallentare il sito alle velocità del 14.4 kbps!  
 	• Clearweb: [tassoman.com](https://tassoman.com){.tassoman [:MdTgtBlankNofw:]}
 
+- **🇬🇧 Dante Scanline**  
+![Dante Scanline]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/DanteScanline-88x31.png)  
+Sito di un artista che pare faccia roba nello stile dei giochi PC anni '90-2000, tipo Quake ma non solo. Le immagini di ambienti 3D pixellosi sono molto belle.  
+	• Clearweb: [dantescanline.com](https://dantescanline.com){[:MdTgtBlankNofw:]}
+
+- **🇬🇧 2Bit**  
+![2Bit]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/2Bit-88x31.png)  
+Credo sia l'unico sito web non-testuale che su Kindle si naviga (quasi) esattamente come su PC.. Come lo stesso nome dice, tutto su questo spazio web è un elogio all'era del 2 bit, ed arriva a ciò con i contenuti, ma inizia con la forma: tutta la grafica (e ce n'è molta) è rigorosamente in 4 colori!  
+	• Clearweb: [2bit.neocities.org](https://2bit.neocities.org){[:MdTgtBlankNofw:]}
+
+- **🇬🇧 neonaut**  
+![neonaut]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/neonaut-88x31.png)  
+Sito personale con grafica flat colorata, che però sembra anche essere un metasito riguardo Neocities e una parte della sua cultura, contenente alcune informazioni su quell'universo.  
+	• Clearweb: [neonaut.neocities.org](https://neonaut.neocities.org){[:MdTgtBlankNofw:]}
+
 ## Miscellanea
 
 - **🇬🇧 The Yesterweb**  
-![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb.gif)  
+![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb-88x31.png)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
 	• Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
 
@@ -117,3 +132,10 @@ Un museo virtuale dedicato ad illustrare quei rari contenuti informatici e video
 	• Clearweb: [🇷🇺 gbasp.ru](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 en.gbasp.ru](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
 
 </div>
+
+## [:HNotesRefsHTML:]
+
+[^Comandi di Compressione PNG Lossless]: Il modo migliore di ridurre immagini PNG alla più piccola dimensione possibile, senza perdere neanche un pixel di qualità, è usare questi due comandi concatenati (tenendo a mente di valutare caso per caso, in quanto immagini già molto piccole possono in realtà essere in certi casi gonfiate dall'uno o l'altro comando):
+<code markdown="1">
+[pngcrush](https://pmt.sourceforge.io/pngcrush){[:MdTgtBlank:]} -brute -reduce IN.PNG OUT.PNG;
+[pngquant](https://pngquant.org){[:MdTgtBlank:]} -v --strip --speed=1 --quality=100-100 -o OUT.PNG IN.PNG</code>

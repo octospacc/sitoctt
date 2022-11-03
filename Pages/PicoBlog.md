@@ -25,6 +25,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1"><summary>
+#### [2022-11-03] Lol I forgor </summary>
+Sul sito, almeno nelle zone in cui li uso come icone e non come emoticon, ho un wrapper CSS che mi fa avere emoji standardizzati e sempre coerenti (nel mio caso, Twemoji) su qualunque sistema. Mesi fa ho forkato il progetto per apportare delle migliorie personali e.. ho notato letteralmente oggi che su [Home#Crediti speciali](./index.html#-Crediti-speciali) non avevo mai aggiornato la voce <span class="twa twa-💀"><span>💀</span></span>
+</details>
+
+<details markdown="1"><summary>
 #### [2022-11-01] Tutti contro il sitoctt </summary>
 La scelta di botsin.space come istanza per il mio bot ActivityPub del sito non è stata troppo lungimirante, visto che pare bloccata su molte altre per spam.. rendendo il bot completamente irraggiungibile. Oltre a questo, ci sta Google che ancora da le rogne per l'indicizzazione. 😐
 </details>

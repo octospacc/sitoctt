@@ -186,6 +186,6 @@ Grazie per la lettura. Vi invito a seguire il blog, anche se non in tutti gli ar
 
 ![Foto di 3 dei miei dispositivi Android tascabili, che mostrano la schermata del titolo di Animal Crossing Wild World.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif)
 
-## 🏷️ Note/Riferimenti
+## [:HNotesRefsHTML:]
 
 [^ APK dentro le app]: **Aggiornamento del 2022-07-29**: Ho corretto questa parte perché ricordavo che app del genere violassero le norme perché "conterebbero come app store alternativi", ma in realtà non riesco a verificare la cosa. Ho però trovato questa oscura pagina della guida per sviluppatori, che dice chiaramente a quali scopi le app possono richiamare l'installatore di pacchetti di sistema di Android: <https://support.google.com/googleplay/android-developer/answer/12085295?hl=it#zippy=%2Cutilizzi-consentiti-dellautorizzazione-request-install-packages%2Cutilizzi-non-validi>{[:MdTgtBlank:]}. Lo scopo pratico di queste app, ossia quello di essere dei banali wrapped installer, tecnicamente non sarebbe a posto.
