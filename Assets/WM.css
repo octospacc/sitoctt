@@ -11,15 +11,15 @@
 
 	--WindowText: #000000;
 	/*--WindowLinks: #0000EE;*/
-	--WindowBackground: #EEE0FF;
+	--WindowBackground: RGBA(238,224,255,0.95); /* #EEE0FF */
 
 	--TitleBarHeight: 32px;
 	--TitleBarText: #FFFFFF;
-	--TitleBarBackground: RGBA(42,10,58,0.90) /*#2A0A3A*/;
+	--TitleBarBackground: RGBA(42,10,58,0.90); /* #2A0A3A */
 
 	--TaskBarText: #111111;
 	--TaskBarLinks: #0000EE;
-	--TaskBarBackground: RGBA(204,170,221,0.90) /*#CCAADD*/;
+	--TaskBarBackground: RGBA(204,170,221,0.90); /* #CCAADD */
 	--TaskBarHeight: 36px;
 }
 
