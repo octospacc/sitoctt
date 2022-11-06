@@ -2,7 +2,7 @@
 // % HTMLTitle: <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono
 // % Index: True
 // % Order: 20
-// % UpdatedOn = 2022-10-27
+// % UpdatedOn = 2022-11-06
 
 # <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono?
 
@@ -52,6 +52,13 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 - <span style='Color:#FFA020;'>Friendica</span>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
 - <span style='Color:#3088D4;'>Mastodon</span>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
 - <span style='Color:#2D2D2D;'>Matrix</span>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
+
+### Crittografia, prove, e altri profili
+
+Mi sono, finalmente, decisa a mettere in piedi un profilo crittografico compatibile con Keyoxide, uno strumento molto carino per creare verifiche d'identità online decentralizzate. Eccolo qui: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
+
+Visitandolo, oltre a poter semplicemente accedere a link di alcuni miei altri profili online, è possibile avere una prova crittografica del fatto che ogni dato account appartiene a me, e non ad alcun impostore sus.  
+È anche possibile prelevare la mia chiave PGP pubblica, o usare la comoda interfaccia della app (web e non), per cifrare in maniera affidabile messaggi segreti da poter inviare a me.
 
 # Fine?
 

@@ -25,7 +25,7 @@
 	100% {Position: Static; Visibility: Visible;}
 }
 
-/*---   Credits: https://codepen.io/jh3y/pen/WNrXqYz   ---*/
+/*!--   Credits: https://codepen.io/jh3y/pen/WNrXqYz   ---*/
 .WavyText {
 	Text-Align: Center;
 	Position: Absolute;
@@ -48,4 +48,4 @@
 		Transform: Translate(0, -15%);
 	}
 }
-/*---   --------------------------------------------   ---*/
+/*!--   --------------------------------------------   ---*/

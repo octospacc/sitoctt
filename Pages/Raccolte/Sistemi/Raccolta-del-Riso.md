@@ -3,6 +3,8 @@
 // % EditedOn = 2022-10-14
 // % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
 
+// $ L/VoidLinuxOS = **OS**: [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
+
 # Raccolta del Riso
 
 Raccolta del Riso - o, per dirla in maniera corretta, raccolta dei miei ricing: personalizzazioni d'interfaccia effettuate ai miei sistemi operativi.
@@ -28,18 +30,35 @@ _In costruzione..._
 
 <div markdown="1" class="BorderBoxContainer">
 
-<details markdown="1" class="Box-Linux Box-Desktop Box-XFCE">
+<details markdown="1" class="Box-Linux Box-Desktop Box-XFCE" open><summary>
+#### W5 Novembre 2022 </summary>
+-> #Linux #Desktop #XFCE
+
+![]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Ricing/Desktop/Screenshot_2022-10-30_00-14-14.png)
+
+- **OS**: [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
+- **Desktop**: `xfce4`
+- **Pannello**: `xfce4-panel`
+- **Taskbar**: `xfce4-docklike-plugin`
+- **Menu Globale**: AppMenu Plugin (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
+- **Tema GTK**: [BlueSky-Light](https://github.com/i-mint/bluesky){[:MdTgtBlank:]}
+- **Tema xfwm**: BlueSky-Light
+- **Icone**: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme){[:MdTgtBlank:]}
+</details>
+
+<details markdown="1" class="Box-Linux Box-Desktop Box-XFCE"><summary>
+#### W2 Novembre 2022 </summary>
 -> #Linux #Desktop #XFCE
 
 ![]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Ricing/Desktop/Screenshot_2022-10-10_20-21-47.png)
 
 - **OS**: [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
-- **Desktop**: xfce4
-- **Pannello**: xfce4-panel
-- **Dock**: plank
-- **Menu Globale**: AppMenu Plugin (appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu)
-- **Tema (GTK2)**: [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme){[:MdTgtBlank:]}
-- **Decorazioni**: Fluent-Dark
+- **Desktop**: `xfce4`
+- **Pannello**: `xfce4-panel`
+- **Dock**: `plank`
+- **Menu Globale**: AppMenu Plugin (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
+- **Tema GTK**: [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme){[:MdTgtBlank:]}
+- **Tema xfwm**: Fluent-Dark
 - **Icone**: [Fluent](https://github.com/vinceliuice/Fluent-icon-theme){[:MdTgtBlank:]}
 </details>
 

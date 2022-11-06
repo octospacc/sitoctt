@@ -64,6 +64,8 @@ La cosa è molto più complicata a spiegarsi, di quanto non lo sia a farsi e _ad
 _Nota: I simboli hash (#) nei nomi **visibili** delle categorie non centrano nulla con l'id HTML degli elementi, li uso come prefisso semplicemente per simboleggiare un hashtag._
 </details>
 
+<!-- ---- --->
+
 <details markdown="1" class="Box-staticoso"><summary>
 #### [2022-09-01] Ottimizzazioni necessarie </summary>
 -> #staticoso
@@ -89,6 +91,8 @@ Esecuzioni diverse hanno dato risultati un po' diversi, forse perché avevo dive
 
 Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio codice **va ancora ottimizzato** - oltre il poco che ho già fatto. Vabbè, in ogni caso mi soddisfa già il punto in cui sono arrivata!
 </details>
+
+<!-- ---- --->
 
 <details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
 #### [2022-08-29] Titoli delle sezioni, ma ancora meglio </summary>
@@ -149,6 +153,8 @@ In codice **CSS**, la mia visione si è tradotta in queste righe:
 In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs){[:MdTgtBlank:]}, credo **sarà utilissima**.
 </details>
 
+<!-- ---- --->
+
 <details markdown="1" class="Box-sitoctt"><summary>
 #### [2022-08-24] Titoli delle sezioni - ora ovunque </summary>
 -> #sitoctt
@@ -165,6 +171,8 @@ Eh già, perché l'injecting dell'attributo `id` da parte di staticoso va, giust
 
 Un po' con il trova e sostituisci del mio editor di testo, e un po' a manina, **ho fatto questa sistemazione** nelle _2_ pagine in cui dovevo. Ora, anche per quelle, ho la possibilità di **creare** dei **link di rimando alle sezioni** che voglio.
 </details>
+
+<!-- ---- --->
 
 <details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
 #### [2022-08-24] La data di compilazione </summary>

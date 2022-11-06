@@ -7,8 +7,6 @@
 
 Stai avventurandoti in una sezione forse effimera del sitocto, ma che comunque, se esiste, vuol dire che ho pensato che ci debba stare lo stesso.
 
-## Un po' di contesto
-
 Seguendo l'idea che ho visto su (pochi) altri siti web personali in giro per la rete, dedico questa zona a pagina singola per tenere un cosidetto picoblog.
 
 Nella pratica, si tratta di un flusso di pensieri corti e fini a loro stessi: spesso, un intero articolo di picoblog è composto da una sola frase.  
@@ -23,6 +21,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 ## Leggi il PicoBlog
 
 <div markdown="1" class="BorderBoxContainer">
+
+<details markdown="1"><summary>
+#### [2022-11-06] Mastodon esplode </summary>
+Da ieri, i profughi di Twitter stanno sbarcando così numerosi sul Fediverso (purtroppo, virtualmente solo su Mastodon) che un sacco di server stanno soffrendo. Il network di Masto.host è in ginocchio da oggi pomeriggio, e pare che la storia sia complessa da risolvere.
+</details>
 
 <details markdown="1"><summary>
 #### [2022-11-03] Lol I forgor </summary>
