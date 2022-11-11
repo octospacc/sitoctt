@@ -43,10 +43,12 @@ Body {
  *--------------------------------------------------------*/
 
 .Window {
+	Position: Absolute;
 	Margin: Var(--WindowMargin);
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 	Color: Var(--WindowText);
 	Background: Var(--WindowBackground);
+	Backdrop-Filter: Blur(Var(--RectBlur));
 }
 .WindowContent {
 	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
@@ -57,10 +59,11 @@ Body {
 	Margin-Top: Var(--WindowBorderSize);
 	Color: Var(--WindowText);
 	Background: Var(--WindowBackground);
+	Backdrop-Filter: Blur(Var(--RectBlur));
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 }
 .Window:Hover {
-	Z-Index: 128 !Important;
+	Z-Index: 128;
 }
 .Window A, .WindowContent A {
 	/*Color: Var(--WindowLinks);*/
@@ -70,6 +73,7 @@ Body {
 	Padding: Var(--WindowMargin);
 	Color: Var(--TitleBarText);
 	Background: Var(--TitleBarBackground);
+	Backdrop-Filter: Blur(Var(--RectBlur));
 	Vertical-Align: Top;
 	Max-Height: Var(--TitleBarHeight);
 }
@@ -88,7 +92,7 @@ Body {
 	Width: 100%;
 	Color: Var(--TaskBarText);
 	Background: Var(--TaskBarBackground);
-	Backdrop-Filter: blur(Var(--RectBlur));
+	Backdrop-Filter: Blur(Var(--RectBlur));
 	Position: Fixed;
 	Bottom: 0px;
 	Padding: Var(--WindowMargin);
@@ -106,7 +110,7 @@ Body {
 	Padding: Calc(Var(--WindowPadding)*2);
 	Color: Var(--TaskBarText);
 	Background: Var(--TaskBarBackground);
-	Backdrop-Filter: blur(Var(--RectBlur));
+	Backdrop-Filter: Blur(Var(--RectBlur));
 	Max-Height: Calc(90vh - Var(--TaskBarHeight));
 	Overflow-Y: Scroll;
 }
@@ -137,7 +141,7 @@ Body {
 	Content: '🔼';
 }
 :Checked ~ .TitleBarContent > Span > .CheckLabel:Before {
-	Content: '🔽' !Important;
+	Content: '🔽';
 }
 :Checked ~ .ToggleBox {
 	Display: None;
@@ -167,7 +171,6 @@ Body {
 }
 
 #MainWindow {
-	Position: Absolute;
 	Max-Width: 85vw;
 	Max-Height: Calc(90vh - 24px);
 	Top: Calc(24px + Var(--TitleBarHeight));
@@ -179,7 +182,6 @@ Body {
 }
 
 #TitlesWindow {
-	Position: Absolute;
 	Max-Width: 60vw;
 	Max-Height: 60vh;
 	Top: Calc(8px + 3vh + (Var(--TitleBarHeight)*2));
@@ -191,7 +193,6 @@ Body {
 }
 
 #FeedWindow {
-	Position: Absolute;
 	Max-Width: 75vw;
 	Max-Height: 40vh;
 	Top: 8px;
@@ -212,7 +213,6 @@ Body {
 }
 
 #CountWindow { /* Tared for a reasonable 256x32 image */
-	Position: Absolute;
 	/*Max-Width: Calc(256px + 8px);*/
 	Max-Height: Calc(32px + 8px + Var(--TitleBarHeight));
 	Bottom: Calc(8px + 32px + 8px + Var(--TitleBarHeight) + Var(--TaskBarHeight));

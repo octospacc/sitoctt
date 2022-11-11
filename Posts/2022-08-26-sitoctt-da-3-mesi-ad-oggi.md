@@ -29,7 +29,7 @@ Non che le **1300** attuali siano tante - affatto, ed è meglio così - ma **la 
 
 Se però, con un'immagine (ignorando che il mio font non si sia caricato, anche se lo avevo già incluso al tempo), vediamo come era nel pratico il sito nei suoi primi giorni... ahhh, ma _quanto erano grezzi alcuni dettagli_, rispetto ad oggi?
 
-![La home page del sitoctt, vista come era il 25 maggio.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/sitoctt-home-2022-05-25.png)
+![La home page del sitoctt, vista come era il 25 maggio.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/sitoctt/home-2022-05-25.png)
 
 Il mio _discorsone sconclusionato_ figurava più o meno ancora come lo fa oggi sulla home page, ma il resto è appena riconoscibile.  
 **Sembra tutto più vuoto**... essendo che mancano tutte le iconcine e i bottoni che ora ho ai bordi e nel menu globale. Si, quest'ultimo già c'era; la sua utilità in quei giorni era pressoché nulla, considerando che le pagine presenti erano di numero 2, ma diciamo che è stata buona cosa averlo creato da subito.

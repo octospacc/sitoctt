@@ -25,6 +25,143 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 
 <div markdown="1" class="BorderBoxContainer">
 
+<details markdown="1" class="Box-sitoctt Box-staticoso" open><summary>
+#### [2022-11-11] Novità estetiche incollate con lo sputo </summary>
+-> #sitoctt #staticoso
+
+Da quanto che non scrivevo un devlog! Qualcosina però, per **sitoctt e staticoso**, l'ho fatta nel frattempo.
+
+Il primo **cambiamento notevole** che ho apportato al sito in questi giorni è l'applicazione del **nuovo tema** (esclusivamente) alla [pagina home](./index.html). Lascio una foto, cosicché questo post sia comprensibile anche a distanza di tempo senza che serva controllare la Wayback Machine.  
+La cosa bella? **Avevo iniziato** a progettarlo diversi **mesi fa**, pian piano, giorno per giorno, fino a che ad un certo punto.. _ho dimenticato di continuare!_ 😵 Alla fine, però, ho finito tutte le rifiniture e aggiunto **nuovi dettagli**.
+
+![Schermata ritagliata della home page corrente.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/sitoctt/home-2022-11-06.png)
+
+Non so cosa stavo pensando mentre costruivo il template, e quindi è venuto un **miscuglio di roba**: **stile** ambiente **desktop**.. ma con lo sfondo _Bubbles_ di **Windows 95** ricolorato di viola, tema **quasi-metro** per taskbar (dove a sinistra si trova il tasto menu) e decorazioni di finestra, con la barra del titolo che ha il titolo al centro, ma un'icona rappresentante la finestra a destra, e un tasto per **collassare/riaprire** le stesse. Quest'ultima roba, assieme al poter portare una finestra mezza nascosta in primo piano cliccandola (su PC basta passarci sopra il cursore del mouse), l'ho fatta ovviamente funzionare **senza alcuno script**!
+
+Il **riposizionamento** in primo piano è molto **facile**: con la pseudo-classe CSS _Hover_, applicato alla classe delle finestre, si imposta un valore Z superiore al default di tutte le altre finestre. In questo modo, la finestra verrà rialzata quando ci si passa il puntatore virtuale sopra.
+
+```{ .css .CodeScroll }
+.Window:Hover {
+	/* Non ci sono al momento finestre con Z-Index maggiore di questo, quindi va bene */
+	Z-Index: 128;
+}
+```
+
+**La storia dello shading** delle finestre, invece, è più complicata e mi **ha richiesto** l'uso di qualche **hack**, e ora spiego il tutto. Segue l'HTML rappresentante un'ipotetica finestra, e del relativo CSS.
+
+```{ .html .CodeScroll }
+<div class="Window" id="ExampleWindow">
+	<div class="TitleBar">
+		<input type="checkbox" class="CheckToggle" id="ExampleWindowCheck">
+		<div class="TitleBarContent">
+			<span> <label class="CheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Finestra Esempio</b> </span>
+		</div>
+		<div class="WindowContent ToggleBox">
+			<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+			</p>
+		</div>
+	</div>
+</div>
+```
+
+```{ .css .CodeScroll }
+/* Input checkbox della classe specifica per i bottoni no-JS */
+
+/* Impostato come invisibile per motivi estetici */
+.CheckToggle {
+	Position: Fixed;
+	Opacity: 0;
+	Visibility: Hidden;
+}
+
+/* Di default, sui label dedicati alle checkbox, figura un simbolo rappresentante lo stato di unshaded */
+.CheckLabel:Before {
+	Content: '🔼';
+}
+
+/* A checkbox spuntata, sul label nidificato adiacente figura un simbolo rappresentante lo stato di shaded */
+:Checked ~ .TitleBarContent > Span > .CheckLabel:Before {
+	Content: '🔽';
+}
+
+/* A checkbox spuntata, sparisce il div del contenuto */
+:Checked ~ .ToggleBox {
+	Display: None;
+	Visibility: Hidden;
+}
+```
+
+Insomma, se questa _robaccia_ si può fare è grazie all'**abuso** del selettore CSS `~` (tilde), che permette di applicare una proprietà ad un elemento adiacente ad un altro, in questo caso verificando prima una condizione con una pseudo-classe (la proprietà _Checked_ della casella).
+
+Il problema è che, non esistendo alcun selettore per raggiungere elementi genitori del DOM, ho dovuto piazzare il **div del contenuto in quello della barra del titolo**: una schifezza, _pure abbastanza grossa_ considerando cosa ho dovuto fare poi per rendere le finestre esteticamente a posto nonostante il loro scheletro _affetto dalle devianze_.
+
+Continuando con il vedere le **classi CSS delle finestre** in sé.. i commenti bastano.
+
+```{ .css .CodeScroll }
+.Window {
+	Position: Absolute;
+	Margin: Var(--WindowMargin);
+	/* Bordo per estetica, 4px nel mio caso */
+	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
+}
+.WindowContent {
+	/* Minima larghezza del div contenuto della finestra pari alla totale finestra */
+	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
+	/* Padding per estetica */
+	Padding: Calc(Var(--WindowPadding)*2);
+	Padding-Top: Var(--WindowPadding);
+	/* Overflow Y permesso nel solo div contenuto 
+	Overflow-Y: Auto;
+	/* Allineamento del contenuto nella finestra tenendo conto dei margini */
+	Margin-Left: Calc(0px - Var(--WindowMargin) - Var(--WindowBorderSize));
+	Margin-Top: Var(--WindowBorderSize);
+}
+```
+
+Questo, infine, è il **CSS applicato alle singole finestre**, che differisce sempre in valori.. e, a parte i commenti, anche qui non so proprio cosa dire! 🤐 _La soluzione funziona? E allora va bene così._
+
+```{ .css .CodeScroll }
+/*
+*/ #ExampleWindow {
+	/* Dimensioni massime della finestra */
+	Max-Width: 80vw;
+	Max-Height: 75vh;
+	/* Posizione assoluta a schermo */
+	Top: 8px;
+	Left: 16px;
+	Z-Index: 8;
+}
+/*
+*/ #FeedWindow .WindowContent {
+	/* Impostazione della massima altezza del div contenuto della finestra;
+	 * Per qualche motivo, se non esplicito la cosa, il contenuto sborda sempre.
+	 * All'altezza massima dell'intera finestra devo sottrarre, oltre al margine,
+	 * ben 2 volte l'altezza della barra del titolo (ma forse basterebbe una costante arbitraria),
+	 * altrimenti il contenuto può andare comunque troppo giù.
+	 */
+	Max-Height: Calc(75vh - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+}
+```
+
+Questa **complessa soluzione** funziona perfettamente su Firefox e su Chromium desktop, ma su Chromium per Android questi **posizionamenti pixel-perfect** fanno _imbizzarrire_ il motore CSS, che _non si vergogna affatto_ di mostrare dello spazio vuoto tra i bordi decorativi e lo sfondo degli altri div che compongono la finestra.
+
+![Schermata ritagliata e zoomata della home page renderizzata da Chromium su Android.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/sitoctt/WM-Chromium-Mobile-Glitch.png)
+
+Vabbè, lo diciamo che fa schifo? Ma sì: **FA SCHIFO!** Se hai una soluzione migliore senza JavaScript, io [sto aspettando la tua pull request](https://gitlab.com/octtspacc/sitoctt){[:MdTgtBlank:]}. _Forza, sto aspettando, aiutami a togliere lo schifo._
+
+Grazie a questo nuovo tema posso permettermi di aggiungere, in modo un minimo sensato, alcuni **meta-contenuti** ripetuti tra le pagine del sito che lo usano - anche se per il momento l'ho applicato solo alla home, perchè ho paura che causi un po' troppa confusione visiva sulle pagine dove il contenuto deve stare al primo posto. Una cosa che ho messo, per dire, è la **lista di post recenti** in una finestrella dedicata.
+
+Per quest'ultima cosa, ho chiaramente dovuto aggiornare **staticoso**, che genera la lista quando nel codice di una pagina trova la stringa `<staticoso:Feed>`.  
+Ne ho approfittato per fare anche altri piccoli miglioramenti, ad esempio ho aggiunto la generazione automatica di **pagine di redirect** per una serie di URL alternativi specificati nei metadati di una pagina; con questa funzione ho potuto facilmente rinominare i file di alcune pagine nel sito senza rompere gli URL vecchi, ed ho aggiunto **alias di convenienza** per certe pagine: ad esempio, [/Blog.html](./Blog.html) che rimanda a [/Categories/Blog.html](./Categories/Blog.html).
+
+Come ultime cose: al generatore ho aggiunto anche la creazione di **liste di** tutte le pagine contenute in **una cartella** e relative sottocartelle del sito, che richiamo con `<staticoso:DirectoryList:{DIRECTORY}>` e _forse, credo, mi servirà più tardi_, anche se ho già creato [una pagina che ne fa uso](./Posts/index.html).
+</details>
+
+
+<!-- ---- ---- --->
+
+
 <details markdown="1" class="Box-sitoctt"><summary>
 #### [2022-09-05] Filtri intelligenti </summary>
 -> #sitoctt
@@ -64,7 +201,9 @@ La cosa è molto più complicata a spiegarsi, di quanto non lo sia a farsi e _ad
 _Nota: I simboli hash (#) nei nomi **visibili** delle categorie non centrano nulla con l'id HTML degli elementi, li uso come prefisso semplicemente per simboleggiare un hashtag._
 </details>
 
-<!-- ---- --->
+
+<!-- ---- ---- --->
+
 
 <details markdown="1" class="Box-staticoso"><summary>
 #### [2022-09-01] Ottimizzazioni necessarie </summary>
@@ -92,7 +231,9 @@ Esecuzioni diverse hanno dato risultati un po' diversi, forse perché avevo dive
 Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio codice **va ancora ottimizzato** - oltre il poco che ho già fatto. Vabbè, in ogni caso mi soddisfa già il punto in cui sono arrivata!
 </details>
 
-<!-- ---- --->
+
+<!-- ---- ---- --->
+
 
 <details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
 #### [2022-08-29] Titoli delle sezioni, ma ancora meglio </summary>
@@ -106,18 +247,20 @@ Dovevo inventarmi qualcos'altro.
 
 A livello di **HTML**, allora, staticoso genera per ogni titolo la seguente struttura: elemento heading, che contiene prima un elemento span racchiudente l'ancora, a sua volta contenente il semplice testo `»`, e poi un altro span (con id univoco) che ha il titolo in sé.  
 Facendo un esempio pratico, questo è cosa esce fuori:  
-<pre class="CodeScroll"><code class="language-html">
-&lt;h1 class="SectionHeading">
-	&lt;span class="SectionLink">
-		&lt;a href="#-Titolo-di-esempio">
-			&lt;span>»&lt;/span>
-		&lt;/a>
-	&lt;/span>
-	&lt;span class="SectionTitle" id="-Titolo-di-esempio">
+
+```{ .html .CodeScroll }
+<!--
+--> <h1 class="SectionHeading">
+	<span class="SectionLink">
+		<a href="#-Titolo-di-esempio">
+			<span>»</span>
+		</a>
+	</span>
+	<span class="SectionTitle" id="-Titolo-di-esempio">
 		Titolo di esempio
-	&lt;/span>
-&lt;/h1>
-</code></pre>
+	</span>
+</h1>
+```
 
 Senza CSS, i titoli sulla pagina renderizzata si vedono come al solito, eccetto per il fatto che hanno un carattere `»` cliccabile alla loro sinistra. Andrebbe bene già così, ma ovviamente io avevo la **personalizzazione** in mente da subito.  
 Sul tema principale del **sitoctt**, infatti, ho personalizzato la cosa in modo da avere:
@@ -153,7 +296,9 @@ In codice **CSS**, la mia visione si è tradotta in queste righe:
 In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs){[:MdTgtBlank:]}, credo **sarà utilissima**.
 </details>
 
-<!-- ---- --->
+
+<!-- ---- ---- --->
+
 
 <details markdown="1" class="Box-sitoctt"><summary>
 #### [2022-08-24] Titoli delle sezioni - ora ovunque </summary>
@@ -172,7 +317,9 @@ Eh già, perché l'injecting dell'attributo `id` da parte di staticoso va, giust
 Un po' con il trova e sostituisci del mio editor di testo, e un po' a manina, **ho fatto questa sistemazione** nelle _2_ pagine in cui dovevo. Ora, anche per quelle, ho la possibilità di **creare** dei **link di rimando alle sezioni** che voglio.
 </details>
 
-<!-- ---- --->
+
+<!-- ---- ---- --->
+
 
 <details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
 #### [2022-08-24] La data di compilazione </summary>

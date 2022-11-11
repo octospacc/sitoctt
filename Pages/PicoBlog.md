@@ -7,7 +7,7 @@
 
 Stai avventurandoti in una sezione forse effimera del sitocto, ma che comunque, se esiste, vuol dire che ho pensato che ci debba stare lo stesso.
 
-Seguendo l'idea che ho visto su (pochi) altri siti web personali in giro per la rete, dedico questa zona a pagina singola per tenere un cosidetto picoblog.
+Seguendo l'idea che ho visto su (pochi) altri siti web personali in giro per la rete, dedico questa zona a pagina singola per tenere un cosidetto **picoblog**.
 
 Nella pratica, si tratta di un flusso di pensieri corti e fini a loro stessi: spesso, un intero articolo di picoblog è composto da una sola frase.  
 Per questo fondamentale particolare, differisce non solo dai blog tradizionali, dove un articolo è spesso formato da tanti paragrafi, ma anche dagli oggi più popolari microblog (alla <span style="Color:#3088d4;">Mastodon</span>), dove un articolo è al massimo un paragrafo.
@@ -21,6 +21,11 @@ Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo sc
 ## Leggi il PicoBlog
 
 <div markdown="1" class="BorderBoxContainer">
+
+<details markdown="1" open><summary>
+#### [2022-11-11] 5 giorni, in che modo? </summary>
+Allora, assurdo. Il [nuovo post dei Devlogs](./Devlogs.html#-2022-11-11-Novit-estetiche-in)? Ho iniziato a scriverlo domenica sera e ho finito stasera. Perché? Non lo so, avevo altri fatti in mezzo, tra scuola e roba mia, e quindi alcuni giorni non ho proprio scritto. Che pazienza..
+</details>
 
 <details markdown="1"><summary>
 #### [2022-11-06] Mastodon esplode </summary>
