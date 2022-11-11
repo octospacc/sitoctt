@@ -10,7 +10,8 @@ Giustamente, venendo qui, che tu abbia o meno letto le informazioni generali del
 
 Io sono Octt. Si, esatto, Octt da cui sitoctt, il mio sito, prende il nome.  
 _Octt_ si pronuncia "òctt" - [come sitoctt, ma senza "sit"]([staticoso:Folder:Assets:AbsoluteRoot]/Media/sitoctt-pronuncia.flac){[:MdTgtBlank:]}.  
-Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlank:]} sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.  
+Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlank:]} sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.
+
 Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma quando mai??)</small>, ho immaginato il sito, ho iniziato a costruire il sito, ho messo in piedi strategie per semplificarmi la creazione del sito <small>(eee, che paroloni, ho scritto un programmino in Pitone)</small>, ed ecco qui il risultato.
 
 ## Cosa faccio?
@@ -57,12 +58,12 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
 Mi sono, finalmente, decisa a mettere in piedi un profilo crittografico compatibile con Keyoxide, uno strumento molto carino per creare verifiche d'identità online decentralizzate. Eccolo qui: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
 
-Visitandolo, oltre a poter semplicemente accedere a link di alcuni miei altri profili online, è possibile avere una prova crittografica del fatto che ogni dato account appartiene a me, e non ad alcun impostore sus.  
+Visitandolo, oltre a poter semplicemente accedere a link di alcuni miei altri profili online, è possibile avere una prova crittografica del fatto che ogni dato account appartiene a me, e non ad alcun _impostore sus_.  
 È anche possibile prelevare la mia chiave PGP pubblica, o usare la comoda interfaccia della app (web e non), per cifrare in maniera affidabile messaggi segreti da poter inviare a me.
 
 # Fine?
 
-Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare che mi venga in mente nuova roba da scrivere. Non sperarci troppo, però, considerando che è da più di un mese che questa pagina non si espande 😬.
+Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare che mi venga in mente nuova roba da scrivere. Non sperarci troppo, però, considerando che è da più di un mese che questa pagina non si espande sostanzialmente😬.
 
 ---
 

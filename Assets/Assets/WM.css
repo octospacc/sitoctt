@@ -11,7 +11,7 @@
 
 	--WindowText: #000000;
 	/*--WindowLinks: #0000EE;*/
-	--WindowBackground: RGBA(238,224,255,0.95); /* #EEE0FF */
+	--WindowBackground: RGBA(238,224,255,0.90); /* #EEE0FF */
 
 	--TitleBarHeight: 32px;
 	--TitleBarText: #FFFFFF;
@@ -19,7 +19,7 @@
 
 	--TaskBarText: #111111;
 	--TaskBarLinks: #0000EE;
-	--TaskBarBackground: RGBA(204,170,221,0.90); /* #CCAADD */
+	--TaskBarBackground: RGBA(204,170,221,0.85); /* #CCAADD */
 	--TaskBarHeight: 36px;
 }
 
@@ -63,7 +63,7 @@ Body {
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 }
 .Window:Hover {
-	Z-Index: 128;
+	Z-Index: 192 !Important;
 }
 .Window A, .WindowContent A {
 	/*Color: Var(--WindowLinks);*/
@@ -184,7 +184,7 @@ Body {
 #TitlesWindow {
 	Max-Width: 60vw;
 	Max-Height: 60vh;
-	Top: Calc(8px + 3vh + (Var(--TitleBarHeight)*2));
+	Top: Calc(8px + 6vh + (Var(--TitleBarHeight)*2));
 	Left: 12px;
 	Z-Index: 12;
 }
@@ -196,7 +196,7 @@ Body {
 	Max-Width: 75vw;
 	Max-Height: 40vh;
 	Top: 8px;
-	Left: Calc(12px + 3vw);
+	Left: Calc(8px + 3vw);
 	Z-Index: 8;
 }
 #FeedWindow .WindowContent {
