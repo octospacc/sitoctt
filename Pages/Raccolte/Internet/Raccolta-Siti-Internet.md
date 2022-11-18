@@ -10,11 +10,20 @@ Una raccolta dedicata ad alcuni siti Internet carini (non solo web!), di varie t
 A parte la divisione in categorie, non c'e alcun ordine particolare.  
 Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai nomi indicano le lingue primarie dei contenuti del sito.
 
-### Attenzione
-
-<marquee><i>Oh voi persone che fate i sitarelli, mannaggia, non mettete cose importanti nell'infernale tag &lt;marquee&gt;, che non si legge niente e fa il mal di testa!</i></marquee>
-
 <div markdown="1" class="NoImgCenter ImgShiftedH Pixelated">
+
+<marquee markdown="1">
+[![✨sitoctt✨]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/sitoctt-1.png)](#-Il-mio)
+[![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo-88x31.png)](#-s-a-1)
+[![Dante Scanline]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/DanteScanline-88x31.png)](#-s-a-2)
+[![2Bit]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/2Bit-88x31.png)](#-s-a-3)
+[![neonaut]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/neonaut-88x31.png)](#-s-a-4)
+[![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb-88x31.png)](#-s-a-5)
+[![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks-88x31.gif)](#-s-a-6)
+[]()  
+[]()  
+</marquee>  
+_Questi sopra sono i siti della lista che hanno un bottone 88x31. Vuoi anche tu il privilegio di stare anche in cima? Allora muoviti a disegnare st'immaginetta, su!_
 
 ## Il mio..
 
@@ -59,7 +68,7 @@ Sito ultraminimale, nessuna grafica (:'c), ma bello schema di (3) colori e bei c
 Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anche Aurora). Lo ha messo in piedi oggi (2022-06-30), dopo che ha detto di non sapere cosa fare con tutto il tempo libero estivo, e io le ho detto "fai l'Arcisito".  
 	• Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]}
 
-- **🇬🇧 🇮🇹 astral town**  
+- <b id="-s-a-1">🇬🇧 🇮🇹 astral town</b>  
 ![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo-88x31.png)  
 Sito colorato e accogliente, boh non c'è altro da dire.  
 	• Clearweb: [astral.town](https://astral.town){[:MdTgtBlankNofw:]}
@@ -80,24 +89,24 @@ Più che un sito, una demo JavaScript con una lista di link e cose così, ma è 
 Solo una pagina principale e poca altra roba, ma solo l'idea del sito è un'esperienza.. **interessante**. L'unico sito visto fino ad ora che usa una precisa configurazione di Apache, con l'esatto scopo di rallentare il sito alle velocità del 14.4 kbps!  
 	• Clearweb: [tassoman.com](https://tassoman.com){.tassoman [:MdTgtBlankNofw:]}
 
-- **🇬🇧 Dante Scanline**  
+- <b id="-s-a-2">🇬🇧 Dante Scanline</b>  
 ![Dante Scanline]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/DanteScanline-88x31.png)  
 Sito di un artista che pare faccia roba nello stile dei giochi PC anni '90-2000, tipo Quake ma non solo. Le immagini di ambienti 3D pixellosi sono molto belle.  
 	• Clearweb: [dantescanline.com](https://dantescanline.com){[:MdTgtBlankNofw:]}
 
-- **🇬🇧 2Bit**  
+- <b id="-s-a-3">🇬🇧 2Bit</b>  
 ![2Bit]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/2Bit-88x31.png)  
 Credo sia l'unico sito web non-testuale che su Kindle si naviga (quasi) esattamente come su PC.. Come lo stesso nome dice, tutto su questo spazio web è un elogio all'era del 2 bit, ed arriva a ciò con i contenuti, ma inizia con la forma: tutta la grafica (e ce n'è molta) è rigorosamente in 4 colori!  
 	• Clearweb: [2bit.neocities.org](https://2bit.neocities.org){[:MdTgtBlankNofw:]}
 
-- **🇬🇧 neonaut**  
+- <b id="-s-a-4">🇬🇧 neonaut</b>  
 ![neonaut]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/neonaut-88x31.png)  
 Sito personale con grafica flat colorata, che però sembra anche essere un metasito riguardo Neocities e una parte della sua cultura, contenente alcune informazioni su quell'universo.  
 	• Clearweb: [neonaut.neocities.org](https://neonaut.neocities.org){[:MdTgtBlankNofw:]}
 
 ## Miscellanea
 
-- **🇬🇧 The Yesterweb**  
+- <b id="-s-a-5">🇬🇧 The Yesterweb</b>  
 ![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb-88x31.png)  
 Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni passati e ai suoi lati migliori, verso cui promuove di tornare.  
 	• Clearweb: [yesterweb.org](https://yesterweb.org){[:MdTgtBlankNofw:]}
@@ -106,7 +115,7 @@ Sito collettivo che rimanda, concettualmente e visivamente, al Web dei giorni pa
 Non ho ben capito cosa sia questo sito, a cosa serve, chi lo gestisce, e tutto il resto. Però ha delle belle grafiche e mi piace.  
 	• Clearweb: [xxiivv.com](https://xxiivv.com){[:MdTgtBlankNofw:]}
 
-- **🇬🇧 OpenBooks**  
+- <b id="-s-a-6">🇬🇧 OpenBooks</b>  
 ![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks-88x31.gif)  
 Movimento, e libreria di siti e risorse, che promuove una rinascita in chiave moderna del Web personale. Il sito ha persino una bella grafica.  
 	• Clearweb: [openbooks.neocities.org](https://openbooks.neocities.org){[:MdTgtBlankNofw:]}
@@ -132,6 +141,10 @@ Un museo virtuale dedicato ad illustrare quei rari contenuti informatici e video
 	• Clearweb: [🇷🇺 gbasp.ru](https://gbasp.ru){[:MdTgtBlankNofw:]}, [🇬🇧 en.gbasp.ru](https://en.gbasp.ru){[:MdTgtBlankNofw:]}
 
 </div>
+
+## Attenzione
+
+<marquee><i>Però, oh voi persone che fate i sitarelli, mannaggia, non mettete testo importante nell'infernale tag &lt;marquee&gt;, che non si legge niente e fa il mal di testa!</i></marquee>
 
 ## [:HNotesRefsHTML:]
 

@@ -18,11 +18,31 @@ L'idea mia è quella di creare un flusso aggiornato più o meno spesso di frasi 
 Chissà se navigare questa pagina ti aiuterà a conoscermi meglio, ho paura di no. In verità direi, se del mio normale blog ti fidi 5, di quello che trovi qui devi fidarti -20. Non prendere troppo seriamente ciò che scrivo qui.  
 Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo scendere in basso le precedenti. Inoltre, ogni articolo è collassato di base per questioni di ordine, ti basta cliccare sul titolo per espanderne uno.
 
+<div markdown="1" class="BorderBoxContainer" HTMLJournal="1" JournalTitle="il picoblogoctt"
+JournalHeader="<p>
+Questa pagina è stata automaticamente semplificata dalla versione originale, <a
+href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per un'esperienza migliore, più comoda, con menu e link ai singoli post dentro la pagina!
+</p>">
+
+<div markdown="1" class="NoBorderBox">
+
+## Cose varie
+
+- Puoi ricevere gli aggiornamenti del PicoBlog tramite Atom. Non ho ancora sistemato staticoso per supportare pagine di questo tipo, ma grazie al servizio _Journal to Atom_ posso avere un feed: [![The Neon Kiosk]([staticoso:CustomPath:Assets]/Media/Buttons/Feed-88x31.png)](https://journal.miso.town/atom?url=https%3A%2F%2Fsitoctt.octt.eu.org%2FPicoBlog.Journal.html){[:MdTgtBlank:]}
+
+- Se qui hai finito di leggere le cose recenti, allora fatti un giro per il **Neon Kiosk**, dove puoi trovare pagine simili a questa ma da altre persone: [![The Neon Kiosk]([staticoso:CustomPath:Assets]/Media/Buttons/Sites/The-Neon-Kiosk-88x31.png)](https://kiosk.nightfall.city){[:MdTgtBlankNofw:]}
+
 ## Leggi il PicoBlog
 
-<div markdown="1" class="BorderBoxContainer">
+</div>
 
-<details markdown="1" open><summary>
+<details markdown="1" open="1"><summary>
+#### [2022-11-18] Finalmente ho il MIO Misskey </summary>
+Ci avevo provato mesi fa ad ospitare il mio server ActivityPub. Prima Friendica su Altervista.. non andava. Poi Misskey, Mastodon, e Pleroma su Switch in casa.. fallimenti, l'uno più grosso dell'altro. Poi, l'altro giorno sul Raspino ho voluto riprovarci; i problemi sono usciti eccome, ma stavolta li ho saputi risolvere nell'arco di un giorno di lavoro, e quindi adesso ho [il mio Regno del Terrore](https://miss.octt.eu.org){[:MdTgtBlank:]}! 😁  
+Ho aggiunto il mio profilo alla [pagina dei contatti](./Chi-Sono.html#-I-miei-contatti) qui... e ho sistemato una roba che avevo dimenticato di cancellare praticamente da agosto: la menzione al server Matrix, che ormai non ho più. 🙄
+</details>
+
+<details markdown="1"><summary>
 #### [2022-11-11] 5 giorni, in che modo? </summary>
 Allora, assurdo. Il [nuovo post dei Devlogs](./Devlogs.html#-2022-11-11-Novit-estetiche-in)? Ho iniziato a scriverlo domenica sera e ho finito stasera. Perché? Non lo so, avevo altri fatti in mezzo, tra scuola e roba mia, e quindi alcuni giorni non ho proprio scritto. Che pazienza..
 </details>
@@ -66,7 +86,7 @@ Di nuovo inattività qui, eh? Purtroppo un po' non avevo voglia, un po' non sape
 #### [2022-09-19] Luigi ambience </summary>
 La musichetta del casinò di Luigi, nonostante lui sia bastardo, è molto raffinata e ci sta benissimo come ambience per l'appartamento. Cliccando sulla foto sotto la si può ascoltare da YouTube.
 
-[![Schermata del primo minigioco di Luigi in Super Mario 64 DS.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Misc/Luigi-Casino.avif)]([:YouTubeURL:]/QoydhH3xODU){[:MdTgtBlank:]}
+[![Schermata del primo minigioco di Luigi in Super Mario 64 DS.]([staticoso:CustomPath:Assets]/Media/Misc/Luigi-Casino.avif)]([:YouTubeURL:]/QoydhH3xODU){[:MdTgtBlank:]}
 </details>
 
 <details markdown="1"><summary>
@@ -118,7 +138,7 @@ Per mesi sto, occasionalmente, abusando del PicoBlog come devlog per la roba che
 #### [2022-08-22] Risolvere. </summary>
 Il sitoctt è dalla sua creazione no-bloat ed efficiente. Eccetto per una (1) risorsa caricata: il [CSS per le emoji](https://octtspacc.gitlab.io/sitoctt-assets/twemoji-amazing.min.css){[:MdTgtBlank:]}. Spreca 400KB di traffico, non va bene, ma ho già qualche idea per risolvere.
 
-![Schermata "Rete" degli strumenti sviluppatore di Firefox, che mostra i file più grossi caricati dalla home.]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Screenshots/Firefox-Devtools-sitoctt-index.html-2022-08-22-23-56-53.avif)
+![Schermata "Rete" degli strumenti sviluppatore di Firefox, che mostra i file più grossi caricati dalla home.]([staticoso:CustomPath:Assets]/Media/Screenshots/Firefox-Devtools-sitoctt-index.html-2022-08-22-23-56-53.avif)
 </details>
 
 <details markdown="1"><summary>
@@ -188,7 +208,7 @@ Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dell
 
 <details markdown="1"><summary>
 #### [2022-07-21] Decreto fu fatto (20 luglio 2022) </summary>
-Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]([staticoso:Folder:Assets:AbsoluteRoot]/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]}, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
+Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]([staticoso:CustomPath:Assets]/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]}, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
 </details>
 
 <details markdown="1"><summary>

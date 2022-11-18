@@ -50,16 +50,17 @@ Details Div {
 	Padding: 4px;
 }
 .BorderBox,
-.BorderBoxContainer > *,
-Details Div Details {
+.BorderBoxContainer > Div:Not(.NoBorderBox),
+.BorderBoxContainer > Details:Not(.NoBorderBox),
+Details Div Details:Not(.NoBorderBox) {
 	Border: 2px Solid Purple;
 	Margin: 8px;
 	Padding: 4px;
 }
 
-A {
-	Color: #D000D0;
-}
+A { Color: #D000D0; }
+Code A, .Code A { Color: #60D0D0; }
+
 H1, H2, H3, H4, H5, H6 {
 	Color: #503080;
 }

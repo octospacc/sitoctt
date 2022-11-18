@@ -2,7 +2,8 @@
 // % HTMLTitle: <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono
 // % Index: True
 // % Order: 20
-// % UpdatedOn = 2022-11-06
+// % UpdatedOn = 2022-11-17
+// $ SelfhostLineBadge = <small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST!</small>
 
 # <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono?
 
@@ -20,13 +21,13 @@ Beh, innanzitutto faccio questo sito. Scrivo le cose, che siano inutili fiumi di
 
 Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}. In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma lascio i collegamenti da seguire per capire, non parlo dello Spacc qui.
 
-Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra server Matrix, bot vari per diverse piattaforme, il server [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, resa solo più difficile dal mio usare hardware di fortuna.
+Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra server <small><del>Matrix</del></small> Misskey, bot vari per diverse piattaforme, il server [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, resa solo più difficile dal mio usare hardware più o meno di fortuna <small>('nsomma, un Rasperino ad oggi non è _di_ fortuna, è **una** fortuna 😓)</small>.
 
 A volte spendo <small>(o perdo?)</small> tempo sul Fediverso, anche lì a scrivere e condividere robette, su diverse piattaforme carine e ovviamente libere.
 
 Spesso dormo anche, ahhh bello quando dormi che stai lì così, ohhh, e ogni tanto ci vuole, toh.
 
-Scrivo anche programmi veri e propri a volte. Più che altro, programmini, perchè se mi imbarco in grosse imprese poi rischio <small>(no no, succede spesso, quale "rischio", è una certezza)</small> di lasciare roba abbandonata a metà.
+Scrivo anche programmi veri e propri a volte. Più che altro, programmini, perchè se mi imbarco in grosse imprese poi rischio <small>(no no, succede spesso, quale "rischio", è una certezza)</small> di lasciare roba abbandonata a metà... tuttavia, ad onor del vero, [staticoso](./index.html#-Codice-sorgente) per ora sembra essere l'eccezione! 🥳
 
 Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco.
 
@@ -50,13 +51,14 @@ Ah, e devo anche ancora andare a scuola. Un po' na' seccatura, vabbe, c'è poco 
 
 Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
-- <span style='Color:#FFA020;'>Friendica</span>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
-- <span style='Color:#3088D4;'>Mastodon</span>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
-- <span style='Color:#2D2D2D;'>Matrix</span>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
+- <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
+- <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
+- <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
+- <b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss.octt.eu.org/@octt){[:MdTgtBlank:]}
 
 ### Crittografia, prove, e altri profili
 
-Mi sono, finalmente, decisa a mettere in piedi un profilo crittografico compatibile con Keyoxide, uno strumento molto carino per creare verifiche d'identità online decentralizzate. Eccolo qui: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
+Mi sono, finalmente, decisa a mettere in piedi un profilo crittografico compatibile con <b style="Color:#56479E;">Keyoxide</b>, uno strumento molto carino per creare verifiche d'identità online decentralizzate. Eccolo qui: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
 
 Visitandolo, oltre a poter semplicemente accedere a link di alcuni miei altri profili online, è possibile avere una prova crittografica del fatto che ogni dato account appartiene a me, e non ad alcun _impostore sus_.  
 È anche possibile prelevare la mia chiave PGP pubblica, o usare la comoda interfaccia della app (web e non), per cifrare in maniera affidabile messaggi segreti da poter inviare a me.

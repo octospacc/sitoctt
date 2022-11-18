@@ -175,7 +175,7 @@ Body {
 	Max-Height: Calc(90vh - 24px);
 	Top: Calc(24px + Var(--TitleBarHeight));
 	Right: 12px;
-	Z-Index: 16;
+	Z-Index: 20;
 }
 #MainWindow .WindowContent {
 	Max-Height: Calc(90vh - 24px - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
@@ -212,7 +212,8 @@ Body {
 	Padding-Right: 4px;
 }
 
-#CountWindow { /* Tared for a reasonable 256x32 image */
+/* Tared for a reasonably-256x32 image */
+#CountWindow { 
 	/*Max-Width: Calc(256px + 8px);*/
 	Max-Height: Calc(32px + 8px + Var(--TitleBarHeight));
 	Bottom: Calc(8px + 32px + 8px + Var(--TitleBarHeight) + Var(--TaskBarHeight));
@@ -231,6 +232,20 @@ Body {
 	Margin-Left: -4px;
 	Margin-Right: -4px;
 	*/
+}
+
+/* Tared for a 88x31 buttons and everything less tall */
+#SlideWindow {
+	Max-Width: 50vw;
+	Max-Height: Calc(31px + 8px + Var(--TitleBarHeight));
+	Bottom: Calc(8px + Var(--TaskBarHeight) + 31px);
+	Left: Calc(8px + 2vw);
+	Z-Index: 16;
+}
+#SlideWindow .WindowContent {
+	Max-Height: Calc(31px + 8px);
+	Padding: 0px;
+	Overflow: Hidden;
 }
 
 /*--------------------------------------------------------*/

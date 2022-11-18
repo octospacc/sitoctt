@@ -31,7 +31,7 @@ _In costruzione..._
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE" open><summary>
-#### W5 Novembre 2022 </summary>
+#### W5 Ottobre 2022 </summary>
 -> #Linux #Desktop #XFCE
 
 ![]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Ricing/Desktop/Screenshot_2022-10-30_00-14-14.png)
@@ -47,7 +47,7 @@ _In costruzione..._
 </details>
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE"><summary>
-#### W2 Novembre 2022 </summary>
+#### W2 Ottobre 2022 </summary>
 -> #Linux #Desktop #XFCE
 
 ![]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Ricing/Desktop/Screenshot_2022-10-10_20-21-47.png)
