@@ -91,18 +91,18 @@ article .e-content {
 	Display: Inline-Block;
 }
 
-.SectionTitle:Target {
+.staticoso-SectionTitle:Target {
 	Text-Decoration: Underline;
 }
-.SectionLink {
+.staticoso-SectionLink {
 	Opacity: 0.1;
 }
-.SectionLink:Hover {
+.staticoso-SectionLink:Hover {
 	Opacity: 0.8;
 }
-.SectionLink > A::Before {
+.staticoso-SectionLink > A::Before {
 	Content: '🔗';
 }
-.SectionLink > A > Span {
+.staticoso-SectionLink > A > Span {
 	Font-Size: 0;
 }

@@ -12,7 +12,11 @@ body {
 		background-color: #000000;
 	}
 }
-<\/style>
+img {
+	max-width: 100%;
+	max-height: 100vh;
+}
+</style>
 "
 
 cp -r ./public ./public.plain
@@ -20,11 +24,11 @@ mv ./public.plain ./public/Plain
 cd ./public/Plain
 
 find . -name "*.html" \
-	-exec sed -i "s/<style>/<!--style>/g" {} \; \
-	-exec sed -i "s/<\/style>/<\/style--->/g" {} \;
+	-exec sed -i "s|<style>|<!--style>|g" {} \; \
+	-exec sed -i "s|</style>|</style--->|g" {} \;
 
 find . -name "*.html" \
-	-exec sed -i "s/<head>/<head>\n$(echo $HeadInject)/" {} \;
+	-exec sed -i "s|<head>|<head>\n$(echo $HeadInject)|" {} \;
 
 find . -name "*.css" \
-	-exec sh -c "> {}" \;
+	-exec sh -c 'if [ "$(basename {})" != "Global.css" ]; then echo > {}; fi' \;

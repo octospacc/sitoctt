@@ -67,19 +67,18 @@ p
 	| Invece, l'icona con l'emoji di un foglio con un segnalibro (<big class='twa twa-bookmark-tabs twa-📑'>📑</big>) indica l'elenco delle sezioni della pagina corrente - non è essenziale, ma può tornare utile per saltare tra parti diverse di un lungo testo.
 
 details
-	summary #[h4 Note sulla compatibilità dei browser (Espandi)]
-	div
-		p
-			| Per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF (quest'ultima cosina, almeno finché non riesco a far funzionare il polyfill).
-			| Se usi un browser antico ti garantisco che troverai tanta, tanta roba rotta (ma comunque il sito dovrebbe essere navigabile lo stesso).
-			br
-			| Essendo che questo sito contiene immagini AVIF, assicurati che il tuo browser sia aggiornato e decente. Safari di Apple, per esempio, mi dicono che non supporta AVIF, quindi #[span(style='Color:#d00000;') buttalo via].
-			br
-			| Preferibilmente #[i non] usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, e ha qualche #[i glitch particolare]. #[b Firefox] non ha questo problema, ma usa molto di più la CPU.
-			br
-			| Direi che la scelta non è tra il migliore ma tra il meno peggio..
-			br
-			i Nota: se scegli Firefox, non usare la versione ESR! È per sua natura vecchia, fossilizzata, e manca sempre di funzionalità moderne - per esempio, al giorno d'oggi ancora non supporta AVIF.
+	summary: h4 Note sulla compatibilità dei browser (Espandi)
+	div: p
+		| Per la migliore esperienza #[span(style='Color:#d00000;') DEVI] usare un browser con supporto almeno a CSS3 e alle immagini in formato AVIF (quest'ultima cosina, almeno finché non riesco a far funzionare il polyfill).
+		| Se usi un browser antico ti garantisco che troverai tanta, tanta roba rotta (ma comunque il sito dovrebbe essere navigabile lo stesso).
+		br
+		| Essendo che questo sito, per l'appunto, contiene immagini AVIF, assicurati che il tuo browser sia aggiornato e decente. Safari di Apple, per esempio, mi dicono che non supporta AVIF, quindi #[span(style='Color:#d00000;') buttalo via].
+		br
+		| Preferibilmente #[i non] usare Chromium, che ha degli strani memory leak su pagine con animazioni complesse, e ha qualche #[i glitch particolare]. #[b Firefox] non ha questo problema, ma usa molto di più la CPU.
+		br
+		| Direi che la scelta non è tra il migliore ma tra il meno peggio..
+		br
+		i Nota: se scegli Firefox, non usare la versione ESR! È per sua natura vecchia, fossilizzata, e manca sempre di funzionalità moderne - per esempio, al giorno d'oggi ancora non supporta AVIF.
 
 h3 Script client-side
 
@@ -89,28 +88,26 @@ p
 	| Ad ogni modo, però.. per fornire alcune funzionalità extra, devo per forza avere del JS, c'è poco da fare. Qui sotto, la lista di cosa uso. #[i Tutti i file sono caricati dai server del mio sito, quindi è difficile che enti malevoli possano nasconderci malware dentro].
 
 details
-	summary #[h4 Lista di script client-side usati nel sito Web (Espandi)]
-	div
-		ul
-			li Script interni scritti da me: #[i Al momento, nessuno attivo!]
-			li #[del Polyfill per supportare le immagini AVIF su vecchi browser: #[a(href='https://github.com/Kagami/avif.js' target='_blank' rel='noopener') avif.js di Kagami]] (#[i Non ancora attivato, lo sarà a breve])
+	summary: h4 Lista di script client-side usati nel sito Web (Espandi)
+	div: ul
+		li Script interni scritti da me: #[i Al momento, nessuno attivo!]
+		li #[del Polyfill per supportare le immagini AVIF su vecchi browser: #[a(href='https://github.com/Kagami/avif.js' target='_blank' rel='noopener') avif.js di Kagami]] (#[i Non ancora attivato... #[del lo sarà a breve] #[small quando cavolo lo farò? Sono mesi che rimando, il problema è che non è una soluzione plug-and-play, devo prima capirla e poi creare uno script di wrapping 😭]])
 
 p Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori (nel possibile).
 
 details
-	summary #[h4 Mie inutili digressioni su modi assolutamente assurdi di consultare il sitoctt (Espandi)]
-	div
-		dl
-			dt • Browser Web, con supporto completo a CSS3
-			dd (Perfetto!)
-			dt • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile
-			dd (Richiede muovere il foglio a mano ma ottimo!)
-			dt • Browser Web, con supporto incompleto a CSS3
-			dd (Meh, OK..)
-			dt • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate
-			dd (Buuu, mancano le animazioni..)
-			dt • Browser vecchio (Web vecchio, Web testuale, o Gemini) / Stampa su carta normale, zero supporto CSS 
-			dd (Ma che è sto schifo?!?!)
+	summary: h4 Mie inutili digressioni su modi assolutamente assurdi di consultare il sitoctt (Espandi)
+	div: dl
+		dt: b • Browser Web, con supporto completo a CSS3
+		dd (Perfetto!)
+		dt: b • Stampa su carta olografica, GIF e CSS3 completamente renderizzati nel possibile
+		dd (Richiede muovere il foglio a mano ma ottimo!)
+		dt: b • Browser Web, con supporto incompleto a CSS3
+		dd (Meh, OK..)
+		dt: b • Stampa su carta normale, animazioni CSS3 e GIF non renderizzate
+		dd (Buuu, mancano le animazioni..)
+		dt: b • Browser vecchio (Web vecchio, Web testuale, o Gemini) / Stampa su carta normale, zero supporto CSS 
+		dd (Ma che è sto schifo?!?!)
 
 h2 Ma di che si tratta?
 
@@ -146,8 +143,19 @@ h3 Web
 p Il sito Web è disponibile da diverse fonti.
 
 ul
-	li Sul clearweb, sui server di #[span(style='Color:#fc6d26;') GitLab]: #[a(href='https://sitoctt.octt.eu.org') sitoctt.octt.eu.org].
-	li Sull'Onion Web (#[span(style='Color:#59316b;') Tor]), sui server di Replit: #[a(href='http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion') sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion]. Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, una console Nintendo Switch con Ubuntu).
+	li Sul #[b clearweb] HTTPS, sui server di #[span(style='Color:#fc6d26;') GitLab]: #[a(href='https://sitoctt.octt.eu.org') sitoctt.octt.eu.org].
+	li Sull'#[b Onion Web] (#[span(style='Color:#59316b;') Tor]), sui server di Replit: #[a(href='http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion') sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion]. Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, #[del una console Nintendo Switch con Ubuntu] il Raspberry Pi 3).
+
+details
+	summary: h4 Opzioni di compatibilità per sistemi obsoleti o esotici (Espandi)
+	div: dl
+		dt: b • Versione HTTP di base
+		dd
+			| Il sito include funzioni CSS complesse e relativamente moderne, per poter fornire effetti grafici (e funzionali) epici. Ironia della sorte, per quanto visualizzando le pagine su browser veramente vecchi, che mancano di supporto CSS totale o quasi, il tutto si vede brutto ma è leggibile.. su browser che sono #[i sia troppo vecchi e sia troppo nuovi] si presentano bug parecchio gravi, che rendono impossibile usare alcuni menù o addirittura leggere il testo!
+			br
+			| Oltre al fatto che (nel possibile) voglio supportare sistemi vecchi, 'ste maledette rogne si presentano anche su dispositivi meno popolari ma attuali, tipo il Kindle! Insomma, per i troppi browser che non includono un'impostazione per disattivare completamente il CSS, era d'obbligo fare quello che ho fatto: al percorso #[a(href="./Plain") /Plain] sui miei domini del clearweb c'è una root parallela, e pagine con uguale contenuto ma CSS ridotto all'osso.
+		dt: b • HTTP non cifrato
+		dd Per evitare problemi ci ho dedicato un sottodominio dedicato, tenendo HTTPS forzato sul principale; ma, visto che non mi richiede manutenzione, ho fatto si che dal dominio di quinto (!) livello "#[span(style="Font-Style: Monospace;") http]" si acceda al sito tramite HTTP non cifrato (ospitato da GitHub, stavolta): in poche parole, l'indirizzo è #[code(style="Text-Decoration:Underline;") http://http.sitoctt.octt.eu.org]. I contenuti sono identici, ovviamente, ma finalmente si può navigare il sitoctt su roba come #[i Internet Explorer 4] direttamente contattando il server.
 
 h3 Gemini
 
@@ -197,7 +205,7 @@ h2 Sorgenti e licenze
 
 h3 Licenze dei contenuti
 
-<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank" rel="noopener">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/CC/CC.svg"> <img src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/CC/BY.svg"> <img src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/CC/SA.svg"</span>)</a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
+<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank" rel="noopener">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/CC/CC.svg"> <img class="i1em" src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/CC/BY.svg"> <img class="i1em" src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/CC/SA.svg"</span>)</a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
 
 p
 	| Sono presenti, però, anche contenuti non miei.
@@ -236,14 +244,13 @@ p
 h3 Crediti speciali
 
 details
-	summary Lista di crediti e ringraziamenti speciali a chi ho preso materiale in prestito (Espandi)
-	div
-		ul
-			li Lista di #[a(href='#-Script-client-side') script client-side], tra cui alcuni di terzi
-			li Titolo animato ad onda: #[a(href='https://codepen.io/jh3y/pen/WNrXqYz' target='_blank' rel='noopener') Waaaves di jh3y]
-			li Famiglia caratteri: #[a(href='https://fonts.google.com/specimen/Space+Mono' target='_blank' rel='noopener') Space Mono di Colophon Foundry]
-			li Pacchetto emoji CSS: #[a(href='https://twemoji.twitter.com' target='_blank' rel='noopener') Twemoji di Twitter], via #[a(href='https://gitlab.com/octtspacc/twemoji-astonishing' target='_blank' rel='noopener') Twemoji Astonishing]
-			li Alcuni bottoni 88x31 non identitari: #[a(href='https://cyber.dabamos.de/88x31' target='_blank' rel='noopener') 88x31 GIF Collection di cyber.dabamos.de]
+	summary: h4 Lista di crediti e ringraziamenti speciali a chi ho preso materiale in prestito (Espandi)
+	div: ul
+		li Lista di #[a(href='#-Script-client-side') script client-side], tra cui alcuni di terzi
+		li Titolo animato ad onda: #[a(href='https://codepen.io/jh3y/pen/WNrXqYz' target='_blank' rel='noopener') Waaaves di jh3y]
+		li Famiglia caratteri: #[a(href='https://fonts.google.com/specimen/Space+Mono' target='_blank' rel='noopener') Space Mono di Colophon Foundry]
+		li Pacchetto emoji CSS: #[a(href='https://twemoji.twitter.com' target='_blank' rel='noopener') Twemoji di Twitter], via #[a(href='https://gitlab.com/octtspacc/twemoji-astonishing' target='_blank' rel='noopener') Twemoji Astonishing]
+		li Alcuni bottoni 88x31 non identitari: #[a(href='https://cyber.dabamos.de/88x31' target='_blank' rel='noopener') 88x31 GIF Collection di cyber.dabamos.de]
 
 br
 hr
@@ -262,9 +269,14 @@ div#RingsDiv
 	<p class="Center">
 		<a href="https://fediring.net/previous?host=sitoctt.octt.eu.org"><big>←</big></a>
 		<span> </span>
-		<a href="https://fediring.net/"><img title="Fediverse Logo Proposal, Eukombos, CC0, Wikimedia Commons" src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/Fediverse/Fediverse_logo_proposal.svg"> Fediring</a>
+		<a href="https://fediring.net/"><img class="i1em" title="Fediverse Logo Proposal, Eukombos, CC0, Wikimedia Commons" src="[staticoso:Folder:Assets:AbsoluteRoot]/Media/Icons/Fediverse/Fediverse_logo_proposal.svg"> Fediring</a>
 		<span> </span>
 		<a href="https://fediring.net/random">[<span class="twa twa-🎲">🎲</span>]</a>
 		<span> </span>
 		<a href="https://fediring.net/next?host=sitoctt.octt.eu.org"><big>→</big></a>
 	</p>
+
+br
+hr
+
+small(style="Float:Right; Opacity:0.7;"): i ❤️ Copying is an act of love. Please copy and share.

@@ -23,7 +23,7 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 <input type="checkbox" id="CheckBox-staticoso" checked><label for="CheckBox-staticoso">#staticoso</label>
 </ noprocess --->
 
-<div markdown="1" class="BorderBoxContainer">
+<div markdown="1" class="BorderBoxContainer" HTMLJournal="1" JournalTitle="💾 Devlogs di Octt">
 
 <details markdown="1" class="Box-sitoctt Box-staticoso" open><summary>
 #### [2022-11-11] Novità estetiche incollate con lo sputo </summary>

@@ -98,31 +98,36 @@ Code:Not(Pre Code) {
 
 #MainBox A:Not(
 	.NoLinkLink, .NoLinkLink A,
-	.SectionLink A,
+	.staticoso-SectionLink A,
 	#StatCounter A,
 	#RingsDiv A
 ):Before {
 	Content: '🔗 ';
 }
 
+Header > P > A > Img {
+	Display: Inline !Important;
+}
+
 /* Clickable link at the left of every section title */
-.SectionTitle:Target {
+#SitesList B:Target,
+.staticoso-SectionTitle:Target {
 	Color: #EEDDFF !Important;
 	Background: #700070 !Important;
 	Text-Decoration: Underline;
 }
-.SectionLink {
+.staticoso-SectionLink {
 	Position: Absolute;
 	Left: -1.5em;
 	Opacity: 0.08;
 }
-.SectionLink:Hover {
+.staticoso-SectionLink:Hover {
 	Opacity: 0.8;
 }
-.SectionLink > A::Before {
+.staticoso-SectionLink > A::Before {
 	Content: '🔗';
 }
-.SectionLink > A > Span {
+.staticoso-SectionLink > A > Span {
 	Font-Size: 0;
 }
 

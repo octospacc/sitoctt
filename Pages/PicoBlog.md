@@ -18,7 +18,7 @@ L'idea mia è quella di creare un flusso aggiornato più o meno spesso di frasi 
 Chissà se navigare questa pagina ti aiuterà a conoscermi meglio, ho paura di no. In verità direi, se del mio normale blog ti fidi 5, di quello che trovi qui devi fidarti -20. Non prendere troppo seriamente ciò che scrivo qui.  
 Tieni a mente che le pubblicazioni più recenti vanno sempre in cima, facendo scendere in basso le precedenti. Inoltre, ogni articolo è collassato di base per questioni di ordine, ti basta cliccare sul titolo per espanderne uno.
 
-<div markdown="1" class="BorderBoxContainer" HTMLJournal="1" JournalTitle="il picoblogoctt"
+<div markdown="1" class="BorderBoxContainer" HTMLJournal="1" JournalTitle="✉️ picoblogoctt"
 JournalHeader="<p>
 Questa pagina è stata automaticamente semplificata dalla versione originale, <a
 href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per un'esperienza migliore, più comoda, con menu e link ai singoli post dentro la pagina!
@@ -28,9 +28,9 @@ href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per u
 
 ## Cose varie
 
-- Puoi ricevere gli aggiornamenti del PicoBlog tramite Atom. Non ho ancora sistemato staticoso per supportare pagine di questo tipo, ma grazie al servizio _Journal to Atom_ posso avere un feed: [![The Neon Kiosk]([staticoso:CustomPath:Assets]/Media/Buttons/Feed-88x31.png)](https://journal.miso.town/atom?url=https%3A%2F%2Fsitoctt.octt.eu.org%2FPicoBlog.Journal.html){[:MdTgtBlank:]}
+- Puoi ricevere gli aggiornamenti del PicoBlog tramite Atom. Non ho ancora sistemato staticoso per supportare pagine di questo tipo, ma grazie al servizio _Journal to Atom_ posso avere un feed: [![The Neon Kiosk]([staticoso:CustomPath:Assets]/Media/Buttons/Feed-88x31.png){.NoImgCenter .DispBlock}](https://journal.miso.town/atom?url=https%3A%2F%2Fsitoctt.octt.eu.org%2FPicoBlog.Journal.html){[:MdTgtBlank:]}
 
-- Se qui hai finito di leggere le cose recenti, allora fatti un giro per il **Neon Kiosk**, dove puoi trovare pagine simili a questa ma da altre persone: [![The Neon Kiosk]([staticoso:CustomPath:Assets]/Media/Buttons/Sites/The-Neon-Kiosk-88x31.png)](https://kiosk.nightfall.city){[:MdTgtBlankNofw:]}
+- Se qui hai finito di leggere le cose recenti, allora fatti un giro per il **Neon Kiosk**, dove puoi trovare pagine simili a questa ma da altre persone: [![The Neon Kiosk]([staticoso:CustomPath:Assets]/Media/Buttons/Sites/The-Neon-Kiosk-88x31.png){.NoImgCenter .DispBlock}](https://kiosk.nightfall.city){[:MdTgtBlankNofw:]}
 
 ## Leggi il PicoBlog
 

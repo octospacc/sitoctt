@@ -10,7 +10,7 @@ Una raccolta dedicata ad alcuni siti Internet carini (non solo web!), di varie t
 A parte la divisione in categorie, non c'e alcun ordine particolare.  
 Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai nomi indicano le lingue primarie dei contenuti del sito.
 
-<div markdown="1" class="NoImgCenter ImgShiftedH Pixelated">
+<div markdown="1" id="SitesList" class="NoImgCenter NoLinkLink ImgShiftedH Pixelated">
 
 <marquee markdown="1">
 [![✨sitoctt✨]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/sitoctt-1.png)](#-Il-mio)
@@ -20,8 +20,6 @@ Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai
 [![neonaut]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/neonaut-88x31.png)](#-s-a-4)
 [![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb-88x31.png)](#-s-a-5)
 [![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks-88x31.gif)](#-s-a-6)
-[]()  
-[]()  
 </marquee>  
 _Questi sopra sono i siti della lista che hanno un bottone 88x31. Vuoi anche tu il privilegio di stare anche in cima? Allora muoviti a disegnare st'immaginetta, su!_
 

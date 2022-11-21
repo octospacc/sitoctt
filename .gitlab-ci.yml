@@ -18,8 +18,9 @@ pages:
     PATH=$PATH:$PWD
     cd ..
     git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-    ./Scripts/Deploy.GitLab.sh
-    ./Scripts/Deploy.Gemini.sh
+    sh ./Scripts/Deploy.GitLab.sh
+    sh ./Scripts/Deploy.Gemini.sh
+    sh ./Scripts/Prepare.NoStyle.sh
   artifacts:
     paths:
     - public

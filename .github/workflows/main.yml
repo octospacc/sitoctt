@@ -26,7 +26,8 @@ jobs:
         sudo pip3 install lxml
         sudo npm install -g pug-cli
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-        ./Scripts/Deploy.GitHub.sh
+        sh ./Scripts/Deploy.GitHub.sh
+        sh ./Scripts/Prepare.NoStyle.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
