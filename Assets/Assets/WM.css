@@ -30,7 +30,7 @@
 Body {
 	Margin: 0;
 	Padding: 0;
-	Overflow-Y: Hidden;
+	Overflow: Hidden;
 	Overflow-Wrap: Break-Word;
 }
 
@@ -127,7 +127,7 @@ Body {
 .TaskBarRight {
 	Position: Absolute;
 	Bottom: 0;
-	Right: 0;
+	Right: Calc(Var(--TaskBarHeight) - 4px); /* Accomodate show desktop icon */
 	Height: Calc(Var(--TaskBarHeight) / 6 * 5); /* Try to vertically center the text lol */
 }
 
@@ -135,7 +135,7 @@ Body {
 .CheckToggle {
 	Position: Fixed;
 	Opacity: 0;
-	Visibility: Hidden;
+	/*Visibility: Hidden;*/
 }
 .CheckLabel:Before {
 	Content: '🔼';
@@ -148,14 +148,6 @@ Body {
 	Visibility: Hidden;
 }
 /****   --------------------------------------------   ****/
-
-#Desktop {
-	Position: Absolute;
-	Top: 0px;
-	Left: 0px;
-	Width: 100vw;
-	Height: 100vh;
-}
 
 .Absolute-↙, .Absolute-↙️ {
 	Position: Absolute;
@@ -175,7 +167,9 @@ Body {
 .NoSelect,
 .TitleBarContent,
 .TaskBar,
-#TitlesWindow {
+#Desktop,
+#TitlesWindow, #FeedWindow,
+#DesktopCheck, #DesktopCheck ~ Label {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -264,6 +258,13 @@ Body {
 	Overflow: Hidden;
 }
 
+#Desktop {
+	Position: Absolute;
+	Top: 0px;
+	Left: 0px;
+	Width: 100vw;
+	Height: 100vh;
+}
 #DesktopButtons {
 	Bottom: Calc(Var(--TaskBarHeight) + Var(--WindowMargin));
 	Left: Calc(Var(--WindowMargin) * 2);
@@ -272,5 +273,36 @@ Body {
 	Z-Index: 192 !Important;
 }
 
+#DesktopCheck {
+	/* -4px to leave a bit of padding */
+	Width: Calc(Var(--TaskBarHeight) - 4px);
+	Height: Calc(Var(--TaskBarHeight) - 4px);
+}
+#DesktopCheck ~ Label {
+	Height: Var(--TaskBarHeight);
+}
+#DesktopCheck, #DesktopCheck ~ Label {
+	Position: Absolute;
+	Bottom: 0 !Important;
+	Right: 0px;
+	Z-Index: 320 !Important;
+	/* Emoji is taller than normal letters, so make it smaller */
+	Font-Size: Calc(Var(--TaskBarHeight) - 8px); 
+	Line-Height: Var(--TaskBarHeight);
+}
+
+#DesktopCheck ~ Label > Span {
+	Display: Inline-Block;
+	/* To get PERFECT vertical align */
+	/*Padding-Bottom: 4px;
+	Line-Height: Calc(Var(--TaskBarHeight) - 2px);*/
+}
+#DesktopCheck:Checked ~ Label > Span {
+	Background-Color: Var(--TitleBarBackground);
+}
+#DesktopCheck:Checked ~ .Window {
+	Display: None;
+	Visibility: Hidden;
+}
+
 /*--------------------------------------------------------*/
-/* Todo: Add show desktop button 🪬 */

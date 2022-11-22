@@ -21,14 +21,17 @@
 			<staticoso:SiteMenu>
 		</div>
 	</details>
-	<span class="TaskBarRight">&nbsp;<h4 class="Inline"><a href="<staticoso:SiteRelativeRoot>index.html"><span class="twa twa-sparkles twa-✨">✨</span>sitoctt2022<span class="twa twa-sparkles twa-✨">✨</span></a></h4>&nbsp;</span>
+	<span class="TaskBarRight">&nbsp;<h4 title="Home Page" class="Inline"><a href="<staticoso:SiteRelativeRoot>index.html"><span class="twa twa-sparkles twa-✨">✨</span>sitoctt2022<span class="twa twa-sparkles twa-✨">✨</span></a></h4>&nbsp;</span>
 </div>
+
+<input title="Mostra Desktop" type="checkbox" class="CheckToggle" id="DesktopCheck">
+<label title="Mostra Desktop" for="DesktopCheck"><span class="twa twa-🪬"><span>🪬</span></span></label>
 
 <div class="Window" id="FeedWindow">
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="FeedWindowCheck">
 		<div class="TitleBarContent">
-			<span> <label class="CheckLabel" id="FeedWindowCheckLabel" for="FeedWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Ultimi Post</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-📣"><span>📣</span></span> </span>
+			<span> <label class="CheckLabel" for="FeedWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Ultimi Post</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-📣"><span>📣</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
 			<staticoso:Feed>
@@ -40,7 +43,7 @@
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="MainWindowCheck">
 		<div class="TitleBarContent">
-			<span> <label class="CheckLabel" id="MainWindowCheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b><staticoso:PageTitle></b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil twa-✏️"><span>✏️</span></span> </span>
+			<span> <label class="CheckLabel" for="MainWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b><staticoso:PageTitle></b> </span> &nbsp;&nbsp; <span> <span class="twa twa-pencil twa-✏️"><span>✏️</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
 			<staticoso:PageContent>
@@ -52,7 +55,7 @@
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="TitlesWindowCheck">
 		<div class="TitleBarContent">
-			<span> <label class="CheckLabel" id="TitlesWindowCheckLabel" for="TitlesWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Sezioni</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-bookmark-tabs twa-📑"><span>📑</span></span> </span>
+			<span> <label class="CheckLabel" for="TitlesWindowCheck"></label> </span> &nbsp;&nbsp; <span> <b>Sezioni</b> </span> &nbsp;&nbsp; <span> <span class="twa twa-bookmark-tabs twa-📑"><span>📑</span></span> </span>
 		</div>
 		<div class="WindowContent ToggleBox">
 			<staticoso:PageSections>
@@ -65,6 +68,7 @@
 		<staticoso:StaticPart:Standard/MiscButtons.Vertical.html>
 		<br>
 		<staticoso:StaticPart:Buttons/Feed-88x31.html>
+		<span> </span>
 		<staticoso:StaticPart:Buttons/CreativeCommons-88x31.html>
 	</div>
 </div>
