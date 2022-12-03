@@ -1,6 +1,9 @@
 // % Categories = Note
 // % CreatedOn = 2022-09-18
 // % EditedOn = 2022-09-19
+// % Index: None
+
+<!-- Dovrei finire di scrivere sto coso... --->
 
 # Aggirare i DRM dei libri di scuola  
 **(in una maniera che probabilmente rende possibile l'operazione anche per testi non-scolastici.)**

@@ -41,7 +41,7 @@ href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per u
 Ho notato che il sitoctt, anche dopo alcune mie misure che avrebbero dovuto far contenti i motori di ricerca, proprio non si trova.. e non ho alcuna idea abbastanza precisa su cosa causi il problema. Devo iniziare a integrare nel generatore una funzione per ripubblicare in automatico su Wordpress, Blogger, e roba di quel tipo, magari da lì i motori lo leggono meglio; intanto, ho iniziato a fare lo script per tradurre il sito in diverse lingue, e questo dovrebbe aiutare a diffonderlo al di fuori dell'Italia.
 </details>
 
-<details markdown="1" open="1"><summary>
+<details markdown="1"><summary>
 #### [2022-11-18] Finalmente ho il MIO Misskey </summary>
 Ci avevo provato mesi fa ad ospitare il mio server ActivityPub. Prima Friendica su Altervista.. non andava. Poi Misskey, Mastodon, e Pleroma su Switch in casa.. fallimenti, l'uno più grosso dell'altro. Poi, l'altro giorno sul Raspino ho voluto riprovarci; i problemi sono usciti eccome, ma stavolta li ho saputi risolvere nell'arco di un giorno di lavoro, e quindi adesso ho [il mio Regno del Terrore](https://miss.octt.eu.org){[:MdTgtBlank:]}! 😁  
 Ho aggiunto il mio profilo alla [pagina dei contatti](./Chi-Sono.html#-I-miei-contatti) qui... e ho sistemato una roba che avevo dimenticato di cancellare praticamente da agosto: la menzione al server Matrix, che ormai non ho più. 🙄
