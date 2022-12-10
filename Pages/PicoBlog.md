@@ -37,6 +37,11 @@ href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per u
 </div>
 
 <details markdown="1" open="1"><summary>
+#### [2022-11-10] Faccio esplodere l'AI </summary>
+Dopo aver scoperto che l'anteprima di ChatGPT è per ora completamente gratuita, ho iniziato a giocarci e a fare cose su cose, dedicandoci forse anche troppo tempo 😅. Ho creato un sito per raccogliere le conversazioni che ho con l'AI, per scopi di ricerca e perché ci sono spesso situazioni che vale la pena condividere: <https://listed.to/@ChatGPT_Experiences>{[:MdTgtBlank:]}
+</details>
+
+<details markdown="1"><summary>
 #### [2022-11-27] sitoctt introvabile, spero per non molto altro tempo </summary>
 Ho notato che il sitoctt, anche dopo alcune mie misure che avrebbero dovuto far contenti i motori di ricerca, proprio non si trova.. e non ho alcuna idea abbastanza precisa su cosa causi il problema. Devo iniziare a integrare nel generatore una funzione per ripubblicare in automatico su Wordpress, Blogger, e roba di quel tipo, magari da lì i motori lo leggono meglio; intanto, ho iniziato a fare lo script per tradurre il sito in diverse lingue, e questo dovrebbe aiutare a diffonderlo al di fuori dell'Italia.
 </details>

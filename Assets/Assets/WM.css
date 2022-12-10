@@ -131,7 +131,7 @@ Body {
 	Height: Calc(Var(--TaskBarHeight) / 6 * 5); /* Try to vertically center the text lol */
 }
 
-/*---   "Shade window" button   --------------------------*/
+/*---   "Shade Window" button   --------------------------*/
 .CheckToggle {
 	Position: Fixed;
 	Opacity: 0;
@@ -273,6 +273,7 @@ Body {
 	Z-Index: 192 !Important;
 }
 
+/*---   "Show Desktop" feature   -------------------------*/
 #DesktopCheck {
 	/* -4px to leave a bit of padding */
 	Width: Calc(Var(--TaskBarHeight) - 4px);
@@ -290,7 +291,6 @@ Body {
 	Font-Size: Calc(Var(--TaskBarHeight) - 8px); 
 	Line-Height: Var(--TaskBarHeight);
 }
-
 #DesktopCheck ~ Label > Span {
 	Display: Inline-Block;
 	/* To get PERFECT vertical align */
@@ -300,9 +300,37 @@ Body {
 #DesktopCheck:Checked ~ Label > Span {
 	Background-Color: Var(--TitleBarBackground);
 }
-#DesktopCheck:Checked ~ .Window {
+#DesktopCheck:Checked ~ .Window,
+#DesktopCheck:Checked ~ * > .Window {
 	Display: None;
 	Visibility: Hidden;
 }
+/****   --------------------------------------------   ****/
+
+/*---   Draggable windows   ------------------------------*/
+/* Currently broken if we have multiple windows,
+   due to the resizable div area covering the top left part of the screen.
+   Applying a transformation of scaleY(-1) translateY(100%) fixes it vertically
+   but dragging the window around the screen is flipped.
+   How the f do I make this work?
+*/
+.DragContainer {
+	Position: Absolute;
+	Display: Inline-Block;
+}
+.DragBox {
+	Position: Relative;
+	Width: 20px;
+	Height: 20px;
+	Resize: Both;
+	Overflow: Scroll;
+	Z-Index: 1024;
+}
+.DragContainer > .Window {
+	Top: Initial !Important;
+	Margin-Top: -24px;
+	Margin-Right: -24px;
+}
+/****   --------------------------------------------   ****/
 
 /*--------------------------------------------------------*/
