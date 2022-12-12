@@ -2,6 +2,10 @@ i18n/*
 public/*
 public.gmi/*
 public.plain/*
+Scripts/.bak/*
+Scripts/package.json
+Scripts/package-lock.json
+Scripts/node_modules/*
 Scripts.out/*
 *.tmp
 tmp.*
