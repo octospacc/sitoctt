@@ -3,7 +3,7 @@
 // % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Devlogs.css";
 // % Index = True
 // % Order = 35
-// % Categories = Tecnologia
+// % Categories = Tecnologia Blog
 
 # <span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs
 

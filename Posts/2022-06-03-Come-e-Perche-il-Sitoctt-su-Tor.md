@@ -61,6 +61,6 @@ Tor non è assolutamente perfetto: ha delle falle di vario tipo, in genere basat
 
 Il fatto che Tor sia economicamente supportato almeno in parte dal governo statunitense comunque, senza scendere troppo nei dettagli, comporta forse alcune implicazioni profonde pericolose. Per questo voglio, più o meno a breve, dare una chance a servizi simili a Tor ma diversi da esso. Lokinet mi ispira, a dire la verità, penso sarà la prima rete alternativa che proverò.
 
-## 🏷️ Note/Riferimenti
+## [:HNotesRefsHTML:]
 
-[^ Nuovo dominio estetico]: **Aggiornamento del 2022-06-29**: ho cambiato il dominio per motivi estetici con questo nuovo! Info aggiuntive (ma pur sempre scarne) al post del [PicoBlog](../PicoBlog.html) di oggi).
+[^ Nuovo dominio estetico]: **Aggiornamento del 2022-06-29**: ho cambiato il dominio per motivi estetici con questo nuovo! Info aggiuntive (ma pur sempre scarne) al [post del PicoBlog di oggi](../PicoBlog.html#-2022-06-29-Minare-domini-Tor).

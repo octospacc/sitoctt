@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-import hashlib
-import os
-import shutil
-import time
+import hashlib, os, shutil, sys, time
 from pathlib import Path
-from deepl import deepl
 
+Engine = 'Google' # 'Google' or 'DeepL'
 SourceLang = 'it'
-DestLangs = ['et', 'ja', 'lt', 'lv', 'de', 'hu', 'ru', 'zh', 'ro', 'da', 'it', 'es', 'nl', 'fr', 'sk', 'sl', 'pt', 'en', 'sv', 'fi', 'pl', 'el', 'bg', 'cs'] # All from output of `deepl --help`
+DestLangs = ['de', 'en', 'es', 'fr', 'it', 'jp', 'ko', 'pt', 'ru', 'zh'] #['et', 'ja', 'lt', 'lv', 'de', 'hu', 'ru', 'zh', 'ro', 'da', 'it', 'es', 'nl', 'fr', 'sk', 'sl', 'pt', 'en', 'sv', 'fi', 'pl', 'el', 'bg', 'cs'] # All from output of `deepl --help`
 
 # With shutil.copytree copy only folder struct, no files; https://stackoverflow.com/a/15664273
 def IgnoreFiles(Dir, Files):
@@ -31,21 +28,31 @@ def StrReverse(Str):
 
 def TryTranslate(Text):
 	try:
-		#Trans += GetMetaComment(Target, i) + '\n' + Translate.translate(Target) + '\n\n'
-		#Trans = GetMetaComment(Target, i, len(Paragraphs)) + '\n' + Translate.translate(Target) + '\n\n' + Trans
-		return Translate.translate(Text)
-		#Target = ''
-	#except deepl.DeepLCLIPageLoadError:
-	#	raise
+		if Engine.lower() == 'google':
+			return json.loads(urlopen(Request(f'{LingvaInstance}/api/v1/{SourceLang}/{Lang}/{URLParse.quote(Text, safe="")}')).read())["translation"]
+		elif Engine.lower() == 'deepl':
+			return Translate.translate(Text)
 	except Exception as e:
 		print(e)
 		return False
-		#Trans += GetMetaComment(Target, i) + '\n' + Target + '\n\n'
-		#Trans = GetMetaComment(Target, i, len(Paragraphs)) + '\n' + Target + '\n\n' + Trans
 
-DestLangs.remove(SourceLang)
+if Engine.lower() == 'google':
+	LingvaInstance = sys.argv[1]
+	import json
+	from urllib import parse as URLParse
+	from urllib.request import urlopen, Request
+elif Engine.lower() == 'deepl':
+	from deepl import deepl
+
+try:
+	DestLangs.remove(SourceLang)
+except Exception:
+	pass
+
 for Lang in DestLangs:
-	Translate = deepl.DeepLCLI(SourceLang, Lang)
+	if Engine.lower() == 'deepl':
+		Translate = deepl.DeepLCLI(SourceLang, Lang)
+
 	for Dir in ('Pages', 'Posts/'):
 		shutil.copytree(Dir, f'i18n/{Lang}/{Dir}', ignore=IgnoreFiles, dirs_exist_ok=True)
 
@@ -62,27 +69,15 @@ for Lang in DestLangs:
 			print(f' {i}', end='')
 			Backoff = 0
 			Target = StrReverse(Paragraph)
-			#if len(Target+Paragraph) < 5000:
-			#	Target += GetMetaComment(Paragraph, Num) + '\n' + Paragraph + '\n\n'
-			#	#print(Paragraph)
-			#	continue
-			#with open('Translate.tmp', 'w') as f:
-			#	f.write(Target)
 			if not Target: # There were more than 2 line breaks
 				Trans += '\n\n'
 				continue
 			Done = ''
 			while not Done:
-				time.sleep(5 + (Backoff*1.25))
-				Backoff += 1.25
+				time.sleep(0.5 + (Backoff*1.025))
+				Backoff += 1.025
 				Done = TryTranslate(Target)
 			Trans = GetMetaComment(Target, i, len(Paragraphs), Done) + '\n' + Done + '\n\n' + Trans
-			#while True:
-				#continue
-			#Translate.translate(Paragraph)
-			#Trans += os.popen(f'cat ./Translate.tmp | deepl -s --fr {SourceLang} --to {Lang}').read()
 
 		with open(f'i18n/{Lang}/{File}', 'w') as f:
 			f.write(Trans)
-		#print(Trans)
-		#exit()

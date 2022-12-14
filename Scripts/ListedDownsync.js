@@ -8,9 +8,13 @@ const SiteName = 'sitoctt';
 //const DefaultMode = 'Include' // 'Include' or 'Exclude' | Not implemented
 const PostsFileDate = true; // Append dates (YYYY-MM-DD) to posts file names
 const Replacements = { // Format: { ReplaceWithString: [ToFindString] }
+	"## [:HNotesRefsHTML:]": "<h2>🏷️ Note e Riferimenti</h2>",
 	"<a href=\"[staticoso:CustomPath:Assets]/": "<a href=\"https://sitoctt-assets.octt.eu.org/",
 	"<img src=\"[staticoso:CustomPath:Assets]/": "<img src=\"https://sitoctt-assets.octt.eu.org/",
 	// TODO: Fix anchor rels
+	"# ": "<h1>", "## ": "<h2>", "### ": "<h3>", "#### ": "<h4>", "##### ": "<h5>", "###### ": "<h6>", 
+	"": ["</h1>", "</h2>", "</h3>", "</h4>", "</h5>", "</h6>"],
+	// staticoso TODO: Fix the handling of headings to remove this crap above...
 };
 
 const MetadataBlockSelect = '.MetadataBlock, .MetadataBlock + :Where(Div, Pre, Code)';
@@ -207,7 +211,7 @@ const HandlePost = PostSrc => {
 	TryMkdirSync(PathDir);
 	fs.writeFileSync(FinalFilePath, `\
 ${MakeMetaStr(Post)}
-# ${Post.Meta.Title}
+# ${Post.Meta.HTMLTitle ? Post.Meta.HTMLTitle : Post.Meta.Title}
 
 ${Post.Content}
 `);

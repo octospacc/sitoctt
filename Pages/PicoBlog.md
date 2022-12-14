@@ -2,6 +2,7 @@
 // % HTMLTitle = <span class="twa twa-envelope twa-✉️"><span>✉️</span></span> PicoBlog
 // % Index = True
 // % Order = 40
+// % Categories = Blog
 
 # <span class="twa twa-envelope twa-✉️"><span>✉️</span></span> PicoBlog
 

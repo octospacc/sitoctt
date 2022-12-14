@@ -3,6 +3,7 @@
 // % Index = True
 // % Order = 60
 // % URLs = MicroBlog.html Diarylog.html
+// % Categories = Blog
 
 # <span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog
 
