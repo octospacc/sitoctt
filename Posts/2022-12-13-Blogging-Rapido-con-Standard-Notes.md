@@ -1,18 +1,21 @@
 // % Title = ⚡️ Il blogging rapido con Standard Notes
 // % CreatedOn = 2022-12-13
-// % HTMLTitle = <span class="twa twa-⚡️"><span>⚡️</span></span> Il blogging rapido con Standard Notes
-// % UpdatedOn = 2022-12-14
+// % Downsync = /Posts/Blogging-Rapido-con-Standard-Notes.html
+// % HTMLTitle = <span class="twa twa-high-voltage twa-⚡️"><span>⚡️</span></span> Il blogging rapido con Standard Notes
+// % UpdatedOn = 2022-12-16
 // % Categories = Blog Tecnologia
 
-# <span class="twa twa-⚡️"><span>⚡️</span></span> Il blogging rapido con Standard Notes
+<h1><span class="twa twa-high-voltage twa-⚡️"><span>⚡️</span></span> Il blogging rapido con Standard Notes</h1>
 
 <p>È da direi parecchio tempo che uso <strong><a href="https://standardnotes.com" rel="noopener nofollow" target="_blank">Standard Notes</a></strong> come <strong>app di note</strong> personali.<br>
 Anni fa l'avevo scelta per il suo essere <strong>libera e open-source</strong>, ma allo stesso tempo molto <strong>pulita, curata, e funzionale</strong>. Capitava a pennello in un momento in cui cercavo qualcosa che supportasse una <strong>cifratura</strong> dei dati che funziona, senza inficiare sull'usabilità.</p>
 
+<p><img src="[staticoso:CustomPath:Assets]/Media/Misc/Standard-Notes-Tablet.webp" alt="Vecchia app Android di Standard Notes sul mio tablet."></p>
+
 <p>Senza dilungarmi su perché poi mi è piaciuto continuare ad usarla, poi ho smesso, e poi ho ripreso fino ad arrivare ad ora, bisogna approfondire su una in particolare delle sue <strong>funzioni integrate</strong>: <strong><a href="https://listed.to">Listed</a></strong>.<br>
 Si tratta di una piattaforma di <strong>blogging</strong> concepita dagli stessi sviluppatori di Standard Notes, e disponibile per il self-hosting oppure l'uso <strong>gratuito</strong> sull'istanza ufficiale. Per quanto io non l'abbia mai davvero usata prima, ho trovato fin dall'inizio <strong>interessante</strong> il concetto e la sua applicazione.</p>
 
-## Un'esigenza veloce
+<h2>Un'esigenza veloce</h2>
 
 <p>Da qualche giorno fa, invece, ho iniziato a giochicchiare con <a href="https://listed.to/@ChatGPT_Experiences">ChatGPT</a>. Questione totalmente diversa questa, si, ma centra perché mi sono posta una domanda: tutte queste conversazioni che sto facendo con l'intelligenza artificiale, dove posso metterle per tenerle integrali, organizzate, <strong>ritrovabili</strong> e accessibili a chiunque, e per me <strong>facili da caricare</strong>?</p>
 
@@ -30,7 +33,7 @@ Oltre ad essere pure questo un argomento a parte, va precisato che la colpa dell
 <li><strong><a href="https://joinplu.me" rel="noopener nofollow" target="_blank">Plume</a></strong>, forse? Sembrava carina quest'altra piattaforma di blogging, ospitata da molti e compatibile con ActivityPub (non una necessità per me, ma comunque un bel bonus), ma non permette di impostare del CSS personalizzato; mancanza grave per questo mio caso d'uso, dato che non c'è altra via per impaginare tutto nella maniera specifica di cui ho bisogno per rappresentare una chat senza boilerplate ad ogni paragrafo di HTML.</li>
 </ul>
 
-## La scelta di Listed
+<h2>La scelta di Listed</h2>
 
 <p>Le mie idee erano finite e, dato che avevo fretta di mettere su questo sito ed iniziare a caricarci le esperienze avute con ChatGPT, considerando quanto <em>mamma mia</em> era <strong>comodo</strong> copiare ed incollare le cose <strong>direttamente in Standard Notes</strong>, questo era il <strong>momento buono di</strong> provare <strong>Listed</strong>.</p>
 
@@ -39,7 +42,7 @@ Potrei creare un secondo account da usare solo per le note di ChatGPT, esportand
 
 
 
-## Il pensiero del "che palle"
+<h2>Il pensiero del "che palle"</h2>
 
 <p>Tutto sommato comunque, per questo scopo limitato <strong>ho apprezzato</strong> quanto sia <strong>efficiente</strong> avere <strong>Standard Notes</strong> come parte <strong>finale del</strong> mio <strong>flusso di lavoro</strong>. Mi sembra riduca di molto l'<em>effetto "mi scoccio"</em>.</p>
 
@@ -50,7 +53,7 @@ A dire il vero, avevo preso già da subito l'abitudine di iniziare a scrivere un
 
 <p>"<em>Ma perché non passo a <strong>Listed almeno per il</strong> mio <strong>microblog</strong>?</em>", penso dunque. Beh, c'è un motivo se addirittura sono arrivata a farmi il mio generatore di siti statici: mi serve!... <em>E se anche non mi servisse più e potrei dunque smettere di usarlo, non ci vorrei onestamente nemmeno pensare a fare una cosa del genere, dopo tutto il lavoro!</em> 😖</p>
 
-## Limitazioni di Listed
+<h2>Limitazioni di Listed</h2>
 
 <p>Comunque, per dirla bene, <strong>Listed è parecchio scarno</strong>: permette appena di inserire <strong>CSS</strong> personalizzato, e di formattare i post in <strong>Markdown</strong> e un <strong>sottoinsieme</strong> ristretto di <strong>HTML</strong>. Di quest'ultimo propongo di seguito le mie analisi:</p>
 
@@ -62,14 +65,14 @@ A dire il vero, avevo preso già da subito l'abitudine di iniziare a scrivere un
 
 <p>È chiarissimo che <strong>non può sostituire</strong> al 100% assolutamente <strong>nessuna sezione del sitoctt</strong>, nemmeno quella del MicroBlog, e anche se potesse andrebbe a creare frammentazione: il sito principale non conterrebbe più tutti tutti i post in modo centralizzato, e chi ne avesse interesse dovrebbe quindi seguire ben 2 siti diversi.</p>
 
-## Il blogoctt con Standard Notes
+<h2>Il blogoctt con Standard Notes</h2>
 
 <p>Mi stavo <em>quasi</em> per rassegnare, ma per fortuna ho il lampo di genio: <em>Ma posso <strong>scrivere su Standard Notes</strong>, ed avere le <strong>note che</strong> in automatico <strong>si sincronizzano</strong> come file <strong>sul sito</strong>? ...No, non c'è verso. No, aspè, e chi lo ha detto? Io dico che c'è verso.</em></p>
 
 <p>Ora, Standard Notes, come ho detto, usa un sistema di cifratura client-side dei dati, quindi per accedere alle note dal proprio account <strong>andrebbe usato</strong> un <strong>software</strong> un minimo <strong>specializzato</strong>.<br>
 C'è <em>sn-cli</em>, il client ufficiale a riga di comando, che potrebbe essere utile per creare script... però <a href="https://github.com/jonhadfield/sn-cli/issues/33" rel="noopener nofollow" target="_blank">pare proprio sia stato abbandonato</a>: niente da fare.</p>
 
-### Soluzione "a modo mio"
+<h3>Soluzione "a modo mio"</h3>
 
 <p>E allora, anche qui io quindi parlo, e dico: <em>Chi lo ha detto che devo fare le cose per bene e usare le API "vere"?</em><br>
 Io dico che, visto che per qualche motivo l'<strong>HTML</strong> di un blog <strong>su Listed</strong> (nello specifico, la pagina <a href="https://listed.to/@u8/all">/all</a>, l'unica che mi sembra includere davvero tutto, e non solo gli ultimi X post) <strong>include come</strong> stringa <strong>JSON</strong> i dati di <strong>tutti i post</strong>, allora io posso semplicemente <strong>pubblicare</strong> su Listed <strong>da Standard Notes</strong> ed avere un <strong>programma che fa</strong> lo sporco - ma in questo caso davvero semplice, visto che deve solo scaricare e parsare 1 file - lavoro dello <strong>scraping</strong>.</p>
@@ -82,9 +85,29 @@ No non mi so ancora decidere - per colpa di mie <em>paturnie</em> - su che stand
 No, non ho ancora fatto lo script da avviare come <strong>cronjob</strong> sul server, che ogni tanto dovrebbe <strong>scaricare i dati da</strong>l blog di <strong>Listed</strong> e <strong>aggiornare</strong> i file nel<strong>la repository Git</strong> se ci sono aggiornamenti.<br>
 Però, ho pensato alle cose veramente inderogabili, tipo la possibilità per il programma di sincronizzazione di non sovrascrivere un file già nella repo se questo specifica la cosa nei metadati. Metti che succede un qualunque casino, e io devo modificare i dati del post per il sitoctt senza toccare quelli della nota su Standard Notes: impostando questa flag, lo script di sincronizzazione non lo sostituirà la prossima volta che gira.</p>
 
-## Conclusioni
+<h2>Conclusioni</h2>
 
 <p>Come concludere, dunque.<br>
 Oggi <strong>ho già scritto troppo</strong> (è venuto fuori un articolo di blog e non microblog!), e la chiudo qui. Però spero vivamente che tutta questa nuova efficienza e comodità, l'avere ulteriore <strong>tecnologia che lavora per me</strong>, e non obbliga me a lavorare per lei <em>(in teoria, tanto comunque i problemi devono uscire fuori, altrimenti io non sono io!)</em>, possa <strong>farmi scrivere di più</strong> e <strong>con più piacere</strong>. Che sia sul <strong><a href="https://sitoctt.octt.eu.org" rel="noopener nofollow" target="_blank">sitoctt</a></strong>, o sulle lastre di pietra.</p>
 
-<p>Ah, si, questo qui è stato il <strong>primo post</strong> sul <a href="https://listed.to/@u8">mio <strong>blog Listed</strong></a>, è giusto precisarlo per chi legge dal sitoctt... ma io spero che almeno la versione Listed del blog possa venire indicizzata per bene e <strong>scoperta da più persone</strong>, già che ci siamo.</p>
+<p>Ah, si, questo qui è stato il <strong>primo post</strong> sul <a href="https://listed.to/@u8">mio <strong>blog Listed</strong></a>, è giusto precisarlo per chi legge dal sitoctt... ma io spero che almeno la versione Listed del blog possa venire indicizzata per bene e <strong>scoperta da più persone</strong>, già che ci siamo.<br>
+È proprio nella speranza di raggiungere questo obiettivo che sto accettando alcuni <strong>compromessi</strong> quando scrivo qui, come il fare a meno delle macro (che con staticoso posso usare, mentre qui produrrebbero testi bucati e link rotti), per far si che gli articoli siano effettivamente consultabili anche dalle pagine di Listed.</p>
+
+
+
+
+
+<ul>
+<li>Adattamento a scrivere su SN (senza macro ecc)</li>
+</ul>
+
+<h2>[:HNotesRefsHTML:]</h2>
+
+<ul>
+<li><strong>Aggiornamenti</strong> del post:
+
+<ul>
+<li><strong>2022-12-16</strong>: Ho aggiunto una foto di copertina per l'articolo, e ho precisato il dettaglio finale che avevo dimenticato.</li>
+<li><strong>2022-12-14</strong>: Ho aggiunto un po' di formattazione extra, e ho corretto alcune espressioni.</li>
+</ul></li>
+</ul>
