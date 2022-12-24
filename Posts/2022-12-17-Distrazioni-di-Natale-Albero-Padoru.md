@@ -2,7 +2,7 @@
 // % CreatedOn = 2022-12-17
 // % Downsync = /Posts/Distrazioni-di-Natale-Albero-Padoru.html
 // % HTMLTitle = <span class="twa twa-christmas-tree twa-🎄"><span>🎄</span></span> Distrazioni di Natale: l'albero Padoru
-// % Image = https://sitoctt-assets.octt.eu.org/Media/Padoru/Padoru-Tree-Old-New-Fragments.webp
+// % Image = [staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Tree-Old-New-Fragments.webp
 // % Categories = Blog DIY
 
 <h1><span class="twa twa-christmas-tree twa-🎄"><span>🎄</span></span> Distrazioni di Natale: l'albero Padoru</h1>
@@ -16,11 +16,11 @@ I mesi passano in fretta... <em>e vabbè</em>.</p>
 <h2>Cos'è "Padoru"</h2>
 
 <p>Per molti una <strong>questione controversa</strong> e un'<strong>usanza disprezzata</strong>, quella del <strong>Padoru</strong>.<br>
-Per quelle 3 persone che vivono sotto le pietre <em>(e che non so come potrebbero star leggendo questo blog ora, ma sorvolo)</em>, si tratta di un <strong>meme</strong> che, stando a <a href="https://knowyourmeme.com/memes/padoru" rel="noopener nofollow" target="_blank">Know Your Meme</a>, nasce da un videogioco, <em>Fate/EXTRA</em>.<br>
-In una <a href="https://www.youtu.be/efdN69QscAg" rel="noopener nofollow" target="_blank">scena del gioco</a>, <a href="https://typemoon.fandom.com/it/wiki/Nerone" rel="noopener nofollow" target="_blank">Nerone Claudio Cesare Augusto Germanico (non scherzo)</a> indossa un costume da <strong>Babbo Natale</strong>, e danza in giro per quello che credo sia un corridoio, cantando una <strong>parodia</strong> originale di <em>Jingle Bells</em>, di appena 4 strofe.</p>
+Per quelle 3 persone che vivono sotto le pietre <em>(e che non so come potrebbero star leggendo questo blog ora, ma sorvolo)</em>: si tratta di un <strong>meme</strong> che, stando a <a href="https://knowyourmeme.com/memes/padoru" rel="noopener nofollow" target="_blank">Know Your Meme</a>, nasce da un videogioco, <em>Fate/EXTRA</em>.<br>
+In una <a href="https://youtu.be/efdN69QscAg" rel="noopener nofollow" target="_blank">scena del gioco</a>, <a href="https://typemoon.fandom.com/it/wiki/Nerone" rel="noopener nofollow" target="_blank">Nerone Claudio Cesare Augusto Germanico (non scherzo)</a> indossa un costume da <strong>Babbo Natale</strong>, e danza in giro per quello che credo sia un corridoio, cantando una <strong>parodia</strong> originale di <em>Jingle Bells</em>, di appena 4 strofe.</p>
 
 
-<video width="400" src="https://sitoctt-assets.octt.eu.org/Media/Padoru/PadoruPadoru.webm" controls="true" muted="true" loop="true" autoplay="true">Il video della scena del gioco.</video>
+<video src="[staticoso:CustomPath:Assets]/Media/Padoru/PadoruPadoru.webm" controls="true" muted="true" loop="true" autoplay="true">Il video della scena del gioco.</video>
 
 
 
@@ -32,7 +32,7 @@ PADORU PADORU</p>
 </blockquote>
 
 <p>Ho provato a cercare il significato della canzoncina, ma <a href="https://anime.stackexchange.com/questions/43895/what-does-padoru-padoru-mean" rel="noopener nofollow" target="_blank">non ho avuto risultati soddisfacenti</a>.<br>
-L'unica cosa che so è che l'<strong>ultima strofa</strong> (da cui <strong>deriva il nome</strong> popolare del meme), "<em>padoru padoru</em>" è l'<strong>equivalente giapponese</strong> del "<em>cloppete cloppete</em>" italiano, l'<strong>onomatopea</strong> del suono degli <strong>zoccoli delle renne</strong>. Il come ciò sia possibile non mi è dato saperlo ma, onestamente, è il dettaglio meno strano.</p>
+L'unica cosa che so è che l'<strong>ultima strofa</strong> (da cui <strong>deriva il nome</strong> popolare del meme), "<em>padoru padoru</em>", è l'<strong>equivalente giapponese</strong> del "<em>cloppete cloppete</em>" italiano, l'<strong>onomatopea</strong> del suono degli <strong>zoccoli delle renne</strong>. Il come ciò sia possibile non mi è dato saperlo ma, onestamente, è il dettaglio meno strano.</p>
 
 <h2>Usanze di Internet</h2>
 
@@ -54,8 +54,8 @@ Non so quando sia iniziata questa tendenza, ma ad un certo punto c'è stato chi 
 Chi invece un minimo di <strong>creatività</strong> la ha, può senza difficoltà provare a <strong>modificare</strong> alcune delle <strong>forme</strong> del personaggino, cambiando il giusto qui e là per ricostruire un <strong>personaggio</strong> totalmente <strong>altro</strong> - che sia originale, o già esistente ma disegnato solo con altri stili - in forma di quel cosino sorridente che corre in giro a rompere col suo versetto festivo.</p>
 
 <p>Questa roba è di una facilità talmente estrema che <strong>persino io</strong>, che normalmente se provo a disegnare qualsiasi cosa di artistico (o comunque poco tecnica) creo dei veri e propri <em>glitch</em>, <strong>ho potuto creare il mio</strong> personalissimo Padoru senza alcuna sofferenza.<br>
-In appena 2 orette molto scarse una mattina del 1º Dicembre a scuola - non ricordo se fosse giorno di assemblea oppure di varie supplenze - un po' <strong>ricalcando</strong> le linee di base dell'aspetto Padoru, un po' <strong>introducendo caratteristiche</strong> originali (che ho derivato dal mio personaggio 3D, quello che figura in alcune mie foto profilo tutto l'anno), con un'app di disegno generica sullo smartphone ho fatto ciò che sentivo di dover fare.<br>
-Il risultato è stato che, semplicemente, <strong>è uscito qualcosa</strong> di normale, nessun orrore! Molto bene. </p>
+In appena 2 orette molto scarse, una mattina del 1º Dicembre a scuola - non ricordo se fosse giorno di assemblea oppure di varie supplenze - un po' <strong>ricalcando</strong> le linee di base dell'aspetto Padoru, un po' <strong>introducendo caratteristiche</strong> originali (che ho derivato dal mio personaggio 3D, quello che figura in alcune mie foto profilo tutto l'anno), con un'app di disegno generica sullo smartphone ho fatto ciò che sentivo di dover fare.<br>
+Il risultato è stato che, semplicemente, <strong>è uscito qualcosa</strong> di normale; nessun orrore! Molto bene. </p>
 
 <p><a href="[staticoso:CustomPath:Assets]/Media/Padoru/Octt-Padoru.png"><img src="[staticoso:CustomPath:Assets]/Media/Padoru/OctoVoLTE-15989.avif" alt="Schermata dei messaggi dell'anno scorso riguardo la creazione dell'Octt Padoru. Nel primo avevo finito i contorni e stavo iniziando a colorare i capelli viola. Nel secondo avevo completato il lavoro e ho inviato il file PNG."></a></p>
 
@@ -64,15 +64,15 @@ Il risultato è stato che, semplicemente, <strong>è uscito qualcosa</strong> di
 <p>L'anno scorso <strong>creai</strong> quindi il mio Padoru appositamente per usarlo come <strong>foto profilo</strong> (su Telegram), e l'ho fatto.<br>
 L'anno prima ne avevo usato uno non mio, modellato sulla <a href="http://web.archive.org/web/20221217073124/https://teddit.net/r/Padoru/comments/czxoa7/senko_san_at_your_service" rel="noopener nofollow" target="_blank">kitsune Senko-san</a>, e l'anno ancora precedente avevo messo altri tipi di meme Padoru.</p>
 
-<p><strong>Quest'anno</strong> non ho fatto un bel <strong>niente</strong>... e la cosa particolare è che non so dare una spiegazione della cosa. Zero 😶.<br>
+<p><strong>Quest'anno</strong> non ho fatto un bel <strong>niente</strong>... e la cosa particolare è che non so dare una spiegazione della cosa. Zero. 😶<br>
 Ciò che sospetto è che, banalmente, <strong>I forgor 💀</strong> (<em>me ne sono dimenticara 💀</em>). 2 settimane fa avevo ahimè <strong>troppe cose per la testa</strong>: prima la mia istanza Misskey che malfunziona e io devo correre, poi la fissazione con ChatGPT, è chiaro che non c'è stato proprio modo di riservare 30 secondi di tempo all'aggiornare la foto di nemmeno uno solo dei miei account online.<br>
 A questo punto, non so se fare adesso il <strong>cambio</strong> e quindi sfruttare tutto il tempo che rimane fino alla fine del periodo natalizio per essere <em>Padoruante</em>, oppure seguire una logica minimale e aspettare l'inizio della settimana prossima: l'ultima settimana di avvento e la prima di vacanza, avrebbe un suo senso.</p>
 
 <p>L'anno scorso sarà quindi andato di lusso con le fotine digitali, ma <strong>il lato fisico</strong> è stato da me accidentalmente <strong>trascurato</strong>.<br>
 Andiamo con ordine.</p>
 
-<p>Gli <strong>addobbi</strong> natalizi generici <strong>in casa</strong> li mettono praticamente tutti i miei genitori - <strong>mia madre</strong> in particolare, che ha pure <strong>potere di veto</strong> su eventuali proposte troppo progressiste riguardo l'albero di Natale grande - nei primi giorni di Dicembre.<br>
-Tra le cose che ogni anno vengono riprese dalla soffitta, delle piccole c'è anche un <strong>alberello da scrivania</strong> che praticamente è mio. Ha delle <strong>lucine integrate</strong>, alimentate con batterie stilo, ma comunque di per sé non è nulla di troppo speciale. O, meglio, così era prima che io lo <strong>rivoluzionassi</strong>, <strong>3 anni fa</strong> (era il 2019!).</p>
+<p>Gli <strong>addobbi</strong> natalizi generici <strong>in casa</strong> li mettono effettivamente tutti i miei genitori - <strong>mia madre</strong> in particolare, che ha pure <strong>potere di veto</strong> su eventuali proposte troppo progressiste riguardo l'albero di Natale grande - nei primi giorni di Dicembre.<br>
+Tra le cose che ogni anno vengono riprese dalla soffitta, delle piccole c'è anche un <strong>alberello da scrivania</strong> che <em>praticamente</em> è mio. Ha delle <strong>lucine integrate</strong>, alimentate a batterie stilo, ma comunque di per sé non è nulla di troppo speciale. O meglio, così era prima che io lo <strong>rivoluzionassi</strong>, <strong>3 anni fa</strong> (era il 2019!).</p>
 
 <h2>Modifica all'alberello</h2>
 
@@ -83,7 +83,7 @@ L'idea ormai si era impossessata di me, e a questo punto dovevo ricreare persona
 A dirla tutta, di scelta <strong>non si trattava</strong>, in quanto la prima opzione era automaticamente da buttare per via del <strong>veto</strong> di mia madre, ma sicuramente la seconda via mi intrigava: l'alberellino stava (e sta) nella <strong>mia stanza</strong>, quindi la sua normalità sarebbe completamente sprecata senza qualche abbellimento creativo.</p>
 
 <p>Fatta la <strong>stampa</strong>, non mi restava altro che <strong>ritagliare</strong>, più o meno grossolanamente (ciononostante, è stranamente servita una buona quantità di lavoro), i vari Padoru, per poi <strong>attaccarli</strong> all'albero con un po' di colla a caldo.<br>
-È venuto fuori <strong>quello che volevo</strong>, insomma, quindi ho apprezzato e ho usato una foto ad esso scattata come immagine del mio profilo. L'anno seguente, l'albero è <strong>rimasto com'era</strong>.</p>
+È venuto fuori <strong>quello che volevo</strong>, insomma, quindi ho apprezzato il lavoro e ho scattato una foto per impostarla come immagine del mio profilo. L'anno seguente, l'albero è <strong>rimasto com'era</strong>.</p>
 
 <p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Tree-2019-2022.avif" alt="Il mini-albero com'era fino all'altro giorno, prima che facessi quello che ho fatto ora. Ci sono meno di una decina di Padoru"></p>
 
@@ -93,16 +93,16 @@ A dirla tutta, di scelta <strong>non si trattava</strong>, in quanto la prima op
 
 <h2>Nel presente</h2>
 
-<p>Per quanto riguarda <strong>quest'anno</strong>, una volta finalmente entrata mentalmente nell'<em>atmosfera padorizia</em>, <strong>contemplando</strong> quell'oggetto che da giorni è lì sul mio <strong>comodino</strong>, ho pensato che lo stesso fosse un po' <strong>vuoto</strong>, e avesse bisogno di <strong>altri Padoru</strong>. </p>
+<p>Per quanto riguarda <strong>quest'anno</strong>, una volta finalmente entrata mentalmente nell'<em>atmosfera padorizia</em>, <strong>contemplando</strong> quell'oggetto che da giorni è lì sul mio <strong>comodino</strong>, ho pensato che lo stesso fosse un po' <strong>vuoto</strong>, e avesse bisogno di <strong>altri Padoru</strong>.</p>
 
 <p>L'altro giorno <strong>pensai</strong> di doverne allora <strong>cercare</strong> alcuni <strong>nuovi</strong> online per stamparli, ma un attimo dopo mi torna in mente <strong>una cartella</strong>, che ho trovato il mese scorso sul PC mentre facevo pulizia.<br>
 Contiene <strong>il mio Padoru</strong> originale, <strong>e vari altri</strong> che ricordavo di aver scaricato, ma che <strong>non ero</strong> troppo <strong>certa di aver</strong> mai <strong>stampato</strong>. I file sono tutti datati a Dicembre 2021, cosa ovvia per l'unico da me creato, ma in effetti curiosa per gli altri, se si considera tutto lo scenario.</p>
 
 <p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Folder-2021.png" alt="Alcune delle singole immagini Padoru presenti nella cartella; in totale 23. Notare il loro essere datate all'8 Dicembre 2022."></p>
 
-<p>Cosa ancor più curiosa, uno dei file lì presenti è un'immagine, con rapporto d'aspetto pari a quello di un foglio A4, dove sono disposte tutte le singole immagini della cartellina.<sup id="fnref1"><a href="#fn1">1</a></sup><br>
+<p>Cosa ancor più curiosa, uno dei file lì presenti è un'immagine, con rapporto d'aspetto pari a quello di un foglio A4, dove sono disposte tutte le singole immagini della cartellina.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup><br>
 "<em>L'avrò composta l'anno scorso e alla fine forse non avrò più stampato</em>", penso; eppure, qualcos'altro nella mia mente mi dice che <strong>in realtà l'ho stampata</strong> eccome, e magari semplicemente non l'ho <strong>mai usata</strong> alla fine. Sicuramente, mai ho attaccato quei Padoru sull'alberello, perché lì ci sono solo quelli di 3 anni fa.<br>
-Per un quarto d'ora scarso cerco questo sfortunato <strong>foglio</strong> nella mia stanza ma, non trovandolo, <strong>decido di ristamparlo</strong>. Oddio, un foglio di Padoru a dire il vero l'ho trovato... più o meno: ho trovato un frammento del foglio del 2019, con 3 immagini che mai utilizzai al tempo.</p>
+Per un quarto d'ora scarso cerco questo sfortunato <strong>foglio</strong> nella mia stanza ma, non trovandolo, <strong>decido di ristamparlo</strong>. Oddio, un foglio di Padoru a dire il vero l'ho trovato... più o meno: ho ritrovato un frammento del foglio del 2019, con 3 immagini che mai utilizzai al tempo.</p>
 
 <p>Senza perdere altro tempo, invio dunque il documento alla <strong>stampante</strong> di casa, che prontamente <strong>mi restituisce</strong>... un <strong>foglio bianco</strong>? Sembrava, ma poi l'ho preso in mano e ho notato che era stata stampata. L'immagine? <strong>NO! UNA MACCHIA! 🤬</strong><br>
 Immediatamente, subentra la <strong>rabbia</strong>, ma un secondo dopo questa viene <strong>sovrastata</strong> da una sensazione ancora più forte: una di "<strong>già visto</strong>".</p>
@@ -113,19 +113,19 @@ Immediatamente, subentra la <strong>rabbia</strong>, ma un secondo dopo questa v
 
 <p>A questo punto, <strong>qualcosina</strong> mi <strong>torna in mente</strong>, e apro la cronologia del mio canale Telegram (che uso come un micro-microblog) per cercare risposte ai miei sospetti: ebbene, <strong>avevo stampato</strong> queste immagini <strong>l'anno scorso</strong>. Ora ricordavo bene!<br>
 <strong>Era</strong> successo lo <strong>stesso</strong> identico <strong>problema</strong> della stampa andata a quel paese che, stranamente, si verifica su ben 2 stampanti diverse, solo mandando in stampa tramite l'applicazione ufficiale di <strong>Epson</strong> (produttore delle stampanti) per Android, e solo per questa immagine (PNG 2480x3472 di 9 MB), tra tutte quelle che ho dovuto stampare nella mia vita.<br>
-Sul momento della prima volta ho perso tempo con mio padre - che fino a prima aveva usato la stampante senza particolari rogne - prima cambiando la cartuccia segnata scarica, poi pulendo le testine; dopo non so quanti minuti buttati, al <strong>terzo tentativo</strong> di stampa ho fatto dal PC Windows di mio padre, e l'immagine <strong>finalmente</strong> è uscita fuori. 😶‍🌫️🔪</p>
+Sul momento della prima volta ho perso tempo con mio padre - che fino a prima aveva usato la stampante senza particolari rogne - prima cambiando una cartuccia segnata scarica, poi pulendo le testine; dopo non so quanti minuti buttati, al <strong>terzo tentativo</strong> di stampa ho fatto dal PC Windows di mio padre, e l'immagine <strong>finalmente</strong> è uscita fuori. 😶‍🌫️🔪</p>
 
 <p>Questa volta invece, appena collegati un attimo tutti i puntini, ho riprovato dal PC subito...<br>
-È seriamente troppo pretendere che l'app ufficiale funzioni come dovrebbe, o che quantomeno dia un errore, che a me non ha mai dato, se per qualche motivo non riesce a gestire correttamente un file? Dovrei mandare <strong>a quel paese</strong> una volta per tutte queste <strong>stampanti proprietarie</strong>, marce e puzzolenti, uscite direttamente dall'inferno, e costruire la mia: con un microcontrollore, dei servomotori, e dei pennarelli, come persone più sagge già hanno fatto.</p>
+È seriamente troppo pretendere che l'app ufficiale funzioni come dovrebbe, o che almeno dia un errore, che a me non ha mai dato, se per qualche motivo non riesce a gestire correttamente un file? Dovrei mandare <strong>a quel paese</strong> una volta per tutte queste <strong>stampanti proprietarie</strong>, marce e puzzolenti, uscite direttamente dall'inferno, e costruire la mia: con un microcontrollore, dei servomotori, e dei pennarelli, come persone più sagge già <a href="https://youtu.be/AlBPFC41FsM" rel="noopener nofollow" target="_blank">hanno fatto</a>.</p>
 
-<p>Comunque, la mia intenzione, quel giorno lontano, era di <strong>trollare</strong><sup id="fnref2"><a href="#fn2">2</a></sup> <strong>mia madre</strong>: stampare alcuni nuovi Padoru, tutti diversi e <strong>colorati</strong>, per <strong>attaccarli</strong> sull'albero di Natale grande, che quell'anno era stato da lei addobbato con decorazioni categoricamente <strong>tendenti al bianco</strong>.<br>
+<p>Comunque, la mia intenzione, quel giorno lontano, era di <strong>trollare</strong><sup id="fnref2"><a class="footnote-ref" href="#fn2">2</a></sup> <strong>mia madre</strong>: stampare alcuni nuovi Padoru, tutti diversi e <strong>colorati</strong>, per <strong>attaccarli</strong> sull'albero di Natale grande, che quell'anno era stato da lei addobbato con decorazioni categoricamente <strong>tendenti al bianco</strong>.<br>
 Stampai insomma tutti quelli lì, ma ne misi <strong>solo 1</strong> di numero sull'albero (tra l'altro, mi sembra passarono ben 2 giorni prima che mia madre ci facesse caso 😂), quindi è evidente che <strong>pianificavo</strong> di fare qualcosa <strong>con quegli altri</strong>. Probabilmente, avrei voluto <strong>metterli</strong> sul <strong>mini-albero</strong>, però (ancora, evidentemente) non l'ho <strong>mai fatto</strong>. <em>Did I forger (💀)?</em> Molto probabile: anche queste del Dicembre passato erano settimane un po' cariche, però ho fatto arrivare Gennaio (tempo di ricongelare il Natale e tutte le decorazioni, Padoru e non) senza fare nulla, quindi la cosa mi sarà <strong>passata</strong> proprio <strong>di mente</strong>.</p>
 
 <h2>Conclusione concreta</h2>
 
-<p>Tra <strong>ieri e l'altro ieri</strong>, ho innanzitutto <strong>ritagliato</strong> buona parte <strong>dei Padoru</strong>; non tutti, perché altrimenti ci passo davvero le ore, e perché sul mio albero da scrivania non ce ne stanno più 🤷‍♀️.<br>
-Stavolta le forbici le ho usate in maniera davvero certosina, e ho <strong>scontornato le figure</strong> con una <strong>definizione</strong> molto alta; per i miei <em>standard di tagliuzzamento</em> di <em>disegni che hanno molti dettagli minimi di forme complesse</em>, quantomeno, lo è.<br>
-Dopo questa mansione - che sarebbe pure rilassante, se non fossi dovuta <em>stare bend</em><sup id="fnref3"><a href="#fn3">3</a></sup> per via della luce - con la pistola di <strong>colla a caldo</strong> pian piano (cosa che richiede comunque molto meno tempo del ritaglio) <strong>ho incollato</strong> tutte le figurine alle pareti fogliari esterne dell'<strong>albero</strong>. Ne <strong>ho approfittato</strong> per <strong>sistemare</strong> gli elementi appiccicati 3 anni fa, che reggevano ma non in modo solidissimo... probabilmente <strong>feci male</strong> il lavoro, <strong>all'epoca</strong>.</p>
+<p>Tra <strong>ieri e l'altro ieri</strong>, ho innanzitutto <strong>ritagliato</strong> buona parte <strong>dei Padoru</strong>; non tutti, perché altrimenti ci passo davvero le ore, e perché sul mio albero da scrivania non ce ne stanno più. 🤷‍♀️<br>
+Stavolta le forbici le ho usate in maniera davvero certosina, e ho <strong>scontornato le figure</strong> con una <strong>definizione</strong> molto alta; per i miei <em>standard di tagliuzzamento</em> di <em>disegni che hanno molti dettagli minimi di forme complesse</em>, perlomeno, lo è.<br>
+Dopo questa mansione - che sarebbe pure rilassante, se non fossi dovuta <em>stare bend</em><sup id="fnref3"><a class="footnote-ref" href="#fn3">3</a></sup> per via della luce - con la pistola di <strong>colla a caldo</strong>, pian piano (cosa che richiede comunque molto meno tempo del ritaglio) <strong>ho incollato</strong> tutte le figurine alle pareti fogliari esterne dell'<strong>albero</strong>. Ne <strong>ho approfittato</strong> per <strong>sistemare</strong> gli elementi appiccicati 3 anni fa, che reggevano ma non in modo solidissimo... probabilmente <strong>feci male</strong> il lavoro, <strong>all'epoca</strong>.</p>
 
 <p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Tree-New-0.webp" alt="Foto dell'alberello dopo aver attaccato"><br>
 Questo qui è il risultato, mi piace veramente un botto.</p>
@@ -143,7 +143,7 @@ Questo qui è il risultato, mi piace veramente un botto.</p>
 <ol>
 
 <li id="fn1">
-<p>Sul canale ho ritrovato il comando di <strong><a href="https://imagemagick.org" rel="noopener nofollow" target="_blank">ImageMagick</a></strong> che usai per creare l'immagine grande contenente tutte le altre disposte a griglia, lo metto qui per chi ha bisogno di stampare cose di questo tipo: (da eseguire stando nella cartella con tutte le immagini da includere) <code class="prettyprint">montage -define png:size=496x496 -geometry 496x496 -tile 5x7 -auto-orient * OUTPUT.png</code>. I valori di "496x496" e "5x7" sono modificabili a piacere, qui sono messi in modo che il file risultante avrà <strong>dimensioni</strong> vicinissime a quelle <strong>A4</strong>, con <strong>35 immagini</strong> massime su un solo foglio, tutte scalate <strong>uguali</strong> e <strong>quadrate</strong>. Magari l'immagine va stampata <strong>aggiungendo</strong> dei buoni <strong>margini</strong> prima, però, altrimenti rischia di uscire leggermente tagliata.&nbsp;<a href="#fnref1">↩</a></p>
+<p>Sul canale ho ritrovato il comando di <strong><a href="https://imagemagick.org" rel="noopener nofollow" target="_blank">ImageMagick</a></strong> che usai per creare l'immagine grande contenente tutte le altre disposte a griglia, lo metto qui per chi ha bisogno di stampare cose di questa tipologia: (da eseguire stando nella cartella con tutte le immagini da includere) <code class="prettyprint">montage -define png:size=496x496 -geometry 496x496 -tile 5x7 -auto-orient * OUTPUT.png</code>. I valori di "496x496" e "5x7" sono modificabili a piacere, qui sono messi in modo che il file risultante avrà <strong>dimensioni</strong> vicinissime a quelle <strong>A4</strong>, con <strong>35 immagini</strong> massime su un solo foglio, tutte scalate <strong>uguali</strong> e <strong>quadrate</strong>. Magari l'immagine finale va stampata <strong>aggiungendo</strong> dei buoni <strong>margini</strong> prima, però, altrimenti rischia di uscire leggermente tagliata.&nbsp;<a href="#fnref1">↩</a></p>
 </li>
 
 <li id="fn2">

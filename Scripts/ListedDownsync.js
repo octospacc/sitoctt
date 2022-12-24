@@ -10,8 +10,9 @@ const PostsFileDate = true; // Append dates (YYYY-MM-DD) to posts file names
 const Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	"<h2>[:HNotesRefsHTML:]</h2>": "<h2>🏷️ Note e Riferimenti</h2>",
 	'<div class="footnotes">': ['<div class="footnotes"><hr>', '<div class="footnotes">\n<hr>'],
-	"<a href=\"[staticoso:CustomPath:Assets]/": "<a href=\"https://sitoctt-assets.octt.eu.org/",
-	"<img src=\"[staticoso:CustomPath:Assets]/": "<img src=\"https://sitoctt-assets.octt.eu.org/",
+	'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
+	" href=\"[staticoso:CustomPath:Assets]/": " href=\"https://sitoctt-assets.octt.eu.org/",
+	" src=\"[staticoso:CustomPath:Assets]/": " src=\"https://sitoctt-assets.octt.eu.org/",
 	// TODO: Fix anchor rels
 };
 
@@ -52,7 +53,7 @@ const CheckDownsync = Body => {
 			if (CheckLine.startsWith('// ')) {
 				const Tokens = CheckLine.split(' ').filter(i => {return i != ''});
 				if (Tokens[1] == '%' && Tokens[2] == 'downsync' && [':', '='].includes(Tokens[3])) {
-					if (['false', 'disabled', 'off', 'no'].includes(Tokens[4])) {
+					if (['false', 'disabled', 'off', 'no', '0'].includes(Tokens[4])) {
 						return false;
 					} else if (Tokens[4].startsWith('/')) {
 						return Line.substring(Line.indexOf('/', 2));
