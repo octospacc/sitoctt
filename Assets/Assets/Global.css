@@ -20,7 +20,24 @@
 }
 
 /* Set Headings as Inline when inside Details Summaries and List Items */
-Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > H6,
-Li > H1, Li > H3, Li > H3, Li > H4, Li > H5, Li > H6 {
+:Where(Summary, Li) > :Where(H1, H2, H3, H4, H5, H6) {
 	Display: Inline;
+}
+
+/* Animazioni per le desinenze */
+.BlinkA {
+	Animation: BlinkerA 0.25s Step-Start Infinite;
+}
+@Keyframes BlinkerA {
+	0% {Position: Absolute; Visibility: Hidden;}
+	50% {Position: Static; Visibility: Visible;}
+	100% {Position: Absolute; Visibility: Hidden;}
+}
+.BlinkO {
+	Animation: BlinkerO 0.25s Step-Start Infinite;
+}
+@Keyframes BlinkerO {
+	0% {Position: Static; Visibility: Visible;}
+	50% {Position: Absolute; Visibility: Hidden;}
+	100% {Position: Static; Visibility: Visible;}
 }

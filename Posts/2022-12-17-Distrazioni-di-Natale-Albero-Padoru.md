@@ -20,9 +20,7 @@ Per quelle 3 persone che vivono sotto le pietre <em>(e che non so come potrebber
 In una <a href="https://youtu.be/efdN69QscAg" rel="noopener nofollow" target="_blank">scena del gioco</a>, <a href="https://typemoon.fandom.com/it/wiki/Nerone" rel="noopener nofollow" target="_blank">Nerone Claudio Cesare Augusto Germanico (non scherzo)</a> indossa un costume da <strong>Babbo Natale</strong>, e danza in giro per quello che credo sia un corridoio, cantando una <strong>parodia</strong> originale di <em>Jingle Bells</em>, di appena 4 strofe.</p>
 
 
-<video src="[staticoso:CustomPath:Assets]/Media/Padoru/PadoruPadoru.webm" controls="true" muted="true" loop="true" autoplay="true">Il video della scena del gioco.</video>
-
-
+<video class="SmallVideoQuote Blockquote NoImgCenter" title="Il video della scena del gioco." src="[staticoso:CustomPath:Assets]/Media/Padoru/PadoruPadoru.webm" [:videoelemargs-controlmuteloopauto:]="">Il video della scena del gioco.</video>
 
 <blockquote>
 <p>HASHIRE SORI YO<br>
@@ -138,6 +136,10 @@ Questo qui è il risultato, mi piace veramente un botto.</p>
 
 
 <h2>[:HNotesRefsHTML:]</h2>
+
+<ul>
+<li><strong>Aggiornamento</strong> del <strong>2022-12-24</strong>: Ho caricato alcune foto in più sulla storia su Pixelfed: <a href="https://pixelfed.uno/p/octo/512223099419845225" rel="noopener nofollow" target="_blank">pixelfed.uno/p/octo/512223099419845225</a>.</li>
+</ul>
 
 <div class="footnotes">
 <ol>

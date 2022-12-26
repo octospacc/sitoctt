@@ -211,10 +211,10 @@ Body {
 	Max-Height: Calc(40vh - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
 }
 
-#FeedWindow Ul Li, #TitlesWindow .WindowContent Ul Li, .TaskBarMenu Ul Li {
+:Where(#FeedWindow, #TitlesWindow .WindowContent, .TaskBarMenu) Ul Li {
 	List-Style-Type: None !Important;
 }
-#FeedWindow Ul, #TitlesWindow Ul, .TaskBarMenu Ul {
+:Where(#FeedWindow, #TitlesWindow, .TaskBarMenu) Ul {
 	Padding-Top: 0px;
 	Padding-Left: 8px;
 	Padding-Right: 4px;
@@ -300,8 +300,7 @@ Body {
 #DesktopCheck:Checked ~ Label > Span {
 	Background-Color: Var(--TitleBarBackground);
 }
-#DesktopCheck:Checked ~ .Window,
-#DesktopCheck:Checked ~ * > .Window {
+#DesktopCheck:Checked ~ :Where(.Window, * > .Window) {
 	Display: None;
 	Visibility: Hidden;
 }

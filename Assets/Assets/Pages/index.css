@@ -8,23 +8,6 @@
 	Margin-Left: 3px;
 }
 
-.BlinkA {
-	Animation: BlinkerA 0.25s Step-Start Infinite;
-}
-@keyframes BlinkerA {
-	0% {Position: Absolute; Visibility: Hidden;}
-	50% {Position: Static; Visibility: Visible;}
-	100% {Position: Absolute; Visibility: Hidden;}
-}
-.BlinkO {
-	Animation: BlinkerO 0.25s Step-Start Infinite;
-}
-@keyframes BlinkerO {
-	0% {Position: Static; Visibility: Visible;}
-	50% {Position: Absolute; Visibility: Hidden;}
-	100% {Position: Static; Visibility: Visible;}
-}
-
 /*!--   Credits: https://codepen.io/jh3y/pen/WNrXqYz   ---*/
 .WavyText {
 	Text-Align: Center;

@@ -2,9 +2,13 @@
 import hashlib, os, shutil, sys, time
 from pathlib import Path
 
+GoogleLangs = ['af', 'sq', 'am', 'ar', 'hy', 'as', 'ay', 'az', 'bm', 'eu', 'be', 'bn', 'bho', 'bs', 'bg', 'ca', 'ceb', 'ny', 'zh', 'zh_HANT', 'co', 'hr', 'cs', 'da', 'dv', 'doi', 'nl', 'en', 'eo', 'et', 'ee', 'tl', 'fi', 'fr', 'fy', 'gl', 'ka', 'de', 'el', 'gn', 'gu', 'ht', 'ha', 'haw', 'iw', 'hi', 'hmn', 'hu', 'is', 'ig', 'ilo', 'id', 'ga', 'it', 'ja', 'jw', 'kn', 'kk', 'km', 'rw', 'gom', 'ko', 'kri', 'ku', 'ckb', 'ky', 'lo', 'la', 'lv', 'ln', 'lt', 'lg', 'lb', 'mk', 'mai', 'mg', 'ms', 'ml', 'mt', 'mi', 'mr', 'mni-Mtei', 'lus', 'mn', 'my', 'ne', 'no', 'or', 'om', 'ps', 'fa', 'pl', 'pt', 'pa', 'qu', 'ro', 'ru', 'sm', 'sa', 'gd', 'nso', 'sr', 'st', 'sn', 'sd', 'si', 'sk', 'sl', 'so', 'es', 'su', 'sw', 'sv', 'tg', 'ta', 'tt', 'te', 'th', 'ti', 'ts', 'tr', 'tk', 'ak', 'uk', 'ur', 'ug', 'uz', 'vi', 'cy', 'xh', 'yi', 'yo', 'zu'] # {LingvaURL}/api/v1/languages
+DeepLLangs = ['et', 'ja', 'lt', 'lv', 'de', 'hu', 'ru', 'zh', 'ro', 'da', 'it', 'es', 'nl', 'fr', 'sk', 'sl', 'pt', 'en', 'sv', 'fi', 'pl', 'el', 'bg', 'cs'] # All from output of `deepl --help`
+UserAgent = 'sitoctt:Translate.py'
+
 Engine = 'Google' # 'Google' or 'DeepL'
 SourceLang = 'it'
-DestLangs = ['de', 'en', 'es', 'fr', 'it', 'jp', 'ko', 'pt', 'ru', 'zh'] #['et', 'ja', 'lt', 'lv', 'de', 'hu', 'ru', 'zh', 'ro', 'da', 'it', 'es', 'nl', 'fr', 'sk', 'sl', 'pt', 'en', 'sv', 'fi', 'pl', 'el', 'bg', 'cs'] # All from output of `deepl --help`
+DestLangs = GoogleLangs
 
 # With shutil.copytree copy only folder struct, no files; https://stackoverflow.com/a/15664273
 def IgnoreFiles(Dir, Files):
@@ -29,7 +33,7 @@ def StrReverse(Str):
 def TryTranslate(Text):
 	try:
 		if Engine.lower() == 'google':
-			return json.loads(urlopen(Request(f'{LingvaInstance}/api/v1/{SourceLang}/{Lang}/{URLParse.quote(Text, safe="")}')).read())["translation"]
+			return json.loads(urlopen(Request(f'{LingvaURL}/api/v1/{SourceLang}/{Lang}/{URLParse.quote(Text, safe="")}', headers={'User-Agent':UserAgent})).read())["translation"]
 		elif Engine.lower() == 'deepl':
 			return Translate.translate(Text)
 	except Exception as e:
@@ -37,7 +41,7 @@ def TryTranslate(Text):
 		return False
 
 if Engine.lower() == 'google':
-	LingvaInstance = sys.argv[1]
+	LingvaURL = sys.argv[1]
 	import json
 	from urllib import parse as URLParse
 	from urllib.request import urlopen, Request

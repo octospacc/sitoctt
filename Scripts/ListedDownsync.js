@@ -7,7 +7,7 @@ const BlogURL = 'https://listed.to/@u8'; // Full base URL of the Listed blog (an
 const SiteName = 'sitoctt';
 //const DefaultMode = 'Include' // 'Include' or 'Exclude' | Not implemented
 const PostsFileDate = true; // Append dates (YYYY-MM-DD) to posts file names
-const Replacements = { // Format: { ReplaceWithString: [ToFindString] }
+let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	"<h2>[:HNotesRefsHTML:]</h2>": "<h2>🏷️ Note e Riferimenti</h2>",
 	'<div class="footnotes">': ['<div class="footnotes"><hr>', '<div class="footnotes">\n<hr>'],
 	'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
@@ -15,9 +15,12 @@ const Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	" src=\"[staticoso:CustomPath:Assets]/": " src=\"https://sitoctt-assets.octt.eu.org/",
 	// TODO: Fix anchor rels
 };
+const TestURL = 'https://listed.to/p/hDaMhJ2ts7';
 
 const MetadataBlockSelect = '.MetadataBlock, .MetadataBlock + :Where(Div, Pre, Code)';
+const ReplacementsBlockSelect = '.ReplacementsBlock, .ReplacementsBlock + :Where(Div, Pre, Code)';
 const ExtractCodeBlockSelect = '.ExtractCodeBlock, .ExtractCodeBlock + :Where(Div, Pre, Code)';
+const DeleteElementBlockSelect = '.DeleteElementBlock';
 
 const TryReadFileSync = Path => {
 	if (fs.existsSync(Path)) {
@@ -42,6 +45,10 @@ const GetFragHTML = Frag => {
 	let Dom = new JSDOM('<body></body>');
 	Dom.window.document.body.appendChild(Frag);
 	return Dom.window.document.body.innerHTML.trim();
+};
+
+const CSSFirstTokenSelector = Select => {
+	return Select.trim().replaceAll('.', '').replaceAll(',', '').split(' ')[0];
 };
 
 const CheckDownsync = Body => {
@@ -124,7 +131,7 @@ const MakeMetaStr = Post => {
 	return Str;
 };
 
-const HandlePost = PostSrc => {
+const HandlePost = (PostSrc, Output) => {
 	let ContentDom, LinkPath;
 	let Post = {'Meta': {}, 'Macros': {}};
 
@@ -135,7 +142,7 @@ const HandlePost = PostSrc => {
 
 	ContentDom = JSDOM.fragment(Post.Content);
 
-	// Handle MetadataBlock elements
+	// Handle .MetadataBlock elements
 	let MetadataBlocks = ContentDom.querySelectorAll(MetadataBlockSelect);
 	for (let i=0; i<MetadataBlocks.length; i++) {
 		const Elem = MetadataBlocks[i];
@@ -160,6 +167,24 @@ const HandlePost = PostSrc => {
 			console.log(`[I] :  No Downsync flag set with URL in source body; Skipping!`);
 			return;
 		};
+	};
+
+	// Handle .ReplacementsBlock elements: Add replacements to do to the default ones or override them.
+	let ReplBlocks = ContentDom.querySelectorAll(ReplacementsBlockSelect);
+	for (let i=0; i<ReplBlocks.length; i++) {
+		const Elem = ReplBlocks[i];
+		let Text = Elem.textContent.trim();
+		if (Text) {
+			if (!(Text.startsWith('{') && Text.endsWith('}'))) {
+				Text = `{${Text}}`;
+			};
+			try {
+				Replacements = Object.assign(Replacements, JSON.parse(Text));
+			} catch(e) {
+				console.log(`[W] :  Problem parsing JSON in a ReplacementsBlock; Ignoring!`);
+			};
+		};
+		ReplBlocks[i].outerHTML = '';
 	};
 
 	Post.Content = GetFragHTML(ContentDom);
@@ -189,12 +214,21 @@ const HandlePost = PostSrc => {
 
 	ContentDom = JSDOM.fragment(Post.Content);
 
-	// Handle ExtractCodeBlock elements
-	// TODO: Opposite of extract blocks? (Allowing some HTML to remain on Listed but get deleted from here)
+	// Handle .DeleteElementBlock elements: Elements that must be visible on Listed but deleted here.
+	let DelElemBlocks = ContentDom.querySelectorAll(DeleteElementBlockSelect);
+	for (let i=0; i<DelElemBlocks.length; i++) {
+		const Elem = DelElemBlocks[i];
+		if (!Elem.textContent) {
+			DelElemBlocks[i].nextElementSibling.outerHTML = '';
+		};
+		DelElemBlocks[i].outerHTML = '';
+	};
+
+	// Handle .ExtractCodeBlock elements: Allow for text to be treated as plain on Listed, and then extracted here.
 	let ExtCodeBlocks = ContentDom.querySelectorAll(ExtractCodeBlockSelect);
 	for (let i=0; i<ExtCodeBlocks.length; i++) {
 		const Elem = ExtCodeBlocks[i];
-		const Find = ExtractCodeBlockSelect.trim().replaceAll('.', '').replaceAll(',', '').split(' ')[0];
+		const Find = CSSFirstTokenSelector(ExtractCodeBlockSelect);
 		if (Array.from(Elem.classList).includes(Find)) {
 			ExtCodeBlocks[i].outerHTML = ''; // Remove the ExtractCodeBlock upper-marker
 		} else {
@@ -204,13 +238,17 @@ const HandlePost = PostSrc => {
 
 	Post.Content = GetFragHTML(ContentDom);
 
-	TryMkdirSync(PathDir);
-	fs.writeFileSync(FinalFilePath, `\
+	if (Output == 'file') {
+		TryMkdirSync(PathDir);
+		fs.writeFileSync(FinalFilePath, `\
 ${MakeMetaStr(Post)}
 <h1>${Post.Meta.HTMLTitle ? Post.Meta.HTMLTitle : Post.Meta.Title}</h1>
 
 ${Post.Content}
 `);
+	} else if (Output == 'stdout') {
+		console.log(Post.Content);
+	};
 };
 
 const Main = _ => {
@@ -220,9 +258,19 @@ const Main = _ => {
 		const Elem = JSDOM.fragment(Data).querySelector('script[data-component-name="AuthorAll"]');
 		const Posts = JSON.parse(Elem.childNodes[0].data).posts;
 		for (let i=0; i<Posts.length; i++) {
-			HandlePost(Posts[i]);
+			HandlePost(Posts[i], 'file');
 		};
 	});
 };
 
+const Test = _ => {
+	console.log('[I] Testing...');
+	fetch(TestURL).then(Response => Response.text()).then(Data => {
+		const Elem = JSDOM.fragment(Data).querySelector('script[data-component-name="PostShow"]');
+		const Post = JSON.parse(Elem.childNodes[0].data).post;
+		HandlePost(Post, 'stdout');
+	});
+};
+
 Main();
+//Test();

@@ -54,8 +54,7 @@ Details Div {
 	Padding: 4px;
 }
 .BorderBox,
-.BorderBoxContainer > Div:Not(.NoBorderBox),
-.BorderBoxContainer > Details:Not(.NoBorderBox),
+.BorderBoxContainer > :Where(Div, Details):Not(.NoBorderBox),
 Details Div Details:Not(.NoBorderBox) {
 	Border: 2px Solid Purple;
 	Margin: 8px;
@@ -63,7 +62,7 @@ Details Div Details:Not(.NoBorderBox) {
 }
 
 A { Color: #D000D0; }
-Code A, .Code A { Color: #60D0D0; }
+:Where(Code, .Code) A { Color: #60D0D0; }
 
 H1, H2, H3, H4, H5, H6 {
 	Color: #503080;
@@ -75,6 +74,12 @@ Ul {
 Table :Where(Td, Th, Tr) {
 	Border: 2px Solid Purple;
 	Padding: 4px;
+}
+
+Blockquote, .Blockquote {
+	Margin-Left: 2em;
+	Padding-Left: 1em;
+	Border-Left: 3px Solid #85588C;
 }
 
 .ScrollBox, .ScrollBorderBox {
@@ -100,11 +105,16 @@ Code:Not(Pre Code) {
 	Padding: 4px 4px 4px 4px;
 }
 
+Video.SmallVideoQuote { Float:Left; }
+Video.SmallVideoQuote + Blockquote {
+	Display: Inline-Block;
+	Margin-Top: 0;
+	Margin-Bottom: 0px;
+}
+
 #MainBox A:Not(
-	.NoLinkLink, .NoLinkLink A,
-	.staticoso-SectionLink A,
-	#StatCounter A,
-	#RingsDiv A
+	.NoLinkLink,
+	:Where(.NoLinkLink, .staticoso-SectionLink, #StatCounter, #RingsDiv) A
 ):Before {
 	Content: '🔗 ';
 }
@@ -136,10 +146,11 @@ Header > P > A > Img {
 }
 
 A:Hover:Not(
-	H3 > A, H4 > A, H5 > A, H6 > A,
-	.NoABigger, .NoABigger A,
-	.NoHoverLight, .NoHoverLight A
-) {
+	.NoABigger, .NoHoverLight,
+	:Where(.NoABigger, .NoHoverLight) A,
+	:Where(H3, H4, H5, H6) > A
+),
+:Where(.YesHoverLight, .YesHoverLight A):Hover {
 	Color: #EEDDFF !Important;
 	Background: #700070 !Important;
 }
@@ -219,7 +230,8 @@ IFrame {
 .Img36 :Where(Img, Video) { Max-Height: 36vh !important; }
 .Img36 :Where(Img, Video):Hover { Max-Height: 64vh !important; }
 
-.Center Img, .Center Video,
+:Where(Img, Video).Center,
+.Center :Where(Img, Video),
 #MainBox P Img:Not(.NoImgCenter, .NoImgCenter Img),
 #MainBox P Video:Not(.NoImgCenter, .NoImgCenter Video) {
 	Display: Block;
@@ -374,23 +386,6 @@ IFrame {
 
 H1, H2, H3, A, Img, Video, Summary {
 	Transition: 0.3s;
-}
-
-.BlinkA {
-	Animation: BlinkerA 0.25s Step-Start Infinite;
-}
-@keyframes BlinkerA {
-	0% {Position: Absolute; Visibility: Hidden;}
-	50% {Position: Static; Visibility: Visible;}
-	100% {Position: Absolute; Visibility: Hidden;}
-}
-.BlinkO {
-	Animation: BlinkerO 0.25s Step-Start Infinite;
-}
-@keyframes BlinkerO {
-	0% {Position: Static; Visibility: Visible;}
-	50% {Position: Absolute; Visibility: Hidden;}
-	100% {Position: Static; Visibility: Visible;}
 }
 
 /*--------------------------------------------------------*/
