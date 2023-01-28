@@ -30,6 +30,7 @@ Body {
 	Font-Size: 13pt;
 	Padding: Var(--ContentPadding);
 	Overflow-Wrap: Break-Word;
+	Font-Variant-Ligatures: None;
 }
 
 :Where(

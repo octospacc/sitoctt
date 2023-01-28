@@ -1,11 +1,11 @@
 // % Title = 🐕‍🦺 Epicyon, piattaforma del Fediverso durata 2 giorni
 // % CreatedOn = 2022-12-26
 // % Downsync = /Posts/Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html
-// % HTMLTitle = <span class="twa twa-service-dog twa-🐕‍🦺">🐕‍🦺<span></span></span> Epicyon, piattaforma del Fediverso durata 2 giorni
+// % HTMLTitle = <span class="twa twa-service-dog twa-🐕‍🦺"><span>🐕‍🦺</span></span> Epicyon, piattaforma del Fediverso durata 2 giorni
 // % Image = [staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Featured-LCD.png
 // % Categories = Blog Internet
 
-<h1><span class="twa twa-service-dog twa-🐕‍🦺">🐕‍🦺<span></span></span> Epicyon, piattaforma del Fediverso durata 2 giorni</h1>
+<h1><span class="twa twa-service-dog twa-🐕‍🦺"><span>🐕‍🦺</span></span> Epicyon, piattaforma del Fediverso durata 2 giorni</h1>
 
 <p>Ormai, si sa, più passa il tempo e più finisco con l'<strong>esplorare</strong> dettagli sempre più minuti del <strong>Fediverso</strong>.<br>
 Oggi racconto un po' di una <strong>piattaforma</strong> di questo mondo abbastanza <strong>sconosciuta</strong>, e che aveva buone premesse, ma si è rivelata un buco nell'acqua: <strong>Epicyon</strong>.<br>

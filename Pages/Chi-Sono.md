@@ -55,7 +55,7 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
 - <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
 - ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss.octt.eu.org/@octt){[:MdTgtBlank:]}~~
-- <b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org/@octt){[:MdTgtBlank:]}
+- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org/@octt){[:MdTgtBlank:]}~~
 
 ### Crittografia, prove, e altri profili
 
