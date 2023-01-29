@@ -9,17 +9,23 @@
 <p>Fino ad, ormai, 2 mesi fa, il mio <strong>regno del Rasperino</strong> era al suo <strong>splendore massimo</strong>: l'istanza Misskey, messa su giusto 2 settimane prima, <strong>andava alla grande</strong>, e ormai (quasi) tutto sembrava destinato a continuare per bene...<br>
 E invece, <strong>sono subentrati i problemi</strong>. Diciamo che ci ho messo un pochino ad accorgermene, perché si sono sviluppati <strong>in modo</strong> stranamente <strong>graduale</strong>.</p>
 
+<h2>Le crepe iniziali</h2>
+
 <p>La prima cosa veramente <strong>strana</strong> la notai verso l'inizio di Dicembre, in cui mi accorsi che <strong>il sistema poteva crashare</strong> provando a fare un'operazione molto banale ma <strong>specifica</strong>: creare un grande archivio di file (compresso e non)... con qualunque programma.<br>
 Questo piccolo inconveniente ha, a sua volta, causato una <strong>problematica secondaria</strong>... Ci arrivo.<br>
 Comunque, <strong>non ci ho fatto</strong> troppo <strong>caso</strong>. Come potevo? Il resto, se non toccato, <strong>funzionava</strong>, <strong>a parte</strong> qualche leggera <strong>degradazione delle prestazioni</strong> dovuta al lavoro di Misskey stesso.</p>
 
 
 
+<h3>Il primo crollo</h3>
+
 <p>Ma poi, sono passate quelle altre 2 settimane di relativa pace, e io <a href="https://mastodon.uno/@octo/109508472717947364" rel="noopener nofollow" target="_blank">mi sveglio</a> con il <strong>server piantato</strong>, e che <strong>muore male</strong> dopo qualunque mio riavvio manuale (staccando e riattaccando l'alimentatore, è l'unico modo). <a href="https://mastodon.uno/@octo/109518037875867744" rel="noopener nofollow" target="_blank">Dopo 2 giorni</a> di <strong>ricerca molto scazzata</strong> non ho capito assolutamente qual'era la causa generale del problema, ma solo il sintomo più grave, e ormai <strong>mi stavo</strong> quasi <strong>per convincere</strong> che in qualche modo <em>mistico</em> Misskey da solo riuscisse ad abbattere tutto il server, che invece tornava a girare per bene senza quel particolare software in esecuzione. Beh, un fondo di logica nel mio ragionamento c'era, visto che comunque l'<strong>uso medio</strong> di CPU e RAM era <strong>alto</strong> (anche se non andava a saturare totalmente).<br>
 Nei giorni ancora successivi, invece, con <strong>qualche test</strong> scopro che il server non <strong>si piantava per via del</strong> serverino di microblogging, ma per quello che gli fa da <strong>database</strong>: PostgreSQL (in Docker). Se eseguivo Misskey sul mio PC, ma lo lasciavo collegarsi al database sul Raspino, ecco che in pochi secondi, con l'arrivo di tante note, il server fruttato moriva.</p>
 
 <p>Ormai, ad ogni modo, era per me chiara la necessità di <strong>installare qualcos'altro</strong>, perché mi ero convinta che Misskey fosse troppo pesante, e pazienza.<br>
 Per ben 2 giorni <strong>ho provato Epicyon</strong>, una piattaforma a dir poco <strong>particolare</strong>... e <a href="https://sitoctt.octt.eu.org/Posts/2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html" rel="noopener nofollow" target="_blank">l'esperienza non è stata proprio gradevolissima</a>, ma credo sia stata completa, visto che quattromila parole le ho cacciate fuori nel mio articolo dedicato. Subito dopo ho quindi deciso di dare una chance ad un altro software che non avevo mai visto prima, ossia <a href="https://github.com/superseriousbusiness/gotosocial" rel="noopener nofollow" target="_blank">GoToSocial</a>. Con quest'ultimo, nonostante sia dichiaratamente di qualità alpha (e infatti ha qualche problemino), mi sono trovata - perché ahimè ora è tutto finito... ci arrivo, ci arrivo - molto bene, ma <strong>non è questo il punto</strong>.</p>
+
+<h3>Problemi sempre più sospetti</h3>
 
 <p>Appena pochi giorni dopo, quei <strong>crash</strong> strani hanno ripreso a presentarsi, ma stavolta erano decisamente <strong>sospetti</strong>, perché l'<strong>utilizzo di risorse</strong> generale del sistema era <strong>basso</strong>. Io ho provato a leggere i <strong>log di sistema</strong> in maniera produttiva, ma la mia <strong>pazienza</strong> era ormai arrivata <strong>al limite</strong>, e con essa la mia lucidità, quindi ogni giorno cercavo il minimo errore sospetto ma leggibile, fissandomi su quello ed <strong>ignorando</strong> completamente <strong>l'errore illeggibile</strong> che mi stava sempre di fronte.</p>
 
@@ -80,10 +86,14 @@ Altro <strong>tempo</strong> ancora fu allora <strong>perso</strong> nel flashar
 
 
 
+<h2>La pace violata</h2>
+
 <p>La cosa importante è che, <strong>messa la nuova SD</strong> nel <em>server lampone</em>, quegli errori terrificanti non si sono più presentati, e i grossi <strong>problemi</strong> sono <strong>spariti</strong>... o almeno così <strong>credevo, volevo, speravo</strong>.<br>
 Se questo articolo, che sarebbe dovuto letteralmente uscire alla fine dell'anno scorso, esce solo ora, dei motivi ci sono. Subito dopo che ebbi fatto il cambio di scheda SD, <strong>preferii aspettare</strong> qualche giorno, per vedere se davvero le acque si fossero calmate, ed evitare di cantare vittoria troppo presto. <strong>Ho fatto bene!</strong></p>
 
 
+
+<h3>Il disco sofferente</h3>
 
 <p>Ahimè, infatti, quelle altre cose viste nei giorni passati nei log <strong>non erano</strong> degli enormi <strong>buchi nell'acqua</strong> (<em>ancora agitata</em>), in particolare gli <strong>errori</strong> che ho subito riconosciuto riguardare il <strong>disco USB</strong>.<br>
 È una cosa che mi succedeva già in passato con un altro adattatore USB per dischi SATA da 2.5", addirittura su macchine diverse (nel periodo in cui ho usato la mia console Nintendo Switch come server...), ma con questo che uso ora non c'erano <strong>mai stati problemi</strong>. E però ora, a quanto vedo, <strong>si scollega</strong> dall'host in maniera <strong>casuale</strong>, <strong>facendo morire</strong> tutti quei <strong>processi</strong> che dipendono dai file che stanno su quel disco, come se di punto in bianco ci fossero attimi in cui non riceve abbastanza corrente. Con qualsiasi combinazione di adattatori SATA e cavetti USB (sia corti che lunghi), <strong>il disco funziona</strong> ancora alla grande <strong>su PC</strong>, quindi <strong>il problema è</strong> chiaramente <strong>il Raspino</strong>... ma vai a capire perché!</p>
@@ -92,6 +102,8 @@ Se questo articolo, che sarebbe dovuto letteralmente uscire alla fine dell'anno 
 Tornando al mondo reale, l'unica ipotesi sensata mi pare che sia questa: a furia di inserire e disinserire il connettore di alimentazione nella sua porta (micro USB-B 2.0, <em>quella grande cacata!!!</em>), i pin da una parte o i pad dall'altra si saranno consumati, quindi la loro superficie di contatto è più ridotta, quindi la resistenza elettrica è maggiore, e quindi il dispositivo viene alimentato con una tensione leggermente minore, e quando una periferica ha bisogno di assorbire molto, ecco <em>i patatrac</em>.</p>
 
 
+
+<h3>Per tentare di risolvere</h3>
 
 <p>Non avendo un altro <em>Raspone</em> uguale, e non avendo altri alimentatori 5V 3A, <strong>la verità non la scoprirò</strong> mai, <strong>ma la soluzione</strong> in qualche modo <strong>devo trovarla</strong> per forza.<br>
 Dopo aver <strong>aspettato così tanto</strong> che i <strong>problemi</strong> al server sono diventati solo più grossi, e i <strong>downtime</strong> molto <strong>più frequenti</strong>, mi decido a <strong>comprare un cavo USB-A-Y</strong>. Alla peggio, se pure non avessi risolto, un cavo di questo tipo fa sempre comodo averlo perché - nonostante <strong>violi gli standard USB</strong> <sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup>- alcuni dispositivi danno tante rogne senza, e alcuni produttori di periferiche <em>merdose</em> addirittura consigliano di usare cavi di questo tipo in caso di problemi (e procedono tuttavia a <strong>non</strong> includerne uno in confezione, indecenti!).</p>
@@ -110,6 +122,8 @@ Dopo aver <strong>aspettato così tanto</strong> che i <strong>problemi</strong>
 </ul>
 
 <p>Non so perché, specialmente considerando che non serve per i riavvii software, ma senza questa procedura il boot può fallire.</p>
+
+<h2>Finalmente, il riposo</h2>
 
 <p>Alla fine, comunque, l'<strong>inferno</strong> sembra essere <strong>finito</strong>, e il <strong>server</strong> ora <strong>funziona</strong>.<br>
 Le fiamme hanno fatto dei danni, però: i <strong>database</strong> di molti miei servizi ospitati si sono <strong>corrotti</strong>, e di 2 in particolare (GoToSocial, che dicevo prima, e Peka, un chatbot basato su una catena di Markov) <strong>ho backup troppo vecchi</strong> (di settimane prima) perché, con il server che moriva, i miei script di backup non riuscivano mai a lavorare... e quindi <strong>questi programmi</strong> ancora adesso sono <strong>offline</strong>, perché <strong>non ho</strong> ancora avuto <strong>la forza di rassegnarmi</strong> a ripristinare i backup antichi.<br>

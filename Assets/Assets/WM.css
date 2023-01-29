@@ -23,9 +23,7 @@
 	--TaskBarHeight: 36px;
 }
 
-* {
-    Box-Sizing: Border-Box;
-}
+* { Box-Sizing: Border-Box; }
 
 Body {
 	Margin: 0;
@@ -62,12 +60,8 @@ Body {
 	Backdrop-Filter: Blur(Var(--RectBlur));
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 }
-.Window:Hover {
-	Z-Index: 192 !Important;
-}
-.Window A, .WindowContent A {
-	/*Color: Var(--WindowLinks);*/
-}
+.Window:Hover { Z-Index: 192 !Important; }
+.Window A, .WindowContent A { /*Color: Var(--WindowLinks);*/ }
 
 .TitleBar {
 	Padding: Var(--WindowMargin);
@@ -77,16 +71,9 @@ Body {
 	Vertical-Align: Top;
 	Max-Height: Var(--TitleBarHeight);
 }
-.TitleBarContent {
-	Text-Align: Center;
-}
-
-.TitleBarContent > Span:Nth-Child(1) {
-	Float: Left;
-}
-.TitleBarContent > Span:Nth-Child(3) {
-	Float: Right;
-}
+.TitleBarContent { Text-Align: Center; }
+.TitleBarContent > Span:Nth-Child(1) { Float: Left; }
+.TitleBarContent > Span:Nth-Child(3) { Float: Right; }
 
 .TaskBar {
 	Width: 100%;
@@ -100,9 +87,9 @@ Body {
 	Max-Height: Var(--TaskBarHeight);
 	Z-Index: 256;
 }
-.TaskBar > Details {
-	Z-Index: 296;
-}
+
+.TaskBar > Details { Z-Index: 296; }
+.TaskBar > Details > Summary { Width: Max-Content; }
 .TaskBar > Details > Div {
 	Position: Fixed;
 	Left: 0px;
@@ -114,12 +101,8 @@ Body {
 	Max-Height: Calc(90vh - Var(--TaskBarHeight));
 	Overflow-Y: Scroll;
 }
-.TaskBarMenu {
-	Font-Size: Larger;
-}
-.TaskBarMenu A {
-	Color: Var(--TaskBarLinks) !Important;
-}
+.TaskBarMenu { Font-Size: Larger; }
+.TaskBarMenu A { Color: Var(--TaskBarLinks) !Important; }
 .MenuButton {
 	Display: Inline-Block;
 	Height: 100%;
@@ -137,9 +120,7 @@ Body {
 	Opacity: 0;
 	/*Visibility: Hidden;*/
 }
-.CheckLabel:Before {
-	Content: '🔼';
-}
+.CheckLabel:Before { Content: '🔼'; }
 :Checked ~ .TitleBarContent > Span > .CheckLabel:Before {
 	Content: '🔽';
 }
@@ -181,12 +162,12 @@ Body {
 #MainWindow {
 	Max-Width: 85vw;
 	Max-Height: Calc(90vh - 24px);
-	Top: Calc(24px + Var(--TitleBarHeight));
+	Top: Calc(/*24px*/56px + Var(--TitleBarHeight));
 	Right: 12px;
 	Z-Index: 20;
 }
 #MainWindow .WindowContent {
-	Max-Height: Calc(90vh - 24px - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
+	Max-Height: Calc(90vh - /*24px*/56px - (Var(--TitleBarHeight) * 2) - Var(--WindowMargin));
 }
 
 #TitlesWindow {
@@ -269,9 +250,7 @@ Body {
 	Bottom: Calc(Var(--TaskBarHeight) + Var(--WindowMargin));
 	Left: Calc(Var(--WindowMargin) * 2);
 }
-#DesktopButtons:Hover {
-	Z-Index: 192 !Important;
-}
+#DesktopButtons:Hover { Z-Index: 192 !Important; }
 
 /*---   "Show Desktop" feature   -------------------------*/
 #DesktopCheck {
@@ -279,9 +258,7 @@ Body {
 	Width: Calc(Var(--TaskBarHeight) - 4px);
 	Height: Calc(Var(--TaskBarHeight) - 4px);
 }
-#DesktopCheck ~ Label {
-	Height: Var(--TaskBarHeight);
-}
+#DesktopCheck ~ Label { Height: Var(--TaskBarHeight); }
 #DesktopCheck, #DesktopCheck ~ Label {
 	Position: Absolute;
 	Bottom: 0 !Important;
