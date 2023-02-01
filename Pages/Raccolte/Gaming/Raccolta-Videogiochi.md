@@ -1,7 +1,7 @@
 // % Categories = Gaming
 // % Index = Categories
 // % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-Videogiochi.css";
-// % EditedOn = 2022-09-19
+// % EditedOn = 2023-02-01
 // $ YouTubeEmbed = https://invidious.weblibre.org/embed/
 
 # Raccolta Videogiochi
@@ -86,8 +86,8 @@ Un gioco di corse in kart con ambienti carini e originali, e tante mascotte del 
 
 ## Il resto
 
-Preferisco avere questa sottosezione per menzionare i giochi che, seppur mi son piaciuti abbastanza da finire su questa pagina, sono per me sia poco meno importanti che troppo conosciuti.  
-_I titoli che hanno soltanto una di queste due caratteristiche possono tranquillamente trovarsi in sezioni sopra._
+Preferisco avere questa sottosezione per menzionare i giochi che, seppur mi son piaciuti abbastanza da finire su questa pagina, sono per me poco meno importanti, oppure un po' troppo conosciuti.  
+_I titoli che hanno soltanto una di queste due caratteristiche potrebbero anche trovarsi in sezioni sopra._
 
 ### <span class="twa twa-🧗‍♀️">🧗‍♀️</span> Celeste  
 Celeste è un bel giochino platformer, con meccaniche originali e uno stile grafico unico. Però è troppo difficile.  
@@ -101,3 +101,7 @@ Ho provato a giocarci tante volte, ma ad un certo punto della storia la difficol
 Pilotwings Resort continua la serie di Pilotwings, gioco di simulazione di volo arcade, in modo diverso. Finisce su una console portatile, il 3DS, tra l'altro una console che riesce a prenderti direttamente, con il suo display in 3D stereoscopico. Il gioco è ambientato su Wuhu Island, lo stesso posto pieno di storia, luoghi, e misteri di Wii Sports Resort. La modalità missioni riesce ad essere in certi casi una vera sfida se, come me, si ha la mania del platinaggio.. ma la modalità di volo libero è indiscutibilmente rilassante e, forse, direi anche più immersiva. In essa, comunque, non è che non si faccia nulla: si devono trovare, pochi alla volta, tutti e 120 gli anelli informazione, passandoci attraverso per sbloccarli.  
 <iframe frameBorder="0" src="[:YouTubeEmbed:]/QJCb8qnHauo" style="Height:Calc(80vw / 16 * 9);"></iframe>  
 <cite>Da <a href="[:YouTubeURL:]/QJCb8qnHauo" [:HTMLTgtBlank:]>YouTube/QJCb8qnHauo</a>.</cite>
+
+## Altri ancora
+
+Può essere che non ho tempo, o forse non ho voglia, o magari è colpa di Antani, ma comunque ci sarebbero diverse altre opere che qui non ho menzionato. Forse molti li trovate tranquillamente sulla **OcttKB** comunque, sotto il tag [Gaming](https://kb.octt.eu.org/#Gaming).

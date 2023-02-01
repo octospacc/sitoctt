@@ -255,8 +255,7 @@ IFrame {
 	Clear: Both;
 	Display: Table;
 }
-.MediaRow2 Img,
-.MediaRow2 Video {
+.MediaRow2 :Where(Img, Video) {
 	Float: Left;
 	Width: 50%;
 	Padding: 4px;
@@ -344,7 +343,6 @@ IFrame {
 }
 
 /* No selezione */
-.NoSelect,
 #LeftBox, #LeftBoxContainer,
 #RightBox, #RightBoxContainer, 
 #BottomBoxCheck, #BottomBoxLabel {

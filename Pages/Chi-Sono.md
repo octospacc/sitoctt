@@ -2,7 +2,7 @@
 // % HTMLTitle: <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono
 // % Index: True
 // % Order: 20
-// % UpdatedOn = 2022-12-24
+// % UpdatedOn = 2023-02-01
 // $ SelfhostLineBadge = <small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST!</small>
 
 # <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono?
@@ -29,7 +29,7 @@ Spesso dormo anche, ahhh bello quando dormi che stai lì così, ohhh, e ogni tan
 
 Scrivo anche programmi veri e propri a volte. Più che altro, programmini, perchè se mi imbarco in grosse imprese poi rischio <small>(no no, succede spesso, quale "rischio", è una certezza)</small> di lasciare roba abbandonata a metà... tuttavia, ad onor del vero, [staticoso](./index.html#-Codice-sorgente) per ora sembra essere l'eccezione! 🥳
 
-Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco.
+Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco. Qui comunque ce ne sono alcuni che consiglio: [Raccolta Videogiochi](Pages/Raccolte/Gaming/Raccolta-Videogiochi.md).
 
 Ah, e devo anche ancora andare a scuola. Un po' na' seccatura, vabbe, c'è poco da fare.
 
@@ -54,8 +54,12 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
 - <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
+- C'erano anche le mie istanza ActivityPub qui, ma poi sono successi [**gli incidenti**](./Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html).
+
+<!--
 - ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss.octt.eu.org/@octt){[:MdTgtBlank:]}~~
 - ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org/@octt){[:MdTgtBlank:]}~~
+-->
 
 ### Crittografia, prove, e altri profili
 
@@ -66,7 +70,9 @@ Visitandolo, oltre a poter semplicemente accedere a link di alcuni miei altri pr
 
 # Fine?
 
-Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare che mi venga in mente nuova roba da scrivere. Non sperarci troppo, però, considerando che è da più di un mese che questa pagina non si espande sostanzialmente😬.
+Per ora, mi dispiace, ma è tutto. Se vuoi sapere altro, dovrai prima aspettare che mi venga in mente nuova roba da scrivere. Non sperarci troppo, però, considerando che è da mesi e mesi che questa pagina non si espande in modo sostanziale 😬.
+
+Qui sul sito, comunque, non ho ancora avuto le idee abbastanza chiare, né la pazienza necessaria, per creare enormi raccolte su tutti quegli elementi di conoscenza che possiedo su soggetti molto particolari. Per il momento, al costo di non aggiungere quasi mai nulla, evito di riempire il postoctt di **troppe** informazioni; però, le butto tutte sulla [OcttKB](https://kb.octt.eu.org).
 
 ---
 
