@@ -7,6 +7,10 @@
 	--ContentPadding: 8px;
 
 	--BodyTextColor: #080810;
+	--cPurpleLighter: #D000D0;
+	--cBasePinky: #EEDDFF;
+	--cBackDark: #300030;
+	--cPurpleDarker: #700070;
 }
 
 * {
@@ -26,7 +30,7 @@ Body {
 	Left: Auto;
 	Right: Auto;
 	Color: Var(--BodyTextColor);
-	Background: #eeddff;
+	Background: Var(--cBasePinky);
 	Font-Size: 13pt;
 	Padding: Var(--ContentPadding);
 	Overflow-Wrap: Break-Word;
@@ -62,7 +66,7 @@ Details Div Details:Not(.NoBorderBox) {
 	Padding: 4px;
 }
 
-A { Color: #D000D0; }
+A { Color: Var(--cPurpleLighter); }
 :Where(Code, .Code) A { Color: #60D0D0; }
 
 H1, H2, H3, H4, H5, H6 {
@@ -88,7 +92,7 @@ Blockquote, .Blockquote {
 }
 .Code, Code:Not(.NoCode), Pre Code:Not(.NoCode), Pre.Code, .CodeScroll {
 	Color: #FAFAF0;
-	Background: #300030;
+	Background: Var(--cBackDark);
 }
 .ScrollBox, .ScrollBorderBox, .CodeScroll {
 	Overflow-X: Auto;
@@ -119,6 +123,21 @@ Video.SmallVideoQuote + Blockquote {
 ):Before {
 	Content: '🔗 ';
 }
+#MainBox A:Not(
+	.NoLinkLink,
+	:Where(.NoLinkLink, .staticoso-SectionLink, #StatCounter, #RingsDiv) A
+):After {
+	Content: '';
+	Border-Radius: 0.125em;
+	Display: Inline-Block;
+	Width: 0.50em;
+	Height: 0.50em;
+	Margin-Bottom: -0.40em;
+	Border-Bottom: 0.20em solid Var(--cPurpleDarker);
+	Border-Right: 0.20em solid Var(--cPurpleDarker);
+	Margin-Left: -0.40em;
+	Opacity: 0.5;
+}
 
 Header > P > A > Img {
 	Display: Inline !Important;
@@ -127,8 +146,8 @@ Header > P > A > Img {
 /* Clickable link at the left of every section title */
 #SitesList B:Target,
 .staticoso-SectionTitle:Target {
-	Color: #EEDDFF !Important;
-	Background: #700070 !Important;
+	Color: Var(--cBasePinky) !Important;
+	Background: Var(--cPurpleDarker) !Important;
 	Text-Decoration: Underline;
 }
 .staticoso-SectionLink {
@@ -152,8 +171,8 @@ A:Hover:Not(
 	:Where(H3, H4, H5, H6) > A
 ),
 :Where(.YesHoverLight, .YesHoverLight A):Hover {
-	Color: #EEDDFF !Important;
-	Background: #700070 !Important;
+	Color: Var(--cBasePinky) !Important;
+	Background: Var(--cPurpleDarker) !Important;
 }
 
 .ImgShiftedH, .ImgShiftedH Img {
@@ -177,10 +196,10 @@ IFrame {
 #LeftBox, #RightBox {
 	Max-Width: 90vw;
 	Color: #fafaf0;
-	Background: #300030;
+	Background: Var(--cBackDark);
 }
 
-:Where(#LeftBox, #RightBox, #BottomBox) A { Color: #eeddff; }
+:Where(#LeftBox, #RightBox, #BottomBox) A { Color: Var(--cBasePinky); }
 :Where(#LeftBox, #RightBox) Ul Li { List-Style-Type: None; }
 :Where(#LeftBox, #RightBox) Ul { Padding-Top: 0px; }
 
@@ -300,7 +319,7 @@ IFrame {
 	Position: Fixed;
 	Z-Index: 16;
 	Color: #fafaf0;
-	Background: #300030;
+	Background: Var(--cBackDark);
 	Max-Width: 60vw;
 	Max-Height: 50vh;
 	Overflow-Y: Scroll;
@@ -353,6 +372,26 @@ IFrame {
 	-ms-user-select: none;
 	User-Select: none;
 }
+
+/*
+@Media (Min-Width: 1000px) {
+	#MainBox {
+		Top: 0px;
+		Left: Unset;
+		Right: 2.5%;
+		Width: 72%;
+	}
+	#LeftBoxContainer, #RightBoxContainer {
+		Float: None;
+		Width: 24%;
+		Position: Static;
+	}
+	#LeftBox, #RightBox {
+		Padding: 0px;
+		Margin: 0px;
+	}
+}
+*/
 
 /*--------------------------------------------------------*/
 
