@@ -5,12 +5,17 @@
 :Root {
 	--ScreenBorderPadding: 4px;
 	--ContentPadding: 8px;
+	--BorderRad0: 2px;
 
 	--BodyTextColor: #080810;
 	--cPurpleLighter: #D000D0;
 	--cBasePinky: #EEDDFF;
 	--cBackDark: #300030;
 	--cPurpleDarker: #700070;
+
+	--mDesktopMainWidth: 72.5%;
+	--mDesktopSideWidth: 22.5%/*24%*/;
+	--mDesktopSideLeft: 12px/*8*/;
 }
 
 * {
@@ -155,22 +160,17 @@ Header > P > A > Img {
 	Left: -1.5em;
 	Opacity: 0.08;
 }
-.staticoso-SectionLink:Hover {
-	Opacity: 0.8;
-}
-.staticoso-SectionLink > A::Before {
-	Content: '🔗';
-}
-.staticoso-SectionLink > A > Span {
-	Font-Size: 0;
-}
+.staticoso-SectionLink:Hover { Opacity: 0.8; }
+.staticoso-SectionLink > A:Before { Content: '🔗'; }
+.staticoso-SectionLink > A { Border-Radius: Var(--BorderRad0); }
+.staticoso-SectionLink > A > Span { Font-Size: 0; }
 
 A:Hover:Not(
 	.NoABigger, .NoHoverLight,
 	:Where(.NoABigger, .NoHoverLight) A,
 	:Where(H3, H4, H5, H6) > A
 ),
-:Where(.YesHoverLight, .YesHoverLight A):Hover {
+.YesHoverLight:Hover, .YesHoverLight A:Hover {
 	Color: Var(--cBasePinky) !Important;
 	Background: Var(--cPurpleDarker) !Important;
 }
@@ -179,8 +179,6 @@ A:Hover:Not(
 	Margin-Top: 4px;
 	/* Margin-Bottom: -4px; */
 }
-
-Details > Summary:hover { Font-Size: 15pt; }
 
 H1:hover { Font-Size: 28pt; }
 H2:hover { Font-Size: 21.5pt; }
@@ -197,6 +195,7 @@ IFrame {
 	Max-Width: 90vw;
 	Color: #fafaf0;
 	Background: Var(--cBackDark);
+	Border-Radius: Var(--BorderRad0);
 }
 
 :Where(#LeftBox, #RightBox, #BottomBox) A { Color: Var(--cBasePinky); }
@@ -292,7 +291,7 @@ IFrame {
 	Z-Index: -1;
 }
 #LeftBoxContainer, #RightBoxContainer { Position: Absolute; }
-#LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer { Color: #808080; }
+#LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer, #DesktopModeCheck { Color: #808080; }
 #BottomBox, #BottomBoxContainer {
 	Box-Sizing: Border-Box;
 	Position: Fixed;
@@ -300,6 +299,7 @@ IFrame {
 	Left: 0;
 	Right: 0;
 	Width: 100%;
+	Min-Height: 48px;
 }
 #BottomBoxContainer { Padding: Var(--ScreenBorderPadding); }
 #TopBoxLeft {
@@ -352,11 +352,11 @@ IFrame {
 	Left: 0;
 	Margin: Var(--ScreenBorderPadding);
 }
-#LeftBoxCheck, #RightBoxCheck, #BottomBoxCheck {
+.ToggleBoxCheck {
 	Position: Fixed;
 	Opacity: 0;
 }
-:Checked ~ .ToggleBox {
+.ToggleBoxCheck:Checked ~ .ToggleBox {
 	Display: None;
 	Visibility: Hidden;
 }
@@ -364,7 +364,8 @@ IFrame {
 /* No selezione */
 #LeftBox, #LeftBoxContainer,
 #RightBox, #RightBoxContainer, 
-#BottomBoxCheck, #BottomBoxLabel {
+#BottomBoxLabel, #BottomBoxCheck,
+#DesktopModeLabel, #DesktopModeCheck {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -373,14 +374,93 @@ IFrame {
 	User-Select: none;
 }
 
-/*
+#PageContent .staticoso-TreeList.staticoso-PagesList Li {
+	/*background: RGBA(128,128,128,0.5);
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px pink;
+	margin-bottom: 1em;*/
+	Display: Block;
+}
+
+#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
+	Font-Size: Larger;
+}
+
+@Media (Max-Width: 750px) {
+	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
+		Display: Block;
+		Margin-Bottom: 1em;
+	}
+}
+
+@Media (Min-Width: 750px) {
+	#PageContent .staticoso-TreeList.staticoso-PagesList Li { Display: Flex; }
+	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
+		Margin-Bottom: 1em;
+	}
+	/*
+	#PageContent .staticoso-TreeList.staticoso-PagesList Li:Not(:First-Of-Type) > Span {
+		Margin-Left: 16px;
+	}
+	#PageContent .staticoso-TreeList.staticoso-PagesList Li:Not(:First-Of-Type) > Span:Before {
+		background: black;
+		content: "";
+		min-width: 2px;
+		max-width: 2px;
+	}
+	*/
+}
+
+@Media (Max-Width: 1000px) {
+	Details > Summary:Hover { Font-Size: 15pt; }
+
+	#DesktopModeCheck, #DesktopModeLabel { Display: None; }
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Desktop view mode                                   *
+ *--------------------------------------------------------*/
+
 @Media (Min-Width: 1000px) {
-	#MainBox {
+	#DesktopModeCheck/*:Unchecked*/ {
+		Position: Absolute;
+		/* Yeah what? These values have an unknown relationship *\
+		\* to the Top and Left of the label                     */
+		Top: 5.0em;
+		Left: 7.5em;
+		/*Opacity: 0;*/
+	}
+	/*#DesktopModeCheck:Unchecked ~*/ #DesktopModeLabel {
+		Position: Absolute;
+		/* Idk why sometimes with some zoom levels     *\
+		\* this appears to shift up or down 1-2 pixels */
+		Top: 3.55em;
+		Left: 5em;
+	}
+	
+	/* Nota: Forse dovrebbe stare più in alto, a destra, a fianco del tasto Menu */
+	#DesktopModeCheck:Checked {
+		Position: Fixed;
+		Top: 5.5em;
+		Left: 3.5em;
+	}
+	#DesktopModeCheck:Checked ~ #DesktopModeLabel {
+		Position: Fixed;
+		Top: 4em;
+		Left: 2em;
+	}
+
+	#DesktopModeCheck:Checked ~ Div #MainBox {
 		Top: 0px;
 		Left: Unset;
-		Right: 2.5%;
-		Width: 72%;
+		Right: 2%;
+		Width: Var(--mDesktopMainWidth);
 	}
+	/*
 	#LeftBoxContainer, #RightBoxContainer {
 		Float: None;
 		Width: 24%;
@@ -390,8 +470,33 @@ IFrame {
 		Padding: 0px;
 		Margin: 0px;
 	}
+	*/
+	#DesktopModeCheck:Checked ~ Div #LeftBox { max-height: calc(100vh - 52px - 3.5em); Z-Index: 256; }
+	#DesktopModeCheck:Checked ~ Div #RightBox { max-height: calc(100vh - 56px - 4em); }
+	#DesktopModeCheck:Checked ~ Div #LeftBox,
+	#DesktopModeCheck:Checked ~ Div #RightBox {
+		Position: Fixed;
+		Bottom: 52px;
+		Left: Var(--mDesktopSideLeft)/*8px*/;
+		Width: Calc(Var(--mDesktopSideWidth) - Var(--mDesktopSideLeft));
+		Overflow: Scroll;
+	}
+	#DesktopModeCheck:Checked ~ Div #LeftBoxContainer > Details > Summary,
+	#DesktopModeCheck:Checked ~ Div #RightBoxContainer > Details > Summary {
+		position: fixed;
+		left: Calc(Var(--mDesktopSideWidth) - Var(--mDesktopSideLeft) - 60px);
+	}
+	#DesktopModeCheck:Checked ~ Div #LeftBoxContainer > Details > Summary { Top: 1em; }
+	#DesktopModeCheck:Checked ~ Div #RightBoxContainer > Details > Summary { Top: 4em; }
+	#DesktopModeCheck:Checked ~ Div #TopBoxLeft { Position: Fixed; }
+	
+	/* Disable this hover for now: Strange bug with summary button of right sidebar, *\
+	\* goes way lower than it should (?) and does glitchy movements                  */
+	#DesktopModeCheck:Checked ~ Div Details > Summary:Not(
+		#LeftBoxContainer > Details > Summary,
+		#RightBoxContainer > Details > Summary
+	):Hover { Font-Size: 15pt; }
 }
-*/
 
 /*--------------------------------------------------------*/
 
@@ -422,7 +527,8 @@ IFrame {
  *    Animazioni                                          *
  *--------------------------------------------------------*/
 
-H1, H2, H3, A, Img, Video, Summary {
+H1, H2, H3, A, Img, Video, Summary,
+.YesHoverLight {
 	Transition: 0.3s;
 }
 

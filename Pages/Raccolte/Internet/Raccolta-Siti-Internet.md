@@ -13,13 +13,13 @@ Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai
 <div markdown="1" id="SitesList" class="NoImgCenter NoLinkLink ImgShiftedH Pixelated">
 
 <marquee markdown="1">
-[![✨sitoctt✨]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/sitoctt-1.png)](#-Il-mio)
-[![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo-88x31.png)](#-s-a-1)
-[![Dante Scanline]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/DanteScanline-88x31.png)](#-s-a-2)
-[![2Bit]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/2Bit-88x31.png)](#-s-a-3)
-[![neonaut]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/neonaut-88x31.png)](#-s-a-4)
-[![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb-88x31.png)](#-s-a-5)
-[![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks-88x31.gif)](#-s-a-6)
+[![✨sitoctt✨]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/sitoctt-1.png)](#-Il-mio)&nbsp;
+[![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo-88x31.png)](#-s-a-1)&nbsp;
+[![Dante Scanline]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/DanteScanline-88x31.png)](#-s-a-2)&nbsp;
+[![2Bit]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/2Bit-88x31.png)](#-s-a-3)&nbsp;
+[![neonaut]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/neonaut-88x31.png)](#-s-a-4)&nbsp;
+[![Yesterweb]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/Yesterweb-88x31.png)](#-s-a-5)&nbsp;
+[![OpenBooks]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/OpenBooks-88x31.gif)](#-s-a-6)&nbsp;
 </marquee>  
 _Questi sopra sono i siti della lista che hanno un bottone 88x31. Vuoi anche tu il privilegio di stare anche in cima? Allora muoviti a disegnare st'immaginetta, su!_
 

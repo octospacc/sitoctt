@@ -15,13 +15,15 @@
 	<staticoso:DynamicPart:*/Header>
 </div>
 <div id="Container">
+	<input type="checkbox" id="DesktopModeCheck" checked="true">
+	<label title="Attiva/Disattiva Vista a Colonne" id="DesktopModeLabel" for="DesktopModeCheck"><big><b>[<span class="twa twa-framed-picture twa-🖼️"><span>🖼️</span></span>]</b></big></label>
 	<div id="TopBox">
 		<staticoso:StaticPart:Standard/TopBox.html>
 	</div>
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
 			<details>
-				<summary><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></summary>
+				<summary title="Menu Globale"><big><b>[<span class="twa twa-books twa-📚"><span>📚</span></span>]</b></big></summary>
 				<div id="LeftBox">
 					<staticoso:SiteMenu>
 					<hr>
@@ -33,7 +35,7 @@
 		</div>
 		<div id="RightBoxContainer">
 			<details>
-				<summary><big><b>[<span class="twa twa-bookmark-tabs"><span>📑</span></span>]</b></big></summary>
+				<summary title="Sezioni della Pagina"><big><b>[<span class="twa twa-bookmark-tabs twa-📑"><span>📑</span></span>]</b></big></summary>
 				<div id="RightBox">
 					<staticoso:PageSections>
 				</div>
@@ -58,8 +60,8 @@
 		</div>
 	</div>
 	<div id="BottomBoxContainer">
-		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label"><span>🏷️</span></span>]</b></big></label>
-		<input type="checkbox" id="BottomBoxCheck">
+		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label twa-🏷️"><span>🏷️</span></span>]</b></big></label>
+		<input type="checkbox" id="BottomBoxCheck" class="ToggleBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
 			<staticoso:StaticPart:Standard/BottomBox.html>
 		</div>
