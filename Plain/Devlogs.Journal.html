@@ -50,6 +50,8 @@ I still haven't yet prepared this lol
 	
 </div>
 <div id="Container">
+	<input type="checkbox" id="DesktopModeCheck" checked="true">
+	<label title="Attiva/Disattiva Vista a Colonne" id="DesktopModeLabel" for="DesktopModeCheck"><big><b>[<span class="twa twa-framed-picture twa-🖼️"><span>🖼️</span></span>]</b></big></label>
 	<div id="TopBox">
 		<div id="TopBoxLeft">
 	<h3>
@@ -71,9 +73,9 @@ I still haven't yet prepared this lol
 	<div id="MiddleBox">
 		<div id="LeftBoxContainer">
 			<details>
-				<summary><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></summary>
+				<summary title="Menu Globale"><big><b>[<span class="twa twa-books twa-📚"><span>📚</span></span>]</b></big></summary>
 				<div id="LeftBox">
-					<ul>
+					<ul class="staticoso-TreeList staticoso-PagesList">
 <li><a href="index.html"><span class="twa twa-house twa-🏠">🏠</span> ~Home~</a></li>
 <li><a href="Chi-Sono.html"><span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono</a></li>
 <li><a href="Devlogs.html"><span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs</a></li>
@@ -82,7 +84,7 @@ I still haven't yet prepared this lol
 <li><a href="https://kb.octt.eu.org" rel="noopener" target="_blank">📦 OcttKB</a></p></li>
 <li><del><a href="https://octtspacc.gitlab.io/bachecoctt" rel="noopener" target="_blank">🔖️ Bacheca (Old)</a></del></p></li>
 <li><a href="Donazioni.html"><span class="twa twa-money-bag"><span>💰</span></span> Donazioni</a></li>
-<li><span class="twa twa-card-index-dividers twa-🗂️"><span>🗂️</span></span> Raccolte
+<li><span><span class="twa twa-card-index-dividers twa-🗂️"><span>🗂️</span></span> Raccolte</span>
 <ul>
 <li><a href="Categories/Blog.html"><span class="twa twa-notebook twa-📓️"><span>📓️</span></span> Blog</a></li>
 <li><a href="Categories/MicroBlog.html"><span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog</a></li>
@@ -124,9 +126,9 @@ I still haven't yet prepared this lol
 		</div>
 		<div id="RightBoxContainer">
 			<details>
-				<summary><big><b>[<span class="twa twa-bookmark-tabs"><span>📑</span></span>]</b></big></summary>
+				<summary title="Sezioni della Pagina"><big><b>[<span class="twa twa-bookmark-tabs twa-📑"><span>📑</span></span>]</b></big></summary>
 				<div id="RightBox">
-					<ul>
+					<ul class="staticoso-TreeList ">
 </ul>
 				</div>
 			</details>
@@ -141,8 +143,10 @@ I still haven't yet prepared this lol
 <html>
 <head>
 <style> body { color: #000000; background-color: #FFFFFF; } @media (prefers-color-scheme: dark) { body { color: #FFFFFF; background-color: #000000; } } img { max-width: 100%; max-height: 100vh; } </style>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>💾 Devlogs di Octt</title>
-	<link rel="canonical" href="https://sitoctt.octt.eu.org/Devlogs.Journal.html">
+	<link rel="canonical" href="https://sitoctt.octt.eu.org/Devlogs.Journal.html"/>
 	
 </head>
 <body>
@@ -231,24 +235,28 @@ I still haven't yet prepared this lol
 
 <p><a href="index.html#-Sorgenti-e-licenze">(Part.) Copyright</a> (C) 2022-2023, OctoSpacc</p>
 
-<p id="BuildTimeLine">Pagina compilata in data: <span>2023-02-01 23:26</span></p>
+<p>
+	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-02-17 21:02</span></span><!--
+	-->&nbsp;|&nbsp;<!--
+	--><small><a href="https://gitlab.com/octtspacc/sitoctt/-/issues" target="_blank" rel="noopener">Commenti/Issue/PR?</a></small>
+</p>
 
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="BottomBoxContainer">
-		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label"><span>🏷️</span></span>]</b></big></label>
-		<input type="checkbox" id="BottomBoxCheck">
+		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label twa-🏷️"><span>🏷️</span></span>]</b></big></label>
+		<input type="checkbox" id="BottomBoxCheck" class="ToggleBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
 			<h3 class="NoSelect">
-	[<a href="https://translate.google.com/translate?sl=it&tl=en&hl=en&u=https://sitoctt.octt.eu.org/Devlogs.Journal.html&client=webapp">
-		<strong><span class="twa twa-🏳️‍🌈"><span>🏳️‍🌈</span></span> Translate</strong>
-	</a>]
-	
-	[<a href="#Container">
-		<strong><span class="twa twa-⬆️ twa-up-arrow"><span>⬆️</span></span> Torna Su</strong>
-	</a>]
+	[<a title="Open this Page in Google Translate" href="https://translate.google.com/translate?sl=it&tl=en&hl=en&u=https://sitoctt.octt.eu.org/Devlogs.Journal.html&client=webapp"><!--
+		--><strong style="font-size: smaller;"><span class="twa twa-🏳️‍🌈"><span>🏳️‍🌈</span></span>Translate</strong><!--
+	--></a>]<!--
+	-->&nbsp;<!--
+	-->[<a title="Torna in Alto alla Pagina" href="#Container"><!--
+		--><strong><span class="twa twa-⬆️ twa-up-arrow"><span>⬆️</span></span>Su</strong><!--
+	--></a>]
 </h3>
 
 		</div>
