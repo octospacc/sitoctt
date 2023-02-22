@@ -291,7 +291,7 @@ IFrame {
 	Z-Index: -1;
 }
 #LeftBoxContainer, #RightBoxContainer { Position: Absolute; }
-#LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer, #DesktopModeCheck { Color: #808080; }
+#LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer, #DesktopModeLabel { Color: #808080; }
 #BottomBox, #BottomBoxContainer {
 	Box-Sizing: Border-Box;
 	Position: Fixed;
@@ -352,7 +352,7 @@ IFrame {
 	Left: 0;
 	Margin: Var(--ScreenBorderPadding);
 }
-.ToggleBoxCheck {
+.ToggleBoxCheck, #DesktopModeCheck {
 	Position: Fixed;
 	Opacity: 0;
 }

@@ -37,7 +37,12 @@ href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per u
 
 </div>
 
-<details markdown="1" open="1"><summary>
+<details open="1" markdown="1"><summary>
+#### [2023-02-22] staticoso è messo male </summary>
+Ma da quanto che non scrivevo su sta pagina? Vabbe. Oggi cercavo di aggiungere una funzionalità a staticoso... non ce la posso fare, è tutto spaghetti. Ho sbagliato a programmarlo come un programma monolitico, dovevo progettarlo fin da subito come una suite di programmini indipendenti ma correlati. E ora il danno è fatto.
+</details>
+
+<details markdown="1"><summary>
 #### [2022-11-10] Faccio esplodere l'AI </summary>
 Dopo aver scoperto che l'anteprima di ChatGPT è per ora completamente gratuita, ho iniziato a giocarci e a fare cose su cose, dedicandoci forse anche troppo tempo 😅. Ho creato un sito per raccogliere le conversazioni che ho con l'AI, per scopi di ricerca e perché ci sono spesso situazioni che vale la pena condividere: <https://listed.to/@ChatGPT_Experiences>{[:MdTgtBlank:]}
 </details>

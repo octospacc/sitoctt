@@ -19,8 +19,8 @@ img {
 </style>
 "
 
-cp -r ./public ./public.plain
-mv ./public.plain ./public/Plain
+cp -r ./public ./public.Plain
+mv ./public.Plain ./public/Plain
 cd ./public/Plain
 
 find . -name "*.html" \
