@@ -2,7 +2,7 @@ image: alpine:latest
 
 before_script: |
   apk update
-  apk add python3 py3-pip npm go git
+  apk add python3 py3-pip npm go git tar wget
   pip3 install requests lxml
   npm install -g pug-cli
 
@@ -17,7 +17,7 @@ pages:
     chmod +x ./html2gmi
     PATH=$PATH:$PWD
     cd ..
-    git clone --depth 1 https://gitlab.com/octtspacc/staticoso
+    sh ./Scripts/Get.staticosoDevFixed.sh
     sh ./Scripts/Deploy.GitLab.sh
     sh ./Scripts/Deploy.Gemini.sh
     sh ./Scripts/Prepare.NoStyle.sh
