@@ -1,7 +1,6 @@
 #!/bin/sh
-
+[ -e ./.env ] && . ./.env
 Time=time
-. ./.env
 
 python3 -m cProfile \
 	-s $Time \

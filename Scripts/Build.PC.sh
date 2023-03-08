@@ -1,6 +1,5 @@
 #!/bin/sh
-
-. ./.env
+[ -e ./.env ] && . ./.env
 
 python3 ../staticoso/App/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
