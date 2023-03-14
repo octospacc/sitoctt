@@ -13,3 +13,6 @@ Alcune informazioni importanti sono disponibili su:
 => /octt/index.gmi octocapsula/index
 
 "
+
+sh ./Scripts/PostBuild.Common.sh
+sh ./Scripts/Prepare.NoStyle.sh

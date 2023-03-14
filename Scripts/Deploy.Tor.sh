@@ -5,4 +5,5 @@ python3 ../staticoso/Source/Build.py \
 	--FolderRoots="{'*':'/', 'Assets':'/sitoctt-assets'}" \
 	--NoScripts=True
 
+sh ./Scripts/PostBuild.Common.sh
 sh ./Scripts/Prepare.NoStyle.sh

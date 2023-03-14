@@ -10,8 +10,13 @@ python3 ../staticoso/App/Source/Build.py \
 	--GemtextHeader="\
 # Spacc
 
-" #\
+" \
+	--MastodonURL="https://botsin.space" \
+	--MastodonToken="$MastodonToken;Debug=True" \
+	--ActivityPubHoursLimit="0"
 	#--DiffBuild="True" \
 	#--GemtextOutput=True #\
 	#--MastodonURL="https://botsin.space" \
 	#--MastodonToken="$MastodonToken"
+
+sh ./Scripts/PostBuild.Common.sh

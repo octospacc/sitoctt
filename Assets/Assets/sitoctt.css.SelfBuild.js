@@ -1,3 +1,11 @@
+#!/usr/bin/env node
+require('../../Scripts/Lib/SelfBuild.js').importAll();
+
+const SectLink = `.staticoso-SectionLink`;
+const IfDeskMode = `#DesktopModeCheck:Checked`;
+const IfDeskMode_Div =`${IfDeskMode} ~ Div`;
+
+Fs.writeFileSync(__filename.split('.SelfBuild.js')[0], `
 /*--------------------------------------------------------*
  *    Globale                                             *
  *--------------------------------------------------------*/
@@ -42,14 +50,11 @@ Body {
 	Font-Variant-Ligatures: None;
 }
 
-:Where(
-	.staticoso-ContentHeader-CreatedOn,
-	.staticoso-ContentHeader-EditedOn
-) > .staticoso-Value {
+${Where('', '.staticoso-ContentHeader-CreatedOn, .staticoso-ContentHeader-EditedOn', '> .staticoso-Value')} {
 	Font-Weight: Bold;
 }
-.staticoso-ContentHeader-Index > .staticoso-Value:Before { Content: '('; }
-.staticoso-ContentHeader-Index > .staticoso-Value:After { Content: ')'; }
+
+${Unpack('.staticoso-ContentHeader-Index > .staticoso-Value:', ['before { content:"("; }', 'after { content:")"; }'], '')}
 
 /*--------------------------------------------------------*/
 
@@ -74,14 +79,14 @@ Details Div Details:Not(.NoBorderBox) {
 A { Color: Var(--cPurpleLighter); }
 :Where(Code, .Code) A { Color: #60D0D0; }
 
-H1, H2, H3, H4, H5, H6 {
+${Where('h', Range(1,6), '')} {
 	Color: #503080;
 }
 Ul {
 	Padding-Left: 16px;
 	Padding-Right: 4px;
 }
-Table :Where(Td, Th, Tr) {
+${Where('table', ' td, th, tr', '')} {
 	Border: 2px Solid Purple;
 	Padding: 4px;
 }
@@ -160,14 +165,14 @@ Header > P > A > Img {
 	Left: -1.5em;
 	Opacity: 0.08;
 }
-.staticoso-SectionLink:Hover { Opacity: 0.8; }
-.staticoso-SectionLink > A:Before { Content: '🔗'; }
-.staticoso-SectionLink > A { Border-Radius: Var(--BorderRad0); }
-.staticoso-SectionLink > A > Span { Font-Size: 0; }
+${SectLink}:Hover { Opacity: 0.8; }
+${SectLink} > A:Before { Content: '🔗'; }
+${SectLink} > A { Border-Radius: Var(--BorderRad0); }
+${SectLink} > A > Span { Font-Size: 0; }
 
 A:Hover:Not(
 	.NoABigger, .NoHoverLight,
-	:Where(.NoABigger, .NoHoverLight) A,
+	.NoABigger A, .NoHoverLight A,
 	:Where(H3, H4, H5, H6) > A
 ),
 .YesHoverLight:Hover, .YesHoverLight A:Hover {
@@ -198,9 +203,9 @@ IFrame {
 	Border-Radius: Var(--BorderRad0);
 }
 
-:Where(#LeftBox, #RightBox, #BottomBox) A { Color: Var(--cBasePinky); }
-:Where(#LeftBox, #RightBox) Ul Li { List-Style-Type: None; }
-:Where(#LeftBox, #RightBox) Ul { Padding-Top: 0px; }
+#LeftBox A, #RightBox A, #BottomBox A { Color: Var(--cBasePinky); }
+#LeftBox Ul Li, #RightBox Ul Li { List-Style-Type: None; }
+#LeftBox Ul, #RightBox Ul { Padding-Top: 0px; }
 
 #TopBox {
 	Width: 100%;
@@ -237,20 +242,20 @@ IFrame {
 	Padding-Bottom: Calc(Var(--ContentPadding) + 64px);
 }
 
-#MainBox :Where(Img, Video) {
+#MainBox Img, #MainBox Video {
 	Max-Width: 90%;
 	Max-Height: 80vh;
 }
-#MainBox :Where(Img, Video):Hover {
+#MainBox Img:Hover, #MainBox Video:Hover {
 	Max-Width: 100%;
 	Max-Height: 90vh;
 }
 
-.Img36 :Where(Img, Video) { Max-Height: 36vh !important; }
-.Img36 :Where(Img, Video):Hover { Max-Height: 64vh !important; }
+.Img36 Img, .Img36 Video { Max-Height: 36vh !important; }
+.Img36 Img:Hover, .Img36 Video:Hover { Max-Height: 64vh !important; }
 
-:Where(Img, Video).Center,
-.Center :Where(Img, Video),
+Img.Center, Video.Center,
+.Center Img, .Center Video,
 #MainBox P Img:Not(.NoImgCenter, .NoImgCenter Img),
 #MainBox P Video:Not(.NoImgCenter, .NoImgCenter Video) {
 	Display: Block;
@@ -443,18 +448,18 @@ IFrame {
 	}
 	
 	/* Nota: Forse dovrebbe stare più in alto, a destra, a fianco del tasto Menu */
-	#DesktopModeCheck:Checked {
+	${IfDeskMode} {
 		Position: Fixed;
 		Top: 5.5em;
 		Left: 3.5em;
 	}
-	#DesktopModeCheck:Checked ~ #DesktopModeLabel {
+	${IfDeskMode} ~ #DesktopModeLabel {
 		Position: Fixed;
 		Top: 4em;
 		Left: 2em;
 	}
 
-	#DesktopModeCheck:Checked ~ Div #MainBox {
+	${IfDeskMode_Div} #MainBox {
 		Top: 0px;
 		Left: Unset;
 		Right: 2%;
@@ -471,28 +476,27 @@ IFrame {
 		Margin: 0px;
 	}
 	*/
-	#DesktopModeCheck:Checked ~ Div #LeftBox { max-height: calc(100vh - 52px - 3.5em); Z-Index: 256; }
-	#DesktopModeCheck:Checked ~ Div #RightBox { max-height: calc(100vh - 56px - 4em); }
-	#DesktopModeCheck:Checked ~ Div #LeftBox,
-	#DesktopModeCheck:Checked ~ Div #RightBox {
+	${IfDeskMode_Div} #LeftBox { max-height: calc(100vh - 52px - 3.5em); Z-Index: 256; }
+	${IfDeskMode_Div} #RightBox { max-height: calc(100vh - 56px - 4em); }
+	${Where(IfDeskMode_Div+' ', '#LeftBox, #RightBox', '')} {
 		Position: Fixed;
 		Bottom: 52px;
 		Left: Var(--mDesktopSideLeft)/*8px*/;
 		Width: Calc(Var(--mDesktopSideWidth) - Var(--mDesktopSideLeft));
 		Overflow: Scroll;
 	}
-	#DesktopModeCheck:Checked ~ Div #LeftBoxContainer > Details > Summary,
-	#DesktopModeCheck:Checked ~ Div #RightBoxContainer > Details > Summary {
+	${IfDeskMode_Div} #LeftBoxContainer > Details > Summary,
+	${IfDeskMode_Div} #RightBoxContainer > Details > Summary {
 		position: fixed;
 		left: Calc(Var(--mDesktopSideWidth) - Var(--mDesktopSideLeft) - 60px);
 	}
-	#DesktopModeCheck:Checked ~ Div #LeftBoxContainer > Details > Summary { Top: 1em; }
-	#DesktopModeCheck:Checked ~ Div #RightBoxContainer > Details > Summary { Top: 4em; }
-	#DesktopModeCheck:Checked ~ Div #TopBoxLeft { Position: Fixed; }
+	${IfDeskMode_Div} #LeftBoxContainer > Details > Summary { Top: 1em; }
+	${IfDeskMode_Div} #RightBoxContainer > Details > Summary { Top: 4em; }
+	${IfDeskMode_Div} #TopBoxLeft { Position: Fixed; }
 	
 	/* Disable this hover for now: Strange bug with summary button of right sidebar, *\
 	\* goes way lower than it should (?) and does glitchy movements                  */
-	#DesktopModeCheck:Checked ~ Div Details > Summary:Not(
+	${IfDeskMode_Div} Details > Summary:Not(
 		#LeftBoxContainer > Details > Summary,
 		#RightBoxContainer > Details > Summary
 	):Hover { Font-Size: 15pt; }
@@ -533,3 +537,4 @@ H1, H2, H3, A, Img, Video, Summary,
 }
 
 /*--------------------------------------------------------*/
+`);

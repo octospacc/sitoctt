@@ -54,7 +54,7 @@ Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
 - <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
-- C'erano anche le mie istanza ActivityPub qui, ma poi sono successi [**gli incidenti**](./Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html).
+- C'erano anche le mie istanze ActivityPub qui, ma poi sono successi [**gli incidenti**](./Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html).
 
 <!--
 - ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss.octt.eu.org/@octt){[:MdTgtBlank:]}~~

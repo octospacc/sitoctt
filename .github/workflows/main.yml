@@ -27,7 +27,6 @@ jobs:
         sudo npm install -g pug-cli
         sh ./Scripts/Get.staticosoDevFixed.sh
         sh ./Scripts/Deploy.GitHub.sh
-        sh ./Scripts/Prepare.NoStyle.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4

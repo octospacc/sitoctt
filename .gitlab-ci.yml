@@ -20,7 +20,6 @@ pages:
     sh ./Scripts/Get.staticosoDevFixed.sh
     sh ./Scripts/Deploy.GitLab.sh
     sh ./Scripts/Deploy.Gemini.sh
-    sh ./Scripts/Prepare.NoStyle.sh
   artifacts:
     paths:
     - public
