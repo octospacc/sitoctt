@@ -29,6 +29,8 @@
 <!-- <meta name="keywords" content="[staticoso:PageKeywords]"/> -->
 <meta property="article:published_time" content="[staticoso:PageCreatedOn]"/>
 
+<meta id="RawDataCssInject"/>
+
 <!--
 I still haven't yet prepared this lol
 [<]script src="Assets/AVIF-Polyfill/index.js" defer="true"[>][</]script[>]
@@ -38,6 +40,10 @@ I still haven't yet prepared this lol
 	<link href="http://http.sitoctt-assets.octt.eu.org/public/Fonts/SpaceMono/Style.css" rel="stylesheet">
 	<!--style>
 		@import "Assets/Pages/Devlogs.css";
+		Body {
+			/* Fix Space Mono bug with literal "fi" sequences */
+			Font-Variant-Ligatures: None;
+		}
 	</style--->
 	
 	<link href="https://octtspacc.gitlab.io/twemoji-astonishing/twemoji-astonishing.min.css" rel="stylesheet">
@@ -91,11 +97,12 @@ I still haven't yet prepared this lol
 <li><a href="Categories/DIY.html"><span class="twa twa-hammer-and-wrench"><span>🛠️</span></span> DIY</a></li>
 <li><a href="Categories/Ecologia.html"><span class="twa twa-recycling-symbol"><span>♻️</span></span> Ecologia</a></li>
 <li><a href="Categories/Gaming.html"><span class="twa twa-joystick"><span>🕹️</span></span> Gaming</a></li>
-<li><a href="Categories/Internet.html"><span class="twa twa-globe-with-meridians"><span>🌐️</span></span> Internet</a></li>
+<li><a href="Categories/Internet.html"><span class="twa twa-globe-with-meridians twa-🌐️"><span>🌐️</span></span> Internet</a></li>
 <li><a href="Categories/Mobile.html"><span class="twa twa-mobile-phone"><span>📱️</span></span> Mobile</a></li>
 <li><a href="Categories/Note.html"><span class="twa twa-memo"><span>📝️</span></span> Note</a></li>
 <li><a href="Categories/Rasperino.html"><span class="twa twa-money-bag"><span>💰</span></span> Rasperino</a></li>
-<li><a href="Categories/Tecnologia.html"><span class="twa twa-satellite-antenna"><span>📡</span></span> Tecnologia</a></li>
+<li><a href="Categories/Sysadmin.html"><span class="twa twa-gear twa-⚙️"><span>⚙️</span></span> Sysadmin</a></li>
+<li><a href="Categories/Tecnologia.html"><span class="twa twa-satellite-antenna twa-📡"><span>📡</span></span> Tecnologia</a></li>
 </ul></li>
 </ul>
 					<hr>
@@ -235,7 +242,7 @@ I still haven't yet prepared this lol
 <p><a href="index.html#-Sorgenti-e-licenze">(Part.) Copyright</a> (C) 2022-2023, OctoSpacc</p>
 
 <p>
-	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-03-14 14:25</span></span><!--
+	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-03-18 23:25</span></span><!--
 	-->&nbsp;|&nbsp;<!--
 	--><small><a href="https://gitlab.com/octtspacc/sitoctt/-/issues" target="_blank" rel="noopener">Commenti/Issue/PR?</a></small>
 </p>
@@ -245,7 +252,7 @@ I still haven't yet prepared this lol
 		</div>
 	</div>
 	<div id="BottomBoxContainer">
-		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label twa-🏷️"><span>🏷️</span></span>]</b></big></label>
+		<label title="Apri/Chiudi Nastro Inferiore" id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label twa-🏷️"><span>🏷️</span></span>]</b></big></label>
 		<input type="checkbox" id="BottomBoxCheck" class="ToggleBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
 			<h3 class="NoSelect">
@@ -263,5 +270,15 @@ I still haven't yet prepared this lol
 	<!-- <div id="PrivacyPopup"></div> -->
 </div>
 
+<script>
+var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
+
+var MediaQuery = window.matchMedia(`(min-width: ${RawDataCss.DeskModeMinWid})`);
+function MediaQueryCheck(Query) {
+	document.querySelector(`#RightBoxContainer > Details`).open = Query.matches;
+};
+MediaQuery.addListener(MediaQueryCheck);
+MediaQueryCheck(MediaQuery);
+</script>
 </body>
 </html>

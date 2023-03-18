@@ -8,6 +8,7 @@ https://sitoctt.octt.eu.org/Categories/MicroBlog.html
 https://sitoctt.octt.eu.org/Categories/Mobile.html
 https://sitoctt.octt.eu.org/Categories/Note.html
 https://sitoctt.octt.eu.org/Categories/Rasperino.html
+https://sitoctt.octt.eu.org/Categories/Sysadmin.html
 https://sitoctt.octt.eu.org/Categories/Tecnologia.html
 https://sitoctt.octt.eu.org/Categories/index.html
 https://sitoctt.octt.eu.org/Chi-Sono.html
@@ -20,6 +21,7 @@ https://sitoctt.octt.eu.org/Raccolte/Internet/Raccolta-Siti-Internet.html
 https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
 https://sitoctt.octt.eu.org/Raccolte/Sistemi/Raccolta-del-Riso.html
 https://sitoctt.octt.eu.org/index.html
+https://sitoctt.octt.eu.org/Posts/2023-03-18-Cattiva-Interfaccia-Partizione-Distrutta.html
 https://sitoctt.octt.eu.org/Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html
 https://sitoctt.octt.eu.org/Posts/2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html
 https://sitoctt.octt.eu.org/Posts/2022-12-17-Distrazioni-di-Natale-Albero-Padoru.html
