@@ -1,12 +1,12 @@
 // % Title: 👾 L'emulazione NDS, Google Play, e una storia oscura
-// % HTMLTitle: <span class="twa twa-alien-monster"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
+// % HTMLTitle: <span class="twa twa-alien-monster twa-👾"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
 // % URLs = Posts/2022-07-27-0000-Emulazione-NDS-Google-Play-e-una-Storia-Oscura.html
 // % Image: [staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif
 // % CreatedOn: 2022-07-27
 // % EditedOn: 2022-07-29
 // % Categories: Blog Tecnologia Gaming Mobile
 
-# <span class="twa twa-alien-monster"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
+# <span class="twa twa-alien-monster twa-👾"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
 
 Il Nintendo DS. Basta, non serve dire altro; in fondo, tra _nintenditori_, ci si intende.  
 Una console che, 15 anni fa, ha saputo innovare il mercato con lo stesso spirito con cui il Gameboy innovò a suo tempo. Una console le cui esclusive rimangono, ancora oggi, delle perle senza tempo.

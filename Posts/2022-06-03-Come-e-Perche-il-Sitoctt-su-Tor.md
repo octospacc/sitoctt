@@ -1,11 +1,12 @@
 // % Title: 🌐️ Come e perché il sitoctt su Tor?
-// % HTMLTitle: <span class="twa twa-globe-with-meridians"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
+// % Description = In poco tempo dall'apertura del sitoctt, ne ho creato un mirror Tor. Perché? Maggiore sicurezza, privacy per chi visita, e divertimento mio!
+// % HTMLTitle: <span class="twa twa-globe-with-meridians twa-🌐️"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
 // % URLs = Posts/2022-06-03-0000-Come-e-Perche-il-Sitoctt-su-Tor.html
-// % Categories: Blog Internet
+// % Categories: Blog Internet Sysadmin
 // % CreatedOn: 2022-06-03
 // % EditedOn: 2022-06-29
 
-# <span class="twa twa-globe-with-meridians"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
+# <span class="twa twa-globe-with-meridians twa-🌐️"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
 
 In questi giorni ho sistemato i primi affari riguardanti il rendere disponibile il sitocto sulla rete <span style='Color:#59316b;'>Tor</span>. C'è chi mi definirà esagerata anche soltanto per aver avuto il pensiero di fare una cosa del genere, ma c'è poco da fare.  
 Se nulla è andato storto, il servizio Onion è ancora raggiungibile a questo indirizzo:

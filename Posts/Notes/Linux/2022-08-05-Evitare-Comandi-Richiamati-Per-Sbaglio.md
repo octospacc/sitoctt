@@ -1,5 +1,6 @@
 // % Categories: Note
 // % CreatedOn: 2022-08-05
+// % Index: None
 
 # Evitare di richiamare comandi per sbaglio nel terminale
 

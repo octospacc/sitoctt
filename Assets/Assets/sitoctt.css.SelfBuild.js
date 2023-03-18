@@ -1,9 +1,15 @@
 #!/usr/bin/env node
 require('../../Scripts/Lib/SelfBuild.js').importAll();
 
+const DeskModeMinWid = `1024px`;
 const SectLink = `.staticoso-SectionLink`;
 const IfDeskMode = `#DesktopModeCheck:Checked`;
 const IfDeskMode_Div =`${IfDeskMode} ~ Div`;
+const NoLinkLinkWhere = `.NoLinkLink, ${Where('', '.NoLinkLink, .staticoso-SectionLink, #StatCounter, #RingsDiv', ' a')}`;
+
+const RawDataCss = {
+	DeskModeMinWid: DeskModeMinWid,
+};
 
 Fs.writeFileSync(__filename.split('.SelfBuild.js')[0], `
 /*--------------------------------------------------------*
@@ -47,7 +53,6 @@ Body {
 	Font-Size: 13pt;
 	Padding: Var(--ContentPadding);
 	Overflow-Wrap: Break-Word;
-	Font-Variant-Ligatures: None;
 }
 
 ${Where('', '.staticoso-ContentHeader-CreatedOn, .staticoso-ContentHeader-EditedOn', '> .staticoso-Value')} {
@@ -69,7 +74,7 @@ Details Div {
 	Padding: 4px;
 }
 .BorderBox,
-.BorderBoxContainer > :Where(Div, Details):Not(.NoBorderBox),
+${Where('.BorderBoxContainer >', ' Div, Details', ':Not(.NoBorderBox)')}
 Details Div Details:Not(.NoBorderBox) {
 	Border: 2px Solid Purple;
 	Margin: 8px;
@@ -77,7 +82,7 @@ Details Div Details:Not(.NoBorderBox) {
 }
 
 A { Color: Var(--cPurpleLighter); }
-:Where(Code, .Code) A { Color: #60D0D0; }
+Code A, .Code A { Color: #60D0D0; }
 
 ${Where('h', Range(1,6), '')} {
 	Color: #503080;
@@ -127,16 +132,10 @@ Video.SmallVideoQuote + Blockquote {
 	Margin-Bottom: 0px;
 }
 
-#MainBox A:Not(
-	.NoLinkLink,
-	:Where(.NoLinkLink, .staticoso-SectionLink, #StatCounter, #RingsDiv) A
-):Before {
+#MainBox A:Not(${NoLinkLinkWhere}):Before {
 	Content: '🔗 ';
 }
-#MainBox A:Not(
-	.NoLinkLink,
-	:Where(.NoLinkLink, .staticoso-SectionLink, #StatCounter, #RingsDiv) A
-):After {
+#MainBox A:Not(${NoLinkLinkWhere}):After {
 	Content: '';
 	Border-Radius: 0.125em;
 	Display: Inline-Block;
@@ -173,7 +172,7 @@ ${SectLink} > A > Span { Font-Size: 0; }
 A:Hover:Not(
 	.NoABigger, .NoHoverLight,
 	.NoABigger A, .NoHoverLight A,
-	:Where(H3, H4, H5, H6) > A
+	${Where('h', Range(3,6), ' > a')}
 ),
 .YesHoverLight:Hover, .YesHoverLight A:Hover {
 	Color: Var(--cBasePinky) !Important;
@@ -262,7 +261,8 @@ Img.Center, Video.Center,
 	Margin-Left: Auto;
 	Margin-Right: Auto;
 }
-.ImgSidePadding :Where(Img, Video) {
+.ImgSidePadding Img,
+.ImgSidePadding Video {
 	Padding-Left: 16px;
 	Padding-Right: 16px;
 }
@@ -278,7 +278,7 @@ Img.Center, Video.Center,
 	Clear: Both;
 	Display: Table;
 }
-.MediaRow2 :Where(Img, Video) {
+.MediaRow2 Img, .MediaRow2 Video {
 	Float: Left;
 	Width: 50%;
 	Padding: 4px;
@@ -416,9 +416,8 @@ Img.Center, Video.Center,
 	*/
 }
 
-@Media (Max-Width: 1000px) {
+@Media (Max-Width: ${DeskModeMinWid}) {
 	Details > Summary:Hover { Font-Size: 15pt; }
-
 	#DesktopModeCheck, #DesktopModeLabel { Display: None; }
 }
 
@@ -430,33 +429,84 @@ Img.Center, Video.Center,
  *    Desktop view mode                                   *
  *--------------------------------------------------------*/
 
-@Media (Min-Width: 1000px) {
+@Media (Min-Width: ${DeskModeMinWid}) {
 	#DesktopModeCheck/*:Unchecked*/ {
+		Opacity: 0;
+
+		/* For position on top screen area:
 		Position: Absolute;
-		/* Yeah what? These values have an unknown relationship *\
-		\* to the Top and Left of the label                     */
+		*/
+
+		/* For position on bottom ribbon: */
+		Position: Fixed;
+		/* */
+
+		/* Yeah what? Values below have an unknown relationship *\
+		\* to the Top and Left of the label (see below)         */
+
+		/* Button on top (issues, see below):
 		Top: 5.0em;
 		Left: 7.5em;
-		/*Opacity: 0;*/
+		*/
+
+		/* Button on top of bottom ribbon */
+		Bottom: 0.5em;
+		Left: 3.5em;
+		Z-Index: 4;
+		/* */
 	}
 	/*#DesktopModeCheck:Unchecked ~*/ #DesktopModeLabel {
+		/* For position on top screen area:
 		Position: Absolute;
+		*/
+
+		/* For position on bottom ribbon: */
+		Position: Fixed;
+		/* */
+
 		/* Idk why sometimes with some zoom levels     *\
 		\* this appears to shift up or down 1-2 pixels */
+
+		/* Button on top (issues, see below):
 		Top: 3.55em;
 		Left: 5em;
+		*/
+
+		/* Button on top of bottom ribbon */
+		Bottom: 0.5em;
+		Left: 3.5em;
+		Z-Index: 4;
+		/* */
 	}
 	
 	/* Nota: Forse dovrebbe stare più in alto, a destra, a fianco del tasto Menu */
-	${IfDeskMode} {
+	${IfDeskMode} { /* Desktop mode checkbox itself */
 		Position: Fixed;
+
+		/* Button below menu one (issue: gets covered by big menu):
 		Top: 5.5em;
 		Left: 3.5em;
+		*/
+
+		/* Button right of menu one (issue: looks bad because goes over content):
+		Z-Index: 8;
+		Top: 1.5em;
+		Left: Calc(Var(--mDesktopSideWidth) - Var(--mDesktopSideLeft) + 2em);
+		*/
 	}
 	${IfDeskMode} ~ #DesktopModeLabel {
 		Position: Fixed;
+
+		/* Button below menu one (issue: gets covered by big menu):
 		Top: 4em;
 		Left: 2em;
+		*/
+
+		/* Button right of menu one (issue: looks bad because goes over content):
+		Z-Index: 8;
+		Top: 1em;
+		Left: Calc(Var(--mDesktopSideWidth) - Var(--mDesktopSideLeft) + 1em);
+		*/
 	}
 
 	${IfDeskMode_Div} #MainBox {
@@ -537,4 +587,6 @@ H1, H2, H3, A, Img, Video, Summary,
 }
 
 /*--------------------------------------------------------*/
+
+${RawDataCssRule(RawDataCss)}
 `);

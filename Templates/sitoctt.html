@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="<staticoso:PageLang>">
+<html lang="[staticoso:PageLang]">
 <head>
 	<staticoso:StaticPart:Standard/Head.Global.html>
-	<link rel="stylesheet" href="<staticoso:SiteRelativeRoot>Assets/sitoctt.css">
-	<link href="<staticoso:CustomPath:Assets>/Fonts/SpaceMono/Style.css" rel="stylesheet">
+	<link rel="stylesheet" href="[staticoso:SiteRelativeRoot]Assets/sitoctt.css">
+	<link href="[staticoso:CustomPath:Assets]/Fonts/SpaceMono/Style.css" rel="stylesheet">
 	<style>
 		<staticoso:PageStyle>
+		Body {
+			/* Fix Space Mono bug with literal "fi" sequences */
+			Font-Variant-Ligatures: None;
+		}
 	</style>
 	<staticoso:PageHead>
 	<staticoso:DynamicPart:*/Head>
@@ -60,7 +64,7 @@
 		</div>
 	</div>
 	<div id="BottomBoxContainer">
-		<label id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label twa-🏷️"><span>🏷️</span></span>]</b></big></label>
+		<label title="Apri/Chiudi Nastro Inferiore" id="BottomBoxLabel" for="BottomBoxCheck"><big><b>[<span class="twa twa-label twa-🏷️"><span>🏷️</span></span>]</b></big></label>
 		<input type="checkbox" id="BottomBoxCheck" class="ToggleBoxCheck">
 		<div id="BottomBox" class="ToggleBox">
 			<staticoso:StaticPart:Standard/BottomBox.html>
@@ -69,5 +73,15 @@
 	<!-- <div id="PrivacyPopup"></div> -->
 </div>
 <staticoso:DynamicPart:*/Foot>
+<script>
+var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
+
+var MediaQuery = window.matchMedia(`(min-width: ${RawDataCss.DeskModeMinWid})`);
+function MediaQueryCheck(Query) {
+	document.querySelector(`#RightBoxContainer > Details`).open = Query.matches;
+};
+MediaQuery.addListener(MediaQueryCheck);
+MediaQueryCheck(MediaQuery);
+</script>
 </body>
 </html>

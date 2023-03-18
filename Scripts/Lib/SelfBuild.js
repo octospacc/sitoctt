@@ -20,6 +20,19 @@ Exp.Range = (Start, Stop, Step) => {
 	);
 };
 
+Exp.RawDataCssRule = RawData => {
+	//RawData = RawData.map(x => {
+	//	return({animal: x});
+	//});
+	//var JsonData = {};
+	//RawData.forEach(function(Val) { // sad, variable name not transcribed with function pass
+	//	var [Name] = Object.keys({Val});
+	//	Object.assign(JsonData, JSON.parse(`{"${Name}": "${Val}"}`));
+	//});
+	// TODO: Handle apostrophes?
+	return `#RawDataCssInject{background:url('${JSON.stringify(RawData)}');}`;//'\n/*' + JSON.stringify(JsonData) + '*/';
+};
+
 Exp.Unpack = (Left, Middle, Right) => {
 	var Str = '';
 	TryStringToList(Middle).forEach(function(Target) {

@@ -1,10 +1,10 @@
 // % Title: 💻 Come ho riparato il mio portatile (con 25€)
-// % HTMLTitle: <span class="twa twa-laptop"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
+// % HTMLTitle: <span class="twa twa-laptop twa-💻"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
 // % URLs = Posts/2022-07-09-0000-Come-ho-Riparato-il-mio-Portatile-con-25-Euro.html
 // % Categories: Blog Tecnologia DIY Ecologia
 // % CreatedOn: 2022-07-09
 
-# <span class="twa twa-laptop"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
+# <span class="twa twa-laptop twa-💻"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
 
 Da quasi 7 anni ho un PC portatile Acer, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389){[:MdTgtBlank:]}, indubbiamente ormai un po' vetusto, senza lode e con qualche infamia.  
 Quando fu comprato, era in sostanza un notebook di fascia media come un altro, senza alcuna caratteristica degna di nota. Voglio dire, l'ho usato abbastanza e ha più o meno sempre fatto quello che doveva, finché circa 2 annetti fa ho iniziato a pretendere di usare giochini e strumenti di sviluppo pesanti, a quel punto il nuovo PC (fisso) è stato d'obbligo.

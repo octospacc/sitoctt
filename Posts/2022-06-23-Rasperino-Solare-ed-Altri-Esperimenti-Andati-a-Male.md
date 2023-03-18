@@ -1,10 +1,11 @@
 // % Title: ☀️ Rasperino Solare (ed altri esperimenti andati a male)
-// % HTMLTitle: <span class="twa twa-sun"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
+// % Description = Quando ho comprato un pannellino solare USB, l'ho subito messo alla prova. Il suo po' lo fa bene, ma bisogna avere pretese realistiche!
+// % HTMLTitle: <span class="twa twa-sun twa-☀️"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
 // % URLs = Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html
 // % Categories: Blog Rasperino Ecologia Tecnologia
 // % CreatedOn: 2022-06-23
 
-# <span class="twa twa-sun"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
+# <span class="twa twa-sun twa-☀️"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
 
 Qualche mese fa comprai un piccolo [pannello solare monocristallino](https://www.amazon.it/Lixada-Pannello-Monocristallino-Caricabatterie-Cellulare/dp/B071Z1LGFV){[:MdTgtBlank:]} online, dalle dimensioni simili a quelle di un foglio A4, per la cifra di circa 20€ (su Amazon.it i venditori sono tutti ladri, su Aliexpress sarebbe costato un pochino in meno).
 
