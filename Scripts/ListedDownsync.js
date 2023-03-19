@@ -13,7 +13,8 @@ let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
 	" href=\"[staticoso:CustomPath:Assets]/": " href=\"https://sitoctt-assets.octt.eu.org/",
 	" src=\"[staticoso:CustomPath:Assets]/": " src=\"https://sitoctt-assets.octt.eu.org/",
-	'<div class="highlight CodeScroll">': '<div class="highlight">'
+	'<div class="highlight CodeScroll">': '<div class="highlight">',
+	'<iframe src="[:YouTubeURL:]/' :'<iframe src="https://www.youtube-nocookie.com/',
 	// TODO: Fix anchor rels
 };
 const TestURL = 'https://listed.to/p/hDaMhJ2ts7';
