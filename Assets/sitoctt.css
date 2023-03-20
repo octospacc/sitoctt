@@ -374,6 +374,10 @@ Img.Center, Video.Center,
 	Display: Block;
 }
 
+#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span {
+	Min-Width: Fit-Content;
+}
+
 #PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
 	Font-Size: Larger;
 }
