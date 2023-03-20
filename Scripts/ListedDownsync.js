@@ -14,7 +14,9 @@ let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	" href=\"[staticoso:CustomPath:Assets]/": " href=\"https://sitoctt-assets.octt.eu.org/",
 	" src=\"[staticoso:CustomPath:Assets]/": " src=\"https://sitoctt-assets.octt.eu.org/",
 	'<div class="highlight CodeScroll">': '<div class="highlight">',
-	'<iframe src="[:YouTubeURL:]/' :'<iframe src="https://www.youtube-nocookie.com/',
+	//'<iframe src="[:YouTubeURL:]/' :'<iframe src="https://www.youtube-nocookie.com/',
+	'<video src="[:YouTube360:]' :'<iframe src="https://www.youtube-nocookie.com/embed/',
+	'></video>': ' class="YouTube"></iframe>',
 	// TODO: Fix anchor rels
 };
 const TestURL = 'https://listed.to/p/hDaMhJ2ts7';

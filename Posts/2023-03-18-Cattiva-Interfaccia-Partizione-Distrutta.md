@@ -5,6 +5,7 @@
 // % Description = Per fare cose di fretta, ho eliminato per errore una parte del disco del PC. Ma la colpa non è solo mia: il programma che ho usato è disegnato male.
 // % Downsync = /Posts/Cattiva-Interfaccia-Partizione-Distrutta.html
 // % Categories = Blog Sysadmin
+// % UpdatedOn = 2023-03-20
 
 <h1><span class="twa twa-🥴"><span>🥴</span></span> Brutta interfaccia? File tutti distrutti!</h1>
 
@@ -22,8 +23,8 @@
 
 <table><thead>
 <tr>
-<th></th>
-<th></th>
+<th>GParted</th>
+<th>GNOME Disks</th>
 </tr>
 </thead><tbody>
 <tr>
@@ -43,7 +44,7 @@
 <ol>
 <li><strong>Liberare spazio</strong> sul disco del PC, cancellando buona parte dei file, eccetto per quelli che volevo un attimino vedere di conservare (per gestire magari in futuro).</li>
 <li><strong>Ridimensionare la partizione</strong> del disco, visto che a questo punto sarà sufficientemente vuota.</li>
-<li><strong>Creare una nuova</strong> partizione sufficientemente grande in cui installare il nuovo sistema operativo<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup>.</li>
+<li><strong>Creare una nuova</strong> partizione sufficientemente grande in cui installare il nuovo sistema operativo.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup></li>
 <li><strong>Spostare file</strong> dalla vecchia partizione alla nuova, via via restringendo la prima e allargando la seconda, <strong>fino a</strong> poter <strong>eliminare la vecchia</strong>.</li>
 </ol>
 
@@ -62,8 +63,8 @@ Oh, se avrei dovuto starne alla larga. E i motivi sono tanti:</p>
 
 <table><thead>
 <tr>
-<th></th>
-<th></th>
+<th>GParted</th>
+<th>GNOME Disks</th>
 </tr>
 </thead><tbody>
 <tr>
@@ -96,18 +97,41 @@ Seguono i casi che ho visto io, ma forse ce ne sono pure di più possibili eh, c
 <p>Un dettaglio apparentemente piccolo, ma che invece è bello tosto.<br>
 Una stringa di testo permette di far capire inequivocabilmente cosa fa un determinato tasto, a differenza di come può accadere quando si hanno solo icone, ma <strong>il meglio si otterrebbe</strong> combinando le due cose: <strong>tasti accompagnati da icone</strong>.</p>
 
-<p><strong>GParted lo fa</strong> per i suoi menu contestuali (almeno sulle voci più importanti), e ciò permette di memorizzare subito l'<strong>azione</strong> corrispondente a ciascun'opzione, e di richiamarla immediatamente <strong>a colpo d'occhio</strong>.</p>
-
-<p>Personalmente, <strong>usando GNOME Disks</strong> mi trovo invece sempre a <strong>dover rileggere</strong> buona parte del listone per selezionare qualcosa, nonostante non sia più lungo di quello di GParted, proprio perché <strong>mancano le icone</strong>.</p>
-
-<p><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/Context-Menus.png" alt=""></p>
+<table><thead>
+<tr>
+<th>GParted</th>
+<th>GNOME Disks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-Context-Menu.png" alt="Il menu contestuale di una partizione su GParted."></td>
+<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Context-Menu.png" alt="Il menu di opzioni di una partizione su GNOME Disks."></td>
+</tr>
+<tr>
+<td><strong>GParted lo fa</strong> per i suoi menu contestuali (almeno sulle voci più importanti), e ciò permette di memorizzare subito l'<strong>azione</strong> corrispondente a ciascun'opzione, e di richiamarla immediatamente <strong>a colpo d'occhio</strong>.</td>
+<td>Personalmente, <strong>usando GNOME Disks</strong> mi trovo invece sempre a <strong>dover rileggere</strong> buona parte del listone per selezionare qualcosa, nonostante non sia più lungo di quello di GParted, proprio perché <strong>mancano le icone</strong>.</td>
+</tr>
+</tbody></table>
 
 <h4>4. Tasti rapidi e menu a comparsa non sono uno l'alternativa dell'altro</h4>
 
-<ul>
-<li><p>Su <strong>GParted</strong> si ha innanzitutto la <strong>barra dei menu</strong> (di cui vari menu sono richiamabili anche come contestuali in alcune zone), che contiene davvero <strong>tutte le operazioni</strong> possibili nel programma; solo <strong>poi</strong> c'è una barra con delle <strong>icone</strong> utili a richiamare <strong>rapidamente</strong> le azioni probabilmente più comuni. In pratica, finché si ha la barra dei menu, <strong>ci si può</strong> anche <strong>dimenticare</strong> dell'esistenza di <strong>quelle iconcine</strong> lì.</p></li>
-<li><p>Con <strong>GNOME Disks</strong> questa cosa <strong>non è possibile</strong>. A dire il vero, su <a href="https://duckduckgo.com/?q=gtk3+examples&amp;ia=images&amp;iax=images" rel="noopener nofollow" target="_blank">diverse app GTK3</a> è così: ci sono <strong>azioni fissate</strong> a <strong>tasti-etichetta</strong> in un menu, ed altre fissate a <strong>tasti-icona</strong> direttamente visibili. In genere, però, quei tasti non <strong>scompaiono o appaiono</strong> in parte al cambiare di stato all'interno di una stessa vista dell'applicazione! Magari ho gusti strani, ma sta cosa mi manda in pappa il cervello durante l'uso del software.</p></li>
-</ul>
+<table><thead>
+<tr>
+<th>GParted</th>
+<th>GNOME Disks</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-Buttons.png" alt="La barra delle icone rapide su GParted."></td>
+<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-1.png" alt="Bottoni crea e opzioni su una partizione in GNOME Disks."> <img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-2.png" alt="Bottoni smonta e opzioni su una partizione in GNOME Disks."> <img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-3.png" alt="Bottoni blocca e opzioni su una partizione in GNOME Disks."> <img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-4.png" alt="Bottone opzioni su una partizione in GNOME Disks."></td>
+</tr>
+<tr>
+<td>Su <strong>GParted</strong> si ha innanzitutto la <strong>barra dei menu</strong> (di cui vari menu sono richiamabili anche come contestuali in alcune zone), che contiene davvero <strong>tutte le operazioni</strong> possibili nel programma; solo <strong>poi</strong> c'è una barra con delle <strong>icone</strong> utili a richiamare <strong>rapidamente</strong> le azioni probabilmente più comuni. In pratica, finché si ha la barra dei menu, <strong>ci si può</strong> anche <strong>dimenticare</strong> dell'esistenza di <strong>quelle iconcine</strong> lì.</td>
+<td>Con <strong>GNOME Disks</strong> questa cosa <strong>non è possibile</strong>. A dire il vero, su <a href="https://duckduckgo.com/?q=gtk3+examples&amp;ia=images&amp;iax=images" rel="noopener nofollow" target="_blank">diverse app GTK3</a> è così: ci sono <strong>azioni fissate</strong> a <strong>tasti-etichetta</strong> in un menu, ed altre fissate a <strong>tasti-icona</strong> direttamente visibili. In genere, però, quei tasti non <strong>scompaiono o appaiono</strong> in parte al cambiare di stato all'interno di una stessa vista dell'applicazione! Magari ho gusti strani, ma sta cosa mi manda in pappa il cervello durante l'uso del software.</td>
+</tr>
+</tbody></table>
+
+<p>Per rendersi conto, basta comparare i bottoni di questa tabella alle opzioni dei menu contestuali visti in quella di sopra!</p>
 
 <h2>Che ho combinato?</h2>
 
@@ -199,7 +223,7 @@ Ohibò, vedo la schermata nera di GRUB, e non il sistema che si avvia! ...<stron
 
 <p>E chiudo con un <strong>consiglio</strong>, anzi, una <strong>filosofia di sviluppo</strong>, che tutti coloro che disegnano <strong>UI</strong> (anche io, nelle mie cose, non lo nascondo) dimenticano troppo spesso: <a href="https://www.youtube.com/watch?v=r2CbbBLVaPk" rel="noopener nofollow" target="_blank">L'utente è ubriaco</a>.</p>
 
-<iframe src="[:YouTubeURL:]/embed/r2CbbBLVaPk" style="height: calc(80vw / 16 * 9);" frameborder="0"></iframe>
+<video src="[:YouTube360:]r2CbbBLVaPk" style="height: calc(80vw / 16 * 9);" frameborder="0"></video>
 
 <p>Dunque, un saluto. Per il futuro <strong>auguro</strong> di <strong>non perdere dati</strong> in modo stupido (a voi, e a me!). 👋</p>
 

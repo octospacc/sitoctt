@@ -2,7 +2,8 @@
 require('../../Scripts/Lib/SelfBuild.js').importAll();
 
 const DeskModeMinWid = `1024px`;
-const SectLink = `.staticoso-SectionLink`;
+const wSectLink = `.staticoso-SectionLink`;
+const wPagesList = `#PageContent .staticoso-TreeList.staticoso-PagesList`
 const IfDeskMode = `#DesktopModeCheck:Checked`;
 const IfDeskMode_Div =`${IfDeskMode} ~ Div`;
 const NoLinkLinkWhere = `.NoLinkLink, ${Where('', '.NoLinkLink, .staticoso-SectionLink, #StatCounter, #RingsDiv', ' a')}`;
@@ -164,10 +165,10 @@ Header > P > A > Img {
 	Left: -1.5em;
 	Opacity: 0.08;
 }
-${SectLink}:Hover { Opacity: 0.8; }
-${SectLink} > A:Before { Content: '🔗'; }
-${SectLink} > A { Border-Radius: Var(--BorderRad0); }
-${SectLink} > A > Span { Font-Size: 0; }
+${wSectLink}:Hover { Opacity: 0.8; }
+${wSectLink} > A:Before { Content: '🔗'; }
+${wSectLink} > A { Border-Radius: Var(--BorderRad0); }
+${wSectLink} > A > Span { Font-Size: 0; }
 
 A:Hover:Not(
 	.NoABigger, .NoHoverLight,
@@ -379,7 +380,7 @@ Img.Center, Video.Center,
 	User-Select: none;
 }
 
-#PageContent .staticoso-TreeList.staticoso-PagesList Li {
+${wPagesList} Li {
 	/*background: RGBA(128,128,128,0.5);
 	border-radius: 2px;
 	box-shadow: 0px 2px 2px pink;
@@ -387,27 +388,31 @@ Img.Center, Video.Center,
 	Display: Block;
 }
 
-#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
+${wPagesList} Li > Span {
+	Min-Width: Fit-Content;
+}
+
+${wPagesList} Li > Span + A {
 	Font-Size: Larger;
 }
 
 @Media (Max-Width: 750px) {
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
+	${wPagesList} Li > Span + A {
 		Display: Block;
 		Margin-Bottom: 1em;
 	}
 }
 
 @Media (Min-Width: 750px) {
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li { Display: Flex; }
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
+	${wPagesList} Li { Display: Flex; }
+	${wPagesList} Li > Span + A {
 		Margin-Bottom: 1em;
 	}
 	/*
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li:Not(:First-Of-Type) > Span {
+	${wPagesList} Li:Not(:First-Of-Type) > Span {
 		Margin-Left: 16px;
 	}
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li:Not(:First-Of-Type) > Span:Before {
+	${wPagesList} Li:Not(:First-Of-Type) > Span:Before {
 		background: black;
 		content: "";
 		min-width: 2px;
