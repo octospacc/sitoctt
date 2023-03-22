@@ -1,0 +1,27 @@
+// % Categories = Gaming
+// % EditedOn = 2023-03-22
+
+<style>/*
+*/#Body {
+	Color: #000000;
+	Background: url('[staticoso:CustomPath:Assets]/Media/Nonogram/stock.adobe.com-323111281.jpg'), #ccf;
+	Background-Size: 100% auto;
+	Background-Position: Center;
+}
+/**/#LeftBoxContainer, #RightBoxContainer { Color: #000000; }
+/*
+*/#MainBox {
+	Background: RGBA(204, 204, 255, 0.80);
+	backdrop-filter: blur(5px);
+}
+</style>
+
+# 🔢️ Nonogram
+
+I **Nonogram** (conosciuti anche come **Picross**, **Crucipixel**, e un'altra ventina di nomi) sono dei puzzle che consistono nel riempire una griglia di quadratini al fine di svelare un'immagine, utilizzando i numeri ai lati del foglio per trovare intersezioni tra righe e colonne.
+
+WIP... Se vuoi scoprire altre cosine o imparare a giocare, leggi su [Wikipedia](https://it.wikipedia.org/wiki/Nonogram){[:MdTgtBlank:]}.
+
+## [:HNotesRefsHtml:]
+
+[^PageBg]: **Sfondo della Pagina**: [Fonte](https://stock.adobe.com/it/images/close-up-pen-on-a-sheet-with-a-solved-japanese-crossword-leisure-activities/323111281){[:MdTgtBlank:]}
