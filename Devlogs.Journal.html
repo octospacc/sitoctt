@@ -30,19 +30,15 @@
 
 <meta id="RawDataCssInject"/>
 
+<script src="Assets/Global.js"></script>
 <!--
 I still haven't yet prepared this lol
 [<]script src="Assets/AVIF-Polyfill/index.js" defer="true"[>][</]script[>]
 -->
 
-	<link rel="stylesheet" href="Assets/sitoctt.css">
-	<link href="http://http.sitoctt-assets.octt.eu.org/public/Fonts/SpaceMono/Style.css" rel="stylesheet">
+	<link rel="stylesheet" href="Assets/sitoctt.css"/>
 	<style>
 		@import "Assets/Pages/Devlogs.css";
-		Body {
-			/* Fix Space Mono bug with literal "fi" sequences */
-			Font-Variant-Ligatures: None;
-		}
 	</style>
 	
 	<link href="https://octtspacc.gitlab.io/twemoji-astonishing/twemoji-astonishing.min.css" rel="stylesheet">
@@ -294,7 +290,7 @@ I still haven't yet prepared this lol
 <p><a href="index.html#-Sorgenti-e-licenze">(Part.) Copyright</a> (C) 2022-2023, OctoSpacc</p>
 
 <p>
-	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-03-20 22:44</span></span><!--
+	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-03-22 12:08</span></span><!--
 	-->&nbsp;|&nbsp;<!--
 	--><small><a href="https://gitlab.com/octtspacc/sitoctt/-/issues" target="_blank" rel="noopener">Commenti/Issue/PR?</a></small>
 </p>
@@ -323,14 +319,23 @@ I still haven't yet prepared this lol
 </div>
 
 <script>
+// Issue on Firefox 69: Getting background CSS property doesn't work, maybe background: url('') is invalid?
 var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
 
+var SectionMenu = document.querySelector('#RightBoxContainer > Details');
+var NormalOpen = SectionMenu.open;
+
 var MediaQuery = window.matchMedia(`(min-width: ${RawDataCss.DeskModeMinWid})`);
+
 function MediaQueryCheck(Query) {
-	document.querySelector(`#RightBoxContainer > Details`).open = Query.matches;
+	if (Query.matches) NormalOpen = SectionMenu.open; // Go in desktop mode
+	else SectionMenu.open = NormalOpen; // Going in normal mode
+	SectionMenu.querySelector('> Summary').hidden = Query.matches;
 };
+
 MediaQuery.addListener(MediaQueryCheck);
 MediaQueryCheck(MediaQuery);
 </script>
+<link rel="stylesheet" href="http://http.sitoctt-assets.octt.eu.org/public/Fonts/SpaceMono/Style.css"/>
 </body>
 </html>
