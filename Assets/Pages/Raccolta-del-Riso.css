@@ -1,1 +1,11 @@
-.Box-Linux,.Box-Desktop,.Box-XFCE{Display:None}#CheckBox-Linux:Checked ~ Div>.Box-Linux,#CheckBox-Desktop:Checked ~ Div>.Box-Desktop,#CheckBox-XFCE:Checked ~ Div>.Box-XFCE{Display:Inherit}
+.Box-Linux,
+.Box-Desktop,
+.Box-XFCE {
+	Display: None;
+}
+
+#CheckBox-Linux:Checked ~ Div > .Box-Linux,
+#CheckBox-Desktop:Checked ~ Div > .Box-Desktop,
+#CheckBox-XFCE:Checked ~ Div > .Box-XFCE {
+	Display: Inherit;
+}
