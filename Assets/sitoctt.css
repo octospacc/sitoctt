@@ -223,7 +223,9 @@ IFrame {
 	Z-Index: -1;
 	Left: 0;
 	Right: 0;
-	Width: 80%;
+	Width: 75%;
+	Padding-Left: 2.5%;
+	Padding-Right: 2.5%;
 	Padding-Top: Calc(Var(--ContentPadding) + 32px);
 	Padding-Bottom: Calc(Var(--ContentPadding) + 64px);
 }

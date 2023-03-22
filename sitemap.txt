@@ -17,6 +17,7 @@ https://sitoctt.octt.eu.org/Donazioni.html
 https://sitoctt.octt.eu.org/PicoBlog.html
 https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Minesweeper.html
+https://sitoctt.octt.eu.org/Raccolte/Gaming/Nonogram.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Raccolta-Videogiochi.html
 https://sitoctt.octt.eu.org/Raccolte/Internet/Raccolta-Siti-Internet.html
 https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
