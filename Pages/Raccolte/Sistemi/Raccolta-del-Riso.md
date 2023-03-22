@@ -1,9 +1,9 @@
 // % Categories = Tecnologia
 // % Index = Categories
-// % EditedOn = 2022-10-14
+// % EditedOn = 2023-03-22
 // % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
 
-// $ L/VoidLinuxOS = **OS**: [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
+// $ L/VoidLinuxOS = <strong>OS</strong>: <a href="https://voidlinux.org" [:HtmlTgtBlank:]>Void Linux</a>
 
 # Raccolta del Riso
 
@@ -14,8 +14,8 @@ Basta leggere una discussione come [questa](https://web.archive.org/web/20220907
 
 La pratica del ricing non riguarda solo Linux, in quanto si può attuare su virtualmente qualsiasi sistema. Io, però:
 
-- Su PC uso soltanto Linux (_non necessariamente con GNU_ 😏);
-- Su smartphone ho Android non-vanilla (MIUI), e lì purtroppo non c'è granché da cambiare.
+- Su PC uso soltanto Linux (_non necessariamente con GNU_ 😏).
+- Su smartphone ho Android ~~non-vanilla (MIUI)~~ quasi-vanilla (Project Elixir), e ~~lì purtroppo non c'è granché~~ forse qualcosa c'è da poter cambiare, ma boh.
 
 Quindi, posso già dire che la maggior parte dei miei contenuti riguarderà il desktop Linux.
 
@@ -36,7 +36,7 @@ _In costruzione..._
 
 ![]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Ricing/Desktop/Screenshot_2022-10-30_00-14-14.png)
 
-- **OS**: [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
+- [:L/VoidLinuxOS:]
 - **Desktop**: `xfce4`
 - **Pannello**: `xfce4-panel`
 - **Taskbar**: `xfce4-docklike-plugin`

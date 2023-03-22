@@ -1,10 +1,11 @@
-// % Title: 👾 L'emulazione NDS, Google Play, e una storia oscura
-// % HTMLTitle: <span class="twa twa-alien-monster twa-👾"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
+// % Title = 👾 L'emulazione NDS, Google Play, e una storia oscura
+// % HTMLTitle = <span class="twa twa-alien-monster twa-👾"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
+// % Description = Quella che era nata come ricerca per un emulatore NDS che girasse, e bene, sul mio Android, ha rapidamente svelato verità ed eventi assurdi...
 // % URLs = Posts/2022-07-27-0000-Emulazione-NDS-Google-Play-e-una-Storia-Oscura.html
-// % Image: [staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif
-// % CreatedOn: 2022-07-27
-// % EditedOn: 2022-07-29
-// % Categories: Blog Tecnologia Gaming Mobile
+// % Image = [staticoso:Folder:Assets:AbsoluteRoot]/Media/Emulazione-NDS-Android/ACWW-on-Androids.avif
+// % CreatedOn = 2022-07-27
+// % UpdatedOn = 2022-07-29
+// % Categories = Blog Tecnologia Gaming Mobile
 
 # <span class="twa twa-alien-monster twa-👾"><span>👾</span></span> L'emulazione NDS, Google Play, e una storia oscura
 

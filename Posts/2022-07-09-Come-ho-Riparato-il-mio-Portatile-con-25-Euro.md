@@ -1,8 +1,9 @@
-// % Title: 💻 Come ho riparato il mio portatile (con 25€)
-// % HTMLTitle: <span class="twa twa-laptop twa-💻"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
+// % Title = 💻 Come ho riparato il mio portatile (con 25€)
+// % HTMLTitle = <span class="twa twa-laptop twa-💻"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
+// % Description = Man mano che il mio portatile invecchiava, e la tastiera si rompeva sempre più, ho lentamente smesso di usarlo; fino a che, ora, l'ho sistemato!
 // % URLs = Posts/2022-07-09-0000-Come-ho-Riparato-il-mio-Portatile-con-25-Euro.html
-// % Categories: Blog Tecnologia DIY Ecologia
-// % CreatedOn: 2022-07-09
+// % Categories = Blog Tecnologia DIY Ecologia
+// % CreatedOn = 2022-07-09
 
 # <span class="twa twa-laptop twa-💻"><span>💻</span></span> Come ho riparato il mio portatile (con 25€)
 

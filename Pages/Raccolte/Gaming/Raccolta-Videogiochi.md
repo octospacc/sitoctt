@@ -37,6 +37,7 @@ Animal Crossing è uno di quei giochi che va banalmente provato per essere capit
 ### <span class="twa twa-⛏️">⛏️</span> Minecraft  
 Credo si possa dire che Minecraft è **il gioco** bene o male moderno che da semplici premesse sviluppa complessità potenzialmente infinita. In senso buono, ovviamente: la complessità va a colpire e a premiare chi la cerca, ma il titolo resta giocabile per chiunque.  
 All'inizio è fare "case" che sono buchi 4x4 sotto terra, ma dopo diventa creare installazioni titaniche, che siano puramente estetiche o anche funzionali - non dimentichiamo che Minecraft è Turing-complete. E alla fine? Beh, non si arriverà mai alla fine...
+### <a href=./Minesweeper.html>💣 Minesweeper ↗️</a>
 
 ### <span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge  
 Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  

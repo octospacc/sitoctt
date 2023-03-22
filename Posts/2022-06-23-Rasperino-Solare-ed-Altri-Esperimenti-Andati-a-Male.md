@@ -1,9 +1,9 @@
-// % Title: ☀️ Rasperino Solare (ed altri esperimenti andati a male)
+// % Title = ☀️ Rasperino Solare (ed altri esperimenti andati a male)
 // % Description = Quando ho comprato un pannellino solare USB, l'ho subito messo alla prova. Il suo po' lo fa bene, ma bisogna avere pretese realistiche!
-// % HTMLTitle: <span class="twa twa-sun twa-☀️"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
+// % HTMLTitle = <span class="twa twa-sun twa-☀️"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
 // % URLs = Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html
-// % Categories: Blog Rasperino Ecologia Tecnologia
-// % CreatedOn: 2022-06-23
+// % Categories = Blog Rasperino Ecologia Tecnologia
+// % CreatedOn = 2022-06-23
 
 # <span class="twa twa-sun twa-☀️"><span>☀️</span></span> Rasperino Solare (ed altri esperimenti andati a male)
 

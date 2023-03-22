@@ -1,7 +1,8 @@
-// % Title: 🥸️ Come la nostra impronta digitale sociale ci frega
-// % HTMLTitle: <span class="twa twa-disguised-face twa-🥸️"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci frega
-// % Categories: Blog
-// % CreatedOn: 2022-07-17
+// % Title = 🥸️ Come la nostra impronta digitale sociale ci frega
+// % HTMLTitle = <span class="twa twa-disguised-face twa-🥸️"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci freg
+// % Description = Per i motivi più vari, anche leciti, ci si può trovare a voler nascondere proprie identità passate. A volte, però, i dettagli rovinano tutto!
+// % Categories = Blog
+// % CreatedOn = 2022-07-17
 
 # <span class="twa twa-disguised-face twa-🥸️"><span>🥸️</span></span> Come la nostra impronta digitale sociale ci frega
 

@@ -1,5 +1,6 @@
 // % Title = 🎮 Storia antica del DSpacc
 // % HTMLTitle = <span class="twa twa-🎮"><span>🎮</span></span> Storia antica del DSpacc
+// % Description = La prima console da gioco della mia vita ha fatto la guerra, poi preso polvere, e ad oggi non è che stia benissimo; ma uno scopo gliel'ho dato.
 // % Categories = Blog Gaming Tecnologia
 // % CreatedOn = 2022-10-31
 

@@ -2,15 +2,12 @@
 <html lang="<staticoso:PageLang>">
 <head>
 	<staticoso:StaticPart:Standard/Head.Global.html>
-	<link rel="stylesheet" href="<staticoso:SiteRelativeRoot>Assets/WM.css">
-	<link href="<staticoso:CustomPath:Assets>/Fonts/SpaceMono/Style.css" rel="stylesheet">
+	<link rel="stylesheet" href="[staticoso:SiteRelativeRoot]Assets/WM.css"/>
 	<style>
 		<staticoso:PageStyle>
 		Body {
 			Background: url(<staticoso:CustomPath:Assets>/Media/Backgrounds/Circles-Purple.png), #5C00CA;
 			Background-Repeat: Repeat;
-			/* Fix Space Mono bug with literal "fi" sequences */
-			Font-Variant-Ligatures: None;
 		}
 	</style>
 	<staticoso:PageHead>
@@ -82,5 +79,6 @@
 <staticoso:DynamicPart:WM/Other>
 </div>
 <staticoso:DynamicPart:*/Foot>
+<link rel="stylesheet" href="[staticoso:CustomPath:Assets]/Fonts/SpaceMono/Style.css"/>
 </body>
 </html>

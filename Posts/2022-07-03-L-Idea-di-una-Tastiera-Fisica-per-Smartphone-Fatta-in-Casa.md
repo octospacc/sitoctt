@@ -1,9 +1,11 @@
-// % Title: ⌨️ L'idea di una tastiera fisica per smartphone fatta in casa
-// % HTMLTitle: <span class="twa twa-keyboard twa-⌨️"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
+// % Title = ⌨️ L'idea di una tastiera fisica per smartphone fatta in casa
+// % HTMLTitle = <span class="twa twa-keyboard twa-⌨️"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
+// % Description = Con difficoltà ho comprato una tastiera ultra-compatta. L'idea è di costruire una cover-tastiera per il mio telefono, ma ho riscontrato intoppi!
 // % URLs = Posts/2022-07-03-0000-L-Idea-di-una-Tastiera-Fisica-per-Smartphone-Fatta-in-Casa.html
-// % Categories: Blog Tecnologia Mobile DIY
-// % CreatedOn: 2022-07-03
-// % Image: [staticoso:Folder:Assets:AbsoluteRoot]/Media/Cover-Tastiera-mobilefun.com.avif
+// % Categories = Blog Tecnologia Mobile DIY
+// % CreatedOn = 2022-07-03
+// % UpdatedOn = 2023-03-21
+// % Image = [staticoso:Folder:Assets:AbsoluteRoot]/Media/Cover-Tastiera-mobilefun.com.avif
 
 # <span class="twa twa-keyboard twa-⌨️"><span>⌨️</span></span> L'idea di una tastiera fisica per smartphone fatta in casa
 
@@ -56,4 +58,6 @@ Giurerei che la tastiera stessa sia anche più vecchia, considerando i richiami 
 Che dire. Avrei forse dovuto aspettarmelo un problema del genere? Forse si. Sicuramente, però, dubito che altre persone al posto mio se lo sarebbero aspettato.  
 Per finire, l'unica cosa che posso dire è che questo articolo non sarebbe dovuto uscire; o meglio, non con questa fine. Avrei dovuto parlare del Prototipo 0, già realizzato, del mio supporto per smartphone che aggiunge questa tastiera piccina, ma, purtroppo, sento di non aver avuto modo di testarlo abbastanza.
 
-Sperando di riuscire a risolvere il problema della batteria (ma credo di si), nel prossimo articolo, di questa che credo sarà una serie, spiegherò come ho sistemato il tutto, e illustrerò il curioso Prototipo 0.
+Sperando di riuscire a risolvere il problema della batteria (ma credo di si)[^Nuova Batteria], nel prossimo articolo, di questa che credo sarà una serie, spiegherò come ho sistemato il tutto, e illustrerò il curioso Prototipo 0.
+
+[^Nuova Batteria]: **Aggiornamento 2023-03-21**: Mi trovavo a passare di qui, a sistemare alcune cose interne in vecchi file, e ho pensato: anche se alla fine non ho (ancora) scritto nessun articolo di seguito a questo, almeno una nota di aggiornamento qui è degno scriverla. **Poco dopo questo post** ho saldato una vecchia batteria al litio che avevo per casa, grande più o meno uguale, e... **la tastiera ora funziona** perfettamente. Non male dai, **ho risolto** il problema **senza spendere** altri soldi!

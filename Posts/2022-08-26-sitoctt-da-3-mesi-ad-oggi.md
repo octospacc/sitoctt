@@ -1,5 +1,6 @@
 // % Title =  📈 sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
 // % HTMLTitle = <span class="twa twa-chart-increasing twa-📈"><span>📈</span></span> sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi
+// % Description = Dopo pochi mesi dalla nascita di sitoctt e staticoso, guardo indietro per vedere i piccoli - ma certo importanti - progressi fatti finora.
 // % Categories = Blog Internet
 // % CreatedOn = 2022-08-26
 

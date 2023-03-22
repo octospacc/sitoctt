@@ -1,10 +1,10 @@
-// % Title: 🌐️ Come e perché il sitoctt su Tor?
+// % Title = 🌐️ Come e perché il sitoctt su Tor?
 // % Description = In poco tempo dall'apertura del sitoctt, ne ho creato un mirror Tor. Perché? Maggiore sicurezza, privacy per chi visita, e divertimento mio!
-// % HTMLTitle: <span class="twa twa-globe-with-meridians twa-🌐️"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
+// % HTMLTitle = <span class="twa twa-globe-with-meridians twa-🌐️"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
 // % URLs = Posts/2022-06-03-0000-Come-e-Perche-il-Sitoctt-su-Tor.html
-// % Categories: Blog Internet Sysadmin
-// % CreatedOn: 2022-06-03
-// % EditedOn: 2022-06-29
+// % Categories = Blog Internet Sysadmin
+// % CreatedOn = 2022-06-03
+// % EditedOn = 2022-06-29
 
 # <span class="twa twa-globe-with-meridians twa-🌐️"><span>🌐️</span></span> Come e perché il sitoctt su Tor?
 

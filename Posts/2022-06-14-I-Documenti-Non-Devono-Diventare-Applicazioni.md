@@ -1,9 +1,9 @@
-// % Title: 📄 I documenti non devono diventare applicazioni
+// % Title = 📄 I documenti non devono diventare applicazioni
 // % Description = Il Web sta diventando sempre più gonfiato, lento, e rischioso. Ogni sito sta diventando una app, anche se è una cosa sbagliatissima...
-// % HTMLTitle: <span class="twa twa-page-facing-up twa-📄"><span>📄</span></span> I documenti non devono diventare applicazioni
+// % HTMLTitle = <span class="twa twa-page-facing-up twa-📄"><span>📄</span></span> I documenti non devono diventare applicazioni
 // % URLs = Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html
-// % Categories: Blog Internet
-// % CreatedOn: 2022-06-14
+// % Categories = Blog Internet
+// % CreatedOn = 2022-06-14
 
 # <span class="twa twa-page-facing-up twa-📄"><span>📄</span></span> I documenti non devono diventare applicazioni
 
