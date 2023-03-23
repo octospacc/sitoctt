@@ -4,15 +4,20 @@
 <style>/*
 */#Body {
 	Color: #000000;
-	Background: url('[staticoso:CustomPath:Assets]/Media/Nonogram/stock.adobe.com-323111281.jpg'), #ccf;
-	Background-Size: 100% auto;
-	Background-Position: Center;
+	Background: #CCF;
 }
+
+/*
+*/#Background {
+	Background: url('[staticoso:CustomPath:Assets]/Media/Nonogram/stock.adobe.com-323111281.jpg'), #CCF;
+	Filter: Blur(5px);
+}
+
 /**/#LeftBoxContainer, #RightBoxContainer { Color: #000000; }
 /*
 */#MainBox {
 	Background: RGBA(204, 204, 255, 0.80);
-	backdrop-filter: blur(5px);
+	backdrop-filter: Blur(5px);
 }
 </style>
 

@@ -238,6 +238,7 @@ IFrame {
 	Left: 0;
 	Right: 0;
 	Width: 75%;
+	Min-Height: 100vh;
 	Padding-Left: 2.5%;
 	Padding-Right: 2.5%;
 	Padding-Top: Calc(Var(--ContentPadding) + 32px);
@@ -285,6 +286,20 @@ Img.Center, Video.Center,
 	Float: Left;
 	Width: 50%;
 	Padding: 4px;
+}
+
+/* Div for custom background crimes */
+#Background {
+	Z-Index: -1;
+	Position: Fixed;
+	Width: 100vw;
+	Height: 100vh;
+	/* Ignore body padding */
+		Top: 0px;
+		Left: 0px;
+	Background-Size: Cover;
+	Background-Position: Center;
+	Background-Repeat: No-Repeat;
 }
 
 #MainBoxTop, #BuildTimeLine { Color: #505050; }

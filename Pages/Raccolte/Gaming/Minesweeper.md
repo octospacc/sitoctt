@@ -4,15 +4,21 @@
 <style>/*
 */#Body {
 	Color: #000000;
-	Background: url('[staticoso:CustomPath:Assets]/Media/Minesweeper/XP-Window-www.techradar.com.webp'), #C0C0C0;
-	Background-Size: 100% auto;
-	Background-Position: Center;
+	Background: #C0C0C0;
 }
+
+/*
+*/#Background {
+	Background: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/ url('[staticoso:CustomPath:Assets]/Media/Minesweeper/XP-Window-www.techradar.com.webp'), #C0C0C0;
+	Filter: Blur(5px);
+}
+
 /**/#LeftBoxContainer, #RightBoxContainer { Color: #000000; }
+
 /*
 */#MainBox {
 	Background: RGBA(192, 192, 192, 0.80);
-	backdrop-filter: blur(5px);
+	Backdrop-Filter: Blur(5px);
 }
 </style>
 
@@ -24,7 +30,7 @@ Le regole sono semplici, ma il gioco raggiunge facilmente alti livelli di comple
 
 Personalmente, chiamo il campo minato anche "**minaspazzante**", per scherzare su una traduzione pseudo-letterale scorretta della parola "minesweeper" (letteralmente ma correttamente "[spazzamine](https://it.wikipedia.org/wiki/Dragamine){[:MdTgtBlank:]}") in italiano. In certi momenti, in un attimo diventa "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", quando ti mette davanti a bivi strani o a schemi di piazzamento delle bombe intricati.
 
-<p markdown=1 style=background:#fde;padding:0.5em;>...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)){[:MdTgtBlank:]}, vai va...</p>
+<p markdown="1" style="background: #fde; padding: 0.5em;">...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)){[:MdTgtBlank:]}, vai va...</p>
 
 ## Curiosità
 
