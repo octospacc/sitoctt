@@ -1,9 +1,1 @@
-.Box-sitoctt,
-.Box-staticoso {
-	Display: None;
-}
-
-#CheckBox-sitoctt:Checked ~ Div > .Box-sitoctt,
-#CheckBox-staticoso:Checked ~ Div > .Box-staticoso {
-	Display: Inherit;
-}
+.Box-sitoctt,.Box-staticoso{Display:None}#CheckBox-sitoctt:Checked ~ Div>.Box-sitoctt,#CheckBox-staticoso:Checked ~ Div>.Box-staticoso{Display:Inherit}

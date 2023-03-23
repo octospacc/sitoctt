@@ -99,7 +99,7 @@ I still haven't yet prepared this lol
 <li><del><a href="https://octtspacc.gitlab.io/bachecoctt" rel="noopener" target="_blank">🔖️ Bacheca (Old)</a></del></p></li>
 <li><a href="https://listed.to/@u8/guestbook" rel="noopener" target="_blank">📖 Guestbook</a></p></li>
 <li><a href="Donazioni.html"><span class="twa twa-money-bag"><span>💰</span></span> Donazioni</a></li>
-<li><span><span class="twa twa-card-index-dividers twa-🗂️"><span>🗂️</span></span> Raccolte</span>
+<li><span class="staticoso-List-Title"><span class="twa twa-card-index-dividers twa-🗂️"><span>🗂️</span></span> Raccolte</span>
 <ul>
 <li><a href="Categories/Blog.html"><span class="twa twa-notebook twa-📓️"><span>📓️</span></span> Blog</a></li>
 <li><a href="Categories/MicroBlog.html"><span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog</a></li>
@@ -293,7 +293,7 @@ I still haven't yet prepared this lol
 <p><a href="index.html#-Sorgenti-e-licenze">(Part.) Copyright</a> (C) 2022-2023, OctoSpacc</p>
 
 <p>
-	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-03-23 09:29</span></span><!--
+	<span id="BuildTimeLine">Pagina compilata in data: <span>2023-03-23 22:47</span></span><!--
 	-->&nbsp;|&nbsp;<!--
 	--><small><a href="https://gitlab.com/octtspacc/sitoctt/-/issues" target="_blank" rel="noopener">Commenti/Issue/PR?</a></small>
 </p>
@@ -323,8 +323,9 @@ I still haven't yet prepared this lol
 
 <script>
 // Issue on Firefox 69 / Chromium: Getting background CSS property doesn't work, maybe background: url('') is invalid for <meta>? Maybe use content: ''?
-var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
+//var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
 
+/* Hyperbroken
 var MediaQuery = window.matchMedia(`(min-width: ${RawDataCss.DeskModeMinWid})`);
 var SectionMenu = document.querySelector('#RightBoxContainer > Details');
 var SectionButton = SectionMenu.querySelector('Summary');
@@ -346,29 +347,37 @@ function MediaQueryCheck(Query) {
 };
 MediaQuery.addListener(MediaQueryCheck);
 MediaQueryCheck(MediaQuery);
+*/
 
-// Note: onclick doesn't work and doesn't show any error, wtf? But calling ShowHidePageBg manually works
-/*
-function ShowHidePageBg() {
-	var Style = Body.style;
-	if (Style.visibility || Style.overflow || Body.onclick) {
-		Style.visibility = '';
-		Style.overflow = '';
-		Body.onclick = null;
-	} else {
-		Style.visibility = 'hidden';
-		Style.overflow = 'hidden';	
-		Body.onclick = ShowHidePageBg;
-	};
+var BackgroundFilter = getComputedStyle(Background).filter;
+function ResetShowPageBg() {
+	Background.onclick = null;
+	Background.style.cursor = '';
+	Background.style.filter = BackgroundFilter;
+	Body.style.overflow = '';
+	[Header, Container].forEach(function(El) {
+		['visibility', 'overflow'].forEach(function(Prop) {
+			El.style[Prop] = '';
+		});
+	});
 };
-
+function ShowPageBg() {
+	[Header, Container].forEach(function(El) {
+		['visibility', 'overflow'].forEach(function(Prop) {
+			El.style[Prop] = 'hidden';
+		});
+	});
+	Body.style.overflow = 'hidden';
+	Background.style.filter = 'none';
+	Background.style.cursor = 'pointer';
+	Background.onclick = ResetShowPageBg;
+};
 var PageBgEl = document.getElementById('fn:PageBg');
 if (PageBgEl) {
 	var PageBgPar = PageBgEl.querySelector('p');
 	var PageBgTokens = PageBgPar.innerHTML.split('</a>');
-	PageBgPar.innerHTML = PageBgTokens[0] + '</a>&nbsp;<button onclick="ShowHidePageBg()">Guarda</button>' + PageBgTokens.slice(1, -1);
+	PageBgPar.innerHTML = PageBgTokens[0] + '</a>&nbsp;<button onclick="ShowPageBg()">Guarda</button>' + PageBgTokens.slice(1, -1);
 };
-*/
 </script>
 <link rel="stylesheet" href="http://http.sitoctt-assets.octt.eu.org/public/Fonts/SpaceMono/Style.css"/>
 </body>

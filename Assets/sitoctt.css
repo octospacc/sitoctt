@@ -223,7 +223,7 @@ IFrame {
 	Z-Index: -1;
 	Left: 0;
 	Right: 0;
-	Width: 75%;
+	Width: 80%;
 	Min-Height: 100vh;
 	Padding-Left: 2.5%;
 	Padding-Right: 2.5%;
@@ -383,6 +383,12 @@ Img.Center, Video.Center,
 	User-Select: none;
 }
 
+#PageContent .staticoso-TreeList.staticoso-PagesList > Li > .staticoso-List-Title {
+	Left: -1em;
+	Position: Relative;
+	Font-Size: Large;
+}
+
 #PageContent .staticoso-TreeList.staticoso-PagesList Li {
 	/*background: RGBA(128,128,128,0.5);
 	border-radius: 2px;
@@ -391,26 +397,21 @@ Img.Center, Video.Center,
 	Display: Block;
 }
 
-#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span {
-	Min-Width: Fit-Content;
-}
+#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span { Min-Width: Fit-Content; }
 
+#PageContent .staticoso-TreeList.staticoso-PagesList > Li > A,
 #PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
 	Font-Size: Larger;
 }
 
+#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A { Margin-Bottom: 1em; }
+
 @Media (Max-Width: 750px) {
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
-		Display: Block;
-		Margin-Bottom: 1em;
-	}
+	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A { Display: Block; }
 }
 
 @Media (Min-Width: 750px) {
 	#PageContent .staticoso-TreeList.staticoso-PagesList Li { Display: Flex; }
-	#PageContent .staticoso-TreeList.staticoso-PagesList Li > Span + A {
-		Margin-Bottom: 1em;
-	}
 	/*
 	#PageContent .staticoso-TreeList.staticoso-PagesList Li:Not(:First-Of-Type) > Span {
 		Margin-Left: 16px;
