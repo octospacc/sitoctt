@@ -13,7 +13,8 @@ python3 ../staticoso/App/Source/Build.py \
 " \
 	--MastodonURL="https://botsin.space" \
 	--MastodonToken="$MastodonToken;Debug=True" \
-	--ActivityPubHoursLimit="0"
+	--ActivityPubHoursLimit="0" \
+	--GemtextOutput=True
 	#--DiffBuild="True" \
 	#--GemtextOutput=True #\
 	#--MastodonURL="https://botsin.space" \

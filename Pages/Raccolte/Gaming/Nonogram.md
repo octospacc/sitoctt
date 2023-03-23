@@ -9,7 +9,8 @@
 
 /*
 */#Background {
-	Background: url('[staticoso:CustomPath:Assets]/Media/Nonogram/stock.adobe.com-323111281.jpg'), #CCF;
+	Background-Color: #CCF;
+	Background-Image: url('[staticoso:CustomPath:Assets]/Media/Nonogram/stock.adobe.com-323111281.jpg');
 	Filter: Blur(5px);
 }
 

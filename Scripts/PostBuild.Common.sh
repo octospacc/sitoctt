@@ -1,7 +1,7 @@
 #!/bin/sh
 # Common action after the base site build succeeded
 
-cp -vr ./Assets/* ./public/
+#cp -vr ./Assets/* ./public/
 
 # Compile self-executable assets
 #for Dir in public public.*

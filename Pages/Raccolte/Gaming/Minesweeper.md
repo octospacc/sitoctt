@@ -9,7 +9,8 @@
 
 /*
 */#Background {
-	Background: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/ url('[staticoso:CustomPath:Assets]/Media/Minesweeper/XP-Window-www.techradar.com.webp'), #C0C0C0;
+	Background-Color: #C0C0C0;
+	Background-Image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/ url('[staticoso:CustomPath:Assets]/Media/Minesweeper/XP-Window-www.techradar.com.webp');
 	Filter: Blur(5px);
 }
 

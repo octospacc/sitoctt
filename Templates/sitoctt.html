@@ -71,8 +71,9 @@
 <staticoso:DynamicPart:*/Foot>
 <script>
 // Issue on Firefox 69 / Chromium: Getting background CSS property doesn't work, maybe background: url('') is invalid for <meta>? Maybe use content: ''?
-var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
+//var RawDataCss = JSON.parse(window.getComputedStyle(document.getElementById('RawDataCssInject')).background.split('url("')[1].split('")').slice(0, -1).join('")').replaceAll('\\\"', '\"'));
 
+/* Hyperbroken
 var MediaQuery = window.matchMedia(`(min-width: ${RawDataCss.DeskModeMinWid})`);
 var SectionMenu = document.querySelector('#RightBoxContainer > Details');
 var SectionButton = SectionMenu.querySelector('Summary');
@@ -94,29 +95,37 @@ function MediaQueryCheck(Query) {
 };
 MediaQuery.addListener(MediaQueryCheck);
 MediaQueryCheck(MediaQuery);
+*/
 
-// Note: onclick doesn't work and doesn't show any error, wtf? But calling ShowHidePageBg manually works
-/*
-function ShowHidePageBg() {
-	var Style = Body.style;
-	if (Style.visibility || Style.overflow || Body.onclick) {
-		Style.visibility = '';
-		Style.overflow = '';
-		Body.onclick = null;
-	} else {
-		Style.visibility = 'hidden';
-		Style.overflow = 'hidden';	
-		Body.onclick = ShowHidePageBg;
-	};
+var BackgroundFilter = getComputedStyle(Background).filter;
+function ResetShowPageBg() {
+	Background.onclick = null;
+	Background.style.cursor = '';
+	Background.style.filter = BackgroundFilter;
+	Body.style.overflow = '';
+	[Header, Container].forEach(function(El) {
+		['visibility', 'overflow'].forEach(function(Prop) {
+			El.style[Prop] = '';
+		});
+	});
 };
-
+function ShowPageBg() {
+	[Header, Container].forEach(function(El) {
+		['visibility', 'overflow'].forEach(function(Prop) {
+			El.style[Prop] = 'hidden';
+		});
+	});
+	Body.style.overflow = 'hidden';
+	Background.style.filter = 'none';
+	Background.style.cursor = 'pointer';
+	Background.onclick = ResetShowPageBg;
+};
 var PageBgEl = document.getElementById('fn:PageBg');
 if (PageBgEl) {
 	var PageBgPar = PageBgEl.querySelector('p');
 	var PageBgTokens = PageBgPar.innerHTML.split('</a>');
-	PageBgPar.innerHTML = PageBgTokens[0] + '</a>&nbsp;<button onclick="ShowHidePageBg()">Guarda</button>' + PageBgTokens.slice(1, -1);
+	PageBgPar.innerHTML = PageBgTokens[0] + '</a>&nbsp;<button onclick="ShowPageBg()">Guarda</button>' + PageBgTokens.slice(1, -1);
 };
-*/
 </script>
 <link rel="stylesheet" href="[staticoso:CustomPath:Assets]/Fonts/SpaceMono/Style.css"/>
 </body>

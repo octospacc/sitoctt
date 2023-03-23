@@ -237,7 +237,7 @@ IFrame {
 	Z-Index: -1;
 	Left: 0;
 	Right: 0;
-	Width: 75%;
+	Width: 80%;
 	Min-Height: 100vh;
 	Padding-Left: 2.5%;
 	Padding-Right: 2.5%;
@@ -397,6 +397,12 @@ Img.Center, Video.Center,
 	User-Select: none;
 }
 
+${wPagesList} > Li > .staticoso-List-Title {
+	Left: -1em;
+	Position: Relative;
+	Font-Size: Large;
+}
+
 ${wPagesList} Li {
 	/*background: RGBA(128,128,128,0.5);
 	border-radius: 2px;
@@ -405,26 +411,21 @@ ${wPagesList} Li {
 	Display: Block;
 }
 
-${wPagesList} Li > Span {
-	Min-Width: Fit-Content;
-}
+${wPagesList} Li > Span { Min-Width: Fit-Content; }
 
+${wPagesList} > Li > A,
 ${wPagesList} Li > Span + A {
 	Font-Size: Larger;
 }
 
+${wPagesList} Li > Span + A { Margin-Bottom: 1em; }
+
 @Media (Max-Width: 750px) {
-	${wPagesList} Li > Span + A {
-		Display: Block;
-		Margin-Bottom: 1em;
-	}
+	${wPagesList} Li > Span + A { Display: Block; }
 }
 
 @Media (Min-Width: 750px) {
 	${wPagesList} Li { Display: Flex; }
-	${wPagesList} Li > Span + A {
-		Margin-Bottom: 1em;
-	}
 	/*
 	${wPagesList} Li:Not(:First-Of-Type) > Span {
 		Margin-Left: 16px;
