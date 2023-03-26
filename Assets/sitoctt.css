@@ -62,7 +62,7 @@ Details Div {
 }
 .BorderBox,
 .BorderBoxContainer > Div:Not(.NoBorderBox),.BorderBoxContainer > Details:Not(.NoBorderBox)
-Details Div Details:Not(.NoBorderBox) {
+/*Details Div Details:Not(.NoBorderBox)*/ {
 	Border: 2px Solid Purple;
 	Margin: 8px;
 	Padding: 4px;
