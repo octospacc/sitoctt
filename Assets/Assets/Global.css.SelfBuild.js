@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+require('../../Scripts/Lib/SelfBuild.js').importAll();
+
+Fs.writeFileSync(__filename.split('.SelfBuild.js')[0], `
 /* Global styles applied to all pages with any base template.
  *
  * Note to future self:
@@ -10,7 +14,7 @@
 .Inline { Display: Inline; }
 .InlineBlock { Display: Inline-Block; }
 .NoCol { Color: Transparent !Important; }
-.NoDisplay, .DispNone { Display: None; }
+.NoDisp, .NoDisplay, .DispNone { Display: None; }
 .DispBlock { Display: Block; }
 .NoWrap { White-Space: NoWrap; }
 
@@ -29,9 +33,18 @@
 }
 
 /* Set Headings as Inline when inside Details Summaries and List Items */
-:Where(Summary, Li) > :Where(H1, H2, H3, H4, H5, H6) {
+/*:Where(Summary, Li) > :Where(H1, H2, H3, H4, H5, H6) {*/
+${Where('summary >', CssAllHeadings, '')},
+${Where('li >', CssAllHeadings, '')} {
 	Display: Inline;
 }
+
+/* Python-Markdown can put a <p> for list text items, forming spacing between it and sublists.
+   Wrapping a list in a div with this class when this effect is unwanted.
+ */
+.ListNoInMargin > * > li > p { margin-bottom: 0; }
+/* Strange <br>s are sometimes formed */
+/*.ListNoInMargin > * > li > p > br:last-of-type { display: none; }*/
 
 /* Animazioni per le desinenze */
 .BlinkA {
@@ -50,3 +63,4 @@
 	50% {Position: Absolute; Visibility: Hidden;}
 	100% {Position: Static; Visibility: Visible;}
 }
+`);

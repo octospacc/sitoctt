@@ -76,7 +76,7 @@ Details Div {
 }
 .BorderBox,
 ${Where('.BorderBoxContainer >', ' Div, Details', ':Not(.NoBorderBox)')}
-Details Div Details:Not(.NoBorderBox) {
+/*Details Div Details:Not(.NoBorderBox)*/ {
 	Border: 2px Solid Purple;
 	Margin: 8px;
 	Padding: 4px;

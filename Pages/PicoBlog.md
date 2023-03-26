@@ -38,6 +38,15 @@ href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per u
 </div>
 
 <details markdown="1" open><summary>
+#### [2023-03-26] Ora solo chi ha skill può leggere. </summary>
+Per fare qualcosa di epico, e contemporaneamente gradito ad alcune persone ma sgraditissimo ad altre, sulla mia pagina dedicata al **campo minato** ho fatto una roba: la sezione [curiosità](./Raccolte/Gaming/Minesweeper.html#-Curiosit) è bloccata, e per poterla leggere bisogna completare una partita al giochino. Non sai giocare? Peggio per te. 🙃️. Vabbe, non totalmente:
+
+* Man mano che si premono i quadratini, questi diventano semi-trasparenti e fanno intravedere il testo sotto.
+* Il gioco sparisce se si disattiva JavaScript, e la sezione di testo non viene coperta.
+* Ho incluso un easter egg che fa saltare la partita senza doverla vincere. 👀️
+</details>
+
+<details markdown="1" open><summary>
 #### [2023-03-23] Finalmente certe pagine... </summary>
 Oggi ho finito di sistemare la grafica di alcune pagine che ho iniziato a creare ieri, [Minesweeper](./Raccolte/Gaming/Minesweeper.html) e [Nonogram](./Raccolte/Gaming/Nonogram.html). Quando avevo iniziato il sito quasi un anno fa pianificavo di fare cose di questo tipo in questo modo, ma non ho mai fatto molto fino ad ora. Vedrò di continuare così...
 </details>

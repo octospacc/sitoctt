@@ -4,6 +4,8 @@ Exp.Fs = require('fs');
 // https://stackoverflow.com/a/69049676
 Exp.importAll = function importAll(){ delete this.importAll; Object.assign(global, this); };
 
+Exp.CssAllHeadings = ' h1, h2, h3, h4, h5, h6';
+
 Exp.TryStringToList = In => {
 	if (typeof(In) == 'string') {
 		return In.split(',');
