@@ -8,9 +8,10 @@ var Notices = {
 	AlertLockedWon: "Hai vinto! Goditi il contenuto sbloccato. 💖️",
 	AlertLockedLost: "Ops! Hai perso! Ritenta. 🙃️",
 	AlertLockedEgg: "Hai scoperto l'easter egg e hai saltato la partita. Mah. 🙄️",
-	AlertLockedResize: "Non si imbroglia ridimensionando la finestra!!! Il gioco verrà resettato. Non riceverai ulteriori avvisi. 😈️",
+	AlertLockedResize: "Non si imbroglia ridimensionando la finestra!!! Il gioco verrà ora resettato. Non riceverai ulteriori avvisi. 😈️",
 };
 
+var WindowWidth;
 var ResizeAlerted = false;
 
 // Add styles to current page
@@ -51,6 +52,7 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 	};
 
 	window.onload = function(){
+		WindowWidth = window.innerWidth;
 		Container.style.display = '';
 		Game = GameWindow.vuesweeper;
 		var [Width, Height, Bombs] = [15, 15, 36];
@@ -141,7 +143,7 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 			Bombs = ~~(2 * Math.sqrt(Width * Height));
 
 			// No cheating! (And no breaking my fragile CSS :c)
-			window.onresize = function(){
+			window.onresize = function(){if(window.innerWidth != WindowWidth){
 				if (!ResizeAlerted) {
 					setTimeout(function(){
 						LockedEl.style.visibility = 'hidden';
@@ -153,7 +155,8 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 				LockedEl.style['padding-right'] = '';
 				NoticeEl.remove();
 				SetupLockGame();
-			};
+				WindowWidth = window.innerWidth;
+			}};
 			
 			Game.reset(Width, Height, Bombs);
 		};
