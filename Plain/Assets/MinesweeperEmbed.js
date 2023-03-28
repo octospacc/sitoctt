@@ -73,6 +73,7 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 			// Add notice to the user saying to win a game to see the content underneath
 			// TODO: Maybe put it instead of the iframe, with a button, and when the user clicks that the iframe is set up?
 			var NoticeEl = document.createElement('p');
+			NoticeEl.className = 'Minesweeper-Locker-Notice';
 			NoticeEl.innerHTML = Notices.NoticeLocked;
 			Container.before(NoticeEl);
 
@@ -154,7 +155,9 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 					};
 					LockedEl.style['padding-left'] = '';
 					LockedEl.style['padding-right'] = '';
-					NoticeEl.remove();
+					document.querySelectorAll('.Minesweeper-Locker-Notice').forEach(function(El){
+						El.remove();
+					});
 					SetupLockGame();
 					WindowWidth = window.innerWidth;
 				};
