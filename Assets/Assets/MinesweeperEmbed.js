@@ -51,7 +51,7 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 		return Time;
 	};
 
-	window.onload = function(){
+	window.addEventListener('load', function(){
 		WindowWidth = window.innerWidth;
 		Container.style.display = '';
 		Game = GameWindow.vuesweeper;
@@ -143,21 +143,23 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 			Bombs = ~~(2 * Math.sqrt(Width * Height));
 
 			// No cheating! (And no breaking my fragile CSS :c)
-			window.onresize = function(){if(window.innerWidth != WindowWidth){
-				if (!ResizeAlerted) {
-					setTimeout(function(){
-						LockedEl.style.visibility = 'hidden';
-						alert(Notices.AlertLockedResize);
-					}, 150);
-					ResizeAlerted = true;
+			window.addEventListener('resize', function(){
+				if (window.innerWidth != WindowWidth) {
+					if (!ResizeAlerted) {
+						setTimeout(function(){
+							LockedEl.style.visibility = 'hidden';
+							alert(Notices.AlertLockedResize);
+						}, 150);
+						ResizeAlerted = true;
+					};
+					LockedEl.style['padding-left'] = '';
+					LockedEl.style['padding-right'] = '';
+					NoticeEl.remove();
+					SetupLockGame();
+					WindowWidth = window.innerWidth;
 				};
-				LockedEl.style['padding-left'] = '';
-				LockedEl.style['padding-right'] = '';
-				NoticeEl.remove();
-				SetupLockGame();
-				WindowWidth = window.innerWidth;
-			}};
-			
+			});
+
 			Game.reset(Width, Height, Bombs);
 		};
 
@@ -173,7 +175,7 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 		};
 		
 		Game.reset(Width, Height, Bombs);
-	};
+	});
 
 	// When user clicks the board, it's a good time for checking win/loss
 	GameWindow.onclick = function(){
