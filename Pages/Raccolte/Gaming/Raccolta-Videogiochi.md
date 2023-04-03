@@ -36,18 +36,19 @@ Le premesse erano si creative, ma noiose: sei un essere umano che, per qualche m
 Animal Crossing è uno di quei giochi che va banalmente provato per essere capito: la permanenza in quel mondo riesce ad indurre calma ed allegria per motivi che, apparentemente, vanno al di là della logica.  
 	• Animal Crossing: New Horizons: Ottieni: <https://go.octt.eu.org/$afa0200c237a>{[:MdTgtBlankNofw:]}
 
-### <span class="twa twa-⛏️">⛏️</span> Minecraft  
-Credo si possa dire che Minecraft è **il gioco** bene o male moderno che da semplici premesse sviluppa complessità potenzialmente infinita. In senso buono, ovviamente: la complessità va a colpire e a premiare chi la cerca, ma il titolo resta giocabile per chiunque.  
-All'inizio è fare "case" che sono buchi 4x4 sotto terra, ma dopo diventa creare installazioni titaniche, che siano puramente estetiche o anche funzionali - non dimentichiamo che Minecraft è Turing-complete. E alla fine? Beh, non si arriverà mai alla fine...
+### <a href="./Minecraft.html"><span class="twa twa-⛏️">⛏️</span> Minecraft ↗️</a>
 
 ### <a href="./Minesweeper.html">💣 Minesweeper ↗️</a>
 
-### <span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge  
+### <a href="./Mirrors-Edge.html"><span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge ↗️</a>
+
+<!--
 Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  
 Ho giocato pochissimo la prima entrata della saga, perché fu la seconda uscita, Mirror's Edge Catalyst, ad introdurmi alla serie circa 2 anni fa. Catalyst lascia un po' da parte i colori molto saturi che erano parte dell'identità iniziale, per offrire grafica più realistica e immersiva. Anche la fisica e diversi dettagli minuti subiscono miglioramenti importanti rispetto al Mirror's Edge originale.  
 In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di speranza. È peculiare come i suoi piccoli dettagli riescano a farti sentire di essere effettivamente nel gioco - per un titolo non VR, è una grande vittoria. Il gameplay in sé è chiave per questa esperienza, ma anche la lore è di tutto rispetto.  
 <video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></video>  
 <cite>Da <a href="[:YouTubeURL:]/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>
+-->
 
 ### <a href="./Nonogram.html">#️⃣️ Nonogram ↗️</a>
 

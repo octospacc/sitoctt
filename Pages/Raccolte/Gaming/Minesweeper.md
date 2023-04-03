@@ -43,7 +43,7 @@ Tutto questo è assurdo se si considera di che roba parliamo:
 
 * Un gioco appartenente ad un'epoca lontana in cui il concetto di "gamification" era alieno a tutti, e i videogiochi free-to-play erano veramente gratis: **non** costruiti appositamente per creare dipendenza o pressioni nei giocatori, in quanto gli acquisti-in-app non esistevano.
 
-Personalmente, chiamo il campo minato anche "**minaspazzante**", per scherzare su una traduzione pseudo-letterale scorretta della parola "minesweeper" (letteralmente ma correttamente "[spazzamine](https://it.wikipedia.org/wiki/Dragamine){[:MdTgtBlank:]}") in italiano. In certi momenti, in un attimo diventa "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", quando ti mette davanti a bivi strani o a schemi di piazzamento delle bombe intricati.
+Personalmente, chiamo il campo minato anche "**minaspazzante**", per scherzare su una traduzione pseudo-letterale scorretta della parola "minesweeper" (letteralmente ma correttamente "[spazzamine]([:WikipediaIt:]/Dragamine){[:MdTgtBlank:]}") in italiano. In certi momenti, in un attimo diventa "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", quando ti mette davanti a bivi strani o a schemi di piazzamento delle bombe intricati.
 
 Ma, se queste sono tutte cose che può notare anche un osservatore terzo, questo passatempo **apparentemente semplice e da ufficio** nasconde ben di più. Campo minato riesce in qualche modo ad offrire emozioni che, sempre per via delle circostanze oggettive, è difficile comunicare al mondo.
 
@@ -53,7 +53,7 @@ Accumulando quella singola o doppia partita giornaliera nelle settimane, nei mes
 
 Parafrasando ciò che scrive [un autore di PCGamesN](https://www.pcgamesn.com/minesweeper/get-free): **Campo minato è una delle forme di escapismo digitale più pure** di cui si possa fare esperienza, perché è la dimostrazione pratica di come un gioco, per essere profondamente immersivo, non ha un vitale bisogno di un _open world_ dettagliato, narrativa elaborata, o personaggi a cui affezionarsi.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)){[:MdTgtBlank:]}, vai va...</p>
+<p markdown="1" style="background: #fde; padding: 0.5em;">...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia]([:WikipediaIt:]/Campo_minato_(videogioco)){[:MdTgtBlank:]}, vai va...</p>
 
 ## Curiosità
 
