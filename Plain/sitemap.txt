@@ -16,7 +16,9 @@ https://sitoctt.octt.eu.org/Devlogs.html
 https://sitoctt.octt.eu.org/Donazioni.html
 https://sitoctt.octt.eu.org/PicoBlog.html
 https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html
+https://sitoctt.octt.eu.org/Raccolte/Gaming/Minecraft.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Minesweeper.html
+https://sitoctt.octt.eu.org/Raccolte/Gaming/Mirrors-Edge.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Nonogram.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Raccolta-Videogiochi.html
 https://sitoctt.octt.eu.org/Raccolte/Internet/Raccolta-Siti-Internet.html
@@ -24,6 +26,7 @@ https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
 https://sitoctt.octt.eu.org/Raccolte/Sistemi/Raccolta-del-Riso.html
 https://sitoctt.octt.eu.org/index.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/2048.html
+https://sitoctt.octt.eu.org/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html
 https://sitoctt.octt.eu.org/Posts/2023-03-18-Cattiva-Interfaccia-Partizione-Distrutta.html
 https://sitoctt.octt.eu.org/Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html
 https://sitoctt.octt.eu.org/Posts/2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html
