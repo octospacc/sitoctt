@@ -3,6 +3,7 @@
 // % CreatedOn = 2022-12-17
 // % Downsync = /Posts/Distrazioni-di-Natale-Albero-Padoru.html
 // % HTMLTitle = <span class="twa twa-christmas-tree twa-🎄"><span>🎄</span></span> Distrazioni di Natale: l'albero Padoru
+// % Description = Tempo di Natale, di scongelare i Padoru, e metterli sull'albero. Durante questo calmo fai-da-te, però, scopro che ho la memoria corta...
 // % Image = [staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Tree-Old-New-Fragments.webp
 // % Categories = Blog DIY
 

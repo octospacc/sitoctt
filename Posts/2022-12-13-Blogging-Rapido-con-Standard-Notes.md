@@ -3,6 +3,7 @@
 // % CreatedOn = 2022-12-13
 // % Downsync = /Posts/Blogging-Rapido-con-Standard-Notes.html
 // % HTMLTitle = <span class="twa twa-high-voltage twa-⚡️"><span>⚡️</span></span> Il blogging rapido con Standard Notes
+// % Description = Volendo scrivere e pubblicare di più, mi accorgo che il mio workflow mi rallentava, e nel cercare modi di blogging più rapidi, ripenso a Listed.
 // % UpdatedOn = 2022-12-16
 // % Categories = Blog Tecnologia
 
@@ -97,10 +98,6 @@ Oggi <strong>ho già scritto troppo</strong> (è venuto fuori un articolo di blo
 
 
 
-
-<ul>
-<li>Adattamento a scrivere su SN (senza macro ecc)</li>
-</ul>
 
 <h2>[:HNotesRefsHTML:]</h2>
 
