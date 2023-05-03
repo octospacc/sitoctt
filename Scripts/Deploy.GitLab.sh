@@ -4,7 +4,7 @@ python3 ./staticoso/App/Source/Build.py \
 	--SiteDomain="https://sitoctt.octt.eu.org" \
 	--FolderRoots="{'*':'https://octtspacc.gitlab.io', 'Assets':'https://sitoctt-assets.octt.eu.org'}" \
 	--DynamicParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html'], 'Other':['CountWindow.html']}" \
-	--MastodonURL="https://botsin.space" \
+	--MastodonURL="https://poliversity.it" \
 	--MastodonToken="$MastodonToken" \
 	--GemtextOutput=True \
 	--GemtextHeader="\

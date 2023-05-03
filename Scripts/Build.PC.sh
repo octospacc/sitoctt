@@ -11,7 +11,7 @@ python3 ../staticoso/App/Source/Build.py \
 # Spacc
 
 " \
-	--MastodonURL="https://botsin.space" \
+	--MastodonURL="https://poliversity.it" \
 	--MastodonToken="$MastodonToken;Debug=True" \
 	--ActivityPubHoursLimit="0" \
 	--GemtextOutput=False
