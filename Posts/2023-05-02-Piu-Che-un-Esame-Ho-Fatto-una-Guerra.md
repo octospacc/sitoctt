@@ -13,20 +13,26 @@
 
 <p>Fino a 30 minuti prima, <em>maremma bona</em>, <strong>volevo</strong> solo <strong>esplodere</strong>. Atttenzione, però: non per l'esame in sé (l'ultimo di una serie di extra-curriculari, precisamente), per me semplicissimo, di cui non mi importa nulla se non della certificazione!<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup> È successa un'<strong>altra roba</strong>.</p>
 
+<h2>Torniamo indietro</h2>
+
 <p>Quando passai le prime sessioni <strong>due anni fa</strong>, andò tutto <strong>liscissimo</strong>, quasi all'insegna del <em><a href="https://www.urbandictionary.com/define.php?term=chill%20vibes" rel="noopener nofollow" target="_blank">chilling</a></em>: erano ancora i tempi delle restrizioni anti-COVID, e quei 2 esami che affrontai a scuola erano in un'<strong>aula</strong> comunque <strong>poco affollata</strong>.</p>
 
 <p><strong>Quest'anno</strong>, però, una <strong>schifezza</strong>. La carta l'ho presa senza ripetere nulla, quindi i miei  non hanno buttato soldi in quel riguardo, ma l'<strong>esperienza</strong> è stata <strong>terrificante</strong>.<br>
 L'<strong>aula</strong> a questi giri è stata sempre <strong>pienissima</strong>, e proprio questa cosa è finita per essere un <strong>problema per la mia anima</strong>.<br>
 Non credo di meritarmi tutto questo...</p>
 
+<h3>Aria di problemi</h3>
+
 <p>Il <strong>mese scorso</strong> feci 2 esami dei 3 che mi mancavano, e già <strong>non filò nulla</strong> liscio, affatto:</p>
 
 <ol>
 <li><p>Il mio professore (referente del progetto) non mi aveva detto che sulla casella email del dominio scolastico mi sarebbe dovuto arrivare un link privato, per creare un account sulla piattaforma di esaminazione online... Peccato che l'accesso alla posta lo ho solo sulla <a href="https://sitoctt.octt.eu.org/Posts/Archive/2022-05-07-Gli-Inaspettati-Vantaggi-della-Chiavetta-Linux.html" rel="noopener nofollow" target="_blank">chiavetta con Puppy Linux</a> e sul tablet, e non riesco ad accedere altrove<sup id="fnref2"><a class="footnote-ref" href="#fn2">2</a></sup>. Risultato: <strong>dovetti farmi la corsa</strong> a casa <strong>per prendere il tablet</strong> e tornare a scuola... Fortuna che abito nelle vicinanze.</p></li>
-<li><p>La <strong>piattaforma di testing si ruppe</strong> totalmente quando avevo finito uno degli esami (non senza fatica, alcune domande erano glitchate!): appena feci partire il secondo, il sistema disse che avevo esaurito il tempo, e mi chiuse in faccia la prova appena avviata... Il prof. dovette <strong>perdere tempo</strong> a chiamare il supporto per spiegare la cosa, e dopo un bel casino l'esame venne ripristinato come non svolto.</p></li>
+<li><p>La <strong>piattaforma di testing si ruppe</strong> totalmente quando avevo finito uno degli esami (non senza fatica, alcune domande erano <em>[glitchate](<a href="https://en.wikipedia.org/wiki/Glitch#Computer" rel="noopener nofollow" target="_blank">https://en.wikipedia.org/wiki/Glitch#Computer</a></em>glitch)_!): appena feci partire il secondo, il sistema disse che avevo esaurito il tempo, e mi chiuse in faccia la prova appena avviata... Il prof. dovette <strong>perdere tempo</strong> a chiamare il supporto per spiegare la cosa, e dopo un bel casino l'esame venne ripristinato come non svolto.</p></li>
 </ol>
 
 <p>Tra entrambe le cose, allora, fu <strong>persa</strong> una buona quantità di <strong>tempo</strong>. E se così non fosse stato, <strong>forse</strong> ce l'<strong>avrei</strong> fatta a finire <strong>tutti gli esami quel giorno</strong>.</p>
+
+<h2>Il presente</h2>
 
 <p>Torniamo ad oggi.<br>
 Finita la scocciatura dell'attesa (non troppo problematica, grazie al rettangolo di plastica, vetro, metallo, con connessione Internet, e tascabile, che anche io porto sempre in giro), dovuta al fatto che tutte le postazioni erano occupate inizialmente, <strong>inizio</strong>.<br>
@@ -35,6 +41,8 @@ Finita la scocciatura dell'attesa (non troppo problematica, grazie al rettangolo
 <p>I miei <strong>primi minuti</strong> vanno per <strong>bene</strong>, <strong>fino a che</strong> non iniziano a terminare l'esame anche una buona selezione (casuale, o il destino le ha scelte accuratamente?) di <strong>scimmie</strong>, che dalle file dietro a tutto <strong>farfugliavano</strong> con chi (immagino in confidenza) ancora non aveva finito, ad un volume esagerato e in contemporanea.<br>
 Ecco, ecco, ora, lentamente, il <strong>sangue</strong> inizia a <strong>ribollire</strong> nel mio corpo, manco fosse una caffettiera, perché con quel casino <strong>non riesco a leggere</strong> metà di una domanda <strong>senza distrarmi</strong> totalmente. Nemmeno avere gli auricolari nelle orecchie (ma staccati) attenuava abbastanza il rumore. <strong>Finire in quel modo</strong> l'esame? <strong>Impossibile</strong>.</p>
 
+<h3>Ci ho provato</h3>
+
 <p>Prima che fosse troppo tardi, <strong>ho cercato</strong> di <strong>chiamare l'insegnante</strong> — che, mannaggia allo <em>strafaccio</em>, era parecchio <strong>distratto</strong>, perché ad un'altra persona in quel momento era capitato lo stesso glitch della mia volta precedente (e qui devo: ma che backend di merda che ha 'sta piattaforma, buttatelo via e riscrivetelo da capo, per cortesia!!!).<br>
 Volevo <strong>gentilmente</strong> dirgli di far stare in <strong>silenzio</strong> tutti coloro che non avevano diritto di parola, e dopo qualche minuto (a onor suo, di sua sponte, un attimo prima che sentisse me) ha blaterato qualcosa (di poco convincente) per dire alla platea di acquietarsi. La platea <strong>non si è acquietata</strong>, e il prof. stava uscendo pazzo per via dei problemi generali, purtroppo, quindi <strong>poco poteva dar retta</strong> a me.</p>
 
@@ -42,9 +50,13 @@ Volevo <strong>gentilmente</strong> dirgli di far stare in <strong>silenzio</str
 
 <p>Addirittura decido di <strong>chiamare a telefono mio padre</strong>, arrivata qui, per dirgli di <strong>chiamare a sua volta</strong> il professore a telefono; magari a 'sto giro <strong>riesce a capire</strong>. In effetti, a questo giro l'invito al silenzio era più convincente. Lo era?</p>
 
+<h3>Un disastro</h3>
+
 <p>Ma, ormai, <strong>troppo tardi</strong> comunque: la mia tensione è salita troppo, <strong>non riesco a riacquisire</strong> un minimo di <strong>concentrazione</strong>, costringendomi, dopo forse 21 mesi buoni in cui ho potuto farne a meno, a graffiarmi per convertire una minima parte del carico mentale (che richiede energie mentali di primo piano per essere gestito, le stesse che in quel momento mi servivano per completare la mia sessione) in bruciore cutaneo (che, fino ad un certo livello, è gestito dal cervello in background). Che palle.</p>
 
 <p>Il <strong>danno</strong> ormai l'ho fatto, <em>ahimè ed e che cazzo</em>, e sembrava che lentamente si stesse per calmare tutto e la concentrazione potesse tornare... e invece no. Il <strong>richiamo</strong> del prof. è stato comunque <strong>troppo morbido</strong> e <strong>non ha stroncato i cattivi</strong> comportamenti di quella parte degli altri studenti, li ha solo messi un po' in pausa.</p>
+
+<h3>La soluzione vera</h3>
 
 <p><strong>Boh</strong>, a questo punto mi viene semplicemente da <strong>tirare un pugno</strong> sulla scrivania e "urlare" (non che io lo sappia fare, ma il pugno proprio a sopperire a questo serve; <em>l'ho inconsciamente imparato da un altro mio professore</em>) di <strong>fare silenzio</strong>, che altrimenti non avrei potuto concludere nulla, e... <strong>ha funzionato</strong>. <em>Ah?...</em><br>
 Si, <strong>tutto qui</strong>. Non posso dire altro su questo attimo, si è immediatamente cristallizzato in bene. Da lì, fino a quando ho finito e ho potuto andarmene, non è volata più una mosca.</p>
@@ -52,7 +64,9 @@ Si, <strong>tutto qui</strong>. Non posso dire altro su questo attimo, si è imm
 <p>A quel punto, purtroppo, l'<strong>irritazione</strong> l'avevo comunque <strong>accumulata</strong>, e ci ho messo <em>ore e ore e <strong>ore</strong></em> <strong>per smaltirla</strong>, tra il fare varie cose a caso e lo scrivere questo articolo.<br>
 L'unica cosa di cui logicamente posso <strong>pentirmi</strong> è di non aver fatto risuonare quel <strong>banco qualche prezioso minuto prima</strong> di arrivare sul serio al limite, dato che i metodi gentili non funzionavano. Purtroppo o per fortuna, mannaggia, non <strong>è un riflesso che mi sorge</strong> troppo spesso; <strong>solo quando</strong> ormai sono <strong>già oltre</strong> quel limite, e forse ho <strong>già commesso altri danni</strong> evitabili.</p>
 
-<p>Eppure, quel dubbio mi resta ancora: ma <strong>cosa avrò fatto</strong> di tanto male al mondo <strong>per meritarmi</strong> queste cose?</p>
+<hr>
+
+<p>Eppure, quel dubbio mi resta ancora: ma <strong>cosa avrò fatto</strong> di tanto male al mondo <strong>per meritarmi</strong> queste cose? E vallo a capire...</p>
 
 
 
