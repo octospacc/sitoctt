@@ -1,7 +1,6 @@
 #!/usr/bin/env -S node --experimental-fetch
-const fs = require('fs');
+require('./Lib/Syncers.js').importAll();
 const JSDOM = require('jsdom').JSDOM;
-const ConfigParser = require('./Lib/config-ini-parser').ConfigIniParser;
 
 const BlogURL = 'https://listed.to/@u8'; // Full base URL of the Listed blog (any server)
 const SiteName = 'sitoctt';
@@ -27,14 +26,14 @@ const ExtractCodeBlockSelect = '.ExtractCodeBlock, .ExtractCodeBlock + :Where(Di
 const DeleteElementBlockSelect = '.DeleteElementBlock';
 
 const TryReadFileSync = Path => {
-	if (fs.existsSync(Path)) {
-		return fs.readFileSync(Path, 'utf8');
+	if (Fs.existsSync(Path)) {
+		return Fs.readFileSync(Path, 'utf8');
 	};
 };
 
 const TryMkdirSync = Path => {
-	if (!fs.existsSync(Path)) {
-		return fs.mkdirSync(Path, {recursive: true});
+	if (!Fs.existsSync(Path)) {
+		return Fs.mkdirSync(Path, {recursive: true});
 	};
 };
 
@@ -85,53 +84,14 @@ const GetLinkElem = Dom => {
 	return Elem;
 };
 
-const ParseMeta = Raw => {
-	let Mid = {'Meta': '', 'Macros': ''};
-	let Data = {'Meta': {}, 'Macros': {}};
-	const Lines = Raw.trim().split('\n');
-	for (let i=0; i<Lines.length; i++) {
-		let Type;
-		const Line = Lines[i].trim();
-		if (Line.startsWith('%')) {
-			Type = 'Meta';
-		} else if (Line.startsWith('$')) {
-			Type = 'Macros';
-		} else {
-			continue;
-		};
-		Mid[Type] += Line.substring(1).trim() + '\n';
-	};
-	const Types = Object.keys(Mid);
-	for (let i=0; i<Types.length; i++) {
-		const Type = Types[i];
-		Parser = new ConfigParser();
-		Parser.parse(Mid[Type]);
-		const Items = Parser.items();
-		for (let i=0; i<Items.length; i++) {
-			const Item = Items[i];
-			Data[Type][Item[0]] = Item[1];
-		};
-	};
-	return Data;
-};
-
 const MakeMetaStr = Post => {
 	let Str = '';
-	const Types = ['Meta', 'Macros'];
-	for (let i=0; i<Types.length; i++) {
-		let Mark;
-		const Type = Types[i];
-		if (Type == 'Meta') {
-			Mark = '%';
-		} else if (Type == 'Macros') {
-			Mark = '$';
-		};
-		const Keys = Object.keys(Post[Type]);
-		for (let i=0; i<Keys.length; i++) {
-			const Key = Keys[i];
-			Str += `// ${Mark} ${Key} = ${Post[Type][Key]}\n`
-		};
-	};
+	['Meta', 'Macros'].forEach((Type) => {
+		const Marks = { Meta: "%", Macros: "$", };
+		Object.keys(Post[Type]).forEach((Key) => {
+			Str += `// ${Marks[Type]} ${Key} = ${Post[Type][Key]}\n`;
+		});
+	});
 	return Str;
 };
 
@@ -147,16 +107,14 @@ const HandlePost = (PostSrc, Output) => {
 	ContentDom = JSDOM.fragment(Post.Content);
 
 	// Handle .MetadataBlock elements
-	let MetadataBlocks = ContentDom.querySelectorAll(MetadataBlockSelect);
-	for (let i=0; i<MetadataBlocks.length; i++) {
-		const Elem = MetadataBlocks[i];
+	Array.from(ContentDom.querySelectorAll(MetadataBlockSelect)).forEach((Elem) => {
 		if (Elem.textContent) {
 			const Meta = ParseMeta(Elem.textContent);
 			Post.Meta = Object.assign(Post.Meta, Meta.Meta);
 			Post.Macros = Object.assign(Post.Macros, Meta.Macros);
 		};
-		MetadataBlocks[i].outerHTML = '';
-	};
+		Elem.outerHTML = '';
+	});
 	// NOTE: Maybe would be better to first do string replacements?
 
 	let LinkElem = GetLinkElem(ContentDom);
@@ -174,9 +132,7 @@ const HandlePost = (PostSrc, Output) => {
 	};
 
 	// Handle .ReplacementsBlock elements: Add replacements to do to the default ones or override them.
-	let ReplBlocks = ContentDom.querySelectorAll(ReplacementsBlockSelect);
-	for (let i=0; i<ReplBlocks.length; i++) {
-		const Elem = ReplBlocks[i];
+	Array.from(ContentDom.querySelectorAll(ReplacementsBlockSelect)).forEach((Elem) => {
 		let Text = Elem.textContent.trim();
 		if (Text) {
 			if (!(Text.startsWith('{') && Text.endsWith('}'))) {
@@ -188,8 +144,8 @@ const HandlePost = (PostSrc, Output) => {
 				console.log(`[W] :  Problem parsing JSON in a ReplacementsBlock; Ignoring!`);
 			};
 		};
-		ReplBlocks[i].outerHTML = '';
-	};
+		Elem.outerHTML = '';
+	});
 
 	Post.Content = GetFragHTML(ContentDom);
 
@@ -204,47 +160,43 @@ const HandlePost = (PostSrc, Output) => {
 
 	// Do string replacements
 	// TODO: Replacements written in post body?
-	const ReplacementsKeys = Object.keys(Replacements);
-	for (let i=0; i<ReplacementsKeys.length; i++) {
-		const To = ReplacementsKeys[i];
-		let FromItems = Replacements[To];
-		if (typeof(FromItems) != 'object') {
-			FromItems = [FromItems];
+	Object.keys(Replacements).forEach((To) => {
+		let FromList = Replacements[To];
+		if (typeof(FromList) != 'object') {
+			FromList = [FromList];
 		};
-		for (let i=0; i<FromItems.length; i++) {
-			Post.Content = Post.Content.replaceAll(FromItems[i], To);
-		};
-	};
+		FromList.forEach((From) => {
+			Post.Content = Post.Content.replaceAll(From, To);
+		});
+	});
 
 	ContentDom = JSDOM.fragment(Post.Content);
 
 	// Handle .DeleteElementBlock elements: Elements that must be visible on Listed but deleted here.
-	let DelElemBlocks = ContentDom.querySelectorAll(DeleteElementBlockSelect);
-	for (let i=0; i<DelElemBlocks.length; i++) {
-		const Elem = DelElemBlocks[i];
+	Array.from(ContentDom.querySelectorAll(DeleteElementBlockSelect)).forEach((Elem) => {
 		if (!Elem.textContent) {
-			DelElemBlocks[i].nextElementSibling.outerHTML = '';
+			Elem.nextElementSibling.outerHTML = '';
 		};
-		DelElemBlocks[i].outerHTML = '';
-	};
+		Elem.outerHTML = '';
+	});
 
 	// Handle .ExtractCodeBlock elements: Allow for text to be treated as plain on Listed, and then extracted here.
-	let ExtCodeBlocks = ContentDom.querySelectorAll(ExtractCodeBlockSelect);
-	for (let i=0; i<ExtCodeBlocks.length; i++) {
-		const Elem = ExtCodeBlocks[i];
+	Array.from(ContentDom.querySelectorAll(ExtractCodeBlockSelect)).forEach((Elem) => {
 		const Find = CSSFirstTokenSelector(ExtractCodeBlockSelect);
 		if (Array.from(Elem.classList).includes(Find)) {
-			ExtCodeBlocks[i].outerHTML = ''; // Remove the ExtractCodeBlock upper-marker
+		// Remove the ExtractCodeBlock upper-marker
+			Elem.outerHTML = '';
 		} else {
-			ExtCodeBlocks[i].outerHTML = Elem.textContent; // Extract the marker's text as raw HTML
+		// Extract the marker's text as raw HTML
+			Elem.outerHTML = Elem.textContent;
 		};
-	};
+	});
 
 	Post.Content = GetFragHTML(ContentDom);
 
 	if (Output == 'file') {
 		TryMkdirSync(PathDir);
-		fs.writeFileSync(FinalFilePath, `\
+		Fs.writeFileSync(FinalFilePath, `\
 <!-- < Autogenerated by ListedDownsync.js. Do not edit (unless also set "% Downsync = False") - it would be overwritten. > -->
 ${MakeMetaStr(Post)}
 <h1>${Post.Meta.HTMLTitle ? Post.Meta.HTMLTitle : Post.Meta.Title}</h1>
