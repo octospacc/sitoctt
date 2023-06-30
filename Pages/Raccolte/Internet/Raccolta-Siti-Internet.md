@@ -64,7 +64,7 @@ Sito ultraminimale, nessuna grafica (:'c), ma bello schema di (3) colori e bei c
 
 - **🇮🇹 Arcisito**  
 Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anche Aurora). Lo ha messo in piedi oggi (2022-06-30), dopo che ha detto di non sapere cosa fare con tutto il tempo libero estivo, e io le ho detto "fai l'Arcisito".  
-	• Clearweb: [auroraviola.eu.org](https://auroraviola.eu.org){[:MdTgtBlankNofw:]}
+	• Clearweb: [arci.me](https://arci.me){[:MdTgtBlankNofw:]} <!-- [auroraviola.eu.org](https://auroraviola.eu.org){[:MdTgtBlankNofw:]} -->
 
 - <b id="-s-a-1">🇬🇧 🇮🇹 astral town</b>  
 ![serimemo]([staticoso:Folder:Assets:AbsoluteRoot]/Media/Buttons/Sites/serimemo-88x31.png)  
