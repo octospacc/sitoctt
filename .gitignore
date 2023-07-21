@@ -11,3 +11,4 @@ Scripts.out/*
 *.tmp
 tmp.*
 .env
+TiddlyWiki/*
