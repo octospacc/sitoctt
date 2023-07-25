@@ -430,6 +430,14 @@ Img.Center, Video.Center,
 	#DesktopModeCheck, #DesktopModeLabel { Display: None; }
 }
 
+iframe.Embed-16-9 {
+	Height: Calc(75vw / 16 * 9);
+}
+
+#DesktopModeCheck:Checked ~ Div iframe.Embed-16-9 {
+	Height: Calc(67.5vw / 16 * 9);
+}
+
 /*--------------------------------------------------------*/
 
 

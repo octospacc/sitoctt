@@ -15,6 +15,7 @@ https://sitoctt.octt.eu.org/Chi-Sono.html
 https://sitoctt.octt.eu.org/Devlogs.html
 https://sitoctt.octt.eu.org/Donazioni.html
 https://sitoctt.octt.eu.org/PicoBlog.html
+https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Carte-QR.html
 https://sitoctt.octt.eu.org/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Minecraft.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/Minesweeper.html
