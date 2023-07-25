@@ -60,7 +60,7 @@ Giocare in Mischie Mollusche (questo il nome delle battaglie online 4-contro-4) 
 ### <a href="#--Tetris"><span class="twa twa-🧱">🧱</span> Tetris ↩️</a>  
 #### Tetris Effect  
 Tetris effect aggiunge a Tetris atmosfere ambient con tanti temi diversi. Effetti visivi e sonori lavorano gli uni per potenziare gli altri, e permettere la totale immersione, anche in un gioco che resta semplicemente fatto di cubi che cadono. Centinaia di migliaia di particelle ovunque, forme, colori, musica attraente, questa è la sua formula. Ha dei difetti, come l'essere particolarmente pesante per un Tetris e l'avere comandi non terribilmente responsivi, ma non per questo va buttato via. Resta da godere.  
-<video frameBorder="0" src="[:YouTube360:]PFVL6t8IHE8" style="Height:Calc(80vw / 16 * 9);"><!-- https://piped.kavin.rocks/embed/watch?v=PFVL6t8IHE8 ---></video>  
+<br/>[:YouTubeEmbedOpen169:]PFVL6t8IHE8[:YouTubeEmbedClose:]  
 <cite>Da <a href="[:YouTubeURL:]/PFVL6t8IHE8" [:HTMLTgtBlank:]>YouTube/PFVL6t8IHE8</a>.</cite>
 
 ## Giochi multiforma
@@ -98,14 +98,14 @@ _I titoli che hanno soltanto una di queste due caratteristiche potrebbero anche 
 ### <span class="twa twa-🧗‍♀️">🧗‍♀️</span> Celeste  
 Celeste è un bel giochino platformer, con meccaniche originali e uno stile grafico unico. Però è troppo difficile.  
 Ho provato a giocarci tante volte, ma ad un certo punto della storia la difficoltà diventa per me troppo alta. Dovrei forse provare a finirlo in modalità guidata, visto che l'opzione c'è. Fino a quando non l'ho fatto, però, non vado a cercare video del finale e spoilerarmi roba, visto che dicono che il valore di Celeste sta proprio nel suo significato.  
-	• Ottieni: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}
-<video frameBorder="0" src="[:YouTube360:]_bM0uEAis14" style="Height:Calc(80vw / 16 * 9);"></video>  
+	• Ottieni: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}  
+<br/>[:YouTubeEmbedOpen169:]_bM0uEAis14[:YouTubeEmbedClose:]  
 <cite>Da <a href="[:YouTubeURL:]/_bM0uEAis14" [:HTMLTgtBlank:]>YouTube/_bM0uEAis14</a>.</cite>
 
 ### <span class="twa twa-✈️">✈️</span> Pilotwings
 #### Pilotwings Resort  
 Pilotwings Resort continua la serie di Pilotwings, gioco di simulazione di volo arcade, in modo diverso. Finisce su una console portatile, il 3DS, tra l'altro una console che riesce a prenderti direttamente, con il suo display in 3D stereoscopico. Il gioco è ambientato su Wuhu Island, lo stesso posto pieno di storia, luoghi, e misteri di Wii Sports Resort. La modalità missioni riesce ad essere in certi casi una vera sfida se, come me, si ha la mania del platinaggio.. ma la modalità di volo libero è indiscutibilmente rilassante e, forse, direi anche più immersiva. In essa, comunque, non è che non si faccia nulla: si devono trovare, pochi alla volta, tutti e 120 gli anelli informazione, passandoci attraverso per sbloccarli.  
-<video frameBorder="0" src="[:YouTube360:]QJCb8qnHauo" style="Height:Calc(80vw / 16 * 9);"></video>  
+<br/>[:YouTubeEmbedOpen169:]QJCb8qnHauo[:YouTubeEmbedClose:]  
 <cite>Da <a href="[:YouTubeURL:]/QJCb8qnHauo" [:HTMLTgtBlank:]>YouTube/QJCb8qnHauo</a>.</cite>
 
 ## Altri ancora

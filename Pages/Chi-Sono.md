@@ -29,7 +29,7 @@ Spesso dormo anche, ahhh bello quando dormi che stai lì così, ohhh, e ogni tan
 
 Scrivo anche programmi veri e propri a volte. Più che altro, programmini, perchè se mi imbarco in grosse imprese poi rischio <small>(no no, succede spesso, quale "rischio", è una certezza)</small> di lasciare roba abbandonata a metà... tuttavia, ad onor del vero, [staticoso](./index.html#-Codice-sorgente) per ora sembra essere l'eccezione! 🥳
 
-Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco. Qui comunque ce ne sono alcuni che consiglio: [Raccolta Videogiochi](Pages/Raccolte/Gaming/Raccolta-Videogiochi.md).
+Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco. Qui comunque ce ne sono alcuni che consiglio: [Raccolta Videogiochi](./Raccolte/Gaming/Raccolta-Videogiochi.html).
 
 Ah, e devo anche ancora andare a scuola. Un po' na' seccatura, vabbe, c'è poco da fare.
 

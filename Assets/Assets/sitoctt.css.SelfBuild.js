@@ -444,6 +444,14 @@ ${wPagesList} Li > Span + A { Margin-Bottom: 1em; }
 	#DesktopModeCheck, #DesktopModeLabel { Display: None; }
 }
 
+iframe.Embed-16-9 {
+	Height: Calc(75vw / 16 * 9);
+}
+
+${IfDeskMode_Div} iframe.Embed-16-9 {
+	Height: Calc(67.5vw / 16 * 9);
+}
+
 /*--------------------------------------------------------*/
 
 
