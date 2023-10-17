@@ -2,7 +2,7 @@
 // % HTMLTitle: <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono
 // % Index: True
 // % Order: 20
-// % UpdatedOn = 2023-02-01
+// % UpdatedOn = 2023-10-17
 // $ SelfhostLineBadge = <small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST!</small>
 
 # <span class="twa twa-grinning-cat"><span>😺</span></span> Chi sono?
@@ -19,19 +19,21 @@ Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma qua
 
 Beh, innanzitutto faccio questo sito. Scrivo le cose, che siano inutili fiumi di parole in lingua umana, oppure paroline magiche che il tuo computer interpreta per visualizzare queste pagine nella loro forma più gloriosa.
 
-Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}. In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma lascio i collegamenti da seguire per capire, non parlo dello Spacc qui.
+Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}, e sysadmin della [Spacc BBS](https://bbs.spacc.eu.org). In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma lascio i collegamenti da seguire per capire, non parlo dello Spacc qui.
 
-Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra server <small><del>Matrix</del></small> Misskey, bot vari per diverse piattaforme, il server [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, resa solo più difficile dal mio usare hardware più o meno di fortuna <small>('nsomma, un Rasperino ad oggi non è _di_ fortuna, è **una** fortuna 😓)</small>.
+Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra software server per usi diversi, inclusi quelli web, bot vari per diverse piattaforme, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, anche se almeno ad oggi non ho la difficoltà dell'usare hardware troppo di fortuna.
 
-A volte spendo <small>(o perdo?)</small> tempo sul Fediverso, anche lì a scrivere e condividere robette, su diverse piattaforme carine e ovviamente libere.
+Ormai purtroppo spesso non trovo il giusto tempo da spendere sul Fediverso, come facevo prima anche lì a scrivere e condividere robette, sulle varie diverse piattaforme libere carine.
 
 Spesso dormo anche, ahhh bello quando dormi che stai lì così, ohhh, e ogni tanto ci vuole, toh.
 
-Scrivo anche programmi veri e propri a volte. Più che altro, programmini, perchè se mi imbarco in grosse imprese poi rischio <small>(no no, succede spesso, quale "rischio", è una certezza)</small> di lasciare roba abbandonata a metà... tuttavia, ad onor del vero, [staticoso](./index.html#-Codice-sorgente) per ora sembra essere l'eccezione! 🥳
+Scrivo anche programmi veri e propri a volte. Più che altro, programmini, perchè se mi imbarco in grosse imprese poi rischio <small>(no no, succede spesso, quale "rischio", è una certezza)</small> di lasciare roba abbandonata a metà...
 
-Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco. Qui comunque ce ne sono alcuni che consiglio: [Raccolta Videogiochi](./Raccolte/Gaming/Raccolta-Videogiochi.html).
+Pensa te, inoltre: quando ho tempo, gioco anche ai videogiochi, oppure leggo cose come articoli particolarmente interessanti (non solo il titolo) o manga. In passato, molto di più, ma ad oggi impiego il mio tempo in tante altre cose, quindi il gioco è bello ma, ormai, dura sempre troppo poco.
 
-Ah, e devo anche ancora andare a scuola. Un po' na' seccatura, vabbe, c'è poco da fare.
+Qui ci sono alcuni videogiochi che consiglio (lista noj esaustiva): [Raccolta Videogiochi](./Raccolte/Gaming/Raccolta-Videogiochi.html), mentre per le altre cose ancora non ho assemblato liste.
+
+Ah, e devo anche ancora andare a scuola... no, università mi dicono ora, credo. Un po' na' seccatura, vabbe, c'è poco da fare.
 
 ## Alcune mie proprietà particolari
 
@@ -51,6 +53,7 @@ Ah, e devo anche ancora andare a scuola. Un po' na' seccatura, vabbe, c'è poco 
 
 Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
+- [Telegram](https://t.me/ioctt)
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
 - <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
