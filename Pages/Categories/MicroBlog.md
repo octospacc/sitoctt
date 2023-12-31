@@ -1,7 +1,7 @@
 // % Title = 📒 MicroBlog
 // % HTMLTitle = <span class="twa twa-ledger twa-📒"><span>📒</span></span> MicroBlog
 // % Index = True
-// % Order = 60
+// // % Order = 60
 // % URLs = MicroBlog.html Diarylog.html
 // % Categories = Blog
 

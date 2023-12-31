@@ -53,7 +53,6 @@ Ah, e devo anche ancora andare a scuola... no, università mi dicono ora, credo.
 
 Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
-- [Telegram](https://t.me/ioctt)
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
 - <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}

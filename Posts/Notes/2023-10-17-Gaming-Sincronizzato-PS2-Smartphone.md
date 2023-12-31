@@ -5,6 +5,7 @@
 // % HTMLTitle = <span class="twa twa-2️⃣"><span>2️⃣</span></span> Gaming sincronizzato tra PlayStation 2 e smartphone
 // % Description = Per filo e per segno, come ho ideato un sistema per avere giochi e salvataggi sempre sincronizzati tra emulatore e console PS2 reale, condiviso qui.
 // % Categories = Note Gaming
+// % EditedOn = 2023-10-18
 
 <h1><span class="twa twa-2️⃣"><span>2️⃣</span></span> Gaming sincronizzato tra PlayStation 2 e smartphone</h1>
 
@@ -30,6 +31,8 @@ Fortunatamente, trovo subito <a href="http://www.csclub.uwaterloo.ca:11068/mymc"
 Non mi metto a spiegare come funziona, in fondo all'articolo potete scaricarlo e leggerlo, è una noia. Ho pacchettizzato mymc dentro lo script, così che non vada installato a parte.</p>
 
 <h3>Intoppo 3: convertire dal telefono</h3>
+
+<p><em>Nota 2023-10-18: ho trovato un fork moderno (in Python 3) di mymc, <a href="https://sr.ht/%7Ethestr4ng3r/mymcplus/" rel="noopener nofollow" target="_blank">mymc+</a>... non l'ho (ancora) provato, ma è possibile che questo possa funzionare anche su Android, eliminando il setup intricato che segue, quindi lo menziono.</em></p>
 
 <p>Purtroppo, mymc ha qualche problema a funzionare in <a href="https://termux.dev/en" rel="noopener nofollow" target="_blank">Termux</a> (l'ambiente Linux nativo molto comodo per questo tipo di integrazioni) sul mio Android: non so di cosa sia la colpa, ma in pratica il programma ha problemi a leggere i file VMC, tirando un errore del tipo di <code class="prettyprint">file.vmc: Bad file descriptor</code>. Non ho trovato soluzioni online, nemmeno per ricerche generiche del problema, quindi ho dovuto arrangiarmi. Forse usare un sistema GNU+Linux containerizzato in proot, con le sue librerie e una build diversa di Python 2.7, basterebbe a risolvere il problema, ma chissà.<br>
 Dal canto mio, mi stavo iniziando a scocciare, e allora ho optato per delegare la conversione al mio server Debian, facendo svolgere ad uno script in Termux il semplice compito di caricare la VMC sul server, eseguire lì sopra il vero script di conversione, e poi scaricare il file convertito nella giusta posizione in locale.</p>
@@ -70,6 +73,7 @@ Probabilmente, dovrò comunque procurarmi una memoria esterna più capiente per 
 
 <ul>
 <li>La mia domanda iniziale e la breve discussione del sistema su Sony Hacking Zone: <a href="https://t.me/SonyHacking/46784" rel="noopener nofollow" target="_blank">https://t.me/SonyHacking/46784</a>;</li>
+<li>Guida all'uso delle VMC su OPL: <a href="https://youtube.com/watch?v=tBrKcJC_E4U" rel="noopener nofollow" target="_blank">https://youtube.com/watch?v=tBrKcJC_E4U</a></li>
 <li>I miei script di conversione (su GitLab): <a href="https://gitlab.com/octospacc/Snippets/-/blob/main/Ps2EmuVmcConvert.sh" rel="noopener nofollow" target="_blank">diretto</a>, <a href="https://gitlab.com/octospacc/Snippets/-/blob/main/Ps2EmuVmcConvertCloud.sh" rel="noopener nofollow" target="_blank">via server</a>;</li>
 <li>Build Android di AetherSX2 con cui gioco (ultima senza adware): <a href="https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/aethersx2-v1-4-3060-android-apk-download/" rel="noopener nofollow" target="_blank">https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/aethersx2-v1-4-3060-android-apk-download/</a>.</li>
 </ul>
