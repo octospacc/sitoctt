@@ -1,11 +1,13 @@
-// % Title = 💾 Devlogs
-// % HTMLTitle = <span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs
+// % Title = 💾 Archivi Devlogs
+// % HTMLTitle = <span class="twa twa-floppy-disk twa-💾">💾</span> Archivi Devlogs
 // % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Devlogs.css";
-// % Index = True
-// % Order = 35
-// % Categories = Tecnologia Blog
+// % Categories = Tecnologia Blog MicroBlog
 
-# <span class="twa twa-floppy-disk twa-💾">💾</span> Devlogs
+Ho dimenticato di annunciarlo nell'articolo "[🎇 Il resocontoctt di questo 2023, almeno in termini di posting!](./Posts/2023-12-31-Resocontoctt-2023.html#-Il-MicroBlog-nuovissimo-alla-fa)", ma, così come per il PicoBlog e il Vecchio MicroBlog, i Devlogs sono ora deprecati, e non verranno più aggiornati. Quello che segue è l'archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.
+
+---
+
+# <span class="twa twa-floppy-disk twa-💾">💾</span> Archivi Devlogs
 
 Per mesi, in maniera occasionale, ho (ab)usato il PicoBlog come se fosse un devlog.  
 Ad un certo punto (_era quasi ora.._) [ho però pensato](./PicoBlog.html#-2022-08-23-Devlogs) al fatto che le cose non andassero bene.
