@@ -8,6 +8,7 @@ https://sitoctt.octt.eu.org/Categories/MicroBlog.html
 https://sitoctt.octt.eu.org/Categories/Mobile.html
 https://sitoctt.octt.eu.org/Categories/Note.html
 https://sitoctt.octt.eu.org/Categories/Rasperino.html
+https://sitoctt.octt.eu.org/Categories/Recensioni.html
 https://sitoctt.octt.eu.org/Categories/Sysadmin.html
 https://sitoctt.octt.eu.org/Categories/Tecnologia.html
 https://sitoctt.octt.eu.org/Categories/index.html
@@ -27,6 +28,7 @@ https://sitoctt.octt.eu.org/Raccolte/Media/Raccolta-Musica.html
 https://sitoctt.octt.eu.org/Raccolte/Sistemi/Raccolta-del-Riso.html
 https://sitoctt.octt.eu.org/index.html
 https://sitoctt.octt.eu.org/Raccolte/Gaming/2048.html
+https://sitoctt.octt.eu.org/Posts/2024-04-07-LIBERTY-WINGS-Breve-RPG-Liberta-Recensione.html
 https://sitoctt.octt.eu.org/Posts/2023-12-31-Resocontoctt-2023.html
 https://sitoctt.octt.eu.org/Posts/Notes/2023-10-17-Gaming-Sincronizzato-PS2-Smartphone.html
 https://sitoctt.octt.eu.org/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html
