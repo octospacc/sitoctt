@@ -190,7 +190,7 @@ IFrame {
 }
 
 #LeftBox A, #RightBox A, #BottomBox A { Color: Var(--cBasePinky); }
-#LeftBox Ul Li, #RightBox Ul Li { List-Style-Type: None; }
+#LeftBox Ul Li /*, #RightBox Ul Li */ { List-Style-Type: None; }
 #LeftBox Ul, #RightBox Ul { Padding-Top: 0px; }
 
 #TopBox {
