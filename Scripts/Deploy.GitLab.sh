@@ -6,6 +6,7 @@ python3 ./staticoso/App/Source/Build.py \
 	--DynamicParts="{'Head':['Twemoji.html'], 'Footer':['StatCounter.html'], 'Other':['CountWindow.html']}" \
 	--MastodonURL="https://poliversity.it" \
 	--MastodonToken="$MastodonToken" \
+	--ActivityPubHoursLimit=96 \
 	--GemtextOutput=True \
 	--GemtextHeader="\
 # sitoctt
