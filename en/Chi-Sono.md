@@ -25,7 +25,7 @@ Then, as much as I try to spend as little time as possible on it, I have my serv
 
 Unfortunately now I often don't find the right time to spend on the Fediverse, as I used to do there before writing and sharing stuff, on the various different nice free platforms.
 
-I often sleep too, ahhh nice when you sleep you stay there like that, ohhh, and sometimes it's necessary, oh.
+I often sleep too, ahhh it's nice when you sleep you stay there like that, ohhh, and sometimes it's necessary, oh.
 
 I also write actual programs sometimes. More than anything, little programmers, because if I embark on big undertakings then I risk <small>(no no, it happens often, what "risk", it's a certainty)</small> of leaving stuff abandoned halfway...
 
@@ -41,7 +41,7 @@ Oh, and I also still have to go to school... no, university they tell me now, I 
 : The simple thing is itself a particular property.
 
 • My favorite color is the background color of the site
-: That is, #eeddff. I'm poor and I don't have Pantone colors, this is the most precision I can guarantee. I hope your display is calibrated like mine.
+: That is, #eeddff. I'm poor and I don't have Pantone colors, this is the maximum precision I can guarantee. I hope your display is calibrated like mine.
 
 • I like to enslave stones
 : I mean, it's not that I enjoy it, it's that I have no other choice, the only way to do the things I like is to enslave computers (which are, at the processor level, thinking rocks).
@@ -72,7 +72,7 @@ It is also possible to take my public PGP key, or use the convenient interface o
 
 # End?
 
-For now, I'm sorry, but that's all. If you want to know more, you'll first have to wait until I think of new stuff to write. Don't get your hopes up too much, though, considering that this page hasn't expanded substantially for months and months 😬.
+For now, I'm sorry, but that's all. If you want to know more, you'll first have to wait until I think of new stuff to write. Don't hope too much, though, considering that this page hasn't expanded substantially for months and months 😬.
 
 Here on the site, however, I have not yet had clear enough ideas, nor the necessary patience, to create huge collections on all those elements of knowledge that I possess on very particular subjects. For the moment, at the cost of almost never adding anything, I avoid filling the post with **too much** information; However, I throw them all on [OcttKB](https://kb.octt.eu.org).
 

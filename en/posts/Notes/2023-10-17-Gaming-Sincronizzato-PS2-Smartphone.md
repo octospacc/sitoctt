@@ -1,0 +1,90 @@
+// % Title = 2️⃣ Synchronized gaming between PlayStation 2 and smartphone
+// % CreatedOn = 2023-10-17
+// % Downsync = /Posts/Notes/Gaming-Sincronizzato-PS2-Smartphone.html
+// % HTMLTitle = <span class="twa twa-2️⃣"><span>2️⃣</span></span> Synchronized gaming between PlayStation 2 and smartphone
+// % Description = In detail, how I designed a system to always have games and saves synchronized between the emulator and the real PS2 console, shared here.
+// % Categories = Gaming Notes
+// % EditedOn = 2023-10-18
+
+<h1><span class="twa twa-2️⃣"><span>2️⃣</span></span> Synchronized gaming between PlayStation 2 and smartphone</h1>
+
+<p>Those who have been following my adventures for long enough and with due attention perhaps know this, but the biggest problem in computer science is: how to properly reconcile the discrepancies that are created when we face the problem of playing video games both at home than in portability? Between games that in one case are comfortable to play and in another perhaps don't even run, and the saves that are spread across countless different devices, solving this problem completely will never be possible...<br>
+Yet, sometimes, the entropy of the brain is able to generate particularly useful ideas in this regard too, as happened to me the other day for the PS2.</p>
+
+<p>In fact, I have a real PlayStation 2, a home console that when you find a way to use it is certainly appreciable... and that I often found myself not using, for the reasons mentioned above: not directly, because at home I often don't goes, nor with an emulator on the smartphone, because I would feel that at home I wouldn't use the real console since the updated saves would only be on the phone.<br>
+And then, just the other day, staring at the console (I'm not sure why), I thought there should be a way to have the saves easily synchronized between it and the phone...</p>
+
+<h2>Snag 1: USB stick or memory card?</h2>
+
+<p>At the time, the simplest idea I thought of was: they exist <a href="https://www.amazon.it/Adattatore-Memoria-Lettore-Sostitutivo-trasparente/dp/B0C8TTQFJY" rel= "noopener nofollow" target="_blank">adapters</a> to use a microSD card as a PlayStation memory card (which use a non-standard interface instead)... it might be worth buying one of those, so I keep them all there the saves, and if desired I can also access them from other devices by moving the card around.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup> <br>
+With a card of several GB (there aren't any small ones around anymore anyway), furthermore, I could even do without the USB stick and keep all the games only on the memory card!</p>
+
+<p>Fortunately, this is not the only way, at least for certain games: <a href="https://github.com/ps2homebrew/Open-PS2-Loader" rel="noopener nofollow" target="_blank ">Open PS2 Loader</a>, the homebrew that runs commercial games from backup storage (such as USB sticks), supports the use of virtual memory cards (VMCs) that are saved as files on the USB drive. Games are quite slow to save on it (the PS2 only supports USB 1.1, plus there's some strange overhead), but it's an apparently workable solution.</p>
+
+<h2>Hitch 2: Save conversion</h2>
+
+<p>Regardless of the previous choice, however, I discover another obstacle: the saves should be converted to be passed from the console to the emulator (at least <a href="https://aethersx2.com" rel="noopener nofollow" target=" _blank">AetherSX2</a>, for better or worse the only truly decent one to date) and then vice versa.<br>
+Fortunately, I immediately find <a href="http://www.csclub.uwaterloo.ca:11068/mymc" rel="noopener nofollow" target="_blank">mymc</a>, a program so old that it requires Python 2 (while at the moment we've been on 3 for years and years), which however works, and thank goodness it offers a command line interface.</p>
+
+<p>It doesn't do true virtual memory card conversions per se, but it allows you to manipulate the contained files in various ways. All very crude, but fortunately exploitable enough to do just what I need, after having assembled an ideal script.<br>
+I won't try to explain how it works, at the bottom of the article you can download it and read it, it's boring. I packaged mymc inside the script, so that it doesn't have to be installed separately.</p>
+
+<h3>Snag 3: Converting from your phone</h3>
+
+<p><em>Note 2023-10-18: I found a modern fork (in Python 3) of mymc, <a href="https://sr.ht/%7Ethestr4ng3r/mymcplus/" rel="noopener nofollow " target="_blank">mymc+</a>... I haven't tried it (yet), but it's possible that this could work on Android too, eliminating the fiddly setup that follows, so I'll mention it.</em> </p>
+
+<p>Unfortunately, mymc has some problems running in <a href="https://termux.dev/en" rel="noopener nofollow" target="_blank">Termux</a> (the native Linux environment very convenient for this type of integrations) on my Android: I don't know what's to blame, but in practice the program has problems reading VMC files, throwing an error like <code class="prettyprint">file.vmc : Bad file descriptor</code>. I couldn't find any solutions online, not even for general searches of the problem, so I had to make do. Maybe using a containerized GNU+Linux system in root, with its libraries and a different build of Python 2.7, would be enough to solve the problem, but who knows.<br>
+For my part, I was starting to get annoyed, and so I opted to delegate the conversion to my Debian server, having a Termux script carry out the simple task of loading the VMC on the server, running the actual conversion script there, and then download the converted file to the right location locally.</p>
+
+<p>Before I forget: on Android 13 and higher (but already from some past versions) root permissions are needed to read and write files from/to external memories (such as the USB stick) and private application folders (such as the one where AetherSX2 stores the virtual memory cards).<br>
+From what I have been able to prove, if you don't have root you will necessarily have to use a suitable file manager (and I don't think there are scriptable ones, so you have to use your hands), or perhaps ADB, to move the files around... thank Google.<br>
+In any case, my scripts have written in the special paths used for all the ambaradan.</p>
+
+<p>Using <a href="https://wiki.termux.com/wiki/Termux:Widget" rel="noopener nofollow" target="_blank">Termux:Widget</a>, I finally added two links to my system launcher, for VMC conversion:</p>
+
+<ul>
+<li>one that goes from the PS2 format to the emulator one, to be run when I want to play on my phone but the saves on the pen drive were last modified by the PS2;</li>
+<li>the other for the reverse conversion, to be performed when I want to go and play on the PS2 once the emulator has updated my saves.</li>
+</ul>
+
+<p>To explain it I realize that it seems very complicated, in practice I just have to press a button and wait a few seconds.</p>
+
+<h2>In practice: the value of unique memory</h2>
+
+<p>Once the kinks have been eliminated, the configuration is done, and its strong point lies in the centralization of games and saves on a single device: the USB key. Like this:</p>
+
+<ul>
+<li>I avoid the confusion generated by games that I have on one side but not the other, especially when I want to modify my collection;</li>
+<li>I don't need a much larger microSD in my smartphone to contain all the games I already have on another portable memory, with advantages for the stability of the other data and the weight of the wallet;</li>
+<li>there is no extra confusion for the management of even the saves, these being managed as I said before.</li>
+</ul>
+
+<p>On the PS2 I normally connect the pen drive when I need it, however on the smartphone I have to use a USB-C OTG adapter, which is on average inconvenient but there is little that can be done. To avoid losing these things around, I then attached a carabiner to the USB stick, and a key ring in the hole for the lanyards on the phone cover.</p>
+
+<h2>Concluding: chain ideas</h2>
+
+<p>I believe that this is the most ideal system given my initial conditions, and in the following days I will test it thoroughly.<br>
+However, I will probably have to get a larger external memory to store more games, because the 32 GB one I use now has always been too small for me.</p>
+
+<p>Maybe, by taking a large enough one, and writing a special homebrew, I think I can adapt this system of mine for Wii games too, using the same memory for those too... spoilers? 👀</p>
+
+<p>Finally, here are the additional resources for this article:</p>
+
+<ul>
+<li>My initial question and brief system discussion on Sony Hacking Zone: <a href="https://t.me/SonyHacking/46784" rel="noopener nofollow" target="_blank">https:/ /t.me/SonyHacking/46784</a>;</li>
+<li>Guide to using VMC on OPL: <a href="https://youtube.com/watch?v=tBrKcJC_E4U" rel="noopener nofollow" target="_blank">https://youtube.com /watch?v=tBrKcJC_E4U</a></li>
+<li>My conversion scripts (on GitLab): <a href="https://gitlab.com/octospacc/Snippets/-/blob/main/Ps2EmuVmcConvert.sh" rel="noopener nofollow" target="_blank ">direct</a>, <a href="https://gitlab.com/octospacc/Snippets/-/blob/main/Ps2EmuVmcConvertCloud.sh" rel="noopener nofollow" target="_blank">via server< /a>;</li>
+<li>AetherSX2 Android build I play (latest without adware): <a href="https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/aethersx2-v1 -4-3060-android-apk-download/" rel="noopener nofollow" target="_blank">https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/ aethersx2-v1-4-3060-android-apk-download/</a>.</li>
+</ul>
+
+
+
+<div class="footnotes">
+<ol>
+
+<li id="fn1">
+<p>On this issue I find conflicting opinions or not very clear advice, so be careful: it is not clear whether these adapters also work as normal memory cards for saving games (and therefore also possibly as an FMCB card), or only as external memory for homebrews like OPL... in any case it would be a potentially valid purchase, considering the technical drawbacks of USB on PS2. <a href="#fnref1">↩</a></p>
+</li>
+
+</ol>
+</div>
