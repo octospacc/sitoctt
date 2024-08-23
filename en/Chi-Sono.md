@@ -1,11 +1,10 @@
----
-Title: 😺 Who I am
-HTMLTitle: <span class="twa twa-grinning-cat"><span>😺</span></span> Who I am
-Index: True
-Order: 20
-Lastmod: 2023-10-17
-$SelfhostLineBadge:<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST !</small>
----
++++
+Title = "😺 Who I am"
+Index = true
+Order = 20
+Lastmod = 2023-10-17
+xSelfhostLineBadge = '<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST !</small>'
++++
 
 Rightly, coming here, whether or not you have read the general information on the site on [Home](./index.html), you will be wondering who I am.
 
