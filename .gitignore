@@ -1,4 +1,4 @@
-i18n/*
+build/
 public/*
 public.Content/*
 public.gmi/*
@@ -8,7 +8,8 @@ Scripts/.bak/*
 #Scripts/package-lock.json
 Scripts/node_modules/*
 Scripts.out/*
+*.pyc
 *.tmp
 tmp.*
 .env
-TiddlyWiki/*
+.hugo_build.lock

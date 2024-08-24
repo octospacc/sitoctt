@@ -1,0 +1,43 @@
+relativeURLs = true
+theme = ["hugo-notice", "ananke"]
+disablePathToLower = true
+
+defaultContentLanguage = 'it'
+defaultContentLanguageInSubdir = true
+
+[permalinks]
+  [permalinks.page]
+    posts = "Posts/:year/:month/:day/:slug/"
+  [permalinks.section]
+    posts = "Posts/"
+
+[languages]
+  [languages.it]
+    contentDir = "content/it"
+    languageDirection = "ltr"
+    languageName = "Italiano"
+    weight = 1
+  [languages.en]
+    contentDir = "content/en"
+    languageDirection = "ltr"
+    languageName = "English"
+    weight = 2
+
+#[security]
+#  enableInlineShortcodes = false
+#  [security.exec]
+#    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^asciidoctor$']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  toc = true
+  #custom_css = [ "Global.scss", "sitoctt.scss" ]
+

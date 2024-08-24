@@ -1,0 +1,14 @@
+{{- $languageName := "[???]" -}}
+{{- $languageCode := (.Get 0) -}}
+{{- range .Site.Languages -}}
+  {{- if eq $languageCode (string .) -}}
+    {{- $languageName = .LanguageName -}}
+  {{- end -}}
+{{- end -}}
+{{- $noticeText := "" -}}
+{{- with dict "languageName" $languageName -}}
+  {{- $noticeText = (i18n "noticeAutomaticTranslation" .) -}}
+{{- end -}}
+{{- with dict "Params" "" "noticeType" "caution" "Inner" $noticeText -}}
+  {{- partial "notice" . -}}
+{{- end -}}
