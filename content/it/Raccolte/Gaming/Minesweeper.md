@@ -1,5 +1,8 @@
-// % Categories = Gaming
-// % EditedOn = 2023-03-28
++++
+Title = "💣 Minesweeper"
+Categories = [ "Gaming" ]
+Lastmod = 2023-03-28
++++
 
 <style>/*
 */#Body {
@@ -22,8 +25,6 @@
 	Backdrop-Filter: Blur(5px);
 }
 </style>
-
-# 💣 Minesweeper
 
 In **Minesweeper** (in italiano ufficialmente "**Campo minato**") si ha una griglia di gioco in cui sono state posizionate casualmente (da un algoritmo) delle bombe. Per vincere, bisogna individuarle tutte senza farne esplodere nessuna.
 

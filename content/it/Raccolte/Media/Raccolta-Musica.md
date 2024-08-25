@@ -1,8 +1,7 @@
-// % Title = 🎶 Raccolta Musica
-// % HTMLTitle = <span class="twa twa-🎶"><span>🎶</span></span> Raccolta Musica
-// % Index = Categories
-
-# <span class="twa twa-🎶"><span>🎶</span></span> Raccolta Musica
++++
+Title = "🎶 Raccolta Musica"
+#// % Index = Categories
++++
 
 _In costruzione..._
 

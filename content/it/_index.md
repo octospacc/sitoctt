@@ -1,7 +1,13 @@
 +++
-#title: "il sitoctt"
-#description: "The last theme you'll ever need. Maybe."
+Title = "il ✨sitoctt✨ — Home"
+description = "Octt sono io... e questo è letteralmente il mio sito (uwu)."
 #cascade:
 #  featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 +++
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
+
+Una volta qui era tutta campagn— ehm, volevo dire... era tutta una lista di parole ammassate alla male e peggio. Non solo non piaceva più nemmeno a me, ma non è proprio buona creanza nell'anno del Signore 2024 (e oltre), quindi...
+
+Ora c'è questa lista di tutti i miei ultimissimi articoli, e pagine sfuse che ho aggiornato di recente, mentre la vecchia home è a ["Sul sitoctt"](/Sul-sitoctt/) finché non avrò riorganizzato tutto. Benvenut<!--
+--><span class="BlinkA">a</span><!--
+--><span class="NoDisplay">/</span><!--
+--><span class="BlinkO">o</span> nel ✨sitoctt✨!

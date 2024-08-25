@@ -1,7 +1,8 @@
-// % Categories: Fritto-Misto
-// % Index: Categories
-
-# Raccolta Cose a Caso
++++
+Title = "Raccolta Cose a Caso"
+Categories = [ "Fritto-Misto" ]
+#Index: Categories
++++
 
 Questa è letteralmente una raccolta di cose a caso, trovate in giro per Internet oppure in archivi strani nel mio PC. Non aspettarti che ci sia un contesto comprensibile in nessuna delle cose...
 

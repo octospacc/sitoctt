@@ -1,27 +1,12 @@
 image: alpine:latest
 
-before_script: |
-  apk update
-  apk add python3 py3-pip npm go git tar wget
-  pip3 install requests lxml --break-system-packages
-  npm install -g pug-cli
-
 pages:
   stage: deploy
   script: |
-    git clone --depth 1 https://github.com/LukeEmmet/html2gmi
-    cd html2gmi
-    go get github.com/LukeEmmet/html2gmi
-    echo "#!/bin/sh" > ./html2gmi
-    echo "cd $PWD; go run ." >> ./html2gmi
-    chmod +x ./html2gmi
-    PATH=$PATH:$PWD
-    cd ..
-    sh ./Scripts/Get.staticosoDevFixed.sh
-    sh ./Scripts/Deploy.GitLab.sh
-    sh ./Scripts/Deploy.Gemini.sh
+    sh ./Scripts/Requirements.sh
+    sh ./Scripts/Build.sh
   artifacts:
     paths:
-    - public
+    - build/public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

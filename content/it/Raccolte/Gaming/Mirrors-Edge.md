@@ -1,9 +1,8 @@
-// % Title = 🏃‍♀️ Mirror's Edge
-// % HTMLTitle = <span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge
-// % Categories = Gaming
-// % UpdatedOn = 2023-04-01
-
-# <span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge
++++
+Title = "🏃‍♀️ Mirror's Edge"
+Categories = [ "Gaming" ]
+Lastmod = 2023-04-01
++++
 
 <video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></video>  
 <cite>Da <a href="https://youtu.be/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>

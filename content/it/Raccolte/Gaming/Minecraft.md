@@ -1,9 +1,8 @@
-// % Title = ⛏️ Minecraft
-// % HTMLTitle = <span class="twa twa-⛏️">⛏️</span> Minecraft
-// % Categories = Gaming
-// % UpdatedOn = 2023-04-01
-
-# <span class="twa twa-⛏️">⛏️</span> Minecraft
++++
+Title = "⛏️ Minecraft"
+Categories = [ "Gaming" ]
+Lastmod = 2023-04-01
++++
 
 Credo si possa definire Minecraft come **il** gioco moderno (bene o male) che da semplici premesse sviluppa complessità potenzialmente infinita. In senso buono, ovviamente: la complessità va a colpire e a premiare chi la cerca, ma il titolo resta giocabile per chiunque.
 

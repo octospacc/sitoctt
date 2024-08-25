@@ -1,15 +1,19 @@
+title = "✨sitoctt✨"
 relativeURLs = true
 theme = ["hugo-notice", "ananke"]
 disablePathToLower = true
+sectionPagesMenu = "main"
 
-defaultContentLanguage = 'it'
+defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
 
 [permalinks]
   [permalinks.page]
-    posts = "Posts/:year/:month/:day/:slug/"
-  [permalinks.section]
-    posts = "Posts/"
+    post = "post/:year-:month-:day-:slug/"
+#    posts = "Posts/:year/:month/:day/:slug/"
+#  [permalinks.section]
+#    post = "post/"
+#    posts = "Posts/"
 
 [languages]
   [languages.it]
@@ -39,5 +43,6 @@ defaultContentLanguageInSubdir = true
 
 [params]
   toc = true
+  show_reading_time = true
   #custom_css = [ "Global.scss", "sitoctt.scss" ]
 
