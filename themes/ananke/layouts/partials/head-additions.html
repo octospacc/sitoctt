@@ -1,0 +1,4 @@
+<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion{{ .RelPermalink }}"/>
+{{ if ($featured_image := (partial "func/GetFeaturedImage.html" .)) }}
+  <meta property="og:image" content="{{ $featured_image }}" />
+{{ end }}

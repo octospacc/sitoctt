@@ -1,2 +1,2 @@
-{{- $raw := (markdownify .Inner | chomp) -}}
+{{- $raw := .Inner -}}
 {{- partial "notice" . -}}

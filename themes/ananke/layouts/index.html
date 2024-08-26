@@ -33,7 +33,7 @@
         </section>
 
         {{ if ge $section_count (add $n_posts 1) }}
-        <section class="w-100">
+        <section class="w-100 m8">
           <h1 class="f3">{{ i18n "more" }}</h1>
           {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
           {{ range (first 4 (after $n_posts $section))  }}
@@ -50,6 +50,8 @@
           {{ end }}
           </section>
         {{ end }}
+
+        {{- partial "index-footer.html" -}}
 
         </div>
     {{ end }}

@@ -1,0 +1,16 @@
+{{ $alt := (or (and .alt (printf "[%s]" .alt)) "") }}
+{{ $img := (printf `<img src="%s" alt="%s" title="%s" width="88px" height="31px" />`
+  (or .src (printf `%s/Media/Buttons/%s`
+    (partial "assetsRoot.html")
+    .srcRelative))
+  $alt $alt) | safeHTML }}
+{{ if .href }}
+  <!-- {{ if not .target }}
+    {{ .Scratch.Set "target" "_blank" }}
+  {{ end }} -->
+  {{ partial "anchor.html" (dict
+    "Inner" $img
+    "Params" .) }}
+{{ else }}
+  {{ $img }}
+{{ end }}

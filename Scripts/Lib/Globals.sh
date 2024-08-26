@@ -13,6 +13,6 @@ swd="$(dirname "$(realpath "$0")")"
 if [ ! -e "${swd}/Lib/Globals.sh" ]
 then swd="${swd}/.."
 fi
-eval "$(sed -e 's| = |=|g' "${swd}/../config.toml")"
+#eval "$(sed -e 's| = |=|g' "${swd}/../config.toml")"
 
 Python3="$([ -n "$(which python3)" ] && echo python3 || echo python)"

@@ -14,7 +14,7 @@ other = "leggi di più"
 other = "Da"
 
 [whatsInThis]
-other = "Cosa c'è in {{ .Type }}"
+other = "Cosa c'è qui"
 
 [related]
 other = "Correlati"

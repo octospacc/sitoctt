@@ -10,15 +10,16 @@ const PostsFileDate = true; // Append dates (YYYY-MM-DD) to posts file names
 const FrontmatterNew = {
 	createdon: "Date",
 	updatedon: "Lastmod",
-	categories: Array,
+	categories: [],
+	urls: ["Aliases"],
 	htmltitle: false,
 };
 let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	"<h2>[:HNotesRefsHTML:]</h2>": "<h2>🏷️ Note e Riferimenti</h2>",
 	'<div class="footnotes">': ['<div class="footnotes"><hr>', '<div class="footnotes">\n<hr>'],
 	'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
-	" href=\"[staticoso:CustomPath:Assets]/": " href=\"https://sitoctt-assets.octt.eu.org/",
-	" src=\"[staticoso:CustomPath:Assets]/": " src=\"https://sitoctt-assets.octt.eu.org/",
+	" href=\"{{< assetsRoot >}}/": " href=\"https://sitoctt-assets.octt.eu.org/",
+	" src=\"{{< assetsRoot >}}/": " src=\"https://sitoctt-assets.octt.eu.org/",
 	'<div class="highlight CodeScroll">': '<div class="highlight">',
 	//'<iframe src="[:YouTubeURL:]/' :'<iframe src="https://www.youtube-nocookie.com/',
 	'<video src="[:YouTube360:]' :'<iframe src="https://www.youtube-nocookie.com/embed/',

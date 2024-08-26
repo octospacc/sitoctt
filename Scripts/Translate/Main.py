@@ -96,5 +96,5 @@ def read_from_scripts(relative_path:str):
 if __name__ == "__main__":
 	globals_text = read_from_scripts('Lib/Globals.sh')
 	exec(globals_text.split('#' + globals_text.splitlines()[0].split('#!')[1] + '!')[0])
-	exec(read_from_scripts('../config.toml'))
+	#exec(read_from_scripts('../config.toml'))
 	main()
