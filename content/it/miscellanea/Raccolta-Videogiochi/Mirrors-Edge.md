@@ -4,6 +4,14 @@ Categories = [ "Gaming" ]
 Lastmod = 2023-04-01
 +++
 
+<!--
+Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  
+Ho giocato pochissimo la prima entrata della saga, perché fu la seconda uscita, Mirror's Edge Catalyst, ad introdurmi alla serie circa 2 anni fa. Catalyst lascia un po' da parte i colori molto saturi che erano parte dell'identità iniziale, per offrire grafica più realistica e immersiva. Anche la fisica e diversi dettagli minuti subiscono miglioramenti importanti rispetto al Mirror's Edge originale.  
+In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di speranza. È peculiare come i suoi piccoli dettagli riescano a farti sentire di essere effettivamente nel gioco - per un titolo non VR, è una grande vittoria. Il gameplay in sé è chiave per questa esperienza, ma anche la lore è di tutto rispetto.  
+<video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></video>  
+<cite>Da <a href="https://youtu.be/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>
+-->
+
 <video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></video>  
 <cite>Da <a href="https://youtu.be/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>
 

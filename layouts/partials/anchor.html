@@ -1,1 +1,1 @@
-<a href="{{ .Params.href }}" rel="{{ .Params.rel }}" target="{{ .Params.target }}" title="{{ .Params.title }}">{{ .Inner }}</a>
+<a href="{{ .Params.href }}" rel="{{ .Params.rel }}" target="{{ .Params.target }}" title="{{ .Params.title }}">{{ or .Inner .Params.href }}</a>

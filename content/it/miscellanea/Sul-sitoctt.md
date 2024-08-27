@@ -37,7 +37,8 @@ Gli aggiornamenti al sito sono di diverso tipo: la pubblicazione di nuovi artico
   Invece, l'icona con l'emoji di un foglio con un segnalibro (<big class="twa twa-bookmark-tabs twa-📑">📑</big>) indica l'elenco delle sezioni della pagina corrente - non è essenziale, ma può tornare utile per saltare tra parti diverse di un lungo testo.
 </p>
 
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Script-client-side"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Script-client-side"> Script client-side</span></h3>
+### Script client-side
+
 <p>Il sito Web non usa alcuno script client-side per le funzioni di base, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: <a href="Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html"><span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni</a>.<br/>Ad ogni modo, però.. per fornire alcune funzionalità extra, devo per forza avere del JS, c'è poco da fare. Qui sotto, la lista di cosa uso. <i>Tutti i file sono caricati dai server del mio sito, quindi è difficile che enti malevoli possano nasconderci malware dentro</i>.</p>
 <details>
 <summary>
@@ -90,7 +91,8 @@ Al momento, questo sito è disponibile per la navigazione su vari indirizzi dive
 Per chi non sapesse, comunque, il nome è da un mesetto cambiato in sitoctt da postoctt, perché il vecchio nome mi dava l'impressione di qualche servizio postale...
 Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamente gratuiti), se voglio che il sitocto sopravviva ad octt stessa me medesima e superi la prova del tempo... Ma questa è una questione lunga.
 
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Web"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Web"> Web</span></h3>
+### Web
+
 <p>Il sito Web è disponibile da diverse fonti.</p>
 <ul>
 <li>Sul <b>clearweb</b> HTTPS, sui server di <span style="Color:#fc6d26;">GitLab</span>: <a href="https://sitoctt.octt.eu.org">sitoctt.octt.eu.org</a>.</li>
@@ -111,9 +113,13 @@ Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamen
 </dl>
 </div>
 </details>
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Gemini"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Gemini"> Gemini</span></h3>
+
+### Gemini
+
 <p>Da ora, inoltre, il sitoctt è disponibile come capsula Gemini. Per andarci, si deve usare un browser Gemini.<br/>Ovviamente (per chi conosce Gemini), è tutto più castrato, e la forma non è esattamente la migliore perché tutte le pagine sono una diretta conversione dall'HTML del sito Web (e il programma su cui mi appoggio per farla è un po' rotto, per giunta).<br/>Vai alla octocapsula, gentilmente ospitata da koyu.space: <a href="gemini://koyu.space/octt">gemini://koyu.space/octt</a></p>
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Feed-e-notifiche"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Feed-e-notifiche"> Feed e notifiche</span></h3>
+
+### Feed e notifiche
+
 <p>Da ora il sitocto (il blogoctt e il MicroBlog, nello specifico) ha dei feed integrati, che vengono automaticamente aggiornati quando pubblico un nuovo articolo!</p>
 <p><b style="color:#ff6a00;">Feed Atom</b> (moderno, <b>consigliato</b>, contiene post completi): <b><a href="./feed/atom.xml">feed/atom.xml</a></b><br/>Feed RSS (obsoleto, disponibile per compatibilità): <a href="./feed/rss.xml">feed/rss.xml</a></p>
 <p>Ti serve un aggregatore di feed compatibile per usarli.<br/>- Su PC desktop consiglio <a href="https://thunderbird.net" rel="noopener" style="Color:#0080FF;" target="_blank">Thunderbird </a>o <a href="https://www.seamonkey-project.org" rel="noopener" style="Color:#003399;" target="_blank">SeaMonkey Mail</a>.<br/>- Su Android consiglio <a href="https://f-droid.org/packages/com.nononsenseapps.feeder" rel="noopener" target="_blank">Feeder</a> o <a href="https://f-droid.org/packages/com.poloure.simplerss" rel="noopener" target="_blank">Simple Rss</a>.<br/>- Se vuoi usare un dispositivo come un lettore di e-book e-ink, l'unico software universale che - tra le altre cose - include un aggregatore di feed, che conosco e posso consigliare, è <a href="https://github.com/koreader/koreader" rel="noopener" target="_blank">KOReader</a>.<br/>- Suggerimento: se usi Friendica, puoi copiare il link al feed e incollarlo nella barra di ricerca, per poterlo seguire come se fosse un profilo!</p>
@@ -122,17 +128,26 @@ Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamen
 </p>
 
 ## Sorgenti e licenze
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Licenze-dei-contenuti"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Licenze-dei-contenuti"> Licenze dei contenuti</span></h3><p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/CC.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/BY.svg"/> <img <="" class="i1em" span="" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
+
+### Licenze dei contenuti
+
+<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/CC.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/BY.svg"/> <img <="" class="i1em" span="" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
 <p>Sono presenti, però, anche contenuti non miei.<br/>In ogni caso, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino. <br/>Per la roba presa in prestito, invece, verrà sempre indicata la fonte da cui ho prelevato e la licenza, che sia questa di dominio pubblico, Creative Commons, o non specificata.<br/>Occhio, che i crediti per le cosine HTML e CSS spesso li lascio soltanto nei sorgenti della pagina.. Quindi, in caso, controlla lì per questo genere di crediti. Per cose come immagini o testi, invece, spesso eventuali crediti sono parte visibile della pagina, vicini all'oggetto preso in prestito (come una descrizione); altre volte, lo stesso oggetto è un link che, se cliccato, riporta alla fonte.<br/>Comunque, ho pensato di creare una sezione della pagina <a href="#-Crediti-speciali">qui sotto</a>, dedicata a crediti speciali (che compilo quando mi ricordo).</p>
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Codice-sorgente"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Codice-sorgente"> Codice sorgente</span></h3>
+
+### Codice sorgente
+
 <p>Parlando dei sorgenti del sito, quelli HTML dell'effettiva pagina caricata dal browser potrebbero essere difficili da leggere. Questo è perché in realtà non scrivo direttamente l'HTML completo per comporre le pagine.<br/>Non solo sarebbe un casino replicare le mie varie barre e sezioni di navigazione su tutte le pagine, e se devo fare modifiche a queste poi è un inferno replicare la cosa ovunque, ma la sintassi HTML è sporca e faticosa da scrivere.</p>
 <p>Proprio per questi motivi, ho creato un mio generatore di siti statici (anche quello, come questo sito stesso, incompleto ma aggiornato di tanto in tanto quando mi serve), che preprocessa il mio codice sorgente per includere le mie barre in tutte le pagine, generare le sezioni della pagina (che appaiono nel menu a destra), generare la lista di pagine del sito (del menu a sinistra), e <i>altre cosette</i>. Passaggio importante, eventuali file Markdown o Pug vengono tradotti in HTML per essere comprensibili da normali browser, ed ecco qua.<br/>Ah, si, sto dicendo "<i>altre cosette</i>" perché si tratta di roba che al momento della scrittura di questo capitolo della pagina è assente o incompleta, e scrivendo come scrivo mi paro le chiappette e non devo fare future modifiche. 
   <pre class="Inline"><i>H e h .</i></pre>
 </p>
-<h4 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Prendi-tutto"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Prendi-tutto"> Prendi tutto!</span></h4>
+
+#### Prendi tutto!
+
 <p>Per terminare, trovate tutti i miei sorgenti sulle rispettive repo Git.<br/>Quelli del mio sito (divisi in repo multiple per tenere la cronologia pulita), alle condizioni descritte sopra: <a href="https://gitlab.com/octtspacc/sitoctt" rel="noopener" target="_blank">gitlab.com/octtspacc/sitoctt</a>; <a href="https://gitlab.com/octtspacc/sitoctt-assets" rel="noopener" target="_blank">sitoctt-assets</a>.<br/>Quelli del mio generatore, anche questo rilasciato sotto una licenza libera, la AGPL: <a href="https://gitlab.com/octtspacc/staticoso" rel="noopener" target="_blank">gitlab.com/octtspacc/staticoso</a>.</p>
 <p>Altra cosa: in caso possa interessare, per conservare e/o condividere in modo immediato (esclusi i file che sono sulle repo a parte, perché linkati in modo assoluto) copie offline del sito, si può scaricare uno <b>zip</b> contenente tutte le pagine compilate <a href="https://gitlab.com/octtspacc/sitoctt/-/jobs/artifacts/main/download?job=pages" rel="noopener" target="_blank">qui</a>!</p>
-<h3 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Crediti-speciali"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Crediti-speciali"> Crediti speciali</span></h3>
+
+### Crediti speciali
+
 <details>
 <summary>
 <h4>Lista di crediti e ringraziamenti speciali a chi ho preso materiale in prestito (Espandi)</h4>

@@ -1,0 +1,8 @@
+{{- $result := false -}}
+{{- $languageCode := .Lang -}}
+{{- range .Site.Languages -}}
+  {{- if eq $languageCode (string .) -}}
+    {{- $result = . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}
