@@ -32,7 +32,7 @@ _Under construction..._
 
 This is the place for the best titles, **the epic, one-of-a-kind titles**, period. And here, it absolutely doesn't matter whether a given game is popular or not: it only matters how important it is to me.
 
-### <a href="./2048.html">🔢️ 2048 ↗️</a>
+### <a href="./2048/">🔢️ 2048 ↗️</a>
 
 ### <span class="twa twa-🎩">🎩</span> A Hat in Time  
 Lively and frenetic 3D platformer, undoubtedly coming from the Super Mario 64 school. The difficulty of the main story is just right, and the game flows pleasantly with an alternation of themes and environments that always feels fresh.  
@@ -43,11 +43,11 @@ The premises were creative, but boring: you are a human being who, for some reas
 Animal Crossing is one of those games that simply needs to be tried to be understood: staying in that world manages to induce calm and joy for reasons that apparently go beyond logic.  
 	• Animal Crossing: New Horizons: Get: <https://go.octt.eu.org/$afa0200c237a>{[:MdTgtBlankNofw:]}
 
-### <a href="./Minecraft.html"><span class="twa twa-⛏️">⛏️</span> Minecraft ↗️</a>
+### <a href="./Minecraft/"><span class="twa twa-⛏️">⛏️</span> Minecraft ↗️</a>
 
-### <a href="./Minesweeper.html">💣 Minesweeper ↗️</a>
+### <a href="./Minesweeper/">💣 Minesweeper ↗️</a>
 
-### <a href="./Mirrors-Edge.html"><span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge ↗️</a>
+### <a href="./Mirrors-Edge/"><span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge ↗️</a>
 
 <!--
 A series of first-person games that, with a lively but not oppressive pace, mixes parkour platforming and close-quarters combat.  
@@ -57,7 +57,7 @@ In any case, we are talking about a game capable of giving a great sense of free
 <cite>From <a href="https://youtu.be/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>
 -->
 
-### <a href="./Nonogram.html">#️⃣️ Nonogram ↗️</a>
+### <a href="./Nonogram/">#️⃣️ Nonogram ↗️</a>
 
 ### <span class="twa twa-🐙">🐙</span> Splatoon  
 Third person shooter which to say is different from the others is an understatement. Splatoon breaks the genre's expectations of war realism, and features cute, dazzlingly colorful gameplay that never lets up. There are no humans shooting bullets with iron, but squids spilling ink.  

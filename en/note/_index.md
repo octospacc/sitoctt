@@ -4,6 +4,3 @@ Aliases = [
   "/Categories/Note.html",
 ]
 +++
-
-{{< noticeAutomaticTranslation it >}}
-

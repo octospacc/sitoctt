@@ -4,6 +4,3 @@ Aliases = [
   "/Categories/index.html",
 ]
 +++
-
-{{< noticeAutomaticTranslation it >}}
-

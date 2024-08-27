@@ -84,8 +84,6 @@ Here on the site, however, I have not yet had clear enough ideas, nor the necess
 
 ---
 
-<div class="Center" markdown="1">
-![Me on Animal Crossing Wild World.]({{ ASSETS_ROOT }}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
-_I? Skin. Absolutely indisputable._  
+![Me on Animal Crossing Wild World.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
+_I? Cutie. Absolutely indisputable._  
 _You? Meh, maybe.. I think???_
-</div>
