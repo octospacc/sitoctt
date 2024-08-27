@@ -1,6 +1,9 @@
 +++
 Title = "🎶 Raccolta Musica"
-#// % Index = Categories
+Aliases = [
+  "/Raccolte/Media/Raccolta-Musica.html",
+]
+Categories = [ "Fritto-Misto" ]
 +++
 
 _In costruzione..._

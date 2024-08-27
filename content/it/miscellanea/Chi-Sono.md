@@ -1,9 +1,12 @@
 +++
 Title = "😺 Chi sono"
-Index = true
-Order = 20
+#Index = true
+#Order = 20
+Aliases = [
+  "/Chi-Sono.html",
+]
 Lastmod = 2023-10-17
-xSelfhostLineBadge = '<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST!</small>'
+#$SelfhostLineBadge = '<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST!</small>'
 +++
 
 Giustamente, venendo qui, che tu abbia o meno letto le informazioni generali del sito sulla [Home](./index.html), ti starai chiedendo chi sono io.

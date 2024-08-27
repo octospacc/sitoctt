@@ -5,7 +5,7 @@ Lastmod = 2024-08-25
 #Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/index.css";
 #Index = True
 #Order = 10
-#Image = {{< assetsRoot >}}/RichPreview/index.png
+Featured_Image = "@/RichPreview/index.png"
 +++
 
 Questa qui era inizialmente la pagina home del sito, ma è diventata così problematicamente lunga che... lasciamo stare, sulla [nuova home](/) c'è spiegato tutto. Qui, dunque, la classica serie di informazioni sfuse riguardo il ✨sitoctt✨ (in parte vecchie, verranno aggiornate in base alle novità)! 😊
@@ -20,8 +20,8 @@ Questa qui era inizialmente la pagina home del sito, ma è diventata così probl
 </h1><br/>
 </div>
 
-Da dove viene il nome **✨**<strong class="MainIdTextGradientL">sitoctt</strong>**✨**.
-Letteralmente il mio sito, perchè io sono octt e quindi
+Da dove viene il nome **✨**<strong class="MainIdTextGradientL">sitoctt</strong>**✨**?
+Dal fatto che è letteralmente il mio sito, perchè io sono octt e quindi
 <i style="Color:#8040d0;">sito</i> + <i style="Color:#d000d0;">octt</i>
 = **✨**<strong class="MainIdTextGradientR">sitoctt</strong>**✨**
 (<a href="{{< assetsRoot >}}/Media/sitoctt-pronuncia.flac" target="_blank" rel="noopener">pronuncia: "sitòctt"</a>).

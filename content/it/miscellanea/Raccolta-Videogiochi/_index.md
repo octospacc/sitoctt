@@ -1,9 +1,12 @@
-// % Categories = Gaming
-// % Index = Categories
-// % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-Videogiochi.css";
-// % EditedOn = 2023-02-01
-
-# Raccolta Videogiochi
++++
+Title = "Raccolta Videogiochi"
+Aliases = [
+  "/Raccolte/Gaming/Raccolta-Videogiochi.html",
+]
+Categories = [ "Gaming" ]
+#Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-Videogiochi.css";
+Lastmod = 2023-02-01
++++
 
 Perché non fare una raccolta per parlare, un po' in breve, dei videogiochi che apprezzo? (In ordine alfabetico)  
 Magari, riuscendo a puntare i riflettori anche su qualche esperienza videoludica mezza sconosciuta che però dovrebbe meritare molto di più.

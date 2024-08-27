@@ -1,7 +1,7 @@
 +++
 Title = "⚡️ Il blogging rapido con Standard Notes"
-Downsync = "/it/posts/Blogging-Rapido-con-Standard-Notes.html"
 Description = "Volendo scrivere e pubblicare di più, mi accorgo che il mio workflow mi rallentava, e nel cercare modi di blogging più rapidi, ripenso a Listed."
+Downsync = "/it/posts/Blogging-Rapido-con-Standard-Notes.html"
 Aliases = [
   "/Posts/2022-12-13-Blogging-Rapido-con-Standard-Notes.html",
 ]
@@ -15,7 +15,7 @@ Categories = [ "Tecnologia" ]
 <p>È da direi parecchio tempo che uso <strong><a href="https://standardnotes.com" rel="noopener nofollow" target="_blank">Standard Notes</a></strong> come <strong>app di note</strong> personali.<br>
 Anni fa l'avevo scelta per il suo essere <strong>libera e open-source</strong>, ma allo stesso tempo molto <strong>pulita, curata, e funzionale</strong>. Capitava a pennello in un momento in cui cercavo qualcosa che supportasse una <strong>cifratura</strong> dei dati che funziona, senza inficiare sull'usabilità.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Misc/Standard-Notes-Tablet.webp" alt="Vecchia app Android di Standard Notes sul mio tablet."></p>
+<p><img src="{{< assetsRoot >}}/Media/Misc/Standard-Notes-Tablet.webp" alt="Vecchia app Android di Standard Notes sul mio tablet."></p>
 
 <p>Senza dilungarmi su perché poi mi è piaciuto continuare ad usarla, poi ho smesso, e poi ho ripreso fino ad arrivare ad ora, bisogna approfondire su una in particolare delle sue <strong>funzioni integrate</strong>: <strong><a href="https://listed.to">Listed</a></strong>.<br>
 Si tratta di una piattaforma di <strong>blogging</strong> concepita dagli stessi sviluppatori di Standard Notes, e disponibile per il self-hosting oppure l'uso <strong>gratuito</strong> sull'istanza ufficiale. Per quanto io non l'abbia mai davvero usata prima, ho trovato fin dall'inizio <strong>interessante</strong> il concetto e la sua applicazione.</p>

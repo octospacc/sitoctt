@@ -1,5 +1,8 @@
 +++
 Title = "Quando metto mano io spacc"
+Aliases = [
+  "/Posts/MicroBlog/2022-09-18-Quando-Metto-Mano-Io-Spacc.html",
+]
 Categories = [ "MicroBlog" ]
 Date = 2022-09-18
 +++

@@ -3,7 +3,6 @@ Title = "🎮 Storia antica del DSpacc"
 Description = "La prima console da gioco della mia vita ha fatto la guerra, poi preso polvere, e ad oggi non è che stia benissimo; ma uno scopo gliel'ho dato."
 Aliases = [
   "/Posts/2022-10-31-Storia-Antica-del-DSpacc.html",
-  
 ]
 Categories = [ "Gaming", "Tecnologia" ]
 Date = 2022-10-31

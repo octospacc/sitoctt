@@ -36,6 +36,8 @@ defaultContentLanguageInSubdir = true
 
 [params]
   author = "OctoSpacc"
+  recent_posts_number = 5
+  other_posts_number = 6
   toc = true
   show_reading_time = true
   #custom_css = [ "Global.scss", "sitoctt.scss" ]

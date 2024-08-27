@@ -1,6 +1,9 @@
 +++
 Title = "Controllare statistiche interessanti e sulla salute di partizioni su Linux"
 Date = 2022-08-09
+Aliases = [
+  "/Posts/Notes/Linux/2022-08-09-Controllare-Statistiche-Interessanti-Partizioni-Linux.html",
+]
 +++
 
 Le memorie di archiviazione, di qualunque categoria siano, con l'usura si degradano.  

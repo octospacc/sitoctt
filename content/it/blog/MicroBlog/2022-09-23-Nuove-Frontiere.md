@@ -1,5 +1,8 @@
 +++
 Title = "Nuove frontiere"
+Aliases = [
+  "/Posts/MicroBlog/2022-09-23-Nuove-Frontiere.html",
+]
 Categories = [ "MicroBlog" ]
 Date = 2022-09-23
 +++

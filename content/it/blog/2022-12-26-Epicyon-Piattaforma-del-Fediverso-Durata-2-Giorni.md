@@ -1,8 +1,8 @@
 +++
 Title = "🐕‍🦺 Epicyon, piattaforma del Fediverso durata 2 giorni"
+Description = "Ho provato una certa piattaforma del Fediverso. Belle promesse di semplicità e leggerezza, ma dopo soli 3 giorni ho dovuto togliere baracca!"
 Date = 2022-12-26
 Downsync = "/it/posts/Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html"
-Description = "Ho provato una certa piattaforma del Fediverso. Belle promesse di semplicità e leggerezza, ma dopo soli 3 giorni ho dovuto togliere baracca!"
 Aliases = [
   "/Posts/2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html",
 ]
@@ -57,7 +57,7 @@ Inizialmente scovo solo le opzioni di <strong>personalizzazione di colori</stron
 
 <p>Il tema predefinito, infatti, non mi piaceva granché, ma ne ho trovati <strong>alcuni gradevoli</strong> tra quegli altri già inclusi. Il mio <strong>preferito</strong> si chiama "<strong>Pixel</strong>", ed offre una vista che mi appare <strong>rilassante</strong>, con i suoi sfondi di un <strong>violetto pseudo-lavanda</strong> (<code class="prettyprint" style="Background: #9ba0d4; Color:#000000;">#9ba0d4</code>) ed il testo mostrato con un <strong>font particolare</strong>, con caratteri formati da quadratini messi assieme (appunto, a simulare dei pixel chiaramente visibili). L'effetto che fa è <strong>interessante</strong>, perché è evidentemente un tema non classificabile né come chiaro, né come scuro; esiste nella sua categoria. O forse lo si può definire chiaro, perché il testo è nero, allora lo sfondo è necessariamente chiaro per contrasto. Vabbè, non me ne frega: il punto fondamentale è che, per me, è <strong>davvero bello</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Theme-Designer-Pixel.png" alt="Lo strumento di personalizzazione del tema (&quot;Theme Designer&quot;), visto con caricato il tema &quot;Pixel&quot;."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Theme-Designer-Pixel.png" alt="Lo strumento di personalizzazione del tema (&quot;Theme Designer&quot;), visto con caricato il tema &quot;Pixel&quot;."></p>
 
 <p>Un altro tema che ha attirato la mia attenzione è stato "LCD", che simula un vecchio schermo LCD monocromatico a <strong>sfondo verdognolo</strong>. Lo <strong>apprezzo</strong> molto <strong>a livello artistico</strong>, ma proprio non riesco ad usarlo, è <strong>troppo pesante</strong> sugli occhi usando uno schermo retroilluminato moderno!</p>
 
@@ -73,7 +73,7 @@ Forse con alcuni dei temi il problema non si sente troppo, ma con altri il <stro
 
 
 
-<video title="Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema &quot;Pixel&quot;." class="Center" src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/UI-Scaling-Bug-Pixel.webm" [:videoelemargs-controlmuteloopauto:]="">Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema "Pixel".</video>
+<video title="Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema &quot;Pixel&quot;." class="Center" src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/UI-Scaling-Bug-Pixel.webm" [:videoelemargs-controlmuteloopauto:]="">Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema "Pixel".</video>
 
 <h2>Entrando nel vivo</h2>
 
@@ -99,7 +99,7 @@ Allo stesso tempo, però, <strong>il server non rischia</strong> di doversi col 
 
 <p>La <strong>mancanza di una cronologia locale</strong>, però, probabilmente si sentirà se si vuole ospitare un server per un proprio gruppo di amici. Mah, forse nemmeno troppo: Epicyon sembra essere pensato per <strong>avere pochi utenti locali</strong> attivi, una dozzina al massimo, e a quel punto ci si segue semplicemente tutti a vicenda.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Timeline-Pixel.png" alt="Una parte della cronologia home, vista su smartphone con il tema &quot;Pixel&quot;."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Timeline-Pixel.png" alt="Una parte della cronologia home, vista su smartphone con il tema &quot;Pixel&quot;."></p>
 
 <h3>Le ottime prestazioni</h3>
 
@@ -116,7 +116,7 @@ Con <strong>htop</strong> possiamo entrare nei dettagli: sul mio <strong><a href
 <p>Le cose buone, per fortuna, non finiscono mica qui!<br>
 Ho con piacere subito notato che la piattaforma permette di <strong>reagire ai messaggi</strong> usando <strong>emoji</strong>, oltre a permettere il classico invio di un apprezzamento per il post - il "mi piace" standard, per intenderci, che qui è un cuore.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/React-LCD.png" alt="Schermata di selezione di una reazione ad un messaggio (vista con il tema &quot;LCD&quot;)."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/React-LCD.png" alt="Schermata di selezione di una reazione ad un messaggio (vista con il tema &quot;LCD&quot;)."></p>
 
 <p>Purtroppo, la <strong>separazione</strong> delle reazioni dall'apprezzamento è decisamente <strong>poco intelligente</strong>.<br>
 Questo parere non è solo mio, ma anche degli sviluppatori di Misskey e, credo (non ho mai verificato di persona) anche Pleroma: il reagire da lì ad un messaggio proveniente da una piattaforma che non supporta le reazioni (come Mastodon) si traduce in un apprezzamento ricevuto da quell'altro server. Su Epicyon, invece, <strong>reagire</strong> ad una pubblicazione che viene da istanze meno ricche di funzionalità <strong>è virtualmente inutile</strong>.<br>
@@ -128,7 +128,7 @@ In cima a tutto ciò, non mi pare ci sia nemmeno un modo per consultare un elenc
 La <strong>ricerca nel testo</strong> con parole chiave normali è purtroppo limitata ai propri messaggi, ma ci sono altre opzioni per le altre situazioni: oltre a poter <strong>cercare per hashtag</strong> (che, tralaltro, l'interfaccia di ricerca consiglia), a quanto pare si può cercare addirittura <strong>per emoji</strong>! Non ho però testato quest'ulteriore funzione, avendola notata solo troppo tardi.<br>
 Infine, si possono <strong>cercare elementi</strong> relativi alle funzioni <strong>di economia</strong> della condivisione (a cui ora arrivo): abilità, oppure oggetti e servizi.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Search-Pixel.png" alt="La schermata per iniziare una ricerca (vista dal tema &quot;Pixel&quot;)."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Search-Pixel.png" alt="La schermata per iniziare una ricerca (vista dal tema &quot;Pixel&quot;)."></p>
 
 <h2>Le caratteristiche avanzate</h2>
 
@@ -147,7 +147,7 @@ Sul proprio profilo, poi, si può indicare una <strong>lista di</strong> proprie
 
 <p><strong>Mannaggia</strong>, perché anche qui è stata fatta un'indigesta <strong>insalata</strong>: quelle che sono <strong>modalità</strong> definibili come "di ricezione", cioè che determinano a chi il messaggio arriverà e come verrà visualizzato - pubblico, non in elenco, solo-seguaci, o diretto - sono <strong>mischiate</strong> alle modalità che posso definire "di tipologia", cioè che impostano il post come normale (contenente testo e/o file allegati), o come di una categoria speciale.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Post-Modes-Pixel.png" alt="Schermata di pubblicazione, con il menu di selezione di modalità aperto (vista con il tema &quot;Pixel&quot;)."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Post-Modes-Pixel.png" alt="Schermata di pubblicazione, con il menu di selezione di modalità aperto (vista con il tema &quot;Pixel&quot;)."></p>
 
 <p>Nella pratica, questo vuol dire che <strong>non</strong> si può <strong>cambiare</strong> il livello di <strong>privacy</strong> di quei post di tipo <strong>speciale</strong>.<br>
 Se questa cosa non è magari un problema per le funzioni di <em>sharing economy</em>, che non piazzano nemmeno elementi sulla pagina del profilo utente, può esserlo invece per i sondaggi, purtroppo implementati come tipo di post e non come opzione aggiuntiva per i normali.</p>
@@ -159,7 +159,7 @@ Se questa cosa non è magari un problema per le funzioni di <em>sharing economy<
 <p>Pare che <strong>selezionare</strong> (con i bottoncini dedicati, ovviamente) una delle <strong>opzioni</strong> disponibili, per poi premere salva, non sortisca nel backend lo stesso effetto che le altre piattaforme presentano; si <strong>va a creare un commento</strong> di risposta (visibile come tale da altri server), come se a mano si fosse scritta l'opzione desiderata in un nuovo messaggio sotto la stessa discussione.<br>
 Non solo questo manda in vacca l'anonimità dei sondaggi come previsti da tutte le altre applicazioni, ma <strong>non funziona</strong> e basta: ai contatori dei voti sul sondaggio non viene sommata quella strana risposta.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Polls-Bug.png" alt="Un sondaggio creato da Epicyon, votato e mostrato sia da Epicyon che da Mastodon. Notare il problema descritto."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Polls-Bug.png" alt="Un sondaggio creato da Epicyon, votato e mostrato sia da Epicyon che da Mastodon. Notare il problema descritto."></p>
 
 <h3>Sguardo agli eventi</h3>
 
@@ -167,7 +167,7 @@ Non solo questo manda in vacca l'anonimità dei sondaggi come previsti da tutte 
 
 <p>I post con data dovrebbero manifestarsi anche nella <strong>sezione calendario</strong> dell'app. Non ho verificato se almeno questa cosa funzionasse, purtroppo, ma ho provato il messaggio "<strong>promemoria</strong>", e va: un messaggio di questa tipologia <strong>arriva</strong> dal proprio account, come <strong>diretto</strong>, all'orario stabilito; oltre a comparire nel calendario, è accessibile in un <strong>bottone</strong> (<strong>evidenziato</strong> con un colore alternativo) che appare nella barra di navigazione in cima alla home.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Reminder-Pixel.png" alt="La schermata che mostra un promemoria scattato (vista con il tema &quot;Pixel&quot;)."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Reminder-Pixel.png" alt="La schermata che mostra un promemoria scattato (vista con il tema &quot;Pixel&quot;)."></p>
 
 <h3>Blogging non-micro</h3>
 
@@ -186,7 +186,7 @@ Il server espone, inoltre, un feed che aggrega tutte le notizie che man mano sca
 
 <p>Dal lato opposto, sempre su desktop, figura infine un'<strong>ulteriore barra</strong>, che mette invece a comoda disposizione dei <strong>link esterni</strong>. Alcuni <strong>riportano</strong> ad informazioni o documentazione dell'istanza, mentre altri possono essere impostati dagli amministratori e puntare <strong>a qualunque URL</strong>. </p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Featured-LCD.png" alt="La schermata &quot;Featured&quot;, che appare selezionabile da un bottone dedicato nella barra di navigazione quando l'istanza è impostata in modalità &quot;news&quot; (vista dal tema &quot;LCD&quot;). Al centro compare il flusso di articoli scritti dai membri del server."></p>
+<p><img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Featured-LCD.png" alt="La schermata &quot;Featured&quot;, che appare selezionabile da un bottone dedicato nella barra di navigazione quando l'istanza è impostata in modalità &quot;news&quot; (vista dal tema &quot;LCD&quot;). Al centro compare il flusso di articoli scritti dai membri del server."></p>
 
 <h2>Vagonata di casini!</h2>
 
@@ -198,12 +198,12 @@ Qualcosa a riguardo di buona parte di questi errori&nbsp;usciva nei <strong>log<
 
 <ul>
 <li><p>Dopo qualche minuto dal loro invio, <strong>alcuni</strong> dei propri <strong>messaggi possono casualmente sparire dall'istanza</strong>. Non si trovano più navigando in giro, raggiungerli direttamente da link restituisce un errore 404, ma <strong>sulle istanze terze</strong> che li hanno ricevuti in tempo <strong>rimangono</strong> visibili. In modo simile, alcuni messaggi possono sparire dalla pagina del profilo di un altro utente che è locale all'istanza, quando si va a cercarli.</p></li>
-<li><p>Per la legge del contrappasso, <strong>alcuni messaggi appaiono</strong> come <strong>duplicati</strong> in certe situazioni. Ho osservato che succede sicuramente per i post sulla pagina del proprio profilo (<a href="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Self-Profile-Pixel.png" rel="noopener nofollow" target="_blank">immagine qui 🖼️</a>), dove addirittura <strong>si sdoppiano a gruppetti</strong>, ma potenzialmente anche per <strong>qualsiasi post</strong> sulla timeline personale <strong>se si fa qualche azione</strong> come <em>boostare</em>.</p></li>
+<li><p>Per la legge del contrappasso, <strong>alcuni messaggi appaiono</strong> come <strong>duplicati</strong> in certe situazioni. Ho osservato che succede sicuramente per i post sulla pagina del proprio profilo (<a href="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Self-Profile-Pixel.png" rel="noopener nofollow" target="_blank">immagine qui 🖼️</a>), dove addirittura <strong>si sdoppiano a gruppetti</strong>, ma potenzialmente anche per <strong>qualsiasi post</strong> sulla timeline personale <strong>se si fa qualche azione</strong> come <em>boostare</em>.</p></li>
 <li><p>Parlando di <strong>interazioni</strong> ai post, ho visto che a volte <strong>possono non andare a segno</strong>. Ricordo perfettamente che può succedere con la funzione di <strong>reazione</strong> - in un caso <strong>dovetti riprovare</strong> una seconda volta ad assegnarne una ad un messaggio perché l'azione funzionasse - e mi sembra possa accadere anche con cuore e ricondivisione, ma non ho inquadrato bene questi due casi.</p></li>
 <li><p>Rimanendo sulle interazioni, stavolta con i profili: è tragico che <em>in alcuni casi</em>* il <strong>tentare di seguire</strong> alcuni account <strong>non funziona</strong> proprio. Premendo su "Follow", qualche volta ho dovuto <strong>aspettare</strong> qualche <strong>decina di secondi</strong> perché l'utente uscisse davvero nella mia lista di seguiti, senza alcuna indicazione da parte dell'applicazione; <strong>altre volte</strong>, addirittura, anche <strong>aspettare</strong> ore (giorni...) o riprovare più volte <strong>non è servito</strong> a nulla. Pare che il problema non dipenda dal software su cui gira l'istanza remota, quindi non ho la minima idea del perché succeda.</p></li>
-<li><p>Ci sono <strong>due pagine diverse</strong> che possono apparire <strong>per i profili</strong>: una con la vista dei post recenti (di cui ho linkato una schermata poco sopra), ma nessuna opzione a parte il seguire, e una con diverse opzioni (di cui lascio un'<a href="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Profile-Options-Pixel.png" rel="noopener nofollow" target="_blank">immagine qui 🖼️</a>). <strong>A volte si apre la prima, altre la seconda.</strong> Non centra la parte dell'applicazione da cui si proviene per aprire la schermata, e non vedo alcun modo per passare da una sezione all'altra. La seconda sembra uscire più comunemente quando si segue già l'account che si sta vedendo, ma non sempre. <strong>Se si vuol vedere i messaggi</strong> in particolare di un utente, <strong>ma il software ha deciso di no</strong> in quel momento, in pratica, <strong>ci si attacca</strong>.</p></li>
+<li><p>Ci sono <strong>due pagine diverse</strong> che possono apparire <strong>per i profili</strong>: una con la vista dei post recenti (di cui ho linkato una schermata poco sopra), ma nessuna opzione a parte il seguire, e una con diverse opzioni (di cui lascio un'<a href="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Profile-Options-Pixel.png" rel="noopener nofollow" target="_blank">immagine qui 🖼️</a>). <strong>A volte si apre la prima, altre la seconda.</strong> Non centra la parte dell'applicazione da cui si proviene per aprire la schermata, e non vedo alcun modo per passare da una sezione all'altra. La seconda sembra uscire più comunemente quando si segue già l'account che si sta vedendo, ma non sempre. <strong>Se si vuol vedere i messaggi</strong> in particolare di un utente, <strong>ma il software ha deciso di no</strong> in quel momento, in pratica, <strong>ci si attacca</strong>.</p></li>
 <li><p>Bug veramente singolare: <strong>gli account di Misskey appaiono con un ID alfanumerico al posto del normale username</strong> (solo la prima parte - quella che invece indica il dominio è a posto). Non ci sono problemi se si prova a riferirsi ad un account con il suo vero username, perché il messaggio arriva (o la ricerca va a segno, se è quella funzione che si sta usando)... però, <strong>se si sta rispondendo</strong> all'account in questione, <strong>l'username suggerito sarà quello</strong> strano, <strong>che</strong> non esiste e quindi <strong>non funziona</strong>. Anche se non rompesse i messaggi, questo problema sarebbe comunque fastidioso, perché non permetterebbe di capire a colpo d'occhio con chi si sta parlando... immagino già come sarebbe partecipare a thread con tanti utenti.<br>
-<img src="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Misskey-ID-Bug.png" alt="Un utente Misskey, visualizzato su Epicyon con foto di profilo, nome, e descrizione corretti (qui censurati), ma username preso dal nulla (&quot;@91f967c3pb@misskey.social&quot;)."></p></li>
+<img src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Misskey-ID-Bug.png" alt="Un utente Misskey, visualizzato su Epicyon con foto di profilo, nome, e descrizione corretti (qui censurati), ma username preso dal nulla (&quot;@91f967c3pb@misskey.social&quot;)."></p></li>
 <li><p>Alcune <strong>impostazioni</strong> dell'istanza sono <strong>senzienti</strong> e <strong>cambiano stato da sole</strong>. A volte ad esempio, dopo un riavvio del server, <strong>l'opzione che apre</strong> le <strong>nuove registrazioni</strong> a chiunque <strong>si riattiva</strong> da sola. Qualcosa è successo anche riguardo la modalità dell'istanza, che è passata da standard a "news" senza che io la impostassi così; questo però potrebbe non essere un bug, magari qualche azione che ho fatto come admin (e che non ricordo, ecco qua) ha avuto questo effetto collaterale ma previsto dagli sviluppatori. Non lo sapremo mai, ma è una cosa che <strong>fa spavento</strong>.</p></li>
 <li><p>C'è qualche <strong>problema con il reperimento</strong>, e/o eccessività di caching, <strong>dei metadati degli account da parte di istanze terze</strong>. Ho controllato da diversi altri server, facendo alcuni test che mi portano ad alcune <em>conclusioni inconcludenti</em>; in particolare, <strong>riguardo le foto di profilo</strong> (la principale quadrata):</p>
 
@@ -236,7 +236,7 @@ Non vorrei essere nei panni di colui che lo sta mantenendo perché, per come sta
 <ol>
 
 <li id="fn1">
-<p>Guardare <strong>tutte le impostazioni disponibili</strong> può dare una buona visione su quali sono alcune delle potenzialità di una qualsiasi piattaforma. Commentarle tutte, specialmente quelle che non ho testato, sarebbe follia; ho però pensato di lasciare <a href="[staticoso:CustomPath:Assets]/Media/Epicyon-Dec-2022/Settings.png" rel="noopener nofollow" target="_blank">qui una schermata 🖼️</a> completa, chi vuole può almeno leggere le varie opzioni per conto proprio.&nbsp;<a href="#fnref1">↩</a></p>
+<p>Guardare <strong>tutte le impostazioni disponibili</strong> può dare una buona visione su quali sono alcune delle potenzialità di una qualsiasi piattaforma. Commentarle tutte, specialmente quelle che non ho testato, sarebbe follia; ho però pensato di lasciare <a href="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/Settings.png" rel="noopener nofollow" target="_blank">qui una schermata 🖼️</a> completa, chi vuole può almeno leggere le varie opzioni per conto proprio.&nbsp;<a href="#fnref1">↩</a></p>
 </li>
 
 </ol>

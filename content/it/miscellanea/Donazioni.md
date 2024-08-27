@@ -1,10 +1,12 @@
-// % Title: 💰 Donazioni
-// % HTMLTitle: <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
-// % Index: True
-// % Order: 45
-// % UpdatedOn = 2022-11-12
-
-# <span class="twa twa-money-bag"><span>💰</span></span> Donazioni
++++
+Title = "💰 Donazioni"
+Alias = [
+  "/Donazioni.html",
+]
+#Index: True
+#Order: 45
+Lastmod = 2022-11-12
++++
 
 Mi hanno detto che dovrei rendere il sitoctt a **scopo di lucro**.
 

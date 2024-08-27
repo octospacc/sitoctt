@@ -25,7 +25,7 @@ Per quelle 3 persone che vivono sotto le pietre <em>(e che non so come potrebber
 In una <a href="https://youtu.be/efdN69QscAg" rel="noopener nofollow" target="_blank">scena del gioco</a>, <a href="https://typemoon.fandom.com/it/wiki/Nerone" rel="noopener nofollow" target="_blank">Nerone Claudio Cesare Augusto Germanico (non scherzo)</a> indossa un costume da <strong>Babbo Natale</strong>, e danza in giro per quello che credo sia un corridoio, cantando una <strong>parodia</strong> originale di <em>Jingle Bells</em>, di appena 4 strofe.</p>
 
 
-<video class="SmallVideoQuote Blockquote NoImgCenter" title="Il video della scena del gioco." src="[staticoso:CustomPath:Assets]/Media/Padoru/PadoruPadoru.webm" [:videoelemargs-controlmuteloopauto:]="">Il video della scena del gioco.</video>
+<video class="SmallVideoQuote Blockquote NoImgCenter" title="Il video della scena del gioco." src="{{< assetsRoot >}}/Media/Padoru/PadoruPadoru.webm" [:videoelemargs-controlmuteloopauto:]="">Il video della scena del gioco.</video>
 
 <blockquote>
 <p>HASHIRE SORI YO<br>
@@ -60,7 +60,7 @@ Chi invece un minimo di <strong>creatività</strong> la ha, può senza difficolt
 In appena 2 orette molto scarse, una mattina del 1º Dicembre a scuola - non ricordo se fosse giorno di assemblea oppure di varie supplenze - un po' <strong>ricalcando</strong> le linee di base dell'aspetto Padoru, un po' <strong>introducendo caratteristiche</strong> originali (che ho derivato dal mio personaggio 3D, quello che figura in alcune mie foto profilo tutto l'anno), con un'app di disegno generica sullo smartphone ho fatto ciò che sentivo di dover fare.<br>
 Il risultato è stato che, semplicemente, <strong>è uscito qualcosa</strong> di normale; nessun orrore! Molto bene. </p>
 
-<p><a href="[staticoso:CustomPath:Assets]/Media/Padoru/Octt-Padoru.png"><img src="[staticoso:CustomPath:Assets]/Media/Padoru/OctoVoLTE-15989.avif" alt="Schermata dei messaggi dell'anno scorso riguardo la creazione dell'Octt Padoru. Nel primo avevo finito i contorni e stavo iniziando a colorare i capelli viola. Nel secondo avevo completato il lavoro e ho inviato il file PNG."></a></p>
+<p><a href="{{< assetsRoot >}}/Media/Padoru/Octt-Padoru.png"><img src="{{< assetsRoot >}}/Media/Padoru/OctoVoLTE-15989.avif" alt="Schermata dei messaggi dell'anno scorso riguardo la creazione dell'Octt Padoru. Nel primo avevo finito i contorni e stavo iniziando a colorare i capelli viola. Nel secondo avevo completato il lavoro e ho inviato il file PNG."></a></p>
 
 <h2>Le mie "partecipazioni"</h2>
 
@@ -88,7 +88,7 @@ A dirla tutta, di scelta <strong>non si trattava</strong>, in quanto la prima op
 <p>Fatta la <strong>stampa</strong>, non mi restava altro che <strong>ritagliare</strong>, più o meno grossolanamente (ciononostante, è stranamente servita una buona quantità di lavoro), i vari Padoru, per poi <strong>attaccarli</strong> all'albero con un po' di colla a caldo.<br>
 È venuto fuori <strong>quello che volevo</strong>, insomma, quindi ho apprezzato il lavoro e ho scattato una foto per impostarla come immagine del mio profilo. L'anno seguente, l'albero è <strong>rimasto com'era</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Tree-2019-2022.avif" alt="Il mini-albero com'era fino all'altro giorno, prima che facessi quello che ho fatto ora. Ci sono meno di una decina di Padoru"></p>
+<p><img src="{{< assetsRoot >}}/Media/Padoru/Padoru-Tree-2019-2022.avif" alt="Il mini-albero com'era fino all'altro giorno, prima che facessi quello che ho fatto ora. Ci sono meno di una decina di Padoru"></p>
 
 
 
@@ -101,7 +101,7 @@ A dirla tutta, di scelta <strong>non si trattava</strong>, in quanto la prima op
 <p>L'altro giorno <strong>pensai</strong> di doverne allora <strong>cercare</strong> alcuni <strong>nuovi</strong> online per stamparli, ma un attimo dopo mi torna in mente <strong>una cartella</strong>, che ho trovato il mese scorso sul PC mentre facevo pulizia.<br>
 Contiene <strong>il mio Padoru</strong> originale, <strong>e vari altri</strong> che ricordavo di aver scaricato, ma che <strong>non ero</strong> troppo <strong>certa di aver</strong> mai <strong>stampato</strong>. I file sono tutti datati a Dicembre 2021, cosa ovvia per l'unico da me creato, ma in effetti curiosa per gli altri, se si considera tutto lo scenario.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Folder-2021.png" alt="Alcune delle singole immagini Padoru presenti nella cartella; in totale 23. Notare il loro essere datate all'8 Dicembre 2022."></p>
+<p><img src="{{< assetsRoot >}}/Media/Padoru/Padoru-Folder-2021.png" alt="Alcune delle singole immagini Padoru presenti nella cartella; in totale 23. Notare il loro essere datate all'8 Dicembre 2022."></p>
 
 <p>Cosa ancor più curiosa, uno dei file lì presenti è un'immagine, con rapporto d'aspetto pari a quello di un foglio A4, dove sono disposte tutte le singole immagini della cartellina.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup><br>
 "<em>L'avrò composta l'anno scorso e alla fine forse non avrò più stampato</em>", penso; eppure, qualcos'altro nella mia mente mi dice che <strong>in realtà l'ho stampata</strong> eccome, e magari semplicemente non l'ho <strong>mai usata</strong> alla fine. Sicuramente, mai ho attaccato quei Padoru sull'alberello, perché lì ci sono solo quelli di 3 anni fa.<br>
@@ -110,7 +110,7 @@ Per un quarto d'ora scarso cerco questo sfortunato <strong>foglio</strong> nella
 <p>Senza perdere altro tempo, invio dunque il documento alla <strong>stampante</strong> di casa, che prontamente <strong>mi restituisce</strong>... un <strong>foglio bianco</strong>? Sembrava, ma poi l'ho preso in mano e ho notato che era stata stampata. L'immagine? <strong>NO! UNA MACCHIA! 🤬</strong><br>
 Immediatamente, subentra la <strong>rabbia</strong>, ma un secondo dopo questa viene <strong>sovrastata</strong> da una sensazione ancora più forte: una di "<strong>già visto</strong>".</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Failed-Print.jpg" alt="Foto del foglio stampato male. Al posto di alcuni Padoru ci sono macchie di colore, per altri si vedono solo i contorni, per altri ancora nulla."></p>
+<p><img src="{{< assetsRoot >}}/Media/Padoru/Padoru-Failed-Print.jpg" alt="Foto del foglio stampato male. Al posto di alcuni Padoru ci sono macchie di colore, per altri si vedono solo i contorni, per altri ancora nulla."></p>
 
 <h3>...Un po' prima</h3>
 
@@ -130,7 +130,7 @@ Stampai insomma tutti quelli lì, ma ne misi <strong>solo 1</strong> di numero s
 Stavolta le forbici le ho usate in maniera davvero certosina, e ho <strong>scontornato le figure</strong> con una <strong>definizione</strong> molto alta; per i miei <em>standard di tagliuzzamento</em> di <em>disegni che hanno molti dettagli minimi di forme complesse</em>, perlomeno, lo è.<br>
 Dopo questa mansione - che sarebbe pure rilassante, se non fossi dovuta <em>stare bend</em><sup id="fnref3"><a class="footnote-ref" href="#fn3">3</a></sup> per via della luce - con la pistola di <strong>colla a caldo</strong>, pian piano (cosa che richiede comunque molto meno tempo del ritaglio) <strong>ho incollato</strong> tutte le figurine alle pareti fogliari esterne dell'<strong>albero</strong>. Ne <strong>ho approfittato</strong> per <strong>sistemare</strong> gli elementi appiccicati 3 anni fa, che reggevano ma non in modo solidissimo... probabilmente <strong>feci male</strong> il lavoro, <strong>all'epoca</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Padoru/Padoru-Tree-New-0.webp" alt="Foto dell'alberello dopo aver attaccato"><br>
+<p><img src="{{< assetsRoot >}}/Media/Padoru/Padoru-Tree-New-0.webp" alt="Foto dell'alberello dopo aver attaccato"><br>
 Questo qui è il risultato, mi piace veramente un botto.</p>
 
 <p>A parte la <strong>bellezza dell'oggetto</strong> ad un livello per me <strong>personale</strong>, e l'aver realizzato come avrebbe potuto - già solo ai miei occhi - diventare più bello, se fosse diventato ancora <strong>più novello</strong> e meno standard, l'alta posta in gioco dello <strong>scrivere</strong> un articolo qui <strong>ha fatto miracoli</strong>: mi ha fatto <strong>portare a termine</strong> un'<strong>attività</strong> manuale <strong>semplicissima</strong>, del fai-da-te praticamente di scuola materna, senza che il mio cervello la cancellasse dopo mezza giornata!</p>

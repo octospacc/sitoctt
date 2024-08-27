@@ -78,7 +78,7 @@ Dec 27 06:32:35 kernel: [27230.965420]  r4:8285ee00
 <p><strong>Ogni volta</strong> che succedeva un errore del genere, tutto <strong>il sistema moriva</strong> malissimo: <strong>malattie</strong> ai piccoli bot, <strong>morte</strong> al server HTTP (nginx), <strong>lesioni</strong> ai miei aggregatori di articoli e feed (wallabag e FreshRSS), <strong>ciao per sempre</strong> a qualunque cosa mi permetta di aprire una console via Internet sul Rasperino (SSH, Telnet, e pure un server arrangiato con netcat). L'unica cosa che continuava a funzionare è lo <strong>sputo costante di</strong> questo preciso tipo di <strong>errori</strong> nel file di log.<br>
 Adesso, so che <em>sono mona forte</em>, ma con tutti 'sti numeri strani di mezzo <strong>io non riuscivo</strong> assolutamente a vedere parole come <code class="prettyprint">mmc_get_card</code> o <code class="prettyprint">mmc_sd_detect</code>! E quindi proprio non capivo che forse, <em>ma proprio forse</em>, la <strong>microSD</strong> <em>cagona</em> che avevo scelto per il Raspi all'inizio di settembre (tra quelle libere in casa), quando ho rimesso sto povero computerino a lavorare da server, era <strong>tendente alla morte</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Misc/microSD-8GB-Generic.webp" alt="La schedina microSD che è riuscita lentamente a portarmi alla pazzia. Notare l'assenza di marche."></p>
+<p><img src="{{< assetsRoot >}}/Media/Misc/microSD-8GB-Generic.webp" alt="La schedina microSD che è riuscita lentamente a portarmi alla pazzia. Notare l'assenza di marche."></p>
 
 <p>Io non voglio dover ricorrere ai <strong>luoghi comuni</strong>, ma stavolta <strong>c'è poco da fare</strong>! Cioè, la foto parla da sola:</p>
 

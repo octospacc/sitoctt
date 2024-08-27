@@ -9,3 +9,5 @@ Ora c'è questa lista di tutti i miei ultimissimi articoli, e pagine sfuse che h
 --><span class="BlinkA">a</span><!--
 --><span class="NoDisplay">/</span><!--
 --><span class="BlinkO">o</span> nel ✨sitoctt✨!
+
+(Lavori in corso per ancora qualche giorno, quindi forse link rotti e pagine sformate, mi dispiace!!!)

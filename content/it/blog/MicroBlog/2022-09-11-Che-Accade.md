@@ -1,5 +1,8 @@
 +++
 Title = "Che accade"
+Aliases = [
+  "/Posts/MicroBlog/2022-09-11-Che-Accade.html",
+]
 Categories = [ "MicroBlog" ]
 Date = 2022-09-11
 +++

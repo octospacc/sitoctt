@@ -13,7 +13,7 @@ Categories = [ "DIY" ]
 
 <p>Tra <strong>1 e 2 mesi fa</strong> - rendetevi conto di <strong>quanto tempo</strong> è passato <strong>prima che</strong> io <strong>mi scocciassi</strong> definitivamente - le <strong>pile nel telecomando</strong> della <strong>televisione</strong> che tengo sulla mia <strong>scrivania</strong> (la uso come secondo monitor) hanno <strong>iniziato a scaricarsi oltre il limite</strong> di usabilità sopportabile.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Misc/Remote-Mini-Batteries.webp" alt="Il telecomando sulla mia scrivania, con il vano batterie aperto, e un sacco di batterie mini-stilo colorate attorno."></p>
+<p><img src="{{< assetsRoot >}}/Media/Misc/Remote-Mini-Batteries.webp" alt="Il telecomando sulla mia scrivania, con il vano batterie aperto, e un sacco di batterie mini-stilo colorate attorno."></p>
 
 <h2>Perché non ho fatto nulla</h2>
 
@@ -91,7 +91,7 @@ Praticamente <strong>mi dovrei piegare</strong> ogni volta, infilando le dita tr
 <li><strong>Ripeto fin</strong> quando la graffetta non arriva fino al <strong>bordo anteriore</strong> del televisore, passando su quello laterale.</li>
 </ol></li>
 <li>Constato che la sporgenza della rotella finisce totalmente dentro l'anello, che quindi non la preme; allora <strong>incastro</strong> un pezzettino di <strong>cartone nell'anello</strong> (in via opzionale bloccato con del nastro adesivo).
-<img src="[staticoso:CustomPath:Assets]/Media/Toshiba-TV-Button-Hack/Clip.webp" alt="La graffetta, piegata quasi totalmente per essere montata."><br>
+<img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Clip.webp" alt="La graffetta, piegata quasi totalmente per essere montata."><br>
 
 <ul>
 <li>In questo modo, qualcosa di <strong>solido spinge</strong> esattamente sulla rotellina, che viene effettivamente premuta.</li>
@@ -108,7 +108,7 @@ Praticamente <strong>mi dovrei piegare</strong> ogni volta, infilando le dita tr
 </ul></li>
 </ol>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Toshiba-TV-Button-Hack/Back.webp" alt="Vista del retro del mio sistema montato. In rosso, ho cerchiato il pezzo che preme sulla rotellina."> <em>(Non riuscivo a fare la foto meno sfocata lì dietro, mi spiace.)</em></p>
+<p><img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Back.webp" alt="Vista del retro del mio sistema montato. In rosso, ho cerchiato il pezzo che preme sulla rotellina."> <em>(Non riuscivo a fare la foto meno sfocata lì dietro, mi spiace.)</em></p>
 
 <h3>Che lavoro...</h3>
 
@@ -117,7 +117,7 @@ Ahimè, la <strong>rotazione</strong> della rotella <strong>non va</strong> gran
 
 <p>Questo è quanto. Se <strong>dovessi migliorare</strong> la mia soluzione - che, si, è <strong>grezzissima</strong>, non lo nego proprio perché è <strong>questo che mi piace</strong> - <strong>scriverò un'appendice</strong> a questo articolo.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Toshiba-TV-Button-Hack/Front.webp" alt="Vista frontale-laterale del mio sistema montato. Basta premere sul lato per applicare forza al bottone della TV."></p>
+<p><img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Front.webp" alt="Vista frontale-laterale del mio sistema montato. Basta premere sul lato per applicare forza al bottone della TV."></p>
 
 <hr>
 

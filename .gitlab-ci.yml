@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script: |
     sh ./Scripts/Requirements.sh
-    sh ./Scripts/Build.sh
+    sh ./Scripts/Produce.sh
   artifacts:
     paths:
     - build/public

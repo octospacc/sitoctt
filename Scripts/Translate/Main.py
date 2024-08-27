@@ -74,7 +74,10 @@ def translate_document(document_path, documents):
 		translated_preamble = ("\n\n{{< noticeAutomaticTranslation " + source_language + " >}}\n\n")
 		if text_header in ["---", "+++"]:
 			text_tokens = translated_text.split(text_header)
-			translated_text = (text_header + text_tokens[:1] + translated_preamble + text_header.join([''] + text_tokens[2:]))
+			translated_text = (
+				text_header + text_tokens[1] + text_header +
+				translated_preamble +
+				text_header.join(text_tokens[2:]))
 		else:
 			translated_text = (translated_preamble + translated_text)
 		destination_path = make_destination_path(document_path, destination_language)

@@ -28,7 +28,7 @@ Categories = [ "Gaming", "Recensioni" ]
 
 <p>Tornando alla normale giornata del protagonista, per qualche motivo egli è costantemente pieno di pensieri, dal momento in cui si accinge a svolgere le sue mansioni fino a quando va in pausa pranzo. Tra le sue rimuginazioni, saltano fuori di continuo pensieri che, dal punto di vista dell'etica dell'Azienda e del lavoratore modello, sono a dir poco sbagliati. Il ragazzo cerca di darci poco peso, ma non può fare a meno di passare dall'ideale essere grato per la sua vita ed il suo lavoro, al più problematico porsi dubbi su chi è davvero come persona, e se forse nel mondo c'è qualcosa di un valore superiore agli obblighi imposti a lui dall'alto. Il tono del primo tipo di pensieri, però, traspare come lievemente falso, forzato, quasi come se questi venissero a galla in automatico solo per evitare al lavoratore una più grave crisi esistenziale.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-01-47-51-986_com.retroarch.aarch64.png" alt="Dialogo &quot;You know that these intrusive thoughts of yours are not welcome within the perfect and orderly civilization built with sweat and tears by the Company.&quot;"></p>
+<p><img src="{{< assetsRoot >}}/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-01-47-51-986_com.retroarch.aarch64.png" alt="Dialogo &quot;You know that these intrusive thoughts of yours are not welcome within the perfect and orderly civilization built with sweat and tears by the Company.&quot;"></p>
 
 <p>Proprio questo giorno, in quel momento, il caso vuole che si verifichi un'emergenza nel dirigibile volante: per l'ennesima volta, i "rivoluzionari" hanno teso un attacco al mezzo, definito terroristico dall'Azienda. Chiamati anche "pirati del cielo", questi sono a tutti gli effetti i nemici del sistema, che li ritiene perversi, senza dignità, e persino da eliminare a vista. L'evento in sé non è appunto nulla di nuovo per il protagonista, che però questa volta finisce per stravolgere del tutto la sua vita.</p>
 
@@ -40,7 +40,7 @@ Categories = [ "Gaming", "Recensioni" ]
 
 <p>Le difficoltà non finiscono qui: ad un certo punto, si incontrano diversi blocchi sulla strada, e dovremo andare a cercare il tasto di sblocco per l'unica uscita d'emergenza disponibile. Nel frattempo, la navicella ha anche esaurito il carburante, e la pirata deve stare lì ferma a riempire il serbatoio. Continua così il viaggio del protagonista, adesso a piedi, per zone inesplorate dell'isola. Tuttavia, sulla sua strada, questo incontra presto alcuni robot-soldato pronti a ribaltare i suoi piani a tutti i costi, accusandolo di tradimento ed urlandogli contro in modo totalmente freddo.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-01-44-108_com.retroarch.aarch64.png" alt="Dialogo &quot;YOU BETRAYED THE COMPANY. THAT IS A CRIME AND IT MUST BE PUNISHED.&quot;"></p>
+<p><img src="{{< assetsRoot >}}/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-01-44-108_com.retroarch.aarch64.png" alt="Dialogo &quot;YOU BETRAYED THE COMPANY. THAT IS A CRIME AND IT MUST BE PUNISHED.&quot;"></p>
 
 <h4>Punto critico</h4>
 
@@ -74,7 +74,7 @@ Proprio la <em>OST</em> l'avevo ascoltata prima di giocare, e avevo già ritenut
 
 <p>Le parti visive e uditive, quindi, insieme vanno a creare una <em>ambience</em> coesa, e che si sviluppa di pari passo alla narrazione. Molto cupa all'inizio, ma in un certo senso calma e confortevole; via via meno familiare e poi persino caotica andando avanti; completamente stravolta, ma pacifica, al termine del racconto. Alcune zone sono anche leggermente sognanti, eteree, e non posso fare a meno di definire alcuni degli scenari come <em><a href="https://www.treccani.it/vocabolario/liminale/" rel="noopener nofollow" target="_blank">liminali</a></em>. Chissà se era tutto voluto, oppure è un caso...</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-07-22-027_com.retroarch.aarch64.png" alt="Una zona un po' liminale, verso la fine del gioco (fuori contesto, no spoiler)."></p>
+<p><img src="{{< assetsRoot >}}/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-07-22-027_com.retroarch.aarch64.png" alt="Una zona un po' liminale, verso la fine del gioco (fuori contesto, no spoiler)."></p>
 
 <p>Quegli avvenimenti un pochino surreali, alcuni a tratti anche comici, sparsi per tutta la storia, risollevano i momenti più tesi in modi più o meno imprevedibili. Ho anche percepito una cosa che proprio non mi aspettavo... in alcuni dialoghi, c'è stato ficcato dentro <a href="https://youtube.com/watch?v=Oc7Cin_87H4" rel="noopener nofollow" target="_blank">il suono del vine boom</a>... ci sono rimasta di sasso, questo è veramente troppo anche per la mia <em>memeticissima</em> anima... un bel caratterino ha questo videogioco.</p>
 
@@ -88,4 +88,4 @@ Proprio la <em>OST</em> l'avevo ascoltata prima di giocare, e avevo già ritenut
 
 <p>Un ennesimo grazie a <strong>Yomu</strong>, il tizio ghoul spaventoso ma puccioso che ha creato quest'esperienza, per i bei quarti d'ora passati sul gioco... nonché l'occasione <em>di distrarmi dalla mia vita</em> ancora di più scrivendo questa recensione! Ah, e direi grazie anche per aver esplicitamente rilasciato la OST nel dominio pubblico... oltre che come file WAV nella cartella di gioco, la trovate anche <a href="https://youtube.com/watch?v=fA8AxESpjaE" rel="noopener nofollow" target="_blank">in questo video YouTube</a>. (Bella sorpresa questa, eh?)</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-11-16-713_com.retroarch.aarch64.png" alt="Dialogo &quot;You are ugly as hell, girl.&quot;"> <em>Concludiamo l'articolo con un insulto, perché no...</em></p>
+<p><img src="{{< assetsRoot >}}/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-11-16-713_com.retroarch.aarch64.png" alt="Dialogo &quot;You are ugly as hell, girl.&quot;"> <em>Concludiamo l'articolo con un insulto, perché no...</em></p>

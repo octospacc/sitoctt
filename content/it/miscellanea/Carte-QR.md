@@ -1,7 +1,9 @@
 +++
 Title = "Carte QR"
+Aliases = [
+  "/Raccolte/Fritto-Misto/Carte-QR.html",
+]
 Categories = [ "Fritto-Misto" ]
-#Index = Categories
 +++
 
 Ecco un'idea che mi saltò in mente verso inizio 2022, non so bene perché. O meglio, era un periodino in cui mi stavo interessando al concetto di usare la carta come mezzo di archiviazione di piccoli dati informatici, ma non so perché iniziai a provare questo gusto.

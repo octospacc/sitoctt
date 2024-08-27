@@ -14,7 +14,7 @@ Categories = [ "Sysadmin" ]
 
 <p>Mettiamo a <strong>confronto visivo</strong> due applicazioni per PC: <strong>GNOME Disks, e GParted</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/SideBySide.png" alt="Le finestre dei due programmi a confronto."></p>
+<p><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/SideBySide.png" alt="Le finestre dei due programmi a confronto."></p>
 
 <p>Entrambe sono <strong>strumenti di partizionamento</strong> di dischi, e a grandi linee servono a svolgere gli stessi compiti; c'è giusto <strong>qualche differenza</strong> in funzionalità extra o maggior supporto a favore di un programma o l'altro. Nonostante questo, i due strumenti presentano <strong>evidenti differenze</strong> nella loro <strong>interfaccia</strong> grafica.</p>
 
@@ -31,8 +31,8 @@ Categories = [ "Sysadmin" ]
 </tr>
 </thead><tbody>
 <tr>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-Advanced.png" alt="La vista di GParted di informazioni approfondite su un disco."></td>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Advanced.png" alt="Il menu globale a comparsa di GNOME Disks, che presenta alcune funzioni speciali."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GParted-Advanced.png" alt="La vista di GParted di informazioni approfondite su un disco."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-Advanced.png" alt="Il menu globale a comparsa di GNOME Disks, che presenta alcune funzioni speciali."></td>
 </tr>
 <tr>
 <td><strong>GParted</strong> ha <strong>meno funzioni</strong> distinte, ma ogni cosa ha il suo posto, e un <strong>sufficiente</strong> livello di <strong>profondità</strong> e funzionalità: informazioni di basso livello sui dischi, formattazione in un'infinità di formati, e qualche altro dettaglio.</td>
@@ -71,8 +71,8 @@ Oh, se avrei dovuto starne alla larga. E i motivi sono tanti:</p>
 </tr>
 </thead><tbody>
 <tr>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-List.png" alt="Il selettore a lista dei dischi su GParted."></td>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-List.png" alt="La vista della lista di dischi e partizioni su GNOME Disks."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GParted-List.png" alt="Il selettore a lista dei dischi su GParted."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-List.png" alt="La vista della lista di dischi e partizioni su GNOME Disks."></td>
 </tr>
 <tr>
 <td><strong>GParted</strong> ha solo una <strong>lista di dispositivi</strong> (dischi reali sicuramente, ma mi pare anche dispositivi virtuali) da selezionare innanzitutto, e poi la vista grande con tutte le partizioni per il dispositivo scelto. È <strong>ordinato</strong> e logico.</td>
@@ -107,8 +107,8 @@ Una stringa di testo permette di far capire inequivocabilmente cosa fa un determ
 </tr>
 </thead><tbody>
 <tr>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-Context-Menu.png" alt="Il menu contestuale di una partizione su GParted."></td>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Context-Menu.png" alt="Il menu di opzioni di una partizione su GNOME Disks."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GParted-Context-Menu.png" alt="Il menu contestuale di una partizione su GParted."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-Context-Menu.png" alt="Il menu di opzioni di una partizione su GNOME Disks."></td>
 </tr>
 <tr>
 <td><strong>GParted lo fa</strong> per i suoi menu contestuali (almeno sulle voci più importanti), e ciò permette di memorizzare subito l'<strong>azione</strong> corrispondente a ciascun'opzione, e di richiamarla immediatamente <strong>a colpo d'occhio</strong>.</td>
@@ -125,8 +125,8 @@ Una stringa di testo permette di far capire inequivocabilmente cosa fa un determ
 </tr>
 </thead><tbody>
 <tr>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-Buttons.png" alt="La barra delle icone rapide su GParted."></td>
-<td><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-1.png" alt="Bottoni crea e opzioni su una partizione in GNOME Disks."> <img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-2.png" alt="Bottoni smonta e opzioni su una partizione in GNOME Disks."> <img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-3.png" alt="Bottoni blocca e opzioni su una partizione in GNOME Disks."> <img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GNOME-Buttons-4.png" alt="Bottone opzioni su una partizione in GNOME Disks."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GParted-Buttons.png" alt="La barra delle icone rapide su GParted."></td>
+<td><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-Buttons-1.png" alt="Bottoni crea e opzioni su una partizione in GNOME Disks."> <img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-Buttons-2.png" alt="Bottoni smonta e opzioni su una partizione in GNOME Disks."> <img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-Buttons-3.png" alt="Bottoni blocca e opzioni su una partizione in GNOME Disks."> <img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GNOME-Buttons-4.png" alt="Bottone opzioni su una partizione in GNOME Disks."></td>
 </tr>
 <tr>
 <td>Su <strong>GParted</strong> si ha innanzitutto la <strong>barra dei menu</strong> (di cui vari menu sono richiamabili anche come contestuali in alcune zone), che contiene davvero <strong>tutte le operazioni</strong> possibili nel programma; solo <strong>poi</strong> c'è una barra con delle <strong>icone</strong> utili a richiamare <strong>rapidamente</strong> le azioni probabilmente più comuni. In pratica, finché si ha la barra dei menu, <strong>ci si può</strong> anche <strong>dimenticare</strong> dell'esistenza di <strong>quelle iconcine</strong> lì.</td>
@@ -170,7 +170,7 @@ La differenza sta però proprio in questa parolina: con <strong>GParted</strong>
 <p>Su <strong>GParted</strong> le operazioni che si ordinano finiscono in una <strong>coda</strong>, che deve essere manualmente applicata una volta che si è deciso di proseguire.<br>
 E anche qui, siamo alle <strong>minuzie</strong>, eppure una cosa del genere pesa molto sul conto finale. Possiamo vederla così: <strong>in quel caso</strong>, devi <strong>sbagliare</strong> ben due (<strong>2</strong>) <strong>volte</strong> per fare un casino, mentre col programma di GNOME basta una (1) svista.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Partioning-Mar-2023/GParted-Queue.png" alt="La vista della coda operazioni su GParted."></p>
+<p><img src="{{< assetsRoot >}}/Media/Partioning-Mar-2023/GParted-Queue.png" alt="La vista della coda operazioni su GParted."></p>
 
 <h2>"Ci sono danni?"</h2>
 

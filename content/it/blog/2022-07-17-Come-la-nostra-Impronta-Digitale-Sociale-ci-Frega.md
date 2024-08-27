@@ -4,6 +4,7 @@ Description = "Per i motivi più vari, anche leciti, ci si può trovare a voler 
 Date = 2022-07-17
 Aliases = [
   "/Posts/2022-07-17-Come-la-nostra-Impronta-Digitale-Sociale-ci-Frega.html",
+  "/Posts/2022-07-17-0000-Come-la-nostra-Impronta-Digitale-Sociale-ci-Frega.html",
 ]
 +++
 

@@ -25,10 +25,10 @@ jobs:
         curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.10
         sudo pip3 install lxml
         sudo npm install -g pug-cli
-        sh ./Scripts/Get.staticosoDevFixed.sh
-        sh ./Scripts/Deploy.GitHub.sh
+        sh ./Scripts/Requirements.sh
+        sh ./Scripts/Produce.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: public
+        folder: build/public

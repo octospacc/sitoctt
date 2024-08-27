@@ -29,7 +29,7 @@ Categories = [ "DIY" ]
 <li>Una scatola di perline di forme, grandezze, e sfumature di colore diverse; in totale 8 tipi. Ogni scatolina comunque aveva solo una tonalità di colore circa, fattore un pochino limitante ma non grave. Io ho preso un set con colori tra il viola e il rosa.</li>
 </ol>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Misc/Scatola-Perline-Viola-8.webp" alt="La scatolina con tutte le perline dimostrata in, suppongo, bella vista."></p>
+<p><img src="{{< assetsRoot >}}/Media/Misc/Scatola-Perline-Viola-8.webp" alt="La scatolina con tutte le perline dimostrata in, suppongo, bella vista."></p>
 
 <p>Appena 3€ dopo, arrivo a casa subito con la voglia di fare il lavoro, e neanche inizio che già sto per combinare un disastro: nell'aprire la scatolina di perle, ecco che la stavo inclinando un po' troppo, e alcune di quelle bricioline colorate sono finite da uno scompartimento all'altro... un altro po' di disattenzione, ed avrei potuto perderne almeno una buona parte per la stanza in un istante.</p>
 
@@ -39,7 +39,7 @@ Categories = [ "DIY" ]
 
 <p>Con questo metodo, avrei dovuto arrivarci prima, si e no solo un quarto dei sassolini colorati si è incollato (male), e il resto è finito un po' ovunque. Ci ho quindi riprovato, stavolta immergendo la molletta coperta di colla nel contenitore di perline, e questo metodo ha funzionato effettivamente un po' meglio.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Mollette-Perline/1-Full.webp" alt="Le prime 3 mollette che ho completato, messe in fila per bene."></p>
+<p><img src="{{< assetsRoot >}}/Media/Mollette-Perline/1-Full.webp" alt="Le prime 3 mollette che ho completato, messe in fila per bene."></p>
 
 <p>Tuttavia, questo modo non è di per sé magico, e non ha potuto ovviare ad altri problemi:</p>
 
@@ -55,14 +55,14 @@ La maggior parte di cosa avevo perso l'ho poi ritrovata nei giorni subito dopo, 
 Quindi ne ho fatta almeno un'altra, ma stavolta, avendo tempo infinito, ho provato con la colla vinilica.<br>
 Non so se la decorazione fatta in questo modo resista o meno all'acqua, perché la mia colla vinilica è cosiddetta "lavabile", ma non mi è dato sapere se sia lavabile solo con l'acqua o serve anche il sapone. Eviterò di farmi piovere in testa quando la indosso, suppongo.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Mollette-Perline/2-Full.webp" alt="La molletta creata con la colla vinilica una volta asciugata, illustrata in diverse posizioni."></p>
+<p><img src="{{< assetsRoot >}}/Media/Mollette-Perline/2-Full.webp" alt="La molletta creata con la colla vinilica una volta asciugata, illustrata in diverse posizioni."></p>
 
 <p>Nonostante questo potenziale lato rischioso, penso che usare la vinilica sia comunque la scelta migliore, per un motivo estetico: quando si asciuga del tutto, diventa totalmente trasparente. La colla a caldo, invece, resta densa e visibile, facendo sembrare sporco e arrangiato il lavoro finale. Va benissimo quando devo unire cartone o stoffe, ma non in questo caso.</p>
 
 <p>Dopo qualche giorno di uso, comunque, ho notato che la colla vinilica non incolla benissimo sulla plastica gommata della molletta, e ai bordi si è leggermente staccata. Nulla di grave, ma va tenuto a mente; per risolvere penso che basti mettere un altro po' di colla (vinilica o non) che gira anche attorno al lato della molletta e la ingloba leggermente.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Mollette-Perline/2-Wip.webp" alt="La molletta che ho fatto con la colla vinilica, subito dopo l'applicazione."></p>
+<p><img src="{{< assetsRoot >}}/Media/Mollette-Perline/2-Wip.webp" alt="La molletta che ho fatto con la colla vinilica, subito dopo l'applicazione."></p>
 
 <p>Quindi, alla fine, mia madre ha avuto un prodotto che per poco non è definibile nemmeno davvero completo, rispetto a quello più rifinito che ho creato solo un attimo dopo! 💀️ Il suo vero regalo quindi è stato il fare da beta-tester. Le ho poi offerto di sistemare un pochino le prime tre mollette, ma ha detto che, almeno quelle tre, le vuole tenere così, e al massimo gliene faccio di nuove in più. Boh, non so cosa dire, c'è chi preferisce usare le beta a vita, a quanto pare (assolutamente non <a href="https://spacecraft.altervista.org" rel="noopener nofollow" target="_blank">io per quanto riguarda Minecraft</a>...).</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Mollette-Perline/1-Scene.webp" alt="Le prime 3 mollette realizzate, disposte in diverse posizioni, con una luce a tema."></p>
+<p><img src="{{< assetsRoot >}}/Media/Mollette-Perline/1-Scene.webp" alt="Le prime 3 mollette realizzate, disposte in diverse posizioni, con una luce a tema."></p>

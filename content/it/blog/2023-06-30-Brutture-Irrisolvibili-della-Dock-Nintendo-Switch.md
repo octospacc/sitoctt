@@ -24,7 +24,7 @@ Categories = [ "Tecnologia", "Gaming" ]
 
 <p>Per evitare di creare confusione, o di attribuire colpe dove queste possono non essere dovute, mi chiarisco: tutto <strong>questo articolo</strong> ruota attorno alla <strong>prima edizione della dock</strong>. Nintendo ne ha infatti creato una versione migliorata quando, nel 2021, ha rilasciato la revisione OLED della console. Io possiedo <strong>solo il primo modello</strong> (in quanto ho solo la prima edizione di Switch), quindi la mia esperienza si limita a quello. Vabbè che, anche se pare che <strong>alcuni problemi</strong> minori siano stati <strong>risolti</strong>, nel complesso la dock <strong>rimane sempre sub-ottimale</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Switch-Dock/Dock-Binned.webp" alt="La mia dock appoggiata in un cestino della spazzatura... smontata, perché ho già realizzato l'oggetto del prossimo post."> <small><em>Ecco qui il posto in cui la dock dovrebbe stare: nel cestino.</em></small></p>
+<p><img src="{{< assetsRoot >}}/Media/Switch-Dock/Dock-Binned.webp" alt="La mia dock appoggiata in un cestino della spazzatura... smontata, perché ho già realizzato l'oggetto del prossimo post."> <small><em>Ecco qui il posto in cui la dock dovrebbe stare: nel cestino.</em></small></p>
 
 <h2>Per cosa iniziò la fine</h2>
 
@@ -83,7 +83,7 @@ A onor del vero, nessun graffio può accumularsi nell'area propriamente del disp
 <p>Non che io abbia tanta esperienza nella fisica dei fluidi, però mi pare, dal <strong>semplice uso</strong> della console, che <strong>in dock le ventole</strong> tendano in media a <strong>girare</strong> sempre con <strong>più forza</strong> rispetto alla modalità portatile, anche a parità di risoluzione video (720p) e, a regola, di frequenze di CPU e GPU.<br>
 In effetti, per come il tablet riposa nella sua base, metà della <strong>griglia</strong> posteriore affaccia sul vano cavi della dock, mentre l'altra metà è direttamente <strong>ostruita</strong> (vicinissima ad una parete di plastica). Questa prima metà, oltre a poter essere, eventualmente, parzialmente ostruita dai cavi di alimentazione e video, riceve aria solo dai due <strong>piccoli spazi</strong> aperti (a sinistra e in alto) sul retro della dock; e a me, <strong>quest'aria, pare pochina</strong>.</p>
 
-<p><img src="[staticoso:CustomPath:Assets]/Media/Switch-Dock/Diagramma-Flusso-Aria-Dock.webp" alt="Modello disegnato a mano su carta, con pennarelli colorati."> Ecco un modello grafico dei <strong>buchi, flussi d'aria, e possibili cavi</strong>. Bruttina la situazione della piccola <strong>griglia posteriore</strong> (in blu, e fuori scala per eccesso, ora che ci faccio caso)! <small>(Non fate caso al fatto che ho invertito la porta USB-C con quella HDMI...)</small></p>
+<p><img src="{{< assetsRoot >}}/Media/Switch-Dock/Diagramma-Flusso-Aria-Dock.webp" alt="Modello disegnato a mano su carta, con pennarelli colorati."> Ecco un modello grafico dei <strong>buchi, flussi d'aria, e possibili cavi</strong>. Bruttina la situazione della piccola <strong>griglia posteriore</strong> (in blu, e fuori scala per eccesso, ora che ci faccio caso)! <small>(Non fate caso al fatto che ho invertito la porta USB-C con quella HDMI...)</small></p>
 
 
 
@@ -95,7 +95,7 @@ Per la cronaca, sia Wii che Wii U, oltre che le <strong>console della concorrenz
 
 <p>Sarebbe stato comodo avere questa opzione, anche se forse <strong>non è la fine</strong> del mondo, rispetto alle altre rogne: anche perché basta aggiungere un <strong>supporto triangolare auto-fabbricato</strong> (o comprato da venditori che si occupano di <em>artigianato della plastica</em>) per avere una situazione più decente, in cui la console resta <strong>un po' inclinata</strong> rispetto al piano di appoggio della base (e non quasi parallela).</p>
 
-<p><a href="https://www.etsy.com/uk/listing/877452299/nintendo-switch-dock-horizontal-base"><img src="[staticoso:CustomPath:Assets]/Media/Switch-Dock/Switch-H-Dock-etsy.com-listing-877452299.webp" alt="Un supporto aggiuntivo pensato per il posizionamento in orizzontale della dock."></a> <small><em>Foto da <a href="https://www.etsy.com/uk/listing/877452299/nintendo-switch-dock-horizontal-base" rel="noopener nofollow" target="_blank">DVAMakerStudios, Etsy</a>.</em></small></p>
+<p><a href="https://www.etsy.com/uk/listing/877452299/nintendo-switch-dock-horizontal-base"><img src="{{< assetsRoot >}}/Media/Switch-Dock/Switch-H-Dock-etsy.com-listing-877452299.webp" alt="Un supporto aggiuntivo pensato per il posizionamento in orizzontale della dock."></a> <small><em>Foto da <a href="https://www.etsy.com/uk/listing/877452299/nintendo-switch-dock-horizontal-base" rel="noopener nofollow" target="_blank">DVAMakerStudios, Etsy</a>.</em></small></p>
 
 <h2>Che cosa fare</h2>
 

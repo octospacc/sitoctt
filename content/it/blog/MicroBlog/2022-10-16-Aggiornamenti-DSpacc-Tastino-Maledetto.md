@@ -1,5 +1,8 @@
 +++
 Title = "Aggiornamenti DSpacc - Tastino maledetto"
+Aliases = [
+  "/Posts/MicroBlog/2022-10-16-Aggiornamenti-DSpacc-Tastino-Maledetto.html",
+]
 Categories = [ "MicroBlog" ]
 Date = 2022-10-16
 Lastmod = 2022-10-20

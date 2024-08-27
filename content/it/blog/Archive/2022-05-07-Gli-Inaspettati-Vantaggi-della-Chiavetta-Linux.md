@@ -1,10 +1,12 @@
 +++
-Template = "loli-documentatrice.html"
 Title = "Gli inaspettati vantaggi della chiavetta Linux"
-Categories = [ "Blog", "Tecnologia" ]
+Aliases = [
+  "/Posts/Archive/2022-05-07-Gli-Inaspettati-Vantaggi-della-Chiavetta-Linux.html",
+]
+Categories = [ "Tecnologia" ]
 Data = 2022-05-07
 Lastmod = 2022-08-13
-Feed = false
+#Template = "loli-documentatrice.html"
 +++
 
 Una cosa che ho fatto mesi fa e che, fino ad ora, si è rivelata una **scelta vincente**, è stata **l'installare** un sistema operativo basato su **Linux**, in modalità persistente, **su** una piccola **pennina USB**.

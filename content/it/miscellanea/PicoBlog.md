@@ -1,12 +1,14 @@
-// % Title = ✉️ Archivi PicoBlog
-// % HTMLTitle = <span class="twa twa-envelope twa-✉️"><span>✉️</span></span> Archivi PicoBlog
-// % Categories = Blog MicroBlog
++++
+Title = "✉️ Archivi PicoBlog"
+Alias = [
+  "/PicoBlog.html",
+]
+#Categories = [ "Blog", "MicroBlog" ]
++++
 
 Come annunciato nell'articolo "[🎇 Il resocontoctt di questo 2023, almeno in termini di posting!](./Posts/2023-12-31-Resocontoctt-2023.html#-Il-MicroBlog-nuovissimo-alla-fa)", il PicoBlog è ora deprecato, e non verrà più aggiornato. Quello che segue è l'archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.
 
 ---
-
-# <span class="twa twa-envelope twa-✉️"><span>✉️</span></span> Archivi PicoBlog
 
 Stai avventurandoti in una sezione forse effimera del sitocto, ma che comunque, se esiste, vuol dire che ho pensato che ci debba stare lo stesso.
 

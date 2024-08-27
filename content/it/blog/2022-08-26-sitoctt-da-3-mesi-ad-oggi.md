@@ -1,6 +1,9 @@
 +++
 Title = "📈 sitoctt - Da 3 mesi fa ad oggi, l'inizio e i motivi"
 Description = "Dopo pochi mesi dalla nascita di sitoctt e staticoso, guardo indietro per vedere i piccoli - ma certo importanti - progressi fatti finora."
+Aliases = [
+  "/Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html",
+]
 Categories = [ "Internet" ]
 Date = 2022-08-26
 +++

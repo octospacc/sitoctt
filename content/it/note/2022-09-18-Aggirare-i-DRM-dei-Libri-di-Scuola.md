@@ -1,7 +1,6 @@
 +++
 Title = "Aggirare i DRM dei libri di scuola"
 Subtitle = "(in una maniera che probabilmente rende possibile l'operazione anche per testi non-scolastici.)"
-#Categories = [ "Note" ]
 Date = 2022-09-18
 Lastmod = 2022-09-19
 Draft = true

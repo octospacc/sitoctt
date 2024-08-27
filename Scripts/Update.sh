@@ -9,6 +9,6 @@ sh "${swd}/Build.sh"
 "${Python3}" "${swd}/Translate/Main.py"
 sh "${swd}/Translate/Apply.sh"
 hugo $@
-sh "${swd}/Translate/Push.sh"
+#sh "${swd}/Translate/Push.sh"
 
 cd "${owd}"

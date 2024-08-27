@@ -1,9 +1,11 @@
-// % Title = Raccolta Siti Internet
-// % Categories = Internet
-// % Index = Categories
-// % EditedOn = 2022-10-20
-
-# Raccolta Siti Internet
++++
+Title = "Raccolta Siti Internet"
+Aliases = [
+  "/Raccolte/Internet/Raccolta-Siti-Internet.html",
+]
+Categories = [ "Internet" ]
+Lastmod = 2022-10-20
++++
 
 Una raccolta dedicata ad alcuni siti Internet carini (non solo web!), di varie tipologie, che trovo in giro o appartengono a persone che conosco.
 

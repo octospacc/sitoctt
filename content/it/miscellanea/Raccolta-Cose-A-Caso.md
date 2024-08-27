@@ -1,7 +1,9 @@
 +++
 Title = "Raccolta Cose a Caso"
+Aliases = [
+  "/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html",
+]
 Categories = [ "Fritto-Misto" ]
-#Index: Categories
 +++
 
 Questa è letteralmente una raccolta di cose a caso, trovate in giro per Internet oppure in archivi strani nel mio PC. Non aspettarti che ci sia un contesto comprensibile in nessuna delle cose...

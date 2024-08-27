@@ -1,7 +1,11 @@
-// % Categories: MicroBlog
-// % URLs: Posts/MicroBlog-Archive/2019/09/index.html
-
-## Archivi MicroBlog di Settembre 2019
++++
+Title = "Archivi MicroBlog di Settembre 2019"
+Aliases = [
+  "/Posts/MicroBlog/Archive/2019/09/index.html",
+  "/Posts/MicroBlog-Archive/2019/09/index.html",
+]
+Categories = [ "MicroBlog" ]
++++
 
 <div markdown="1" class="BorderBoxContainer NoImgCenter Img36 ImgSidePadding">
 

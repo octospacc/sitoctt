@@ -1,11 +1,13 @@
-// % Categories = Tecnologia
-// % Index = Categories
-// % EditedOn = 2023-03-22
-// % Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
-
-// $ L/VoidLinuxOS = <strong>OS</strong>: <a href="https://voidlinux.org" [:HtmlTgtBlank:]>Void Linux</a>
-
-# Raccolta del Riso
++++
+Title = "Raccolta del Riso"
+Aliases = [
+  "/Raccolte/Sistemi/Raccolta-del-Riso.html",
+]
+Categories = [ "Tecnologia" ]
+Lastmod = 2023-03-22
+#Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
+#$ L/VoidLinuxOS = <strong>OS</strong>: <a href="https://voidlinux.org" [:HtmlTgtBlank:]>Void Linux</a>
++++
 
 Raccolta del Riso - o, per dirla in maniera corretta, raccolta dei miei ricing: personalizzazioni d'interfaccia effettuate ai miei sistemi operativi.
 
