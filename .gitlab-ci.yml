@@ -8,6 +8,6 @@ pages:
   artifacts:
     paths:
       - build/public
-    publish: build/public
+  publish: build/public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
