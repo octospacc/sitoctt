@@ -80,8 +80,6 @@ Qui sul sito, comunque, non ho ancora avuto le idee abbastanza chiare, né la pa
 
 ---
 
-<div class="Center" markdown="1">
-![Me su Animal Crossing Wild World.]({{ ASSETS_ROOT }}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
-_Io? Cute. Assolutamente indiscutibile._  
+![Me su Animal Crossing Wild World.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
+_Io? Cutie. Assolutamente indiscutibile._  
 _Voi? Meh, forse.. penso???_
-</div>

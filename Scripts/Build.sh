@@ -5,9 +5,10 @@ cd "${swd}/.."
 mkdir -p ./build
 cd ./build
 cp -r \
-	../hugo.toml  ../i18n   \
-	../archetypes ../content \
-	../layouts    ../themes   \
+	../archetypes ../i18n  \
+	../content    ../static \
+	../layouts    ../themes  \
+	../hugo.toml              \
 ./
 
 sh "${swd}/Translate/Get.sh"

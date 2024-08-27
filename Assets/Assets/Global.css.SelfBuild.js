@@ -45,22 +45,4 @@ ${Where('li >', CssAllHeadings, '')} {
 .ListNoInMargin > * > li > p { margin-bottom: 0; }
 /* Strange <br>s are sometimes formed */
 /*.ListNoInMargin > * > li > p > br:last-of-type { display: none; }*/
-
-/* Animazioni per le desinenze */
-.BlinkA {
-	Animation: BlinkerA 0.25s Step-Start Infinite;
-}
-@Keyframes BlinkerA {
-	0% {Position: Absolute; Visibility: Hidden;}
-	50% {Position: Static; Visibility: Visible;}
-	100% {Position: Absolute; Visibility: Hidden;}
-}
-.BlinkO {
-	Animation: BlinkerO 0.25s Step-Start Infinite;
-}
-@Keyframes BlinkerO {
-	0% {Position: Static; Visibility: Visible;}
-	50% {Position: Absolute; Visibility: Hidden;}
-	100% {Position: Static; Visibility: Visible;}
-}
 `);

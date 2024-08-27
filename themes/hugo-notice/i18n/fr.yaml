@@ -1,5 +1,9 @@
+- id: caution
+  translation: "Prudence"
 - id: warning
   translation: "Avertissement"
+- id: danger
+  translation: "Danger"
 - id: note
   translation: "Remarque"
 - id: info

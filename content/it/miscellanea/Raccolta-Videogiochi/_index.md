@@ -28,7 +28,7 @@ _In costruzione..._
 
 Questo è il posto per i titoli migliori, **quelli epici e unici nel loro genere**, punto. E qui, non importa assolutamente che un dato gioco sia popolare o meno: conta solo quanto per me è importante.
 
-### <a href="./2048.html">🔢️ 2048 ↗️</a>
+### <a href="./2048/">🔢️ 2048 ↗️</a>
 
 ### <span class="twa twa-🎩">🎩</span> A Hat in Time  
 Platformer 3D vivace e frenetico, proveniente senza dubbio dalla scuola di Super Mario 64. La difficoltà della storia principale è giusta, e il gioco scorre piacevolmente con un alternarsi di temi e ambienti che sa sempre di fresco.  
@@ -39,11 +39,11 @@ Le premesse erano si creative, ma noiose: sei un essere umano che, per qualche m
 Animal Crossing è uno di quei giochi che va banalmente provato per essere capito: la permanenza in quel mondo riesce ad indurre calma ed allegria per motivi che, apparentemente, vanno al di là della logica.  
 	• Animal Crossing: New Horizons: Ottieni: <https://go.octt.eu.org/$afa0200c237a>{[:MdTgtBlankNofw:]}
 
-### <a href="./Minecraft.html"><span class="twa twa-⛏️">⛏️</span> Minecraft ↗️</a>
+### <a href="./Minecraft/"><span class="twa twa-⛏️">⛏️</span> Minecraft ↗️</a>
 
-### <a href="./Minesweeper.html">💣 Minesweeper ↗️</a>
+### <a href="./Minesweeper/">💣 Minesweeper ↗️</a>
 
-### <a href="./Mirrors-Edge.html"><span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge ↗️</a>
+### <a href="./Mirrors-Edge/"><span class="twa twa-🏃‍♀️">🏃‍♀️</span> Mirror's Edge ↗️</a>
 
 <!--
 Una serie di giochi in prima persona che, con un ritmo vivace ma non opprimente, mischia platforming parkour e combattimento ravvicinato.  
@@ -53,7 +53,7 @@ In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di
 <cite>Da <a href="https://youtu.be/2N1TJP1cxmo" [:HTMLTgtBlank:]>YouTube/2N1TJP1cxmo</a>.</cite>
 -->
 
-### <a href="./Nonogram.html">#️⃣️ Nonogram ↗️</a>
+### <a href="./Nonogram/">#️⃣️ Nonogram ↗️</a>
 
 ### <span class="twa twa-🐙">🐙</span> Splatoon  
 Sparatutto in terza persona che dire diverso dagli altri è poco. Splatoon rompe le aspettative di realismo di guerra del genere, e presenta un gameplay simpatico, fatto di colori accecanti, che non si ferma mai. Non ci sono umani a sparare proiettili con il ferro, ma calamari che spargono inchiostro.  

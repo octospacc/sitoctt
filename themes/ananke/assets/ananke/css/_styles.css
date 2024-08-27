@@ -15,7 +15,12 @@
 
 }
 
-.nested-links a{
-  overflow-wrap: break-word;
+main > article a,
+main > .div > section a,
+.nested-links a {
   color: #990099;
+}
+
+.nested-links a {
+  overflow-wrap: break-word;
 }
