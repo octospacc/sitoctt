@@ -1,7 +1,17 @@
----
-#title: "the ctt site"
-#description: "The last theme you'll ever need. Maybe."
-#cascade:
-# featured_image: '/images/gohugo-default-sample-hero-image.jpg'
----
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
++++
+Title = "the ✨sitoctt✨ — Home"
+description = "Octt it's me... and this is literally my site (uwu)."
++++
+
+{{< noticeAutomaticTranslation it >}}
+
+
+
+Once upon a time here it was all countryside— er, I wanted to say... it was a whole list of words piled together badly and worse. Not only did I no longer like it either, but it's not exactly good manners in the year of our Lord 2024 (and beyond), so...
+
+Now there is this list of all my latest articles, and loose pages that I have recently updated, while the old home is at ["Sul sitoctt"](/miscellanea/Sul-sitoctt/) until I have reorganized everything. Welcome<!--
+--><span class="BlinkA">a</span><!--
+--><span class="NoDisplay">/</span><!--
+--><span class="BlinkO">o</span> in the ✨sitoctt✨!
+
+(Work in progress for a few more days, so maybe broken links and misshapen pages, sorry!!!)
