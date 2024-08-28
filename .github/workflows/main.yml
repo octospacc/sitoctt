@@ -17,6 +17,7 @@ jobs:
 
     - name: Build
       run: |
+        export sitocttEnv=GitHub
         sh ./Scripts/Requirements.sh
         sh ./Scripts/Produce.sh
 

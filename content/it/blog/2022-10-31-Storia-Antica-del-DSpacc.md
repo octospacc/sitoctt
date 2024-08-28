@@ -18,8 +18,8 @@ Scrivendo, però, mi sono accorta di come il contesto sarebbe stato confuso se n
 Il tutto inizia quando, all'età di circa 6 anni, ebbi in regalo per il mio compleanno questo **Nintendo DS Lite**... no, non sto divagando, ora ci arrivo. Per ben 3 anni è stata la mia unica console da gioco - e, per almeno 1-2 di questi anni, il mio unico dispositivo da gioco, prima che io ottenessi il Galaxy Player o il _tablet scassone_.  
 Era per me un oggetto di battaglia assolutamente indispensabile, necessario sempre e ovunque al pari del mio smartphone ad oggi, e forse per questo ha avuto una vita particolarmente intensa nei suoi primi anni. Di giochi non ne avevo tantissimi, perché avevo solo 2 GB di memoria nella flashcart e nessun gioco fisico (a parte uno oscuro, che comprai solo più avanti), ma avevo alcuni tra quelli di punta. Insomma, con Pokémon, tutti i principali Mario, e pure roba come Cooking Mama (che ai tempi andava un sacco), la goduria era sempre presente.
 
-[![Nintendo DS Lite (right side)]({{< assetsRoot >}}/Media/Misc/Nintendo_DS_Lite_(right_side)/4.jpg)](https://commons.wikimedia.org/wiki/File:Nintendo_DS_Lite_(right_side).jpg){[:MdTgtBlank:]}
-_Un DS Lite.. non il mio, per ovvi tra poco ovvi - <small>Havok at en.wikipedia, CC BY 2.5 <https://creativecommons.org/licenses/by/2.5>{[:MdTgtBlank:]}, via Wikimedia Commons</small>_
+[![Nintendo DS Lite (right side)]({{< assetsRoot >}}/Media/Misc/Nintendo_DS_Lite_(right_side)/4.jpg)](https://commons.wikimedia.org/wiki/File:Nintendo_DS_Lite_(right_side).jpg)
+_Un DS Lite.. non il mio, per ovvi tra poco ovvi - <small>Havok at en.wikipedia, CC BY 2.5 <https://creativecommons.org/licenses/by/2.5>, via Wikimedia Commons</small>_
 
 ## Il giorno dello spacc
 
@@ -33,7 +33,7 @@ Nell'attimo mi sembrò assurdo che semplicemente aprendo la console, questa si f
 Stava per iniziare a subentrare la disperazione, anche se sul momento la console continuava a funzionare perfettamente, perché si era semplicemente spezzato un pezzo della plastica sulla destra della cerniera, che ha il solo compito di garantire **integrità strutturale**. La disperazione ha iniziato a subentrare per davvero nell'istante in cui vidi che i colori dello schermo iniziavano a sfalsarsi muovendo la conchiglia: ecco qua, **il cavo** del display **ha iniziato a subire danni**.  
 Un po' dopo, credo lo stesso pomeriggio, andai con mio padre in un negozio dall'altra parte della città, per vedere quanto sarebbe costata **una riparazione**. Il prezzo ora non lo ricordo, ma decisi che **non valeva la pena**, e che sarebbe stato meglio comprare proprio un bel 3DS, visti i giochi interessanti che erano usciti o stavano per uscire per la nuova famiglia di console.
 
-Non ricordo se nei giorni successivi continuai ad usare il DS Lite, perché molti dei titoli a cui volevo giocare richiedevano lo schermo superiore, e il gaming con i colori _sminchiati_ non mi piaceva (ad oggi non mi darebbe eccessivamente fastidio, invece). Ad ogni modo, entro la fine di quella settimana, dopo svariate ricerche in negozi sul territorio alla caccia del prezzo più conveniente, [ottenni il mio o3DS XL](https://mastodon.uno/@octo/109262437212406002){[:MdTgtBlank:]}.. e quella è tutta un'altra storia.
+Non ricordo se nei giorni successivi continuai ad usare il DS Lite, perché molti dei titoli a cui volevo giocare richiedevano lo schermo superiore, e il gaming con i colori _sminchiati_ non mi piaceva (ad oggi non mi darebbe eccessivamente fastidio, invece). Ad ogni modo, entro la fine di quella settimana, dopo svariate ricerche in negozi sul territorio alla caccia del prezzo più conveniente, [ottenni il mio o3DS XL](https://mastodon.uno/@octo/109262437212406002).. e quella è tutta un'altra storia.
 
 ## L'era della polvere
 

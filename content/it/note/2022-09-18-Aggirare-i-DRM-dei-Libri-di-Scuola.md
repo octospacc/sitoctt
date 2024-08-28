@@ -29,7 +29,7 @@ Ma perché devo estrapolare i libri, e non usare le applicazioni degli editori?
 <meta>
 
 **Non mi piacciono il software proprietario e i DRM**
-: In generale, ogni volta che è possibile cerco sempre di fare a meno del software proprietario, preferendo strumenti liberi per fare le cose che devo fare. Il software proprietario in sé, però, non è necessariamente sempre cattivo al 100%, perché a volte ti lascia comunque la libertà 0<sup>[[↗️](https://it.m.wikipedia.org/wiki/Software_libero#Le_%C2%ABquattro_libert%C3%A0%C2%BB){[:MdTgtBlank:]}]</sup>, ossia la possibilità di usare il software sempre per qualsiasi scopo. Bene, i DRM tolgono anche questo, sono il male assoluto inscusabile e, se già tutto ciò che uso per scopi miei non ha i DRM (perché non li ha mai avuti, o perché sono stati tolti, da me o altre persone), sarebbe carino risolvere questa questione anche per i libri di scuola, che uso solo perché il programma di studi lo richiede.
+: In generale, ogni volta che è possibile cerco sempre di fare a meno del software proprietario, preferendo strumenti liberi per fare le cose che devo fare. Il software proprietario in sé, però, non è necessariamente sempre cattivo al 100%, perché a volte ti lascia comunque la libertà 0<sup>[[↗️](https://it.m.wikipedia.org/wiki/Software_libero#Le_%C2%ABquattro_libert%C3%A0%C2%BB)]</sup>, ossia la possibilità di usare il software sempre per qualsiasi scopo. Bene, i DRM tolgono anche questo, sono il male assoluto inscusabile e, se già tutto ciò che uso per scopi miei non ha i DRM (perché non li ha mai avuti, o perché sono stati tolti, da me o altre persone), sarebbe carino risolvere questa questione anche per i libri di scuola, che uso solo perché il programma di studi lo richiede.
 
 <meta>
 

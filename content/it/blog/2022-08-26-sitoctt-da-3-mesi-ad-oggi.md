@@ -58,7 +58,7 @@ Il sito è mio perché ho la **completa libertà** di realizzarlo come voglio.
 Se già a metà degli anni '90 l'unico vero limite per un sito Web era la **creatività** della persona che lo costruiva, oggi le **potenzialità** della piattaforma Web sono davvero **infinite**; anche se, in un certo verso, non sembra affatto così se si frequenta solo il Web comune.
 
 I siti dell'Internet "_non personale_" hanno tutti lo stesso aspetto uguale e banale.  
-Molti blog o siti dimostrativi usano template grafici riciclati. Le piattaforme social moderne (Mastodon, Friendica, Pleroma, e chi più ne ha più ne metta) limitano la personalizzazione ad una foto, un banner, ed una descrizione. Roba come [Misskey](https://misskey-hub.net/en){[:MdTgtBlank:]} fa già di più, ma non si arriva assolutamente ai livelli di **personalizzazione totale**, con **precisione granulare**, che soltanto un sito Web - fosse anche un forum come quelli dei giorni passati, e non uno spazio privato - permette.
+Molti blog o siti dimostrativi usano template grafici riciclati. Le piattaforme social moderne (Mastodon, Friendica, Pleroma, e chi più ne ha più ne metta) limitano la personalizzazione ad una foto, un banner, ed una descrizione. Roba come [Misskey](https://misskey-hub.net/en) fa già di più, ma non si arriva assolutamente ai livelli di **personalizzazione totale**, con **precisione granulare**, che soltanto un sito Web - fosse anche un forum come quelli dei giorni passati, e non uno spazio privato - permette.
 
 ### Grande espressività
 
@@ -94,9 +94,9 @@ Alcuni contenuti non esclusivi sono ancora già disponibili in altri miei posti 
 Quelli non archiviati sono semplicemente disordinati e mal preservati, nonché senza garanzie per chi vuole copiarli o riutilizzarli; quelli, invece, che per un motivo o un altro sono archiviati, è come se per il mondo non esistessero, ed è facile che anche io li perda.  
 Alcuni di questi dati possono aver valore, quindi tutto **ciò è un peccato**.
 
-Come un mesetto fa annunciai con il mio [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{< assetsRoot >}}/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]} --> (_non ci s'è capito una mazza, vè?_), questa è una cosa che richiede lavoro noioso (_prendere il vecchio, valutarne la qualità, copiare il testo, incollarlo sui nuovi file di testo impaginandolo bene, scaricare foto e video, ottimizzarli bene e caricarli..._ altro che il divertimento di creare, qui è una catena di montaggio!), ma **va fatta**.  
+Come un mesetto fa annunciai con il mio [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{< assetsRoot >}}/Files/Decreto-20-luglio-2022.pdf) --> (_non ci s'è capito una mazza, vè?_), questa è una cosa che richiede lavoro noioso (_prendere il vecchio, valutarne la qualità, copiare il testo, incollarlo sui nuovi file di testo impaginandolo bene, scaricare foto e video, ottimizzarli bene e caricarli..._ altro che il divertimento di creare, qui è una catena di montaggio!), ma **va fatta**.  
 Con i miei larghi tempi l'ho già iniziata a fare, e continuerò.  
-Anche i post del mio [vecchio blog](https://noblogo.org/loli-documentatrice){[:MdTgtBlank:]} vanno archiviati qui, sempre per organizzazione e preservazione - ma quelli sono più facili.
+Anche i post del mio [vecchio blog](https://noblogo.org/loli-documentatrice) vanno archiviati qui, sempre per organizzazione e preservazione - ma quelli sono più facili.
 
 Per concludere: non importa quali, ma in ogni caso ***i contenuti sono il senso*** del sito. Lo sono, però, soltanto perché sono a libera disposizione di chiunque.  
 Cosa vuol dire ciò **davvero**? Chi ha letto un po’ la [home](../index.html), forse, dovrebbe saperlo. Non mi azzardo ad aggiungere nient'altro, ad ogni modo; dovrete aspettare un prossimo articolo, uno in cui riprenderò l'argomento da dove ora qui lo lascio.

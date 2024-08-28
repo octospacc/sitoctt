@@ -27,8 +27,8 @@ Lastmod = 2023-03-22
 
 I **Nonogram** (conosciuti anche come **Picross**, **Crucipixel**, e un'altra ventina di nomi) sono dei puzzle che consistono nel riempire una griglia di quadratini al fine di svelare un'immagine, utilizzando i numeri ai lati del foglio per trovare intersezioni tra righe e colonne.
 
-WIP... Se vuoi scoprire altre cosine o imparare a giocare, leggi su [Wikipedia](https://it.wikipedia.org/Nonogram){[:MdTgtBlank:]}.
+WIP... Se vuoi scoprire altre cosine o imparare a giocare, leggi su [Wikipedia](https://it.wikipedia.org/Nonogram).
 
-## [:HNotesRefsHtml:]
+## {{% i18n notes-refs %}}
 
-[^PageBg]: **Sfondo della Pagina**: [Fonte](https://stock.adobe.com/it/images/close-up-pen-on-a-sheet-with-a-solved-japanese-crossword-leisure-activities/323111281){[:MdTgtBlank:]}
+[^PageBg]: **Sfondo della Pagina**: [Fonte](https://stock.adobe.com/it/images/close-up-pen-on-a-sheet-with-a-solved-japanese-crossword-leisure-activities/323111281)

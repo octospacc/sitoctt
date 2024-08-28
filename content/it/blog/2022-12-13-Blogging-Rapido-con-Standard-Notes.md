@@ -102,7 +102,7 @@ Oggi <strong>ho già scritto troppo</strong> (è venuto fuori un articolo di blo
 
 
 
-<h2>[:HNotesRefsHTML:]</h2>
+<h2>{{% i18n notes-refs %}}</h2>
 
 <ul>
 <li><strong>Aggiornamenti</strong> del post:

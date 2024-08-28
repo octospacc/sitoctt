@@ -7,7 +7,7 @@ Categories = [ "MicroBlog" ]
 Date = 2022-09-18
 +++
 
-Dall'altro giorno mi è, diciamo così, tornato alla mente il fatto che ho un [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc){[:MdTgtBlank:]} nel cassetto.
+Dall'altro giorno mi è, diciamo così, tornato alla mente il fatto che ho un [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc) nel cassetto.
 
 ![Il mio DSpacc, che esegue Pokémon Rubino dalla sua cartuccia.]({{< assetsRoot >}}/Media/Misc/DSpacc_Pokemon_Rubino.jpg)
 
@@ -25,7 +25,7 @@ Ma mica perché è rimasto uno schermo solo! È perché..
 Fatto sta che, anche perché dovevo fare una foto per l'articolo di WikiSpacc, l'ho tirato fuori l'altro giorno. Quando lo vedo mi dispiace di non usarlo, ma c'è purtroppo poco da fare.
 
 La mia pazza mente, però, oggi ha richiamato un'idea che, se fossi capace di fare queste cose, forse sarebbe stata anche buona.. ma io sono io.  
-Ho pensato: e **se saldassi una flashcart DS al posto dello slot?** La cosa non l'ho pensata proprio dal nulla, l'ho vista tempo fa in una modifica del DS fatta da una persona che fa queste cose per bene. In alcuni video di un anno fa, come [questo](https://invidious.nerdvpn.de/2wxKDzUO23c?t=156){[:MdTgtBlank:]}, si vede proprio che questo DS di altra forma ha una flashcart saldata sulla scheda madre.
+Ho pensato: e **se saldassi una flashcart DS al posto dello slot?** La cosa non l'ho pensata proprio dal nulla, l'ho vista tempo fa in una modifica del DS fatta da una persona che fa queste cose per bene. In alcuni video di un anno fa, come [questo](https://invidious.nerdvpn.de/2wxKDzUO23c?t=156), si vede proprio che questo DS di altra forma ha una flashcart saldata sulla scheda madre.
 
 Prendo il cacciavite e le punte, e smonto la console. Tutto OK, l'ho fatto almeno 4 volte contando solo il DS Lite.  
 Ma poi, mi armo di saldatore.. onestamente dovrebbero togliermi il porto d'armi, considerando i danni che faccio.

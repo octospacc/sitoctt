@@ -124,7 +124,7 @@ C'è fin troppo di cui parlare a proposito, come al solito, quindi tutto ciò sa
 
 
 
-<h2>[:HNotesRefsHTML:]</h2>
+<h2>{{% i18n notes-refs %}}</h2>
 
 
 

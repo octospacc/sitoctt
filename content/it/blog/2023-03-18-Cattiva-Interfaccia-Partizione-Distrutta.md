@@ -226,7 +226,7 @@ Ohibò, vedo la schermata nera di GRUB, e non il sistema che si avvia! ...<stron
 
 <p>E chiudo con un <strong>consiglio</strong>, anzi, una <strong>filosofia di sviluppo</strong>, che tutti coloro che disegnano <strong>UI</strong> (anche io, nelle mie cose, non lo nascondo) dimenticano troppo spesso: <a href="https://www.youtube.com/watch?v=r2CbbBLVaPk" rel="noopener nofollow" target="_blank">L'utente è ubriaco</a>.</p>
 
-<video src="[:YouTube360:]r2CbbBLVaPk" style="height: calc(80vw / 16 * 9);" frameborder="0"></video>
+<iframe src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk" style="height: calc(80vw / 16 * 9);" frameborder="0" class="YouTube"></iframe>
 
 <p>Dunque, un saluto. Per il futuro <strong>auguro</strong> di <strong>non perdere dati</strong> in modo stupido (a voi, e a me!). 👋</p>
 
@@ -236,7 +236,7 @@ Ohibò, vedo la schermata nera di GRUB, e non il sistema che si avvia! ...<stron
 
 
 
-<h2>[:HNotesRefsHTML:]</h2>
+<h2>{{% i18n notes-refs %}}</h2>
 
 <div class="footnotes">
 <ol>

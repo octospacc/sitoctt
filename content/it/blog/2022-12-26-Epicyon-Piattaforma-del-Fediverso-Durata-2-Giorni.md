@@ -73,7 +73,7 @@ Forse con alcuni dei temi il problema non si sente troppo, ma con altri il <stro
 
 
 
-<video title="Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema &quot;Pixel&quot;." class="Center" src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/UI-Scaling-Bug-Pixel.webm" [:videoelemargs-controlmuteloopauto:]="">Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema "Pixel".</video>
+<video title="Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema &quot;Pixel&quot;." class="Center" src="{{< assetsRoot >}}/Media/Epicyon-Dec-2022/UI-Scaling-Bug-Pixel.webm" controls="true" muted="true" loop="true" autoplay="true">Video che mostra lo scaling a diverse risoluzioni, e come sia troppo storto con alcune, con il tema "Pixel".</video>
 
 <h2>Entrando nel vivo</h2>
 
@@ -228,7 +228,7 @@ Non vorrei essere nei panni di colui che lo sta mantenendo perché, per come sta
 
 
 
-<h2>[:HNotesRefsHTML:]</h2>
+<h2>{{% i18n notes-refs %}}</h2>
 
 
 

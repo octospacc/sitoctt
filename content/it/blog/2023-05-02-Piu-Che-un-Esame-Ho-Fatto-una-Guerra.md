@@ -72,7 +72,7 @@ L'unica cosa di cui logicamente posso <strong>pentirmi</strong> è di non aver f
 
 
 
-<h2>[:HNotesRefsHTML:]</h2>
+<h2>{{% i18n notes-refs %}}</h2>
 
 <div class="footnotes">
 <ol>

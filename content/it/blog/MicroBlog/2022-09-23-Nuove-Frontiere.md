@@ -7,7 +7,7 @@ Categories = [ "MicroBlog" ]
 Date = 2022-09-23
 +++
 
-Da quando qualche giorno fa l'ho scoperto. sto provando quell'epico software che è [TiddlyWiki](https://tiddlywiki.com){[:MdTgtBlank:]}.  
+Da quando qualche giorno fa l'ho scoperto. sto provando quell'epico software che è [TiddlyWiki](https://tiddlywiki.com).  
 L'ho inizialmente trovato cercando qualcosa per organizzare note in formato ricco, da poter usare per la scuola, e che fosse ovviamente libero.
 
 È un software di wiki, praticamente della stessa categoria di MediaWiki (il software su cui si basa Wikipedia), ma ha caratteristiche molto particolari.  
@@ -15,7 +15,7 @@ Innanzitutto, non ha bisogno di un server, è una app che funziona in locale.. m
 
 Se l'ho iniziato ad usare per il solo scopo limitato dello studio scolastico, ma poi in questi giorni sono finita con l'iniziare ad usarlo tanto anche per creare una mia cosiddetta base di conoscenza personale e pubblica, su tutto quello che posso scrivere al volo in un formato di documento non lineare che si adatta benissimo a note piccole e veloci tra loro interconnesse... vuol dire che davvero è interessante.
 
-Un po' mi dispiace dirlo, ma è possibile che una parte del tempo che dedicherei in genere al sitoctt verrà ad esso sottratta, per essere dedicata alla neonata OcttKB - che, a tal proposito, è qui su <https://kb.octt.eu.org>{[:MdTgtBlank:]}.  
+Un po' mi dispiace dirlo, ma è possibile che una parte del tempo che dedicherei in genere al sitoctt verrà ad esso sottratta, per essere dedicata alla neonata OcttKB - che, a tal proposito, è qui su <https://kb.octt.eu.org>.  
 Per quanto mi piaccia tutto quello che ho costruito in questi mesi, che infatti continuerà a vivere - sia come posto in cui esprimere il mio stile di design, che come luogo in cui pubblicare contenuti elaborati e mai spezzettati - devo dire che ho trovato uno strumento che riesce ad incanalare bene alcuni miei pensieri, quelli che il sitoctt non può gestire.
 
 Non sto ora a spiegare troppo il lato tecnico dei vantaggi o degli svantaggi di TiddlyWiki, perché parliamo di un software facile da iniziare ad usare, e assolutamente complicatissimo da padroneggiare (mi ci vorrà tempo!).  

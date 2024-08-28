@@ -12,8 +12,8 @@ Lastmod = 2023-10-17
 Giustamente, venendo qui, che tu abbia o meno letto le informazioni generali del sito sulla [Home](./index.html), ti starai chiedendo chi sono io.
 
 Io sono Octt. Si, esatto, Octt da cui sitoctt, il mio sito, prende il nome.  
-_Octt_ si pronuncia "òctt" - [come sitoctt, ma senza "sit"]({{< assetsRoot >}}/Media/sitoctt-pronuncia.flac){[:MdTgtBlank:]}.  
-Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlank:]} sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.
+_Octt_ si pronuncia "òctt" - [come sitoctt, ma senza "sit"]({{< assetsRoot >}}/Media/sitoctt-pronuncia.flac).  
+Io sono la webmaster di questo posto. O, forse, [webmistress](https://www.dictionary.com/browse/webmistress) sarebbe più corretto, peccato che le persone che anche soltanto conoscono dell'esistenza di questa parola si contano sulle dita di una mano mozzata.
 
 Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma quando mai??)</small>, ho immaginato il sito, ho iniziato a costruire il sito, ho messo in piedi strategie per semplificarmi la creazione del sito <small>(eee, che paroloni, ho scritto un programmino in Pitone)</small>, ed ecco qui il risultato.
 
@@ -21,9 +21,9 @@ Vabbe, io ho capito che nel mondo c'era necessità di questo sito <small>(ma qua
 
 Beh, innanzitutto faccio questo sito. Scrivo le cose, che siano inutili fiumi di parole in lingua umana, oppure paroline magiche che il tuo computer interpreta per visualizzare queste pagine nella loro forma più gloriosa.
 
-Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc){[:MdTgtBlank:]}, e sysadmin della [Spacc BBS](https://bbs.spacc.eu.org). In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma lascio i collegamenti da seguire per capire, non parlo dello Spacc qui.
+Sono la Dea e loli dello [Spacc](https://wikispacc.miraheze.org/wiki/Spacc), nonché CEO di [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc), e sysadmin della [Spacc BBS](https://bbs.spacc.eu.org). In tal riguardo, sulle mie spalle gravano responsabilità distruttive.. ma lascio i collegamenti da seguire per capire, non parlo dello Spacc qui.
 
-Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra software server per usi diversi, inclusi quelli web, bot vari per diverse piattaforme, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, anche se almeno ad oggi non ho la difficoltà dell'usare hardware troppo di fortuna.
+Poi, per quanto io tenti di passarci meno tempo possibile appresso, ho il mio server da amministrare quando la roba si spacca o c'è da aggiornare la qualsiasi, altrimenti tutta la baracca chi la porta avanti? Tra software server per usi diversi, inclusi quelli web, bot vari per diverse piattaforme, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft), e qualche altra robina che adesso mi scoccio di ricordare, è una roba bestiale, anche se almeno ad oggi non ho la difficoltà dell'usare hardware troppo di fortuna.
 
 Ormai purtroppo spesso non trovo il giusto tempo da spendere sul Fediverso, come facevo prima anche lì a scrivere e condividere robette, sulle varie diverse piattaforme libere carine.
 
@@ -55,19 +55,19 @@ Ah, e devo anche ancora andare a scuola... no, università mi dicono ora, credo.
 
 Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
 
-- <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
-- <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
-- <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank:]}
+- <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt)  
+- <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo)  
+- <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org)
 - C'erano anche le mie istanze ActivityPub qui, ma poi sono successi [**gli incidenti**](../Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali).
 
 <!--
-- ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss.octt.eu.org/@octt){[:MdTgtBlank:]}~~
-- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org/@octt){[:MdTgtBlank:]}~~
+- ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss.octt.eu.org/@octt)~~
+- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org/@octt)~~
 -->
 
 ### Crittografia, prove, e altri profili
 
-Mi sono, finalmente, decisa a mettere in piedi un profilo crittografico compatibile con <b style="Color:#56479E;">Keyoxide</b>, uno strumento molto carino per creare verifiche d'identità online decentralizzate. Eccolo qui: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
+Mi sono, finalmente, decisa a mettere in piedi un profilo crittografico compatibile con <b style="Color:#56479E;">Keyoxide</b>, uno strumento molto carino per creare verifiche d'identità online decentralizzate. Eccolo qui: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>.
 
 Visitandolo, oltre a poter semplicemente accedere a link di alcuni miei altri profili online, è possibile avere una prova crittografica del fatto che ogni dato account appartiene a me, e non ad alcun _impostore sus_.  
 È anche possibile prelevare la mia chiave PGP pubblica, o usare la comoda interfaccia della app (web e non), per cifrare in maniera affidabile messaggi segreti da poter inviare a me.

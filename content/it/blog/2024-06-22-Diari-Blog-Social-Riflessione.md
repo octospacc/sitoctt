@@ -134,7 +134,7 @@ Il diario segreto, inteso come un quaderno o un taccuino in cui si annotano pens
 
 
 
-<h2>[:HNotesRefsHTML:]</h2>
+<h2>{{% i18n notes-refs %}}</h2>
 
 <p><em>L'immagine decorativa di copertina è ottenuta tramite <a href="https://www.bing.com/images/create/a-used2c-ruined-diary-book2c-floating-in-the-air-abo/1-6676dc0085154dc0af66cfe0083bfbc1?id=ik6UsyrKqidtvAmyv7FwFw%3d%3d&amp;view=detailv2&amp;idpp=genimg&amp;thId=OIG2.b9jZ_Y2byFXVtqOG86OY&amp;FORM=GCRIDP&amp;mode=overlay" rel="noopener nofollow" target="_blank">l'intelligenza artificiale generativa di Microsoft</a>.</em></p>
 

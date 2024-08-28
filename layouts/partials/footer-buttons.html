@@ -1,64 +1,298 @@
+{{- with resources.Get "ButtonBadges.toml" -}}
+  {{- with . | transform.Unmarshal -}}
+    {{- range $group, $badges := . -}}
+      <div data-group="{{ $group }}">
+        {{- range $badges -}}
+          {{- $newprops := (dict
+            "srcRelative" .file
+            "hrefLinkback" .linkback
+          ) -}}
+          {{- if .spam -}}
+            {{- $newprops = (merge $newprops (dict "rel" "nofollow")) -}}
+          {{- end -}}
+          {{ partial "ImgButton.html" (merge . $newprops) }}
+        {{- end -}}
+      </div>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 <div>
 
-{{ partial "imgButton.html" (dict
-  "alt" "CC BY-SA"
-  "srcRelative" "CC-BY-SA.svg"
-  "href" "https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt.eu.org&creator=OctoSpacc") }}
-
-{{ partial "imgButton.html" (dict
-  "alt" "✨sitoctt"
-  "srcRelative" "Sites/sitoctt-1.png") }}
-
-{{ partial "imgButton.html" (dict
-  "alt" "Bandiera Octt"
-  "srcRelative" "Octt-Flag.png") }}
-
-{{ partial "imgButton.html" (dict
+{{ partial "ImgButton.html" (dict
   "alt" "Follow me on Mastodon"
   "srcRelative" "Follow-me-on-mastodon.png"
   "href" "https://mastodon.uno/@octo"
-  "rel" "me") }}
+  "rel" "me"
+) }}
 
-</div>
-<div>
+{{ partial "ImgButton.html" (dict
+  "alt" "Bandiera Octt"
+  "srcRelative" "Octt-Flag.png"
+) }}
 
-<!-- Fonte: https://astral.town | Licenza: Sconosciuta -->
-{{ partial "imgButton.html" (dict
+{{ partial "ImgButton.html" (dict
+  "alt" "Rainbow"
+  "srcRelative" "rainbow_bev.png"
+  "href" "https://en.wikipedia.org/wiki/Refraction"
+  "rel" "nofollow"
+) }}
+
+<!-- Source: https://astral.town | License: Unknown -->
+{{ partial "ImgButton.html" (dict
   "alt" "Occhi blink blink"
-  "src" (printf "%s/Media/Blink-0.gif" (partial "assetsRoot.html"))) }}
+  "src" (printf "%s/Media/Blink-0.gif" (partial "assetsRoot.html"))
+) }}
 
-{{ partial "imgButton.html" (dict
-  "alt" "Firefox"
-  "srcRelative" "Firefox-Modern.png"
-  "href" "https://www.mozilla.org/it/firefox"
-  "rel" "nofollow") }}
+{{ partial "ImgButton.html" (dict
+  "alt" "I wear cute socks!"
+  "srcRelative" "I-wear-cute-socks.gif"
+) }}
 
-{{ partial "imgButton.html" (dict
-  "alt" "The Onion Router"
-  "srcRelative" "Tor.png"
-  "href" "https://www.torproject.org/it"
-  "rel" "nofollow") }}
+{{ partial "ImgButton.html" (dict
+  "alt" "nya"
+  "srcRelative" "nya.png"
+) }}
 
-{{ partial "imgButton.html" (dict
-  "alt" "Made on GNU/Linux"
-  "srcRelative" "Made-on-GNU-Linux.png"
-  "href" "https://www.gnu.org/home.it"
-  "rel" "nofollow") }}
+{{ partial "ImgButton.html" (dict
+  "alt" "Hello Kitty"
+  "srcRelative" "HELLO-Kitty.gif"
+  "href" "https://www.sanrio.com"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Girl rot"
+  "srcRelative" "GRL-ROT.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Cyber rot"
+  "srcRelative" "CYBER-ROT.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Girls for Notepad"
+  "srcRelative" "girls-4-notepad.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Perfect Soldier"
+  "srcRelative" "Perfect-Soldier.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "I like computer"
+  "srcRelative" "I-LIKE-COMPUTER.png"
+) }}
 
 </div><div>
 
-{{ partial "imgButton.html" (dict
+{{ partial "ImgButton.html" (dict
+  "alt" "Made with Hugo"
+  "srcRelative" "HUGO.webp"
+  "href" "https://gohugo.io"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Made with CSS"
+  "srcRelative" "MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png"
+  "href" "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Made on GNU/Linux"
+  "srcRelative" "Made-on-GNU-Linux.png"
+  "href" "https://www.gnu.org/home.it"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Made with Notepad++"
+  "srcRelative" "Made-with-Notepad++.png"
+  "href" "https://notepad-plus-plus.org"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Made with Microsoft Notepad"
+  "srcRelative" "Powered-by-Microsoft-Notepad.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Graphics by GIMP"
+  "srcRelative" "Graphics-by-Gimp.png"
+  "href" "https://www.gimp.org"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Fueled by Coffee"
+  "srcRelative" "Fueled-by-COFFEE.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Powered by THE VOID"
+  "srcRelative" "Powered-by-THE-VOID.png"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Powered by Bob"
+  "srcRelative" "POWERED-BY-bob.gif"
+) }}
+
+</div><div>
+
+{{ partial "ImgButton.html" (dict
   "alt" "Internet Archive"
   "srcRelative" "Sites/Internet-Archive.png"
   "href" "https://archive.org"
-  "rel" "nofollow") }}
+  "rel" "nofollow"
+) }}
 
-{{ partial "imgButton.html" (dict
+{{ partial "ImgButton.html" (dict
   "alt" "Wikipedia"
   "srcRelative" "Sites/Wikipedia.png"
   "href" "https://www.wikipedia.org"
   "rel" "nofollow"
   "title" "hu:User:Boro, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"
-  "hrefLinkback" "https://commons.wikimedia.org/wiki/File:Wikipedia-microbar-hu.png") }}
+  "hrefLinkback" "https://commons.wikimedia.org/wiki/File:Wikipedia-microbar-hu.png"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Firefox"
+  "srcRelative" "Firefox-Modern.png"
+  "href" "https://www.mozilla.org/it/firefox"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "The Onion Router"
+  "srcRelative" "Tor.png"
+  "href" "https://www.torproject.org/it"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "uBlock Origin Now!"
+  "srcRelative" "uBlock-Origin-Now.png"
+  "href" "https://ublockorigin.com"
+  "rel" "nofollow"
+) }}
+
+<!-- Linux Now badge with Xenia the Linux Fox made by Volt: https://meow.social/@voltbun/109600348286574222 -->
+{{ partial "ImgButton.html" (dict
+  "alt" "Linux Now!"
+  "srcRelative" "Linux-NOW-Xenia.png"
+  "href" "https://kernel.org"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Use Linux Online"
+  "srcRelative" "Linux-Online.png"
+  "href" "https://www.onworks.net"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Haiku OS Now!"
+  "srcRelative" "HAIKU-NOW.png"
+  "href" "https://www.haiku-os.org"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Join the Fediverse!!!"
+  "srcRelative" "Join-the-Fediverse.gif"
+  "href" "https://jointhefediverse.net"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "matrix"
+  "srcRelative" "matrix.png"
+  "href" "https://matrix.org"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "VOCALOID Now!"
+  "srcRelative" "VOCALOID-Now.png"
+  "href" "https://www.vocaloid.com"
+  "rel" "nofollow"
+) }}
+
+</div><div>
+
+{{ partial "ImgButton.html" (dict
+  "alt" "ISO 8601 now!"
+  "srcRelative" "ISO-8601-now.png"
+  "href" "https://www.w3.org/QA/Tips/iso-date"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "I support net neutrality"
+  "srcRelative" "I-SUPPORT-NET-NEUTRALITY.png"
+  "href" "https://en.wikipedia.org/wiki/Net_neutrality"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "I support right to repair"
+  "srcRelative" "I-SUPPORT-RIGHT-TO-REPAIR.png"
+  "href" "https://en.wikipedia.org/wiki/Right_to_repair"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Trans Your Gender"
+  "srcRelative" "TRANS-YOUR-GENDER.gif"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Ban Porn"
+  "srcRelative" "BAN-PORN.png"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Defective by Design"
+  "srcRelative" "DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp"
+  "href" "https://www.defectivebydesign.org"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Illegal number"
+  "srcRelative" "aacs.2925462440.png"
+  "href" "https://en.wikipedia.org/wiki/Illegal_number"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Piracy Now!"
+  "srcRelative" "Piracy-Now.png"
+  "href" "https://fmhy.pages.dev"
+  "rel" "nofollow"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Sharing is caring, seed your torrents"
+  "srcRelative" "Sharing-is-caring-seed-your-torrents.gif"
+) }}
+
+<!-- “Emulate Now!” badge from Neon with a Zero on Tumblr: https://ne0nwithazero.tumblr.com/post/702936474323206144 -->
+{{ partial "ImgButton.html" (dict
+  "alt" "Emulate Now!"
+  "srcRelative" "Emulate-Now.png"
+) }}
+
+{{ partial "ImgButton.html" (dict
+  "alt" "Campaign against iFrames!"
+  "srcRelative" "Campaign-against-FRAMES.gif"
+) }}
 
 </div>

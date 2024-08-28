@@ -1,0 +1,26 @@
+{{- $size := (or .size "88x31") -}}
+{{- $sizes := (split $size "x") -}}
+{{- $alt := (or (and .alt (printf "[%s]" .alt)) "") -}}
+{{- $src := (or
+  .src
+  (printf `%s/Media/Buttons/%s/%s`
+    (partial "assetsRoot.html")
+    $size
+    .srcRelative)) -}}
+{{- $style := (or .style "") -}}
+{{- if (and (not $style) (not (eq (index (last 1 (split $src ".")) 0) "svg"))) -}}
+  {{- $style = "image-rendering: pixelated;" -}}
+{{- end -}}
+{{/* TODO: maybe set rendering via a class instead of inline CSS? */}}
+{{- $img := (printf `<img src="%s" style="%s" alt="%s" title="%s" width="%spx" height="%spx" />`
+  $src $style
+  $alt $alt
+  (index $sizes 0) (index $sizes 1)
+) | safeHTML -}}
+{{- if .href -}}
+  {{ partial "anchor.html" (dict
+    "Inner" $img
+    "Params" .) }}
+{{- else -}}
+  {{ $img }}
+{{- end -}}

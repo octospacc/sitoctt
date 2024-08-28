@@ -33,9 +33,9 @@ href='./PicoBlog.html'>disponibile qui</a>. Considera di consultare quella per u
 
 ## Cose varie
 
-- Puoi ricevere gli aggiornamenti del PicoBlog tramite Atom. Non ho ancora sistemato staticoso per supportare pagine di questo tipo, ma grazie al servizio _Journal to Atom_ posso avere un feed: [![The Neon Kiosk]({{< assetsRoot >}}/Media/Buttons/Feed-88x31.png){.NoImgCenter .DispBlock}](https://journal.miso.town/atom?url=https%3A%2F%2Fsitoctt.octt.eu.org%2FPicoBlog.Journal.html){[:MdTgtBlank:]}
+- Puoi ricevere gli aggiornamenti del PicoBlog tramite Atom. Non ho ancora sistemato staticoso per supportare pagine di questo tipo, ma grazie al servizio _Journal to Atom_ posso avere un feed: [![The Neon Kiosk]({{< assetsRoot >}}/Media/Buttons/Feed-88x31.png){.NoImgCenter .DispBlock}](https://journal.miso.town/atom?url=https%3A%2F%2Fsitoctt.octt.eu.org%2FPicoBlog.Journal.html)
 
-- Se qui hai finito di leggere le cose recenti, allora fatti un giro per il **Neon Kiosk**, dove puoi trovare pagine simili a questa ma da altre persone: [![The Neon Kiosk]({{< assetsRoot >}}/Media/Buttons/Sites/The-Neon-Kiosk-88x31.png){.NoImgCenter .DispBlock}](https://kiosk.nightfall.city){[:MdTgtBlankNofw:]}
+- Se qui hai finito di leggere le cose recenti, allora fatti un giro per il **Neon Kiosk**, dove puoi trovare pagine simili a questa ma da altre persone: [![The Neon Kiosk]({{< assetsRoot >}}/Media/Buttons/Sites/The-Neon-Kiosk-88x31.png){.NoImgCenter .DispBlock}](https://kiosk.nightfall.city)
 
 ## Leggi il PicoBlog
 
@@ -73,7 +73,7 @@ Ma da quanto che non scrivevo su sta pagina? Vabbe. Oggi cercavo di aggiungere u
 
 <details markdown="1"><summary>
 #### [2022-11-10] Faccio esplodere l'AI </summary>
-Dopo aver scoperto che l'anteprima di ChatGPT è per ora completamente gratuita, ho iniziato a giocarci e a fare cose su cose, dedicandoci forse anche troppo tempo 😅. Ho creato un sito per raccogliere le conversazioni che ho con l'AI, per scopi di ricerca e perché ci sono spesso situazioni che vale la pena condividere: <https://listed.to/@ChatGPT_Experiences>{[:MdTgtBlank:]}
+Dopo aver scoperto che l'anteprima di ChatGPT è per ora completamente gratuita, ho iniziato a giocarci e a fare cose su cose, dedicandoci forse anche troppo tempo 😅. Ho creato un sito per raccogliere le conversazioni che ho con l'AI, per scopi di ricerca e perché ci sono spesso situazioni che vale la pena condividere: <https://listed.to/@ChatGPT_Experiences>
 </details>
 
 <details markdown="1"><summary>
@@ -83,7 +83,7 @@ Ho notato che il sitoctt, anche dopo alcune mie misure che avrebbero dovuto far 
 
 <details markdown="1"><summary>
 #### [2022-11-18] Finalmente ho il MIO Misskey </summary>
-Ci avevo provato mesi fa ad ospitare il mio server ActivityPub. Prima Friendica su Altervista.. non andava. Poi Misskey, Mastodon, e Pleroma su Switch in casa.. fallimenti, l'uno più grosso dell'altro. Poi, l'altro giorno sul Raspino ho voluto riprovarci; i problemi sono usciti eccome, ma stavolta li ho saputi risolvere nell'arco di un giorno di lavoro, e quindi adesso ho [il mio Regno del Terrore](https://miss.octt.eu.org){[:MdTgtBlank:]}! 😁  
+Ci avevo provato mesi fa ad ospitare il mio server ActivityPub. Prima Friendica su Altervista.. non andava. Poi Misskey, Mastodon, e Pleroma su Switch in casa.. fallimenti, l'uno più grosso dell'altro. Poi, l'altro giorno sul Raspino ho voluto riprovarci; i problemi sono usciti eccome, ma stavolta li ho saputi risolvere nell'arco di un giorno di lavoro, e quindi adesso ho [il mio Regno del Terrore](https://miss.octt.eu.org)! 😁  
 Ho aggiunto il mio profilo alla [pagina dei contatti](./Chi-Sono.html#-I-miei-contatti) qui... e ho sistemato una roba che avevo dimenticato di cancellare praticamente da agosto: la menzione al server Matrix, che ormai non ho più. 🙄
 </details>
 
@@ -109,7 +109,7 @@ La scelta di botsin.space come istanza per il mio bot ActivityPub del sito non �
 
 <details markdown="1"><summary>
 #### [2022-10-27] Libro particolare </summary>
-L'altro giorno ho scoperto il Codex Seraphinianus, una roba stranissima che forse mi sta per ispirare. A [questo thread su Mastodon](https://mastodon.uno/@octo/109225347482444777){[:MdTgtBlank:]} ho linkato un video ed il PDF del libro.. ma basta vedere le immagini che ogni tanto aggiungo per (non) capire di cosa si tratta.. 😁
+L'altro giorno ho scoperto il Codex Seraphinianus, una roba stranissima che forse mi sta per ispirare. A [questo thread su Mastodon](https://mastodon.uno/@octo/109225347482444777) ho linkato un video ed il PDF del libro.. ma basta vedere le immagini che ogni tanto aggiungo per (non) capire di cosa si tratta.. 😁
 </details>
 
 <details markdown="1"><summary>
@@ -131,12 +131,12 @@ Di nuovo inattività qui, eh? Purtroppo un po' non avevo voglia, un po' non sape
 #### [2022-09-19] Luigi ambience </summary>
 La musichetta del casinò di Luigi, nonostante lui sia bastardo, è molto raffinata e ci sta benissimo come ambience per l'appartamento. Cliccando sulla foto sotto la si può ascoltare da YouTube.
 
-[![Schermata del primo minigioco di Luigi in Super Mario 64 DS.]({{< assetsRoot >}}/Media/Misc/Luigi-Casino.avif)](https://youtu.be/QoydhH3xODU){[:MdTgtBlank:]}
+[![Schermata del primo minigioco di Luigi in Super Mario 64 DS.]({{< assetsRoot >}}/Media/Misc/Luigi-Casino.avif)](https://youtu.be/QoydhH3xODU)
 </details>
 
 <details markdown="1"><summary>
 #### [2022-09-15] I pezzi </summary>
-Un sacco di roba mi si sta distruggendo. [La mia Nintendo Switch](https://t.me/SpaccInc/882){[:MdTgtBlank:]} cade letteralmente a pezzi, [il mio mouse pezzottissimo](https://t.me/SpaccInc/888){[:MdTgtBlank:]} ha perso un tasto laterale, e che cavolo, e mannaggia!!… Oggi oggi non si è spaccato niente, ma è bene tenere gli ma occhi aperti.
+Un sacco di roba mi si sta distruggendo. [La mia Nintendo Switch](https://t.me/SpaccInc/882) cade letteralmente a pezzi, [il mio mouse pezzottissimo](https://t.me/SpaccInc/888) ha perso un tasto laterale, e che cavolo, e mannaggia!!… Oggi oggi non si è spaccato niente, ma è bene tenere gli ma occhi aperti.
 </details>
 
 <details markdown="1"><summary>
@@ -151,17 +151,17 @@ Ieri sera si è diffusa in Internet, con 3 giorni di anticipo rispetto al giorno
 
 <details markdown="1"><summary>
 #### [2022-09-05] 🏛🙁🛫🏯🍌📢☕☕ </summary>
-Detto in breve: cercavo un'alternativa originale a base64, per una cosa. Ho pensato a creare un mio sistema che ha a che fare con le ASCII art, però mi ci vuole un po' di lavoro e il sistema mi serve subito. Ma poi ho scoperto [Ecoji](https://github.com/keith-turner/ecoji){[:MdTgtBlank:]} 🙏
+Detto in breve: cercavo un'alternativa originale a base64, per una cosa. Ho pensato a creare un mio sistema che ha a che fare con le ASCII art, però mi ci vuole un po' di lavoro e il sistema mi serve subito. Ma poi ho scoperto [Ecoji](https://github.com/keith-turner/ecoji) 🙏
 </details>
 
 <details markdown="1"><summary>
 #### [2022-09-02] App carina </summary>
-[GitJournal](https://github.com/GitJournal/GitJournal){[:MdTgtBlank:]}, provata ieri qualche minuto, penso meriti. Se non usassi già Standard Notes, considereri questa app.
+[GitJournal](https://github.com/GitJournal/GitJournal), provata ieri qualche minuto, penso meriti. Se non usassi già Standard Notes, considereri questa app.
 </details>
 
 <details markdown="1"><summary>
 #### [2022-08-28] Kindolante </summary>
-Solo oggi ho scoperto che, installando [questo pacchetto](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/kindle-usbnet-0.22.N-r18897.tar.xz){[:MdTgtBlank:]}, posso avere un **client** SSH aggiornato sul mio Kindle. Non potevo saperlo, non stava scritto da nessuna parte.. meglio tardi che mai però, ora dal Kindle posso fare cosine su altre macchine.
+Solo oggi ho scoperto che, installando [questo pacchetto](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/kindle-usbnet-0.22.N-r18897.tar.xz), posso avere un **client** SSH aggiornato sul mio Kindle. Non potevo saperlo, non stava scritto da nessuna parte.. meglio tardi che mai però, ora dal Kindle posso fare cosine su altre macchine.
 </details>
 
 <details markdown="1"><summary>
@@ -181,7 +181,7 @@ Per mesi sto, occasionalmente, abusando del PicoBlog come devlog per la roba che
 
 <details markdown="1"><summary>
 #### [2022-08-22] Risolvere. </summary>
-Il sitoctt è dalla sua creazione no-bloat ed efficiente. Eccetto per una (1) risorsa caricata: il [CSS per le emoji](https://octtspacc.gitlab.io/sitoctt-assets/twemoji-amazing.min.css){[:MdTgtBlank:]}. Spreca 400KB di traffico, non va bene, ma ho già qualche idea per risolvere.
+Il sitoctt è dalla sua creazione no-bloat ed efficiente. Eccetto per una (1) risorsa caricata: il [CSS per le emoji](https://octtspacc.gitlab.io/sitoctt-assets/twemoji-amazing.min.css). Spreca 400KB di traffico, non va bene, ma ho già qualche idea per risolvere.
 
 ![Schermata "Rete" degli strumenti sviluppatore di Firefox, che mostra i file più grossi caricati dalla home.]({{< assetsRoot >}}/Media/Screenshots/Firefox-Devtools-sitoctt-index.html-2022-08-22-23-56-53.avif)
 </details>
@@ -198,12 +198,12 @@ Solo oggi ci ho fatto caso: 3 mesi fa (meno 3 giorni) nasceva il sitocto - anzi,
 
 <details markdown="1"><summary>
 #### [2022-08-18] Fallimento P2P </summary>
-Chi sul sitocto naviga con attenzione avrà forse notato che, circa una settimana fa, avevo incluso una [libreria JS non aggiornata da 4 anni](https://github.com/xuset/planktos){[:MdTgtBlank:]}, che avrebbe dovuto rendere il sito automaticamente distribuito via BitTorrent. Ecco, non c'è più: non solo non funzionava, ma non faceva più caricare il sito se attivata..
+Chi sul sitocto naviga con attenzione avrà forse notato che, circa una settimana fa, avevo incluso una [libreria JS non aggiornata da 4 anni](https://github.com/xuset/planktos), che avrebbe dovuto rendere il sito automaticamente distribuito via BitTorrent. Ecco, non c'è più: non solo non funzionava, ma non faceva più caricare il sito se attivata..
 </details>
 
 <details markdown="1"><summary>
 #### [2022-08-17] Lavoro poco ottimale </summary>
-È il mio stato corrente, dove vorrei avere tutta la mia roba di codice sempre perfettamente sincronizzata tra tutti i dispositivi, incluso lo Ximi. Ho chiesto consigli [qui](https://feddit.it/post/44715){[:MdTgtBlank:]} e qualcosa di buono ho già preso, vedremo in cosa andrò a finire.
+È il mio stato corrente, dove vorrei avere tutta la mia roba di codice sempre perfettamente sincronizzata tra tutti i dispositivi, incluso lo Ximi. Ho chiesto consigli [qui](https://feddit.it/post/44715) e qualcosa di buono ho già preso, vedremo in cosa andrò a finire.
 </details>
 
 <details markdown="1"><summary>
@@ -218,17 +218,17 @@ Da ormai 2 giorni sono fuori casa, per una vacanza che non è tipo una vacanza. 
 
 <details markdown="1"><summary>
 #### [2022-08-07] Troppe cose </summary>
-Che ho fatto tra ieri e oggi? R su Miiverse, poi ho iniziato a programmare una [libreria C](https://gitlab.com/octospacc/LibMultiSpacc){[:MdTgtBlank:]}, e poi ho fallito a tentare di [ospitare un server](https://mastodon.uno/@octo/108783055408081922){[:MdTgtBlank:]} prima Misskey, poi Pleroma (piè aroma), e poi Mastodon.
+Che ho fatto tra ieri e oggi? R su Miiverse, poi ho iniziato a programmare una [libreria C](https://gitlab.com/octospacc/LibMultiSpacc), e poi ho fallito a tentare di [ospitare un server](https://mastodon.uno/@octo/108783055408081922) prima Misskey, poi Pleroma (piè aroma), e poi Mastodon.
 </details>
 
 <details markdown="1"><summary>
 #### [2022-08-05] Il Miiverso </summary>
-Un [video YT](https://yewtu.be/watch?v=JjQDik3yNhA){[:MdTgtBlank:]} ha fatto tornare Miiverse alla mia memoria, social network di Nintendo che fu chiuso. Poi mi viene in mente che la community tentò di ricrearlo e.. scopro che il progetto [rverse](https://libredd.it/r/3dshacks/comments/l4klae/miiverse_patch_to_make_it_work_again_rverse/gmyx2e4/?context=3){[:MdTgtBlank:]} è in vita. E funziona! Ho di nuovo Miiverse!
+Un [video YT](https://yewtu.be/watch?v=JjQDik3yNhA) ha fatto tornare Miiverse alla mia memoria, social network di Nintendo che fu chiuso. Poi mi viene in mente che la community tentò di ricrearlo e.. scopro che il progetto [rverse](https://libredd.it/r/3dshacks/comments/l4klae/miiverse_patch_to_make_it_work_again_rverse/gmyx2e4/?context=3) è in vita. E funziona! Ho di nuovo Miiverse!
 </details>
 
 <details markdown="1"><summary>
 #### [2022-08-02] C. </summary>
-Una sola lettera, ma quante rogne. Dall'altro giorno sto provando a scrivere [questo giochino](https://gitlab.com/octospacc/BloccSpacc){[:MdTgtBlank:]}, non dico il perché o perché ho scelto C qui, altrimenti fo il papiro.
+Una sola lettera, ma quante rogne. Dall'altro giorno sto provando a scrivere [questo giochino](https://gitlab.com/octospacc/BloccSpacc), non dico il perché o perché ho scelto C qui, altrimenti fo il papiro.
 </details>
 
 <details markdown="1"><summary>
@@ -248,12 +248,12 @@ Nel 2022, è ancora un vero casino. E ci sono dei lati oscuri. Approfondirò ben
 
 <details markdown="1"><summary>
 #### [2022-07-23] WikiSpacc </summary>
-Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dello Spacc. Abbastanza grave. Lo spacc in generale, comunque, è menzionato da qualche parte.. e se non sapete cosa sia, adesso posso semplicemente dire: ho creato una wiki riguardo l'argomento e tutto ciò che ci sta attorno. Ancora è da riempire bene, ma c'è già qualcosa. Su, andate a leggere [WikiSpacc.miraheze.org/wiki/Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]} :)
+Mi rendo conto solo ora che su questo sito non ho mai detto che sono la Dea dello Spacc. Abbastanza grave. Lo spacc in generale, comunque, è menzionato da qualche parte.. e se non sapete cosa sia, adesso posso semplicemente dire: ho creato una wiki riguardo l'argomento e tutto ciò che ci sta attorno. Ancora è da riempire bene, ma c'è già qualcosa. Su, andate a leggere [WikiSpacc.miraheze.org/wiki/Spacc](https://wikispacc.miraheze.org/wiki/Spacc) :)
 </details>
 
 <details markdown="1"><summary>
 #### [2022-07-21] Decreto fu fatto (20 luglio 2022) </summary>
-Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]({{< assetsRoot >}}/Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]}, sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
+Avevo detto l'altro ieri del Decretocto, ieri l'ho finito e rilasciato. Purtroppo il documento ha qualche problemino di branding: la Repubblica dello Spacc e lo statocto non hanno ancora un logo ufficiale, per ora abbiamo quindi usato un fork di quello della Republica Italiana. Secondo i termini del decreto, che invito a leggere accedendo al file PDF [qui]({{< assetsRoot >}}/Files/Decreto-20-luglio-2022.pdf), sto già riempiendo gli [Archivi MicroBlog](./Categories/MicroBlog.html).
 </details>
 
 <details markdown="1"><summary>
@@ -273,7 +273,7 @@ Ehh, mi sa che devo iniziare a metterlo. Sempre in modo intelligente e che non i
 
 <details markdown="1"><summary>
 #### [2022-07-15] Sistemi operativi in JavaScript </summary>
-Quando il JS è usato bene, ossia quando è usato per fare vere app interattive e non per siti che potrebbero benissimo essere statici, sono la prima ad essere entusiasta di tale tecnologia. E dall'altro ieri mi sono ricordata di [daedalOS](https://github.com/DustinBrett/daedalOS){[:MdTgtBlank:]}, a cui ho aperto un ticket ieri e fatto una pull request oggi!
+Quando il JS è usato bene, ossia quando è usato per fare vere app interattive e non per siti che potrebbero benissimo essere statici, sono la prima ad essere entusiasta di tale tecnologia. E dall'altro ieri mi sono ricordata di [daedalOS](https://github.com/DustinBrett/daedalOS), a cui ho aperto un ticket ieri e fatto una pull request oggi!
 </details>
 
 <details markdown="1"><summary>
@@ -288,7 +288,7 @@ Ma quanto devo aspettare per vedermi il sitocto indicizzato? Cosa devo fare? Ogg
 
 <details markdown="1"><summary>
 #### [2022-07-11] Dispositivi improbabili </summary>
-Ho preso un Kindle da poco meno di una settimana. Ovviamente, l'ho hackerato seduta stante. [L'ho detto su Mastodon](https://mastodon.uno/@octo/108600089579737212){[:MdTgtBlank:]}, ma farò un post approfondito qui prima o poi. Comunque, questo tablettino si aggiunge alla lista di dispositivi strani su cui vorrei assicurarmi che il sitocto funge 😶‍🌫️️
+Ho preso un Kindle da poco meno di una settimana. Ovviamente, l'ho hackerato seduta stante. [L'ho detto su Mastodon](https://mastodon.uno/@octo/108600089579737212), ma farò un post approfondito qui prima o poi. Comunque, questo tablettino si aggiunge alla lista di dispositivi strani su cui vorrei assicurarmi che il sitocto funge 😶‍🌫️️
 </details>
 
 <details markdown="1"><summary>
@@ -298,7 +298,7 @@ Apparentemente, per una settimana sana ho dimenticato che il mio PicoBlog esiste
 
 <details markdown="1"><summary>
 #### [2022-07-03] Ma i commenti? </summary>
-Eh eh, ops. La [repo](https://gitlab.com/octtspacc/PlainDiscuss){[:MdTgtBlank:]} non ha nuovi commit da settimane, morta. Che palle. Però, con l'integrazione ActivityPub che il sito ora ha da 2 giorni, c'è già una sorta di sistema di commenti per ogni singolo post del blogocto.. quindi il mio lavoro è finito?
+Eh eh, ops. La [repo](https://gitlab.com/octtspacc/PlainDiscuss) non ha nuovi commit da settimane, morta. Che palle. Però, con l'integrazione ActivityPub che il sito ora ha da 2 giorni, c'è già una sorta di sistema di commenti per ogni singolo post del blogocto.. quindi il mio lavoro è finito?
 </details>
 
 <details markdown="1"><summary>
@@ -313,7 +313,7 @@ Ormai, questo è ciò che staticoso sta diventando, contrariamente alle mie stes
 
 <details markdown="1"><summary>
 #### [2022-06-29] Minare domini Tor </summary>
-È esattamente quello che ho fatto! In che senso? È banalmente ciò che si fa con un programma come [mkp224o](https://github.com/cathugger/mkp224o){[:MdTgtBlank:]}, se si vuole ottenere un indirizzo contenente caratteri particolari. Il nuovo indirizzo, che inizia (questa la particolarità) con "<span style="Color:#59316b;">sitoctt</span>", è linkato su [Home # Disponibilità del sito](./index.html#-Disponibilit-del-sito).
+È esattamente quello che ho fatto! In che senso? È banalmente ciò che si fa con un programma come [mkp224o](https://github.com/cathugger/mkp224o), se si vuole ottenere un indirizzo contenente caratteri particolari. Il nuovo indirizzo, che inizia (questa la particolarità) con "<span style="Color:#59316b;">sitoctt</span>", è linkato su [Home # Disponibilità del sito](./index.html#-Disponibilit-del-sito).
 </details>
 
 <details markdown="1"><summary>
@@ -323,7 +323,7 @@ Ora ho una pagina [Raccolta Siti Internet](./Raccolte/Internet/Raccolta-Siti-Int
 
 <details markdown="1"><summary>
 #### [2022-06-26] Ancora un'altra piattaforma ActivityPub </summary>
-Eh già, ce n'è già una nuova in beta da praticamente ieri. Che il suo archetipo sia Mastodon, lo si vede subito, ma [Bonfire](https://bonfirenetworks.org){[:MdTgtBlank:]} promette una filosofia diversa (?) e.. agli sviluppatori frega qualcosa del miglioramento progressivo, e gran parte della app già funziona senza JS! Già questo è abbastanza per farmi gioire.
+Eh già, ce n'è già una nuova in beta da praticamente ieri. Che il suo archetipo sia Mastodon, lo si vede subito, ma [Bonfire](https://bonfirenetworks.org) promette una filosofia diversa (?) e.. agli sviluppatori frega qualcosa del miglioramento progressivo, e gran parte della app già funziona senza JS! Già questo è abbastanza per farmi gioire.
 </details>
 
 <details markdown="1"><summary>
@@ -333,7 +333,7 @@ Finalmente staticoso integra la generazione di feed Atom/RSS! Se funziona tutto,
 
 <details markdown="1"><summary>
 #### [2022-06-22] L'esagerazione </summary>
-Mi è venuta voglia di esagerare e implementare un contatore delle visite sul sito. Per fortuna, ho trovato il servizio gratuito già pronto di [contatoreaccessi.com](https://contatoreaccessi.com){[:MdTgtBlank:]}, che funziona caricando assolutamente **zero JavaScript**, anche se conta anche i refresh, non le visite uniche.. vabbe.
+Mi è venuta voglia di esagerare e implementare un contatore delle visite sul sito. Per fortuna, ho trovato il servizio gratuito già pronto di [contatoreaccessi.com](https://contatoreaccessi.com), che funziona caricando assolutamente **zero JavaScript**, anche se conta anche i refresh, non le visite uniche.. vabbe.
 </details>
 
 <details markdown="1"><summary>

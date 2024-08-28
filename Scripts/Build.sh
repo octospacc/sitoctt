@@ -6,10 +6,14 @@ mkdir -p ./build
 cd ./build
 cp -r \
 	../archetypes ../i18n  \
-	../content    ../static \
+	../content    ../assets \
 	../layouts    ../themes  \
-	../hugo.toml              \
+	../hugo.toml  ../static   \
 ./
+
+if [ "${sitocttEnv}" = GitHub ]
+then cp ./layouts/partials/assetsRoot.GitHub.html ./layouts/partials/assetsRoot.html
+fi
 
 sh "${swd}/Translate/Get.sh"
 sh "${swd}/Translate/Apply.sh"

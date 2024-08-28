@@ -1,2 +1,5 @@
 [noticeAutomaticTranslation]
 other = "Il contenuto di questa pagina è stato interamente tradotto a macchina in italiano, da {{ .languageName }}. Pertanto, potrebbe contenere errori di qualsiasi tipo."
+
+[notes-refs]
+other = "🏷️ Note e Riferimenti"

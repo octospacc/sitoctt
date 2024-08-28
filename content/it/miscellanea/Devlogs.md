@@ -152,7 +152,7 @@ Questa **complessa soluzione** funziona perfettamente su Firefox e su Chromium d
 
 ![Schermata ritagliata e zoomata della home page renderizzata da Chromium su Android.]({{< assetsRoot >}}/Media/Screenshots/sitoctt/WM-Chromium-Mobile-Glitch.png)
 
-Vabbè, lo diciamo che fa schifo? Ma sì: **FA SCHIFO!** Se hai una soluzione migliore senza JavaScript, io [sto aspettando la tua pull request](https://gitlab.com/octtspacc/sitoctt){[:MdTgtBlank:]}. _Forza, sto aspettando, aiutami a togliere lo schifo._
+Vabbè, lo diciamo che fa schifo? Ma sì: **FA SCHIFO!** Se hai una soluzione migliore senza JavaScript, io [sto aspettando la tua pull request](https://gitlab.com/octtspacc/sitoctt). _Forza, sto aspettando, aiutami a togliere lo schifo._
 
 Grazie a questo nuovo tema posso permettermi di aggiungere, in modo un minimo sensato, alcuni **meta-contenuti** ripetuti tra le pagine del sito che lo usano - anche se per il momento l'ho applicato solo alla home, perchè ho paura che causi un po' troppa confusione visiva sulle pagine dove il contenuto deve stare al primo posto. Una cosa che ho messo, per dire, è la **lista di post recenti** in una finestrella dedicata.
 
@@ -245,7 +245,7 @@ Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio
 
 Soprattutto a causa della necessità di rendere **staticoso** leggermente più adatto alla creazione di siti di documentazione, oltre che di blog e cose così, ho sentito di dover apportare **qualche miglioramento** alla generazione dei _✨magici✨_ **titoli delle sezioni**.
 
-Ispirandomi parzialmente a cosa fa [mdBook](https://rust-lang.github.io/mdBook){[:MdTgtBlank:]}, ho aggiunto un **target ancora** (`<a>`) al fianco di ogni heading nel testo.  
+Ispirandomi parzialmente a cosa fa [mdBook](https://rust-lang.github.io/mdBook), ho aggiunto un **target ancora** (`<a>`) al fianco di ogni heading nel testo.  
 mdBook rende ogni titolo un link in sé; soluzione elegante ed intuitiva per copiare un link alla sezione all'istante, ma che può dare (da) problemi grossi in certi casi. Ad esempio, le sezioni `<details>`, _che io tanto amo_, diventerebbero difficili da aprire, perché gran parte della loro hitbox sarebbe coperta da quella di un link.  
 Dovevo inventarmi qualcos'altro.
 
@@ -297,7 +297,7 @@ In codice **CSS**, la mia visione si è tradotta in queste righe:
 }
 ```
 
-In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs){[:MdTgtBlank:]}, credo **sarà utilissima**.
+In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, per la [**documentazione di staticoso**](https://gitlab.com/octtspacc/staticoso-docs), credo **sarà utilissima**.
 </details>
 
 
@@ -345,6 +345,6 @@ _O almeno, così è al momento in cui scrivo_. Non è mica da escludere che lo s
 
 </div>
 
-## [:HNotesRefsHTML:]
+## {{% i18n notes-refs %}}
 
-[^ groso 2022-09-01]: In data **2022-09-01**, il mio PC fisso è: **CPU** [AMD Ryzen 3 3200G](https://www.amd.com/en/products/apu/amd-ryzen-3-3200g){[:MdTgtBlank:]}; **OS** [Void GNU+Linux](https://voidlinux.org){[:MdTgtBlank:]} x86_64, libc musl. 
+[^ groso 2022-09-01]: In data **2022-09-01**, il mio PC fisso è: **CPU** [AMD Ryzen 3 3200G](https://www.amd.com/en/products/apu/amd-ryzen-3-3200g); **OS** [Void GNU+Linux](https://voidlinux.org) x86_64, libc musl. 

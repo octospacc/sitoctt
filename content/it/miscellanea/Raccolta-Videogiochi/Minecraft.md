@@ -8,7 +8,7 @@ Credo si possa definire Minecraft come **il** gioco moderno (bene o male) che da
 
 All'inizio è fare "case" che sono buchi 4x4 sotto terra, ma dopo diventa creare installazioni titaniche, puramente estetiche o anche totalmente funzionali - non dimentichiamo che Minecraft, con la sua pietrarossa, è Turing-complete. E alla fine? Beh, non si arriverà mai alla fine...
 
-...WIP. Per altre informazioni non totalmente soggettive, per ora c'è [Wikipedia](https://it.wikipedia.org/Minecraft){[:MdTgtBlank:]}.
+...WIP. Per altre informazioni non totalmente soggettive, per ora c'è [Wikipedia](https://it.wikipedia.org/Minecraft).
 
 ## La mia storia
 
@@ -17,7 +17,7 @@ Scoprii Minecraft quando avevo forse 7 anni, perché al doposcuola un altro bamb
 Fu difficile ottenere l'applicazione, per motivi che riguardano il mio uso in generale di Android ai tempi, ma alla fine riuscii a procurarmela sul mio Galaxy Player, e poi sul mio tablet scassone. All'inizio avevo la demo, inutile dire che non andava bene perché i progressi non potevano essere salvati all'uscita, e quindi giocare era inutile. Poi, in qualche modo che nemmeno ricordo, l'APK della versione completa riuscii a trovarlo.
 
 Da lì, ogni ora di gioco era una nuova scoperta, o un nuovo obiettivo autoimposto raggiunto. Iniziai a costruire strani edifici difficili da navigare, con passaggi intricati, che se volessi fare oggi non saprei nemmeno da dove iniziare.
-A causa di tutta una serie di eventi, i mondi che avevo sul tablet (che non erano niente di che, infatti neanche me li ricordo per bene) li ho persi, ma quelli del Galaxy Player ci sono pervenuti ancora oggi. Ecco alcune foto di quello che all'epoca era il mio importante: <https://pixelfed.uno/p/octo/299639948389257216>{[:MdTgtBlank:]}.
+A causa di tutta una serie di eventi, i mondi che avevo sul tablet (che non erano niente di che, infatti neanche me li ricordo per bene) li ho persi, ma quelli del Galaxy Player ci sono pervenuti ancora oggi. Ecco alcune foto di quello che all'epoca era il mio importante: <https://pixelfed.uno/p/octo/299639948389257216>.
 
 Poco dopo venni a conoscenza, grazie ad un'applicazione che non ricordo se scoprii per caso su Google Play o mi fu consigliata, dell'esistenza delle mappe tematiche create e condivise da altri giocatori in rete. Ci persi un po' di tempo, specialmente su quelle di parkour: con i controlli touch (e all'epoca niente accovacciamento!) diventavano rapidamente una tortura, ma quando si riesce a fare i salti difficili e si va avanti è sempre bello.
 
@@ -36,4 +36,4 @@ Ci sono state poi altre cose in mezzo, tra MCPE che diventava Bedrock Edition, m
 
 Ormai si alternano mesi in cui Minecraft lo apro quasi ogni giorno, ed altri (decisamente più frequenti) in cui mi dimentico completamente che esiste. Quasi 3 anni fa nasce la SpaccCraft - la terza edizione, se vogliamo essere onesti nei confronti di quegli altri due mondi in cui abbiamo un po' troppo esagerato e fatto **letteralmente** lo spacc, ma in fondo bisogna dato che "SpaccCraft" viene proprio da lì - e ormai è declinata pure quella. Il server funziona, ma gira praticamente a vuoto, nessuno gioca e non posso troppo lamentarmene, in quanto in primis io non trovo il tempo per farlo.
 
-Fatevi un giro sul [sito di SpaccCraft](https://spacccraft.altervista.org){[:MdTgtBlank:]}, c'è un po' di roba concreta in più da vedere, e poche elucubrazioni riguardo la mia intera vita.
+Fatevi un giro sul [sito di SpaccCraft](https://spacccraft.altervista.org), c'è un po' di roba concreta in più da vedere, e poche elucubrazioni riguardo la mia intera vita.

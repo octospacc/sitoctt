@@ -2,21 +2,26 @@
 . "$(dirname "$(realpath "$0")")/Lib/Globals.sh"
 cd "${swd}/.."
 
+alias asroot=""
+if [ "$(whoami)" != root && "$(uname -o)" != Android ]
+then alias asroot=sudo
+fi
+
 hugoexternal=true
 if [ -n "$(which apt)" ]
 then
-	apt update
-	apt install -y python3 nodejs findutils git tar gzip wget
+	asroot apt update
+	asroot apt install -y python3 nodejs findutils git tar gzip wget
 	if [ "$(uname -o)" != Android ]
-	then apt install -y npm
+	then asroot apt install -y npm
 	else
-		apt install -y hugo
+		asroot apt install -y hugo
 		hugoexternal=false
 	fi
 elif [ -n "$(which apk)" ]
 then
-	apk update
-	apk add hugo python3 py3-pip nodejs npm findutils git tar gzip wget
+	asroot apk update
+	asroot apk add hugo python3 py3-pip nodejs npm findutils git tar gzip wget
 	hugoexternal=false
 fi
 
