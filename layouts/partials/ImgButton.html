@@ -17,10 +17,10 @@
   $alt $alt
   (index $sizes 0) (index $sizes 1)
 ) | safeHTML -}}
-{{- if .href -}}
+{{ if .href }}
   {{ partial "anchor.html" (dict
     "Inner" $img
     "Params" .) }}
-{{- else -}}
+{{ else }}
   {{ $img }}
-{{- end -}}
+{{ end }}

@@ -3,7 +3,7 @@
 cd "${swd}/.."
 
 alias asroot=""
-if [ "$(whoami)" != root && "$(uname -o)" != Android ]
+if [ "$(whoami)" != root ] && [ "$(uname -o)" != Android ]
 then alias asroot=sudo
 fi
 
