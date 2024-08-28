@@ -11,4 +11,5 @@
 {{- end -}}
 {{- with dict "Params" "" "noticeType" "caution" "Inner" $noticeText -}}
   {{- partial "notice" . -}}
+  <style> .notranslate[data-lang="{{ $languageCode }}"] { display: none; } </style>
 {{- end -}}

@@ -1,9 +1,14 @@
+{{ $size := (or .size "88x31") }}
+{{ $sizes := (split $size "x") }}
 {{ $alt := (or (and .alt (printf "[%s]" .alt)) "") }}
-{{ $img := (printf `<img src="%s" alt="%s" title="%s" width="88px" height="31px" />`
-  (or .src (printf `%s/Media/Buttons/%s`
+{{ $img := (printf `<img src="%s" alt="%s" title="%s" width="%spx" height="%spx" />`
+  (or .src (printf `%s/Media/Buttons/%s/%s`
     (partial "assetsRoot.html")
+    $size
     .srcRelative))
-  $alt $alt) | safeHTML }}
+  $alt $alt
+  (index $sizes 0) (index $sizes 1)
+) | safeHTML }}
 {{ if .href }}
   <!-- {{ if not .target }}
     {{ .Scratch.Set "target" "_blank" }}
