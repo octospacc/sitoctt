@@ -58,7 +58,7 @@ then
 fi
 
 cd ./Scripts
-"${Python3}" -m pip install -U -r ./requirements.txt --break-system-packages
+PIP_BREAK_SYSTEM_PACKAGES=1 "${Python3}" -m pip install -U -r ./requirements.txt
 #npm install
 
 cd "${owd}"
