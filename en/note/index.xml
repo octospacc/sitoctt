@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on ✨sitoctt✨</title>
+    <link>https://sitoctt.octt.eu.org/en/note/</link>
+    <description>Recent content in Notes on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sitoctt.octt.eu.org/en/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2️⃣ Gaming synchronized between PlayStation 2 and smartphone</title>
+      <link>https://sitoctt.octt.eu.org/en/note/2023-10-18-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://sitoctt.octt.eu.org/en/note/2023-10-18-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;2️⃣ Synchronized gaming between PlayStation 2 and smartphone Those who have been following my adventures for long enough and with due attention perhaps know this, but the biggest problem in computer science is: how to properly reconcile the discrepancies that are created when we face the problem of playing video games both at home than in portability?</description>
+    </item>
+    <item>
+      <title>Check interesting statistics and health of partitions on Linux</title>
+      <link>https://sitoctt.octt.eu.org/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sitoctt.octt.eu.org/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Storage memories, whatever their category, degrade with wear.&#xA;Nothing can be done to avoid having to change them, sooner or later, after so many years. However, it is possible to keep an eye on their health status, in order to identify any problems.&#xA;When it comes to HDD or SSD disks, the [SMART] protocol (https://en.</description>
+    </item>
+  </channel>
+</rss>

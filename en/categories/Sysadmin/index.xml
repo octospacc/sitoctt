@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin on ✨sitoctt✨</title>
+    <link>https://sitoctt.octt.eu.org/en/categories/Sysadmin/</link>
+    <description>Recent content in Sysadmin on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sitoctt.octt.eu.org/en/categories/Sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌐️ How and why sitectt on Tor?</title>
+      <link>https://sitoctt.octt.eu.org/en/blog/2022-06-29-%EF%B8%8F-How-and-why-sitectt-on-Tor/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://sitoctt.octt.eu.org/en/blog/2022-06-29-%EF%B8%8F-How-and-why-sitectt-on-Tor/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;In recent days I have settled the first matters regarding making the site available on the Tor network. There are those who will call me exaggerated for even having the thought of doing something like this, but there is little that can be done.&#xA;If nothing has gone wrong, the Onion service can still be reached at this address: onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.</description>
+    </item>
+  </channel>
+</rss>

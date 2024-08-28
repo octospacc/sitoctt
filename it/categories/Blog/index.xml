@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on ✨sitoctt✨</title>
+    <link>https://sitoctt.octt.eu.org/it/categories/Blog/</link>
+    <description>Recent content in Blog on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <atom:link href="https://sitoctt.octt.eu.org/it/categories/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📒 Vecchi MicroBlog</title>
+      <link>https://sitoctt.octt.eu.org/it/categories/MicroBlog/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://sitoctt.octt.eu.org/it/categories/MicroBlog/</guid>
+      <description>Come annunciato nell&amp;rsquo;articolo &amp;ldquo;🎇 Il resocontoctt di questo 2023, almeno in termini di posting!&amp;rdquo;, il Vecchio MicroBlog è ora deprecato, e non verrà più aggiornato. Quello che segue è l&amp;rsquo;archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.&#xA;Nota: I contenuti negli archivi possono aver subito redazioni non segnalate.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Controllare statistiche interessanti e sulla salute di partizioni su Linux | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Le memorie di archiviazione, di qualunque categoria siano, con l&rsquo;usura si degradano.
+Niente si può fare per evitare di doverle cambiare, prima o poi, dopo tanti anni. È però possibile tenere d&rsquo;occhio il loro stato di salute, per poter identificare eventuali problemi.
+Quando si parla di dischi HDD o SSD, il protocollo SMART corre in aiuto ma, se, come me, si usano i computer in maniera poco convenzionale, allora il controllare dischi classici non basta.">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.b209f92c580998ed00116e244d5696d7b17e1f4d8833222d70e95784ea913c6c.css" >
+
+
+
+    <script src="/local-file-tweaks.js"></script>
+
+
+    
+      
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/it/note/2022-08-09-Controllare-statistiche-interessanti-e-sulla-salute-di-partizioni-su-Linux/">
+    
+
+    <meta property="og:url" content="https://sitoctt.octt.eu.org/it/note/2022-08-09-Controllare-statistiche-interessanti-e-sulla-salute-di-partizioni-su-Linux/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="Controllare statistiche interessanti e sulla salute di partizioni su Linux">
+  <meta property="og:description" content="Le memorie di archiviazione, di qualunque categoria siano, con l’usura si degradano.
+Niente si può fare per evitare di doverle cambiare, prima o poi, dopo tanti anni. È però possibile tenere d’occhio il loro stato di salute, per poter identificare eventuali problemi.
+Quando si parla di dischi HDD o SSD, il protocollo SMART corre in aiuto ma, se, come me, si usano i computer in maniera poco convenzionale, allora il controllare dischi classici non basta.">
+  <meta property="og:locale" content="it">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="note">
+    <meta property="article:published_time" content="2022-08-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-08-09T00:00:00+00:00">
+
+  <meta itemprop="name" content="Controllare statistiche interessanti e sulla salute di partizioni su Linux">
+  <meta itemprop="description" content="Le memorie di archiviazione, di qualunque categoria siano, con l’usura si degradano.
+Niente si può fare per evitare di doverle cambiare, prima o poi, dopo tanti anni. È però possibile tenere d’occhio il loro stato di salute, per poter identificare eventuali problemi.
+Quando si parla di dischi HDD o SSD, il protocollo SMART corre in aiuto ma, se, come me, si usano i computer in maniera poco convenzionale, allora il controllare dischi classici non basta.">
+  <meta itemprop="datePublished" content="2022-08-09T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-08-09T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1136">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Controllare statistiche interessanti e sulla salute di partizioni su Linux">
+  <meta name="twitter:description" content="Le memorie di archiviazione, di qualunque categoria siano, con l’usura si degradano.
+Niente si può fare per evitare di doverle cambiare, prima o poi, dopo tanti anni. È però possibile tenere d’occhio il loro stato di salute, per poter identificare eventuali problemi.
+Quando si parla di dischi HDD o SSD, il protocollo SMART corre in aiuto ma, se, come me, si usano i computer in maniera poco convenzionale, allora il controllare dischi classici non basta.">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/it/note/2022-08-09-Controllare-statistiche-interessanti-e-sulla-salute-di-partizioni-su-Linux/"/>
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff;">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black" style="background-color: #330066;">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/it/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/it/blog/" title="Blog pagina">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/it/miscellanea/" title="Miscellanea pagina">
+              Miscellanea
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/it/note/" title="Note pagina">
+              Note
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Note
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Controllare statistiche interessanti e sulla salute di partizioni su Linux</h1>
+      
+      <p class="tracked">
+        Da <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2022-08-09T00:00:00Z">agosto 9, 2022</time>
+      
+
+      
+      
+        <span> - 6 minuti di lettura </span>
+        <span> - 1136 parole </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Le memorie di archiviazione, di qualunque categoria siano, con l&rsquo;usura si degradano.<br>
+Niente si può fare per evitare di doverle cambiare, prima o poi, dopo tanti anni. È però possibile tenere d&rsquo;occhio il loro stato di salute, per poter identificare eventuali problemi.</p>
+<p>Quando si parla di dischi HDD o SSD, il protocollo <a href="https://en.m.wikipedia.org/wiki/S.M.A.R.T." target="_blank" rel="noopener" >SMART</a> corre in aiuto ma, se, come me, si usano i computer in maniera poco convenzionale, allora il controllare dischi classici non basta.</p>
+<h2 id="linux-va-oltre">Linux va oltre</h2>
+<p>Un qualcosa di abbastanza segreto, che non molti sanno (così mi è parso, almeno), è che su Linux è possibile accedere alle statistiche di partizioni con alcuni filesystem.<br>
+Ciò, ovviamente, in modo indipendente da se si stia usando una pennetta, una scheda SD, un disco rigido, un floppy disk, o anche una memoria ancora meno usuale.</p>
+<p><a href="https://en.m.wikipedia.org/wiki/Ext4" target="_blank" rel="noopener" >Ext4</a> fornisce diversi dati curiosi - e lo stesso dovrebbero fare anche le sue versioni precedenti, Ext3 ed Ext2, ma non ho controllato.<br>
+Anche <a href="https://en.m.wikipedia.org/wiki/F2FS" target="_blank" rel="noopener" >F2FS</a> ho visto, direttamente dal mio smartphone Android, espone delle informazioni interessanti.. che non affronterò in dettaglio, perché sono tutte molto oscure e non so cosa significhino; e se non so cosa significano, non sono per me curiose. Capita.<br>
+Per quanto riguarda altri file system, non ho visto proprio. Come compito per casa, quindi, vi do quello di vedere se roba come FAT32, exFAT, NTFS, o perché no, BTRFS, espone informazioni belline, su Linux. E come?</p>
+<h2 id="ottenere-i-dati">Ottenere i dati</h2>
+<p>Su Linux, basta navigare nei percorsi <code>/sys/fs/&lt;filesystem&gt;/&lt;device&gt;</code> per trovare qualche file interessante.<br>
+Si può stampare a schermo il contenuto di ciascuno, affiancato al suo nome, con un semplice comando (eseguito nel relativo percorso): <code>for i in *; do echo &quot;$i: $(cat $i)&quot;; done</code>. A meno di avere SELinux attivo - in genere, di default lo è solo sui dispositivi Android, non sui sistemi desktop - non servono nemmeno i permessi di root.<br>
+Metto qui sotto in tabella i più interessanti, riguardanti la microSD del mio server (una povera Nintendo Switch che fa girare Ubuntu senza sosta), ci torneremo tra poco.</p>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Valore</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>errors_count</td>
+<td>0</td>
+</tr>
+<tr>
+<td>first_error_time</td>
+<td>0</td>
+</tr>
+<tr>
+<td>last_error_time</td>
+<td>0</td>
+</tr>
+<tr>
+<td>lifetime_write_kbytes</td>
+<td>1959125105</td>
+</tr>
+<tr>
+<td>session_write_kbytes</td>
+<td>1423172308</td>
+</tr>
+</tbody>
+</table>
+<p>Parlando nello specifico dei file system Ext: per conoscere persino qualche dettaglio in più, e affiancato da un nome comprensibile, ci sarebbe anche il comando <code>tune2fs -l /dev/&lt;device&gt;</code>. Questo richiede però i permessi di root e, mentre riporta anche alcuni dei dati che si possono ottenere sbirciando i file di prima, come il numero di lifetime_write, questi possono essere non aggiornati, e relativi solo all&rsquo;ultimo montaggio della partizione. Quindi, meglio prestare attenzione a questi.<br>
+Anche stavolta, riporto le cose interessanti.</p>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Valore</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Filesystem created</td>
+<td>Mon Jul 26 04:33:17 2021</td>
+</tr>
+<tr>
+<td>Last mount time</td>
+<td>Fri Apr 15 11:55:30 2022</td>
+</tr>
+<tr>
+<td>Mount count</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cose-da-osservare">Cose da osservare</h2>
+<p>Vediamo, uno per uno, l&rsquo;utilità di questi valori.<br>
+Bisogna tenere in conto, però, nel caso non si fosse capito, che i valori parlano dello stato <strong>della partizione, non del media</strong> di archiviazione. Possiamo leggerli solo perché Ext4 li salva e, di conseguenza, se la partizione viene formattata, allora anche questi valori si resettano. Inoltre, consideriamo che potrebbero tranquillamente essere alterati da chiunque con programmi semplici come tune2fs, quindi non sono dati da prendere come perfettamente buoni se persone non fidate hanno accesso alla memoria.</p>
+<dl>
+<dt>• <strong>Filesystem created</strong>:</dt>
+<dd>La data di creazione della partizione. Semplice, ma può tornare utile per fare stime sulla salute, assieme ai prossimi dati.</dd>
+<dt>• <strong>Mount count</strong>:</dt>
+<dd>Il numero di volte in cui la partizione è stata montata. Questo può essere interessante, se parliamo di una memoria che non è usata in modo permanente su una macchina sempre accesa. Se non esistesse SMART, che dà questo e anche più dati, questo valore sarebbe molto utile sugli HDD.</dd>
+<dt>• <strong>Last mount time</strong>:</dt>
+<dd>La data dell&rsquo;ultimo montaggio della partizione. Ci può servire in combinazione con altri dati, e basta, credo.</dd>
+<dt>• <strong>session_write_kbytes</strong>:</dt>
+<dd>La quantità, in KB, di dati scritti durante la sessione corrente, ossia dal momento dell&rsquo;ultimo montaggio. Assieme al valore descritto appena sopra, possiamo usare questo per sapere quanto abbiamo scritto in un periodo di tempo attivo (il corrente).</dd>
+<dt>• <strong>lifetime_write_kbytes</strong>:</dt>
+<dd>La quantità, in KB, di dati scritti da quando la partizione è stata creata. Questa informazione è particolarmente utile sulle microSD, almeno se se ne fa un uso intensivo come me. C&rsquo;è anche su F2FS.</dd>
+<dt>• <strong>errors_count</strong>:</dt>
+<dd>Il numero di errori, credo sia di lettura che di scrittura, avvenuti nel tempo. Errori frequenti possono essere sintomo di una memoria inaffidabile o semplicemente degradata.</dd>
+<dt>• <strong>first_error_time</strong> e <strong>last_error_time</strong>:</dt>
+<dd>Date, rispettivamente della prima e dell&rsquo;ultima volta in cui un errore è stato registrato. Può essere utile a capire se eventuali errori capitano di continuo, e quindi bisogna investigare oltre; oppure, se un errore è capitato una volta e poi mai più dopo molto tempo, e quindi si sta bene così.</dd>
+</dl>
+<h2 id="quando-serve-controllare-la-salute-così">Quando serve controllare la salute così?</h2>
+<p>Bene, OK, queste informazioni sono interessanti, ma: quando servono effettivamente?</p>
+<p>Se la memoria di archiviazione in uso - che, se abbiamo deciso di ricorrere a queste misure anziché usare SMART, è probabilmente una microSD o una chiavetta - inizia a dare segni di cedimento, magari rallentandosi nel tempo, oppure corrompendo dati.. Sarebbe opportuno almeno controllare che sia tutto a posto.</p>
+<p>Se poi i dati non fanno paura, ma sembrano in regola.. allora è il caso prima di fare una formattazione completa (incluso il ricreare la tabella delle partizioni da zero), cosa resa semplice da programmi come <a href="https://gparted.org" target="_blank" rel="noopener" >GParted</a>, e poi si vede come continua la storia.</p>
+<p>In ogni caso, giusto per scrupolo, sarebbe bene fare sempre controlli di routine, così da poter prevedere problemi prima che accada qualcosa di grave.</p>
+<h2 id="tenere-docchio-le-microsd">Tenere d&rsquo;occhio le microSD?</h2>
+<p>Parlando di schede microSD: sono quasi usa e getta, hanno una vita estremamente limitata, visto che i loro chip di memoria sono gli scarti degli scarti della fabbricazione di altre memorie, di gamma più alta, come gli SSD.</p>
+<p>Sulla loro effettiva durata, almeno di quelle uscite bene dalla fabbrica e non di sottomarche, cosa si sa?<br>
+Se ne leggono di tutti i colori online: chi dice che ogni singola cella di memoria resiste 10000 riscritture, chi dice che puoi al massimo scrivere 1000 volte la capacità della memoria prima che questa fallisca completamente (andando in modalità di sola lettura)&hellip; non si arriva ad alcuna conclusione.</p>
+<p>Ho avuto schede come quella esaminata oggi, della capacità di 32 GB, che, a parte i quasi 2 TB scritti dall&rsquo;ultima formattazione, secondo me minimo 3 TB totali in tutta la sua vita li ha visti, eppure sembra ancora a posto; e poi, ho avuto schede che hanno iniziato a dare problemi per molto meno. Sarà che quest&rsquo;ultime le ho usate con file system schifosi però, come FAT32 o exFAT, e per questo si corrompevano in continuazione.</p>
+<p>In conclusione: se abusiamo di schedine, è bene riuscire a controllarle, nei limiti del possibile, nel modo in cui abbiamo imparato oggi.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Cosa c&#39;è qui</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#linux-va-oltre">Linux va oltre</a></li>
+    <li><a href="#ottenere-i-dati">Ottenere i dati</a></li>
+    <li><a href="#cose-da-osservare">Cose da osservare</a></li>
+    <li><a href="#quando-serve-controllare-la-salute-così">Quando serve controllare la salute così?</a></li>
+    <li><a href="#tenere-docchio-le-microsd">Tenere d&rsquo;occhio le microSD?</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+    <script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="it"
+        crossorigin="anonymous"
+        async="async">
+</script>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="https://sitoctt.octt.eu.org/it/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="site">
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" /></a>
+
+
+
+  <a href="/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" />
+
+
+  <a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" /></a>
+
+
+
+  <a href="https://github.com/octospacc/sitoctt/archive/refs/heads/gh-pages.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" /></a>
+
+
+</div><div>
+
+
+  <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" />
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" /></a>
+
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya]" title="[nya]" width="88px" height="31px" />
+
+
+
+
+  <a href="https://www.sanrio.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" />
+
+
+
+</div><div>
+
+
+  <a href="https://gohugo.io" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.gnu.org/home.it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://notepad-plus-plus.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" />
+
+
+
+
+  <a href="https://www.gimp.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" />
+
+
+
+</div><div>
+
+
+  <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.wikipedia.org" rel="nofollow" target="" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.mozilla.org/it/firefox" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.torproject.org/it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://ublockorigin.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" /></a>
+
+
+
+
+
+
+  <a href="https://kernel.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.onworks.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.haiku-os.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://jointhefediverse.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://matrix.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://www.vocaloid.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" /></a>
+
+
+
+
+</div><div>
+
+
+  <a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" />
+
+
+
+
+  <a href="https://www.defectivebydesign.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <a href="https://fmhy.pages.dev" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" />
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" />
+
+
+
+</div>
+</div>
+</footer>
+
+  </body>
+</html>
