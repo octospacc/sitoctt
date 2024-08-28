@@ -16,8 +16,8 @@ Lastmod = 2023-10-17
 Rightly, coming here, whether or not you have read the general information on the site on [Home](./index.html), you will be wondering who I am.
 
 I am Oct. Yes, that's right, Octt from which sitoctt, my site, takes its name.  
-_Octt_ is pronounced "òctt" - [like sitoctt, but without "sit"]({{< assetsRoot >}}/Media/sitoctt-pronunciation.flac){[:MdTgtBlank:]}.  
-I am the webmaster of this place. Or, perhaps, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlank:]} would be more correct, too bad that people who even know about the existence of this word count on fingers of a severed hand.
+_Octt_ is pronounced "òctt" - [like sitoctt, but without "sit"]({{< assetsRoot >}}/Media/sitoctt-pronunciation.flac).  
+I am the webmaster of this place. Or, perhaps, [webmistress](https://www.dictionary.com/browse/webmistress) would be more correct, too bad that the number of people who even know about the existence of this word can be counted on the fingers of one severed hand.
 
 Okay, I understood that there was a need for this site in the world <small>(but when ever??)</small>, I imagined the site, I started building the site, I put in place strategies to simplify my creation of the site <small>(eee, what big words, I wrote a little program in Python)</small>, and here is the result.
 
@@ -25,9 +25,9 @@ Okay, I understood that there was a need for this site in the world <small>(but 
 
 Well, first of all I make this site. I write things, whether they are useless rivers of words in the human language, or little magic words that your computer interprets to display these pages in their most glorious form.
 
-I am the Goddess and loli of [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]}, and CEO of [Spacc Inc](https://wikispacc.miraheze.org/ wiki/Spacc_Inc){[:MdTgtBlank:]}, and sysadmin of the [Spacc BBS](https://bbs.spacc.eu.org). In this regard, destructive responsibilities rest on my shoulders... but I leave the links to follow to understand, I'm not talking about Spacc here.
+I am the Goddess and loli of [Spacc](https://wikispacc.miraheze.org/wiki/Spacc), as well as CEO of [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc), and sysadmin of [Spacc BBS](https://bbs.spacc.eu.org). In this regard, destructive responsibilities rest on my shoulders... but I leave the links to follow to understand, I'm not talking about Spacc here.
 
-Then, as much as I try to spend as little time as possible on it, I have my server to administer when things break or something needs to be updated, otherwise who will take care of the whole thing? Between server software for different uses, including web ones, various bots for different platforms, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, and some other stuff that I now I hate to remember, it's beastly stuff, even if at least today I don't have the difficulty of using too much makeshift hardware.
+Then, as much as I try to spend as little time as possible on it, I have my server to administer when things break or something needs to be updated, otherwise who will take care of the whole thing? Between server software for different uses, including web ones, various bots for different platforms, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft), and some other stuff that I'm now bored of remembering, it's a beastly, even if at least today I don't have the difficulty of using too much makeshift hardware.
 
 Unfortunately now I often don't find the right time to spend on the Fediverse, as I used to do there before writing and sharing stuff, on the various different nice free platforms.
 
@@ -59,19 +59,19 @@ Oh, and I also still have to go to school... no, university they tell me now, I 
 
 You can find me on the Fediverse, at my favorite contacts that I leave below.
 
-- <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
-- <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
-- <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank: ]}
+- <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt)  
+- <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo)  
+- <b style="Color:#2D2D2D;">Matrix</b>: [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org)
 - There were also my ActivityPub instances here, but then [**incidents**] happened(../Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali).
 
 <!--
-- ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss .octt.eu.org/@octt){[:MdTgtBlank:]}~~
-- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org /@octt){[:MdTgtBlank:]}~~
+- ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:]: [@octt@miss.octt.eu.org](https://miss .octt.eu.org/@octt)~~
+- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:]: [@octt@godo.octt.eu.org](https://godo.octt.eu.org /@octt)~~
 -->
 
 ### Cryptography, proofs, and other profiles
 
-I finally decided to set up a cryptographic profile compatible with <b style="Color:#56479E;">Keyoxide</b>, a very nice tool for creating decentralized online identity verifications. Here it is: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
+I finally decided to set up a cryptographic profile compatible with <b style="Color:#56479E;">Keyoxide</b>, a very nice tool for creating decentralized online identity verifications. Here it is: <https://keyoxide.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>.
 
 By visiting it, in addition to simply being able to access links to some of my other online profiles, it is possible to have cryptographic proof of the fact that any given account belongs to me, and not to any _sus impostor_.  
 It is also possible to take my public PGP key, or use the convenient interface of the app (web or otherwise), to reliably encrypt secret messages to send to me.

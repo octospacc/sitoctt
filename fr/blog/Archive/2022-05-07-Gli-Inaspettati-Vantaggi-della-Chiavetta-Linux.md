@@ -47,29 +47,29 @@ Une fois que vous avez choisi la clé, le **choix de distribution** Linux reste,
 Ici, non seulement les distributions populaires (Ubuntu, Fedora, Mint, Pop!_OS, Manjaro, ...) sont trop volumineuses pour laisser la place à une partition persistante, mais elles seraient inutilisables en raison de la lenteur du stick.  
 Heureusement, j'avais un chemin en tête que je pouvais suivre, car, au cours des derniers mois, par curiosité, j'avais appris quelque chose sur le monde des distributions Linux légères.
 
-C'était une époque où je venais de m'intéresser à **[Alpine Linux](https://alpinelinux.org){[:MdTgtBlank:]}**, pour ses idéaux de **légèreté et de minimalisme**. Je l'ai même utilisé sur ordinateur pendant quelques semaines.  
-Il était réactif et vif, grâce également à la présence de [musl libc](https://en.m.wikipedia.org/wiki/Musl){[:MdTgtBlank:]} au lieu de la désormais surchargée [GNU libc]( https://en.m.wikipedia.org/wiki/Glibc){[:MdTgtBlank:]}, mais la nécessité de configurer parfois de petites choses à la main, même après l'installation initiale, m'a amené à m'en éloigner. Cependant, je pensais que cela conviendrait à un système installé sur un stockage petit et lent, avec peu d'applications.  
-Je l'ai ensuite installé, incluant parmi les logiciels indispensables (ainsi que serveur vidéo et audio) : [Window Maker](https://www.windowmaker.org){[:MdTgtBlank:]} (un gestionnaire de fenêtres léger), [ Firefox](https://firefox.com){[:MdTgtBlank:]} et des applications GUI mineures, notamment : un émulateur de terminal, un gestionnaire de fichiers et un éditeur de texte.
+C'était une époque où je venais de m'intéresser à **[Alpine Linux](https://alpinelinux.org)**, pour ses idéaux de **légèreté et de minimalisme**. Je l'ai même utilisé sur ordinateur pendant quelques semaines.  
+Il était réactif et vif, grâce également à la présence de [musl libc](https://en.m.wikipedia.org/wiki/Musl) au lieu de la désormais surchargée [GNU libc]( https://en.m.wikipedia.org/wiki/Glibc), mais la nécessité de configurer parfois de petites choses à la main, même après l'installation initiale, m'a amené à m'en éloigner. Cependant, je pensais que cela conviendrait à un système installé sur un stockage petit et lent, avec peu d'applications.  
+Je l'ai ensuite installé, incluant parmi les logiciels indispensables (ainsi que serveur vidéo et audio) : [Window Maker](https://www.windowmaker.org) (un gestionnaire de fenêtres léger), [ Firefox](https://firefox.com) et des applications GUI mineures, notamment : un émulateur de terminal, un gestionnaire de fichiers et un éditeur de texte.
 
-Dans l’ensemble, cela a bien fonctionné et rapidement mais, malgré le peu d’applications installées, la mémoire débordait. Cela me poserait quelques problèmes plus tard : par exemple, il n'y avait pas d'espace pour mettre Minecraft et jouer à [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, ce que je voulais parce que ça peut être utile.  
+Dans l’ensemble, cela a bien fonctionné et rapidement mais, malgré le peu d’applications installées, la mémoire débordait. Cela me poserait quelques problèmes plus tard : par exemple, il n'y avait pas d'espace pour mettre Minecraft et jouer à [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft), ce que je voulais parce que ça peut être utile.  
 Ceci - ainsi que le fait que plus tard j'ai pensé que, peut-être, le chiffrement de la clé USB serait nécessaire pour protéger mes données contre le vol ou la perte, mais mes tentatives de chiffrement du système déjà installé ont échoué - m'a fait m'arrêter un instant pour refléter_.
 
 Comme j'aurais de toute façon dû réinstaller le système, j'en ai profité pour **changer de distribution**.
 
 Bien que dans le passé, lorsque j'essayais un petit quelque chose, cela m'avait posé quelques problèmes en tant que système persistant, j'ai décidé de donner **[Puppy Linux](https://puppylinux-woof-ce.github.io){[ :MdTgtBlank:] une chance }** sérieusement.  
 L'image de base de la dernière version de Puppy (au moment de la rédaction, 9.5) ne pèse que 400 Mo, mais elle inclut un système de bureau assez complet, avec des dizaines d'applications préchargées pour les besoins les plus variés.  
-Comment peut-il être si **compact mais plein de trucs** à la fois ? Grâce à l'utilisation de [SquashFS](https://en.m.wikipedia.org/wiki/SquashFS){[:MdTgtBlank:]}, un système de fichiers compressé en lecture seule, qui prend en charge des algorithmes de compression extrêmement efficaces tels que [ LZ4](https://en.m.wikipedia.org/wiki/LZ4_(compression_algorithm)){[:MdTgtBlank:]} et [ZSTD](https://en.m.wikipedia.org/wiki/Zstd) {[:MdTgtBlank:]}. En effet, si elle était complètement décompressée, l’image pèserait environ 2,5 Go. Même le choix d'inclure **plus d'applications minimales** apporte cependant beaucoup, si l'on considère que pratiquement tous les live CD Linux utilisent SquashFS, alors que ceux des distributions plus traditionnelles pèsent plusieurs Go.
+Comment peut-il être si **compact mais plein de trucs** à la fois ? Grâce à l'utilisation de [SquashFS](https://en.m.wikipedia.org/wiki/SquashFS), un système de fichiers compressé en lecture seule, qui prend en charge des algorithmes de compression extrêmement efficaces tels que [ LZ4](https://en.m.wikipedia.org/wiki/LZ4_(compression_algorithm)) et [ZSTD](https://en.m.wikipedia.org/wiki/Zstd) . En effet, si elle était complètement décompressée, l’image pèserait environ 2,5 Go. Même le choix d'inclure **plus d'applications minimales** apporte cependant beaucoup, si l'on considère que pratiquement tous les live CD Linux utilisent SquashFS, alors que ceux des distributions plus traditionnelles pèsent plusieurs Go.
 
 ### À ce jour
 
 **Puppy est la distribution que j'ai encore** sur la clé USB.  
 A part quelques petits soucis (genre : comment diable connecter un clavier Bluetooth ??? et bon, maintenant je n'en ai plus besoin_), il fonctionne très bien et est rapide à tous points de vue.  
-Après avoir configuré le cryptage [LUKS](https://en.m.wikipedia.org/wiki/Linux_Unified_Key_Setup){[:MdTgtBlank:]} sur la partition inscriptible, mes données (fichiers personnels et sessions de navigateur) sont désormais protégées contre d'éventuels accidents.  
-Le gestionnaire de fenêtres intégré, [JWM](https://en.m.wikipedia.org/wiki/JWM){[:MdTgtBlank:]}, est également très propre et je l'aime bien - même si j'aurais aimé qu'il l'ait certaines fonctionnalités d'alignement des fenêtres (il semble n'y avoir rien, ou est-ce que je me trompe ?).  
+Après avoir configuré le cryptage [LUKS](https://en.m.wikipedia.org/wiki/Linux_Unified_Key_Setup) sur la partition inscriptible, mes données (fichiers personnels et sessions de navigateur) sont désormais protégées contre d'éventuels accidents.  
+Le gestionnaire de fenêtres intégré, [JWM](https://en.m.wikipedia.org/wiki/JWM), est également très propre et je l'aime bien - même si j'aurais aimé qu'il l'ait certaines fonctionnalités d'alignement des fenêtres (il semble n'y avoir rien, ou est-ce que je me trompe ?).  
 Et maintenant, enfin, j'ai suffisamment d'espace libre ; et j'ai aussi Minecraft !
  
 ![Capture d'écran de mon bureau Puppy Linux, avec neofetch ouvert sur l'émulateur de terminal.]({{<assetsRoot >}}/Media/Screenshots/Desktop-Chiavetta-Linux-2022-05-07.png)  
-_Crédits de fond : [pixelartmaker.com/art/becdd8955dc57eb](http://pixelartmaker.com/art/becdd8955dc57eb){[:MdTgtBlank:]}_
+_Crédits de fond : [pixelartmaker.com/art/becdd8955dc57eb](http://pixelartmaker.com/art/becdd8955dc57eb)_
 
 ### Avantages importants
 
@@ -78,9 +78,9 @@ Les raisons, tous avantages importants, sont les suivantes ; certains s'appliqu
 
 - J'ai un **système qui s'adapte** à mes goûts, que je peux emporter dans ma poche et utiliser **sur n'importe quel PC**, sans jamais avoir à reconfigurer quoi que ce soit (sauf parfois les paramètres du BIOS) .
 - Le système en question, contrairement à ce que j'ai pu trouver sur la grande majorité des PC du moment (Windows), **respecte mes libertés**, et ne finit pas mes données entre les mains d'une société monopolistique qui, en échange, cela ne m'apporterait absolument rien : sur tous les PC que j'utilise, même ceux qui ne sont pas les miens, je reste cohérent avec mes valeurs.
-- Le **secret** concernant ce que je fais sur le PC à ce moment-là est bien **plus certain**, tout comme la sécurité de mes données : vous avez bien raison de vous méfier de tout système d'exploitation installé sur les PC publics, n'importe quel outil d'espionnage pourrait être installé (et, en fait, c'est le cas sur certains PC de l'école : il existe un programme de contrôle de bureau à distance conçu pour les écoles, [LanSchool](https://en.m.wikipedia. org/wiki/LanSchool){[:MdTgtBlank:]}).
-- J'ai toujours toutes mes **données essentielles avec moi**, qu'il s'agisse de simples documents ou de sessions ouvertes sur différentes applications (comme le toujours pratique [Element](https://element.io){[:MdTgtBlank:]} , pour envoyer des messages et échanger des notes et des petits fichiers entre mes appareils).
-- Certains **logiciels particuliers**, comme Minecraft Java (qui, apparemment, peuvent ne pas fonctionner sur certains PC Windows, car peut-être que les pilotes GPU ne fonctionnent pas correctement et que Windows ne dispose pas du logiciel d'émulation OpenGL de [Mesa] ( https://en.m.wikipedia.org/wiki/Mesa_(computer_graphics)){[:MdTgtBlank:]} au niveau du système, par opposition à Linux), **devrait toujours fonctionner** !
+- Le **secret** concernant ce que je fais sur le PC à ce moment-là est bien **plus certain**, tout comme la sécurité de mes données : vous avez bien raison de vous méfier de tout système d'exploitation installé sur les PC publics, n'importe quel outil d'espionnage pourrait être installé (et, en fait, c'est le cas sur certains PC de l'école : il existe un programme de contrôle de bureau à distance conçu pour les écoles, [LanSchool](https://en.m.wikipedia. org/wiki/LanSchool)).
+- J'ai toujours toutes mes **données essentielles avec moi**, qu'il s'agisse de simples documents ou de sessions ouvertes sur différentes applications (comme le toujours pratique [Element](https://element.io) , pour envoyer des messages et échanger des notes et des petits fichiers entre mes appareils).
+- Certains **logiciels particuliers**, comme Minecraft Java (qui, apparemment, peuvent ne pas fonctionner sur certains PC Windows, car peut-être que les pilotes GPU ne fonctionnent pas correctement et que Windows ne dispose pas du logiciel d'émulation OpenGL de [Mesa] ( https://en.m.wikipedia.org/wiki/Mesa_(computer_graphics)) au niveau du système, par opposition à Linux), **devrait toujours fonctionner** !
 - J'ai un prétexte pour rappeler indirectement que, même en 2022, les **clés USB sont pertinentes**, même ultra bas de gamme.
 
 ### Quelques idées
@@ -89,12 +89,12 @@ Je peux conclure en disant : **vous aussi devriez adopter une clé Linux persist
 
 Voici les sites Web de certaines distributions que je n'ai _pas_ mentionnées dans le texte, mais que j'ai essayées dans le passé ou qui valent la peine d'être consultées :
 
-- [SpaccCraftGo](https://github.com/Spacc-Inc/SpaccCraftGo-Images){[:MdTgtBlank:]} - Puppy Linux rebaptisé [Spacc Inc](https://wikispacc.miraheze.org/wiki/ Spacc_Inc){[:MdTgtBlank:]}, avec l'inclusion de SpaccCraft dans le système ;
-- [Slitaz](https://slitaz.org/en){[:MdTgtBlank:]} - Système de version continue de 50 Mo ;
-- [Porteus](http://porteus.org){[:MdTgtBlank:]} - Distribution live basée sur la modularité ;
-- [antiX](https://antixlinux.com){[:MdTgtBlank:]}
-- [Slax](https://slax.org){[:MdTgtBlank:]}
+- [SpaccCraftGo](https://github.com/Spacc-Inc/SpaccCraftGo-Images) - Puppy Linux rebaptisé [Spacc Inc](https://wikispacc.miraheze.org/wiki/ Spacc_Inc), avec l'inclusion de SpaccCraft dans le système ;
+- [Slitaz](https://slitaz.org/en) - Système de version continue de 50 Mo ;
+- [Porteus](http://porteus.org) - Distribution live basée sur la modularité ;
+- [antiX](https://antixlinux.com)
+- [Slax](https://slax.org)
 
 ### 🏷️ Notes/Références
 
-[^ Mise à jour 2022-08-13] : **Mise à jour 2022-08-13** : J'ai importé cet article de mon ancien blog (<https://noblogo.org/loli-documentatrice/gli-inexpected-vantaggi- of the-linux-key>{[:MdTgtBlank:]}), pour mieux la préserver et tester certaines choses. J'en ai profité pour, en plus d'améliorer la mise en forme, modifier partiellement la forme de certaines phrases. Le contenu reste pratiquement le même.
+[^ Mise à jour 2022-08-13] : **Mise à jour 2022-08-13** : J'ai importé cet article de mon ancien blog (<https://noblogo.org/loli-documentatrice/gli-inexpected-vantaggi- of the-linux-key>), pour mieux la préserver et tester certaines choses. J'en ai profité pour, en plus d'améliorer la mise en forme, modifier partiellement la forme de certaines phrases. Le contenu reste pratiquement le même.

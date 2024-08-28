@@ -48,7 +48,7 @@ This is all absurd if you consider what stuff we're talking about:
 
 * A game belonging to a distant era in which the concept of "gamification" was alien to everyone, and free-to-play video games were truly free: **not** built specifically to create addiction or pressure on players, as in-app purchases didn't exist.
 
-Personally, I also call the minefield "**minesweeper**", to joke about an incorrect pseudo-literal translation of the word "minesweeper" (literally but correctly "[minesweeper](https://it.wikipedia.org/Minesweeper) {[:MdTgtBlank:]}") in Italian. At certain moments, in an instant it becomes "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", when it puts you in front of strange crossroads or intricate bomb placement schemes.
+Personally, I also call the minefield "**minesweeper**", to joke about an incorrect pseudo-literal translation of the word "minesweeper" (literally but correctly "[minesweeper](https://it.wikipedia.org/Minesweeper) ") in Italian. At certain moments, in an instant it becomes "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", when it puts you in front of strange crossroads or intricate bomb placement schemes.
 
 But, if these are all things that even a third party observer can notice, this apparently simple and office pastime hides much more. Minesweeper somehow manages to offer emotions that, again due to the objective circumstances, are difficult to communicate to the world.
 
@@ -58,15 +58,15 @@ By accumulating that single or double daily batch over the weeks, months, and ye
 
 Paraphrasing what [a PCGamesN author] writes (https://www.pcgamesn.com/minesweeper/get-free): **Minesweeper is one of the purest forms of digital escapism** that you can experience, because it is the practical demonstration of how a game, to be deeply immersive, does not have a vital need for a detailed _open world_, elaborate narrative, or characters to become attached to.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Sorry, there's work in progress on this page, I'm setting mines around to troll the next people who come here to read and they will stumble upon a few words... if in the meantime you want to learn how to play read [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)){[:MdTgtBlank:]}, go ahead... </p>
+<p markdown="1" style="background: #fde; padding: 0.5em;">...Sorry, there's work in progress on this page, I'm setting mines around to troll the next people who come here to read and they will stumble upon a few words... if in the meantime you want to learn how to play read [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), go ahead...</p>
 
 ## Curiosity
 
 <div class="Minesweeper Locker"></div>
 
-* In the 90s, **even at Microsoft** everyone was [obsessed with Minesweeper, especially Bill Gates](https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped -lead-to-the-xbox){[:MdTgtBlank:]}. I would say that it is not difficult to see how...
+* In the 90s, **even at Microsoft** everyone was [obsessed with Minesweeper, especially Bill Gates](https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped -lead-to-the-xbox). I would say that it is not difficult to see how...
 
-* In 1999, following complaints from a certain Sergio Chiodo (??), who argued that the concept of the minefield game was offensive to the victims of real anti-personnel mines in the world, the [International Campaign for the banning of Campo Minato](http://fc.retecivica.milano.it/rcmweb/fnm/princ.htm#italiano){[:MdTgtBlank:]}. Microsoft partially buckled under the pressure, and in Windows Me and 2000 replaced the bombs in the game with flowers, and renamed the game "Meadow of Flowers".[^Regional_Differences]
+* In 1999, following complaints from a certain Sergio Chiodo (??), who argued that the concept of the minefield game was offensive to the victims of real anti-personnel mines in the world, the [International Campaign for the banning of Campo Minato](http://fc.retecivica.milano.it/rcmweb/fnm/princ.htm#italiano). Microsoft partially buckled under the pressure, and in Windows Me and 2000 replaced the bombs in the game with flowers, and renamed the game "Meadow of Flowers".[^Regional_Differences]
 
 	* The campaign only caught on to a limited extent outside Italy (?), and only with Windows Vista did the concept of the meadow of flowers game become global. Microsoft has given the possibility to change the game included in the system between mine theme and flower theme, a setting which has a different default value based on the country.[^Windows_Vista_and_Windows_7]
 
@@ -75,24 +75,24 @@ Paraphrasing what [a PCGamesN author] writes (https://www.pcgamesn.com/minesweep
 <div class="ListNoInMargin" markdown="1">
 
 * For **PC**, the **Microsoft original** isn't too bad. The **Windows** XP version works on the latest versions of the system, and even on **Wine**. Unfortunately, it scales a little poorly on high-resolution screens, as the squares are a fixed size and there is no zoom. It hasn't been included in Windows for years, perhaps for this reason, but it can be downloaded from the Web:  
-	* Global XP Version: [Minesweeper.exe](https://archive.org/download/Minesweeper_201811/Minesweeper.exe){[:MdTgtBlank:]}  
-	* Italian XP version: [Prato Fiorito.exe](https://archive.org/download/prato-fiorito/PRATO_FIORITO.exe){[:MdTgtBlank:]}
+	* Global XP Version: [Minesweeper.exe](https://archive.org/download/Minesweeper_201811/Minesweeper.exe)  
+	* Italian XP version: [Prato Fiorito.exe](https://archive.org/download/prato-fiorito/PRATO_FIORITO.exe)
 
 * On **Android**, and I dare say in general, the best implementation I've found is **Antimine**.  
-	* Download from F-Droid: [dev.lucanlm.antimine](https://f-droid.org/packages/dev.lucanlm.antimine){[:MdTgtBlank:]}  
-	* Source Code: [antimine-android](https://github.com/lucasnlm/antimine-android){[:MdTgtBlank:]}
+	* Download from F-Droid: [dev.lucanlm.antimine](https://f-droid.org/packages/dev.lucanlm.antimine)  
+	* Source Code: [antimine-android](https://github.com/lucasnlm/antimine-android)
 
 * To play from **Web browser**, well, on this page I'm putting together something that for my personal tastes is the best available. It works well on both desktop and mobile (although the time you have to hold down a dial to plant a flag is long there), and has minimal graphics.  
 I'm working on making the game customizable, for the moment you can only play with what I've implemented as a minigame to unlock reading the [Curiosities](#-Curiosities) section (if you don't see anything, activate JavaScript!).  
-**Note**: My implementation is based on [vue-minesweeper](https://github.com/antfu/vue-minesweeper){[:MdTgtBlank:]}, with some personal modifications for embedding. All my modified code is [in the sitoctt repository](https://gitlab.com/octtspacc/sitoctt/-/tree/main/Assets/vuesweeper-core){[:MdTgtBlank:]} (MIT license).
+**Note**: My implementation is based on [vue-minesweeper](https://github.com/antfu/vue-minesweeper), with some personal modifications for embedding. All my modified code is [in the sitoctt repository](https://gitlab.com/octtspacc/sitoctt/-/tree/main/Assets/vuesweeper-core) (MIT license).
 
 </div>
 
 ## Similar and Clones
 
-* [Bullets](https://ojs.aaai.org/index.php/AAAI/article/view/21561/21310){[:MdTgtBlank:]}, Playable minefield on paper.
+* [Bullets](https://ojs.aaai.org/index.php/AAAI/article/view/21561/21310), Minefield playable on paper.
 
-* [Kaboom](https://pwmarcz.pl/blog/kaboom){[:MdTgtBlank:]}, a "_cruel but honest_" Minesweeper:
+* [Kaboom](https://pwmarcz.pl/blog/kaboom), a "_cruel but honest_" Minesweeper:
 	* The **placement of mines** is not **chosen** once and for all at the beginning, but **with each move**.
 	* When you are in a situation of guessing (there are no adjacent cells proven to be safe), you have a 100% chance of surviving.
 	* When you don't have to guess, and you do, the game chooses the worst possible outcome.
@@ -101,14 +101,14 @@ I'm working on making the game customizable, for the moment you can only play wi
 
 ## Other Resources
 
-* [Authoritative Minesweeper](https://minesweepergame.com){[:MdTgtBlank:]}
+* [Authoritative Minesweeper](https://minesweepergame.com)
 
-* [Minesweeper is one of the purest gaming experiences](https://old.reddit.com/r/patientgamers/comments/11i6zqy/minesweeper_is_one_of_the_purest_gaming/){[:MdTgtBlank:]}
+* [Minesweeper is one of the purest gaming experiences](https://old.reddit.com/r/patientgamers/comments/11i6zqy/minesweeper_is_one_of_the_purest_gaming/)
 
-## [:HNotesRefsHtml:]
+## {{% i18n notes-refs %}}
 
-[^Regional_Differences]: <https://tcrf.net/Minesweeper_(Windows,_1990)/en#Regional_Differences>{[:MdTgtBlank:]}
-[^Windows_Vista_and_Windows_7]: <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>{[:MdTgtBlank:]}
-[^PageBg]: **Page Background**: [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 ){[:MdTgtBlank:]}
+[^Regional_Differences]: <https://tcrf.net/Minesweeper_(Windows,_1990)/en#Regional_Differences>
+[^Windows_Vista_and_Windows_7]: <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
+[^PageBg]: **Page Background**: [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 )
 
 <script src="/Assets/MinesweeperEmbed.js"></script>

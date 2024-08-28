@@ -16,7 +16,7 @@ Dernière modification = 2023-03-22
 Rice Collection - ou, pour le dire plus exactement, collection de mes ricing : personnalisations d'interface apportées à mes systèmes d'exploitation.
 
 Dans la communauté Linux, les termes « riz » et « ricing » sont courants pour désigner une variété de personnalisations cosmétiques faites maison que les amateurs effectuent pour diverses raisons.  
-Lisez simplement une discussion comme [ce](https://web.archive.org/web/20220907203523/https://teddit.net/r/unixporn/comments/3iy3wd/stupid_question_what_is_ricing){[:MdTgtBlank:]}, cependant , comprendre que le consensus sur l’origine du terme n’est pas très solide. Donc, nous ne nous en soucions pas. 🙄
+Lisez simplement une discussion comme [ce](https://web.archive.org/web/20220907203523/https://teddit.net/r/unixporn/comments/3iy3wd/stupid_question_what_is_ricing), cependant , comprendre que le consensus sur l’origine du terme n’est pas très solide. Donc, nous ne nous en soucions pas. 🙄
 
 La pratique du rizing ne se limite pas à Linux, car elle peut être implémentée sur pratiquement n'importe quel système. Par contre moi :
 
@@ -47,9 +47,9 @@ _En cours de construction..._
 - **Panneau** : `xfce4-panel`
 - **Barre des tâches** : `xfce4-docklike-plugin`
 - **Menu global** : Plugin AppMenu (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
-- **Thème GTK** : [BlueSky-Light](https://github.com/i-mint/bluesky){[:MdTgtBlank:]}
+- **Thème GTK** : [BlueSky-Light](https://github.com/i-mint/bluesky)
 - **thème xfwm** : BlueSky-Light
-- **Icônes** : [Colloïde](https://github.com/vinceliuice/Colloid-icon-theme){[:MdTgtBlank:]}
+- **Icônes** : [Colloïde](https://github.com/vinceliuice/Colloid-icon-theme)
 </détails>
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE"><résumé>
@@ -58,14 +58,14 @@ _En cours de construction..._
 
 ![]({{<assetsRoot >}}/Media/Ricing/Desktop/Screenshot_2022-10-10_20-21-47.png)
 
-- **OS** : [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
+- **OS** : [Void Linux](https://voidlinux.org)
 - **Bureau** : `xfce4`
 - **Panneau** : `xfce4-panel`
 - **Dock** : `planche`
 - **Menu global** : Plugin AppMenu (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
-- **Thème GTK** : [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme){[:MdTgtBlank:]}
+- **Thème GTK** : [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme)
 - **thème xfwm** : Fluent-Dark
-- **Icônes** : [Fluant](https://github.com/vinceliuice/Fluent-icon-theme){[:MdTgtBlank:]}
+- **Icônes** : [Fluant](https://github.com/vinceliuice/Fluent-icon-theme)
 </détails>
 
 </div>

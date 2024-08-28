@@ -11,7 +11,7 @@ Dates = 2022-09-18
 
 
 
-L'autre jour, disons, cela m'a rappelé le fait que j'ai une [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc){[:MdTgtBlank:]} dans mon tiroir.
+L'autre jour, disons, cela m'a rappelé le fait que j'ai une [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc) dans mon tiroir.
 
 ![Mon DSpacc, exécutant Pokémon Ruby à partir de sa cartouche.]({{<assetsRoot >}}/Media/Misc/DSpacc_Pokemon_Rubino.jpg)
 
@@ -29,7 +29,7 @@ Mais pas parce qu’il ne reste qu’un seul écran ! C'est parce que...
 Le fait est que, également parce que je devais prendre une photo pour l'article de WikiSpacc, je l'ai prise l'autre jour. Quand je le vois, je regrette de ne pas l'avoir utilisé, mais malheureusement, il n'y a pas grand-chose à faire.
 
 Mon esprit fou, cependant, m'a rappelé aujourd'hui une idée selon laquelle, si j'étais capable de faire ces choses, cela aurait peut-être même été bien... mais c'est moi.  
-Je me suis dit : et si je soudais un flashcart DS à la place du slot ?** Je n'y ai pas pensé de nulle part, je l'ai vu il y a quelque temps dans une modification de la DS faite par une personne qui fait bien ces choses . Dans certaines vidéos d'il y a un an, comme [this](https://invidious.nerdvpn.de/2wxKDzUO23c?t=156){[:MdTgtBlank:]}, vous pouvez voir que cette autre forme de DS a un linker soudé. sur la carte mère.
+Je me suis dit : et si je soudais un flashcart DS à la place du slot ?** Je n'y ai pas pensé de nulle part, je l'ai vu il y a quelque temps dans une modification de la DS faite par une personne qui fait bien ces choses . Dans certaines vidéos d'il y a un an, comme [this](https://invidious.nerdvpn.de/2wxKDzUO23c?t=156), vous pouvez voir que cette autre forme de DS a un linker soudé. sur la carte mère.
 
 Je prends le tournevis et les embouts et démonte la console. Tout va bien, je l'ai fait au moins 4 fois en ne comptant que la DS Lite.  
 Mais ensuite, je m'arme d'un soudeur... honnêtement, ils devraient me retirer mon permis d'armes, vu les dégâts que je fais.

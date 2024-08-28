@@ -13,13 +13,13 @@ Dates = 09/07/2022
 
 
 
-Depuis près de sept ans, j'ai un ordinateur portable Acer, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389){[:MdTgtBlank:]}, sans doute maintenant un peu vieux, sans éloges et avec une certaine infamie.  
+Depuis près de sept ans, j'ai un ordinateur portable Acer, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389), sans doute maintenant un peu vieux, sans éloges et avec une certaine infamie.  
 Lors de son achat, il s’agissait essentiellement d’un ordinateur portable de milieu de gamme comme les autres, sans fonctionnalités notables. Je veux dire, je l'ai pas mal utilisé et il a plus ou moins toujours fait ce qu'il était censé faire, jusqu'à il y a environ 2 ans, j'ai commencé à exiger d'utiliser des jeux lourds et des outils de développement, à ce moment-là, le nouveau PC (de bureau) était génial. obligation.
 
 ## L'état actuel
 
-Dans l'ensemble, avec GNU+Linux comme système d'exploitation, les [atténuations Intel](https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs){[:MdTgtBlank:]} non installés (oui, j'ai en fait supprimé le microcode , au lieu de bloquer son chargement), et un SSD installé à la place du disque dur des années auparavant, la machine est toujours plus que bonne pour de nombreuses activités que j'effectue aujourd'hui principalement avec le PC de bureau.  
-L'Intel [i5-5200U](https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2 - 70-ghz/spécifications.html){[:MdTgtBlank:]} lui-même fonctionne toujours bien, et les 4 Go de RAM ne sont pas un gros problème si vous avez une pile système légère et ne gardez pas 50 programmes ouverts à la fois.
+Dans l'ensemble, avec GNU+Linux comme système d'exploitation, les [atténuations Intel](https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs) non installés (oui, j'ai en fait supprimé le microcode , au lieu de bloquer son chargement), et un SSD installé à la place du disque dur des années auparavant, la machine est toujours plus que bonne pour de nombreuses activités que j'effectue aujourd'hui principalement avec le PC de bureau.  
+L'Intel [i5-5200U](https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2 - 70-ghz/spécifications.html) lui-même fonctionne toujours bien, et les 4 Go de RAM ne sont pas un gros problème si vous avez une pile système légère et ne gardez pas 50 programmes ouverts à la fois.
 
 ## Un petit problème
 

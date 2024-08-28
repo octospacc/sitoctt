@@ -33,7 +33,7 @@ But why do I have to extract the books, and not use the publishers' applications
 <meta>
 
 **I don't like proprietary software and DRM**
-: In general, whenever possible I always try to do without proprietary software, preferring free tools to do the things I need to do. Proprietary software itself, however, is not necessarily always 100% bad, because sometimes it still gives you freedom 0<sup>[[↗️](https://it.m.wikipedia.org/wiki/Software_libero# Le_%C2%ABquattro_libert%C3%A0%C2%BB){[:MdTgtBlank:]}]</sup>, i.e. the possibility of always using the software for any purpose. Well, DRMs take away this too, they are the absolute inexcusable evil and, if already everything that I use for my purposes does not have DRMs (because it has never had them, or because they have been removed, by me or other people), it would be It's nice to resolve this issue also for school books, which I use only because the curriculum requires it.
+: In general, whenever possible I always try to do without proprietary software, preferring free tools to do the things I need to do. Proprietary software itself, however, is not necessarily always 100% bad, because sometimes it still gives you freedom 0<sup>[[↗️](https://it.m.wikipedia.org/wiki/Software_libero# Le_%C2%ABquattro_libert%C3%A0%C2%BB)]</sup>, i.e. the possibility of always using the software for any purpose. Well, DRMs take away this too, they are the absolute inexcusable evil and, if already everything that I use for my purposes does not have DRMs (because it has never had them, or because they have been removed, by me or other people), it would be It's nice to resolve this issue also for school books, which I use only because the curriculum requires it.
 
 <meta>
 

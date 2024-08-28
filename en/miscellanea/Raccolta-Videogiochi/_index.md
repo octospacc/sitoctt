@@ -39,12 +39,12 @@ But, in short, the charisma of the protagonist character alone makes you want to
 ### <span class="twa twa-🍃">🍃</span> Animal Crossing  
 The premises were creative, but boring: you are a human being who, for some reason, goes on a journey to settle in a village where humanoid animals live with whom you can interact. In the meantime, you have to get into debt with a raccoon who sells you the new house at a very high price, and do what you can to repay, with times that can become infinite. Ah, if you want you can choose your clothing, furnish your house, place flowers in the garden... and?  
 Animal Crossing is one of those games that simply needs to be tried to be understood: staying in that world manages to induce calm and joy for reasons that apparently go beyond logic.  
-	• Animal Crossing: New Horizons: Get: <https://go.octt.eu.org/$afa0200c237a>{[:MdTgtBlankNofw:]}
+	• Animal Crossing: New Horizons: Get: <https://go.octt.eu.org/$afa0200c237a>
 
 ### <span class="twa twa-🐙">🐙</span> Splatoon  
 Third person shooter which to say is different from the others is an understatement. Splatoon breaks the genre's expectations of war realism, and features cute, dazzlingly colorful gameplay that never lets up. There are no humans shooting bullets with iron, but squids spilling ink.  
 Playing in Mollusc Melee (this is the name of the 4-on-4 online battles) is fun, but the depth of the game and the inventiveness of the development team can be seen in story mode.  
-	• Splatoon 3: Get: <https://go.octt.eu.org/$8e62cec12c93>{[:MdTgtBlankNofw:]}
+	• Splatoon 3: Get: <https://go.octt.eu.org/$8e62cec12c93>
 
 ### <span class="twa twa-🧱">🧱</span> Tetris  
 The game created specifically to make people fit together squares of particular shapes that fall from the sky.  
@@ -53,7 +53,7 @@ Puzzle game very particular in its simplicity where, as the game difficulty incr
 #### Tetris Effect  
 Tetris effect adds ambient atmospheres to Tetris with many different themes. Visual and sound effects work to enhance each other, and allow for total immersion, even in a game that remains simply made of falling cubes. Hundreds of thousands of particles everywhere, shapes, colors, attractive music, this is its formula. It has some flaws, such as being particularly heavy for a Tetris and having controls that aren't terribly responsive, but that doesn't mean it should be thrown away. It remains to enjoy.  
 <br/>[:YouTubeEmbedOpen169:]PFVL6t8IHE8[:YouTubeEmbedClose:]  
-<cite>From <a href="https://youtu.be/PFVL6t8IHE8" [:HTMLTgtBlank:]>YouTube/PFVL6t8IHE8</a>.</cite>
+<cite>From <a href="https://youtu.be/PFVL6t8IHE8">YouTube/PFVL6t8IHE8</a>.</cite>
 
 <!-- ## Multi-faceted games
 
@@ -75,7 +75,7 @@ If you really want to try something from this page, and you don't really know wh
 
 ### <span class="twa twa-🏎️">🏎️</span> SuperTuxKart  
 A kart racing game with cute and original environments, and many mascots from the world of free software as characters. It has different game modes, from classic racing to missions with specific objectives, solo or multiplayer. In some ways it has more than Mario Kart!  
-	• Official Site: <https://supertuxkart.net/Main_Page>{[:MdTgtBlank:]}
+	• Official Website: <https://supertuxkart.net/Main_Page>
 
 <!-- ## The rest
 
@@ -85,15 +85,15 @@ _Titles that have only one of these two characteristics may also be found in sec
 ### <span class="twa twa-🧗‍♀️">🧗‍♀️</span> Light blue  
 Celeste is a nice little platformer game, with original mechanics and a unique graphic style. But it's too difficult.  
 I tried to play it many times, but at a certain point in the story the difficulty became too high for me. I should maybe try finishing it in guided mode, since the option is there. Until I've done it, though, I'm not going to look for videos of the ending and spoil stuff, since they say that the value of Celeste lies precisely in its meaning.  
-	• Get: <https://go.octt.eu.org/$ce7941cddd5e>{[:MdTgtBlankNofw:]}  
+	• Get: <https://go.octt.eu.org/$ce7941cddd5e>  
 <br/>[:YouTubeEmbedOpen169:]_bM0uEAis14[:YouTubeEmbedClose:]  
-<cite>From <a href="https://youtu.be/_bM0uEAis14" [:HTMLTgtBlank:]>YouTube/_bM0uEAis14</a>.</cite>
+<cite>From <a href="https://youtu.be/_bM0uEAis14">YouTube/_bM0uEAis14</a>.</cite>
 
 ### <span class="twa twa-✈️">✈️</span> Pilotwings
 #### Pilotwings Resort  
 Pilotwings Resort continues the Pilotwings arcade flight simulation series in a different way. It ends up on a portable console, the 3DS, among other things a console that manages to grab you directly, with its stereoscopic 3D display. The game is set on Wuhu Island, the same place full of history, locations, and mysteries as Wii Sports Resort. The mission mode can in some cases be a real challenge if, like me, you have a mania for platinum... but the free flight mode is unquestionably relaxing and, perhaps, I would even say more immersive. In it, however, it is not that you do nothing: you have to find, a few at a time, all 120 information rings, passing through them to unlock them.  
 <br/>[:YouTubeEmbedOpen169:]QJCb8qnHauo[:YouTubeEmbedClose:]  
-<cite>From <a href="https://youtu.be/QJCb8qnHauo" [:HTMLTgtBlank:]>YouTube/QJCb8qnHauo</a>.</cite>
+<cite>From <a href="https://youtu.be/QJCb8qnHauo">YouTube/QJCb8qnHauo</a>.</cite>
 
 ## Still others
 

@@ -62,7 +62,7 @@ The site is mine because I have **complete freedom** to make it the way I want.
 If already in the mid-90s the only real limit for a website was the **creativity** of the person who built it, today the **potential** of the Web platform are truly **infinite**; although, in a certain way, it doesn't seem that way at all if you only frequent the common Web.
 
 The sites of the "_non-personal_" Internet all have the same same and banal appearance.  
-Many blogs or demo sites use recycled graphic templates. Modern social platforms (Mastodon, Friendica, Pleroma, and so on and so forth) limit customization to a photo, a banner, and a description. Stuff like [Misskey](https://misskey-hub.net/en){[:MdTgtBlank:]} already does more, but it absolutely doesn't get to the levels of **total customization**, with **granular precision **, which only a website - even a forum like those of days gone by, and not a private space - allows.
+Many blogs or demo sites use recycled graphic templates. Modern social platforms (Mastodon, Friendica, Pleroma, and so on and so forth) limit customization to a photo, a banner, and a description. Stuff like [Misskey](https://misskey-hub.net/en) already does more, but it absolutely doesn't reach the levels of **total customization**, with **granular precision**, that only a site The Web - even if it were a forum like those of the past, and not a private space - allows.
 
 ### Great expressiveness
 
@@ -98,9 +98,9 @@ Some non-exclusive content is still already available in my other places on the 
 Those not archived are simply messy and poorly preserved, as well as without guarantees for those who want to copy or reuse them; those, however, which for one reason or another are archived, it is as if they did not exist for the world, and it is easy for me to lose them too.  
 Some of this data may have value, so **this is unfortunate**.
 
-Like a month ago I announced with my [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{< assetsRoot >}} /Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]} --> (_we didn't understand a thing, right?_), this is something that requires tedious work (_taking the old , evaluate their quality, copy the text, paste it into the new text files, layout it well, download photos and videos, optimize them well and upload them..._ nothing but the fun of creating, here it's an assembly line!), but ** it must be done**.  
+Like a month ago I announced with my [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{< assetsRoot >}} /Files/Decreto-20-luglio-2022.pdf) --> (_you didn't understand a thing, right?_), this is something that requires tedious work (_taking the old one, evaluating its quality, copying the text, paste it into the new text files, layout it well, download photos and videos, optimize them well and upload them..._ nothing but the fun of creating, here it's an assembly line!), but **it has to be done**.  
 With my free time I have already started doing it, and I will continue.  
-Posts from my [old blog](https://noblogo.org/loli-documentatrice){[:MdTgtBlank:]} should also be archived here, again for organization and preservation - but those are easier.
+Posts from my [old blog](https://noblogo.org/loli-documentatrice) should also be archived here, again for organization and preservation - but those are easier.
 
 To conclude: it doesn't matter which ones, but in any case ***the contents are the meaning*** of the site. They are, however, only because they are freely available to anyone.  
 What does this **really** mean? Anyone who has read [home](../index.html) should perhaps know this. I don't dare add anything else, in any case; you will have to wait for a next article, one in which I will pick up the topic where I leave it now.

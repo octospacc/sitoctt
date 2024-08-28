@@ -13,15 +13,15 @@ Aliases = [
 Storage memories, whatever their category, degrade with wear.  
 Nothing can be done to avoid having to change them, sooner or later, after so many years. However, it is possible to keep an eye on their health status, in order to identify any problems.
 
-When it comes to HDD or SSD disks, the [SMART](https://en.m.wikipedia.org/wiki/S.M.A.R.T.){[:MdTgtBlank:]} protocol comes in handy but, if, like me, you use computers in an unconventional way, then checking classic discs is not enough.
+When it comes to HDD or SSD disks, the [SMART] protocol (https://en.m.wikipedia.org/wiki/S.M.A.R.T.) comes to the rescue but, if, like me, you use computers in an unconventional way, then checking out classic records isn't enough.
 
 ## Linux goes further
 
 Something quite secret, which not many people know (so it seemed to me, at least), is that on Linux it is possible to access the statistics of partitions with some filesystems.  
 This, obviously, regardless of whether you are using a pen drive, an SD card, a hard disk, a floppy disk, or even an even less usual memory.
 
-[Ext4](https://en.m.wikipedia.org/wiki/Ext4){[:MdTgtBlank:]} provides several curious data - and its previous versions, Ext3 and Ext2, should do the same, but I haven't checked.  
-[F2FS](https://en.m.wikipedia.org/wiki/F2FS){[:MdTgtBlank:]} I also saw, directly from my Android smartphone, exposes some interesting information.. which I won't address in detail, because they are all very dark and I don't know what they mean; and if I don't know what they mean, I'm not curious about them. It happens.  
+[Ext4](https://en.m.wikipedia.org/wiki/Ext4) provides some curious data - and so should its previous versions, Ext3 and Ext2, but I haven't checked.  
+[F2FS](https://en.m.wikipedia.org/wiki/F2FS) I also saw, directly from my Android smartphone, exposes some interesting information... which I won't address in detail, because it's all very obscure and I don't know what they mean; and if I don't know what they mean, I'm not curious about them. It happens.  
 As for other file systems, I haven't seen them at all. As homework, therefore, I give you to see if stuff like FAT32, exFAT, NTFS, or why not, BTRFS, exposes nice information, on Linux. And how?
 
 ## Get the data
@@ -79,7 +79,7 @@ Well, OK, this information is interesting, but: when is it actually needed?
 
 If the storage memory in use - which, if we have decided to resort to these measures instead of using SMART, is probably a microSD or a flash drive - starts to show signs of failure, perhaps slowing down over time, or corrupting data... It would be advisable at least check that everything is OK.
 
-If the data isn't scary, but seems in order... then it's time to first do a complete formatting (including recreating the partition table from scratch), something made simple by programs like [GParted](https:// gparted.org){[:MdTgtBlank:]}, and then you see how the story continues.
+If the data isn't scary, but seems in order... then it's time to first do a complete formatting (including recreating the partition table from scratch), something made simple by programs like [GParted](https:// gparted.org), and then you see how the story continues.
 
 In any case, just to be careful, it would be a good idea to always carry out routine checks, so as to be able to predict problems before something serious happens.
 

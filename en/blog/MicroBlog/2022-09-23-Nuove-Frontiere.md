@@ -11,7 +11,7 @@ Dates = 2022-09-23
 
 
 
-Since I discovered it a few days ago. I'm trying that epic software that is [TiddlyWiki](https://tiddlywiki.com){[:MdTgtBlank:]}.  
+Since I discovered it a few days ago. I'm trying that epic software that is [TiddlyWiki](https://tiddlywiki.com).  
 I initially found it while looking for something to organize notes in a rich format, that I could use for school, and that was obviously free.
 
 It is a wiki software, practically in the same category as MediaWiki (the software on which Wikipedia is based), but it has very particular characteristics.  
@@ -19,7 +19,7 @@ First of all, it doesn't need a server, it's an app that works locally... but ho
 
 If I started using it for the sole limited purpose of school study, but then these days I ended up starting to use it a lot also to create my so-called personal and public knowledge base, on everything I can write to the I fly in a non-linear document format that is very well suited to small, quick interconnected notes... which means it's really interesting.
 
-I'm a bit sorry to say it, but it's possible that part of the time I would normally dedicate to the ctt site will be taken away from it, to be dedicated to the newly created OcttKB - which, in this regard, is here on <https://kb.octt .eu.org>{[:MdTgtBlank:]}.  
+I'm a bit sorry to say it, but it's possible that part of the time I would normally dedicate to the ctt site will be taken away from it, to be dedicated to the newly created OcttKB - which, in this regard, is here on <https://kb.octt .eu.org>.  
 As much as I like everything I have built in recent months, which in fact will continue to live - both as a place in which to express my design style, and as a place in which to publish elaborate and never fragmented content - I must say that I have found a tool which manages to channel some of my thoughts well, those that the CTTT site cannot manage.
 
 I'm not going to explain too much about the technical side of the advantages or disadvantages of TiddlyWiki, because we're talking about a software that is easy to start using, and absolutely very complicated to master (it will take me time!).  

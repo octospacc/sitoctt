@@ -11,7 +11,7 @@ Dates = 2022-09-18
 
 
 
-The other day I was, let's say, reminded of the fact that I have a [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc){[:MdTgtBlank:]} in my drawer.
+The other day I was, let's say, reminded of the fact that I have a [Nintendo DSpacc](https://wikispacc.miraheze.org/wiki/DSpacc) in my drawer.
 
 ![My DSpacc, running Pokémon Ruby from its cartridge.]({{< assetsRoot >}}/Media/Misc/DSpacc_Pokemon_Rubino.jpg)
 
@@ -29,7 +29,7 @@ But not because there is only one screen left! It's because...
 The fact is that, also because I had to take a photo for the WikiSpacc article, I took it out the other day. When I see it I regret not using it, but unfortunately there is little that can be done.
 
 My crazy mind, however, today recalled an idea that, if I were capable of doing these things, maybe it would have even been good... but that's me.  
-I thought: what if I soldered a DS flashcart in place of the slot?** I didn't think of this out of nowhere, I saw it some time ago in a modification of the DS made by a person who does these things well . In some videos from a year ago, like [this](https://invidious.nerdvpn.de/2wxKDzUO23c?t=156){[:MdTgtBlank:]}, you can see that this other form of DS has a soldered flashcart on the motherboard.
+I thought: what if I soldered a DS flashcart in place of the slot?** I didn't think of this out of nowhere, I saw it some time ago in a modification of the DS made by a person who does these things well . In some videos from a year ago, like [this](https://invidious.nerdvpn.de/2wxKDzUO23c?t=156), you can see that this other form of DS has a flashcart soldered onto the motherboard.
 
 I take the screwdriver and bits, and disassemble the console. All OK, I've done this at least 4 times counting just the DS Lite.  
 But then, I arm myself with a welder... honestly they should take away my gun license, considering the damage I do.

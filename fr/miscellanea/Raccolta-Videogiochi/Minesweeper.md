@@ -48,7 +48,7 @@ Tout cela est absurde si l’on considère de quoi nous parlons :
 
 * Un jeu appartenant à une époque lointaine dans laquelle le concept de « gamification » était étranger à tout le monde, et les jeux vidéo gratuits étaient véritablement gratuits : **non** construits spécifiquement pour créer une dépendance ou une pression sur les joueurs, comme dans -Les achats d'applications n'existaient pas.
 
-Personnellement, j'appelle aussi le champ de mines "**démineur**", pour plaisanter sur une traduction pseudo-littérale incorrecte du mot "démineur" (littéralement mais correctement "[démineur](https://it.wikipedia.org/Minesweeper ) {[:MdTgtBlank:]}") en italien. À certains moments, en un instant, il devient "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", lorsqu'il vous met devant d'étranges carrefours ou des schémas complexes de placement de bombes. .
+Personnellement, j'appelle aussi le champ de mines "**démineur**", pour plaisanter sur une traduction pseudo-littérale incorrecte du mot "démineur" (littéralement mais correctement "[démineur](https://it.wikipedia.org/Minesweeper ) ") en italien. À certains moments, en un instant, il devient "**minasp<span style="border: 2px dotted yellow;">i</span>azzante**", lorsqu'il vous met devant d'étranges carrefours ou des schémas complexes de placement de bombes. .
 
 Mais si ce sont toutes des choses que même un observateur tiers peut remarquer, ce passe-temps apparemment simple et professionnel cache bien plus. Démineur parvient d’une manière ou d’une autre à offrir des émotions qui, encore une fois en raison des circonstances objectives, sont difficiles à communiquer au monde.
 
@@ -58,15 +58,15 @@ En accumulant ce lot quotidien simple ou double au fil des semaines, des mois et
 
 Paraphrasant ce qu'écrit [un auteur de PCGamesN] (https://www.pcgamesn.com/minesweeper/get-free) : **Le démineur est l'une des formes les plus pures d'évasion numérique** que vous puissiez expérimenter, car c'est la solution pratique. démonstration de la façon dont un jeu, pour être profondément immersif, n'a pas besoin vital d'un _monde ouvert_ détaillé, d'un récit élaboré ou de personnages auxquels s'attacher.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Désolé, il y a du travail en cours sur cette page, je mets en place des mines pour troller les prochaines personnes qui viendront ici lisez et ils tomberont sur quelques mots... si entre-temps vous voulez apprendre à jouer, lisez [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)){[:MdTgtBlank:]} , allez-y... </p>
+<p markdown="1" style="background: #fde; padding: 0.5em;">...Désolé, il y a du travail en cours sur cette page, je mets en place des mines pour troller les prochaines personnes qui viendront ici lisez et ils tomberont sur quelques mots... si entre-temps vous voulez apprendre à jouer, lisez [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)) , allez-y... </p>
 
 ## Curiosité
 
 <div class="Casier du démineur"></div>
 
-* Dans les années 90, **même chez Microsoft** tout le monde était [obsédé par le dragueur de mines, en particulier Bill Gates](https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped - mène à la Xbox){[:MdTgtBlank:]}. Je dirais qu'il n'est pas difficile de voir comment...
+* Dans les années 90, **même chez Microsoft** tout le monde était [obsédé par le dragueur de mines, en particulier Bill Gates](https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped - mène à la Xbox). Je dirais qu'il n'est pas difficile de voir comment...
 
-* En 1999, suite aux plaintes d'un certain Sergio Chiodo (??), qui affirmait que le concept du jeu du champ de mines était offensant pour les victimes des véritables mines antipersonnel dans le monde, la [Campagne internationale pour l'interdiction de Campo Minato ](http://fc.retecivica.milano.it/rcmweb/fnm/princ.htm#italiano){[:MdTgtBlank:]}. Microsoft a partiellement cédé sous la pression et, dans Windows Me et 2000, a remplacé les bombes du jeu par des fleurs et a renommé le jeu « Meadow of Flowers ».[^Regional_Differences]
+* En 1999, suite aux plaintes d'un certain Sergio Chiodo (??), qui affirmait que le concept du jeu du champ de mines était offensant pour les victimes des véritables mines antipersonnel dans le monde, la [Campagne internationale pour l'interdiction de Campo Minato ](http://fc.retecivica.milano.it/rcmweb/fnm/princ.htm#italiano). Microsoft a partiellement cédé sous la pression et, dans Windows Me et 2000, a remplacé les bombes du jeu par des fleurs et a renommé le jeu « Meadow of Flowers ».[^Regional_Differences]
 
 	* La campagne n'a connu qu'un succès limité en dehors de l'Italie (?), et ce n'est qu'avec Windows Vista que le concept du jeu du pré de fleurs est devenu mondial. Microsoft a donné la possibilité de changer le jeu inclus dans le système entre le thème du mien et le thème des fleurs, un paramètre qui a une valeur par défaut différente en fonction du pays.[^Windows_Vista_and_Windows_7]
 
@@ -75,24 +75,24 @@ Paraphrasant ce qu'écrit [un auteur de PCGamesN] (https://www.pcgamesn.com/mine
 <div class="ListNoInMargin" markdown="1">
 
 * Pour **PC**, l'**original Microsoft** n'est pas trop mal. La version **Windows** XP fonctionne sur les dernières versions du système, et même sur **Wine**. Malheureusement, l'échelle est un peu médiocre sur les écrans haute résolution, car les carrés ont une taille fixe et il n'y a pas de zoom. Il n'est pas inclus dans Windows depuis des années, peut-être pour cette raison, mais il peut être téléchargé depuis le Web :  
-	* Version XP globale : [Minesweeper.exe](https://archive.org/download/Minesweeper_201811/Minesweeper.exe){[:MdTgtBlank:]}  
-	* Version XP italienne : [Prato Fiorito.exe](https://archive.org/download/prato-fiorito/PRATO_FIORito.exe){[:MdTgtBlank:]}
+	* Version XP globale : [Minesweeper.exe](https://archive.org/download/Minesweeper_201811/Minesweeper.exe)  
+	* Version XP italienne : [Prato Fiorito.exe](https://archive.org/download/prato-fiorito/PRATO_FIORito.exe)
 
 * Sur **Android**, et j'ose dire en général, la meilleure implémentation que j'ai trouvée est **Antimine**.  
-	* Téléchargement depuis F-Droid : [dev.lucanlm.antimine](https://f-droid.org/packages/dev.lucanlm.antimine){[:MdTgtBlank:]}  
-	* Code source : [antimine-android](https://github.com/lucasnlm/antimine-android){[:MdTgtBlank:]}
+	* Téléchargement depuis F-Droid : [dev.lucanlm.antimine](https://f-droid.org/packages/dev.lucanlm.antimine)  
+	* Code source : [antimine-android](https://github.com/lucasnlm/antimine-android)
 
 * Pour jouer depuis un **navigateur Web**, eh bien, sur cette page, je rassemble quelque chose qui, selon mes goûts personnels, est le meilleur disponible. Il fonctionne bien sur ordinateur et sur mobile (même si le temps nécessaire pour maintenir un cadran enfoncé pour planter un drapeau est long) et présente des graphismes minimes.  
 Je travaille à rendre le jeu personnalisable, pour le moment vous ne pouvez jouer qu'avec ce que j'ai implémenté comme mini-jeu pour débloquer la lecture de la section [Curiosités](#-Curiosités) (si vous ne voyez rien, activez JavaScript !).  
-**Remarque** : Mon implémentation est basée sur [vue-minesweeper](https://github.com/antfu/vue-minesweeper){[:MdTgtBlank:]}, avec quelques modifications personnelles pour l'intégration. Tout mon code modifié est [dans le référentiel sitoctt](https://gitlab.com/octtspacc/sitoctt/-/tree/main/Assets/vuesweeper-core){[:MdTgtBlank:]} (licence MIT).
+**Remarque** : Mon implémentation est basée sur [vue-minesweeper](https://github.com/antfu/vue-minesweeper), avec quelques modifications personnelles pour l'intégration. Tout mon code modifié est [dans le référentiel sitoctt](https://gitlab.com/octtspacc/sitoctt/-/tree/main/Assets/vuesweeper-core) (licence MIT).
 
 </div>
 
 ## Similaires et clones
 
-* [Bullets](https://ojs.aaai.org/index.php/AAAI/article/view/21561/21310){[:MdTgtBlank:]}, champ de mines jouable sur papier.
+* [Bullets](https://ojs.aaai.org/index.php/AAAI/article/view/21561/21310), champ de mines jouable sur papier.
 
-* [Kaboom](https://pwmarcz.pl/blog/kaboom){[:MdTgtBlank:]}, un dragueur de mines "_cruel mais honnête_" :
+* [Kaboom](https://pwmarcz.pl/blog/kaboom), un dragueur de mines "_cruel mais honnête_" :
 	* Le **placement des mines** n'est pas **choisi** une fois pour toutes au début, mais **à chaque mouvement**.
 	* Lorsque vous êtes dans une situation de devinette (aucune cellule adjacente n'est prouvée sûre), vous avez 100 % de chances de survivre.
 	* Lorsque vous n'avez pas besoin de deviner, et que vous le faites, le jeu choisit le pire résultat possible.
@@ -101,14 +101,14 @@ Je travaille à rendre le jeu personnalisable, pour le moment vous ne pouvez jou
 
 ## Autres ressources
 
-* [Démineur faisant autorité](https://minesweepergame.com){[:MdTgtBlank:]}
+* [Démineur faisant autorité](https://minesweepergame.com)
 
-* [Minesweeper est l'une des expériences de jeu les plus pures](https://old.reddit.com/r/patientgamers/comments/11i6zqy/minesweeper_is_one_of_the_purest_gaming/){[:MdTgtBlank:]}
+* [Minesweeper est l'une des expériences de jeu les plus pures](https://old.reddit.com/r/patientgamers/comments/11i6zqy/minesweeper_is_one_of_the_purest_gaming/)
 
 ## [:HRotesRefsHtml:]
 
-[^Regional_Differences] : <https://tcrf.net/Minesweeper_(Windows,_1990)/en#Regional_Differences>{[:MdTgtBlank:]}
-[^Windows_Vista_and_Windows_7] : <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>{[:MdTgtBlank:]}
-[^PageBg] : **Arrière-plan de la page** : [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 ) {[:MdTgtBlank:]}
+[^Regional_Differences] : <https://tcrf.net/Minesweeper_(Windows,_1990)/en#Regional_Differences>
+[^Windows_Vista_and_Windows_7] : <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
+[^PageBg] : **Arrière-plan de la page** : [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 ) 
 
 <script src="/Assets/MinesweeperEmbed.js"></script>

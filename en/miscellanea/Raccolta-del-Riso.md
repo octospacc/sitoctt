@@ -6,7 +6,8 @@ Aliases = [
 Categories = [ "Technology" ]
 Lastmod = 2023-03-22
 #Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
-#$ L/VoidLinuxOS = <strong>OS</strong>: <a href="https://voidlinux.org" [:HtmlTgtBlank:]>Void Linux</a>
+[Params]
+  LVoidLinuxOS = '<strong>OS</strong>: <a href="https://voidlinux.org">Void Linux</a>'
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -16,7 +17,7 @@ Lastmod = 2023-03-22
 Rice Collection - or, to put it more correctly, collection of my ricing: interface customizations made to my operating systems.
 
 In the Linux community, the terms "rice" and "ricing" are common to refer to a variety of DIY cosmetic customizations that hobbyists do for a variety of reasons.  
-Just read a discussion like [this](https://web.archive.org/web/20220907203523/https://teddit.net/r/unixporn/comments/3iy3wd/stupid_question_what_is_ricing){[:MdTgtBlank:]}, though , to understand that the consensus on the origin of the term is not very solid. So, we don't care. 🙄
+It is enough to read a discussion like [this](https://web.archive.org/web/20220907203523/https://teddit.net/r/unixporn/comments/3iy3wd/stupid_question_what_is_ricing), however, to understand that the consensus on The origin of the term is not very solid. So, we don't care. 🙄
 
 The practice of ricing is not limited to Linux, as it can be implemented on virtually any system. Me, however:
 
@@ -37,35 +38,37 @@ _Under construction..._
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE" open><summary>
+
 #### W5 October 2022 </summary>
 -> #Linux #Desktop #XFCE
 
 ![]({{< assetsRoot >}}/Media/Ricing/Desktop/Screenshot_2022-10-30_00-14-14.png)
 
-- [:L/VoidLinuxOS:]
+- {{< htmlparam LVoidLinuxOS >}}
 - **Desktop**: `xfce4`
 - **Panel**: `xfce4-panel`
 - **Taskbar**: `xfce4-docklike-plugin`
 - **Global Menu**: AppMenu Plugin (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
-- **GTK Theme**: [BlueSky-Light](https://github.com/i-mint/bluesky){[:MdTgtBlank:]}
+- **GTK Theme**: [BlueSky-Light](https://github.com/i-mint/bluesky)
 - **xfwm theme**: BlueSky-Light
-- **Icons**: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme){[:MdTgtBlank:]}
+- **Icons**: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 </details>
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE"><summary>
+
 #### W2 October 2022 </summary>
 -> #Linux #Desktop #XFCE
 
 ![]({{< assetsRoot >}}/Media/Ricing/Desktop/Screenshot_2022-10-10_20-21-47.png)
 
-- **OS**: [Void Linux](https://voidlinux.org){[:MdTgtBlank:]}
+- **OS**: [Void Linux](https://voidlinux.org)
 - **Desktop**: `xfce4`
 - **Panel**: `xfce4-panel`
 - **Dock**: `plank`
 - **Global Menu**: AppMenu Plugin (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
-- **GTK theme**: [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme){[:MdTgtBlank:]}
+- **GTK theme**: [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme)
 - **xfwm theme**: Fluent-Dark
-- **Icons**: [Fluent](https://github.com/vinceliuice/Fluent-icon-theme){[:MdTgtBlank:]}
+- **Icons**: [Fluent](https://github.com/vinceliuice/Fluent-icon-theme)
 </details>
 
 </div>

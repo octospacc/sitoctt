@@ -47,29 +47,29 @@ Once you have chosen the stick, the **choice of distribution** Linux remains, pe
 Here, not only are the popular distros (Ubuntu, Fedora, Mint, Pop!_OS, Manjaro, ...) too big to fit leaving room for a persistent partition, but they would be unusable due to the slowness of the stick.  
 Fortunately, I had a path in mind that I could follow, because, in the past months, out of my curiosity, I had learned something about the world of lightweight Linux distros.
 
-It was a time when I had just become interested in **[Alpine Linux](https://alpinelinux.org){[:MdTgtBlank:]}**, for its ideals of **lightness and minimalism**. I even used it on desktop for a few weeks.  
-It was responsive and snappy, thanks also to the presence of [musl libc](https://en.m.wikipedia.org/wiki/Musl){[:MdTgtBlank:]} instead of the now bloated [GNU libc](https: //en.m.wikipedia.org/wiki/Glibc){[:MdTgtBlank:]}, but the need to sometimes configure small things by hand, even after the initial installation, led me to move away from it. However, I thought it would be suitable for a system installed on small, slow storage, with few applications.  
-I then installed it, including among the essential software (as well as video and audio server): [Window Maker](https://www.windowmaker.org){[:MdTgtBlank:]} (a lightweight window manager), [Firefox](https://firefox.com){[:MdTgtBlank:]}, and minor GUI applications, including: a terminal emulator, a file manager, and a text editor.
+It was a time when I had just become interested in **[Alpine Linux](https://alpinelinux.org)**, for its ideals of **lightness and minimalism**. I even used it on desktop for a few weeks.  
+It was responsive and snappy, thanks also to the presence of [musl libc](https://en.m.wikipedia.org/wiki/Musl) instead of the now bloated [GNU libc](https://en.m.wikipedia .org/wiki/Glibc), but the need to sometimes configure small things by hand, even after the initial installation, led me to move away from it. However, I thought it would be suitable for a system installed on small, slow storage, with few applications.  
+I then installed it, including among the essential software (as well as video and audio servers): [Window Maker](https://www.windowmaker.org) (a lightweight window manager), [Firefox](https:/ /firefox.com), and smaller GUI applications, including: a terminal emulator, a file manager, and a text editor.
 
-All in all, it worked well and quickly but, despite the few apps installed, the memory was overflowing. This would give me some problems later: for example, there was no space to put Minecraft and play [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]}, which which I wanted because it can be useful.  
+All in all, it worked well and quickly but, despite the few apps installed, the memory was overflowing. This would give me some problems later: for example, there was no space to put Minecraft and play [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft), which I wanted because it can be useful.  
 This - together with the fact that later I thought that, perhaps, encrypting the pen drive would be necessary to protect my data against theft or loss of it, but my attempts to encrypt the already installed system failed - made me stop for a moment to reflect_.
 
 Since I would have had to reinstall the system anyway, I took the opportunity to **change distribution**.
 
-Although in the past, when I tried a little something, it had given me some trouble as a persistent system, I decided to give **[Puppy Linux](https://puppylinux-woof-ce.github.io){[:MdTgtBlank:] a chance }** seriously.  
+Although in the past, when I tried a little something, it had given me some trouble as a persistent system, I decided to give **[Puppy Linux](https://puppylinux-woof-ce.github.io)** a serious chance.  
 The base image of the latest version of Puppy (at the time of writing, 9.5) weighs just 400 MB, but includes a fairly complete desktop system in itself, with dozens of preloaded applications for the most varied needs.  
-How can it be so **compact but full of stuff** at the same time? Thanks to the use of [SquashFS](https://en.m.wikipedia.org/wiki/SquashFS){[:MdTgtBlank:]}, a read-only compressed file system, which supports extremely efficient compression algorithms such as [ LZ4](https://en.m.wikipedia.org/wiki/LZ4_(compression_algorithm)){[:MdTgtBlank:]} and [ZSTD](https://en.m.wikipedia.org/wiki/Zstd) {[:MdTgtBlank:]}. In fact, if it were completely decompressed, the image would weigh around 2.5 GB. Even the choice to include **more minimal applications**, however, contributes a lot, if you consider that practically all Linux live CDs use SquashFS, yet those of more traditional distributions weigh several GB.
+How can it be so **compact but full of stuff** at the same time? Thanks to the use of [SquashFS](https://en.m.wikipedia.org/wiki/SquashFS), a read-only compressed file system, which supports extremely efficient compression algorithms such as [LZ4](https:// en.m.wikipedia.org/wiki/LZ4_(compression_algorithm)) and [ZSTD](https://en.m.wikipedia.org/wiki/Zstd). In fact, if it were completely decompressed, the image would weigh around 2.5 GB. Even the choice to include **more minimal applications**, however, contributes a lot, if you consider that practically all Linux live CDs use SquashFS, yet those of more traditional distributions weigh several GB.
 
 ### To date
 
 **Puppy is the distribution that I still have** on the flash drive.  
 Except for a few minor problems (like: how the hell do I connect a Bluetooth keyboard??? and well, now I don't need it anymore_), it works very well and is fast in every way.  
-Having set up the [LUKS](https://en.m.wikipedia.org/wiki/Linux_Unified_Key_Setup){[:MdTgtBlank:]} encryption on the writable partition, now my data (personal files and browser sessions) are protected against possible accidents.  
-The built-in window manager, [JWM](https://en.m.wikipedia.org/wiki/JWM){[:MdTgtBlank:]}, is also very clean and I quite like it - although I wish it had some features window alignment (it seems to have nothing, or am I wrong?).  
+Having set up the [LUKS](https://en.m.wikipedia.org/wiki/Linux_Unified_Key_Setup) encryption on the writable partition, now my data (personal files and browser sessions) are protected against any accidents.  
+The built-in window manager, [JWM](https://en.m.wikipedia.org/wiki/JWM), is also very clean and I quite like it - although I wish it had some window alignment function (it doesn't seem to has anything, or am I wrong?).  
 And now, finally, I have enough free space; and I also have Minecraft!
  
 ![Screenshot of my Puppy Linux desktop, with neofetch open on the terminal emulator.]({{< assetsRoot >}}/Media/Screenshots/Desktop-Chiavetta-Linux-2022-05-07.png)  
-_Background credits: [pixelartmaker.com/art/becdd8955dc57eb](http://pixelartmaker.com/art/becdd8955dc57eb){[:MdTgtBlank:]}_
+_Background credits: [pixelartmaker.com/art/becdd8955dc57eb](http://pixelartmaker.com/art/becdd8955dc57eb)_
 
 ### Important benefits
 
@@ -78,9 +78,9 @@ The reasons, all important advantages, are as follows; some apply to live Linux 
 
 - I have a **system that adapts** to my tastes, that I can carry in my pocket and use **on any PC**, without ever having to reconfigure anything (except, sometimes, the BIOS settings) .
 - The system in question, contrary to what I could find on the vast majority of PCs around (Windows), **respects my freedoms**, and does not end up my data in the hands of a monopolistic corporation which, in exchange , it would give me absolutely nothing: on any PC I use, even those that aren't mine, I remain consistent with my values.
-- The **secrecy** regarding what I do on the PC at that moment is much **more certain**, as is the security of my data: you are only right to be wary of any operating system installed on public PCs, there could be any spy tool installed (and, in fact, this is the case on some of the PCs at school: there is a remote desktop control program designed for schools, [LanSchool](https://en.m.wikipedia.org/ wiki/LanSchool){[:MdTgtBlank:]}).
-- I have all my **essential data always with me**, whether they are simple documents or open sessions on different apps (like the always convenient [Element](https://element.io){[:MdTgtBlank:]}, for messaging and exchanging notes and small files between my devices).
-- Some **particular software**, such as Minecraft Java (which, apparently, may not work on some Windows PCs, because perhaps the GPU drivers do not work correctly, and Windows does not have the OpenGL emulation software from [Mesa] (https://en.m.wikipedia.org/wiki/Mesa_(computer_graphics)){[:MdTgtBlank:]} at the system level, as opposed to Linux), **should always work**!
+- The **secrecy** regarding what I do on the PC at that moment is much **more certain**, as is the security of my data: you are only right to be wary of any operating system installed on public PCs, there could be any spy tool installed (and, in fact, this is the case on some of the PCs at school: there is a remote desktop control program designed for schools, [LanSchool](https://en.m.wikipedia.org/ wiki/LanSchool)).
+- I have all my **essential data always with me**, whether they are simple documents or open sessions on different apps (like the always convenient [Element](https://element.io), for messaging and exchanging notes and small files between my devices).
+- Some **particular software**, such as Minecraft Java (which, apparently, may not work on some Windows PCs, because perhaps the GPU drivers do not work correctly, and Windows does not have the OpenGL emulation software from [Mesa] (https://en.m.wikipedia.org/wiki/Mesa_(computer_graphics)) system level, as opposed to Linux), **should always work**!
 - I have an excuse to indirectly remind people that, even in 2022, **USB sticks are relevant**, even ultra-low-end ones.
 
 ### Some insights
@@ -89,12 +89,12 @@ I can conclude by saying: **you too should adopt a persistent Linux stick**, if 
 
 Here are the websites of some distributions that I _didn't_ mention in the text, but which I have tried in the past or think are worth checking out:
 
-- [SpaccCraftGo](https://github.com/Spacc-Inc/SpaccCraftGo-Images){[:MdTgtBlank:]} - Puppy Linux rebranded by [Spacc Inc](https://wikispacc.miraheze.org/wiki/ Spacc_Inc){[:MdTgtBlank:]}, with the inclusion of SpaccCraft in the system;
-- [Slitaz](https://slitaz.org/en){[:MdTgtBlank:]} - 50 MB live rolling release system;
-- [Porteus](http://porteus.org){[:MdTgtBlank:]} - Modularity-based live distro;
-- [antiX](https://antixlinux.com){[:MdTgtBlank:]}
-- [Slax](https://slax.org){[:MdTgtBlank:]}
+- [SpaccCraftGo](https://github.com/Spacc-Inc/SpaccCraftGo-Images) - Puppy Linux rebranded from [Spacc Inc](https://wikispacc.miraheze.org/wiki/Spacc_Inc), with the inclusion of SpaccCraft in the system;
+- [Slitaz](https://slitaz.org/en) - 50 MB live rolling release system;
+- [Porteus](http://porteus.org) - Live distro based on modularity;
+- [antiX](https://antixlinux.com)
+- [Slax](https://slax.org)
 
 ### 🏷️ Notes/References
 
-[^ Update 2022-08-13]: **Update 2022-08-13**: I imported this article from my old blog (<https://noblogo.org/loli-documentatrice/gli-inexpected-vantaggi- of the-linux-key>{[:MdTgtBlank:]}), to preserve it better and to test some things. I took advantage of this to, in addition to improving the formatting, partially change the form of some sentences. The content remains practically the same.
+[^ Update 2022-08-13]: **Update 2022-08-13**: I imported this article from my old blog (<https://noblogo.org/loli-documentatrice/gli-inexpected-vantaggi- of the-linux-key>), to better preserve it and to test some things. I took advantage of this to, in addition to improving the formatting, partially change the form of some sentences. The content remains practically the same.

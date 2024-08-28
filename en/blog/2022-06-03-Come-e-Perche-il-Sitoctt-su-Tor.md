@@ -28,7 +28,7 @@ This here is also the very first post I write on the postocto blog, who knows ho
 ## How?
 
 Let's go back to the discussion of the postoctt: with Replit, taking as a basis a Repl found around that demonstrated how to host another type of service on Tor, I built my Repl which: at each new start, downloads locally everything needed to compile and deploy my static site (from my Git repos), prepare everything, and start an HTTP server and the Tor daemon, which acts as a proxy by exposing the HTTP server to the outside via the Tor network. Then endlessly, all through Git, download any updates to any of the parts and, when necessary, regenerate the site.  
-I leave here the link to a GitLab snippet with my files, for anyone who wants to do the same service as me for their own website, perhaps built with my very low quality static site generator (at a code level, if I was disgusted on a conceptual or practical level I wouldn't be developing it slowly yet): [gitlab.com/-/snippets/2338457](https://gitlab.com/-/snippets/2338457){[:MdTgtBlank:]}.
+I leave here the link to a GitLab snippet with my files, for anyone who wants to do the same service as me for their own website, perhaps built with my very low quality static site generator (at a code level, if I was disgusted on a conceptual or practical level I wouldn't be developing it slowly yet): [gitlab.com/-/snippets/2338457](https://gitlab.com/-/snippets/2338457).
 
 With free PaaS services like Replit, however, there's a little problem: there are limits on software execution times. In the case of this platform, everything goes into suspension if the project's web address does not receive pings for I didn't quite understand how many minutes. If it receives any later, it wakes up after the time necessary to redo the startup operations.  
 It's a shame however that, apart from the fact that it would mean making anyone who wants to visit my site wait at least 30 seconds for the first connection to be established, it is the HTTPS address on the Replit domain that must be contacted, for obvious reasons not the Tor address. And having people connect via the HTTPS address defeats the purpose of having a Tor site (which I'll get to shortly, I swear).
@@ -55,7 +55,7 @@ A doubt that may arise for non-super-experts, however, is why it is necessary to
 
 I don't think I need to explain the problems arising from passing data in unencrypted form via the Internet: information can not only be stolen (which for a public blog is not a big problem), but even modified and presented as if nothing had changed, with disarmingly easy, from any of the intermediate parts of the connection, for example the ISP of the client or the server.  
 HTTPS for websites solves this problem.. Bad. We don't talk about it much, but the entire correct functioning of these protection systems depends on a complex global metaphysical infrastructure, which has more flaws than you might think.  
-Searching on Whoogle, I found this PDF, which more or less gives a quick look at the problems HTTPS suffers from: [Weakest_Link_in_the_Chain.pdf](https://www.accessnow.org/cms/assets/uploads/archive/docs /Weakest_Link_in_the_Chain.pdf){[:MdTgtBlank:]}.  
+Searching on Whoogle, I found this PDF, which more or less gives a quick look at the problems HTTPS suffers from: [Weakest_Link_in_the_Chain.pdf](https://www.accessnow.org/cms/assets/uploads/archive/docs /Weakest_Link_in_the_Chain.pdf).  
 What is essentially important to say is that the entire current system, based on CAs, consists of trust in an upstream authority. Without going into details, so I refer you to the PDF, the system is fragile and can be broken, resulting, in rare special cases, in the same problems as non-encrypted connections; indeed, perhaps even worse, because the presence of HTTPS can lead us to trust always and in any case: modern web browsers have conditioned us to ask questions only when we see the open padlock or a warning triangle, not when we see the closed shiny green padlock.
 
 When you use Tor to connect to sites on Tor, the connection is not only routed between even more nodes on the network, but the data is encrypted with a public and private key system between the client and the Onion service server: the only the weak point in the chain is the server itself, which stores the private key, there are no other authorities to trust.  
@@ -68,6 +68,6 @@ Tor is by no means perfect: it has various types of flaws, generally based on th
 
 The fact that Tor is financially supported at least in part by the US government however, without going into too much detail, perhaps carries some profound dangerous implications. This is why I want, more or less soon, to give a chance to services similar to Tor but different from it. Lokinet inspires me, to tell the truth, I think it will be the first alternative network I try.
 
-## [:HNotesRefsHTML:]
+## {{% i18n notes-refs %}}
 
 [^New aesthetic domain]: **Update 2022-06-29**: I changed the domain for aesthetic reasons to this new one! Additional (but still limited) info at [today's PicoBlog post](../PicoBlog.html#-2022-06-29-Minare-domini-Tor).

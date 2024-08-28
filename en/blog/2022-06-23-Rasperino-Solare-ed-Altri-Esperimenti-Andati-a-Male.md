@@ -13,9 +13,9 @@ Dates = 2022-06-23
 
 
 
-A few months ago I bought a small [monocrystalline solar panel](https://www.amazon.it/Lixada-Pannello-Monocristallino-Caricabatterie-Cellulare/dp/B071Z1LGFV){[:MdTgtBlank:]} online, similar in size to those of an A4 sheet, for the sum of around €20 (on Amazon.it the sellers are all thieves, on Aliexpress it would have cost a little less).
+A few months ago I bought a small [monocrystalline solar panel](https://www.amazon.it/Lixada-Pannello-Monocristallino-Caricabatterie-Cellulare/dp/B071Z1LGFV) online, with dimensions similar to those of an A4 sheet, for the figure of around €20 (on Amazon.it the sellers are all thieves, on Aliexpress it would have cost a little less).
 
-[![Screenshot of a photo sent in chat. The photo shows the panel in its cardboard box. The caption reads "❗️ ENEL hates her! ⚠️ Find out how the Spacc Goddess began the slow but profitable path to energy independence! ➡️ @spacccraft".]({{< assetsRoot >}}/Media/Screenshots/ SpaccCraft-975.png)](https://t.me/SpaccCraft/975){[:MdTgtBlank:]}
+[![Screenshot of a photo sent in chat. The photo shows the panel in its cardboard box. The caption reads "❗️ ENEL hates her! ⚠️ Find out how the Spacc Goddess began the slow but profitable path to energy independence! ➡️ @spacccraft".]({{< assetsRoot >}}/Media/Screenshots/ SpaccCraft-975.png)](https://t.me/SpaccCraft/975)
 
 ## Electrical doubts
 
@@ -40,7 +40,7 @@ To tell the truth, I did the very first test away from home, the day immediately
 On that occasion, the only one out for now, I only tried to recharge the battery of my smartphone (6000mAh).
 
 I did 3 different tests, the first two lasting about 15 minutes in the few hours before midday, when the sky was clear, with the panel held by me in my hand to make it better catch the sun perpendicularly (ideal for a monocrystalline).  
-I first tried to charge the phone while it was on, stalled and with all the radios off (but not in Android's deep sleep state), but unfortunately there was no way, the phone consumed so much energy that it was unable to recharge, it could only discharge slowly. I don't remember very well, because I didn't think of recording the data, but it seems to me that, on the app I use to see the charging statistics ([AccA](https://github.com/MatteCarra/AccA){[:MdTgtBlank: ]}), were only marked on the 300mA input.  
+I first tried to charge the phone while it was on, stalled and with all the radios off (but not in Android's deep sleep state), but unfortunately there was no way, the phone consumed so much energy that it was unable to recharge, it could only discharge slowly. I don't remember very well, because I didn't think of recording the data, but it seems to me that, on the app I use to see the charging statistics ([AccA](https://github.com/MatteCarra/AccA)), only on the 300mA input.  
 Trying the same formula immediately afterwards, but with the phone turned off, it seems to me that in 15 minutes it only charged 2% of the battery... it would practically take 12.5 hours to charge from 0 to 100% if this is the case.
 
 I did the last test around 2pm, when the sky had unfortunately darkened. I placed the panel on a surface and used the phone normally, listening to music and I think using online messaging apps. As I suspected, it didn't recharge, but at least it was almost without running out of charge, which is still good considering the weather conditions.
@@ -69,17 +69,17 @@ By charging these small batteries you can then easily charge or power devices th
 We are finally at the end of all this ambaradan, with my tests on a Raspberry Pi 3B.  
 The idea popped into my head after I unfortunately left the magical product unused for a while, not knowing what useful things to do with it. I mean, I bought it because it's definitely useful to have a little thing like this in emergencies, but if I can put it to good use in the meantime, that's even better.
 
-I thought, first of all, of configuring BOINC on Raspbian, a distributed computing software that can be used to contribute to scientific research projects, while earning a few cents a month (rip) in a kind of cryptocurrency, the [Gridcoin ](https://gridcoin.us){[:MdTgtBlank:]}.  
+I thought, first of all, of configuring BOINC on Raspbian, a distributed computing software that can be used to contribute to scientific research projects, while earning a few cents a month (rip) in a kind of cryptocurrency, the [Gridcoin ](https://gridcoin.us).  
 As I already said, the Raspino must be powered by the powerbank, the panel directly does not give it enough current. It seems to turn on, but in reality it seems to go into bootloop.  
-Well, I won't beat around the bush too much: while (with the same powerbank, I think 4000mAh) for some low load applications, like [Pwnagotchi](https://pwnagotchi.ai/){[:MdTgtBlank:]}, the Pi can stay on for hours even with a backlit LCD screen connected... the CPU at 100%, which performs complex calculations, eats so much of that current that the battery flattens out in just 1 hour.
+Well, I won't beat around the bush too much: while (with the same powerbank, I think 4000mAh) for some low-load applications, like [Pwnagotchi](https://pwnagotchi.ai/), the Pi can stay on for hours even with a backlit LCD screen connected... the CPU at 100%, doing complex calculations, eats so much of that current that the battery flattens out in just 1 hour.
 
-[![Screenshot of one of my toot. The photo shows the panel hanging on my balcony with hooks, with a cable connecting it to the Rasperino fixed to the panel itself. The text reads "#RasperinoVitaEcologica I fixed the Pi to my solar panel with the fabric elastic bands of the disposable masks (before throwing them away, I detach the elastic bands, wash them, and keep them), and it seems to have just the power it needs to work in the afternoon. Today I flashed the new SD with Raspbian, for now I choose to use the accrocco to run #BOINC, a distributed computing tool with which you can donate computing power to scientific projects. Tomorrow we will test how it goes BOINC".]({{< assetsRoot >}}/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161){[:MdTgtBlank:]}
+[![Screenshot of one of my toot. The photo shows the panel hanging on my balcony with hooks, with a cable connecting it to the Rasperino fixed to the panel itself. The text reads "#RasperinoVitaEcologica I fixed the Pi to my solar panel with the fabric elastic bands of the disposable masks (before throwing them away, I detach the elastic bands, wash them, and keep them), and it seems to have just the power it needs to work in the afternoon. Today I flashed the new SD with Raspbian, for now I choose to use the accrocco to run #BOINC, a distributed computing tool with which you can donate computing power to scientific projects. Tomorrow we will test how it goes BOINC".]({{< assetsRoot >}}/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161)
 
-_Psssss.. if you want to see other photos of the panel (3) and in a slightly more decent quality, I put them on Pixelfed: [pixelfed.uno/p/octo/426839557817260168](https://pixelfed.uno/p/ octo/426839557817260168){[:MdTgtBlank:]}!_
+_Psssss.. if you want to see other photos of the panel (3) and in a slightly more decent quality, I put them on Pixelfed: [pixelfed.uno/p/octo/426839557817260168](https://pixelfed.uno/p/ octo/426839557817260168)!_
 
 ## The reality of the facts
 
-Apart from this thing, which even if it doesn't make me money in practice would be useful as it is beneficial for scientific research, I have no practical uses in mind for the Rasperino Pi 3 Solare. Maybe a Pi Zero would be better: apparently, other people in the throes of madness (but better equipped), thought of using that to mine Bitcoin, with a small panel similar to mine ([YouTube/CbpfNU7oaws](https://invidious.snopyta .org/watch?v=CbpfNU7oaws){[:MdTgtBlank:]}).  
+Apart from this thing, which even if it doesn't make me money in practice would be useful as it is beneficial for scientific research, I have no practical uses in mind for the Rasperino Pi 3 Solare. Maybe a Pi Zero would be better: apparently, other people in the throes of madness (but better equipped), thought of using that to mine Bitcoin, with a small panel similar to mine ([YouTube/CbpfNU7oaws](https://invidious.snopyta .org/watch?v=CbpfNU7oaws)).  
 For now, I use the small panel sporadically to charge my power banks, which I discharge when I happen to use them around to charge my smartphone.
 
 If there's anything I learned from this story, it's that I should buy the damn USB multimeter.  

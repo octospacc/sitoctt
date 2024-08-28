@@ -12,7 +12,7 @@ Je crois que Minecraft peut être défini comme **le** jeu moderne (pour le meil
 
 Au début, il s'agit de réaliser des "maisons" qui sont des trous de 4x4 sous terre, mais ensuite cela devient de créer des installations titanesques, purement esthétiques ou même totalement fonctionnelles - n'oublions pas que Minecraft, avec sa redstone, est Turing-complet. Et au final ? Eh bien, cela ne finira jamais...
 
-...En cours. Pour d'autres informations qui ne sont pas totalement subjectives, il existe pour l'instant [Wikipedia](https://it.wikipedia.org/Minecraft){[:MdTgtBlank:]}.
+...En cours. Pour d'autres informations qui ne sont pas totalement subjectives, il existe pour l'instant [Wikipedia](https://it.wikipedia.org/Minecraft).
 
 ## Mon histoire
 
@@ -21,7 +21,7 @@ J'ai découvert Minecraft quand j'avais peut-être 7 ans, parce qu'un autre enfa
 Il a été difficile d'obtenir l'application, pour des raisons liées à mon utilisation générale d'Android à l'époque, mais j'ai finalement réussi à l'obtenir sur mon Galaxy Player, puis sur ma tablette de rodage. Au début j'avais la démo, inutile de vous dire qu'elle n'était pas bonne car la progression ne pouvait pas être sauvegardée à la sortie, et donc jouer ne servait à rien. Puis, d'une manière dont je ne me souviens même pas, j'ai réussi à trouver l'APK de la version complète.
 
 À partir de là, chaque heure de jeu était une nouvelle découverte ou un nouvel objectif que l’on s’était imposé. J'ai commencé à construire des bâtiments étranges, difficiles à parcourir, avec des passages complexes, que si je voulais faire aujourd'hui, je ne saurais même pas par où commencer.
-À cause de toute une série d'événements, j'ai perdu les mondes que j'avais sur la tablette (qui n'avaient rien de spécial, en fait je ne m'en souviens même pas bien), mais ceux du Galaxy Player sont toujours là aujourd'hui. Voici quelques photos de ce qui était ma spécialité à l'époque : <https://pixelfed.uno/p/octo/299639948389257216>{[:MdTgtBlank:]}.
+À cause de toute une série d'événements, j'ai perdu les mondes que j'avais sur la tablette (qui n'avaient rien de spécial, en fait je ne m'en souviens même pas bien), mais ceux du Galaxy Player sont toujours là aujourd'hui. Voici quelques photos de ce qui était ma spécialité à l'époque : <https://pixelfed.uno/p/octo/299639948389257216>.
 
 Peu de temps après, j'ai appris, grâce à une application dont je ne me souviens plus si je l'avais découverte par hasard sur Google Play ou si on m'avait été recommandée, l'existence de cartes thématiques créées et partagées par d'autres joueurs en ligne. J'ai perdu du temps dessus, notamment sur ceux du parkour : avec les commandes tactiles (et à l'époque pas de s'accroupir !) c'est vite devenu une torture, mais quand on arrive à faire les sauts difficiles et à avancer c'est toujours sympa.
 
@@ -40,4 +40,4 @@ Et puis il y avait d'autres choses entre les deux, entre MCPE qui devenait Bedro
 
 Maintenant, il y a en alternance des mois pendant lesquels j'ouvre Minecraft presque tous les jours, et d'autres (nettement plus fréquents) où j'oublie complètement qu'il existe. Il y a presque 3 ans, SpaccCraft est né - la troisième édition, si nous voulons être honnêtes envers ces deux autres mondes dans lesquels nous avons un peu trop exagéré et avons **littéralement** écrasé, mais en gros nous devons le faire depuis "SpaccCraft" vient de là - et maintenant, cela aussi a diminué. Le serveur fonctionne, mais il tourne pratiquement à vide, personne ne joue et je ne peux pas trop m'en plaindre, car d'abord je ne trouve pas le temps de le faire.
 
-Jetez un oeil sur [le site SpaccCraft](https://spacccraft.altervista.org){[:MdTgtBlank:]}, il y a des choses un peu plus concrètes à voir, et quelques ruminations sur toute ma vie.
+Jetez un oeil sur [le site SpaccCraft](https://spacccraft.altervista.org), il y a des choses un peu plus concrètes à voir, et quelques ruminations sur toute ma vie.

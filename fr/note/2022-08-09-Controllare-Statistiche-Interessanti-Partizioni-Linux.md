@@ -13,15 +13,15 @@ Alias ​​= [
 Les mémoires de stockage, quelle que soit leur catégorie, se dégradent avec l'usure.  
 Rien ne peut être fait pour éviter de devoir les changer, tôt ou tard, après tant d'années. Il est cependant possible de garder un œil sur leur état de santé, afin d’identifier d’éventuels problèmes.
 
-Lorsqu'il s'agit de disques HDD ou SSD, le protocole [SMART](https://en.m.wikipedia.org/wiki/S.M.A.R.T.){[:MdTgtBlank:]} s'avère pratique mais, si, comme moi, vous utilisez ordinateurs d'une manière non conventionnelle, la vérification des disques classiques ne suffit pas.
+Lorsqu'il s'agit de disques HDD ou SSD, le protocole [SMART](https://en.m.wikipedia.org/wiki/S.M.A.R.T.) s'avère pratique mais, si, comme moi, vous utilisez ordinateurs d'une manière non conventionnelle, la vérification des disques classiques ne suffit pas.
 
 ## Linux va plus loin
 
 Quelque chose d'assez secret, que peu de gens savent (du moins il me semble), c'est que sous Linux, il est possible d'accéder aux statistiques des partitions avec certains systèmes de fichiers.  
 Ceci, évidemment, que vous utilisiez une clé USB, une carte SD, un disque dur, une disquette ou même une mémoire encore moins habituelle.
 
-[Ext4](https://en.m.wikipedia.org/wiki/Ext4){[:MdTgtBlank:]} fournit plusieurs données curieuses - et ses versions précédentes, Ext3 et Ext2, devraient faire de même, mais je ne l'ai pas fait. Je n'ai pas vérifié.  
-[F2FS](https://en.m.wikipedia.org/wiki/F2FS){[:MdTgtBlank:]} J'ai également vu, directement depuis mon smartphone Android, exposer des informations intéressantes.. que je n'aborderai pas dans des détails, parce qu'ils sont tous très sombres et je ne sais pas ce qu'ils veulent dire ; et si je ne sais pas ce qu'ils veulent dire, je ne suis pas curieux à leur sujet. Cela arrive.  
+[Ext4](https://en.m.wikipedia.org/wiki/Ext4) fournit plusieurs données curieuses - et ses versions précédentes, Ext3 et Ext2, devraient faire de même, mais je ne l'ai pas fait. Je n'ai pas vérifié.  
+[F2FS](https://en.m.wikipedia.org/wiki/F2FS) J'ai également vu, directement depuis mon smartphone Android, exposer des informations intéressantes.. que je n'aborderai pas dans des détails, parce qu'ils sont tous très sombres et je ne sais pas ce qu'ils veulent dire ; et si je ne sais pas ce qu'ils veulent dire, je ne suis pas curieux à leur sujet. Cela arrive.  
 Quant aux autres systèmes de fichiers, je ne les ai pas vus du tout. En guise de devoir, je vous donne donc de voir si des trucs comme FAT32, exFAT, NTFS, ou pourquoi pas, BTRFS, exposent de belles informations, sous Linux. Et comment ?
 
 ## Récupérer les données
@@ -79,7 +79,7 @@ Bon, d’accord, cette information est intéressante, mais : quand est-elle rée
 
 Si la mémoire de stockage utilisée - qui, si nous décidons de recourir à ces mesures au lieu d'utiliser SMART, est probablement une microSD ou une clé USB - commence à montrer des signes de défaillance, peut-être en ralentissant avec le temps ou en corrompant les données. . Il serait conseillé de vérifier au moins que tout va bien.
 
-Si les données ne font pas peur, mais semblent en ordre... alors il est temps de faire d'abord un formatage complet (y compris la recréation de la table de partition à partir de zéro), quelque chose de simplifié par des programmes comme [GParted](https:// gparted. org){[:MdTgtBlank:]}, puis vous voyez comment l'histoire continue.
+Si les données ne font pas peur, mais semblent en ordre... alors il est temps de faire d'abord un formatage complet (y compris la recréation de la table de partition à partir de zéro), quelque chose de simplifié par des programmes comme [GParted](https:// gparted. org), puis vous voyez comment l'histoire continue.
 
 Dans tous les cas, par mesure de prudence, il serait judicieux de toujours effectuer des contrôles de routine, afin de pouvoir prédire les problèmes avant que quelque chose de grave ne se produise.
 

@@ -25,7 +25,7 @@ I don't remember if this time last year was just before or shortly after I bough
 
 ## A new idea
 
-As time passed I forgot about the issue a bit, until, a few weeks ago, I came across a video on Invidious ([YouTube/JXdLzinnqms](https://invidious.snopyta.org/JXdLzinnqms){[: MdTgtBlank:]}) showing a homemade modification to a smartphone.  
+As time passed I forgot about the issue a bit, until, a few weeks ago, I came across a video on Invidious ([YouTube/JXdLzinnqms](https://invidious.snopyta.org/JXdLzinnqms)) which shows a homemade modification to a smartphone.  
 The video shows, and the linked discussion on cover is thought out.
 
 I immediately had the desire to create something like this but, as I searched, I started to think that this type of cover is no longer produced by anyone... it was absolutely impossible to find one, not only at a good price, but at all. Neither online nor in physical stores.

@@ -13,13 +13,13 @@ Dates = 2022-07-09
 
 
 
-For almost 7 years I have had an Acer laptop, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389){[:MdTgtBlank:]}, undoubtedly now a bit old, without praise and with some infamy.  
+For almost 7 years I have had an Acer laptop, [Aspire V3-572G](https://www.acer.com/ac/en/US/content/support-product/5389), undoubtedly now a bit old, without praise and with some infamy.  
 When it was purchased, it was essentially a mid-range notebook like any other, without any notable features. I mean, I used it quite a bit and it more or less always did what it was supposed to, until about 2 years ago I started demanding to use heavy games and development tools, at which point the new (desktop) PC was great. obligation.
 
 ## The current state
 
-All in all, with GNU+Linux as the operating system, the [Intel mitigations](https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs){[:MdTgtBlank:]} not installed (yes, I actually deleted the microcode, instead block its loading), and an SSD installed in place of the HDD years before, the machine is still more than good for many activities that today I carry out primarily with the desktop PC.  
-The Intel [i5-5200U](https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2 -70-ghz/specifications.html){[:MdTgtBlank:]} itself still grinds well, and the 4GB of RAM isn't a huge deal if you have a light system stack and aren't keeping 50 programs open at once.
+All in all, with GNU+Linux as the operating system, the [Intel mitigations](https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs) not installed (yes, I actually deleted the microcode, rather than blocking its loading), and a SSD installed in place of the HDD years before, the machine is still more than good for many activities that today I carry out primarily with the desktop PC.  
+The Intel [i5-5200U](https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2 -70-ghz/specifications.html) itself still grinds well, and the 4GB of RAM isn't a huge issue if you have a light system stack and aren't keeping 50 programs open at once.
 
 ## A little problem
 
@@ -130,4 +130,4 @@ Don't throw away your laptops if they have some small problem that can be solved
 If the keyboard breaks, you change that; if Windows becomes unbearably slow, install a Linux distribution (GNU is recommended, but not mandatory!) that meets your needs.  
 By doing so, you not only save a lot of money; electronic waste, the so-called e-waste, is reduced and therefore a minimum amount of good is done for the environment.
 
-_Note: Some of the photos in this article are available in JPEG, less compressed, on my Pixelfed profile: [pixelfed.uno/p/octo/451398427740616761](https://pixelfed.uno/p/octo/451398427740616761){[: MdTgtBlank:]}_
+_Note: Some of the photos in this article are available in JPEG, less compressed, on my Pixelfed profile: [pixelfed.uno/p/octo/451398427740616761](https://pixelfed.uno/p/octo/451398427740616761)_

@@ -16,8 +16,8 @@ Dernière modification = 2023-10-17
 A juste titre, en venant ici, que vous ayez lu ou non les informations générales du site sur [Accueil](./index.html), vous vous demanderez qui je suis.
 
 Je suis oct. Oui, c'est vrai, Octt dont sitoctt, mon site, tire son nom.  
-_Octt_ se prononce "òctt" - [comme sitoctt, mais sans "sit"]({{<assetsRoot >}}/Media/sitoctt-pronunciation.flac){[:MdTgtBlank:]}.  
-Je suis le webmaster de cet endroit. Ou, peut-être, [webmistress](https://www.dictionary.com/browse/webmistress){[:MdTgtBlank:]} serait plus correct, dommage que les gens qui connaissent même l'existence de ce mot comptent sur les doigts d'une main coupée.
+_Octt_ se prononce "òctt" - [comme sitoctt, mais sans "sit"]({{<assetsRoot >}}/Media/sitoctt-pronunciation.flac).  
+Je suis le webmaster de cet endroit. Ou, peut-être, [webmistress](https://www.dictionary.com/browse/webmistress) serait plus correct, dommage que les gens qui connaissent même l'existence de ce mot comptent sur les doigts d'une main coupée.
 
 Bon, j'ai compris qu'il y avait un besoin pour ce site dans le monde <small>(mais quand jamais ??)</small>, j'ai imaginé le site, j'ai commencé à construire le site, j'ai mis en place des stratégies pour simplifier ma création du site <small>(eee, quels gros mots, j'ai écrit un petit programme en Python)</small>, et voici le résultat.
 
@@ -25,9 +25,9 @@ Bon, j'ai compris qu'il y avait un besoin pour ce site dans le monde <small>(mai
 
 Eh bien, tout d'abord, je crée ce site. J'écris des choses, qu'il s'agisse de fleuves de mots inutiles dans le langage humain, ou de petits mots magiques que votre ordinateur interprète pour afficher ces pages sous leur forme la plus glorieuse.
 
-Je suis la déesse et loli de [Spacc](https://wikispacc.miraheze.org/wiki/Spacc){[:MdTgtBlank:]} et PDG de [Spacc Inc](https://wikispacc.miraheze.org / wiki/Spacc_Inc){[:MdTgtBlank:]}, et administrateur système du [Spacc BBS](https://bbs.spacc.eu.org). A cet égard, des responsabilités destructrices reposent sur mes épaules... mais je laisse les liens à suivre pour comprendre, je ne parle pas ici de Spacc.
+Je suis la déesse et loli de [Spacc](https://wikispacc.miraheze.org/wiki/Spacc) et PDG de [Spacc Inc](https://wikispacc.miraheze.org / wiki/Spacc_Inc), et administrateur système du [Spacc BBS](https://bbs.spacc.eu.org). A cet égard, des responsabilités destructrices reposent sur mes épaules... mais je laisse les liens à suivre pour comprendre, je ne parle pas ici de Spacc.
 
-Ensuite, même si j'essaie d'y consacrer le moins de temps possible, j'ai mon serveur à administrer lorsque quelque chose tombe en panne ou que quelque chose doit être mis à jour, sinon qui s'occupera de tout ? Entre les logiciels serveur pour différentes utilisations, y compris ceux du Web, divers robots pour différentes plates-formes, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft){[:MdTgtBlank:]} et quelques autres éléments que j'ai maintenant Je déteste m'en souvenir, c'est un truc bestial, même si au moins aujourd'hui je n'ai pas la difficulté d'utiliser trop de matériel de fortune.
+Ensuite, même si j'essaie d'y consacrer le moins de temps possible, j'ai mon serveur à administrer lorsque quelque chose tombe en panne ou que quelque chose doit être mis à jour, sinon qui s'occupera de tout ? Entre les logiciels serveur pour différentes utilisations, y compris ceux du Web, divers robots pour différentes plates-formes, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft) et quelques autres éléments que j'ai maintenant Je déteste m'en souvenir, c'est un truc bestial, même si au moins aujourd'hui je n'ai pas la difficulté d'utiliser trop de matériel de fortune.
 
 Malheureusement, maintenant, je ne trouve souvent pas le bon temps à consacrer au Fediverse, comme je le faisais avant d'écrire et de partager des trucs, sur les différentes belles plateformes gratuites.
 
@@ -59,19 +59,19 @@ Oh, et je dois aussi encore aller à l'école... non, à l'université, me dit-o
 
 Vous pouvez me retrouver sur le Fediverse, chez mes contacts favoris que je laisse ci-dessous.
 
-- <b style="Color:#FFA020;">Friendica</b> : [@octt@poliverso.org](https://poliverso.org/profile/octt){[:MdTgtBlank:]}  
-- <b style="Color:#3088D4;">Mastodon</b> : [@octo@mastodon.uno](https://mastodon.uno/@octo){[:MdTgtBlank:]}  
+- <b style="Color:#FFA020;">Friendica</b> : [@octt@poliverso.org](https://poliverso.org/profile/octt)  
+- <b style="Color:#3088D4;">Mastodon</b> : [@octo@mastodon.uno](https://mastodon.uno/@octo)  
 - <b style="Color:#2D2D2D;">Matrice</b> : [@octt:matrix.org](https://matrix.to/#/@octt:matrix.org){[:MdTgtBlank : ]}
 - Il y avait aussi mes instances ActivityPub ici, mais ensuite [**incidents**] se sont produits (../Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali).
 
 <!--
-- ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:] : [@octt@miss.octt.eu.org](https://miss .octt.eu.org/@octt){[:MdTgtBlank:]}~~
-- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:] : [@octt@godo.octt.eu.org](https://godo.octt.eu.org /@octt){[:MdTgtBlank:]}~~
+- ~~<b style="Color:#60C000/*#7FE600*/;">Misskey</b>[:SelfhostLineBadge:] : [@octt@miss.octt.eu.org](https://miss .octt.eu.org/@octt)~~
+- ~~<b style="Color:#DF8958;">GoToSocial</b>[:SelfhostLineBadge:] : [@octt@godo.octt.eu.org](https://godo.octt.eu.org /@octt)~~
 -->
 
 ### Cryptographie, preuves et autres profils
 
-J'ai finalement décidé de mettre en place un profil cryptographique compatible avec <b style="Color:#56479E;">Keyoxid</b>, un très bel outil pour créer des vérifications d'identité en ligne décentralisées. Le voici : <https://keyoxid.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>{[:MdTgtBlank:]}.
+J'ai finalement décidé de mettre en place un profil cryptographique compatible avec <b style="Color:#56479E;">Keyoxid</b>, un très bel outil pour créer des vérifications d'identité en ligne décentralisées. Le voici : <https://keyoxid.org/hkp/cfa2a09ce568f17e479d31ad42c0ed2ca5df2af0>.
 
 En le visitant, en plus de pouvoir simplement accéder à des liens vers certains de mes autres profils en ligne, il est possible d'avoir une preuve cryptographique du fait qu'un compte donné m'appartient, et non à un _sus imposteur_.  
 Il est également possible de prendre ma clé publique PGP, ou d'utiliser l'interface pratique de l'application (Web ou autre), pour crypter de manière fiable les messages secrets à m'envoyer.

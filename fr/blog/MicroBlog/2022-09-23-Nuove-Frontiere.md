@@ -11,7 +11,7 @@ Dates = 2022-09-23
 
 
 
-Depuis que je l'ai découvert il y a quelques jours. J'essaie ce logiciel épique qu'est [TiddlyWiki](https://tiddlywiki.com){[:MdTgtBlank:]}.  
+Depuis que je l'ai découvert il y a quelques jours. J'essaie ce logiciel épique qu'est [TiddlyWiki](https://tiddlywiki.com).  
 Je l'ai d'abord trouvé en cherchant quelque chose pour organiser des notes dans un format riche, que je pourrais utiliser pour l'école, et qui était évidemment gratuit.
 
 Il s'agit d'un logiciel wiki, pratiquement dans la même catégorie que MediaWiki (le logiciel sur lequel est basé Wikipédia), mais il présente des caractéristiques bien particulières.  
@@ -19,7 +19,7 @@ Tout d'abord, elle n'a pas besoin de serveur, c'est une application qui fonction
 
 Si j'ai commencé à l'utiliser dans le seul but limité de mes études scolaires, mais ces jours-ci, j'ai fini par commencer à l'utiliser beaucoup aussi pour créer ma soi-disant base de connaissances personnelle et publique, sur tout ce que je peux écrire au Je vole dans un format de document non linéaire très bien adapté aux petites notes rapides et interconnectées... ce qui veut dire que c'est vraiment intéressant.
 
-Je suis un peu désolé de le dire, mais il est possible qu'une partie du temps que je consacrerais normalement au site ctt lui soit retirée, pour être consacrée au OcttKB nouvellement créé - qui, à cet égard, est ici sur <https://kb.octt .eu.org>{[:MdTgtBlank:]}.  
+Je suis un peu désolé de le dire, mais il est possible qu'une partie du temps que je consacrerais normalement au site ctt lui soit retirée, pour être consacrée au OcttKB nouvellement créé - qui, à cet égard, est ici sur <https://kb.octt .eu.org>.  
 Autant j'aime tout ce que j'ai construit ces derniers mois, et qui continuera en fait à vivre - à la fois comme lieu d'expression de mon style de conception et comme lieu de publication de contenus élaborés et jamais fragmentés - je dois dire que j'ai trouvé un outil qui arrive à bien canaliser certaines de mes pensées, celles que le site CTTT n'arrive pas à gérer.
 
 Je ne vais pas trop m'expliquer sur le côté technique des avantages ou inconvénients de TiddlyWiki, car on parle d'un logiciel facile à prendre en main, et absolument très compliqué à maîtriser (ça me prendra du temps !) .  

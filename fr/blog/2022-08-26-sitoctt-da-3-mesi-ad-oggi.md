@@ -62,7 +62,7 @@ Le site m'appartient car j'ai **totale liberté** de le créer comme je le souha
 Si déjà au milieu des années 90 la seule véritable limite pour un site Web était la **créativité** de celui qui le construisait, aujourd'hui le **potentiel** de la plateforme Web est véritablement **infini** ; même si, d'une certaine manière, cela ne semble pas du tout le cas si vous fréquentez uniquement le Web commun.
 
 Les sites de l'Internet "_non personnel_" ont tous la même apparence banale.  
-De nombreux blogs ou sites de démonstration utilisent des modèles graphiques recyclés. Les plateformes sociales modernes (Mastodon, Friendica, Pleroma, etc.) limitent la personnalisation à une photo, une bannière et une description. Des trucs comme [Misskey](https://misskey-hub.net/en){[:MdTgtBlank:]} en font déjà plus, mais ils n'atteignent absolument pas les niveaux de **personnalisation totale**, avec ** une précision granulaire**, que seul un site Internet - voire un forum comme ceux d'autrefois, et non un espace privé - permet.
+De nombreux blogs ou sites de démonstration utilisent des modèles graphiques recyclés. Les plateformes sociales modernes (Mastodon, Friendica, Pleroma, etc.) limitent la personnalisation à une photo, une bannière et une description. Des trucs comme [Misskey](https://misskey-hub.net/en) en font déjà plus, mais ils n'atteignent absolument pas les niveaux de **personnalisation totale**, avec ** une précision granulaire**, que seul un site Internet - voire un forum comme ceux d'autrefois, et non un espace privé - permet.
 
 ### Grande expressivité
 
@@ -98,9 +98,9 @@ Certains contenus non exclusifs sont encore déjà disponibles sur mes autres si
 Ceux qui ne sont pas archivés sont tout simplement salissants et mal conservés, ainsi que sans garantie pour ceux qui souhaitent les copier ou les réutiliser ; ceux cependant qui pour une raison ou une autre sont archivés, c'est comme s'ils n'existaient pour rien au monde, et il m'est facile de les perdre aussi.  
 Certaines de ces données peuvent avoir de la valeur, donc **c'est malheureux**.
 
-Il y a environ un mois, j'ai annoncé avec mon [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{<assetsRoot >}} /Files/Decreto-20-luglio-2022.pdf){[:MdTgtBlank:]} --> (_on n'a rien compris, non ?_), c'est quelque chose qui demande un travail fastidieux (_prendre l'ancien, évaluer leur qualité, copier le texte, le coller dans les nouveaux fichiers texte, bien le mettre en page, télécharger des photos et des vidéos, bien les optimiser et les télécharger... _ rien que le plaisir de créer, ici c'est une chaîne de montage !), mais ** il faut le faire **.  
+Il y a environ un mois, j'ai annoncé avec mon [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{<assetsRoot >}} /Files/Decreto-20-luglio-2022.pdf) --> (_on n'a rien compris, non ?_), c'est quelque chose qui demande un travail fastidieux (_prendre l'ancien, évaluer leur qualité, copier le texte, le coller dans les nouveaux fichiers texte, bien le mettre en page, télécharger des photos et des vidéos, bien les optimiser et les télécharger... _ rien que le plaisir de créer, ici c'est une chaîne de montage !), mais ** il faut le faire **.  
 Avec mon temps libre, j'ai déjà commencé à le faire et je vais continuer.  
-Les articles de mon [ancien blog](https://noblogo.org/loli-documentatrice){[:MdTgtBlank:]} devraient également être archivés ici, encore une fois à des fins d'organisation et de préservation - mais ceux-ci sont plus faciles.
+Les articles de mon [ancien blog](https://noblogo.org/loli-documentatrice) devraient également être archivés ici, encore une fois à des fins d'organisation et de préservation - mais ceux-ci sont plus faciles.
 
 Pour conclure : peu importe lesquels, mais en tout cas ***le contenu fait le sens*** du site. Cependant, ils le sont uniquement parce qu’ils sont librement accessibles à tous.  
 Qu'est-ce que cela **vraiment** signifie ? Quiconque a lu [home](../index.html) devrait peut-être le savoir. Je n'ose rien ajouter d'autre, en tout cas ; il faudra attendre un prochain article, dans lequel je reprendrai le sujet là où je le laisse maintenant.

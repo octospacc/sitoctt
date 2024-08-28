@@ -154,5 +154,5 @@ C'est un joli site que j'ai découvert par hasard et qui rassemble diverses info
 
 [^Commandes de compression PNG sans perte] : La meilleure façon de réduire les images PNG à la taille la plus petite possible, sans perdre ne serait-ce qu'un seul pixel de qualité, est d'utiliser ces deux commandes ensemble (en gardant à l'esprit d'évaluer au cas par cas base, car des images déjà très petites peuvent effectivement dans certains cas être gonflées par l'une ou l'autre commande) :
 <code markdown="1">
-[pngcrush](https://pmt.sourceforge.io/pngcrush){[:MdTgtBlank:]} -brute -reduce IN.PNG OUT.PNG;
-[pngquant](https://pngquant.org){[:MdTgtBlank:]} -v --strip --speed=1 --quality=100-100 -o OUT.PNG IN.PNG</code>
+[pngcrush](https://pmt.sourceforge.io/pngcrush) -brute -reduce IN.PNG OUT.PNG;
+[pngquant](https://pngquant.org) -v --strip --speed=1 --quality=100-100 -o OUT.PNG IN.PNG</code>

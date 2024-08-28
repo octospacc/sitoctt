@@ -29,7 +29,7 @@ Open my Coindrop page to see the cryptocurrencies I accept and their addresses: 
 _Note: Coindrop requires (free) JavaScript code to run. It's a problem that needs to be solved somehow, in my opinion, but for now this is it._
 
 _Note: ETH is listed for completeness, but the Ethereum network sucks and is unusable for fees; However, donations on the Binance network for that address are welcome._  
-Should I accept other currencies in the future, for example I would be interested in trying [Nano](https://nano.org){[:MdTgtBlank:]}, which claims to have a low environmental impact.
+Should I accept other currencies in the future, for example I would be interested in trying [Nano](https://nano.org), which claims to have a low environmental impact.
 
 If you really want, you can choose to install, on your machines, mining software for the cryptocurrency you would like to donate to me, setting the program to send payments to my address. By following this path, you don't even need a wallet for the currency in question, and you will simply use your electricity to get the money to donate to me.  
 Bear in mind that I haven't been interested in mining for a while, so I don't know which programs to recommend, I would tell you to ask more experienced people. But please don't create a mining farm fueled by dead dinosaurs, oil, methane gas, I have no idea, just to donate to me (or, actually, don't do it in general, please)! The best would be to use a [Rasperino Solare](./Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html), if you can.
