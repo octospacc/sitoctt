@@ -3,3 +3,9 @@ other = "Il contenuto di questa pagina è stato interamente tradotto a macchina 
 
 [notes-refs]
 other = "🏷️ Note e Riferimenti"
+
+[search]
+other = "Cerca"
+
+[searchNoJs]
+other = "Ricerca No-JS"

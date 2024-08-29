@@ -3,3 +3,9 @@ other = "The content of this page has been entirely machine-translated into Engl
 
 [notes-refs]
 other = "🏷️ Notes and References"
+
+[search]
+other = "Search"
+
+[searchNoJs]
+other = "No-JS Search"

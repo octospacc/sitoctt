@@ -1,0 +1,5 @@
+{{ $url := . }}
+{{ if hasPrefix . "@" }}
+  {{ $url = (printf "%s/%s" (partial "assetsRoot") (trim . "@/")) }}
+{{ end }}
+{{ return $url }}

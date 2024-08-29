@@ -64,7 +64,7 @@ _L'immagine è in formato PNG e già compressa il più possibile.[^Comandi di Co
 Come si può leggere dal nome del sito e dal dominio, è il sito di Arci (o anche Aurora). Lo ha messo in piedi oggi (2022-06-30), dopo che ha detto di non sapere cosa fare con tutto il tempo libero estivo, e io le ho detto "fai l'Arcisito".  
 	• Clearweb: [arci.me](https://arci.me) <!-- [auroraviola.eu.org](https://auroraviola.eu.org) -->
 
-- **🇬🇧️ Gianmarco Gargiulo**  
+- **🇬🇧️ 🇮🇹️ Gianmarco Gargiulo**  
 ![serimemo]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/gianmarco.gg-gmgpin.gif)  
 Sito con layout moderno, ma design decisamente creativo, con un lato artistico ben espresso nelle illustrazioni. La home page funge da lista dell'archivio dei contenuti, e i tipi diversi vengono illustrati con il formato più appropriato. Molto incentrato su Linux e il software libero, ma i disegni e le foto fanno una bella figura.  
 	• Clearweb: [gianmarco.gg](https://gianmarco.gg)

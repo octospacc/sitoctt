@@ -1,36 +1,168 @@
-[[site]]
+[[10-site]]
+[10-site.title]
+en = "About this site"
+it = "Riguardo questo sito"
+
+[[20-me]]
+[20-me.title]
+en = "Myself and my essence"
+it = "Io e la mia essenza"
+
+[[30-thanks]]
+[30-thanks.title]
+en = "Made thanks to"
+it = "Fatto grazie a"
+
+#[[40-spam]]
+#[40-spam.title]
+#en = "Interesting"
+#it = "D'interesse"
+
+[[50-fun]]
+[50-fun.title]
+en = "Other things"
+it = "Altre cose"
+
+#######################################
+
+[[10-site]]
 alt = "CC BY-SA"
 file = "CC-BY-SA.svg"
 href = "https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt.eu.org&creator=OctoSpacc"
 
-[[site]]
+[[10-site]]
 alt = "✨sitoctt"
 file = "Sites/sitoctt-1.png"
 href = "/it/miscellanea/Raccolta-Siti-Internet/#il-mio"
 
-[[site]]
+[[10-site]]
 alt = "Warning: Page contains JavaScript!"
 file = "Warning-Page-contains-JavaScript.png"
 
-[[site]]
+[[10-site]]
 alt = "Best viewed with any browser"
 file = "BEST-viewed-with-ANY-BROWSER.gif"
 
-[[site]]
+[[10-site]]
 alt = "Mobile-Friendly"
 file = "MOBILE-FRIENDLY.png"
 
-[[site]]
+[[10-site]]
 alt = "This site is Miku-approved"
 file = "this-site-is-MIKU-APPROVED.gif"
 
-[[site]]
+[[10-site]]
 alt = "Not secure (HTTP) version"
 file = "Not-secure-defcon1.gif"
 href = "http://http.sitoctt.octt.eu.org"
 
-[[site]]
+[[10-site]]
 alt = "Download Offline Version"
 file = "OFF-LINE-VERSION.png"
 href = "https://github.com/octospacc/sitoctt/archive/refs/heads/gh-pages.zip"
+
+#######################################
+
+[[20-me]]
+alt = "Follow me on Mastodon"
+file = "Follow-me-on-mastodon.png"
+href = "https://mastodon.uno/@octo"
+rel = "me"
+
+[[20-me]]
+alt = "Bandiera Octt"
+file = "Octt-Flag.png"
+
+[[20-me]]
+alt = "Rainbow"
+file = "rainbow_bev.png"
+href = "https://en.wikipedia.org/wiki/Refraction"
+spam = true
+
+# Source: https://astral.town | License: Unknown
+[[20-me]]
+alt = "Occhi blink blink"
+src = "@/Media/Blink-0.gif"
+
+[[20-me]]
+alt = "I wear cute socks!"
+file = "I-wear-cute-socks.gif"
+
+[[20-me]]
+alt = "nya~"
+file = "nya.png"
+
+[[20-me]]
+alt = "Hello Kitty"
+file = "HELLO-Kitty.gif"
+href = "https://www.sanrio.com"
+spam = true
+
+[[20-me]]
+alt = "Girl rot"
+file = "GRL-ROT.gif"
+
+[[20-me]]
+alt = "Cyber rot"
+file = "CYBER-ROT.gif"
+
+[[20-me]]
+alt = "Girls for Notepad"
+file = "girls-4-notepad.gif"
+
+[[20-me]]
+alt = "Perfect Soldier"
+file = "Perfect-Soldier.gif"
+
+[[20-me]]
+alt = "I like computer"
+file = "I-LIKE-COMPUTER.png"
+
+#######################################
+
+[[30-thanks]]
+alt = "Made with Hugo"
+file = "HUGO.webp"
+href = "https://gohugo.io"
+spam = true
+
+[[30-thanks]]
+alt = "Made with CSS"
+file = "MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png"
+href = "https://developer.mozilla.org/en-US/docs/Web/CSS"
+spam = true
+
+[[30-thanks]]
+alt = "Made on GNU/Linux"
+file = "Made-on-GNU-Linux.png"
+href = "https://www.gnu.org/home.it"
+spam = true
+
+[[30-thanks]]
+alt = "Made with Notepad++"
+file = "Made-with-Notepad++.png"
+href = "https://notepad-plus-plus.org"
+spam = true
+
+[[30-thanks]]
+alt = "Made with Microsoft Notepad"
+file = "Powered-by-Microsoft-Notepad.gif"
+
+[[30-thanks]]
+alt = "Graphics by GIMP"
+file = "Graphics-by-Gimp.png"
+href = "https://www.gimp.org"
+spam = true
+
+[[30-thanks]]
+alt = "Fueled by Coffee"
+file = "Fueled-by-COFFEE.gif"
+
+[[30-thanks]]
+alt = "Powered by THE VOID"
+file = "Powered-by-THE-VOID.png"
+
+[[30-thanks]]
+alt = "Powered by Bob"
+file = "POWERED-BY-bob.gif"
 

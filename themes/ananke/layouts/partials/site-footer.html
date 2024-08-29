@@ -1,4 +1,5 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
   <div class="flex justify-between">
   <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} 2022–{{ now.Format "2006" }} {{ end }}
@@ -6,5 +7,5 @@
     <div>{{ partial "social-follow.html" . }}</div>
   </div>
   <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
-  <div class="white pv3 tc">{{ partial "footer-buttons.html" }}</div>
+  <div class="white pv3 tc">{{ partial "footer-buttons.html" . }}</div>
 </footer>

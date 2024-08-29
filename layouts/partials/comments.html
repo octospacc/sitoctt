@@ -1,15 +1,25 @@
+{{ $repo := "octospacc/sitoctt" }}
+{{ $repoId := "R_kgDOHbCR4A" }}
+{{ $category := "Comments" }}
+{{ $categoryId := "DIC_kwDOHbCR4M4CiAIZ" }}
+{{ $theme := "noborder_light" }}
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl={{ .Site.BaseURL }}&pageSlug={{ .RelPermalink }}&theme={{ $theme }}&repo={{ $repo }}&repoId={{ $repoId }}&category={{ $category }}&categoryId={{ $categoryId }}"
+></iframe>
 <script src="https://giscus.app/client.js"
-        data-repo="octospacc/sitoctt"
-        data-repo-id="R_kgDOHbCR4A"
-        data-category="Comments"
-        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-repo="{{ $repo }}"
+        data-repo-id="{{ $repoId }}"
+        data-category="{{ $category }}"
+        data-category-id="{{ $categoryId }}"
         data-mapping="pathname"
         data-strict="1"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="noborder_light"
+        data-theme="{{ $theme }}"
         data-lang="{{ .Language }}"
         crossorigin="anonymous"
-        async="async">
-</script>
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>

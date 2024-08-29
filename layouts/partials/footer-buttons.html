@@ -1,16 +1,26 @@
+{{- $language := (string .Language) -}}
 {{- with resources.Get "ButtonBadges.toml" -}}
   {{- with . | transform.Unmarshal -}}
     {{- range $group, $badges := . -}}
       <div data-group="{{ $group }}">
         {{- range $badges -}}
-          {{- $newprops := (dict
-            "srcRelative" .file
-            "hrefLinkback" .linkback
-          ) -}}
-          {{- if .spam -}}
-            {{- $newprops = (merge $newprops (dict "rel" "nofollow")) -}}
+          {{- $src := .src -}}
+          {{- if (or .file .src) -}}
+            {{- if $src -}}
+              {{ $src = (partial "functions/ParseFileUrl.html" $src) }}
+            {{- end -}}
+            {{- $newprops := (dict
+              "src" $src
+              "srcRelative" .file
+              "hrefLinkback" .linkback
+            ) -}}
+            {{- if .spam -}}
+              {{- $newprops = (merge $newprops (dict "rel" "nofollow noopener" "target" "_blank")) -}}
+            {{- end -}}
+            {{ partial "ImgButton.html" (merge . $newprops) }}
+          {{- else -}}
+            <h4>{{ partial "functions/FromLanguageObject.html" (dict "Object" .title "Language" $language) }}</h4>
           {{- end -}}
-          {{ partial "ImgButton.html" (merge . $newprops) }}
         {{- end -}}
       </div>
     {{- end -}}
@@ -18,132 +28,6 @@
 {{- end -}}
 
 <div>
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Follow me on Mastodon"
-  "srcRelative" "Follow-me-on-mastodon.png"
-  "href" "https://mastodon.uno/@octo"
-  "rel" "me"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Bandiera Octt"
-  "srcRelative" "Octt-Flag.png"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Rainbow"
-  "srcRelative" "rainbow_bev.png"
-  "href" "https://en.wikipedia.org/wiki/Refraction"
-  "rel" "nofollow"
-) }}
-
-<!-- Source: https://astral.town | License: Unknown -->
-{{ partial "ImgButton.html" (dict
-  "alt" "Occhi blink blink"
-  "src" (printf "%s/Media/Blink-0.gif" (partial "assetsRoot.html"))
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "I wear cute socks!"
-  "srcRelative" "I-wear-cute-socks.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "nya"
-  "srcRelative" "nya.png"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Hello Kitty"
-  "srcRelative" "HELLO-Kitty.gif"
-  "href" "https://www.sanrio.com"
-  "rel" "nofollow"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Girl rot"
-  "srcRelative" "GRL-ROT.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Cyber rot"
-  "srcRelative" "CYBER-ROT.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Girls for Notepad"
-  "srcRelative" "girls-4-notepad.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Perfect Soldier"
-  "srcRelative" "Perfect-Soldier.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "I like computer"
-  "srcRelative" "I-LIKE-COMPUTER.png"
-) }}
-
-</div><div>
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Made with Hugo"
-  "srcRelative" "HUGO.webp"
-  "href" "https://gohugo.io"
-  "rel" "nofollow"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Made with CSS"
-  "srcRelative" "MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png"
-  "href" "https://developer.mozilla.org/en-US/docs/Web/CSS"
-  "rel" "nofollow"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Made on GNU/Linux"
-  "srcRelative" "Made-on-GNU-Linux.png"
-  "href" "https://www.gnu.org/home.it"
-  "rel" "nofollow"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Made with Notepad++"
-  "srcRelative" "Made-with-Notepad++.png"
-  "href" "https://notepad-plus-plus.org"
-  "rel" "nofollow"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Made with Microsoft Notepad"
-  "srcRelative" "Powered-by-Microsoft-Notepad.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Graphics by GIMP"
-  "srcRelative" "Graphics-by-Gimp.png"
-  "href" "https://www.gimp.org"
-  "rel" "nofollow"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Fueled by Coffee"
-  "srcRelative" "Fueled-by-COFFEE.gif"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Powered by THE VOID"
-  "srcRelative" "Powered-by-THE-VOID.png"
-) }}
-
-{{ partial "ImgButton.html" (dict
-  "alt" "Powered by Bob"
-  "srcRelative" "POWERED-BY-bob.gif"
-) }}
-
-</div><div>
 
 {{ partial "ImgButton.html" (dict
   "alt" "Internet Archive"

@@ -57,12 +57,13 @@
 	{{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}
   </head>
 
-  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="overflow-wrap: break-word; background-color: #fdf4ff;">
-
+  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    <!--<div style="width: 100%;" class="fixed b--dark-pink b--solid bw1"></div>-->
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+    {{ partial "search-applet.html" . }}
   </body>
 </html>

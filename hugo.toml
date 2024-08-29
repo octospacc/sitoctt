@@ -47,7 +47,17 @@ defaultContentLanguageInSubdir = true
   favicon = "/favicon.ico"
   author = "OctoSpacc"
   recent_posts_number = 5
-  other_posts_number = 6
+  other_posts_number = 5
   toc = true
   show_reading_time = true
   #custom_css = [ "Global.scss", "sitoctt.scss" ]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "text/javascript"
+    baseName = "searchindex"
+    isPlainText = true
+
+[outputs]
+  home = [ "HTML", "SearchIndex" ]
+
