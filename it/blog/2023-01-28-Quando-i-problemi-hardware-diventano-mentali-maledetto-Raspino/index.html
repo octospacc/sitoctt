@@ -23,7 +23,10 @@
 
 
 
-    <script src="/local-file-tweaks.js"></script>
+    
+<script src="/local-file-tweaks.js"></script>
+<script src="/it/searchindex.js"></script>
+<script src="/lib/fuse.min.js"></script>
 
 
     
@@ -69,8 +72,8 @@
 
   </head>
 
-  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff;">
-
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
     
    
   
@@ -79,11 +82,22 @@
     <div class="bg-black" style="background-color: #330066;">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="/it/" class="f3 fw2 hover-white no-underline white-90 dib">
+    <a href="/it/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
       
         ✨sitoctt✨
       
     </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 bg-transparent moon-gray ba b--solid b--moon-gray" 
+               type="text" name="_query[]" required="required" placeholder="Ricerca No-JS... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Cerca 🔎️" />
+        </div>
+      </form>
+    </div>
     <div class="flex-l items-center">
       
 
@@ -290,7 +304,16 @@ Ma io <strong>comprare il cavetto un po' prima</strong>, e spegnere il server ne
 
 </aside>
 
-    <script src="https://giscus.app/client.js"
+    
+
+
+
+
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=https%3a%2f%2fsitoctt.octt.eu.org%2f&pageSlug=%2fit%2fblog%2f2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
         data-repo="octospacc/sitoctt"
         data-repo-id="R_kgDOHbCR4A"
         data-category="Comments"
@@ -303,14 +326,16 @@ Ma io <strong>comprare il cavetto un po' prima</strong>, e spegnere il server ne
         data-theme="noborder_light"
         data-lang="it"
         crossorigin="anonymous"
-        async="async">
-</script>
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
 
 
   </article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
   <div class="flex justify-between">
   <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="https://sitoctt.octt.eu.org/it/" >
     &copy;  ✨sitoctt✨ 2022–2024 
@@ -322,7 +347,7 @@ Ma io <strong>comprare il cavetto un po' prima</strong>, e spegnere il server ne
 </div>
   </div>
   <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
-  <div class="white pv3 tc"><div data-group="site">
+  <div class="white pv3 tc"><div data-group="10-site"><h4>Riguardo questo sito</h4>
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" /></a>
 
 
@@ -350,125 +375,78 @@ Ma io <strong>comprare il cavetto un po' prima</strong>, e spegnere il server ne
   <a href="https://github.com/octospacc/sitoctt/archive/refs/heads/gh-pages.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" /></a>
 
 
-</div><div>
-
-
+</div><div data-group="20-me"><h4>Io e la mia essenza</h4>
   <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" /></a>
-
-
 
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" />
 
 
-
-
-  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" /></a>
-
-
-
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" /></a>
 
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" />
 
 
-
-
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" />
 
 
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" />
 
 
-  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya]" title="[nya]" width="88px" height="31px" />
-
-
-
-
-  <a href="https://www.sanrio.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" /></a>
-
-
+  <a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" /></a>
 
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" />
 
 
-
-
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" />
-
-
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" />
 
 
-
-
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" />
-
-
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" />
 
-
-
-</div><div>
-
-
-  <a href="https://gohugo.io" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" /></a>
+</div><div data-group="30-thanks"><h4>Fatto grazie a</h4>
+  <a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" /></a>
 
 
 
-
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" /></a>
-
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" /></a>
 
 
 
-
-  <a href="https://www.gnu.org/home.it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" /></a>
-
+  <a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" /></a>
 
 
 
-
-  <a href="https://notepad-plus-plus.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" /></a>
-
-
+  <a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" /></a>
 
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" />
 
 
-
-
-  <a href="https://www.gimp.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" /></a>
-
-
+  <a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" /></a>
 
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" />
 
 
-
-
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" />
-
-
 
 
   <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" />
 
-
-
-</div><div>
+</div><div data-group="50-fun"><h4>Altre cose</h4></div><div>
 
 
   <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" /></a>
@@ -604,6 +582,45 @@ Ma io <strong>comprare il cavetto un po' prima</strong>, e spegnere il server ne
 </div>
 </div>
 </footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://sitoctt.octt.eu.org/it/"
+  style="word-break:break-word; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Cerca... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="/site-search.js"></script>
 
   </body>
 </html>
