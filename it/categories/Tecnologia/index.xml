@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tecnologia on ✨sitoctt✨</title>
-    <link>https://sitoctt.octt.eu.org/it/categories/Tecnologia/</link>
+    <link>/it/categories/Tecnologia/</link>
     <description>Recent content in Tecnologia on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sitoctt.octt.eu.org/it/categories/Tecnologia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/it/categories/Tecnologia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>☣️ Le brutture irrisolvibili della dock di Nintendo Switch (Parte I)</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2023-06-30-%EF%B8%8F-Le-brutture-irrisolvibili-della-dock-di-Nintendo-Switch-Parte-I/</link>
+      <link>/it/blog/2023-06-30-%EF%B8%8F-Le-brutture-irrisolvibili-della-dock-di-Nintendo-Switch-Parte-I/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2023-06-30-%EF%B8%8F-Le-brutture-irrisolvibili-della-dock-di-Nintendo-Switch-Parte-I/</guid>
+      <guid>/it/blog/2023-06-30-%EF%B8%8F-Le-brutture-irrisolvibili-della-dock-di-Nintendo-Switch-Parte-I/</guid>
       <description>Nota: questo articolo avrebbe dovuto si in primo luogo illustrare i problemi della dock di Switch, ma poi continuare e terminare con lo sviluppo totale della mia soluzione alternativa. La prima parte è venuta bella lunga, però, e ho paura che possa eclissare quella veramente importante, quella della mia soluzione pericolosamente originale. Quindi, in questo articolo parlo solo delle mie rogne; quello che uscirà in seguito sarà dedicato al mio fai-da-te.</description>
     </item>
     <item>
       <title>Raccolta del Riso</title>
-      <link>https://sitoctt.octt.eu.org/it/miscellanea/Raccolta-del-Riso/</link>
+      <link>/it/miscellanea/Raccolta-del-Riso/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/miscellanea/Raccolta-del-Riso/</guid>
+      <guid>/it/miscellanea/Raccolta-del-Riso/</guid>
       <description>Raccolta del Riso - o, per dirla in maniera corretta, raccolta dei miei ricing: personalizzazioni d&amp;rsquo;interfaccia effettuate ai miei sistemi operativi.&#xA;Nella comunità di Linux, i termini &amp;ldquo;rice&amp;rdquo; e &amp;ldquo;ricing&amp;rdquo; sono comunissimi per riferirsi a tutta una serie di personalizzazioni estetiche fai-da-te, che la gente appassionata effettua per diversi motivi.&#xA;Basta leggere una discussione come questa, però, per capire che il consenso sull&amp;rsquo;origine del termine non è solidissimo. E allora, a noi non ci frega.</description>
     </item>
     <item>
       <title>⚡️ Il blogging rapido con Standard Notes</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-12-13-%EF%B8%8F-Il-blogging-rapido-con-Standard-Notes/</link>
+      <link>/it/blog/2022-12-13-%EF%B8%8F-Il-blogging-rapido-con-Standard-Notes/</link>
       <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-12-13-%EF%B8%8F-Il-blogging-rapido-con-Standard-Notes/</guid>
+      <guid>/it/blog/2022-12-13-%EF%B8%8F-Il-blogging-rapido-con-Standard-Notes/</guid>
       <description>È da direi parecchio tempo che uso Standard Notes come app di note personali.&#xA;Anni fa l&#39;avevo scelta per il suo essere libera e open-source, ma allo stesso tempo molto pulita, curata, e funzionale. Capitava a pennello in un momento in cui cercavo qualcosa che supportasse una cifratura dei dati che funziona, senza inficiare sull&#39;usabilità.&#xA;Senza dilungarmi su perché poi mi è piaciuto continuare ad usarla, poi ho smesso, e poi ho ripreso fino ad arrivare ad ora, bisogna approfondire su una in particolare delle sue funzioni integrate: Listed.</description>
     </item>
     <item>
       <title>🎮 Storia antica del DSpacc</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-10-31-Storia-antica-del-DSpacc/</link>
+      <link>/it/blog/2022-10-31-Storia-antica-del-DSpacc/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-10-31-Storia-antica-del-DSpacc/</guid>
+      <guid>/it/blog/2022-10-31-Storia-antica-del-DSpacc/</guid>
       <description>Quasi due mesi fa, un po&amp;rsquo; casualmente mi è tornato alla mente il DSpacc; prima come concetto, parlandone con gente online, e poi direttamente come l&amp;rsquo;oggettino che fieramente possiedo.&#xA;Questo mio coso ha visto la polvere, la gloria, la guerra, e la disperazione. Proprio di questo avrei dovuto parlare oggi, di cosa io abbia fatto di recente per togliere un po&amp;rsquo; di polvere e riportare così il mio dispositivo alla gloria.</description>
     </item>
     <item>
       <title>Gli inaspettati vantaggi della chiavetta Linux</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</link>
+      <link>/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</link>
       <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</guid>
+      <guid>/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</guid>
       <description>Una cosa che ho fatto mesi fa e che, fino ad ora, si è rivelata una scelta vincente, è stata l&amp;rsquo;installare un sistema operativo basato su Linux, in modalità persistente, su una piccola pennina USB.&#xA;I motivi per cui ho voluto farlo inizialmente sono forse semplici e banali, ma la cosa mi ha fatto avere, in attenta analisi, alcuni vantaggi inaspettati e molto più che graditi.&#xA;Perché serviva la pennetta? La necessità iniziale della chiavina scaturì mesi fa dal fatto che, in aula di informatica a scuola, dovevo, come tutti, accedere al mio account GSuite per accedere alla classe virtuale di informatica.</description>
     </item>
     <item>
       <title>👾 L&#39;emulazione NDS, Google Play, e una storia oscura</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</link>
+      <link>/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</guid>
+      <guid>/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</guid>
       <description>Il Nintendo DS. Basta, non serve dire altro; in fondo, tra nintenditori, ci si intende.&#xA;Una console che, 15 anni fa, ha saputo innovare il mercato con lo stesso spirito con cui il Gameboy innovò a suo tempo. Una console le cui esclusive rimangono, ancora oggi, delle perle senza tempo.&#xA;Per quanto mi piacerebbe stare a tessere interminabili lodi al DS, però, oggi sono qui a parlarvi di altro.&#xA;Oggi vi parlo di emulazione, e di un&amp;rsquo;area specifica della scena dell&amp;rsquo;emulazione NDS: quella Android.</description>
     </item>
     <item>
       <title>💻 Come ho riparato il mio portatile (con 25€)</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</link>
+      <link>/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</guid>
+      <guid>/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</guid>
       <description>Da quasi 7 anni ho un PC portatile Acer, Aspire V3-572G, indubbiamente ormai un po&amp;rsquo; vetusto, senza lode e con qualche infamia.&#xA;Quando fu comprato, era in sostanza un notebook di fascia media come un altro, senza alcuna caratteristica degna di nota. Voglio dire, l&amp;rsquo;ho usato abbastanza e ha più o meno sempre fatto quello che doveva, finché circa 2 annetti fa ho iniziato a pretendere di usare giochini e strumenti di sviluppo pesanti, a quel punto il nuovo PC (fisso) è stato d&amp;rsquo;obbligo.</description>
     </item>
     <item>
       <title>⌨️ L&#39;idea di una tastiera fisica per smartphone fatta in casa</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</link>
+      <link>/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</guid>
+      <guid>/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</guid>
       <description>Forse un annetto fa, un po&amp;rsquo; per curiosità e un po&amp;rsquo; perché immaginavo già che potrebbe essere stato qualcosa di comodo, ho sviluppato un marginale interesse per gli smartphone dotati di tastiere fisiche complete.&#xA;Non intendo i maledetti tastierini numerici, che ancora oggi si vedono sui telefoni non-smart, intendo tastiere con decine di singoli tasti dedicati per lettere e simboli.&#xA;Questo tipo di tastiere era già raro vederlo sui telefoni precedenti all&amp;rsquo;era degli smartphone: faceva la sua comparsa innanzitutto non sui modelli ultraeconomici, ma comunque poteva non essere sempre comodissimo per via delle dimensioni ridotte.</description>
     </item>
     <item>
       <title>☀️ Rasperino Solare (ed altri esperimenti andati a male)</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</link>
+      <link>/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</link>
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</guid>
+      <guid>/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</guid>
       <description>Qualche mese fa comprai un piccolo pannello solare monocristallino online, dalle dimensioni simili a quelle di un foglio A4, per la cifra di circa 20€ (su Amazon.it i venditori sono tutti ladri, su Aliexpress sarebbe costato un pochino in meno).&#xA;Dubbi elettrici Il pannellino dichiarava, nel titolo dell&amp;rsquo;inserzione, una potenza di output massima di 7.8W.&#xA;Ha come porta di uscita una USB, chiaramente massimo 5V. Sempre nei dettagli dell&amp;rsquo;inserzione, ma nelle specifiche tecniche, c&amp;rsquo;erano indicati 1A a 5V di output.</description>
     </item>
     <item>
       <title>💾 Archivi Devlogs</title>
-      <link>https://sitoctt.octt.eu.org/it/miscellanea/Archivi-Devlogs/</link>
+      <link>/it/miscellanea/Archivi-Devlogs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/miscellanea/Archivi-Devlogs/</guid>
+      <guid>/it/miscellanea/Archivi-Devlogs/</guid>
       <description>Ho dimenticato di annunciarlo nell&amp;rsquo;articolo &amp;ldquo;🎇 Il resocontoctt di questo 2023, almeno in termini di posting!&amp;rdquo;, ma, così come per il PicoBlog e il Vecchio MicroBlog, i Devlogs sono ora deprecati, e non verranno più aggiornati. Quello che segue è l&amp;rsquo;archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.&#xA;Per mesi, in maniera occasionale, ho (ab)usato il PicoBlog come se fosse un devlog.</description>
     </item>
   </channel>

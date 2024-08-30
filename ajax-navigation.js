@@ -2,31 +2,40 @@
 // TODO investigate/fix strange screen flash when navigating back from an hash URL
 // TODO error handling, caching, loading indication, totally handle hash change
 
-var oldUrl = null;
-var firstLoad = true;
 window.SiteInitOnLoad = [];
+var oldUrl = null;
+
+// TODO before deploying this: handle page-specific scripts (comments, etc...)
+//if (location.protocol === 'file:') {
+	window.PatchAjaxNavigationAnchor = Void;
+	return; // HTTP requests don't work on local files with default browser configuration
+//}
+
+function toPathUrl (url) {
+	return url.split('#')[0];
+}
 
 function initPage () {
-	oldUrl = location.href;
-	document.body.scrollIntoView();
-	Array.from(document.querySelectorAll('a')).forEach(function(anchorEl){
-		var isInternalLink = anchorEl.href.startsWith(location.protocol + '//' + location.host);
-		var isPagewideLink = (anchorEl.href.split('#')[0] === location.href.split('#')[0]);
-		if (isInternalLink && !isPagewideLink) {
-			anchorEl.onclick = (function(clickEvent){
-				clickEvent.preventDefault();
-				loadContent(anchorEl.href, true);
-			});
-		}
-	});
-	if (!firstLoad) {
+	if (oldUrl !== null) {
+		document.body.scrollIntoView();
 		SiteInitOnLoad.forEach(function(routine){ routine(); });
 	}
-	firstLoad = false;
+	oldUrl = location.href;
+	var langToken = ('/' + document.documentElement.lang + '/');
+	var baseHref = (location.href.split(langToken)[0] + langToken);
+	Array.from(document.querySelectorAll('a[href]')).filter(function(anchorEl){
+		//var tokens = href.split('/' + document.documentElement.lang + '/');
+		//if (location.href.slice(0, href[0]))
+		//return (anchorEl.getAttribute('href').replace(location.host, '').replace(/^(\.\.\/)+/, '').replace(/^(\/)+/, '').split('/')[1] === document.documentElement.lang);
+		return (anchorEl.href.slice(0, baseHref.length) === baseHref);
+	}).forEach(PatchAjaxNavigationAnchor);
 }
 
 function loadContent (url, push) {
-	var fallbackTimeout = setTimeout((function(){ location.href = url; }), 3e3);
+	function useFallback () {
+		location.href = url;
+	}
+	var fallbackTimeout = setTimeout(useFallback, 3000);
 	fetch(url)
 		.then(function(request){ return request.text(); })
 		.then(function(html){
@@ -40,17 +49,28 @@ function loadContent (url, push) {
 			clearTimeout(fallbackTimeout);
 		}).catch(function(err){
 			console.error(err);
-			location.href = url;
+			useFallback();
 		});
 }
 
-window.addEventListener('load', initPage);
+window.PatchAjaxNavigationAnchor = (function PatchAjaxNavigationAnchor (anchorEl) {
+	var isSitewideLink = anchorEl.href.startsWith(location.protocol + '//' + location.host);
+	var isPagewideLink = (toPathUrl(anchorEl.href) === toPathUrl(location.href));
+	if (isSitewideLink && !isPagewideLink) {
+		anchorEl.addEventListener('click', (function(clickEvent){
+			clickEvent.preventDefault();
+			loadContent(anchorEl.href, true);
+		}));
+	}
+});
 
-window.addEventListener('popstate', (stateEvent) => {
-	if (location.href.split('#')[0] !== oldUrl.split('#')[0]) {
+window.addEventListener('DOMContentLoaded', initPage);
+
+window.addEventListener('popstate', (function(stateEvent){
+	if (toPathUrl(location.href) !== toPathUrl(oldUrl)) {
 		loadContent(location.href, false);
 	}
 	oldUrl = location.href;
-});
+}));
 
 })();

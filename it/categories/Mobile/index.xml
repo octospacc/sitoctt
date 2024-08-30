@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on ✨sitoctt✨</title>
-    <link>https://sitoctt.octt.eu.org/it/categories/Mobile/</link>
+    <link>/it/categories/Mobile/</link>
     <description>Recent content in Mobile on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sitoctt.octt.eu.org/it/categories/Mobile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/it/categories/Mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>👾 L&#39;emulazione NDS, Google Play, e una storia oscura</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</link>
+      <link>/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</guid>
+      <guid>/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</guid>
       <description>Il Nintendo DS. Basta, non serve dire altro; in fondo, tra nintenditori, ci si intende.&#xA;Una console che, 15 anni fa, ha saputo innovare il mercato con lo stesso spirito con cui il Gameboy innovò a suo tempo. Una console le cui esclusive rimangono, ancora oggi, delle perle senza tempo.&#xA;Per quanto mi piacerebbe stare a tessere interminabili lodi al DS, però, oggi sono qui a parlarvi di altro.&#xA;Oggi vi parlo di emulazione, e di un&amp;rsquo;area specifica della scena dell&amp;rsquo;emulazione NDS: quella Android.</description>
     </item>
     <item>
       <title>⌨️ L&#39;idea di una tastiera fisica per smartphone fatta in casa</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</link>
+      <link>/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</guid>
+      <guid>/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/</guid>
       <description>Forse un annetto fa, un po&amp;rsquo; per curiosità e un po&amp;rsquo; perché immaginavo già che potrebbe essere stato qualcosa di comodo, ho sviluppato un marginale interesse per gli smartphone dotati di tastiere fisiche complete.&#xA;Non intendo i maledetti tastierini numerici, che ancora oggi si vedono sui telefoni non-smart, intendo tastiere con decine di singoli tasti dedicati per lettere e simboli.&#xA;Questo tipo di tastiere era già raro vederlo sui telefoni precedenti all&amp;rsquo;era degli smartphone: faceva la sua comparsa innanzitutto non sui modelli ultraeconomici, ma comunque poteva non essere sempre comodissimo per via delle dimensioni ridotte.</description>
     </item>
   </channel>

@@ -1,4 +1,9 @@
 (function(){
+// TODO make links work on file:/// (must be relative)
+// TODO fix ajax navigation to different-language page, doesn't currently load the index for the selected language
+// TODO better perf
+// TODO thumbnails?
+// TODO highlight found word in text summary? we must handle generating summary client-side at different points of text for it to work
 
 function init () {
 
@@ -14,14 +19,23 @@ var searchVisible = false;
 var indexed = false;
 var hasResults = false;
 
-hideButton.addEventListener("click", hideSearch);
-wrapper.addEventListener("click", hideSearch);
-modal.addEventListener("click", function (event) {
+hideButton.addEventListener('click', hideSearch);
+wrapper.addEventListener('click', hideSearch);
+modal.addEventListener('click', (function(){
   event.stopPropagation();
   event.stopImmediatePropagation();
   return false;
-});
-document.addEventListener("keydown", function (event) {
+}));
+document.removeEventListener('keydown', window.SiteSearchOnKeyHandler);
+window.SiteSearchOnKeyHandler = documentOnKeyDown;
+document.addEventListener('keydown', SiteSearchOnKeyHandler);
+
+// Update search on each keypress
+input.onkeyup = function (event) {
+  executeQuery(this.value);
+};
+
+function documentOnKeyDown (event) {
   if (event.key == "/") {
     if (!searchVisible) {
       event.preventDefault();
@@ -72,13 +86,7 @@ document.addEventListener("keydown", function (event) {
       }
     }
   }
-
-});
-
-// Update search on each keypress
-input.onkeyup = function (event) {
-  executeQuery(this.value);
-};
+}
 
 function displaySearch() {
   if (!indexed) {
@@ -129,7 +137,17 @@ function executeQuery(term) {
   if (results.length > 0) {
     results.forEach(function (value, key) {
       var title = value.item.externalUrl?  value.item.title + '<span class="text-xs ml-2 align-center cursor-default text-neutral-400 dark:text-neutral-500">'+value.item.externalUrl+'</span>' : value.item.title;
-      var linkconfig = value.item.externalUrl? 'target="_blank" rel="noopener" href="'+value.item.externalUrl+'"' : 'href="'+value.item.permalink+'"';
+      var linkconfig;
+      if (value.item.externalUrl) {
+        linkconfig = 'target="_blank" rel="noopener" href="'+value.item.externalUrl+'"';
+      } else {
+        var dataUrl = wrapper.dataset.url;
+        if (dataUrl.startsWith('../')) {
+          linkconfig = 'href="'+('..' + '/..'.repeat(dataUrl.split('/').length - 3) + value.item.permalink)+'"';
+        } else {
+          linkconfig = 'href="'+value.item.permalink+'"';
+        }
+      }
       resultsHTML =
         resultsHTML +
         `<li class="mb-2">
@@ -154,6 +172,11 @@ function executeQuery(term) {
   }
 
   output.innerHTML = resultsHTML;
+  Array.from(output.querySelectorAll('a')).forEach(function(anchorEl){
+    anchorEl.addEventListener('click', hideSearch);
+    PatchLocalFileAnchor(anchorEl);
+    PatchAjaxNavigationAnchor(anchorEl);
+  });
   if (results.length > 0) {
     first = output.firstChild.firstElementChild;
     last = output.lastChild.firstElementChild;
@@ -166,6 +189,7 @@ document.querySelector('.SiteSearchForm').innerHTML = document.querySelector('.S
 
 var inputEl = document.querySelector('.SiteSearchForm > input');
 //inputEl.classList.add('bg-transparent', 'white');
+inputEl.style.width = '10rem';
 inputEl.placeholder = (inputText + '... 🔎️ [CTRL+/]');
 inputEl.onclick = inputEl.oninput = inputEl.onchange = inputEl.onpaste = displaySearch;
 inputEl.onkeydown = (function(event){

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rasperino on ✨sitoctt✨</title>
-    <link>https://sitoctt.octt.eu.org/it/categories/Rasperino/</link>
+    <link>/it/categories/Rasperino/</link>
     <description>Recent content in Rasperino on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sitoctt.octt.eu.org/it/categories/Rasperino/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/it/categories/Rasperino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🤯 Quando i problemi hardware diventano mentali (maledetto Raspino)</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino/</link>
+      <link>/it/blog/2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino/</guid>
+      <guid>/it/blog/2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino/</guid>
       <description>Fino ad, ormai, 2 mesi fa, il mio regno del Rasperino era al suo splendore massimo: l&#39;istanza Misskey, messa su giusto 2 settimane prima, andava alla grande, e ormai (quasi) tutto sembrava destinato a continuare per bene...&#xA;E invece, sono subentrati i problemi. Diciamo che ci ho messo un pochino ad accorgermene, perché si sono sviluppati in modo stranamente graduale.&#xA;Le crepe iniziali La prima cosa veramente strana la notai verso l&#39;inizio di Dicembre, in cui mi accorsi che il sistema poteva crashare provando a fare un&#39;operazione molto banale ma specifica: creare un grande archivio di file (compresso e non).</description>
     </item>
     <item>
       <title>☀️ Rasperino Solare (ed altri esperimenti andati a male)</title>
-      <link>https://sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</link>
+      <link>/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</link>
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</guid>
+      <guid>/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</guid>
       <description>Qualche mese fa comprai un piccolo pannello solare monocristallino online, dalle dimensioni simili a quelle di un foglio A4, per la cifra di circa 20€ (su Amazon.it i venditori sono tutti ladri, su Aliexpress sarebbe costato un pochino in meno).&#xA;Dubbi elettrici Il pannellino dichiarava, nel titolo dell&amp;rsquo;inserzione, una potenza di output massima di 7.8W.&#xA;Ha come porta di uscita una USB, chiaramente massimo 5V. Sempre nei dettagli dell&amp;rsquo;inserzione, ma nelle specifiche tecniche, c&amp;rsquo;erano indicati 1A a 5V di output.</description>
     </item>
   </channel>
