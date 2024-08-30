@@ -6,7 +6,7 @@ pages:
     sh ./Scripts/Deploy.sh
   artifacts:
     paths:
-      - build/public
-  publish: build/public
+      - dist
+  publish: dist
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
