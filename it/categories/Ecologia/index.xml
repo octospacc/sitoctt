@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecologia on ✨sitoctt✨</title>
-    <link>/it/categories/Ecologia/</link>
+    <link>http://http.sitoctt.octt.eu.org/it/categories/Ecologia/</link>
     <description>Recent content in Ecologia on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/it/categories/Ecologia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://http.sitoctt.octt.eu.org/it/categories/Ecologia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>💻 Come ho riparato il mio portatile (con 25€)</title>
-      <link>/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</link>
+      <link>http://http.sitoctt.octt.eu.org/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</guid>
+      <guid>http://http.sitoctt.octt.eu.org/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/</guid>
       <description>Da quasi 7 anni ho un PC portatile Acer, Aspire V3-572G, indubbiamente ormai un po&amp;rsquo; vetusto, senza lode e con qualche infamia.&#xA;Quando fu comprato, era in sostanza un notebook di fascia media come un altro, senza alcuna caratteristica degna di nota. Voglio dire, l&amp;rsquo;ho usato abbastanza e ha più o meno sempre fatto quello che doveva, finché circa 2 annetti fa ho iniziato a pretendere di usare giochini e strumenti di sviluppo pesanti, a quel punto il nuovo PC (fisso) è stato d&amp;rsquo;obbligo.</description>
     </item>
     <item>
       <title>☀️ Rasperino Solare (ed altri esperimenti andati a male)</title>
-      <link>/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</link>
+      <link>http://http.sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</link>
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</guid>
+      <guid>http://http.sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/</guid>
       <description>Qualche mese fa comprai un piccolo pannello solare monocristallino online, dalle dimensioni simili a quelle di un foglio A4, per la cifra di circa 20€ (su Amazon.it i venditori sono tutti ladri, su Aliexpress sarebbe costato un pochino in meno).&#xA;Dubbi elettrici Il pannellino dichiarava, nel titolo dell&amp;rsquo;inserzione, una potenza di output massima di 7.8W.&#xA;Ha come porta di uscita una USB, chiaramente massimo 5V. Sempre nei dettagli dell&amp;rsquo;inserzione, ma nelle specifiche tecniche, c&amp;rsquo;erano indicati 1A a 5V di output.</description>
     </item>
   </channel>
