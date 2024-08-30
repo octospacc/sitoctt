@@ -28,9 +28,9 @@ The country flags (emoji, perhaps not visible on older browsers) next to the nam
 [![Yesterweb]({{< assetsRoot >}}/Media/Buttons/Sites/Yesterweb-88x31.png)](#-s-a-5) 
 [![OpenBooks]({{< assetsRoot >}}/Media/Buttons/Sites/OpenBooks-88x31.gif)](#-s-a-6) 
 
-</marquee> -->
+</marquee>
 
-_These above are the sites in the list that have an 88x31 button. Do you also want the privilege of being at the top? So go ahead and draw this little picture, come on!_
+_These above are the sites in the list that have an 88x31 button. Do you also want the privilege of being at the top? So go ahead and draw this little picture, come on!_ -->
 
 ## My..
 
@@ -68,7 +68,7 @@ _The image is in PNG format and already compressed as much as possible.[^PNG Los
 As you can read from the site name and domain, it is the Arci (or also Aurora) site. She set it up today (2022-06-30), after she said she didn't know what to do with all the summer free time, and I said "be an Archsite".  
 	• Clearweb: [arci.me](https://arci.me) <!-- [auroraviola.eu.org](https://auroraviola.eu.org) -->
 
-- **🇬🇧️ Gianmarco Gargiulo**  
+- **🇬🇧️ 🇮🇹️ Gianmarco Gargiulo**  
 ![serimemo]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/gianmarco.gg-gmgpin.gif)  
 Site with a modern layout, but decidedly creative design, with an artistic side well expressed in the illustrations. The home page serves as a list of the content archive, and the different types are illustrated in the most appropriate format. Very Linux and free software focused, but the drawings and photos look great.  
 	• Clearweb: [gianmarco.gg](https://gianmarco.gg)
@@ -157,7 +157,9 @@ It's a nice site that I found by chance, which collects various information on t
 
 ## Attention
 
-<marquee><i>But, oh you people who are silly, damn, don't put important text in the infernal <marquee> tag, which can't be read and gives you a headache!</i></marquee>
+<marquee>
+<i>But, oh you people who make sitarels, damn, don't put important text in the infernal <marquee> tag, which doesn't read anything and gives you a headache!</i>
+</marquee>
 
 ## {{% i18n notes-refs %}}
 
