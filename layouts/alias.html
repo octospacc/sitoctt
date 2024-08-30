@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}"><!--
+    {{- $canonicalBase := site.Params.canonicalUrlOverride -}}
+    {{- $canonicalUrl := (or
+      (and
+        $canonicalBase
+        (printf "%s%s"
+          $canonicalBase 
+          (relURL .Permalink)))
+      .Permalink) -}}
+  -->
+  <head>
+    <title>{{ .Permalink }}</title>
+    <link rel="canonical" href="{{ $canonicalUrl }}" />
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url={{ .Permalink }}" />
+  </head>
+</html>

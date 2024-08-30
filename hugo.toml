@@ -1,11 +1,14 @@
 title = "✨sitoctt✨"
-baseURL = "https://sitoctt.octt.eu.org/"
-#relativeURLs = true
-theme = ["hugo-notice", "ananke"]
+#GitLab:baseURL = "https://sitoctt.octt.eu.org/"
+#GitHub:baseURL = "http://http.sitoctt.octt.eu.org/"
+#Offline:relativeURLs = true
+#Offline:disableAliases = true
+canonifyURLs = true
 disablePathToLower = true
 sectionPagesMenu = "main"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
+theme = ["hugo-notice", "ananke"]
 
 [permalinks]
   [permalinks.page]
@@ -50,6 +53,8 @@ defaultContentLanguageInSubdir = true
   other_posts_number = 5
   toc = true
   show_reading_time = true
+  canonicalUrlOverride = "https://sitoctt.octt.eu.org"
+  #canonicalUrlOverride = "http://http.sitoctt.octt.eu.org"
   #custom_css = [ "Global.scss", "sitoctt.scss" ]
 
 [outputFormats]

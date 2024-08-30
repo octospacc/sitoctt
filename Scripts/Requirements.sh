@@ -11,7 +11,7 @@ hugoexternal=true
 if [ -n "$(which apt)" ]
 then
 	asroot apt update
-	asroot apt install -y python3 nodejs findutils git tar gzip wget
+	asroot apt install -y python3 nodejs findutils git wget tar gzip p7zip-full #zip
 	if [ "$(uname -o)" != Android ]
 	then asroot apt install -y npm
 	else
@@ -21,7 +21,7 @@ then
 elif [ -n "$(which apk)" ]
 then
 	asroot apk update
-	asroot apk add hugo python3 py3-pip nodejs npm findutils git tar gzip wget
+	asroot apk add hugo python3 py3-pip nodejs npm findutils git wget tar gzip 7zip #zip
 	hugoexternal=false
 fi
 

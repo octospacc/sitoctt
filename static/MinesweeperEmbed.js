@@ -1,4 +1,5 @@
 // Multipurpose embeddable Minesweeper game on top of vuesweeper
+// TODO game iframe must be re-set to be transparent and color scheme set to same as the website (light)
 
 // How many pixels one square takes up
 var MineSquareSize = 32;
@@ -17,12 +18,15 @@ var ResizeAlerted = false;
 // Add styles to current page
 var New = document.createElement('style');
 New.innerHTML = `
-/* Don't know what's up with the percentages */
+/* TODO must set position:relative to parent div */
 .Minesweeper {
-	width: calc(100% - 5% - 1.25%);
+	/* Don't know what's up with the percentages */
+	/* width: calc(100% - 5% - 1.25%); */
+	width: 100%;
 	z-index: 4;
 }
 .Minesweeper > iframe {
+	width: 100%;
 	max-height: none !important;
 	border: none;
 }

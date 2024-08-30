@@ -1,9 +1,8 @@
 /build/
+/dist/
 /resources/
 /public/
-/public.Content/
 /public.gmi/*
-/public.Plain/*
 /Scripts/.bak/*
 #/Scripts/package.json
 #/Scripts/package-lock.json

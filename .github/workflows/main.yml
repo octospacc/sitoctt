@@ -1,26 +1,19 @@
 name: Build and Deploy
-
 on:
   push:
     branches: [ "sitoctt-next" ]
   pull_request:
     branches: [ "sitoctt-next" ]
-
-  workflow_dispatch:
-
 jobs:
   page_build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-
     - name: Build
       run: |
         export sitocttEnv=GitHub
-        sh ./Scripts/Requirements.sh
-        sh ./Scripts/Produce.sh
-
+        sh ./Scripts/Deploy.sh
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:

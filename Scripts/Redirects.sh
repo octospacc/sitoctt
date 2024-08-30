@@ -37,7 +37,11 @@ nicename="$(echo "${nicepath}" | rev | cut -d/ -f1 | rev)"
 #	fi
 #done
 for path in "${nicepath}" #${extrapaths}
-do sed -e "s|{URL}|./${nicename}/|g" ../../redirectTemplate.html > "${path}.html"
+do cat ../layouts/alias.html \
+	| sed -e "s|{{ .Permalink }}|./${nicename}/|g" \
+	| sed -e "s|{{ $canonicalUrl }}|./${nicename}/|g" \
+	| sed -e "s|{{ site.Language.LanguageCode }}||g" \
+> "${path}.html"
 done
 #if [ "$(echo "{}" | cut -d/ -f2)" = it ]
 #then

@@ -12,10 +12,11 @@
   {{- $style = "image-rendering: pixelated;" -}}
 {{- end -}}
 {{/* TODO: maybe set rendering via a class instead of inline CSS? */}}
-{{- $img := (printf `<img src="%s" style="%s" alt="%s" title="%s" width="%spx" height="%spx" />`
+{{- $img := (printf `<img src="%s" style="%s" alt="%s" title="%s" width="%spx" height="%spx" decoding="%s" />`
   $src $style
   $alt $alt
   (index $sizes 0) (index $sizes 1)
+  (or .decoding "async")
 ) | safeHTML -}}
 {{ if .href }}
   {{ partial "anchor.html" (dict

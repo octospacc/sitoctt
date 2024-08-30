@@ -10,12 +10,15 @@
               {{ $src = (partial "functions/ParseFileUrl.html" $src) }}
             {{- end -}}
             {{- $newprops := (dict
+              "decoding" "async"
               "src" $src
               "srcRelative" .file
               "hrefLinkback" .linkback
             ) -}}
             {{- if .spam -}}
-              {{- $newprops = (merge $newprops (dict "rel" "nofollow noopener" "target" "_blank")) -}}
+              {{- $newprops = (merge $newprops (dict
+                "rel" "nofollow noopener"
+                "target" "_blank")) -}}
             {{- end -}}
             {{ partial "ImgButton.html" (merge . $newprops) }}
           {{- else -}}

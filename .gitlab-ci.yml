@@ -1,10 +1,9 @@
 image: alpine:latest
-
 pages:
   stage: deploy
   script: |
-    sh ./Scripts/Requirements.sh
-    sh ./Scripts/Produce.sh
+    export sitocttEnv=GitLab
+    sh ./Scripts/Deploy.sh
   artifacts:
     paths:
       - build/public

@@ -24,9 +24,9 @@ Le bandiere di nazione (emoji, forse non visibili su browser antichi) accanto ai
 [![Yesterweb]({{< assetsRoot >}}/Media/Buttons/Sites/Yesterweb-88x31.png)](#-s-a-5)&nbsp;
 [![OpenBooks]({{< assetsRoot >}}/Media/Buttons/Sites/OpenBooks-88x31.gif)](#-s-a-6)&nbsp;
 
-</marquee> -->
+</marquee>
 
-_Questi sopra sono i siti della lista che hanno un bottone 88x31. Vuoi anche tu il privilegio di stare anche in cima? Allora muoviti a disegnare st'immaginetta, su!_
+_Questi sopra sono i siti della lista che hanno un bottone 88x31. Vuoi anche tu il privilegio di stare anche in cima? Allora muoviti a disegnare st'immaginetta, su!_ -->
 
 ## Il mio..
 
@@ -153,7 +153,9 @@ Un museo virtuale dedicato ad illustrare quei rari contenuti informatici e video
 
 ## Attenzione
 
-<marquee><i>Però, oh voi persone che fate i sitarelli, mannaggia, non mettete testo importante nell'infernale tag &lt;marquee&gt;, che non si legge niente e fa il mal di testa!</i></marquee>
+<marquee>
+<i>Però, oh voi persone che fate i sitarelli, mannaggia, non mettete testo importante nell'infernale tag &lt;marquee&gt;, che non si legge niente e fa il mal di testa!</i>
+</marquee>
 
 ## {{% i18n notes-refs %}}
 

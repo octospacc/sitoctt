@@ -11,8 +11,10 @@ cp -r \
 	../hugo.toml  ../static   \
 ./
 
-if [ "${sitocttEnv}" = GitHub ]
-then cp ./layouts/partials/assetsRoot.GitHub.html ./layouts/partials/assetsRoot.html
+if [ -n "${sitocttEnv}" ]
+then
+	sed -i -e "s|#${sitocttEnv}:||g" ./hugo.toml
+	mv "./layouts/partials/assetsRoot.${sitocttEnv}.html" ./layouts/partials/assetsRoot.html || true
 fi
 
 sh "${swd}/Translate/Get.sh"
