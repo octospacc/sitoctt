@@ -1,11 +1,9 @@
 +++
 Title = "⚡️ Il blogging rapido con Standard Notes"
-Description = "Volendo scrivere e pubblicare di più, mi accorgo che il mio workflow mi rallentava, e nel cercare modi di blogging più rapidi, ripenso a Listed."
-Downsync = "/it/posts/Blogging-Rapido-con-Standard-Notes.html"
-Aliases = [
-  "/Posts/2022-12-13-Blogging-Rapido-con-Standard-Notes.html",
-]
 Date = 2022-12-13
+Downsync = "/it/blog/Blogging-Rapido-con-Standard-Notes.html"
+Aliases = [ "/Posts/2022-12-13-Blogging-Rapido-con-Standard-Notes.html" ]
+Description = "Volendo scrivere e pubblicare di più, mi accorgo che il mio workflow mi rallentava, e nel cercare modi di blogging più rapidi, ripenso a Listed."
 Lastmod = 2022-12-16
 Categories = [ "Tecnologia" ]
 +++

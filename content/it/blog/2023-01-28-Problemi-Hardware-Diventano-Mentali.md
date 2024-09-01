@@ -1,10 +1,8 @@
 +++
 Title = "🤯 Quando i problemi hardware diventano mentali (maledetto Raspino)"
 Date = 2023-01-28
-Downsync = "/it/posts/Problemi-Hardware-Diventano-Mentali.html"
-Aliases = [
-  "/Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html",
-]
+Downsync = "/it/blog/Problemi-Hardware-Diventano-Mentali.html"
+Aliases = [ "/Posts/2023-01-28-Problemi-Hardware-Diventano-Mentali.html" ]
 Description = "Servizi che crollano decretando la fine del mio Regno Del Terrore, le giornate perse a dir mannaggia al Rasperino, e 2 mesi di peripezie..."
 Categories = [ "Sysadmin", "Rasperino" ]
 +++
@@ -41,7 +39,7 @@ Circa nello stesso momento (il fato ha deciso che l'aiuto dovesse arrivare tardi
 <style>
 .highlight.plaintext:first-of-type { max-height: 80vh; }
 </style>
-<div class="highlight CodeScroll"><pre class="highlight plaintext"><code>Dec 27 06:32:35 kernel: [27230.964650] INFO: task kworker/2:0:21874 blocked for more than 860 seconds.
+<div class="highlight"><pre class="highlight plaintext"><code>Dec 27 06:32:35 kernel: [27230.964650] INFO: task kworker/2:0:21874 blocked for more than 860 seconds.
 Dec 27 06:32:35 kernel: [27230.964693]       Tainted: G         C        5.15.76-v7+ #1597
 Dec 27 06:32:35 kernel: [27230.964709] "echo 0 &gt; /proc/sys/kernel/hung_task_timeout_secs" disables this message.
 Dec 27 06:32:35 kernel: [27230.964723] task:kworker/2:0     state:D stack:    0 pid:21874 ppid:     2 flags:0x00000000

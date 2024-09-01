@@ -10,6 +10,8 @@ const PostsFileDate = true; // Append dates (YYYY-MM-DD) to posts file names
 const FrontmatterNew = {
 	createdon: "Date",
 	updatedon: "Lastmod",
+	editedon: "Lastmod",
+	image: "Featured_Image",
 	categories: [],
 	urls: ["Aliases"],
 	htmltitle: false,
@@ -20,7 +22,6 @@ let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
 	" href=\"{{< assetsRoot >}}/": " href=\"https://sitoctt-assets.octt.eu.org/",
 	" src=\"{{< assetsRoot >}}/": " src=\"https://sitoctt-assets.octt.eu.org/",
-	'<div class="highlight CodeScroll">': '<div class="highlight">',
 	// TODO: Fix anchor rels
 };
 const TestURL = 'https://listed.to/p/hDaMhJ2ts7';
@@ -97,14 +98,31 @@ const MakeMetaStr = Post => {
 			//Str += `// ${Marks[Type]} ${Key} = ${Post[Type][Key]}\n`;
 			// TODO: should this handle bools properly?
 			let Value = Post[Type][Key];
-			const KeyNew = FrontmatterNew[Key.toLowerCase()];
+			let KeyNew = FrontmatterNew[Key.toLowerCase()];
+			let ToJson = true;
 			if (KeyNew === false) {
 				return;
-			} else if (KeyNew === Array) {
-				KeyNew = null;
-				Value = `[ "${Value.split(' ').join('", "')}" ]`;
+			} else if (Array.isArray(KeyNew)) {
+				KeyNew = KeyNew[0];
+				Value = Value.split(' ');
+				//Value = `[ "${Value.split(' ').join('", "')}" ]`;
+				//ToJson = false;
 			}
-			Str += `${KeyNew || Key} = ${isNaN(Value.replaceAll('-', '')) ? JSON.stringify(Value) : Value}\n`;
+			KeyNew ||= Key;
+			switch (KeyNew.toLowerCase()) {
+				default:
+				break; case 'featured_image':
+					Value = Value.replace('[staticoso:CustomPath:Assets]', '@').replace('https://sitoctt-assets.octt.eu.org', '@');
+				break; case 'categories':
+					if (Post[Type].Downsync.toLowerCase().split('/').includes(Value[0].toLowerCase())) {
+						Value = Value.slice(1);
+					}
+			}
+			if (Array.isArray(Value)) {
+				Value = '[ ' + Value.map(item => JSON.stringify(item)).join(', ') + ' ]';
+				ToJson = false;
+			}
+			Str += `${KeyNew} = ${isNaN(Value.replaceAll('-', '')) && ToJson ? JSON.stringify(Value) : Value}\n`;
 		});
 	});
 	return `+++\n${Str}+++\n`; //Str;

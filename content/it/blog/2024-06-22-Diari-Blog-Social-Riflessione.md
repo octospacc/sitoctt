@@ -1,10 +1,8 @@
 +++
 Title = "📓️ Sul passaggio dai diari ai blog ai social, una riflessione"
 Date = 2024-06-22
-Downsync = "/it/posts/Diari-Blog-Social-Riflessione.html"
-Aliases = [
-  "/Posts/2024-06-22-Diari-Blog-Social-Riflessione.html",
-]
+Downsync = "/it/blog/Diari-Blog-Social-Riflessione.html"
+Aliases = [ "/Posts/2024-06-22-Diari-Blog-Social-Riflessione.html" ]
 Description = "Partendo dalla proposta C2 dell'Esame di Stato 2024, racconto la mia storia e le criticità con le modernissime forme di diario personale."
 Featured_Image = "@/Media/Decor/dall-e_ca32679b-2878-4fb1-a031-f28a3865058d.jpeg"
 Categories = [ "Internet" ]

@@ -1,10 +1,8 @@
 +++
 Title = "🎄 Distrazioni di Natale: l'albero Padoru"
 Date = 2022-12-17
-Downsync = "/it/posts/Distrazioni-di-Natale-Albero-Padoru.html"
-Aliases = [
-  "/Posts/2022-12-17-Distrazioni-di-Natale-Albero-Padoru.html",
-]
+Downsync = "/it/blog/Distrazioni-di-Natale-Albero-Padoru.html"
+Aliases = [ "/Posts/2022-12-17-Distrazioni-di-Natale-Albero-Padoru.html" ]
 Description = "Tempo di Natale, di scongelare i Padoru, e metterli sull'albero. Durante questo calmo fai-da-te, però, scopro che ho la memoria corta..."
 Featured_Image = "@/Media/Padoru/Padoru-Tree-Old-New-Fragments.webp"
 Categories = [ "DIY" ]
@@ -25,7 +23,7 @@ Per quelle 3 persone che vivono sotto le pietre <em>(e che non so come potrebber
 In una <a href="https://youtu.be/efdN69QscAg" rel="noopener nofollow" target="_blank">scena del gioco</a>, <a href="https://typemoon.fandom.com/it/wiki/Nerone" rel="noopener nofollow" target="_blank">Nerone Claudio Cesare Augusto Germanico (non scherzo)</a> indossa un costume da <strong>Babbo Natale</strong>, e danza in giro per quello che credo sia un corridoio, cantando una <strong>parodia</strong> originale di <em>Jingle Bells</em>, di appena 4 strofe.</p>
 
 
-<video class="SmallVideoQuote Blockquote NoImgCenter" title="Il video della scena del gioco." src="{{< assetsRoot >}}/Media/Padoru/PadoruPadoru.webm" controls="true" muted="true" loop="true" autoplay="true">Il video della scena del gioco.</video>
+<video class="SmallVideoQuote Blockquote NoImgCenter" title="Il video della scena del gioco." src="{{< assetsRoot >}}/Media/Padoru/PadoruPadoru.webm" [:videoelemargs-controlmuteloopauto:]="">Il video della scena del gioco.</video>
 
 <blockquote>
 <p>HASHIRE SORI YO<br>

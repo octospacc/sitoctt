@@ -1,10 +1,8 @@
 +++
 Title = "🔋 Tutto per non cambiare due pile..."
 Date = 2023-04-03
-Downsync = "/it/posts/Tutto-Per-Non-Cambiare-Due-Pile.html"
-Aliases = [
-  "/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html",
-]
+Downsync = "/it/blog/Tutto-Per-Non-Cambiare-Due-Pile.html"
+Aliases = [ "/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html" ]
 Description = "Mi secco a cambiare le batterie del telecomando della TV che ho sulla scrivania, quindi ovvio realizzando un accrocco con graffette e cartone..."
 Categories = [ "DIY" ]
 +++

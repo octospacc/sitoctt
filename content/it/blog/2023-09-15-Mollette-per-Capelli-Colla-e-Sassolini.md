@@ -1,11 +1,9 @@
 +++
 Title = "📎 Mollette per capelli, ridotte a colla e sassolini"
 Date = 2023-09-15
-Downsync = "/it/posts/Mollette-per-Capelli-Colla-e-Sassolini.html"
-Aliases = [
-  "/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html",
-]
-Image = "@/Media/Decor/craiyon_182944_small_hair_clip_decorated_with_glitter__worn_on_head__profile_closeup_smiling__anime.webp"
+Downsync = "/it/blog/Mollette-per-Capelli-Colla-e-Sassolini.html"
+Aliases = [ "/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html" ]
+Featured_Image = "@/Media/Decor/craiyon_182944_small_hair_clip_decorated_with_glitter__worn_on_head__profile_closeup_smiling__anime.webp"
 Description = "Non tutte le mie creazioni DIY sono orripilanti. Stavolta, per fare un regalo sia a me che non, abbellisco delle mollette per capelli, nel primo modo che mi viene a mente."
 Categories = [ "DIY" ]
 +++

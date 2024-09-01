@@ -1,10 +1,8 @@
 +++
 Title = "☣️ Le brutture irrisolvibili della dock di Nintendo Switch (Parte I)"
 Date = 2023-06-30
-Downsync = "/it/posts/Brutture-Irrisolvibili-della-Dock-Nintendo-Switch.html"
-Aliases = [
-  "/Posts/2023-06-30-Brutture-Irrisolvibili-della-Dock-Nintendo-Switch.html",
-]
+Downsync = "/it/blog/Brutture-Irrisolvibili-della-Dock-Nintendo-Switch.html"
+Aliases = [ "/Posts/2023-06-30-Brutture-Irrisolvibili-della-Dock-Nintendo-Switch.html" ]
 Featured_Image = "@/Media/Switch-Dock/Dock-Binned-Unsharp.webp"
 Description = "Possibile trovare così tanti difetti in un solo accessorio? Nintendo, da anni, con il dock del suo Switch ci dimostra di si!"
 Categories = [ "Tecnologia", "Gaming" ]

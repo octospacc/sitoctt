@@ -1,11 +1,9 @@
 +++
 Title = "🐕‍🦺 Epicyon, piattaforma del Fediverso durata 2 giorni"
-Description = "Ho provato una certa piattaforma del Fediverso. Belle promesse di semplicità e leggerezza, ma dopo soli 3 giorni ho dovuto togliere baracca!"
 Date = 2022-12-26
-Downsync = "/it/posts/Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html"
-Aliases = [
-  "/Posts/2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html",
-]
+Downsync = "/it/blog/Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html"
+Aliases = [ "/Posts/2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html" ]
+Description = "Ho provato una certa piattaforma del Fediverso. Belle promesse di semplicità e leggerezza, ma dopo soli 3 giorni ho dovuto togliere baracca!"
 Featured_Image = "@/Media/Epicyon-Dec-2022/Featured-LCD.png"
 Categories = [ "Internet" ]
 +++

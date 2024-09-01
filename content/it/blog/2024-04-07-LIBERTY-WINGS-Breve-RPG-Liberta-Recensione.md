@@ -1,10 +1,8 @@
 +++
 Title = "🚀 LIBERTY WINGS: un Breve RPG sulla Libertà (Recensione)"
 Date = 2024-04-07
-Downsync = "/it/posts/LIBERTY-WINGS-Breve-RPG-Liberta-Recensione.html"
-Aliases = [
-  "/Posts/2024-04-07-LIBERTY-WINGS-Breve-RPG-Liberta-Recensione.html",
-]
+Downsync = "/it/blog/LIBERTY-WINGS-Breve-RPG-Liberta-Recensione.html"
+Aliases = [ "/Posts/2024-04-07-LIBERTY-WINGS-Breve-RPG-Liberta-Recensione.html" ]
 Featured_Image = "@/Media/Games/LIBERTY-WINGS/COVER-ART.jpg"
 Description = "Riguardo un breve gioco sulla libertà, ambientato in un futuro non troppo lontano, in cui l'umanità è schiava del regime di un'azienda."
 Categories = [ "Gaming", "Recensioni" ]
