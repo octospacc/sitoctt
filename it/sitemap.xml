@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +16,22 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/categories/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Linux/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/note/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Internet/</loc>
@@ -142,19 +161,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-sincronizzato-tra-PlayStation-2-e-smartphone/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/note/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/note/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/note/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/blog/2023-09-15-Mollette-per-capelli-ridotte-a-colla-e-sassolini/</loc>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on ✨sitoctt✨</title>
+    <link>http://http.sitoctt.octt.eu.org/it/categories/Linux/</link>
+    <description>Recent content in Linux on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://http.sitoctt.octt.eu.org/it/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌽 Compilare e installare il kernel Linux da sorgente</title>
+      <link>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</guid>
+      <description>Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.</description>
+    </item>
+  </channel>
+</rss>

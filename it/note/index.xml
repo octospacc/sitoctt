@@ -6,8 +6,15 @@
     <description>Recent content in Note on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/it/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌽 Compilare e installare il kernel Linux da sorgente</title>
+      <link>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</guid>
+      <description>Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.</description>
+    </item>
     <item>
       <title>2️⃣ Gaming sincronizzato tra PlayStation 2 e smartphone</title>
       <link>http://http.sitoctt.octt.eu.org/it/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-sincronizzato-tra-PlayStation-2-e-smartphone/</link>
