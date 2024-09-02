@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="En détail, comment j&#39;ai conçu un système pour que les jeux et les sauvegardes soient toujours synchronisés entre l&#39;émulateur et la vraie console PS2, partagé ici.">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="http://http.sitoctt.octt.eu.org/ananke/css/main.min.b209f92c580998ed00116e244d5696d7b17e1f4d8833222d70e95784ea913c6c.css" >
+
+
+
+
+<style>
+.Pixelated, .Pixelated * { image-rendering: pixelated; }
+</style>
+
+    <script> window.Void = (function Void(){}); </script>
+<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/fr/searchindex.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
+
+
+    
+      
+<link rel="shortcut icon" href="http://http.sitoctt.octt.eu.org/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/">
+    
+
+    <meta property="og:url" content="http://http.sitoctt.octt.eu.org/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone">
+  <meta property="og:description" content="En détail, comment j&#39;ai conçu un système pour que les jeux et les sauvegardes soient toujours synchronisés entre l&#39;émulateur et la vraie console PS2, partagé ici.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="note">
+    <meta property="article:published_time" content="2023-10-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-10-18T00:00:00+00:00">
+
+  <meta itemprop="name" content="2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone">
+  <meta itemprop="description" content="En détail, comment j&#39;ai conçu un système pour que les jeux et les sauvegardes soient toujours synchronisés entre l&#39;émulateur et la vraie console PS2, partagé ici.">
+  <meta itemprop="datePublished" content="2023-10-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-10-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1472">
+  <meta itemprop="keywords" content="Jeux">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone">
+  <meta name="twitter:description" content="En détail, comment j&#39;ai conçu un système pour que les jeux et les sauvegardes soient toujours synchronisés entre l&#39;émulateur et la vraie console PS2, partagé ici.">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/"/>
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
+    
+   
+  
+
+  <header id="!/header">
+    <div class="bg-black" style="background-color: #330066;">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://http.sitoctt.octt.eu.org/fr/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 f6 tc bg-transparent moon-gray ba b--solid b--moon-gray"
+               type="text" name="_query[]" required="required" placeholder="Ricerca No-JS... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="f6 bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Cerca 🔎️" />
+        </div>
+      </form>
+    </div>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/it/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-sincronizzato-tra-PlayStation-2-e-smartphone/"><span>it</span><span>🇮🇹✨️</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/miscellanea/" title="Divers page">
+              Divers
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/note/" title="Notes page">
+              Notes
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Notes
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone</h1>
+      
+      <p class="tracked">
+        Par <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2023-10-17T00:00:00Z">octobre 17, 2023</time>
+      
+
+      
+      
+        <span> - 7 minutes de lecture </span>
+        <span> - 1472 mots </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info, .notice.caution {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.danger, .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info, .notice.caution {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.danger, .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info, body.dark .notice.caution {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.danger, body.dark .notice.danger {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice caution" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
+</svg>
+
+        </span>Prudence</p><p>Le contenu de cette page a été entièrement et automatiquement traduit en français, à partir de Italiano. Il peut donc contenir toutes sortes d&rsquo;erreurs.</p></div>
+<style> .notranslate[data-lang="it"] { display: none; } </style>
+<!-- Généré automatiquement par ListedDownsync.js. Ne modifiez pas (sauf si vous définissez également "% Downsync = False") - cela serait écrasé. -->
+<p>Ceux qui suivent mes aventures depuis assez longtemps et avec l'attention voulue le savent peut-être, mais le plus gros problème de l'informatique est : comment concilier correctement les divergences qui se créent lorsque nous sommes confrontés au problème de jouer à des jeux vidéo à la fois à la maison qu'en portabilité ? Entre les jeux qui dans un cas sont confortables à jouer et dans un autre peut-être même ne fonctionnent pas, et les sauvegardes qui sont réparties sur d'innombrables appareils différents, résoudre complètement ce problème ne sera jamais possible...<br>
+Pourtant, parfois, l'entropie du cerveau est capable de générer des idées particulièrement utiles à cet égard aussi, comme cela m'est arrivé l'autre jour pour la PS2.</p>
+<p>En fait, j'ai une vraie PlayStation 2, une console de salon qui quand on trouve le moyen de l'utiliser est certainement appréciable... et que je me suis souvent retrouvé à ne pas utiliser, pour les raisons évoquées plus haut : pas directement, car à la maison, je n'y vais souvent pas, ni avec un émulateur sur le smartphone, car j'aurais l'impression qu'à la maison je n'utiliserais pas la vraie console puisque les sauvegardes mises à jour ne seraient que sur le téléphone.<br>
+Et puis, l'autre jour, en regardant la console (je ne sais pas pourquoi), je pense qu'il devrait y avoir un moyen de synchroniser facilement les sauvegardes entre celle-ci et le téléphone...</p>
+<h2>Objet 1 : clé USB ou carte mémoire ?</h2>
+<p>À l'époque, l'idée la plus simple à laquelle j'ai pensé était : ils existent <a href="https://www.amazon.it/Adattatore-Memoria-Lettore-Sostitutivo-trasparente/dp/B0C8TTQFJY" rel= "noopener nofollow" target="_blank">adaptateurs</a> pour utiliser une carte microSD comme carte mémoire PlayStation (qui utilisent une interface non standard à la place)... cela vaut peut-être la peine d'en acheter un, donc je les garde tous c'est là que se trouvent les sauvegardes, et si je le souhaite, je peux également y accéder depuis d'autres appareils en déplaçant la carte.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a> </sup> <br>
+Avec une carte de plusieurs Go (il n'y en a plus de petites dans le coin), en plus, je pourrais même me passer de la clé USB et garder tous les jeux uniquement sur la carte mémoire !</p>
+<p>Heureusement, ce n'est pas le seul moyen, du moins pour certains jeux : <a href="https://github.com/ps2homebrew/Open-PS2-Loader" rel="noopener nofollow" target="_blank " >Open PS2 Loader</a>, l'homebrew qui exécute des jeux commerciaux à partir d'un stockage de sauvegarde (tel que des clés USB), prend en charge l'utilisation de cartes mémoire virtuelles (VMC) qui sont enregistrées sous forme de fichiers sur la clé USB. Les jeux sont assez lents à enregistrer dessus (la PS2 ne prend en charge que l'USB 1.1, et il y a en plus une charge étrange), mais c'est une solution apparemment réalisable.</p>
+<h2>Attelage 2 : Enregistrer la conversion</h2>
+<p>Quel que soit le choix précédent, je découvre cependant un autre obstacle : les sauvegardes doivent être converties pour passer de la console à l'émulateur (au moins <a href="https://aethersx2.com" rel="noopener nofollow" target=" _blank">AetherSX2</a>, pour le meilleur ou pour le pire, le seul vraiment décent à ce jour) et vice versa.<br>
+Heureusement, je trouve immédiatement <a href="http://www.csclub.uwaterloo.ca:11068/mymc" rel="noopener nofollow" target="_blank">mymc</a>, un programme si ancien qu'il nécessite Python 2 (alors que pour le moment nous sommes à 3 depuis des années et des années), qui pourtant fonctionne, et Dieu merci, il propose une interface en ligne de commande.</p>
+<p>Il n'effectue pas de véritables conversions de cartes mémoire virtuelles en soi, mais il vous permet de manipuler les fichiers contenus de différentes manières. Tout cela est très rudimentaire, mais heureusement suffisamment exploitable pour faire exactement ce dont j'ai besoin, après avoir assemblé un script idéal.<br>
+Je ne vais pas essayer d'expliquer comment ça marche, en bas de l'article on peut le télécharger et le lire, c'est ennuyeux. J'ai empaqueté mymc dans le script, afin qu'il n'ait pas besoin d'être installé séparément.</p>
+<h3>Décrochage 3 : Conversion depuis votre téléphone</h3>
+<p><em>Note 2023-10-18 : J'ai trouvé un fork moderne (en Python 3) de mymc, <a href="https://sr.ht/%7Ethestr4ng3r/mymcplus/" rel="noopener nofollow " target="_blank">mymc+</a>... Je ne l'ai pas (encore) essayé, mais il est possible que cela fonctionne également sur Android, éliminant ainsi la configuration fastidieuse qui suit, je vais donc le mentionner. </em> </p>
+<p>Malheureusement, mymc a quelques problèmes de fonctionnement sous <a href="https://termux.dev/en" rel="noopener nofollow" target="_blank">Termux</a> (l'environnement Linux natif très pratique pour ce type d'intégrations) sur mon Android : je ne sais pas ce qui est à blâmer, mais en pratique le programme a des problèmes pour lire les fichiers VMC, lançant une erreur du type <code class="prettyprint">file.vmc : Bad file descriptor< /code>. Je n'ai trouvé aucune solution en ligne, pas même pour des recherches générales sur le problème, j'ai donc dû me débrouiller. Peut-être qu'utiliser un système GNU+Linux conteneurisé en root, avec ses bibliothèques et une version différente de Python 2.7, suffirait à résoudre le problème, mais qui sait.<br>
+Pour ma part, je commençais à m'énerver, j'ai donc choisi de déléguer la conversion à mon serveur Debian, en faisant en sorte qu'un script Termux effectue la simple tâche de charger la VMC sur le serveur, d'y exécuter le script de conversion proprement dit, puis téléchargez le fichier converti au bon endroit localement.</p>
+<p>Avant d'oublier : sur Android 13 et supérieur (mais déjà sur certaines versions antérieures), les autorisations root sont nécessaires pour lire et écrire des fichiers depuis/sur des mémoires externes (comme la clé USB) et des dossiers d'applications privés (comme celui où AetherSX2 stocke les cartes mémoire virtuelles).<br>
+D'après ce que j'ai pu prouver, si vous n'avez pas root vous devrez forcément utiliser un gestionnaire de fichiers adapté (et je ne pense pas qu'il en existe de scriptables, il faudra donc utiliser vos mains), ou peut-être ADB , pour déplacer les fichiers... merci Google.<br>
+Quoi qu'il en soit, mes scripts ont écrit dans les chemins spéciaux utilisés pour tous les ambaradan.</p>
+<p>En utilisant <a href="https://wiki.termux.com/wiki/Termux:Widget" rel="noopener nofollow" target="_blank">Termux:Widget</a>, j'ai finalement ajouté deux liens vers mon lanceur de système, pour la conversion VMC :</p>
+<ul>
+<li>celui qui va du format PS2 à celui de l'émulateur, à exécuter lorsque je veux jouer sur mon téléphone mais que les sauvegardes sur la clé USB ont été modifiées en dernier lieu par la PS2 ;</li>
+<li>l'autre pour la conversion inverse, à effectuer lorsque je veux aller jouer sur PS2 une fois que l'émulateur aura mis à jour mes sauvegardes.</li>
+</ul>
+<p>Pour l'expliquer je me rends compte que cela semble très compliqué, en pratique il suffit d'appuyer sur un bouton et d'attendre quelques secondes.</p>
+<h2>En pratique : la valeur de la mémoire unique</h2>
+<p>Une fois les défauts éliminés, la configuration est faite, et son point fort réside dans la centralisation des jeux et des sauvegardes sur un seul appareil : la clé USB. Comme ceci :</p>
+<ul>
+<li>J'évite la confusion générée par les jeux que j'ai d'un côté mais pas de l'autre, notamment lorsque je souhaite modifier ma collection ;</li>
+<li>Je n'ai pas besoin d'une microSD beaucoup plus grande dans mon smartphone pour contenir tous les jeux que j'ai déjà sur une autre mémoire portable, avec des avantages pour la stabilité des autres données et le poids du portefeuille ;</li>
+<li>il n'y a pas de confusion supplémentaire pour la gestion même des sauvegardes, celles-ci étant gérées comme je l'ai déjà dit.</li>
+</ul>
+<p>Sur la PS2, je connecte normalement la clé USB lorsque j'en ai besoin, cependant sur le smartphone, je dois utiliser un adaptateur USB-C OTG, ce qui est en moyenne peu pratique mais il n'y a pas grand-chose à faire. Pour éviter de perdre ces objets, j'ai ensuite attaché un mousqueton à la clé USB et un porte-clés dans le trou pour les cordons sur la coque du téléphone.</p>
+<h2>Conclusion : idées de chaîne</h2>
+<p>Je pense que c'est le système le plus idéal compte tenu de mes conditions initiales, et dans les jours suivants je le testerai minutieusement.<br>
+Cependant, je devrai probablement me procurer une mémoire externe plus grande pour stocker plus de jeux, car celle de 32 Go que j'utilise actuellement a toujours été trop petite pour moi.</p>
+<p>Peut-être qu'en en prenant un assez grand et en écrivant un homebrew spécial, je pense pouvoir adapter mon système aux jeux Wii également, en utilisant la même mémoire pour ceux-là aussi... spoilers ? 👀</p>
+<p>Enfin, voici les ressources supplémentaires pour cet article :</p>
+<ul>
+<li>Ma question initiale et brève discussion sur le système Sony Hacking Zone : <a href="https://t.me/SonyHacking/46784" rel="noopener nofollow" target="_blank">https:/ /t. moi/SonyHacking/46784</a>;</li>
+<li>Guide d'utilisation de VMC sur OPL : <a href="https://youtube.com/watch?v=tBrKcJC_E4U" rel="noopener nofollow" target="_blank">https://youtube.com /watch ?v=tBrKcJC_E4U</a></li>
+<li>Mes scripts de conversion (sur GitLab) : <a href="https://gitlab.com/octospacc/Snippets/-/blob/main/Ps2EmuVmcConvert.sh" rel="noopener nofollow" target="_blank "> direct</a>, <a href="https://gitlab.com/octospacc/Snippets/-/blob/main/Ps2EmuVmcConvertCloud.sh" rel="noopener nofollow" target="_blank">via le serveur< /a >;</li>
+<li>version Android d'AetherSX2 avec laquelle je joue (dernière version sans logiciel publicitaire) : <a href="https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/aethersx2-v1 -4 -3060-android-apk-download/" rel="noopener nofollow" target="_blank">https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/ aethersx2- v1-4-3060-android-apk-download/</a>.</li>
+</ul>
+<div class="footnotes">
+<ol>
+<li id="fn1">
+<p>Sur cette question, je trouve des avis contradictoires ou des conseils peu clairs, alors soyez prudent : il n'est pas clair si ces adaptateurs fonctionnent également comme des cartes mémoire normales pour sauvegarder des jeux (et donc éventuellement aussi comme une carte FMCB), ou seulement comme mémoire externe pour les homebrews comme OPL... en tout cas ce serait un achat potentiellement valable, compte tenu des inconvénients techniques de l'USB sur PS2. <a href="#fnref1">↩</a></p>
+</li>
+</ol>
+</div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Ce qu&#39;il y a ici</p>
+      <nav id="TableOfContents"></nav>
+  </div>
+
+
+
+
+</aside>
+
+    
+
+
+
+
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=http%3a%2f%2fhttp.sitoctt.octt.eu.org%2f&pageSlug=%2ffr%2fnote%2f2023-10-17-2%25EF%25B8%258F%25E2%2583%25A3-Gaming-synchronis%25C3%25A9-entre-PlayStation-2-et-smartphone%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="fr"
+        crossorigin="anonymous"
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/fr/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="10-site"><h4>About this site</h4>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://sitoctt.octt.eu.org/offline.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="20-me"><h4>Myself and my essence</h4>
+  <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="30-thanks"><h4>Made thanks to</h4>
+  <a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="50-fun"><h4>Other things</h4></div><div>
+
+
+  <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.wikipedia.org" rel="nofollow" target="" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.mozilla.org/it/firefox" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.torproject.org/it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://ublockorigin.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+
+  <a href="https://kernel.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.onworks.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.haiku-os.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://jointhefediverse.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://matrix.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.vocaloid.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+</div><div>
+
+
+  <a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <a href="https://www.defectivebydesign.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://fmhy.pages.dev" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" decoding="async" />
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" decoding="async" />
+
+
+
+</div>
+</div>
+</footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://http.sitoctt.octt.eu.org/fr/"
+  style="word-break:break-word; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Cerca... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+
+  </body>
+</html>

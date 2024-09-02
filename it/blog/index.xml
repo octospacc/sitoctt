@@ -149,13 +149,6 @@
       <description>Questo articolo si può probabilmente considerare come il primo di una serie sulla filosofia del sitoctt, se così vogliam dire.&#xA;Per iniziare, di cosa è meglio parlare, se non di tutto ciò che ha portato alla nascita del sito e ha iniziato a caratterizzarlo?&#xA;Quando, ormai ben 3 mesi fa, avevo iniziato appena a concepire il sitoctt, una delle cose che sentivo era di non avere un posto in cui disporre la mia roba - quella da preservare e condividere pubblicamente, almeno - in un modo che la rendesse ordinata, disponibile, guardabile, utilizzabile, e a prova di perdita.</description>
     </item>
     <item>
-      <title>Gli inaspettati vantaggi della chiavetta Linux</title>
-      <link>http://http.sitoctt.octt.eu.org/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</link>
-      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</guid>
-      <description>Una cosa che ho fatto mesi fa e che, fino ad ora, si è rivelata una scelta vincente, è stata l&amp;rsquo;installare un sistema operativo basato su Linux, in modalità persistente, su una piccola pennina USB.&#xA;I motivi per cui ho voluto farlo inizialmente sono forse semplici e banali, ma la cosa mi ha fatto avere, in attenta analisi, alcuni vantaggi inaspettati e molto più che graditi.&#xA;Perché serviva la pennetta? La necessità iniziale della chiavina scaturì mesi fa dal fatto che, in aula di informatica a scuola, dovevo, come tutti, accedere al mio account GSuite per accedere alla classe virtuale di informatica.</description>
-    </item>
-    <item>
       <title>👾 L&#39;emulazione NDS, Google Play, e una storia oscura</title>
       <link>http://http.sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
@@ -203,6 +196,13 @@
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/blog/2022-06-03-%EF%B8%8F-Come-e-perch%C3%A9-il-sitoctt-su-Tor/</guid>
       <description>In questi giorni ho sistemato i primi affari riguardanti il rendere disponibile il sitocto sulla rete Tor. C&amp;rsquo;è chi mi definirà esagerata anche soltanto per aver avuto il pensiero di fare una cosa del genere, ma c&amp;rsquo;è poco da fare.&#xA;Se nulla è andato storto, il servizio Onion è ancora raggiungibile a questo indirizzo: onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.onion{: style=&amp;lsquo;Color:#a060c0;&amp;rsquo; } sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion1.&#xA;L&amp;rsquo;idea - apparentemente riuscita - è stata quella di utilizzare un servizio PaaS gratuito, Replit, per fare il tutto.</description>
+    </item>
+    <item>
+      <title>Gli inaspettati vantaggi della chiavetta Linux</title>
+      <link>http://http.sitoctt.octt.eu.org/it/blog/2022-05-07-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/blog/2022-05-07-Gli-inaspettati-vantaggi-della-chiavetta-Linux/</guid>
+      <description>Una cosa che ho fatto mesi fa e che, fino ad ora, si è rivelata una scelta vincente, è stata l&amp;rsquo;installare un sistema operativo basato su Linux, in modalità persistente, su una piccola pennina USB.&#xA;I motivi per cui ho voluto farlo inizialmente sono forse semplici e banali, ma la cosa mi ha fatto avere, in attenta analisi, alcuni vantaggi inaspettati e molto più che graditi.&#xA;Perché serviva la pennetta? La necessità iniziale della chiavina scaturì mesi fa dal fatto che, in aula di informatica a scuola, dovevo, come tutti, accedere al mio account GSuite per accedere alla classe virtuale di informatica.</description>
     </item>
     <item>
       <title>Archivi MicroBlog di Settembre 2019</title>

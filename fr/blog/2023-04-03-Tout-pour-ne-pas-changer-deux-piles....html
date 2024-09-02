@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang=""><!--
+    {{- $canonicalBase := site.Params.canonicalUrlOverride -}}
+    {{- $canonicalUrl := (or
+      (and
+        $canonicalBase
+        (printf "%s%s"
+          $canonicalBase 
+          (relURL .Permalink)))
+      .Permalink) -}}
+  -->
+  <head>
+    <title>./2023-04-03-Tout-pour-ne-pas-changer-deux-piles.../</title>
+    <link rel="canonical" href="{{ $canonicalUrl }}" />
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=./2023-04-03-Tout-pour-ne-pas-changer-deux-piles.../" />
+  </head>
+</html>

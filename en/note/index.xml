@@ -6,20 +6,27 @@
     <description>Recent content in Notes on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>🌽 Compile and install the Linux kernel from source</title>
+      <link>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;It&#39;s not often that new ideas come to mind, but when they do, they&#39;re always just the right amount of bizarre... Without digressing too much, it&#39;s precisely because of this development of things that years ago, for the first time, I found myself compiling the Linux kernel from source — on a Raspberry Pi 3 among other things, which in hindsight I wouldn&#39;t recommend — and now, precisely yesterday, again another time, after years (this time on the PC, luckily ), for a purpose that I won&#39;t spoil.</description>
+    </item>
+    <item>
       <title>2️⃣ Gaming synchronized between PlayStation 2 and smartphone</title>
-      <link>http://http.sitoctt.octt.eu.org/en/note/2023-10-18-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</link>
-      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/note/2023-10-18-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</guid>
-      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;2️⃣ Synchronized gaming between PlayStation 2 and smartphone Those who have been following my adventures for long enough and with due attention perhaps know this, but the biggest problem in computer science is: how to properly reconcile the discrepancies that are created when we face the problem of playing video games both at home than in portability?</description>
+      <link>http://http.sitoctt.octt.eu.org/en/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Those who have been following my adventures for long enough and with due attention perhaps know this, but the biggest problem in computer science is: how to properly reconcile the discrepancies that are created when we face the problem of playing video games both at home than in portability?</description>
     </item>
     <item>
       <title>Check interesting statistics and health of partitions on Linux</title>
-      <link>http://http.sitoctt.octt.eu.org/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/</guid>
+      <link>http://http.sitoctt.octt.eu.org/en/note/2022-08-09-Check-interesting-statistics-and-health-of-partitions-on-Linux/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/note/2022-08-09-Check-interesting-statistics-and-health-of-partitions-on-Linux/</guid>
       <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Storage memories, whatever their category, degrade with wear.&#xA;Nothing can be done to avoid having to change them, sooner or later, after so many years. However, it is possible to keep an eye on their health status, in order to identify any problems.&#xA;When it comes to HDD or SSD disks, the [SMART] protocol (https://en.</description>
     </item>
   </channel>

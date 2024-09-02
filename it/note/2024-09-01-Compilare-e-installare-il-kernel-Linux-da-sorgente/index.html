@@ -6,7 +6,7 @@
     
     <title>🌽 Compilare e installare il kernel Linux da sorgente | ✨sitoctt✨</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.">
+    <meta name="description" content="Indicazioni generali su come si compila Linux per computer generici, utile per risolvere problemi o ottenere funzionalità speciali.">
     <meta name="generator" content="Hugo 0.133.0">
     
     
@@ -51,7 +51,7 @@
     <meta property="og:url" content="http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/">
   <meta property="og:site_name" content="✨sitoctt✨">
   <meta property="og:title" content="🌽 Compilare e installare il kernel Linux da sorgente">
-  <meta property="og:description" content="Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.">
+  <meta property="og:description" content="Indicazioni generali su come si compila Linux per computer generici, utile per risolvere problemi o ottenere funzionalità speciali.">
   <meta property="og:locale" content="it">
   <meta property="og:type" content="article">
     <meta property="article:section" content="note">
@@ -59,14 +59,14 @@
     <meta property="article:modified_time" content="2024-09-01T00:00:00+00:00">
 
   <meta itemprop="name" content="🌽 Compilare e installare il kernel Linux da sorgente">
-  <meta itemprop="description" content="Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.">
+  <meta itemprop="description" content="Indicazioni generali su come si compila Linux per computer generici, utile per risolvere problemi o ottenere funzionalità speciali.">
   <meta itemprop="datePublished" content="2024-09-01T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-09-01T00:00:00+00:00">
-  <meta itemprop="wordCount" content="2146">
+  <meta itemprop="wordCount" content="2211">
   <meta itemprop="keywords" content="Linux">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="🌽 Compilare e installare il kernel Linux da sorgente">
-  <meta name="twitter:description" content="Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.">
+  <meta name="twitter:description" content="Indicazioni generali su come si compila Linux per computer generici, utile per risolvere problemi o ottenere funzionalità speciali.">
 
       
   
@@ -74,6 +74,8 @@
 
     
 	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/"/>
+
+  <meta property="og:image" content="http://http.sitoctt-assets.octt.eu.org/public/Media/Decor/dall-e_44be7d57-5b1d-44ff-bf54-421d95165b5f.jpeg" />
 
 
   </head>
@@ -84,8 +86,9 @@
    
   
 
-  <header id="!/header">
-    <div class="bg-black" style="background-color: #330066;">
+  
+  <header id="!/header" class="cover bg-top" style="background-image: url('http://http.sitoctt-assets.octt.eu.org/public/Media/Decor/dall-e_44be7d57-5b1d-44ff-bf54-421d95165b5f.jpeg');">
+    <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="http://http.sitoctt.octt.eu.org/it/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
@@ -106,6 +109,19 @@
     </div>
     <div class="flex-l items-center">
       
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/"><span>fr</span><span>🇫🇷️</span></a>
+    </li>
+    
+</ul>
+
 
       
         <ul class="pl0 mr3">
@@ -139,6 +155,16 @@
   </div>
 </nav>
 
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">🌽 Compilare e installare il kernel Linux da sorgente</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Indicazioni generali su come si compila Linux per computer generici, utile per risolvere problemi o ottenere funzionalità speciali.
+            </div>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -185,29 +211,32 @@
       
       
         <span> - 11 minuti di lettura </span>
-        <span> - 2146 parole </span>
+        <span> - 2211 parole </span>
       
       </div>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><!-- Autogenerated by ListedDownsync.js. Do not edit (unless also set "% Downsync = False") - it would be overwritten. -->
-<p>Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l'altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un'altra volta dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.</p>
-<h2>Perché ricompilare il kernel?</h2>
-<p>Linux si basa su un'architettura monolitica, cosa che ci riguarderebbe poco... se non fosse per il fatto che ha un'implicazione scomoda: qualsiasi funzione che lavora a livello di kernel deve essere compilata nello stesso. Anche il meccanismo dei cosidetti moduli non copre tutte le situazioni possibili (almeno non a livello pratici), e ci si può quindi trovare in delle situazioni in cui il kernel fornito dalla distribuzione (o dal produttore hardware), anche se aggiornato, non ha qualcosa che serve, e quindi va sostituito.</p>
-<p>Considerando le varietà infinite di distribuzioni Linux, repository che distribuiscono kernel compatibili o meno, e unendo ciò alla diversità di singole opzioni abilitabili nella compilazione del kernel... non solo in rari casi la compilazione da sorgente è l'unica via, ma spesso e volentieri è quella più pratica. Per fortuna, compilare il kernel Linux è molto semplice — decisamente di più dell'applicazione media per il desktop Linux, con tremila dipendenze sempre in conflitto — ma ci sono dettagli magari non proprio immediati nel procedimento, quindi... ecco la mia nota!</p>
-<h2>0. Partenza e prerequisiti</h2>
+<p>Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l'altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un'altra volta, dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.</p>
+<h2>Perché ricompilare il kernel? 😯️</h2>
+<p>Linux si basa su un'architettura monolitica, cosa che ci riguarderebbe poco... se non fosse per il fatto che ha un'implicazione scomoda: qualsiasi funzione che lavora a livello di kernel deve essere compilata nello stesso. Anche il meccanismo dei cosiddetti moduli non copre tutte le situazioni possibili (almeno non a livello pratico), e ci si può quindi trovare in delle situazioni in cui il kernel fornito dalla distribuzione (o dal produttore hardware), anche se aggiornato, non ha qualcosa che serve, e quindi va sostituito.</p>
+<p>Considerando le varietà infinite di distribuzioni Linux, repository che distribuiscono kernel compatibili o meno, e unendo ciò alla diversità di singole opzioni abilitabili nella compilazione del kernel... non solo in rari casi la compilazione da sorgente è l'unica via, ma spesso e volentieri è quella più pratica. Per fortuna, compilare il kernel Linux è molto semplice — decisamente di più dell'applicazione media per il desktop Linucs, con tremila dipendenze sempre in conflitto — ma ci sono dettagli magari non proprio immediati nel procedimento, quindi... ecco la mia nota!</p>
+<h2>0. Partenza e prerequisiti 📦️</h2>
 <p>Questa nota è sulla più generica ricompilazione del kernel Linux, cioè la variante ufficiale (quella di Linus Torvalds) su e per un PC desktop x86_64 (o AMD64). Niente fork o varianti patchate, niente versioni di OEM scassacose, niente installazione su dispositivi embedded o in qualunque altra misura esoterici, niente compilazione distribuita o cross-platform. Per casi più o meno limite, le cose da fare possono più o meno variare, anche se l'andazzo rimane lo stesso... vedete voi dai, il punto è che io assumo questa situazione. Nel mio caso, non ci sono nemmeno moduli kernel proprietari.</p>
 <p>A parte eventuali strumenti preferiti per ottenere il kernel, nel caso scompattarlo, e qualche distrazione per passare il non poco tempo, i prerequisiti sono abbastanza ridotti. Come minimo serve un compilatore C (gcc) per motivi ovvi, GNU Make per eseguire i makefile, qualche tool assortito dal nome dimenticabile e qualche libreria super-specifica dall'interesse limitato. Poi, credo possano servire altri pacchetti, dipendentemente dalla distribuzione Linux in uso o dalle funzionalità che si devono compilare.</p>
 <p>Non è in realtà chiarissimo sul web quali sono i pacchetti davvero necessari, e quali quelli che qualcuno che ha fatto altre guide ha detto "boh, mettiamo per sicurezza"... aggiorno qui con dei listini precisi man mano che verifico, includendo se necessario anche dei listoni eccessivi (per chi è a posto con il perdere lo spazio ma non il tempo). Per me è in genere una strategia installare il minimo possibile quando qualche requisito non è chiaro, avviare la compilazione, ed installare le altre eventuali dipendenze man mano che escono errori a riguardo.</p>
+<p>Debian e derivate (<code class="prettyprint">apt</code>):</p>
 <ul>
-<li>Debian e derivate (<code class="prettyprint">apt</code>): <code class="prettyprint">build-essential libelf-dev</code> (obbligatori); <code class="prettyprint">ncurses-dev</code> (per usare la configurazione a menu TUI).</li>
+<li><code class="prettyprint">build-essential</code> <code class="prettyprint">libelf-dev</code> (obbligatori)</li>
+<li><code class="prettyprint">ncurses-dev</code> (per usare la configurazione a menu TUI)</li>
 </ul>
-<h2>1. Ottenimento del codice</h2>
+<h2>1. Ottenimento del codice ⛓️</h2>
 <p>Il codice sorgente di Linux si può prendere ufficialmente <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git" rel="noopener nofollow" target="_blank">dal Git principale</a>, <a href="https://github.com/torvalds/linux" rel="noopener nofollow" target="_blank">dal GitHub di Torvalds</a>, o <a href="https://kernel.org" rel="noopener nofollow" target="_blank">dal sito Kernel.org</a>. Preferisco l'ultima opzione, che ha le ultime versioni effettivamente necessarie messe belle in vista, fino al più vecchio branch supportato.</p>
 <p>Di versioni supportate in un dato momento, appunto, ce ne sono diverse. In genere, se non c'è motivo di installare un kernel vecchio, uno più nuovo è meglio; non troppo nuovo, però, perché a vivere sul bleeding edge si perde sangue, con gli occasionali problemi anche gravi che possono saltare fuori! Quindi, evito il branch <code class="prettyprint">mainline</code>, aggiornato giornalmente o quasi, come la peste, e in genere scelgo <code class="prettyprint">stable</code>, aggiornato con un po' di giorni in più. Altri utenti potrebbero legittimamente preferire la <code class="prettyprint">longterm</code> più recente (quella più in alto), per avere ancora più stabilità, ma io lo trovo inutile.</p>
-<p>Per la riga di ogni versione, a parte la data, quello che interessa è il link [tarball], quindi si scarica quel file lì. Lo si può poi estrarre in una cartella comoda, tra i tanti modi, con il comando <code class="prettyprint">tar xvf &lt;file&gt;</code>.</p>
-<p>...Bisognerebbe scaricare poi anche il file pgp, quando presente, che serve a verificare che il download sia integro e che provenga dai distributori legittimi. Realisticamente, però, già non tutte le versioni lo hanno (stando a sottintendere che sotto sotto...), il download si fa dal sito ufficiale con HTTPS (quindi difficile sarà alterato), è un archivio compresso (quindi se corrotto dovrebbe fallire l'estrazione), e in tutto ciò è una rottura di scatole allucinante. Altri enti avranno requisiti di sicurezza più alti, ma per gli utenti privati francamente è solo noia, io non lo faccio, non mi freca.</p>
-<h2>2. Configurazione del kernel</h2>
+<p>Per la riga di ogni versione, a parte la data, quello che interessa è il link [tarball], quindi si scarica quel file lì. Lo si può poi estrarre in una cartella comoda, tra i tanti modi, con il comando <code class="prettyprint">tar xvf &lt;file&gt;</code>. Tutti i comandi da eseguire da questo punto saranno all'interno della cartella preparata.<br>
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Linux-Kernel/2024-09-02-kernel.org.png" alt="kernel.org"></p>
+<p>...Bisognerebbe scaricare poi anche il file PGP, quando presente, che serve a verificare che il download sia integro e che provenga dai distributori legittimi. Realisticamente, però, già non tutte le versioni lo hanno (stando a sottintendere che sotto sotto...), il download si fa dal sito ufficiale con HTTPS (quindi difficile sarà alterato), è un archivio compresso (quindi se corrotto dovrebbe fallire l'estrazione), e fare la verifica è una rottura di scatole allucinante. Altri enti avranno requisiti di sicurezza più alti, ma per gli utenti privati francamente è solo noia, io non lo faccio, non mi freca.</p>
+<h2>2. Configurazione del kernel 🔩️</h2>
 <p>Configurare il kernel è la parte più intricata... perché non si può eseguire comandi per inerzia, ma bisogna <em>scegliere</em> quello che effettivamente serve per, beh, avere il kernel con le opzioni bone. Ci sono, come accennato, infinite configurazioni, e diversi modi di usarle. Il punto principale è che c'è un file di testo enorme, con varie opzioni (principalmente booleane), che si può modificare.</p>
 <p>Modificare quel coso a mano è da pazzi, però, perché esistono degli strumenti basati su menu ordinati, previsti nel processo di build, per gestire le varie possibilità. Anche qui, mezzo casino, ma la scelta è principalmente tra due programmi rispettivamente TUI e GUI, invocabili rispettivamente con <code class="prettyprint">make menuconfig</code> e <code class="prettyprint">make xconfig</code>. Io preferisco <code class="prettyprint">xconfig</code> per comodità e, seppure ho usato in passato la configurazione a menu curses, ed è per me abbastanza intuitiva, a quanto pare per molti non lo è... e il come si usi quel menu non è argomento di oggi.</p>
 <table><thead>
@@ -219,38 +248,43 @@
 <td><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Linux-Kernel/menuconfig.png" alt="menuconfig"></td>
 </tr>
 <tr>
-<td>vs</td>
-</tr>
-<tr>
 <td><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Linux-Kernel/xconfig.png" alt="xconfig"></td>
 </tr>
 </tbody></table>
 <p>Se non si fa altro, la configurazione che si va a modificare è quella predefinita del kernel come sta venendo sviluppato. Io non ho mai avuto problemi usando quella come base, ma, qualora ce ne fosse bisogno, oltre che quelle condivise da altri utenti, si può usare quella della distribuzione corrente. In base a come il sistema espone la configurazione del kernel, la si può (in genere) leggere con <code class="prettyprint">cat /boot/config-$(uname r)</code>, <code class="prettyprint">cat /boot/config</code>, o <code class="prettyprint">zcat /proc/config.gz</code>. Basta scriverla (<code class="prettyprint">&gt;</code>) sul file <code class="prettyprint">./.config</code> per applicarla alla configurazione corrente.</p>
 <p>Io in questo caso volevo attivare il supporto al nuovo driver NTFS, quindi in xconfig premo CTRL+F, cerco "ntfs3" e imposto su (Y)es l'opzione che parla di "NTFS Read/Write <em>something something</em>"; poi, salvo la configurazione, chiudo, e... ho finito, incredibile.</p>
-<h2>3. Compilazione del codice</h2>
+<h2>3. Compilazione del codice 🧑‍🍳️</h2>
 <p>Con la compilazione, è il momento della noia, perché bisogna dare al computer semplicemente il tempo di macinare milioni (!) di righe di codice. Bene non va, ma almeno non è la fine del mondo: su qualunque PC non proprio scassone bisognerebbe farcela in meno di 4 ore. Sul Raspberry Pi 3 mi impiegò una giornata e mezza con la CPU a temperature nucleari (e anche per questo lo sconsiglio...), ma sul mio PC (Ryzen 3 3200G, 16 GB di RAM di cui pochi occupati dalla compilazione, su un SSD di fascia bassa) mi pare di aver impiegato 3 ore scarse a compilare la versione 6.10.7.</p>
-<p>Bisogna semplicemente eseguire <code class="prettyprint">make</code>, e Linuc si farà da solo, viva la magia! Meglio ancora, <code class="prettyprint">make -j$(nproc)</code> per usare tutti i core CPU disponibili... La manciata di ore, dovrei precisare, è misurata rispetto a questo, altrimenti sarebbe mezza giornata, dato che il mio PC ha 4 core; potrebbe fare molto prima avendo più core, perché può compilare ancora più file in parallelo efficacemente.</p>
+<p>Bisogna semplicemente eseguire <code class="prettyprint">make</code>, e Linucs si farà da solo per l'architettura CPU corrente, viva la magia! Meglio ancora, <code class="prettyprint">make -j$(nproc)</code> per usare tutti i core CPU disponibili... La manciata di ore, dovrei precisare, è misurata rispetto a questo, altrimenti sarebbe mezza giornata, dato che il mio PC ha 4 core; potrebbe fare molto prima avendo più core, perché può compilare ancora più file in parallelo efficacemente.</p>
 <p>Almeno nei primi minuti, è bene tenere d'occhio il terminale, per vedere se si verifica qualche errore e la compilazione si arresta. A me errori assurdi non sono mai capitati, ma, come ho detto, se non si installano tutte le dipendenze, potrebbe uscire qualcosa di relativo a quelle... in tal caso, si installa quello che manca (facendo riferimento alla propria distribuzione), e si continua con il comando di prima.</p>
-<p>Dipendentemente dalla configurazione, servirà avere più o meno spazio su disco per completare. Nel mio caso, alla fine della compilazione la cartella è arrivata a pesare ~25 GB, quindi è bene o assicurarsi di avere abbastanza spazio, oppure controllare di tanto in tanto che questo non stia finendo. E se finisce durante il processo, semplicemente si libera spazio e si continua, anche in questo caso, come prima. (A patto che non vi si corrompa il file system solo per l'essersi riempito al 100%, vero BTRFS?)</p>
-<h2>4. Installazione di kernel e moduli</h2>
+<p>Dipendentemente dalla configurazione, servirà avere più o meno spazio su disco per completare la compilazione. Mentre il kernel di per sé non pesa mai più di qualche MB (e i moduli qualche decina di MB), la cartella alla fine della fiera mi è arrivata a pesare ~22 GB, quindi è bene o assicurarsi di avere abbastanza spazio, oppure controllare di tanto in tanto che questo non stia finendo. E se finisce durante il processo, semplicemente si libera spazio e si continua, anche in questo caso, come prima. (A patto che non vi si corrompa il file system solo per l'essersi riempito al 100%, vero BTRFS?)</p>
+<h2>4. Installazione di kernel e moduli 🏗️</h2>
 <p>Per compilare il kernel non sono necessari permessi di root, il che è comodo nel caso si voglia temporaneamente rubare il computer più potente di qualcun altro per fare il lavoro... ma, per installare, quelli ovviamente servono sul sistema corrente.</p>
 <p>Qui è non solo semplice, ma anche abbastanza veloce (massimo qualche minuto): eseguendo (come root) prima <code class="prettyprint">make install</code>, e poi <code class="prettyprint">INSTALL_MOD_STRIP=1 make install_modules</code>, verranno installati nei percorsi appropriati, rispettivamente (ammesso di non aver cambiato i nomi): l'immagine kernel (<code class="prettyprint">vmlinuz-x.x.x-...</code>), di solito in <code class="prettyprint">/boot</code> e i moduli, di solito in <code class="prettyprint">/lib/modules/linux-x.x.x-...</code>. I moduli sono file separati dal kernel, perché vengono caricati dal sistema quando necessario... il punto è che alcuni tra i tanti servono a completare il boot, quindi vanno installati.</p>
-<p>Bisogna anche preparare il cosiddetto file system di init, o ramdisk iniziale; normalmente finisce anch'esso in <code class="prettyprint">/boot</code>, sotto il nome di <code class="prettyprint">initrd.img-x.x.x-...</code>. E questo passaggio sarebbe abbastanza scomodo se non esistesse <code class="prettyprint">kernel-install</code>, script incluso con systemd, o la sua alternativa <code class="prettyprint">installkernel</code>. Avendo systemd, almeno il primo dovrebbe già essere installato, e in quel caso (assumendo i nomi di prima) basta fare (come root) <code class="prettyprint">kernel-install add x.x.x-... /boot/vmlinuz-x.x.x-...</code>; alternativamente, con il secondo, <code class="prettyprint">installkernel x.x.x-... /boot/vmlinuz-x.x.x-...</code>.</p>
+<p>Bisogna anche preparare il cosiddetto file system di init, o ramdisk iniziale; normalmente finisce anch'esso in <code class="prettyprint">/boot</code>, sotto il nome di <code class="prettyprint">initrd.img-x.x.x-...</code>. E questo passaggio sarebbe abbastanza scomodo se non esistesse <code class="prettyprint">kernel-install</code>, script incluso con systemd, o la sua alternativa <code class="prettyprint">installkernel</code>. Avendo systemd, almeno il primo dovrebbe già essere installato, e in quel caso (assumendo i nomi di prima) basta fare (come root) <code class="prettyprint">kernel-install add x.x.x-... /boot/vmlinuz-x.x.x-...</code>; alternativamente, con il secondo, <code class="prettyprint">installkernel x.x.x-... /boot/vmlinuz-x.x.x-...</code>.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a></sup></p>
 <p>Nota: chi sviluppa col kernel (non chi sta leggendo questo post, temo) potrebbe voler non settare la variabile d'ambiente <code class="prettyprint">INSTALL_MOD_STRIP=1</code>, perché debuggare senza i simboli di debug, che quella flag toglie, è difficile... ma per utenti comuni mortali come me sprecano solo spazio (tant'è che le distribuzioni li pacchettizzano a parte). Inoltre, chi non necessariamente sviluppa col kernel, ma deve compilare moduli esterni o fare altri magheggi, dovrebbe realisticamente anche installare i file header corrispondenti sul sistema: <code class="prettyprint">make headers_install</code> (sempre come root).</p>
 <p>Almeno su distribuzioni "complete", <code class="prettyprint">make install</code> e poi <code class="prettyprint">kernel-install</code> dovrebbero aver già configurato anche il bootloader, almeno avendo GRUB. Nel caso di distribuzioni, per così dire, "più fai-da-te" (che io non uso, <em>btw</em>), così come configurazioni di avvio più insolite... non è il caso mio, quindi non so nulla, e non dirò nulla. Le configurazioni di avvio sono una bestia per un'altra volta.</p>
-<h2>5. Prova del nocciolo</h2>
+<h2>5. Prova del nocciolo 💥️</h2>
 <p>Se il kernel è installato, e il bootloader è stato correttamente configurato, allora basta semplicemente riavviare il computer per godere. È bene ricordare che, nel caso si stia usando GRUB, certi dicono che il nuovo kernel non viene selezionato come predefinito, e bisogna sceglierlo a mano dal menu di avvio... ma nel mio caso, su Linux Mint Debian Edition, mi è sembrato che invece fosse stato proprio impostato come default.</p>
 <p>Ancora, se, ringraziando il pinguinone, il sistema alla fine parte, basta usare il comando <code class="prettyprint">uname -r</code> per controllare la versione del kernel in esecuzione. A questo punto, è bene verificare che la configurazione <em>desiderata</em> stia effettivamente funzionando... ma il come fare ciò cambia da funzionalità a funzionalità, caso per caso. Per confermare quantomeno che la configurazione <em>specificata</em> ci sia, basta controllare la configurazione del kernel corrente come al punto 2.</p>
 <p>A questo punto, nel caso funzioni tutto e non servano altre modifiche, si può anche cancellare l'enorme cartella di compilazione, e il kernel rimarrà. Nel caso si dovesse in futuro anche disinstallare il kernel, basta cancellare normalmente i file installati prima, e riconfigurare il bootloader in modo appropriato.</p>
-<h2>Conclusione</h2>
+<h2>Conclusione 🎊️</h2>
 <p>Poter compilare il kernel dal codice sorgente è un'altra di quelle cose che noi utenti Linux possiamo fare, e che gli utenti Windows francamente <strong>non</strong> ci invidiano. Ma è perché a loro piace vincere facile, col loro NT, basato su un design a microkernel... proprio così, ora che il punto dell'articolo è finito posso dire scemenze a ruota come piace a me.</p>
-<p>Copium a parte, compilare Linux può essere qualcosa di divertente da fare almeno una volta. Se si capita in situazioni scomode come me va fatto, c'è poco da fare; però, se volete semplicemente divertirvi in modo stupido, magari una delle tante cose da poter fare è compilare un kernel ultra-specifico e super-ottimizzato per la propria macchina, o per una macchina virtuale. E certo, consuma un po' di energia, ma mai quanto minare criptovalute o renderizzare missili nucleari in Blender!</p>
+<p>Copium a parte, compilare Linux può essere qualcosa di divertente da fare almeno una volta. Se si capita in situazioni scomode come me va fatto, c'è poco da fare; però, se ci si vuole semplicemente divertire in modo stupido, magari una delle tante cose da poter fare è compilare un kernel ultra-specifico e super-ottimizzato per la propria macchina, o per scopi di virtualizzazione. E, certo, consuma un po' di energia, ma mai quanto minare criptovalute o renderizzare missili nucleari in Blender!</p>
 <h2>🏷️ Note e Riferimenti</h2>
+<p><em>L'immagine decorativa di copertina è ottenuta tramite <a href="https://www.bing.com/images/create/beach-with-sand-and-rocks2c-computer-chips-and-wire/1-66d5a1ef220c4fae8bd786e10b88ae1e?id=Rt9hCy8E%2Fg%2BZK8rWhgwIPQ%3D%3D&amp;view=detailv2&amp;idpp=genimg" rel="noopener nofollow" target="_blank">l'intelligenza artificiale generativa di Microsoft</a>.</em></p>
 <ul>
+<li>The kernel build system: <a href="https://www.kernel.org/doc/html/v6.6/kbuild/index.html" rel="noopener nofollow" target="_blank">https://www.kernel.org/doc/html/v6.6/kbuild/index.html</a></li>
 <li>A Guide to Compiling the Linux Kernel All By Yourself: <a href="https://itsfoss.com/compile-linux-kernel/" rel="noopener nofollow" target="_blank">https://itsfoss.com/compile-linux-kernel/</a></li>
 <li>Building and Installing Custom Linux Kernels (Rocky Linux): <a href="https://docs.rockylinux.org/guides/custom-linux-kernel/" rel="noopener nofollow" target="_blank">https://docs.rockylinux.org/guides/custom-linux-kernel/</a></li>
-<li>Installkernel/kernel-install (Gentoo Linux): <a href="https://wiki.gentoo.org/wiki/Installkernel" rel="noopener nofollow" target="_blank">https://wiki.gentoo.org/wiki/Installkernel</a></li>
 </ul>
+<div class="footnotes">
+<ol>
+<li id="fn1">
+<p>Installkernel e kernel-install (Gentoo Linux): <a href="https://wiki.gentoo.org/wiki/Installkernel" rel="noopener nofollow" target="_blank">https://wiki.gentoo.org/wiki/Installkernel</a>&nbsp;<a href="#fnref1">↩</a></p>
+</li>
+</ol>
+</div>
 <ul class="pa0">
   
 </ul>
@@ -319,6 +353,10 @@
 
 
   <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
 
 
 

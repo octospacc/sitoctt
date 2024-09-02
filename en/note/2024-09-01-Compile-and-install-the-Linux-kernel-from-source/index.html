@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>🌽 Compile and install the Linux kernel from source | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="General information on how to compile Linux for general purpose computers, useful for solving problems or obtaining special features.">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="http://http.sitoctt.octt.eu.org/ananke/css/main.min.b209f92c580998ed00116e244d5696d7b17e1f4d8833222d70e95784ea913c6c.css" >
+
+
+
+
+<style>
+.Pixelated, .Pixelated * { image-rendering: pixelated; }
+</style>
+
+    <script> window.Void = (function Void(){}); </script>
+<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/en/searchindex.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
+
+
+    
+      
+<link rel="shortcut icon" href="http://http.sitoctt.octt.eu.org/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/">
+    
+
+    <meta property="og:url" content="http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="🌽 Compile and install the Linux kernel from source">
+  <meta property="og:description" content="General information on how to compile Linux for general purpose computers, useful for solving problems or obtaining special features.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="note">
+    <meta property="article:published_time" content="2024-09-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-01T00:00:00+00:00">
+
+  <meta itemprop="name" content="🌽 Compile and install the Linux kernel from source">
+  <meta itemprop="description" content="General information on how to compile Linux for general purpose computers, useful for solving problems or obtaining special features.">
+  <meta itemprop="datePublished" content="2024-09-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-09-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2304">
+  <meta itemprop="keywords" content="Linux">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="🌽 Compile and install the Linux kernel from source">
+  <meta name="twitter:description" content="General information on how to compile Linux for general purpose computers, useful for solving problems or obtaining special features.">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/"/>
+
+  <meta property="og:image" content="http://http.sitoctt-assets.octt.eu.org/public/Media/Decor/dall-e_44be7d57-5b1d-44ff-bf54-421d95165b5f.jpeg" />
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
+    
+   
+  
+
+  
+  <header id="!/header" class="cover bg-top" style="background-image: url('http://http.sitoctt-assets.octt.eu.org/public/Media/Decor/dall-e_44be7d57-5b1d-44ff-bf54-421d95165b5f.jpeg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://http.sitoctt.octt.eu.org/en/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 f6 tc bg-transparent moon-gray ba b--solid b--moon-gray"
+               type="text" name="_query[]" required="required" placeholder="No-JS Search... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="f6 bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Search 🔎️" />
+        </div>
+      </form>
+    </div>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/"><span>it</span><span>🇮🇹✨️</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/"><span>fr</span><span>🇫🇷️</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/miscellanea/" title="Miscellany page">
+              Miscellany
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/note/" title="Notes page">
+              Notes
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">🌽 Compile and install the Linux kernel from source</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              General information on how to compile Linux for general purpose computers, useful for solving problems or obtaining special features.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Notes
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">🌽 Compile and install the Linux kernel from source</h1>
+      
+      <p class="tracked">
+        By <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2024-09-01T00:00:00Z">September 1, 2024</time>
+      
+
+      
+      
+        <span> - 11 minutes read </span>
+        <span> - 2304 words </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info, .notice.caution {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.danger, .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info, .notice.caution {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.danger, .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info, body.dark .notice.caution {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.danger, body.dark .notice.danger {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice caution" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
+</svg>
+
+        </span>Caution</p><p>The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.</p></div>
+<style> .notranslate[data-lang="it"] { display: none; } </style>
+<!-- Autogenerated by ListedDownsync.js. Do not edit (unless also set "% Downsync = False") - it would be overwritten. -->
+<p>It's not often that new ideas come to mind, but when they do, they're always just the right amount of bizarre... Without digressing too much, it's precisely because of this development of things that years ago, for the first time, I found myself compiling the Linux kernel from source — on a Raspberry Pi 3 among other things, which in hindsight I wouldn't recommend — and now, precisely yesterday, again another time, after years (this time on the PC, luckily ), for a purpose that I won't spoil.</p>
+<h2>Why recompile the kernel? 😯️</h2>
+<p>Linux is based on a monolithic architecture, which would be of little concern to us... if it weren't for the fact that it has an inconvenient implication: any function that works at the kernel level must be compiled into it. Even the mechanism of the so-called modules does not cover all possible situations (at least not on a practical level), and one can therefore find oneself in situations in which the kernel provided by the distribution (or by the hardware manufacturer), even if updated, does not have something that is needed, and therefore must be replaced.</p>
+<p>Considering the infinite variety of Linux distributions, repositories that distribute compatible or non-compatible kernels, and combining this with the diversity of individual options that can be enabled in kernel compilation... not only in rare cases is compilation from source the only way, but often it is the most practical one. Luckily, compiling the Linux kernel is very simple — significantly easier than the average Linucs desktop application, with three thousand always conflicting dependencies — but there are perhaps not-so-immediate details in the process, so… here's my note! </p>
+<h2>0. Departure and prerequisites 📦️</h2>
+<p>This note is on the more generic recompilation of the Linux kernel, i.e. the official variant (that of Linus Torvalds) on and for an x86_64 (or AMD64) desktop PC. No forks or patched variants, no crappy OEM versions, no installation on embedded or otherwise esoteric devices, no distributed or cross-platform compilation. For more or less borderline cases, the things to do can vary more or less, even if the trend remains the same... you see, come on, the point is that I assume this situation. In my case, there aren't even proprietary kernel modules.</p>
+<p>Aside from any favorite tools for obtaining the kernel, unpacking it if necessary, and some distractions to pass the considerable time, the prerequisites are quite minimal. At a minimum you need a C compiler (gcc) for obvious reasons, GNU Make to run the makefiles, some assorted tools with a forgettable name and some super-specific libraries of limited interest. Then, I think other packages may be needed, depending on the Linux distribution in use or the features that need to be compiled.</p>
+<p>It's not actually very clear on the web which packages are really necessary, and which ones someone who has done other guides said "well, let's put it in just to be safe"... I'll update here with precise price lists as I check, including excessive planks if necessary (for those who are okay with wasting space but not time). For me it is generally a strategy to install the minimum possible when some requirement is not clear, start the compilation, and install any other dependencies as errors arise in this regard.</p>
+<p>Debian and derivatives (<code class="prettyprint">apt</code>):</p>
+<ul>
+<li><code class="prettyprint">build-essential</code> <code class="prettyprint">libelf-dev</code> (required)</li>
+<li><code class="prettyprint">ncurses-dev</code> (to use TUI menu configuration)</li>
+</ul>
+<h2>1. Obtaining the code ⛓️</h2>
+<p>Linux source code can be taken officially <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git" rel="noopener nofollow" target ="_blank">from main Git</a>, <a href="https://github.com/torvalds/linux" rel="noopener nofollow" target="_blank">from Torvalds GitHub</a> , or <a href="https://kernel.org" rel="noopener nofollow" target="_blank">from the Kernel.org site</a>. I prefer the last option, which has the latest versions actually needed displayed prominently, up to the oldest supported branch.</p>
+<p>There are several versions supported at a given time. Generally, if there's no reason to install an older kernel, a newer one is better; not too new, however, because living on the bleeding edge means losing blood, with occasional even serious problems that can pop up! So, I avoid the <code class="prettyprint">mainline</code> branch, updated daily or almost, like the plague, and generally choose <code class="prettyprint">stable</code>, updated with a little ' more days. Other users might legitimately prefer the more recent <code class="prettyprint">longterm</code> (the one at the top), for even more stability, but I find it useless.</p>
+<p>For each version line, apart from the date, what matters is the [tarball] link, so you download that file there. You can then extract it to a convenient folder, among many ways, with the <code class="prettyprint">tar xvf <file></code> command. All commands to be executed from this point will be inside the prepared folder.<br>
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Linux-Kernel/2024-09-02-kernel.org.png" alt="kernel.org"></p>
+<p>...You should also download the PGP file, when present, which serves to verify that the download is intact and that it comes from legitimate distributors. Realistically, however, not all versions already have it (implying that deep down...), the download is done from the official site with HTTPS (so it will be difficult to alter), it is a compressed archive (so if corrupted it should fail the extraction), and doing the verification is a mind-blowing pain in the ass. Other institutions will have higher security requirements, but for private users it's frankly just boring, I don't do it, I don't care.</p>
+<h2>2. Kernel configuration 🔩️</h2>
+<p>Configuring the kernel is the most intricate part... because you can't execute commands by inertia, but you have to <em>choose</em> what you actually need to, well, have the kernel with bone options. There are, as mentioned, infinite configurations, and different ways to use them. The main point is that there is a huge text file, with various options (mostly Boolean), that you can edit.</p>
+<p>Tweaking that thing by hand is crazy, though, because there are neat menu-based tools built into the build process to handle the various possibilities. Here too, half a mess, but the choice is mainly between two programs TUI and GUI respectively, which can be invoked respectively with <code class="prettyprint">make menuconfig</code> and <code class="prettyprint">make xconfig</code >. I prefer <code class="prettyprint">xconfig</code> for convenience and, although I have used the curses menu configuration in the past, and it is quite intuitive for me, apparently for many it is not... and the how to use that menu is not today's topic.</p>
+<table><thead>
+<tr>
+<th>menuconfig vs xconfig</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Linux-Kernel/menuconfig.png" alt="menuconfig"></td>
+</tr>
+<tr>
+<td><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Linux-Kernel/xconfig.png" alt="xconfig"></td>
+</tr>
+</tbody></table>
+<p>If you do nothing else, the configuration you are going to change is the default one of the kernel as it is being developed. I have never had any problems using that as a base, but, if necessary, in addition to those shared by other users, you can use the one from the current distribution. Depending on how your system exposes the kernel configuration, you can (typically) read it with <code class="prettyprint">cat /boot/config-$(uname r)</code>, <code class=" prettyprint">cat /boot/config</code>, or <code class="prettyprint">zcat /proc/config.gz</code>. Just write it (<code class="prettyprint">></code>) to the <code class="prettyprint">./.config</code> file to apply it to the current configuration.</p>
+<p>In this case I wanted to activate support for the new NTFS driver, so in xconfig I press CTRL+F, search for "ntfs3" and set to (Y)es the option that talks about "NTFS Read/Write <em>something something</em>"; then, I save the configuration, I close, and... I'm done, incredible.</p>
+<h2>3. Compiling the code 🧑u200d🍳️</h2>
+<p>With compilation, it's boring time, because you simply have to give the computer time to crunch millions (!) lines of code. It's not good, but at least it's not the end of the world: on any PC that isn't exactly a hack you should do it in less than 4 hours. On the Raspberry Pi 3 it took me a day and a half with the CPU at nuclear temperatures (and also for this reason I advise against it...), but on my PC (Ryzen 3 3200G, 16 GB of RAM of which a few are occupied by compilation, on a low-end SSD) I think it took me just under 3 hours to compile version 6.10.7.</p>
+<p>You simply need to run <code class="prettyprint">make</code>, and Linucs will make itself for the current CPU architecture, long live the magic! Better yet, <code class="prettyprint">make -j$(nproc)</code> to use all available CPU cores... The handful of hours, I should point out, are measured against this, otherwise it would be half a day , since my PC has 4 cores; it could do much sooner by having more cores, because it can compile even more files in parallel effectively.</p>
+<p>At least in the first few minutes, it's a good idea to keep an eye on the terminal, to see if any errors occur and the compilation stops. Absurd errors have never happened to me, but, as I said, if you don't install all the dependencies, something related to those could come out... in this case, you install what's missing (referring to your distribution), and continue with the previous command.</p>
+<p>Depending on your configuration, you will need more or less disk space to complete the compilation. While the kernel itself never weighs more than a few MB (and the modules a few tens of MB), the folder at the end of the day weighed ~22 GB, so it's a good idea to either make sure you have enough space, or check every now and then that this isn't ending. And if it ends during the process, you simply free up space and continue, again, as before. (As long as your file system doesn't get corrupted just by being 100% full, right BTRFS?)</p>
+<h2>4. Installing kernels and modules 🏗️</h2>
+<p>You don't need root permissions to compile the kernel, which is handy in case you want to temporarily steal someone else's most powerful computer to do the job... but, to install, you obviously need those on the current system. </p>
+<p>Here it is not only simple, but also quite fast (maximum a few minutes): by running (as root) first <code class="prettyprint">make install</code>, and then <code class="prettyprint"> INSTALL_MOD_STRIP=1 make install_modules</code>, they will be installed in the appropriate paths, respectively (assuming you have not changed the names): the kernel image (<code class="prettyprint">vmlinuz-x.x.x-...</code >), usually in <code class="prettyprint">/boot</code> and modules, usually in <code class="prettyprint">/lib/modules/linux-x.x.x-...</code> . The modules are files separate from the kernel, because they are loaded by the system when necessary... the point is that some of the many are used to complete the boot, so they must be installed.</p>
+<p>You also need to prepare the so-called init file system, or initial ramdisk; normally it also ends up in <code class="prettyprint">/boot</code>, under the name <code class="prettyprint">initrd.img-x.x.x-...</code>. And this step would be quite inconvenient if there were no <code class="prettyprint">kernel-install</code>, script included with systemd, or its alternative <code class="prettyprint">installkernel</code>. Having systemd, at least the first one should already be installed, and in that case (assuming the names from before) just do (as root) <code class="prettyprint">kernel-install add x.x.x-... /boot/vmlinuz- x.x.x-...</code>; alternatively, with the second, <code class="prettyprint">installkernel x.x.x-... /boot/vmlinuz-x.x.x-...</code>.<sup id="fnref1"><a class="footnote- ref" href="#fn1">1</a></sup></p>
+<p>Note: those who develop with the kernel (not those who are reading this post, I'm afraid) may want not to set the environment variable <code class="prettyprint">INSTALL_MOD_STRIP=1</code>, because debugging without the debugging, which that flag removes, is difficult... but for ordinary mortal users like me they just waste space (so much so that distributions package them separately). Furthermore, those who do not necessarily develop with the kernel, but have to compile external modules or do other tricks, should realistically also install the corresponding header files on the system: <code class="prettyprint">make headers_install</code> (always as root). </p>
+<p>At least on "complete" distributions, <code class="prettyprint">make install</code> and then <code class="prettyprint">kernel-install</code> should have already configured the bootloader too, at least having GRUB. In the case of, so to speak, "more DIY" distributions (which I don't use, <em>btw</em>), as well as more unusual boot configurations... that's not my case, so I know nothing, and I won't say anything. Boot configurations are a beast for another time.</p>
+<h2>5. Test the core 💥️</h2>
+<p>If the kernel is installed, and the bootloader has been correctly configured, then simply restart your computer to enjoy. It is good to remember that, if you are using GRUB, some say that the new kernel is not selected as default, and you have to choose it manually from the boot menu... but in my case, on Linux Mint Debian Edition, it seemed to me that instead it had actually been set as default.</p>
+<p>Again, if, thanking the penguin, the system finally boots, just use the <code class="prettyprint">uname -r</code> command to check the running kernel version. At this point, it's a good idea to verify that the <em>desired</em> configuration is actually working... but how to do this varies from feature to feature, case by case. To at least confirm that the <em>specified</em> configuration exists, just check the current kernel configuration as in point 2.</p>
+<p>At this point, if everything works and no other changes are needed, you can also delete the huge compilation folder, and the kernel will remain. If you also need to uninstall the kernel in the future, just delete the previously installed files normally and reconfigure the bootloader appropriately.</p>
+<h2>Conclusion 🎊️</h2>
+<p>Being able to compile the kernel from source code is another of those things that we Linux users can do, and that Windows users frankly <strong>don't</strong> envy us. But that's because they like to win easy, with their NT, based on a microkernel design... that's right, now that the point of the article is over I can spout nonsense as I like.</p>
+<p>Copium aside, compiling Linux can be something fun to do at least once. If you find yourself in uncomfortable situations like me it must be done, there is little that can be done; However, if you just want to have some silly fun, maybe one of the many things you can do is compile an ultra-specific, super-optimized kernel for your machine, or for virtualization purposes. And, sure, it consumes some energy, but never as much as mining cryptocurrencies or rendering nuclear missiles in Blender!</p>
+<h2>🏷️ Notes and References</h2>
+<p><em>The decorative cover image is obtained via <a href="https://www.bing.com/images/create/beach-with-sand-and-rocks2c-computer-chips-and- wire/1-66d5a1ef220c4fae8bd786e10b88ae1e?id=Rt9hCy8E%2Fg%2BZK8rWhgwIPQ%3D%3D&view=detailv2&idpp=genimg" rel="noopener nofollow" target="_blank">Microsoft's generative artificial intelligence</a>.</em> </p>
+<ul>
+<li>The kernel build system: <a href="https://www.kernel.org/doc/html/v6.6/kbuild/index.html" rel="noopener nofollow" target="_blank">https ://www.kernel.org/doc/html/v6.6/kbuild/index.html</a></li>
+<li>A Guide to Compiling the Linux Kernel All By Yourself: <a href="https://itsfoss.com/compile-linux-kernel/" rel="noopener nofollow" target="_blank">https:// itsfoss.com/compile-linux-kernel/</a></li>
+<li>Building and Installing Custom Linux Kernels (Rocky Linux): <a href="https://docs.rockylinux.org/guides/custom-linux-kernel/" rel="noopener nofollow" target="_blank"> https://docs.rockylinux.org/guides/custom-linux-kernel/</a></li>
+</ul>
+<div class="footnotes">
+<ol>
+<li id="fn1">
+<p>Installkernel and kernel-install (Gentoo Linux): <a href="https://wiki.gentoo.org/wiki/Installkernel" rel="noopener nofollow" target="_blank">https://wiki. gentoo.org/wiki/Installkernel</a> <a href="#fnref1">↩</a></p>
+</li>
+</ol>
+</div>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">What&#39;s in here</p>
+      <nav id="TableOfContents"></nav>
+  </div>
+
+
+
+
+</aside>
+
+    
+
+
+
+
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=http%3a%2f%2fhttp.sitoctt.octt.eu.org%2f&pageSlug=%2fen%2fnote%2f2024-09-01-Compile-and-install-the-Linux-kernel-from-source%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/en/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="10-site"><h4>About this site</h4>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://sitoctt.octt.eu.org/offline.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="20-me"><h4>Myself and my essence</h4>
+  <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="30-thanks"><h4>Made thanks to</h4>
+  <a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="50-fun"><h4>Other things</h4></div><div>
+
+
+  <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.wikipedia.org" rel="nofollow" target="" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.mozilla.org/it/firefox" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.torproject.org/it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://ublockorigin.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+
+  <a href="https://kernel.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.onworks.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.haiku-os.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://jointhefediverse.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://matrix.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.vocaloid.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+</div><div>
+
+
+  <a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <a href="https://www.defectivebydesign.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://fmhy.pages.dev" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" decoding="async" />
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" decoding="async" />
+
+
+
+</div>
+</div>
+</footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://http.sitoctt.octt.eu.org/en/"
+  style="word-break:break-word; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+
+  </body>
+</html>

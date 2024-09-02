@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on ✨sitoctt✨</title>
+    <link>http://http.sitoctt.octt.eu.org/fr/note/</link>
+    <description>Recent content in Notes on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://http.sitoctt.octt.eu.org/fr/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌽 Compilez et installez le noyau Linux à partir des sources</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/</guid>
+      <description>Prudence&#xA;Le contenu de cette page a été entièrement et automatiquement traduit en français, à partir de Italiano. Il peut donc contenir toutes sortes d&amp;rsquo;erreurs.&#xA;Ce n&#39;est pas souvent que de nouvelles idées viennent à l&#39;esprit, mais quand elles surviennent, elles sont toujours juste ce qu&#39;il faut de bizarre... Sans trop m&#39;éloigner, c&#39;est justement à cause de cette évolution des choses qu&#39;il y a des années, pour le première fois, je me suis retrouvé à compiler le noyau Linux à partir des sources — sur un Raspberry Pi 3 entre autres, ce que, avec le recul, je ne recommanderais pas — et maintenant, hier précisément, encore une autre fois, après des années (cette fois sur PC, heureusement ), dans un but que je ne gâcherai pas.</description>
+    </item>
+    <item>
+      <title>2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/</guid>
+      <description>Prudence&#xA;Le contenu de cette page a été entièrement et automatiquement traduit en français, à partir de Italiano. Il peut donc contenir toutes sortes d&amp;rsquo;erreurs.&#xA;Ceux qui suivent mes aventures depuis assez longtemps et avec l&#39;attention voulue le savent peut-être, mais le plus gros problème de l&#39;informatique est : comment concilier correctement les divergences qui se créent lorsque nous sommes confrontés au problème de jouer à des jeux vidéo à la fois à la maison qu&#39;en portabilité ?</description>
+    </item>
+    <item>
+      <title>Vérifiez les statistiques intéressantes et la santé des partitions sous Linux</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/note/2022-08-09-V%C3%A9rifiez-les-statistiques-int%C3%A9ressantes-et-la-sant%C3%A9-des-partitions-sous-Linux/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/note/2022-08-09-V%C3%A9rifiez-les-statistiques-int%C3%A9ressantes-et-la-sant%C3%A9-des-partitions-sous-Linux/</guid>
+      <description>Prudence&#xA;Le contenu de cette page a été entièrement et automatiquement traduit en français, à partir de Italiano. Il peut donc contenir toutes sortes d&amp;rsquo;erreurs.&#xA;Les mémoires de stockage, quelle que soit leur catégorie, se dégradent avec l&amp;rsquo;usure.&#xA;Rien ne peut être fait pour éviter de devoir les changer, tôt ou tard, après tant d&amp;rsquo;années. Il est cependant possible de garder un œil sur leur état de santé, afin d’identifier d’éventuels problèmes.</description>
+    </item>
+  </channel>
+</rss>

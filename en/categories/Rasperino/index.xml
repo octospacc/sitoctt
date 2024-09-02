@@ -6,12 +6,20 @@
     <description>Recent content in Rasperino on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/categories/Rasperino/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>🤯 When hardware problems become mental (damn Raspino)</title>
+      <link>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Until now 2 months ago, my kingdom of Rasperino was at its maximum splendor: the Misskey instance, set up just 2 weeks earlier, &lt; strong&gt;it was going great, and now (almost) everything seemed destined to continue well...&#xA;And instead, problems arose. Let&#39;s say it took me a little while to notice, because they developed in a strangely gradual way.</description>
+    </item>
+    <item>
       <title>☀️ Rasperino Solare (and other experiments gone wrong)</title>
-      <link>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/</guid>
+      <link>http://http.sitoctt.octt.eu.org/en/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/</guid>
       <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;A few months ago I bought a small monocrystalline solar panel online, with dimensions similar to those of an A4 sheet, for the figure of around €20 (on Amazon.it the sellers are all thieves, on Aliexpress it would have cost a little less).&#xA;![Screenshot of a photo sent in chat.</description>
     </item>
   </channel>

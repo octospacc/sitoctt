@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -11,8 +29,49 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/categories/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Linux/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/Linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Linux/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/note/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/note/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Collection-of-Internet-Sites/</loc>
@@ -21,6 +80,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-de-sites-Internet/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -37,6 +101,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/Internet/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/categories/Internet/"
                 />
@@ -47,6 +116,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -63,25 +137,66 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/note/2023-10-18-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2024-06-22-%EF%B8%8F-On-the-transition-from-diaries-to-blogs-to-social-media-a-reflection/</loc>
+    <lastmod>2024-06-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-sincronizzato-tra-PlayStation-2-e-smartphone/"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2024-06-22-%EF%B8%8F-Sul-passaggio-dai-diari-ai-blog-ai-social-una-riflessione/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2024-06-22-%EF%B8%8F-Sur-le-passage-des-agendas-aux-blogs-aux-r%C3%A9seaux-sociaux-une-r%C3%A9flexion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/note/2023-10-18-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2024-06-22-%EF%B8%8F-On-the-transition-from-diaries-to-blogs-to-social-media-a-reflection/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/</loc>
+    <lastmod>2024-06-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2024-04-07-LIBERTY-WINGS-a-Short-RPG-about-Freedom-Review/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2024-04-07-LIBERTY-WINGS-un-Breve-RPG-sulla-Libert%C3%A0-Recensione/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2024-04-07-LIBERTY-WINGS-a-Short-RPG-about-Freedom-Review/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Gaming/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -93,17 +208,25 @@
                 href="http://http.sitoctt.octt.eu.org/en/categories/Gaming/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/note/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Reviews/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-12-31-The-report-of-this-2023-at-least-in-terms-of-posting/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/note/"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2023-12-31-Il-resocontoctt-di-questo-2023-almeno-in-termini-di-posting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-12-31-Le-bilan-de-ce-2023-du-moins-en-termes-de-publication/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/note/"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-12-31-The-report-of-this-2023-at-least-in-terms-of-posting/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Who-I-am/</loc>
@@ -115,11 +238,104 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Qui-je-suis/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/Who-I-am/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-05-03-More-than-an-exam-I-went-to-war./</loc>
+    <loc>http://http.sitoctt.octt.eu.org/en/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/</loc>
+    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-sincronizzato-tra-PlayStation-2-e-smartphone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronized-between-PlayStation-2-and-smartphone/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-09-15-Hair-clips-reduced-to-glue-and-pebbles/</loc>
+    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2023-09-15-Mollette-per-capelli-ridotte-a-colla-e-sassolini/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-09-15-Pinces-%C3%A0-cheveux-r%C3%A9duites-en-colle-et-galets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-09-15-Hair-clips-reduced-to-glue-and-pebbles/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/DIY/</loc>
+    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/DIY/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/DIY/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-08-11-%EF%B8%8F-Review-Pip%C3%AC-nel-Mare-Tyrrhenian-Sea/</loc>
+    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2023-08-11-%EF%B8%8F-Recensione-Pip%C3%AC-nel-Mare-Mar-Tirreno/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-08-11-%EF%B8%8F-Revue-Pip%C3%AC-nel-Mare-mer-Tyrrh%C3%A9nienne/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-08-11-%EF%B8%8F-Review-Pip%C3%AC-nel-Mare-Tyrrhenian-Sea/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-06-30-%EF%B8%8F-The-unsolvable-ugliness-of-the-Nintendo-Switch-dock-Part-I/</loc>
+    <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2023-06-30-%EF%B8%8F-Le-brutture-irrisolvibili-della-dock-di-Nintendo-Switch-Parte-I/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-06-30-%EF%B8%8F-La-laideur-insoluble-du-dock-Nintendo-Switch-Partie-I/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-06-30-%EF%B8%8F-The-unsolvable-ugliness-of-the-Nintendo-Switch-dock-Part-I/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Technology/</loc>
+    <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-05-02-More-than-an-exam-I-went-to-war./</loc>
     <lastmod>2023-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -128,24 +344,16 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/2023-05-03-More-than-an-exam-I-went-to-war./"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-05-02-Plus-quun-examen-je-suis-parti-%C3%A0-la-guerre./"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-05-02-More-than-an-exam-I-went-to-war./"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-04-17-%EF%B8%8F-What-impact-will-the-new-Italian-anti-piracy-law-have/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-04-16-%EF%B8%8F-What-impact-will-the-new-Italian-anti-piracy-law-have/</loc>
     <lastmod>2023-04-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -154,8 +362,31 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-04-16-%EF%B8%8F-Quel-impact-aura-la-nouvelle-loi-italienne-anti-piratage/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/2023-04-17-%EF%B8%8F-What-impact-will-the-new-Italian-anti-piracy-law-have/"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-04-16-%EF%B8%8F-What-impact-will-the-new-Italian-anti-piracy-law-have/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-04-03-Everything-so-as-not-to-change-two-batteries.../</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2023-04-03-Tutto-per-non-cambiare-due-pile.../"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-04-03-Tout-pour-ne-pas-changer-deux-piles.../"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-04-03-Everything-so-as-not-to-change-two-batteries.../"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-Minecraft/</loc>
@@ -164,6 +395,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/%EF%B8%8F-Minecraft/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-Minecraft/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -180,6 +416,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-Mirrors-Edge/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-Mirrors-Edge/"
                 />
@@ -190,6 +431,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Minesweeper/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/D%C3%A9mineur/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -206,6 +452,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-2048/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-2048/"
                 />
@@ -216,6 +467,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/%23%EF%B8%8F%E2%83%A3%EF%B8%8F-Nonogram/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%23%EF%B8%8F%E2%83%A3%EF%B8%8F-Nonogramme/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -232,50 +488,13 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/R%C3%A9colte-du-riz/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/Rice-Harvest/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Technology/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-03-21-%EF%B8%8F-The-idea-of-a-homemade-physical-smartphone-keyboard/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/2023-03-21-%EF%B8%8F-The-idea-of-a-homemade-physical-smartphone-keyboard/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/DIY/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/DIY/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/DIY/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Mobile/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Mobile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Mobile/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Raccolta-Videogiochi/</loc>
@@ -287,8 +506,116 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Raccolta-Videogiochi/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/Raccolta-Videogiochi/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Rasperino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/Rasperino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Rasperino/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Sysadmin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2023-01-28-Quand-les-probl%C3%A8mes-mat%C3%A9riels-deviennent-mentaux-putain-de-Raspino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-12-26-u200d-Epicyon-Fediverse-platform-lasting-2-days/</loc>
+    <lastmod>2022-12-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-12-26-Epicyon-piattaforma-del-Fediverso-durata-2-giorni/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-12-26-u200d-Epicyon-plateforme-Fediverse-dune-dur%C3%A9e-de-2-jours/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-12-26-u200d-Epicyon-Fediverse-platform-lasting-2-days/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-12-17-Christmas-distractions-the-Padoru-tree/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-12-17-Distrazioni-di-Natale-lalbero-Padoru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-12-17-Distractions-de-No%C3%ABl-le-sapin-Padoru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-12-17-Christmas-distractions-the-Padoru-tree/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-12-13-%EF%B8%8F-Quick-blogging-with-Standard-Notes/</loc>
+    <lastmod>2022-12-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-12-13-%EF%B8%8F-Il-blogging-rapido-con-Standard-Notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-12-13-%EF%B8%8F-Blog-rapide-avec-notes-standard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-12-13-%EF%B8%8F-Quick-blogging-with-Standard-Notes/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Donations/</loc>
@@ -297,6 +624,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/Donazioni/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Dons/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -313,11 +645,16 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/MicroBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/categories/MicroBlog/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-10-20-DSpacc-Updates-Cursed-Key/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-10-16-DSpacc-Updates-Cursed-Key/</loc>
     <lastmod>2022-10-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -326,11 +663,235 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-10-16-Mises-%C3%A0-jour-DSpacc-Cl%C3%A9-maudite/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/2022-10-20-DSpacc-Updates-Cursed-Key/"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-10-16-DSpacc-Updates-Cursed-Key/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-06-29-%EF%B8%8F-How-and-why-sitectt-on-Tor/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-09-23-New-frontiers/</loc>
+    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-09-23-Nuove-frontiere/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-09-23-Nouvelles-fronti%C3%A8res/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-09-23-New-frontiers/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-09-18-When-I-get-my-hands-on-I-rock/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-09-18-Quando-metto-mano-io-spacc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-09-18-Quand-je-mets-la-main-dessus-je-rock/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-09-18-When-I-get-my-hands-on-I-rock/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-09-11-Whats-happening/</loc>
+    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-09-11-Che-accade/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-09-11-Que-se-passe-t-il/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-09-11-Whats-happening/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-08-26-sitoctt-From-3-months-ago-to-today-the-beginning-and-the-reasons/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-08-26-sitoctt-Da-3-mesi-fa-ad-oggi-linizio-e-i-motivi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-08-26-sitoctt-Dil-y-a-3-mois-%C3%A0-aujourdhui-le-d%C3%A9but-et-les-raisons/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-08-26-sitoctt-From-3-months-ago-to-today-the-beginning-and-the-reasons/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/note/2022-08-09-Check-interesting-statistics-and-health-of-partitions-on-Linux/</loc>
+    <lastmod>2022-08-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/2022-08-09-Controllare-statistiche-interessanti-e-sulla-salute-di-partizioni-su-Linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/note/2022-08-09-V%C3%A9rifiez-les-statistiques-int%C3%A9ressantes-et-la-sant%C3%A9-des-partitions-sous-Linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/2022-08-09-Check-interesting-statistics-and-health-of-partitions-on-Linux/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-07-27-NDS-emulation-Google-Play-and-a-dark-history/</loc>
+    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-07-27-%C3%89mulation-NDS-Google-Play-et-un-sombre-historique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-07-27-NDS-emulation-Google-Play-and-a-dark-history/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Mobile/</loc>
+    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/Mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Mobile/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-07-17-%EF%B8%8F-How-our-social-digital-footprint-screws-us/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-17-%EF%B8%8F-Come-la-nostra-impronta-digitale-sociale-ci-frega/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-07-17-%EF%B8%8F-Comment-notre-empreinte-num%C3%A9rique-sociale-nous-fout-en-lair/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-07-17-%EF%B8%8F-How-our-social-digital-footprint-screws-us/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-07-09-How-I-fixed-my-laptop-with-25/</loc>
+    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-07-09-Comment-jai-r%C3%A9par%C3%A9-mon-ordinateur-portable-avec-25/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-07-09-How-I-fixed-my-laptop-with-25/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Ecology/</loc>
+    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-07-03-%EF%B8%8F-The-idea-of-a-homemade-physical-smartphone-keyboard/</loc>
+    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-03-%EF%B8%8F-Lidea-di-una-tastiera-fisica-per-smartphone-fatta-in-casa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-07-03-%EF%B8%8F-Lid%C3%A9e-dun-clavier-physique-pour-smartphone-fait-maison/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-07-03-%EF%B8%8F-The-idea-of-a-homemade-physical-smartphone-keyboard/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/</loc>
+    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-et-autres-exp%C3%A9riences-qui-ont-mal-tourn%C3%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-06-14-Documents-should-not-become-applications/</loc>
+    <lastmod>2022-06-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-06-14-I-documenti-non-devono-diventare-applicazioni/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-06-14-Les-documents-ne-doivent-pas-devenir-des-candidatures/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-06-14-Documents-should-not-become-applications/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-06-03-%EF%B8%8F-How-and-why-sitectt-on-Tor/</loc>
     <lastmod>2022-06-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -339,21 +900,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/2022-06-29-%EF%B8%8F-How-and-why-sitectt-on-Tor/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</loc>
-    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Sysadmin/"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-06-03-%EF%B8%8F-Comment-et-pourquoi-sitect-sur-Tor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-06-03-%EF%B8%8F-How-and-why-sitectt-on-Tor/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/blog/2022-05-07-The-unexpected-advantages-of-the-Linux-stick/</loc>
@@ -361,7 +914,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-08-13-Gli-inaspettati-vantaggi-della-chiavetta-Linux/"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-05-07-Gli-inaspettati-vantaggi-della-chiavetta-Linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-05-07-Les-avantages-inattendus-de-la-cl%C3%A9-Linux/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -369,28 +927,21 @@
                 href="http://http.sitoctt.octt.eu.org/en/blog/2022-05-07-The-unexpected-advantages-of-the-Linux-stick/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-PicoBlog-Archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-06-23-%EF%B8%8F-Rasperino-Solare-ed-altri-esperimenti-andati-a-male/"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Archivi-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Archives-PicoBlog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-Rasperino-Solare-and-other-experiments-gone-wrong/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-The-report-of-this-2023-at-least-in-terms-of-posting/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2023-12-31-Il-resocontoctt-di-questo-2023-almeno-in-termini-di-posting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-The-report-of-this-2023-at-least-in-terms-of-posting/"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-PicoBlog-Archives/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Music-Collection/</loc>
@@ -401,68 +952,13 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-musicale/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/Music-Collection/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-How-I-fixed-my-laptop-with-25/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-09-Come-ho-riparato-il-mio-portatile-con-25/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-How-I-fixed-my-laptop-with-25/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Documents-should-not-become-applications/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-06-14-I-documenti-non-devono-diventare-applicazioni/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Documents-should-not-become-applications/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-sitoctt-From-3-months-ago-to-today-the-beginning-and-the-reasons/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-08-26-sitoctt-Da-3-mesi-fa-ad-oggi-linizio-e-i-motivi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-sitoctt-From-3-months-ago-to-today-the-beginning-and-the-reasons/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Hair-clips-reduced-to-glue-and-pebbles/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2023-09-15-Mollette-per-capelli-ridotte-a-colla-e-sassolini/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Hair-clips-reduced-to-glue-and-pebbles/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Everything-so-as-not-to-change-two-batteries.../</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2023-04-03-Tutto-per-non-cambiare-due-pile.../"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Everything-so-as-not-to-change-two-batteries.../"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Blog/</loc>
@@ -477,18 +973,6 @@
                 href="http://http.sitoctt.octt.eu.org/en/categories/Blog/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/note/2022-08-09-Controllare-statistiche-interessanti-e-sulla-salute-di-partizioni-su-Linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/note/1-01-01-Check-interesting-statistics-and-health-of-partitions-on-Linux/"
-                />
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Collection-of-Random-Things/</loc>
     <xhtml:link
                 rel="alternate"
@@ -497,25 +981,16 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-de-choses-al%C3%A9atoires/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/Collection-of-Random-Things/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Ecology/</loc>
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</loc>
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-New-frontiers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-09-23-Nuove-frontiere/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-New-frontiers/"
-                />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/QR-Cards/</loc>
     <xhtml:link
@@ -525,20 +1000,13 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Cartes-QR/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/QR-Cards/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Rasperino/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Rasperino/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-September-2019-MicroBlog-Archives/</loc>
@@ -546,6 +1014,11 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/blog/1-01-01-Archivi-MicroBlog-di-Settembre-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/1-01-01-Archives-du-MicroBlog-de-septembre-2019/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -561,56 +1034,13 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/tags/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Whats-happening/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-09-11-Che-accade/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-Whats-happening/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-When-I-get-my-hands-on-I-rock/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-09-18-Quando-metto-mano-io-spacc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-When-I-get-my-hands-on-I-rock/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-Review-Pip%C3%AC-nel-Mare-Tyrrhenian-Sea/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2023-08-11-%EF%B8%8F-Recensione-Pip%C3%AC-nel-Mare-Mar-Tirreno/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-Review-Pip%C3%AC-nel-Mare-Tyrrhenian-Sea/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-How-our-social-digital-footprint-screws-us/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-17-%EF%B8%8F-Come-la-nostra-impronta-digitale-sociale-ci-frega/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/1-01-01-%EF%B8%8F-How-our-social-digital-footprint-screws-us/"
                 />
   </url>
 </urlset>

@@ -6,13 +6,20 @@
     <description>Recent content in Sysadmin on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>🤯 When hardware problems become mental (damn Raspino)</title>
+      <link>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Until now 2 months ago, my kingdom of Rasperino was at its maximum splendor: the Misskey instance, set up just 2 weeks earlier, &lt; strong&gt;it was going great, and now (almost) everything seemed destined to continue well...&#xA;And instead, problems arose. Let&#39;s say it took me a little while to notice, because they developed in a strangely gradual way.</description>
+    </item>
+    <item>
       <title>🌐️ How and why sitectt on Tor?</title>
-      <link>http://http.sitoctt.octt.eu.org/en/blog/2022-06-29-%EF%B8%8F-How-and-why-sitectt-on-Tor/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/blog/2022-06-29-%EF%B8%8F-How-and-why-sitectt-on-Tor/</guid>
+      <link>http://http.sitoctt.octt.eu.org/en/blog/2022-06-03-%EF%B8%8F-How-and-why-sitectt-on-Tor/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/blog/2022-06-03-%EF%B8%8F-How-and-why-sitectt-on-Tor/</guid>
       <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;In recent days I have settled the first matters regarding making the site available on the Tor network. There are those who will call me exaggerated for even having the thought of doing something like this, but there is little that can be done.&#xA;If nothing has gone wrong, the Onion service can still be reached at this address: onmfrk2acl4xdeawfjg3nfepq7gcufolctmhiwwxpcknazus5bxzxhqd.</description>
     </item>
   </channel>

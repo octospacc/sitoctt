@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on ✨sitoctt✨</title>
+    <link>http://http.sitoctt.octt.eu.org/en/categories/Linux/</link>
+    <description>Recent content in Linux on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://http.sitoctt.octt.eu.org/en/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌽 Compile and install the Linux kernel from source</title>
+      <link>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;It&#39;s not often that new ideas come to mind, but when they do, they&#39;re always just the right amount of bizarre... Without digressing too much, it&#39;s precisely because of this development of things that years ago, for the first time, I found myself compiling the Linux kernel from source — on a Raspberry Pi 3 among other things, which in hindsight I wouldn&#39;t recommend — and now, precisely yesterday, again another time, after years (this time on the PC, luckily ), for a purpose that I won&#39;t spoil.</description>
+    </item>
+  </channel>
+</rss>
