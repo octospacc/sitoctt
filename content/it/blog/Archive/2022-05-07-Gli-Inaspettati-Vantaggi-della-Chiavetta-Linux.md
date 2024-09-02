@@ -4,7 +4,7 @@ Aliases = [
   "/Posts/Archive/2022-05-07-Gli-Inaspettati-Vantaggi-della-Chiavetta-Linux.html",
 ]
 Categories = [ "Tecnologia" ]
-Data = 2022-05-07
+Date = 2022-05-07
 Lastmod = 2022-08-13
 #Template = "loli-documentatrice.html"
 +++
@@ -93,4 +93,4 @@ Riporto qui i siti Web di alcune distribuzioni che _non_ ho menzionato nel testo
 
 ### 🏷️ Note/Riferimenti
 
-[^ Aggiornamento 2022-08-13]: **Aggiornamento del 2022-08-13**: Ho importato questo articolo dal mio vecchio blog (<https://noblogo.org/loli-documentatrice/gli-inaspettati-vantaggi-della-chiavetta-linux>), per preservarlo meglio e per testare alcune cose. Ne ho approfittato per, oltre a migliorare la formattazione, cambiare in parte la forma di alcune frasi. Il contenuto resta praticamente uguale.
+**Aggiornamento del 2022-08-13**: Ho importato questo articolo dal mio vecchio blog (<https://noblogo.org/loli-documentatrice/gli-inaspettati-vantaggi-della-chiavetta-linux>), per preservarlo meglio e per testare alcune cose. Ne ho approfittato per, oltre a migliorare la formattazione, cambiare in parte la forma di alcune frasi. Il contenuto resta praticamente uguale.

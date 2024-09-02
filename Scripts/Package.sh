@@ -5,7 +5,7 @@ cd "${swd}/.."
 export sitocttEnv=Offline
 export HUGO_ENV=production
 sh "${swd}/Clean.sh"
-sh "${swd}/Update.sh"
+sh "${swd}/Build.sh"
 
 cd ./build/public
 #zip -9 -r ./offline.zip *

@@ -61,4 +61,7 @@ cd ./Scripts
 PIP_BREAK_SYSTEM_PACKAGES=1 "${Python3}" -m pip install -U -r ./requirements.txt
 #npm install
 
+cd ./Lib
+wget -O ./translate-shell.bash https://git.io/trans
+
 cd "${owd}"

@@ -23,7 +23,7 @@ theme = ["hugo-notice", "ananke"]
     languageName = "Italiano"
     weight = 1
     [languages.it.params]
-      languageEmoji = "🇮🇹"
+      languageEmoji = "🇮🇹✨️"
   [languages.en]
     contentDir = "content/en"
     languageDirection = "ltr"
@@ -31,11 +31,13 @@ theme = ["hugo-notice", "ananke"]
     weight = 2
     [languages.en.params]
       languageEmoji = "🇬🇧"
-  #[languages.fr]
-  #  contentDir = "content/fr"
-  #  languageDirection = "ltr"
-  #  languageName = "Français"
-  #  weight = 3
+  [languages.fr]
+    contentDir = "content/fr"
+    languageDirection = "ltr"
+    languageName = "Français"
+    weight = 3
+    [languages.fr.params]
+      languageEmoji = "🇫🇷️"
 
 [markup]
   [markup.goldmark]
@@ -50,7 +52,7 @@ theme = ["hugo-notice", "ananke"]
   favicon = "/favicon.ico"
   author = "OctoSpacc"
   recent_posts_number = 5
-  other_posts_number = 5
+  other_posts_number = 6
   toc = true
   show_reading_time = true
   canonicalUrlOverride = "https://sitoctt.octt.eu.org"

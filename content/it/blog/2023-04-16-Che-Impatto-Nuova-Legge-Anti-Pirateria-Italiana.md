@@ -4,6 +4,7 @@ Date = 2023-04-16
 Downsync = "/it/blog/Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html"
 Aliases = [ "/Posts/2023-04-16-Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html" ]
 Description = "Hanno approvato in Italia una legge per un contrasto forte alla pirateria. Il fatto è che comporta rischi importanti per gli internauti."
+Featured_Image = "@/Media/Misc/Keep-Seeding-Monitor.webp"
 Categories = [ "Internet" ]
 Lastmod = 2023-04-17
 +++
@@ -85,5 +86,3 @@ Forse non si obietterebbe granché nemmeno se, andando contro le piattaforme che
 <p>Ma in Italia hanno già fatto <em>saltare in aria</em> TNTVillage, e io non voglio la <strong>decimazione</strong> anche di tutte le altre <strong>piazze online</strong> create <strong>dalla gente per la gente</strong> - senza scopo di lucro, e anzi <strong>spesso a perdere</strong>, sia in tempo che in denaro - solo perché <strong>a qualcuno da fastidio</strong> che si utilizzi la <strong>funzionalità principale del Web</strong>: i collegamenti ipertestuali, inventati per favorire la <strong>condivisione libera e gratuita</strong> di cultura ed intrattenimento, <strong>senza barriere</strong>.</p>
 
 <hr>
-
-<p><img src="{{< assetsRoot >}}/Media/Misc/Keep-Seeding-Monitor.webp" alt="&quot;Keep seeding&quot;"></p>

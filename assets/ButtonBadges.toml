@@ -36,6 +36,11 @@ file = "Sites/sitoctt-1.png"
 href = "/it/miscellanea/Raccolta-Siti-Internet/#il-mio"
 
 [[10-site]]
+alt = "Sign my guestoobk"
+file = "Sign-guestbook.gif"
+href = "https://listed.to/@u8/guestbook"
+
+[[10-site]]
 alt = "Warning: Page contains JavaScript!"
 file = "Warning-Page-contains-JavaScript.png"
 

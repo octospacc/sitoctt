@@ -4,7 +4,7 @@ cd "${swd}/.."
 
 export HUGO_ENV=production
 sh "${swd}/Clean.sh"
-sh "${swd}/Update.sh"
+sh "${swd}/Build.sh"
 sh "${swd}/Redirects.sh"
 
 cd "${owd}"

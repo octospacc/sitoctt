@@ -8,6 +8,7 @@
 #/Scripts/package-lock.json
 /Scripts/node_modules/*
 /Scripts.out/*
+/Scripts/Lib/translate-shell.bash
 *.pyc
 *.tmp
 tmp.*
