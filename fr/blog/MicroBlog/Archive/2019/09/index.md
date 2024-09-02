@@ -1,10 +1,10 @@
 +++
-Titre = "Archives du MicroBlog de septembre 2019"
-Alias ​​= [
+Title = "Archives du MicroBlog de septembre 2019"
+Aliases = [
   "/Posts/MicroBlog/Archive/2019/09/index.html",
   "/Posts/MicroBlog-Archive/2019/09/index.html",
 ]
-Catégories = [ "MicroBlog" ]
+Categories = [ "MicroBlog" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -50,14 +50,14 @@ Catégories = [ "MicroBlog" ]
 > : Eeee les jeux DS tournent mieux sur un Android de 8 ans que sur mon PC [l'Android dans ce cas est ARMv7, alors que le PC est x86_64, ndlr], parfait  
 > <contrôles vidéo><source src="{{< assetsRoot >}}/Media/Galaxy-Player-3.6/GP3.6-Pokemon-Platino.webm" type="video/webm">Pokemon Platine</video>
 
-> **[Enquête]** Je dois essayer une DS pour mon prochain jeu
+> **[Sondage]** Je dois essayer une DS pour mon prochain jeu
 
 > | Total | 3 |
 > |----------------------------|---|
 > | Mario Kart DS | 2 |
 > | Pokémon N/B 2 | 0 |
 > | Monde sauvage d’Animal Crossing | 0 |
-> | Super Mario 64 DS | 1 |
+> | Super Mario 64DS | 1 |
 
 > : OK Des groupes m'ont dit d'essayer Mario 64, donc je vais essayer à la fois Mario Kart et Mario 64 
 
@@ -82,13 +82,13 @@ Catégories = [ "MicroBlog" ]
 > : Mario Kart DS  
 > <contrôles vidéo><source src="{{< assetsRoot >}}/Media/Galaxy-Player-3.6/GP3.6-MKDS.webm" type="video/webm">Mario Kart DS</video>
 
-> : Donc, j'aimerais enregistrer d'autres jeux mais le Memewei est cassé et, malgré avoir supprimé les vidéos d'avant, il dit que je n'ai pas de mémoire
+> : Donc, j'aimerais enregistrer d'autres jeux mais le Memewei est cassé et, malgré avoir supprimé les vidéos précédentes, il dit que je n'ai pas de mémoire
 
 > : Ah oui c'est vrai, je n'ai ce Huameme que depuis un an et demi, mais il y a BEAUCOUP de choses à dire à son sujet
 
 > : Les captures d'écran de l'émulateur N64 arrivent désormais  
 > : Je n'ai pas enregistré mais le framerate des jeux était toujours stable et jouable.. malheureusement les jeux ne sont pas aussi jouables, mais uniquement parce qu'il y a de sérieux problèmes graphiques  
-> : je pense que c'est la faute de l'émulateur qui est ancien (malheureusement je ne peux pas faire grand chose sous Android 2.3.6)
+> : je pense que c'est la faute de l'émulateur qui est ancien (je ne peux malheureusement pas faire grand chose sous Android 2.3.6)
 
 > ![Capture d'écran de Mario Kart 64 émulé sur le Galaxy Player.]({{<assetsRoot >}}/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-0.avif)  
 > ![Capture d'écran de Mario Kart 64 émulé sur le Galaxy Player.]({{<assetsRoot >}}/Media/Galaxy-Player-3.6/N64/Mario-Kart-64/GP3.6-MK64-1.avif)  
@@ -109,7 +109,7 @@ Catégories = [ "MicroBlog" ]
 > : Vient maintenant la vidéo de quelques jeux vah
 
 > : A part Zelda que j'ai essayé maintenant, les autres jeux ont un framerate stable si tu vois, sympa, un Lagsung d'il y a 8 ans se rachète.  
-> : Je te préviens qu'il peut y avoir un déclencheur d'épilepsie quand je déclenche Quake 2 hein xd  
+> : Je te préviens qu'il peut y avoir un déclencheur d'épilepsie quand je lance Quake 2 hein xd  
 > <contrôles vidéo><source src="{{< assetsRoot >}}/Media/Galaxy-Player-3.6/N64/GP3.6-N64-Misc.webm" type="video/webm">N64</video >
 
 > : Bon, assez de tests de Lagsung pour l'instant
@@ -191,7 +191,7 @@ Un peu de contexte s'impose ici : ce smartphone de merde, alors qu'il ne dispos
 >   Y compris mes très anciens mondes Minecraft
 
 > : Et rien ne se passera, c'est Lagsoong qui revient à la vie après un an dans le coma  
-> ![Photo de l'écran de verrouillage du Galaxy Player, avec un fond d'écran Astolfo non-canon.]({{<assetsRoot >}}/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif )
+> ![Photo de l'écran de verrouillage du Galaxy Player, avec un fond d'écran Astolfo non canon.]({{<assetsRoot >}}/Media/Galaxy-Player-3.6/Galaxy-Player-3.6-Astolfo-Lockscreen.avif )
 </détails>
 
 <détails markdown="1"><résumé>
@@ -204,7 +204,7 @@ Un peu de contexte s'impose ici : ce smartphone de merde, alors qu'il ne dispos
 
 > ![VoLTE]({{<assetsRoot >}}/Media/Misc/phh-VoLTE-JiOwO.avif)
 
-L'histoire d'OctoVoLTE a officiellement commencé à partir de ces messages. On a peut-être trop parlé de Memewei ces dernières années ; Parmi les méthodes permettant d'avoir VoLTE, il n'y en a même pas eu une. Triste.
+L'histoire d'OctoVoLTE a officiellement commencé à partir de ces messages. On y a peut-être trop parlé de Memewei ces dernières années ; Parmi les méthodes permettant d'avoir VoLTE, il n'y en a même pas eu une. Triste.
 </détails>
 
 </div>

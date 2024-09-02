@@ -97,4 +97,4 @@ Here are the websites of some distributions that I _didn't_ mention in the text,
 
 ### 🏷️ Notes/References
 
-[^ Update 2022-08-13]: **Update 2022-08-13**: I imported this article from my old blog (<https://noblogo.org/loli-documentatrice/gli-inexpected-vantaggi- of the-linux-key>), to better preserve it and to test some things. I took advantage of this to, in addition to improving the formatting, partially change the form of some sentences. The content remains practically the same.
+**Update 2022-08-13**: I imported this article from my old blog (<https://noblogo.org/loli-documentatrice/gli-inexpected-vantaggi- of the-linux-key>), to better preserve it and to test some things. I took advantage of this to, in addition to improving the formatting, partially change the form of some sentences. The content remains practically the same.

@@ -6,7 +6,7 @@ Aliases = [
   "/Posts/2022-06-14-0000-Documents-Shouldn't-Become-Applications.html",
 ]
 Categories = [ "Internet" ]
-Dates = 2022-06-14
+Date= 2022-06-14
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -23,7 +23,7 @@ To understand the problem, however, we must remember what the World Wide Web was
 
 In the very early days of the Web there were only so-called static sites, meaning they always remain the same (unless updated by those who administer them), and there is nothing that users who visit can do to change them. This category includes things like a simple blog, the site itself for example, a news site, the demonstration site of a company or product, an encyclopedia... in short, simple things of this type.
 
-A little later (days or weeks, the idea was already envisaged in the very first specification of the Web and HTML) the idea of ​​using servers that could process information entered by users with buttons and text fields, interact with database, and essentially provide a user-generated content experience. Therefore, forums in a more classic sense began to appear, sites for creating sites (!) in a simpler way (CMS), the social networks closest to us, webchats and, let's not forget, search engines. These are the dynamic websites.
+A little later (days or weeks, the idea was already envisaged in the very first specification of the Web and HTML) the idea of ​​using servers that could process information entered by users with buttons and text fields, interact with database, and essentially provide a user-generated content experience. Therefore, forums in a more classic sense began to emerge, sites for creating sites (!) in a simpler way (CMS), the social networks closest to us, webchats and, let's not forget, search engines. These are the dynamic websites.
 
 In this period, however, it did not matter whether we were talking about static or dynamic sites, only documents returned to the computers of any user who contacted the site. Whether it was the HTML page itself, a CSS file to stylize the page, or multimedia files (at the time only photos) placed between one block of text and another, to the browser, the program that interprets and displays these documents, only documents to be interpreted returned, not programs to be executed.  
 Here we are still in the exclusive existence of the Web of documents, for the Web of applications we will still have to wait.
@@ -35,7 +35,7 @@ The only thing you had to trust was the browser itself (and that it was up to da
 ## The current state of affairs
 
 Then, came the scripting. We've seen all sorts of things, but in the end only JavaScript has survived to this day, and is the basis of the pioneering (and tragic) Web 3.  
-Web scripts are actual programs that a browser can execute if loaded from a page. Here, however, an obvious problem arises: you have to trust every single website that integrates scripts, a problem that is however decidedly complex to deal with.
+Other Web scripts are actual programs that a browser can execute if loaded from a page. Here, however, an obvious problem arises: you have to trust every single website that integrates scripts, a problem that is however decidedly complex to deal with.
 
 To be honest, this is not the only problem: scripts very often slow down pages, especially on older and less powerful devices, and on some very old stuff they don't work at all, thus breaking sites that use them extensively. In practice, this means that sites that unnecessarily choose to integrate JavaScript are, on any hardware, often much slower than those that don't.  
 However, we will discuss this in detail another day.
@@ -80,7 +80,7 @@ The problem of the unverifiable authority of the code, clearly, becomes even wor
 
 On the Fediverse, I say that the question particularly strikes me because I wouldn't expect it.
 Honestly, from Big Tech, which relies on spying on users to earn money by selling their data, I expect a progressive abandonment of the Web of documents in favor of that exclusively of apps even just for reading a few paragraphs of text (which is happening, but slowly), considering the very large potential to subjugate users.  
-From those who develop software for communities that are concerned about some of the new privacy issues on the Web, and who therefore use less popular alternative software, I absolutely don't expect it.
+From those who develop software for communities who are concerned about some of the new privacy issues on the Web, and who therefore use less popular alternative software, I absolutely don't expect it.
 
 ## It will all end in tragedy
 

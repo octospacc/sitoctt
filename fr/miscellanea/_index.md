@@ -1,6 +1,6 @@
 +++
-Titre = "Divers"
-Alias ​​= [
+Title = "Divers"
+Aliases = [
   "/Catégories/index.html",
 ]
 +++

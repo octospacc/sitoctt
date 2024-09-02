@@ -1,12 +1,13 @@
 +++
-Titre = "Récolte du riz"
-Alias ​​= [
+Title = "Récolte du riz"
+Aliases = [
   "/Raccolte/Sistemi/Raccolta-del-Riso.html",
 ]
-Catégories = [ "Technologie" ]
-Dernière modification = 2023-03-22
+Categories = [ "Technologie" ]
+Lastmod = 2023-03-22
 #Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Raccolta-del-Riso.css";
-#$ L/VoidLinuxOS = <strong>OS</strong> : <a href="https://voidlinux.org" [:HtmlTgtBlank:]>Void Linux</a>
+[Params]
+  LVoidLinuxOS = '<strong>OS</strong> : <a href="https://voidlinux.org">Annuler Linux</a>'
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -15,8 +16,8 @@ Dernière modification = 2023-03-22
 
 Rice Collection - ou, pour le dire plus exactement, collection de mes ricing : personnalisations d'interface apportées à mes systèmes d'exploitation.
 
-Dans la communauté Linux, les termes « riz » et « ricing » sont courants pour désigner une variété de personnalisations cosmétiques faites maison que les amateurs effectuent pour diverses raisons.  
-Lisez simplement une discussion comme [ce](https://web.archive.org/web/20220907203523/https://teddit.net/r/unixporn/comments/3iy3wd/stupid_question_what_is_ricing), cependant , comprendre que le consensus sur l’origine du terme n’est pas très solide. Donc, nous ne nous en soucions pas. 🙄
+Dans la communauté Linux, les termes « riz » et « ricing » sont courants pour désigner une variété de personnalisations cosmétiques faites maison que les passionnés effectuent pour diverses raisons.  
+Il suffit cependant de lire une discussion comme [ceci](https://web.archive.org/web/20220907203523/https://teddit.net/r/unixporn/comments/3iy3wd/stupid_question_what_is_ricing) pour comprendre que le consensus sur l'origine du terme n'est pas très solide. Donc, nous ne nous en soucions pas. 🙄
 
 La pratique du rizing ne se limite pas à Linux, car elle peut être implémentée sur pratiquement n'importe quel système. Par contre moi :
 
@@ -37,22 +38,24 @@ _En cours de construction..._
 <div markdown="1" class="BorderBoxContainer">
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE" ouvert><résumé>
+
 #### S5 octobre 2022 </summary>
 -> #Linux #Bureau #XFCE
 
 ![]({{<assetsRoot >}}/Media/Ricing/Desktop/Screenshot_2022-10-30_00-14-14.png)
 
-- [:L/VoidLinuxOS:]
+- {{< htmlparam LVoidLinuxOS >}}
 - **Bureau** : `xfce4`
 - **Panneau** : `xfce4-panel`
 - **Barre des tâches** : `xfce4-docklike-plugin`
 - **Menu global** : Plugin AppMenu (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
 - **Thème GTK** : [BlueSky-Light](https://github.com/i-mint/bluesky)
 - **thème xfwm** : BlueSky-Light
-- **Icônes** : [Colloïde](https://github.com/vinceliuice/Colloid-icon-theme)
+- **Icônes** : [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 </détails>
 
 <details markdown="1" class="Box-Linux Box-Desktop Box-XFCE"><résumé>
+
 #### S2 octobre 2022 </summary>
 -> #Linux #Bureau #XFCE
 
@@ -65,7 +68,7 @@ _En cours de construction..._
 - **Menu global** : Plugin AppMenu (`appmenu-gtk-module appmenu-gtk3-module appmenu-registrar vala-panel-appmenu vala-panel-appmenu-data xfce4-panel-appmenu`)
 - **Thème GTK** : [Fluent-compact](https://github.com/vinceliuice/Fluent-gtk-theme)
 - **thème xfwm** : Fluent-Dark
-- **Icônes** : [Fluant](https://github.com/vinceliuice/Fluent-icon-theme)
+- **Icônes** : [Fluent](https://github.com/vinceliuice/Fluent-icon-theme)
 </détails>
 
 </div>

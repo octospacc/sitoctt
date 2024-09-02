@@ -1,12 +1,10 @@
 +++
-Title = "🔋 Everything so as not to change two batteries..."
-Dates = 2023-04-03
-Downsync = "/it/posts/Tutto-Per-Non-Cambiare-Due-Pile.html"
-Aliases = [
-  "/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html",
-]
-Description = "I bother changing the batteries of the TV remote control that I have on my desk, so obviously making a mess with paper clips and cardboard..."
-Categories = [ "DIY" ]
+Title= "🔋 Everything so as not to change two batteries..."
+Date= 2023-04-03
+Downsync= "/it/blog/Tutto-Per-Non-Cambiare-Due-Pile.html"
+Aliases= [ "/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html" ]
+Description= "I bother changing the batteries of the TV remote control that I have on my desk, so obviously making a mess with paper clips and cardboard..."
+Categories= [ "DIY" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -38,8 +36,8 @@ Categories = [ "DIY" ]
 
 <h3>Technically "it works"</h3>
 
-<p>The <strong>remote control</strong>, in fact, proves that it can <strong>still send signals</strong> to the television, but only <strong>for a moment</strong>: just long enough to press <strong> >a button</strong>, and nothing more. In an instant he returns dead, and immediately trying to send other signals is of no use.<br>
-If, however, at this point <strong>you wait</strong> for about fifteen seconds, and <strong>then you press</strong> another key, the command <strong>goes to sign</strong>. It is clear that the <strong>batteries</strong> are very discharged, but they still have that little charge that allows a <strong>capacitor</strong> to charge <strong>slowly</strong>, and therefore at <strong>remote control</strong> to be <strong>powered</strong>. <strong>Emitting</strong> the <strong>infrared</strong> light then apparently drains all the charge from the capacitor in a few moments, and then you have to wait again for it to recharge.< /p>
+<p>The <strong>remote control</strong>, in fact, proves that it can <strong>still send signals</strong> to the television, but only <strong>for a moment</strong>: just long enough to press <strong> >a button</strong>, and nothing more. In an instant he then returns dead, and immediately trying to send other signals is of no use.<br>
+If, however, at this point <strong>you wait</strong> about fifteen seconds</strong>, and <strong>then you press</strong> another key, the command <strong>goes to sign</strong>. It is clear that the <strong>batteries</strong> are very discharged, but they still have that little charge that allows a <strong>capacitor</strong> to charge <strong>slowly</strong>, and therefore at <strong>remote control</strong> to be <strong>powered</strong>. <strong>Emitting</strong> the <strong>infrared</strong> light then apparently drains all the charge from the capacitor in a few moments, and then you have to wait again for it to recharge.< /p>
 
 <h2>What do I need it for on my desk?</h2>
 
@@ -53,7 +51,7 @@ If, however, at this point <strong>you wait</strong> for about fifteen seconds, 
 <h2>The controls on the back</h2>
 
 <p>The <strong>TV has</strong> an integrated <strong>control interface</strong>: a simple <strong>wheel</strong> that moves in two directions and you press, and you can use to <strong>turn on/off</strong> or change source.<br>
-The problem is that it is in a <strong>terrifying position</strong>! It is practically on the <strong>side of the rear edge</strong>, the one formed by the continuation of the plastic structure, which maintains the television circuitry, behind the LCD frame.<br>
+The problem is that it is in a <strong>terrifying position</strong>! It is practically on the <strong>side of the rear edge</strong>, the one formed by the continuation of the plastic structure, which holds the television circuitry, behind the LCD frame.<br>
 Practically <strong>I would have to bend over</strong> every time, sticking my fingers between the annoying obstacles that live on my desk.</p>
 
 <p>Maybe I should be <strong>thankful</strong> that those controls are on the <strong>left edge</strong> - since I have the other screen immediately to the right, things <strong>could have been worse</strong> strong> - and be satisfied... <em>what balls... piles</em>... no, <strong>balls!</strong></p>
@@ -112,7 +110,7 @@ Practically <strong>I would have to bend over</strong> every time, sticking my f
 </ul></li>
 </ol>
 
-<p><img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Back.webp" alt="View of the back of my assembled system. In red, I've circled the pressing piece on the wheel."> <em>(I couldn't take the less blurry photo back there, sorry.)</em></p>
+<p><img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Back.webp" alt="View of the back of my mounted system. In red, I've circled the pressing piece on the wheel."> <em>(I couldn't take the less blurry photo back there, sorry.)</em></p>
 
 <h3>What a job...</h3>
 

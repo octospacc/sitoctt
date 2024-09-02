@@ -1,7 +1,7 @@
 +++
-Titre = "💣 Démineur"
-Catégories = [ "Jeux" ]
-Dernière modification = 2023-03-28
+Title = "💣 Démineur"
+Categories = [ "Jeux" ]
+Lastmod = 2023-03-28
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -58,7 +58,7 @@ En accumulant ce lot quotidien simple ou double au fil des semaines, des mois et
 
 Paraphrasant ce qu'écrit [un auteur de PCGamesN] (https://www.pcgamesn.com/minesweeper/get-free) : **Le démineur est l'une des formes les plus pures d'évasion numérique** que vous puissiez expérimenter, car c'est la solution pratique. démonstration de la façon dont un jeu, pour être profondément immersif, n'a pas besoin vital d'un _monde ouvert_ détaillé, d'un récit élaboré ou de personnages auxquels s'attacher.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Désolé, il y a du travail en cours sur cette page, je mets en place des mines pour troller les prochaines personnes qui viendront ici lisez et ils tomberont sur quelques mots... si entre-temps vous voulez apprendre à jouer, lisez [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)) , allez-y... </p>
+<p markdown="1" style="background: #fde; padding: 0.5em;">...Désolé, il y a du travail en cours sur cette page, je mets en place des mines pour troller les prochaines personnes qui viendront ici lisez et ils tomberont sur quelques mots... si en attendant vous voulez apprendre à jouer, lisez [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), allez-y...< /p>
 
 ## Curiosité
 
@@ -74,7 +74,7 @@ Paraphrasant ce qu'écrit [un auteur de PCGamesN] (https://www.pcgamesn.com/mine
 
 <div class="ListNoInMargin" markdown="1">
 
-* Pour **PC**, l'**original Microsoft** n'est pas trop mal. La version **Windows** XP fonctionne sur les dernières versions du système, et même sur **Wine**. Malheureusement, l'échelle est un peu médiocre sur les écrans haute résolution, car les carrés ont une taille fixe et il n'y a pas de zoom. Il n'est pas inclus dans Windows depuis des années, peut-être pour cette raison, mais il peut être téléchargé depuis le Web :  
+* Pour **PC**, l'**original Microsoft** n'est pas trop mal. La version **Windows** XP fonctionne sur les dernières versions du système, et même sur **Wine**. Malheureusement, l'échelle est un peu mauvaise sur les écrans haute résolution, car les carrés ont une taille fixe et il n'y a pas de zoom. Il n'est pas inclus dans Windows depuis des années, peut-être pour cette raison, mais il peut être téléchargé depuis le Web :  
 	* Version XP globale : [Minesweeper.exe](https://archive.org/download/Minesweeper_201811/Minesweeper.exe)  
 	* Version XP italienne : [Prato Fiorito.exe](https://archive.org/download/prato-fiorito/PRATO_FIORito.exe)
 
@@ -90,25 +90,25 @@ Je travaille à rendre le jeu personnalisable, pour le moment vous ne pouvez jou
 
 ## Similaires et clones
 
-* [Bullets](https://ojs.aaai.org/index.php/AAAI/article/view/21561/21310), champ de mines jouable sur papier.
+* [Bullets](https://ojs.aaai.org/index.php/AAAI/article/view/21561/21310), Minefield jouable sur papier.
 
-* [Kaboom](https://pwmarcz.pl/blog/kaboom), un dragueur de mines "_cruel mais honnête_" :
-	* Le **placement des mines** n'est pas **choisi** une fois pour toutes au début, mais **à chaque mouvement**.
+* [Kaboom](https://pwmarcz.pl/blog/kaboom), un dragueur de mines "_cruel mais honnête_":
+	* Le **placement des mines** n'est pas **choisi** une fois pour toutes au début, mais **à chaque déplacement**.
 	* Lorsque vous êtes dans une situation de devinette (aucune cellule adjacente n'est prouvée sûre), vous avez 100 % de chances de survivre.
 	* Lorsque vous n'avez pas besoin de deviner, et que vous le faites, le jeu choisit le pire résultat possible.
 
-	Le jeu avec ces règles se développe d'une manière **nouvelle et intéressante**, car vous vous retrouvez souvent dans une situation où vous devez réfléchir de manière très dure (du moins, jusqu'à ce que vous parveniez inconsciemment à apprendre tous les schémas possibles : après des mois et des mois de matchs habituels).
+	Le jeu avec ces règles se développe d'une manière **nouvelle et intéressante**, car vous vous retrouvez souvent dans une situation où vous devez réfléchir de manière très dure (du moins, jusqu'à ce que vous parveniez inconsciemment à apprendre tous les schémas possibles : après des mois et des mois de matches habituels).
 
 ## Autres ressources
 
 * [Démineur faisant autorité](https://minesweepergame.com)
 
-* [Minesweeper est l'une des expériences de jeu les plus pures](https://old.reddit.com/r/patientgamers/comments/11i6zqy/minesweeper_is_one_of_the_purest_gaming/)
+* [Minesweeper est l'une des expériences de jeu les plus pures](https://old.reddit.com/r/patientgamers/comments/11i6zqy/minesweeper_is_one_of_the_purest_gaming/)
 
-## [:HRotesRefsHtml:]
+## {{% i18n notes-réfs %}}
 
 [^Regional_Differences] : <https://tcrf.net/Minesweeper_(Windows,_1990)/en#Regional_Differences>
 [^Windows_Vista_and_Windows_7] : <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
-[^PageBg] : **Arrière-plan de la page** : [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 ) 
+[^PageBg] : **Arrière-plan de la page** : [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 )
 
 <script src="/Assets/MinesweeperEmbed.js"></script>

@@ -1,12 +1,10 @@
 +++
 Title = "🔋 Tout pour ne pas changer deux piles..."
-Dates = 03/04/2023
-Downsync = "/it/posts/Tutto-Per-Non-Cambiare-Due-Pile.html"
-Alias ​​= [
-  "/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html",
-]
-Description = "Je prends la peine de changer les piles de la télécommande du téléviseur que j'ai sur mon bureau, donc évidemment je fais un gâchis avec les trombones et les cartons..."
-Catégories = [ "Bricolage" ]
+Date = 2023-04-03
+Downsync = "/it/blog/Tutto-Per-Non-Cambiare-Due-Pile.html"
+Aliases = [ "/Posts/2023-04-03-Tutto-Per-Non-Cambiare-Due-Pile.html" ]
+Description = "Je prends la peine de changer les piles de la télécommande du téléviseur que j'ai sur mon bureau, donc évidemment je fais du désordre avec les trombones et les cartons..."
+Categories = [ "Bricolage" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -33,13 +31,13 @@ Catégories = [ "Bricolage" ]
 <li>Le gaspillage d'<strong>énergie</strong> pour le transport - et, si possible, le recyclage - de ces matériaux ;</li>
 <li>En fin de compte, la <strong>pollution</strong> de la planète.</li>
 </ol></li>
-<li>Les piles de la télécommande <strong>fonctionnent toujours</strong>, <strong>bien que</strong> d'une manière décidément <strong>pas optimale</strong>.</li>
+<li>Les piles de la télécommande <strong>fonctionnent toujours</strong>, <strong>même si</strong> d'une manière décidément <strong>pas optimale</strong>.</li>
 </ul>
 
 <h3>Techniquement "ça marche"</h3>
 
-<p>La <strong>télécommande</strong>, en effet, prouve qu'elle peut <strong>encore envoyer des signaux</strong> au téléviseur, mais seulement <strong>pour un instant</strong> : juste longtemps il suffit d'appuyer sur <strong> >un bouton</strong>, et rien de plus. En un instant, il revient mort, et essayer immédiatement d'envoyer d'autres signaux ne sert à rien.<br>
-Si, cependant, à ce stade <strong>vous attendez</strong> une quinzaine de secondes, et <strong>ensuite vous appuyez</strong> sur une autre touche, la commande <strong>va signer</strong>. Il est clair que les <strong>batteries</strong> sont très déchargées, mais elles ont toujours ce peu de charge qui permet à un <strong>condensateur</strong> de se charger <strong>lentement</strong>, et donc à <strong>lentement</strong>. strong>télécommande</strong> pour être <strong>alimentée</strong>. <strong>L'émission</strong> de la lumière <strong>infrarouge</strong> draine apparemment toute la charge du condensateur en quelques instants, puis vous devez attendre à nouveau qu'il se recharge.</p>
+<p>La <strong>télécommande</strong> prouve en effet qu'elle peut <strong>encore envoyer des signaux</strong> au téléviseur, mais seulement <strong>pour un instant</strong> : juste pour longtemps il suffit d'appuyer sur <strong> >un bouton</strong>, et rien de plus. En un instant, il revient mort, et essayer immédiatement d'envoyer d'autres signaux ne sert à rien.<br>
+Si toutefois à ce stade <strong>vous attendez</strong> une quinzaine de secondes</strong>, et <strong>ensuite vous appuyez</strong> sur une autre touche, la commande <strong>va signer</strong> . Il est clair que les <strong>batteries</strong> sont très déchargées, mais elles ont toujours ce peu de charge qui permet à un <strong>condensateur</strong> de se charger <strong>lentement</strong>, et donc à <strong>lentement</strong>. strong>télécommande</strong> à <strong>alimenter</strong>. <strong>L'émission</strong> de la lumière <strong>infrarouge</strong> draine apparemment toute la charge du condensateur en quelques instants, puis vous devez attendre à nouveau qu'il se recharge.</p>
 
 <h2>Pourquoi en ai-je besoin sur mon bureau ?</h2>
 
@@ -48,12 +46,12 @@ Si, cependant, à ce stade <strong>vous attendez</strong> une quinzaine de secon
 <h3>Pour quand je dois le faire immédiatement !</h3>
 
 <p>Le problème, gros problème, lorsque je dois <strong>allumer et éteindre</strong>, c'est que j'ai besoin d'un <strong>accès rapide</strong>.<br>
-<strong>Je n'arrive pas à démarrer</strong> pour déverrouiller le téléphone, recherchez l'icône d'application pour la télécommande, puis appuyez fermement sur l'écran pour centrer le bouton d'alimentation, le tout avec des <em>cochons faciles</em > > de ma ROM Android, qui est boguée et lente, comme si elle était <a href="https://www.urbandictionary.com/define.php?term=Only%20in%20Ohio" rel="noopener nofollow" target= "_blank">de l'Ohio</a> (il provient plutôt de développeurs indiens, comme pratiquement toutes les <em>ROM personnalisées</em> Android).</p>
+<strong>Je n'arrive pas à démarrer</strong> pour déverrouiller le téléphone, recherchez l'icône d'application pour la télécommande, puis appuyez fermement sur l'écran pour centrer le bouton d'alimentation, le tout avec des <em>cochons faciles</em > > de ma ROM Android, qui est boguée et lente, comme si elle était <a href="https://www.urbandictionary.com/define.php?term=Only%20in%20Ohio" rel="noopener nofollow" target= "_blank">de l'Ohio</a> (au lieu de cela, il provient de développeurs indiens, comme pratiquement toutes les <em>ROM personnalisées</em> Android).</p>
 
 <h2>Les commandes au dos</h2>
 
 <p>Le <strong>TV dispose</strong> d'une <strong>interface de contrôle</strong> intégrée : une simple <strong>roue</strong> qui se déplace dans deux directions et vous appuyez dessus, et vous pouvez l'utiliser pour < strong>allumer/éteindre</strong> ou changer de source.<br>
-Le problème c'est qu'il est dans une <strong>position terrifiante</strong> ! Il se trouve pratiquement du <strong>côté du bord arrière</strong>, celui formé par le prolongement de la structure en plastique, qui maintient le circuit du téléviseur, derrière le cadre LCD.<br>
+Le problème c'est qu'il est dans une <strong>position terrifiante</strong> ! Il se trouve pratiquement du <strong>côté du bord arrière</strong>, celui formé par le prolongement de la structure en plastique qui maintient les circuits du téléviseur, derrière le cadre LCD.<br>
 Pratiquement <strong>je devrais me pencher</strong> à chaque fois, mettant mes doigts entre les obstacles ennuyeux qui vivent sur mon bureau.</p>
 
 <p>Peut-être que je devrais être <strong>reconnaissant</strong> que ces commandes se trouvent sur le <strong>bord gauche</strong> - puisque j'ai l'autre écran immédiatement à droite, les choses <strong>auraient pu être pires. </strong> strong> - et soyez satisfait... <em>quelles balles... des tas</em>... non, <strong>des balles !</strong></p>
@@ -98,7 +96,7 @@ Pratiquement <strong>je devrais me pencher</strong> à chaque fois, mettant mes 
 <img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Clip.webp" alt="Le trombone, plié presque complètement pour être monté."><br>
 
 <ul>
-<li>De cette façon, quelque chose de <strong>solide pousse</strong> exactement sur la roue, qui est réellement enfoncée.</li>
+<li>De cette façon, quelque chose <strong>solide pousse</strong> exactement sur la roue, qui est réellement pressée.</li>
 </ul></li>
 <li>Comme tout me semble bien, je commence à découper des <strong>bandes de carton</strong> et à attacher du <strong>ruban adhésif double face</strong> aux extrémités.
 
@@ -112,12 +110,12 @@ Pratiquement <strong>je devrais me pencher</strong> à chaque fois, mettant mes 
 </ul></li>
 </ol>
 
-<p><img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Back.webp" alt="Vue de l'arrière de mon système assemblé. En rouge, j'ai encerclé le pièce d'appui sur la roue."> <em>(Je n'ai pas pu prendre la photo la moins floue là-bas, désolé.)</em></p>
+<p><img src="{{< assetsRoot >}}/Media/Toshiba-TV-Button-Hack/Back.webp" alt="Vue de l'arrière de mon système monté. En rouge, j'ai encerclé le pièce d'appui sur la roue."> <em>(Je n'ai pas pu prendre la photo la moins floue là-bas, désolé.)</em></p>
 
 <h3>Quel travail...</h3>
 
 <p>En ce qui concerne <strong>l'appui sur le bouton</strong> - que je peux désormais mettre en œuvre <strong>en plaçant mon doigt sur le bord extrême gauche</strong> de l'écran, sans avoir à mettre mes mains derrière tout - cette solution <strong>fonctionne parfaitement</strong>.<br>
-Hélas, la <strong>rotation</strong> de la roue n'est pas bonne avec cet <em>entrejambe</em> qui a une bonne liberté de mouvement sur un seul axe. Dans tous les cas, le carton ne crée pas une rigidité excessive, donc <strong>je peux toujours</strong> faire tourner la roue <strong>par derrière</strong>.</p>
+Hélas, la <strong>rotation</strong> de la roue n'est pas bonne avec cet <em>entrejambe</em> qui possède une bonne liberté de mouvement sur un seul axe. Dans tous les cas, le carton ne crée pas une rigidité excessive, donc <strong>je peux toujours</strong> faire tourner la roue <strong>par derrière</strong>.</p>
 
 <p>C'est tout. Si <strong>je devais améliorer</strong> ma solution - qui, oui, est <strong>très grossière</strong>, je ne le nierai pas car c'est <strong>ce que j'aime</strong> - <strong>J'écrirai une annexe</strong>à cet article.</p>
 
@@ -136,4 +134,4 @@ Hélas, la <strong>rotation</strong> de la roue n'est pas bonne avec cet <em>ent
 <p>Ehhh. Bonne question.<br>
 Ce sont toutes des <strong>batteries</strong> que je <strong>garde</strong> lorsqu'elles sont jetées à la maison (pas par moi, puisque, je le répète, j'évite autant que possible les non rechargeables). car très souvent « déchargé » signifie simplement « trop déchargé pour l'appareil à partir duquel il a été remplacé ». <strong>En effet, certaines télécommandes <strong>fonctionnent encore</strong>, y compris la mienne dans certains cas.</p>
 
-<p>Alors, est-ce que j'ai juste <strong>perdu du temps</strong> avec le projet d'aujourd'hui ? Non, <strong>je ne dirais pas</strong> : désormais je peux facilement <strong>garder la télécommande</strong> un peu plus <strong>rangee</strong>, plus forcément toujours sur le côté <strong>bureau</strong> strong>, que je peux donc garder <em>très légèrement</em> (car en un instant je ruine mes propres efforts !) <strong>plus rangé</strong>.</p >
+<p>Alors, est-ce que j'ai simplement <strong>perdu du temps</strong> avec le projet d'aujourd'hui ? Non, <strong>je ne dirais pas</strong> : désormais je peux facilement <strong>garder la télécommande</strong> un peu plus <strong>rangee</strong>, plus forcément toujours sur le côté <strong>bureau</strong> strong>, que je peux donc garder <em>très légèrement</em> (car en un instant je ruine mes propres efforts !) <strong>plus rangé</strong>.</p >

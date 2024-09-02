@@ -1,13 +1,12 @@
 +++
-Title = "🏴‍☠️ What impact will the new Italian anti-piracy law have?"
-Dates = 2023-04-16
-Lastmod = 2023-04-17
-Downsync = "/it/posts/Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html"
-Aliases = [
-  "/Posts/2023-04-16-Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html",
-]
-Description = "They have approved a law in Italy for a strong fight against piracy. The fact is that it entails important risks for Internet users."
-Categories = [ "Internet" ]
+Title= "🏴‍☠️ What impact will the new Italian anti-piracy law have?"
+Date= 2023-04-16
+Downsync= "/it/blog/Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html"
+Aliases= [ "/Posts/2023-04-16-Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html" ]
+Description= "They have approved a law in Italy for a strong fight against piracy. The fact is that it entails important risks for Internet users."
+Featured_Image= "@/Media/Misc/Keep-Seeding-Monitor.webp"
+Categories= [ "Internet" ]
+Lastmod= 2023-04-17
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -28,7 +27,7 @@ Categories = [ "Internet" ]
 
 <h2>Blocks (instant and per IP)</h2>
 
-<p>The point that perhaps struck me most about the law (here <a href="https://documenti.camera.it/leg19/pdl/pdf/leg.19.pdl.camera.217_A.19PDL0028100.pdf" rel="noopener nofollow" target="_blank">the PDF examined by the Commission</a>, and <a href="https://temi.camera.it/leg19/dossier/OCD18-17872/disposizioni-contrasto- illicit-direct-transmission-or-diffusion-and-illegal-use-of-contents-protected-by-law-d.html" rel="noopener nofollow" target="_blank">the final report</a>) - perhaps because I own various online properties, totally personal, which have zero economic value for me, but unquantifiable sentimental value - it is the <strong>obligation for Internet service providers to respond to <strong>blocking requests snapshots</strong>.</p>
+<p>The point that perhaps struck me most about the law (here <a href="https://documenti.camera.it/leg19/pdl/pdf/leg.19.pdl.camera.217_A.19PDL0028100.pdf" rel="noopener nofollow" target="_blank">the PDF examined by the Commission</a>, and <a href="https://temi.camera.it/leg19/dossier/OCD18-17872/disposizioni-contrasto- illicit-direct-transmission-or-dissemination-and-illegal-use-of-contents-protected-by-law-d.html" rel="noopener nofollow" target="_blank">the final report</a>) - perhaps because I own various online properties, totally personal, which have zero economic value for me, but unquantifiable sentimental value - it is the <strong>obligation for Internet service providers to respond to <strong>blocking requests snapshots</strong>.</p>
 
 <p>A <strong>copyright</strong> holder can send a <strong>blackout request</strong> which, when it is <strong>urgent</strong> - think of a meeting live sports, which is being illegally retransmitted in real time - must be honored in <strong>no more than 30 minutes</strong> by all providers, without <strong>any adversarial or formal process</strong>: it will be <strong> >the owner</strong> of the blocked website will then have to open legal proceedings to <strong>challenge the blocking</strong> and request its restoration.<br>
 For illicit sites, all <strong>domain and subdomain names</strong> (DNS), and <strong>IP addresses</strong>, present will be blocked and, I have no idea under what limits , all possible futures.</p>
@@ -52,7 +51,7 @@ Sooner or later an <strong>over-blocking</strong> incident will happen, and ther
 <p>An <strong>example</strong> can be given by comparing Russia and China: both states have a certain <strong>desire to control</strong> political dissent on the Internet, but:</p >
 
 <ul>
-<li>For <strong>Russia it is difficult</strong>, as it has a more <strong>traditional</strong> Internet infrastructure, which began to develop as decentralized well < strong>before Putin's arrival</strong>, when the present government was of another type.</li>
+<li>For <strong>Russia it is difficult</strong>, as it has a more <strong>traditional</strong> Internet infrastructure, which began to develop as decentralized well < strong>before Putin's arrival</strong>, when the present government was of a different type.</li>
 <li>For <strong>China it is easier</strong>, because the government in office <strong>at the time</strong> (the Communist Party, like today), understood the potential of the Internet, and made sure that development took place <strong>immediately</strong> according to a <strong>centralized</strong> scheme.</li>
 </ul>
 
@@ -70,7 +69,7 @@ Sooner or later an <strong>over-blocking</strong> incident will happen, and ther
 
 <h3>Are some okay?</h3>
 
-<p>All in all, despite the initial general fear and alarmism, it seems that the only users who have something to fear are precisely the latter, because - although it must be said that I know relatively little about the law, and it is not easy to apply generic text comprehension skills on legal bricks, so who knows - the <strong>text talks about purchasing or renting</strong>, and <strong>not</strong> also things like <strong>downloading at no cost</strong> >.</p>
+<p>All in all, despite the initial fear and general alarmism, it seems that the only users who have something to fear are precisely the latter, because - although it must be said that I know relatively little about the law, and it is not easy to apply generic text comprehension skills on legal bricks, so who knows - the <strong>text talks about purchasing or renting</strong>, and <strong>not</strong> also things like <strong>downloading at no cost</strong> >.</p>
 
 <p>If, therefore, up to now, surfing the Internet to <strong>find links</strong> to "crisp" football matches, with pixels has never actually been prohibited as big as biscuits and the habit of <em>buffering</em>, or <strong>download</strong> the tenth film of the week via <em>torrent</em>, or even <strong>stocking up</strong> > of free video games repackaged, one can well imagine that <strong>things will remain as they are</strong> in this sense.</p>
 
@@ -88,8 +87,6 @@ In Italy it seems that no single <em>seeder</em> has ever been prosecuted, nor h
 <p>Perhaps, if this new law targeted <strong>only them</strong>, <strong>there wouldn't be much to <strong>discuss</strong>: <strong>they have no passion </strong> for sharing, only that of <strong>money</strong>.<br>
 Perhaps there would not be much of an objection even if, by going against the platforms that make certain links available, we considered acting <strong>only</strong> against those <strong>profit-making companies</strong>: Google, Microsoft ( with Bing), Facebook, Twitter, and so on.</p>
 
-<p>But in Italy they have already <em>blown up</em> TNTVillage, and I don't want the <strong>decimation</strong> of all the other <strong>online marketplaces</strong> created < strong>by the people for the people</strong> - non-profit, and indeed <strong>often disposable</strong>, both in time and money - just because <strong>it bothers someone</strong> that the <strong>main functionality of the Web</strong> is used: hyperlinks, invented to encourage the <strong>free and free sharing</strong> of culture and entertainment, <strong>without barriers</strong>. </p>
+<p>But in Italy they have already <em>blown up</em> TNTVillage, and I don't want the <strong>decimation</strong> of all the other <strong>online marketplaces</strong> created < strong>by the people for the people</strong> - non-profit, and indeed <strong>often disposable</strong>, both in time and money - just because <strong>it bothers someone</strong> that the <strong>main functionality of the Web</strong> is used: hypertext links, invented to encourage the <strong>free and free sharing</strong> of culture and entertainment, <strong>without barriers</strong>. </p>
 
 <hr>
-
-<p><img src="{{< assetsRoot >}}/Media/Misc/Keep-Seeding-Monitor.webp" alt=""Keep seeding""></p>

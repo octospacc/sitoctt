@@ -6,7 +6,7 @@ Aliases = [
   "/Posts/2022-07-03-0000-The-Idea-of-a-Physical-Keyboard-for-Smartphone-Made-in-Home.html",
 ]
 Categories = [ "Technology", "Mobile", "DIY" ]
-Dates = 2022-07-03
+Date= 2022-07-03
 Lastmod = 2023-03-21
 Featured_Image = "@/Media/Cover-Tastiera-mobilefun.com.avif"
 +++
@@ -19,9 +19,9 @@ Maybe a year ago, partly out of curiosity and partly because I already imagined 
 
 I don't mean the damn numeric keypads, which you still see on non-smart phones today, I mean keyboards with dozens of individual keys dedicated for letters and symbols.  
 This type of keyboard was already rare to see on phones prior to the smartphone era: it first appeared not on ultra-cheap models, but in any case it might not always be very comfortable due to its small size.  
-The more smartphones began to spread, the more physical keyboards began to disappear, even if they rarely existed on some modern phones, and even of generous dimensions.
+The more smartphones began to spread, the more physical keyboards began to disappear, even if they rarely existed on some modern phones, even of generous dimensions.
 
-I don't remember if this time last year was just before or shortly after I bought a new smartphone, my current one today; the fact is that I had to choose it based on precise and restrictive criteria, first and foremost the cost and, unfortunately, there was no low range with a physical keyboard.
+I don't remember if this time last year was just before or shortly after I bought a new smartphone, my current one; the fact is that I had to choose it based on precise and restrictive criteria, first and foremost the cost and, unfortunately, there was no low range with a physical keyboard.
 
 ## A new idea
 
@@ -61,7 +61,7 @@ I would swear that the keyboard itself is even older, considering the references
 
 ## Bad ending
 
-What can I say. Should I have expected a problem like this? Maybe yes. Surely, however, I doubt that other people in my place would have expected this.  
+What can I say. Should I have expected a problem like this? Maybe yes. Surely, however, I doubt that other people in my place would have expected it.  
 Finally, the only thing I can say is that this article should not have come out; or rather, not with this end. I should have talked about the already made Prototype 0 of my smartphone stand that adds this tiny keyboard, but, unfortunately, I feel like I haven't had a chance to test it enough.
 
 Hoping to be able to solve the battery problem (but I think so)[^New Battery], in the next article, of what I believe will be a series, I will explain how I fixed everything, and I will illustrate the curious Prototype 0.

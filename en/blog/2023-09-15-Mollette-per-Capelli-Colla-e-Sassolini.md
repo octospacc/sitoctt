@@ -1,13 +1,11 @@
 +++
-Title = "📎 Hair clips, reduced to glue and pebbles"
-Dates = 2023-09-15
-Downsync = "/it/posts/Mollette-per-Capelli-Colla-e-Sassolini.html"
-Aliases = [
-  "/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html",
-]
-Image = "@/Media/Decor/craiyon_182944_small_hair_clip_decorated_with_glitter__worn_on_head__profile_closeup_smiling__anime.webp"
-Description = "Not all my DIY creations are hideous. This time, to give a gift to both myself and others, I embellish some hair clips, in the first way that comes to mind."
-Categories = [ "DIY" ]
+Title= "📎 Hair clips, reduced to glue and pebbles"
+Date= 2023-09-15
+Downsync= "/it/blog/Mollette-per-Capelli-Colla-e-Sassolini.html"
+Aliases= [ "/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html" ]
+Featured_Image= "@/Media/Decor/craiyon_182944_small_hair_clip_decorated_with_glitter__worn_on_head__profile_closeup_smiling__anime.webp"
+Description= "Not all my DIY creations are hideous. This time, to give a gift to both myself and others, I embellish some hair clips, in the first way that comes to mind."
+Categories= [ "DIY" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -53,7 +51,7 @@ Categories = [ "DIY" ]
 </ul>
 
 <p>Meanwhile, in the frenzy of everything, I had beads going right, left, on the desk, on me, and then on the floor. While doing the opening and closing, some even splashed into the air...<br>
-Most of what I lost I found again in the days immediately after, however, when I walked around my room and felt something <em>crunchy</em> under my slippers. I couldn't find a very small part, obviously, also because in the meantime I vacuumed shortly afterwards.</p>
+Most of what I lost I found again in the next few days, however, when I walked around my room and felt something <em>crunchy</em> under my slippers. I couldn't find a very small part, obviously, also because in the meantime I vacuumed shortly afterwards.</p>
 
 <p>In the end, after making these 3 for my mother... I almost started wanting some made like this too though! 😅️ <br>
 So I made at least one more, but this time, having infinite time, I tried with vinyl glue.<br>

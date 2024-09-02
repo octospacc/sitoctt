@@ -1,11 +1,11 @@
 +++
-Titre = "💰 Dons"
-Alias ​​= [
+Title = "💰 Dons"
+Alias = [
   "/Donations.html",
 ]
-#Indice : Vrai
-#Commande : 45
-Dernière modification = 2022-11-12
+#Index: True
+#Order: 45
+Lastmod = 2022-11-12
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -29,7 +29,7 @@ Ouvrez ma page Coindrop pour voir les crypto-monnaies que j'accepte et leurs adr
 _Remarque : Coindrop nécessite du code JavaScript (gratuit) pour s'exécuter. C'est un problème qui doit être résolu d'une manière ou d'une autre, à mon avis, mais pour l'instant c'est tout._
 
 _Remarque : ETH est répertorié par souci d'exhaustivité, mais le réseau Ethereum est nul et est inutilisable pour les frais ; Cependant, les dons sur le réseau Binance pour cette adresse sont les bienvenus._  
-Si j'accepte d'autres devises à l'avenir, par exemple, je serais intéressé à essayer [Nano](https://nano.org), qui prétend avoir un faible impact environnemental.
+Je devrais accepter d'autres monnaies à l'avenir, par exemple je serais intéressé à essayer [Nano](https://nano.org), qui prétend avoir un faible impact environnemental.
 
 Si vous le souhaitez vraiment, vous pouvez choisir d'installer, sur vos machines, un logiciel de minage de la cryptomonnaie que vous souhaitez me donner, en paramétrant le programme pour qu'il envoie les paiements à mon adresse. En suivant ce chemin, vous n'avez même pas besoin d'un portefeuille pour la devise en question, et vous utiliserez simplement votre électricité pour obtenir l'argent à me donner.  
 Gardez à l'esprit que le minage ne m'intéresse plus depuis un moment, donc je ne sais pas quels programmes recommander, je vous dirais de demander à des personnes plus expérimentées. Mais s'il vous plaît, ne créez pas une ferme minière alimentée par des dinosaures morts, du pétrole, du méthane, je n'en ai aucune idée, juste pour me faire un don (ou, en fait, ne le faites pas en général, s'il vous plaît) ! Le mieux serait d'utiliser un [Rasperino Solare](./Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html), si vous le pouvez.
@@ -42,7 +42,7 @@ J'accepte actuellement les cartes-cadeaux pour ces magasins :
 
 - Amazon.it
 
-Pour m'envoyer le code d'un chèque cadeau que vous possédez et que vous souhaiteriez me faire un don, consultez la liste de mes contacts publics, où vous pourrez m'envoyer des messages et faire de belles choses 😸 : [Who-I-Am.html#-My -contacts](./Qui -Je suis.html#-Mes-contacts)
+Pour m'envoyer le code d'un chèque cadeau que vous possédez et que vous souhaiteriez me faire un don, consultez la liste de mes contacts publics, où vous pourrez m'envoyer des messages et faire de belles choses 😸 : [Qui-je-suis.html#-Mon -contacts](./Qui -Je suis.html#-Mes-contacts)
 
 ## Faites un don en espèces
 
@@ -52,7 +52,7 @@ Pour le moment, j'accepte définitivement les devises fiscales suivantes :
 
 - [EUR] euros
 
-La liste ici fait connaître les devises que j'accepte définitivement, car j'ai la possibilité d'en faire bon usage.  
+La liste ici fait connaître les devises que j’accepte définitivement, car j’ai un moyen de les utiliser à bon escient.  
 Si vous avez sur vous de l'argent liquide dans une autre devise et que vous souhaitez vraiment me le donner de toute façon, je l'accepterai probablement, mais sachez qu'il est très probable que je ne pourrai jamais l'utiliser, et votre don sera donc ont été en vain.
 
 ## Historique des dons

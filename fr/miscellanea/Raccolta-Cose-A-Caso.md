@@ -1,9 +1,9 @@
 +++
-Titre = "Collection de choses aléatoires"
-Alias ​​= [
+Title = "Collection de choses aléatoires"
+Aliases = [
   "/Raccolte/Fritto-Misto/Raccolta-Cose-A-Caso.html",
 ]
-Catégories = [ "Frit-Mélangé" ]
+Categories = [ "Frit-Mélangé" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}

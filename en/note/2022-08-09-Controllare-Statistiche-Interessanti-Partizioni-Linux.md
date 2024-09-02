@@ -1,6 +1,6 @@
 +++
 Title = "Check interesting statistics and health of partitions on Linux"
-Dates = 2022-08-09
+Date= 2022-08-09
 Aliases = [
   "/Posts/Notes/Linux/2022-08-09-Check-Interesting-Statistics-Partitions-Linux.html",
 ]
@@ -65,7 +65,7 @@ It must be taken into account, however, in case you have not understood, that th
 : The amount, in KB, of data written during the current session, i.e. since the last mount. Together with the value described just above, we can use this to know how much we have written in an active period of time (the current one).
 
 • **lifetime_write_kbytes**:
-: The amount, in KB, of data written since the partition was created. This information is particularly useful about microSDs, at least if you use them intensively like me. It's also on F2FS.
+: The amount, in KB, of data written since the partition was created. This information is particularly useful about microSD, at least if you use it intensively like me. It's also on F2FS.
 
 • **errors_count**:
 : The number of errors, I believe both in reading and writing, that occurred over time. Frequent errors can be a symptom of unreliable or simply degraded memory.
@@ -88,7 +88,7 @@ In any case, just to be careful, it would be a good idea to always carry out rou
 Speaking of microSD cards: they are almost disposable, they have an extremely limited life, given that their memory chips are the waste from the manufacturing of other, higher-end memories, such as SSDs.
 
 What is known about their actual durability, at least of those that came out well from the factory and not of sub-brands?  
-You read all sorts of things online: there are those who say that every single memory cell can withstand 10,000 rewrites, those who say that you can at most write 1,000 times the capacity of the memory before it completely fails (going into read-only mode)... no conclusion is reached.
+You read all sorts of things online: there are those who say that every single memory cell can withstand 10,000 rewrites, and those who say that you can at most write 1,000 times the capacity of the memory before it completely fails (going into read-only mode)... no conclusion is reached.
 
 I have had cards like the one examined today, with a capacity of 32 GB, which, apart from the almost 2 TB written since the last formatting, in my opinion has seen at least 3 TB in total in its entire life, and yet it still seems fine; and then, I've had cards that started giving problems for much less. Maybe it's because I used the latter with crappy file systems, like FAT32 or exFAT, and for this reason they were constantly corrupting.
 

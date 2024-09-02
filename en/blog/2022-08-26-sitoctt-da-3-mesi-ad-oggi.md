@@ -5,7 +5,7 @@ Aliases = [
   "/Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html",
 ]
 Categories = [ "Internet" ]
-Dates = 2022-08-26
+Date= 2022-08-26
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -15,7 +15,7 @@ Dates = 2022-08-26
 This article can probably be considered as the first of a series on the _site philosophy_, if you want to say so.  
 To start, what is better to talk about, if not everything that led to the **birth of the site** and began to characterize it?
 
-When, 3 months ago now, I had just started to conceive the ctt site, one of the things I felt was that I didn't have a **place** in which to arrange my stuff - the stuff to be preserved and shared publicly, at least - in a way that made it **tidy, available, watchable, usable, and leak-proof**.
+When, 3 months ago now, I had just started to conceive the ctt site, one of the things I felt was that I didn't have a **place** in which to arrange my stuff - the stuff to be preserved and shared publicly, at least - in a way that made it **tidy, available, watchable, usable, and loss-proof**.
 
 ## Let's go back to before
 
@@ -59,7 +59,7 @@ The only really important thing, however, has never changed: "**occt**".
 At the end of the name there is always Octt, that is me. Whether it's a site, a place, a post office, what matters is that it's **mine**; and speaking precisely of this, of the fact that the site is mine, there is a lot to say.
 
 The site is mine because I have **complete freedom** to make it the way I want.  
-If already in the mid-90s the only real limit for a website was the **creativity** of the person who built it, today the **potential** of the Web platform are truly **infinite**; although, in a certain way, it doesn't seem that way at all if you only frequent the common Web.
+If already in the mid-90s the only real limit for a website was the **creativity** of the person who built it, today the **potential** of the Web platform is truly **infinite**; although, in a certain way, it doesn't seem that way at all if you only frequent the common Web.
 
 The sites of the "_non-personal_" Internet all have the same same and banal appearance.  
 Many blogs or demo sites use recycled graphic templates. Modern social platforms (Mastodon, Friendica, Pleroma, and so on and so forth) limit customization to a photo, a banner, and a description. Stuff like [Misskey](https://misskey-hub.net/en) already does more, but it absolutely doesn't reach the levels of **total customization**, with **granular precision**, that only a site The Web - even if it were a forum like those of the past, and not a private space - allows.
@@ -85,7 +85,7 @@ It's something you find, admire, maybe share... and it all ends there. It is the
 
 Contents which, for goodness sake, must also be decently **ordered**.  
 I _try_, it took me a long time to arrive at what I have now, with a global menu that first of all includes fixed pages, such as the home page, because they have no specific category or because they are of particular importance.  
-Immediately following this, I have a list of sections, which I wanted to call "**Collections**". They are links to pages that contain lists of any other page of the given topic. This path is also circular, considering that, from the individual content pages, you can click on the automatically generated entries to visit the pages of the relevant categories.
+Immediately following this, I have a list of sections, which I wanted to call "**Collections**". They are links to pages that contain lists of any other page of a given topic. This path is also circular, considering that, from the individual content pages, you can click on the automatically generated entries to visit the pages of the relevant categories.
 
 For now, there are perhaps a little few pages in the classic sense. I won't repeat them here one by one because _well_ - but even if I did, I wouldn't be able to create a wall of links. Their particular reason for existing is told on them.  
 The real bulk of the site is in the blog articles.  

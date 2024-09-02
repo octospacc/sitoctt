@@ -1,11 +1,11 @@
 +++
 Title = "📈 sitoctt - D'il y a 3 mois à aujourd'hui, le début et les raisons"
 Description = "Quelques mois après la naissance de sitoctt e statistico, je regarde en arrière pour constater les petits progrès - mais certainement importants - réalisés jusqu'à présent."
-Alias ​​= [
+Aliases = [
   "/Posts/2022-08-26-sitoctt-da-3-mesi-ad-oggi.html",
 ]
-Catégories = [ "Internet" ]
-Dates = 2022-08-26
+Categories = [ "Internet" ]
+Date = 2022-08-26
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -15,7 +15,7 @@ Dates = 2022-08-26
 Cet article peut probablement être considéré comme le premier d'une série sur la _philosophie du site_, si l'on veut.  
 Pour commencer, quoi de mieux pour parler, sinon de tout ce qui a conduit à la **naissance du site** et a commencé à le caractériser ?
 
-Quand, il y a 3 mois maintenant, je venais de commencer à concevoir le site ctt, une des choses que je ressentais était que je n'avais pas d'**endroit** où ranger mes affaires - celles à conserver et à partager. publiquement, au moins - d'une manière qui le rendait **bien rangé, disponible, regardable, utilisable et étanche**.
+Quand, il y a 3 mois maintenant, je venais de commencer à concevoir le site ctt, une des choses que je ressentais était que je n'avais pas d'**endroit** où ranger mes affaires - celles à conserver et à partager. publiquement, au moins - d'une manière qui le rendait **bien rangé, disponible, regardable, utilisable et résistant aux pertes**.
 
 ## Revenons à avant
 
@@ -36,7 +36,7 @@ Non pas que les **1300** actuels soient nombreux - pas du tout, et c'est mieux a
 
 Cependant, si, avec une image (en ignorant que ma police ne se chargeait pas, même si je l'avais déjà incluse à l'époque), nous voyons comment le site était en pratique à ses premiers jours... ahhh, mais _comme certains des détails étaient_ , par rapport à aujourd'hui ?
 
-![La page d'accueil du sitoctt, telle qu'elle était le 25 mai.]({{<assetsRoot >}}/Media/Screenshots/sitoctt/home-2022-05-25.png)
+![La page d'accueil du sitoctt, vue telle qu'elle était le 25 mai.]({{<assetsRoot >}}/Media/Screenshots/sitoctt/home-2022-05-25.png)
 
 Mon _discours décousu_ apparaissait encore plus ou moins tel qu'il apparaît aujourd'hui sur la page d'accueil, mais le reste est à peine reconnaissable.  
 **Tout semble plus vide**... puisqu'il manque toutes les petites icônes et boutons que j'ai maintenant sur les bords et dans le menu global. Oui, cette dernière existait déjà ; son utilité à cette époque était presque nulle, étant donné que les pages présentes étaient numéro 2, mais disons que c'était une bonne chose de l'avoir créé immédiatement.
@@ -50,7 +50,7 @@ Ceux qui ont suivi la création du site à ses débuts le savent déjà, mais le
 En fait, au moment où l’on a imaginé cette chose, la plateforme n’existait pas de manière exacte et définie. Nous avons réfléchi au « lieu », mais de manière vague et encore confuse.
 
 En fin de compte, comme on pouvait s’y attendre, j’ai opté pour un site Web.  
-Pour une raison quelconque, le nom "postoctt" ne m'a pas semblé puant assez tôt. Il m'a fallu du temps pour réaliser que ce nom faisait penser, au moins en partie, à quelque chose lié à la poste... Une situation, je dirais, pas tout à fait optimale.  
+Pour une raison quelconque, le nom "postoctt" ne m'a pas semblé puant assez tôt. Il m'a fallu beaucoup de temps pour réaliser que ce nom rappelait, au moins en partie, quelque chose lié à la poste... Une situation, je dirais, pas tout à fait optimale.  
 J'ai donc pensé à changer le nom en "**sitoctt**".
 
 ## Le site d'Octt
@@ -62,7 +62,7 @@ Le site m'appartient car j'ai **totale liberté** de le créer comme je le souha
 Si déjà au milieu des années 90 la seule véritable limite pour un site Web était la **créativité** de celui qui le construisait, aujourd'hui le **potentiel** de la plateforme Web est véritablement **infini** ; même si, d'une certaine manière, cela ne semble pas du tout le cas si vous fréquentez uniquement le Web commun.
 
 Les sites de l'Internet "_non personnel_" ont tous la même apparence banale.  
-De nombreux blogs ou sites de démonstration utilisent des modèles graphiques recyclés. Les plateformes sociales modernes (Mastodon, Friendica, Pleroma, etc.) limitent la personnalisation à une photo, une bannière et une description. Des trucs comme [Misskey](https://misskey-hub.net/en) en font déjà plus, mais ils n'atteignent absolument pas les niveaux de **personnalisation totale**, avec ** une précision granulaire**, que seul un site Internet - voire un forum comme ceux d'autrefois, et non un espace privé - permet.
+De nombreux blogs ou sites de démonstration utilisent des modèles graphiques recyclés. Les plateformes sociales modernes (Mastodon, Friendica, Pleroma, etc.) limitent la personnalisation à une photo, une bannière et une description. Des trucs comme [Misskey](https://misskey-hub.net/en) font déjà plus, mais ils n'atteignent absolument pas les niveaux de **personnalisation totale**, avec une **précision granulaire**, que seul un site Le Web - même s'il s'agissait d'un forum comme ceux du passé, et non d'un espace privé - le permet.
 
 ### Grande expressivité
 
@@ -85,7 +85,7 @@ C'est quelque chose que l'on trouve, admire, peut-être partage... et tout s'arr
 
 Des contenus qui, pour l'amour de Dieu, doivent également être décemment **commandés**.  
 J'_essaye_, j'ai mis du temps à arriver à ce que j'ai maintenant, avec un menu global qui comprend tout d'abord des pages fixes, comme la page d'accueil, parce qu'elles n'ont pas de catégorie spécifique ou parce qu'elles ont une importance particulière.  
-Immédiatement après cela, j'ai une liste de sections que je voulais appeler "**Collections**". Ce sont des liens vers des pages contenant des listes de toute autre page du sujet donné. Ce chemin est également circulaire, étant donné que, à partir des pages de contenu individuelles, vous pouvez cliquer sur les entrées générées automatiquement pour visiter les pages des catégories pertinentes.
+Immédiatement après cela, j'ai une liste de sections que je voulais appeler "**Collections**". Ce sont des liens vers des pages contenant des listes de toute autre page d'un sujet donné. Ce chemin est également circulaire, étant donné que, à partir des pages de contenu individuelles, vous pouvez cliquer sur les entrées générées automatiquement pour visiter les pages des catégories pertinentes.
 
 Pour l'instant, il reste peut-être quelques pages au sens classique du terme. Je ne les répéterai pas ici un par un parce que _bien_ - mais même si je le faisais, je ne serais pas capable de créer un mur de liens. Leur raison particulière d’exister est racontée sur eux.  
 La véritable majeure partie du site se trouve dans les articles du blog.  
@@ -98,7 +98,7 @@ Certains contenus non exclusifs sont encore déjà disponibles sur mes autres si
 Ceux qui ne sont pas archivés sont tout simplement salissants et mal conservés, ainsi que sans garantie pour ceux qui souhaitent les copier ou les réutiliser ; ceux cependant qui pour une raison ou une autre sont archivés, c'est comme s'ils n'existaient pour rien au monde, et il m'est facile de les perdre aussi.  
 Certaines de ces données peuvent avoir de la valeur, donc **c'est malheureux**.
 
-Il y a environ un mois, j'ai annoncé avec mon [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{<assetsRoot >}} /Files/Decreto-20-luglio-2022.pdf) --> (_on n'a rien compris, non ?_), c'est quelque chose qui demande un travail fastidieux (_prendre l'ancien, évaluer leur qualité, copier le texte, le coller dans les nouveaux fichiers texte, bien le mettre en page, télécharger des photos et des vidéos, bien les optimiser et les télécharger... _ rien que le plaisir de créer, ici c'est une chaîne de montage !), mais ** il faut le faire **.  
+Il y a environ un mois, j'ai annoncé avec mon [**decretocto**](../PicoBlog.html#-2022-07-21-Decreto-fu-fatto-2) <!-- ({{<assetsRoot >}} /Files/Decreto-20-luglio-2022.pdf) --> (_vous n'avez rien compris, n'est-ce pas ?_), c'est quelque chose qui demande un travail fastidieux (_prendre l'ancien, évaluer sa qualité, copier le texte , collez-le dans les nouveaux fichiers texte, mettez-le bien en page, téléchargez des photos et des vidéos, optimisez-les bien et téléchargez-les..._ rien que le plaisir de créer, ici c'est une chaîne de montage !), mais **il faut que ce soit fait**.  
 Avec mon temps libre, j'ai déjà commencé à le faire et je vais continuer.  
 Les articles de mon [ancien blog](https://noblogo.org/loli-documentatrice) devraient également être archivés ici, encore une fois à des fins d'organisation et de préservation - mais ceux-ci sont plus faciles.
 

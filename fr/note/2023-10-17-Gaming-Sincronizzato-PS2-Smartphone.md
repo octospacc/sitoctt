@@ -1,13 +1,11 @@
 +++
 Title = "2️⃣ Gaming synchronisé entre PlayStation 2 et smartphone"
-Dates = 2023-10-17
-Dernière modification = 2023-10-18
-Downsync = "/it/posts/Notes/Gaming-Sincronizzato-PS2-Smartphone.html"
-Alias ​​= [
-  "/Posts/Notes/2023-10-17-Gaming-Sincronizzato-PS2-Smartphone.html",
-]
+Date = 2023-10-17
+Downsync = "/it/note/Gaming-Sincronizzato-PS2-Smartphone.html"
+Aliases = [ "/Posts/Notes/2023-10-17-Gaming-Sincronizzato-PS2-Smartphone.html" ]
 Description = "En détail, comment j'ai conçu un système pour que les jeux et les sauvegardes soient toujours synchronisés entre l'émulateur et la vraie console PS2, partagé ici."
-Catégories = [ "Jeux" ]
+Categories = [ "Jeux" ]
+Lastmod = 2023-10-18
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -15,25 +13,24 @@ Catégories = [ "Jeux" ]
 
 
 <!-- Généré automatiquement par ListedDownsync.js. Ne modifiez pas (sauf si vous définissez également "% Downsync = False") - cela serait écrasé. -->
-<h1><span class="twa twa-2️⃣"><span>2️⃣</span></span> Jeu synchronisé entre PlayStation 2 et smartphone</h1>
 
 <p>Ceux qui suivent mes aventures depuis assez longtemps et avec l'attention voulue le savent peut-être, mais le plus gros problème de l'informatique est : comment concilier correctement les divergences qui se créent lorsque nous sommes confrontés au problème de jouer à des jeux vidéo à la fois à la maison qu'en portabilité ? Entre les jeux qui dans un cas sont confortables à jouer et dans un autre peut-être même ne fonctionnent pas, et les sauvegardes qui sont réparties sur d'innombrables appareils différents, résoudre complètement ce problème ne sera jamais possible...<br>
 Pourtant, parfois, l'entropie du cerveau est capable de générer des idées particulièrement utiles à cet égard aussi, comme cela m'est arrivé l'autre jour pour la PS2.</p>
 
 <p>En fait, j'ai une vraie PlayStation 2, une console de salon qui quand on trouve le moyen de l'utiliser est certainement appréciable... et que je me suis souvent retrouvé à ne pas utiliser, pour les raisons évoquées plus haut : pas directement, car à la maison, je n'y vais souvent pas, ni avec un émulateur sur le smartphone, car j'aurais l'impression qu'à la maison je n'utiliserais pas la vraie console puisque les sauvegardes mises à jour ne seraient que sur le téléphone.<br>
-Et puis, l'autre jour, en regardant la console (je ne sais pas pourquoi), j'ai pensé qu'il devrait y avoir un moyen de synchroniser facilement les sauvegardes entre celle-ci et le téléphone...</p>
+Et puis, l'autre jour, en regardant la console (je ne sais pas pourquoi), je pense qu'il devrait y avoir un moyen de synchroniser facilement les sauvegardes entre celle-ci et le téléphone...</p>
 
 <h2>Objet 1 : clé USB ou carte mémoire ?</h2>
 
 <p>À l'époque, l'idée la plus simple à laquelle j'ai pensé était : ils existent <a href="https://www.amazon.it/Adattatore-Memoria-Lettore-Sostitutivo-trasparente/dp/B0C8TTQFJY" rel= "noopener nofollow" target="_blank">adaptateurs</a> pour utiliser une carte microSD comme carte mémoire PlayStation (qui utilisent une interface non standard à la place)... cela vaut peut-être la peine d'en acheter un, donc je les garde tous c'est là que se trouvent les sauvegardes, et si je le souhaite, je peux également y accéder depuis d'autres appareils en déplaçant la carte.<sup id="fnref1"><a class="footnote-ref" href="#fn1">1</a> </sup> <br>
 Avec une carte de plusieurs Go (il n'y en a plus de petites dans le coin), en plus, je pourrais même me passer de la clé USB et garder tous les jeux uniquement sur la carte mémoire !</p>
 
-<p>Heureusement, ce n'est pas le seul moyen, du moins pour certains jeux : <a href="https://github.com/ps2homebrew/Open-PS2-Loader" rel="noopener nofollow" target="_blank " >Open PS2 Loader</a>, l'homebrew qui exécute des jeux commerciaux à partir d'un stockage de sauvegarde (tel que des clés USB), prend en charge l'utilisation de cartes mémoire virtuelles (VMC) qui sont enregistrées sous forme de fichiers sur la clé USB. Les jeux sont assez lents à enregistrer sur ce point (la PS2 ne prend en charge que l'USB 1.1, et il y a en plus une charge étrange), mais c'est une solution apparemment réalisable.</p>
+<p>Heureusement, ce n'est pas le seul moyen, du moins pour certains jeux : <a href="https://github.com/ps2homebrew/Open-PS2-Loader" rel="noopener nofollow" target="_blank " >Open PS2 Loader</a>, l'homebrew qui exécute des jeux commerciaux à partir d'un stockage de sauvegarde (tel que des clés USB), prend en charge l'utilisation de cartes mémoire virtuelles (VMC) qui sont enregistrées sous forme de fichiers sur la clé USB. Les jeux sont assez lents à enregistrer dessus (la PS2 ne prend en charge que l'USB 1.1, et il y a en plus une charge étrange), mais c'est une solution apparemment réalisable.</p>
 
 <h2>Attelage 2 : Enregistrer la conversion</h2>
 
 <p>Quel que soit le choix précédent, je découvre cependant un autre obstacle : les sauvegardes doivent être converties pour passer de la console à l'émulateur (au moins <a href="https://aethersx2.com" rel="noopener nofollow" target=" _blank">AetherSX2</a>, pour le meilleur ou pour le pire, le seul vraiment décent à ce jour) et vice versa.<br>
-Heureusement, je trouve immédiatement <a href="http://www.csclub.uwaterloo.ca:11068/mymc" rel="noopener nofollow" target="_blank">mymc</a>, un programme si ancien qu'il nécessite Python 2 (alors que pour le moment nous sommes sur 3 depuis des années et des années), qui pourtant fonctionne, et Dieu merci, il propose une interface en ligne de commande.</p>
+Heureusement, je trouve immédiatement <a href="http://www.csclub.uwaterloo.ca:11068/mymc" rel="noopener nofollow" target="_blank">mymc</a>, un programme si ancien qu'il nécessite Python 2 (alors que pour le moment nous sommes à 3 depuis des années et des années), qui pourtant fonctionne, et Dieu merci, il propose une interface en ligne de commande.</p>
 
 <p>Il n'effectue pas de véritables conversions de cartes mémoire virtuelles en soi, mais il vous permet de manipuler les fichiers contenus de différentes manières. Tout cela est très rudimentaire, mais heureusement suffisamment exploitable pour faire exactement ce dont j'ai besoin, après avoir assemblé un script idéal.<br>
 Je ne vais pas essayer d'expliquer comment ça marche, en bas de l'article on peut le télécharger et le lire, c'est ennuyeux. J'ai empaqueté mymc dans le script, afin qu'il n'ait pas besoin d'être installé séparément.</p>
@@ -42,10 +39,10 @@ Je ne vais pas essayer d'expliquer comment ça marche, en bas de l'article on pe
 
 <p><em>Note 2023-10-18 : J'ai trouvé un fork moderne (en Python 3) de mymc, <a href="https://sr.ht/%7Ethestr4ng3r/mymcplus/" rel="noopener nofollow " target="_blank">mymc+</a>... Je ne l'ai pas (encore) essayé, mais il est possible que cela fonctionne également sur Android, éliminant ainsi la configuration fastidieuse qui suit, je vais donc le mentionner. </em> </p>
 
-<p>Malheureusement, mymc a quelques problèmes de fonctionnement sous <a href="https://termux.dev/en" rel="noopener nofollow" target="_blank">Termux</a> (l'environnement Linux natif très pratique pour ce type d'intégrations) sur mon Android : je ne sais pas ce qui est à blâmer, mais en pratique le programme a des problèmes pour lire les fichiers VMC, lançant une erreur du type <code class="prettyprint">file.vmc : Bad file descriptor< /code>. Je n'ai trouvé aucune solution en ligne, pas même pour des recherches générales sur le problème, j'ai donc dû me débrouiller. Peut-être qu'utiliser un système GNU+Linux conteneurisé en root, avec ses bibliothèques et une version différente de Python 2.7, suffirait à résoudre le problème, mais qui sait.<br>
-Pour ma part, je commençais à m'énerver, j'ai donc choisi de déléguer la conversion à mon serveur Debian, en laissant un script Termux effectuer la simple tâche de charger la VMC sur le serveur, d'y exécuter le script de conversion proprement dit, puis téléchargez le fichier converti au bon endroit localement.</p>
+<p>Malheureusement, mymc a quelques problèmes de fonctionnement sous <a href="https://termux.dev/en" rel="noopener nofollow" target="_blank">Termux</a> (l'environnement Linux natif très pratique pour ce type d'intégrations) sur mon Android : je ne sais pas ce qui est à blâmer, mais en pratique le programme a des problèmes pour lire les fichiers VMC, lançant une erreur du type <code class="prettyprint">file.vmc : Bad file descriptor< /code>. Je n'ai trouvé aucune solution en ligne, pas même pour des recherches générales sur le problème, j'ai donc dû me débrouiller. Peut-être qu'utiliser un système GNU+Linux conteneurisé en root, avec ses bibliothèques et une version différente de Python 2.7, suffirait à résoudre le problème, mais qui sait.<br>
+Pour ma part, je commençais à m'énerver, j'ai donc choisi de déléguer la conversion à mon serveur Debian, en faisant en sorte qu'un script Termux effectue la simple tâche de charger la VMC sur le serveur, d'y exécuter le script de conversion proprement dit, puis téléchargez le fichier converti au bon endroit localement.</p>
 
-<p>Avant d'oublier : sur Android 13 et supérieur (mais déjà sur certaines versions antérieures), les autorisations root sont nécessaires pour lire et écrire des fichiers depuis/vers des mémoires externes (comme la clé USB) et des dossiers d'applications privés (comme celui où AetherSX2 stocke les cartes mémoire virtuelles).<br>
+<p>Avant d'oublier : sur Android 13 et supérieur (mais déjà sur certaines versions antérieures), les autorisations root sont nécessaires pour lire et écrire des fichiers depuis/sur des mémoires externes (comme la clé USB) et des dossiers d'applications privés (comme celui où AetherSX2 stocke les cartes mémoire virtuelles).<br>
 D'après ce que j'ai pu prouver, si vous n'avez pas root vous devrez forcément utiliser un gestionnaire de fichiers adapté (et je ne pense pas qu'il en existe de scriptables, il faudra donc utiliser vos mains), ou peut-être ADB , pour déplacer les fichiers... merci Google.<br>
 Quoi qu'il en soit, mes scripts ont écrit dans les chemins spéciaux utilisés pour tous les ambaradan.</p>
 

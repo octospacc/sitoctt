@@ -1,19 +1,19 @@
 +++
 Title = "☀️ Rasperino Solare (et autres expériences qui ont mal tourné)"
 Description = "Quand j'ai acheté un panneau solaire USB, je l'ai immédiatement testé. Il fait du bon travail, mais il faut avoir des attentes réalistes !"
-Alias ​​= [
+Aliases = [
   "/Posts/2022-06-23-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html",
   "/Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html",
 ]
-Catégories = [ "Rasperino", "Ecologie", "Technologie" ]
-Dates = 2022-06-23
+Categories = [ "Rasperino", "Ecologie", "Technologie" ]
+Date = 2022-06-23
 +++
 
 {{< noticeAutomaticTranslation it >}}
 
 
 
-Il y a quelques mois, j'ai acheté un petit [panneau solaire monocristallin](https://www.amazon.it/Lixada-Pannello-Monocristallino-Caricabatterie-Cellulare/dp/B071Z1LGFV) en ligne, de taille similaire à ceux d'une feuille A4, pour la somme d'environ 20 € (sur Amazon.it les vendeurs sont tous des voleurs, sur Aliexpress cela aurait coûté un peu moins cher).
+Il y a quelques mois, j'ai acheté en ligne un petit [panneau solaire monocristallin](https://www.amazon.it/Lixada-Pannello-Monocristallino-Caricabatterie-Cellulare/dp/B071Z1LGFV), avec des dimensions similaires à celles d'une feuille A4, pour le chiffre d'environ 20 € (sur Amazon.it les vendeurs sont tous des voleurs, sur Aliexpress cela aurait coûté un peu moins cher).
 
 [![Capture d'écran d'une photo envoyée en chat. La photo montre le panneau dans sa boîte en carton. La légende dit "❗️ ENEL la déteste ! ⚠️ Découvrez comment la déesse Spacc a commencé le chemin lent mais rentable vers l'indépendance énergétique ! ➡️ @spacccraft".]({{<assetsRoot >}}/Media/Screenshots/ SpaccCraft-975.png )](https://t.me/SpaccCraft/975)
 
@@ -27,7 +27,7 @@ Et donc nous avons une sortie théorique maximale de 1,3A à 5V... soit 6,5W.
 
 ### Conseils de vie..
 
-Ce préambule, apparemment inutile, est pour rappeler que les caméras de cinéma à bas prix et sans documentation (ce truc n'a même pas de manuel ni d'écriture au dos !) ne sont dignes de confiance que jusqu'à un certain point, au-delà duquel il faut résoudre les problèmes En cas de doute, il faut s'appuyer sur l'utilisation d'autres machines en porcelaine.  
+Ce préambule, apparemment inutile, est pour rappeler que les caméras de cinéma à bas prix et sans documentation (ce truc n'a même pas de manuel ni d'écriture au dos !) ne sont fiables que jusqu'à un certain point, au-delà duquel il faut résoudre les problèmes En cas de doute, il faut s'appuyer sur l'utilisation d'autres machines en porcelaine.  
 Dans mon cas, un multimètre USB, à placer entre la sortie du panneau et l'entrée d'un appareil capable d'absorber suffisamment de courant. Je n'ai pas ce petit objet, et je me rends compte que je ferais bien de l'acheter (c'est pas cher quand même), car pour le moment je ne peux avoir aucune certitude sur les performances de la dalle magique en silicium.
 
 ## Tests sur le terrain
@@ -40,10 +40,10 @@ A vrai dire, j'ai fait le tout premier test hors de chez moi, le lendemain de la
 A cette occasion, la seule absente pour l'instant, j'ai seulement essayé de recharger la batterie de mon smartphone (6000mAh).
 
 J'ai fait 3 tests différents, les deux premiers d'une durée d'environ 15 minutes dans les quelques heures avant midi, quand le ciel était clair, avec le panneau que je tenais à la main pour qu'il capte mieux le soleil perpendiculairement (idéal pour un monocristallin).  
-J'ai d'abord essayé de charger le téléphone alors qu'il était allumé, au point mort et avec toutes les radios éteintes (mais pas en état de veille profonde d'Android), mais malheureusement, il n'y avait aucun moyen, le téléphone consommait tellement d'énergie qu'il ne pouvait pas se recharger, il ne pouvait se décharger que lentement. Je ne me souviens pas très bien, car je n'ai pas pensé à enregistrer les données, mais il me semble que, sur l'application que j'utilise pour voir les statistiques de charge ([AccA](https://github.com/MatteCarra /AccA){[:MdTgtBlank: ]}), n'étaient marqués que sur l'entrée 300 mA.  
+J'ai d'abord essayé de charger le téléphone alors qu'il était allumé, au point mort et avec toutes les radios éteintes (mais pas en état de veille profonde d'Android), mais malheureusement, il n'y avait aucun moyen, le téléphone consommait tellement d'énergie qu'il ne pouvait pas se recharger. ne pouvait se décharger que lentement. Je ne me souviens pas très bien, car je n'ai pas pensé à enregistrer les données, mais il me semble que, sur l'application que j'utilise pour voir les statistiques de charge ([AccA](https://github.com/MatteCarra /AccA)), uniquement sur l'entrée 300mA.  
 En essayant la même formule immédiatement après, mais avec le téléphone éteint, il me semble qu'en 15 minutes il n'a chargé que 2% de la batterie... il faudrait pratiquement 12h30 pour charger de 0 à 100% si c'est le cas. cas.
 
-J'ai fait le dernier test vers 14h, alors que le ciel s'était malheureusement assombri. J'ai placé le panneau sur une surface et j'ai utilisé le téléphone normalement, en écoutant de la musique et, je pense, en utilisant des applications de messagerie en ligne. Comme je m'en doutais, il ne s'est pas rechargé, mais au moins il était presque sans tomber en panne de charge, ce qui reste quand même bien compte tenu des conditions météorologiques.
+J'ai fait le dernier test vers 14h, alors que le ciel s'était malheureusement assombri. J'ai placé le panneau sur une surface et j'ai utilisé le téléphone normalement, en écoutant de la musique et, je pense, en utilisant des applications de messagerie en ligne. Comme je m'en doutais, il ne s'est pas rechargé, mais au moins il était presque sans tomber en panne de charge, ce qui est quand même bien compte tenu des conditions météorologiques.
 
 ![Capture d'écran d'une photo envoyée en chat. La photo montre le panneau posé sur le toit d'une voiture garée, avec un câble connecté descendant. La légende dit "Notre voiture est garée et j'ai mis le panneau solaire dessus."]({{<assetsRoot >}}/Media/Screenshots/OctoVoLTE-16754.png)
 
@@ -71,15 +71,15 @@ L’idée m’est venue à l’esprit après avoir malheureusement laissé le pr
 
 J'ai pensé, tout d'abord, configurer BOINC sur Raspbian, un logiciel de calcul distribué qui permet de contribuer à des projets de recherche scientifique, tout en gagnant quelques centimes par mois (rip) dans une sorte de cryptomonnaie, le [Gridcoin ](https ://gridcoin.us).  
 Comme je l'ai déjà dit, le Raspino doit être alimenté par le powerbank, le panneau directement ne lui donne pas assez de courant. Il semble s'allumer, mais en réalité, il semble entrer dans le bootloop.  
-Eh bien, je ne vais pas trop tourner autour du pot : tandis que (avec la même batterie externe, je pense 4 000 mAh) pour certaines applications à faible charge, comme [Pwnagotchi](https://pwnagotchi.ai/){[:MdTgtBlank:] }, le Pi peut rester allumé pendant des heures même avec un écran LCD rétroéclairé connecté... le CPU à 100%, qui effectue des calculs complexes, consomme tellement de ce courant que la batterie s'aplatit en seulement 1 heure.
+Bon, je ne vais pas trop tourner autour du pot : alors que (avec la même powerbank, je pense 4000mAh) pour certaines applications à faible charge, comme [Pwnagotchi](https://pwnagotchi.ai/), le Pi parvient à rester allumé pendant des heures même avec un écran LCD rétroéclairé connecté... le CPU à 100%, effectuant des calculs complexes, consomme tellement de courant que la batterie s'aplatit en seulement 1 heure.
 
-[![Capture d'écran d'un de mes orteils. La photo montre le panneau accroché sur mon balcon avec des crochets, avec un câble le reliant au Rasperino fixé sur le panneau lui-même. Le texte dit "#RasperinoVitaEcologica J'ai fixé le Pi à mon panneau solaire avec les élastiques en tissu des masques jetables (avant de les jeter, je détache les élastiques, les lave et les garde), et il semble avoir juste le puissance dont il a besoin pour fonctionner l'après-midi. Aujourd'hui, j'ai flashé la nouvelle SD avec Raspbian, pour l'instant j'ai choisi d'utiliser l'accrocco pour exécuter #BOINC, un outil informatique distribué avec lequel vous pouvez donner de la puissance de calcul à des projets scientifiques. comment ça se passe BOINC".]({{<assetsRoot >}}/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161){[:MdTgtBlank: ]}
+[![Capture d'écran d'un de mes orteils. La photo montre le panneau accroché sur mon balcon avec des crochets, avec un câble le reliant au Rasperino fixé sur le panneau lui-même. Le texte dit "#RasperinoVitaEcologica J'ai fixé le Pi à mon panneau solaire avec les élastiques en tissu des masques jetables (avant de les jeter, je détache les élastiques, les lave et les garde), et il semble avoir juste le pouvoir il doit fonctionner dans l'après-midi. Aujourd'hui, j'ai flashé la nouvelle SD avec Raspbian, pour l'instant j'ai choisi d'utiliser l'accrocco pour exécuter #BOINC, un outil informatique distribué avec lequel vous pouvez donner de la puissance de calcul à des projets scientifiques. Demain, nous testerons comment. ça devient BOINC".]({{<assetsRoot >}}/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161)
 
 _Psssss.. si vous voulez voir d'autres photos de la dalle (3) et dans une qualité un peu plus convenable, je les mets sur Pixelfed : [pixelfed.uno/p/octo/426839557817260168](https://pixelfed.uno/ p/ octo/426839557817260168)!_
 
 ## La réalité des faits
 
-A part cette chose, qui même si elle ne me rapporte pas d'argent en pratique serait utile car bénéfique pour la recherche scientifique, je n'ai aucune utilisation pratique en tête pour le Rasperino Pi 3 Solare. Peut-être qu'un Pi Zero serait mieux : apparemment, d'autres personnes en proie à la folie (mais mieux équipées), ont pensé à l'utiliser pour miner du Bitcoin, avec un petit panel similaire au mien ([YouTube/CbpfNU7oaws](https://invidious .snopyta .org/watch?v=CbpfNU7oaws)).  
+A part cette chose, qui même si elle ne me rapporte pas d'argent en pratique serait utile car bénéfique pour la recherche scientifique, je n'ai aucune utilisation pratique en tête pour le Rasperino Pi 3 Solare. Peut-être qu'un Pi Zero serait mieux : apparemment, d'autres personnes en proie à la folie (mais mieux équipées) ont pensé à l'utiliser pour miner du Bitcoin, avec un petit panel similaire au mien ([YouTube/CbpfNU7oaws](https://invidious. snopyta .org/watch?v=CbpfNU7oaws)).  
 Pour l'instant, j'utilise le petit panneau de manière sporadique pour recharger mes powerbanks, que je décharge lorsqu'il m'arrive de les utiliser pour recharger mon smartphone.
 
 S’il y a quelque chose que j’ai appris de cette histoire, c’est que je devrais acheter ce foutu multimètre USB.  

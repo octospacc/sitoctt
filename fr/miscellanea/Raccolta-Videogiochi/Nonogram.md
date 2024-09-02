@@ -1,7 +1,7 @@
 +++
-Titre = "#️⃣️ Nonogramme"
-Catégories = [ "Jeux" ]
-Dernière modification = 2023-03-22
+Title = "#️⃣️ Nonogramme"
+Categories = [ "Jeux" ]
+Lastmod = 2023-03-22
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -33,6 +33,6 @@ Les **Nonogram** (aussi appelés **Picross**, **Crucipixel**, et une vingtaine d
 
 WIP... Si vous souhaitez découvrir d'autres choses ou apprendre à jouer, lisez sur [Wikipedia](https://it.wikipedia.org/Nonogram).
 
-## [:HRotesRefsHtml:]
+## {{% i18n notes-réfs %}}
 
-[^PageBg] : **Arrière-plan de la page** : [Source](https://stock.adobe.com/en/images/close-up-pen-on-a-sheet-with-a-solved-japanese - mots croisés-loisirs-activités/323111281)
+[^PageBg] : **Arrière-plan de la page** : [Source](https://stock.adobe.com/en/images/close-up-pen-on-a-sheet-with-a-solved-japanese - mots croisés-activités-de-loisirs/323111281)

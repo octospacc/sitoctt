@@ -1,11 +1,11 @@
 +++
-Titre = "Mises à jour DSpacc - Clé maudite"
-Alias ​​= [
+Title = "Mises à jour DSpacc - Clé maudite"
+Aliases = [
   "/Posts/MicroBlog/2022-10-16-Updates-DSpacc-Tastino-Maledetto.html",
 ]
-Catégories = [ "MicroBlog" ]
-Dates = 2022-10-16
-Dernière modification = 20/10/2022
+Categories = [ "MicroBlog" ]
+Date = 2022-10-16
+Lastmod = 2022-10-20
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -18,7 +18,7 @@ Eh bien, cette fois, j'ai fait encore pire ; pour comprendre les proportions, il
 La carte dont je parlais est arrivée, la modification logicielle pour l'améliorer fonctionne, et j'explore encore un peu le tout. J'aurai le temps de parler de tout dans un long article, que j'écris déjà (mais je ne sais pas combien de temps cela me prendra).  
 Ce qu'il est important de parler maintenant, c'est d'un problème qui est survenu... Je ne sais même pas quand exactement, mais je ne m'en suis rendu compte que maintenant : le bouton retour L posait quelques problèmes.
 
-J'ai vu qu'appuyer sur des combinaisons de touches pour accéder aux menus du système flashcart n'avait aucun effet. Devenu méfiant, je décide de télécharger un homebrew pour tester les clés, Diagnose (qui peut être trouvé sur [GameBrew.org](https://www.gamebrew.org/wiki/Diagnose) [[ pag. archivé](https://web.archive.org/web/20220818023822/https://www.gamebrew.org/wiki/Diagnose)]), et je confirme en fait que le L Le bouton ne répond pas aux entrées.
+J'ai vu qu'appuyer sur des combinaisons de touches pour accéder aux menus du système flashcart n'avait aucun effet. Me méfiant, je décide de télécharger un homebrew pour tester les clés, Diagnose (qui peut être trouvé sur [GameBrew.org](https://www.gamebrew.org/wiki/Diagnose) [[page archivée](https:/ / web.archive.org/web/20220818023822/https://www.gamebrew.org/wiki/Diagnose)]), et je confirme en fait que le bouton L ne répond pas aux entrées.
 
 Sur le chat de Nlhlehde, ils me conseillent de tremper le bouton dans de l'alcool pour le nettoyer, puis de lui faire un peu d'exercice - ou, si je veux le réparer correctement, de dessouder le bouton et d'en mettre un nouveau.  
 À ce moment-là, j'en ai marre d'ouvrir la console, mais je constate que deux minutes d'exercice font à nouveau fonctionner le bouton comme par magie. L'état de fonctionnement ne dure en réalité que quelques minutes, et était à l'époque discutable : en moyenne, 1 clic sur 3 était enregistré.
@@ -40,6 +40,6 @@ Ah bon ça suffit, j'en ai marre de faire encore le tour : j'essaye de souder un
 
 Vaut-il mieux avoir un bouton retour qui fonctionne avec beaucoup de difficulté, ou vaut-il mieux ne pas en avoir du tout ? Je ne sais pas et je ne veux pas savoir. Le fait est que maintenant je vais devoir trouver des solutions aux nombreux problèmes résultant de cette mauvaise histoire,...,,,..,
 
-_**P.S, mise à jour 20/10/2022 :** Je vous mets une photo du bouton cassé démonté, avant de le jeter, pourquoi pas ? La microSD dans le coin agit comme une échelle pour rendre les dimensions claires._
+_**P.S, mise à jour 20/10/2022 :** Je vous mets une photo du bouton cassé démonté, avant de le jeter, pourquoi pas ? La microSD dans le coin fait office d'échelle pour indiquer clairement les dimensions._
 
 ![Photo macro du bouton détaché et démonté.]({{<assetsRoot >}}/Media/Misc/DSpacc-Shoulder-Button-Disassembled-Macro.avif)

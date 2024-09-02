@@ -6,7 +6,7 @@ Aliases = [
   "/Posts/2022-06-23-0000-Rasperino-Solare-ed-Altri-Esperimenti-Andati-a-Male.html",
 ]
 Categories = [ "Rasperino", "Ecology", "Technology" ]
-Dates = 2022-06-23
+Date= 2022-06-23
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -71,15 +71,15 @@ The idea popped into my head after I unfortunately left the magical product unus
 
 I thought, first of all, of configuring BOINC on Raspbian, a distributed computing software that can be used to contribute to scientific research projects, while earning a few cents a month (rip) in a kind of cryptocurrency, the [Gridcoin ](https://gridcoin.us).  
 As I already said, the Raspino must be powered by the powerbank, the panel directly does not give it enough current. It seems to turn on, but in reality it seems to go into bootloop.  
-Well, I won't beat around the bush too much: while (with the same powerbank, I think 4000mAh) for some low-load applications, like [Pwnagotchi](https://pwnagotchi.ai/), the Pi can stay on for hours even with a backlit LCD screen connected... the CPU at 100%, doing complex calculations, eats so much of that current that the battery flattens out in just 1 hour.
+Well, I won't beat around the bush too much: while (with the same powerbank, I think 4000mAh) for some low-load applications, like [Pwnagotchi](https://pwnagotchi.ai/), the Pi manages to stay on for hours even with a backlit LCD screen connected... the CPU at 100%, doing complex calculations, eats so much of that current that the battery flattens out in just 1 hour.
 
-[![Screenshot of one of my toot. The photo shows the panel hanging on my balcony with hooks, with a cable connecting it to the Rasperino fixed to the panel itself. The text reads "#RasperinoVitaEcologica I fixed the Pi to my solar panel with the fabric elastic bands of the disposable masks (before throwing them away, I detach the elastic bands, wash them, and keep them), and it seems to have just the power it needs to work in the afternoon. Today I flashed the new SD with Raspbian, for now I choose to use the accrocco to run #BOINC, a distributed computing tool with which you can donate computing power to scientific projects. Tomorrow we will test how it goes BOINC".]({{< assetsRoot >}}/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161)
+[![Screenshot of one of my toot. The photo shows the panel hanging on my balcony with hooks, with a cable connecting it to the Rasperino fixed to the panel itself. The text reads "#RasperinoVitaEcologica I fixed the Pi to my solar panel with the fabric elastic bands of disposable masks (before throwing them away, I detach the elastic bands, wash them, and keep them), and it seems to have just the power it needs to work in the afternoon. Today I flashed the new SD with Raspbian, for now I choose to use the accrocco to run #BOINC, a distributed computing tool with which you can donate computing power to scientific projects. Tomorrow we will test how it goes BOINC".]({{< assetsRoot >}}/Media/Screenshots/mastodon.uno-octo-108211397314015161.png)](https://mastodon.uno/@octo/108211397314015161)
 
 _Psssss.. if you want to see other photos of the panel (3) and in a slightly more decent quality, I put them on Pixelfed: [pixelfed.uno/p/octo/426839557817260168](https://pixelfed.uno/p/ octo/426839557817260168)!_
 
 ## The reality of the facts
 
-Apart from this thing, which even if it doesn't make me money in practice would be useful as it is beneficial for scientific research, I have no practical uses in mind for the Rasperino Pi 3 Solare. Maybe a Pi Zero would be better: apparently, other people in the throes of madness (but better equipped), thought of using that to mine Bitcoin, with a small panel similar to mine ([YouTube/CbpfNU7oaws](https://invidious.snopyta .org/watch?v=CbpfNU7oaws)).  
+Apart from this thing, which even if it doesn't make me money in practice would be useful as it is beneficial for scientific research, I have no practical uses in mind for the Rasperino Pi 3 Solare. Maybe a Pi Zero would be better: apparently, other people in the throes of madness (but better equipped) thought of using that to mine Bitcoin, with a small panel similar to mine ([YouTube/CbpfNU7oaws](https://invidious.snopyta .org/watch?v=CbpfNU7oaws)).  
 For now, I use the small panel sporadically to charge my power banks, which I discharge when I happen to use them around to charge my smartphone.
 
 If there's anything I learned from this story, it's that I should buy the damn USB multimeter.  

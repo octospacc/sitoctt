@@ -1,7 +1,7 @@
 +++
-Titre = "⛏️ Minecraft"
-Catégories = [ "Jeux" ]
-Dernière modification = 01/04/2023
+Title = "⛏️ Minecraft"
+Categories = [ "Jeux" ]
+Lastmod = 2023-04-01
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -26,9 +26,9 @@ Il a été difficile d'obtenir l'application, pour des raisons liées à mon uti
 Peu de temps après, j'ai appris, grâce à une application dont je ne me souviens plus si je l'avais découverte par hasard sur Google Play ou si on m'avait été recommandée, l'existence de cartes thématiques créées et partagées par d'autres joueurs en ligne. J'ai perdu du temps dessus, notamment sur ceux du parkour : avec les commandes tactiles (et à l'époque pas de s'accroupir !) c'est vite devenu une torture, mais quand on arrive à faire les sauts difficiles et à avancer c'est toujours sympa.
 
 Sur le PC que j'avais à la maison à l'époque, il n'y avait aucun moyen de démarrer Minecraft, pour on ne sait quelle obscure raison ; J'imagine une ancienne carte vidéo et/ou des pilotes vidéo.
-Fin 2014, j'ai ensuite essayé de l'exécuter sur ce qui était à ce stade ma nouvelle tablette Windows (toujours en panne, mais de manière différente de celle d'Android), et d'une manière ou d'une autre, il a démarré, mais il fonctionnait trop lentement pour être jouable. Dommage que je ne savais pas à l'époque que je pouvais essayer de baisser la résolution ou d'exécuter une ancienne version pour obtenir plus de performances. Quand 2 mois plus tard, maintenant en 2015, le nouveau PC est arrivé chez moi, je ne me souviens plus pourquoi mais je n'ai même pas essayé de lancer Minecraft. Tristesse. À la fin de la nouvelle année, j'ai ensuite reçu l'ordinateur portable, j'y ai installé Minecraft et je l'ai usé, bien sûr, je l'ai usé !
+Fin 2014, j'ai ensuite essayé de l'exécuter sur ce qui était à ce moment-là ma nouvelle tablette Windows (toujours cambriolée, mais de manière différente de celle d'Android), et d'une manière ou d'une autre, il a démarré, mais il fonctionnait trop lentement pour être jouable. Dommage que je ne savais pas à l'époque que je pouvais essayer de baisser la résolution ou d'exécuter une ancienne version pour plus de performances. Quand 2 mois plus tard, maintenant en 2015, le nouveau PC est arrivé chez moi, je ne me souviens plus pourquoi mais je n'ai même pas essayé de lancer Minecraft. Tristesse. À la fin de la nouvelle année, j'ai ensuite reçu l'ordinateur portable, j'y ai installé Minecraft et je l'ai usé, bien sûr, je l'ai usé !
 
-J'ai commencé là-bas en jouant hors ligne et sur certains serveurs italiens. Quelques mois plus tard, lorsque j'ai acheté un compte légitime du jeu, j'ai également pu essayer des serveurs de renommée mondiale comme Hypixel, et d'autres dont je ne me souviens plus maintenant, car aujourd'hui ils sont totalement hors de propos, voire peut-être même morts !
+J'ai commencé là-bas en jouant hors ligne et sur certains serveurs italiens. Quelques mois plus tard, lorsque j'ai acheté un compte légitime du jeu, j'ai également pu essayer des serveurs de renommée mondiale comme Hypixel, et d'autres dont je ne me souviens plus, car aujourd'hui ils sont totalement hors de propos, voire peut-être même morts !
 
 C'est sur PC que j'ai commencé à voir de grandes choses avec Redstone, car à l'époque MCPE était encore en alpha et relativement simple : il manquait beaucoup d'éléments. Qui sait où diable j'ai sauvé mon premier monde superplat créé là-bas, avec toutes les constructions et expériences inutiles ! Je devrais le chercher.
 

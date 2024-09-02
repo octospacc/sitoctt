@@ -1,7 +1,7 @@
 +++
 Title = "Évitez d'appeler accidentellement des commandes dans le terminal"
-Dates = 05/08/2022
-Brouillon = vrai
+Date = 2022-08-05
+Draft = true
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -10,13 +10,13 @@ Brouillon = vrai
 
 Lorsque je travaille dans le terminal, peut-être en développant des programmes, j'appelle souvent accidentellement une commande que je ne devrais pas.
 
-Cela m'arrive parce que je travaille comme ceci : j'édite quelque chose dans la fenêtre de mon éditeur de texte préféré, puis je vais dans la fenêtre du terminal, et j'appuie sur `[Flèche vers le haut]` (qui rappelle la dernière commande exécutée) et `[ Entrez] ` pour l'exécuter.
+Cela m'arrive parce que je travaille comme ceci : j'édite quelque chose dans la fenêtre de mon éditeur de texte préféré, puis je vais dans la fenêtre du terminal et j'appuie sur `[Flèche vers le haut]` (qui rappelle la dernière commande exécutée) et `[Entrée] ` pour exécutez-le.
 
 Ce que j'ai remarqué, c'est que parfois, dans ma hâte, il m'arrive d'appuyer une fois de trop sur `[Flèche vers le haut]`, ce qui rappelle l'avant-dernière commande exécutée, ou celle qui la précédait même.  
-Comme je fais pratiquement ces séquences d'actions presque automatiquement, sans lire pour m'assurer que la commande sélectionnée est bien celle que je veux avant d'appuyer sur `[Entrée]` (car c'est tout ce que j'attends), il arrive plusieurs fois que j'exécute une commande qui Je ne devrais pas : souvent, c'est la commande qui permet de valider [Git](https://en.wikipedia.org/wiki/Git) de mes modifications dans le classeur et de les télécharger immédiatement dans le nuage.
+Comme je fais pratiquement ces séquences d'actions presque automatiquement, sans lire pour m'assurer que la commande sélectionnée est bien celle que je veux avant d'appuyer sur `[Entrée]` (car c'est tout ce que j'attends), il arrive plusieurs fois que j'exécute une commande qui Je ne devrais pas : souvent, c'est la commande qui permet de valider [Git](https://en.wikipedia.org/wiki/Git) mes modifications apportées au classeur et de les télécharger immédiatement sur le cloud.
 
 Maintenant, ce n'est pas bon, car cela signifie que dans l'historique de Git j'aurai certains "mauvais" endroits : avec des descriptions avec du texte en double, et le code dans un état inapproprié et non fonctionnel, car j'étais en train de tester quelques changements.  
-Avoir un historique de Git aussi compliqué affecte définitivement sa qualité, car il est plus difficile de trouver un point passé spécifique dans le code dans le futur, ce qui annule l'une des fonctionnalités utiles de Git - et en général, c'est quelque chose que je n'aime pas, ça m'ennuie , voir sale histoire.
+Avoir un historique de Git aussi compliqué affecte définitivement sa qualité, car il est plus difficile de trouver un point passé spécifique dans le code dans le futur, ce qui annule l'une des fonctionnalités utiles de Git - et en général, c'est quelque chose que je n'aime pas, c'est ça m'énerve, voir sale histoire.
 
 ## Le scénario
 

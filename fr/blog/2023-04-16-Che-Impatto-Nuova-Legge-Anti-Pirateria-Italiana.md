@@ -1,13 +1,12 @@
 +++
 Title = "🏴‍☠️ Quel impact aura la nouvelle loi italienne anti-piratage ?"
-Dates = 2023-04-16
-Dernière modification = 2023-04-17
-Downsync = "/it/posts/Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html"
-Alias ​​= [
-  "/Posts/2023-04-16-Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html",
-]
+Date = 2023-04-16
+Downsync = "/it/blog/Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html"
+Aliases = [ "/Posts/2023-04-16-Che-Impatto-Nuova-Legge-Anti-Pirateria-Italiana.html" ]
 Description = "En Italie, ils ont approuvé une loi pour une lutte forte contre le piratage. Le fait est que cela comporte des risques importants pour les utilisateurs d'Internet."
-Catégories = [ "Internet" ]
+Featured_Image = "@/Media/Misc/Keep-Seeding-Monitor.webp"
+Categories = [ "Internet" ]
+Lastmod = 2023-04-17
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -52,7 +51,7 @@ Tôt ou tard, un incident de <strong>surblocage</strong> se produira, et il y au
 <p>Un <strong>exemple</strong> peut être donné en comparant la Russie et la Chine : les deux États ont une certaine <strong>désir de contrôler</strong> la dissidence politique sur Internet, mais :</p >
 
 <ul>
-<li>Pour <strong>la Russie, c'est difficile</strong>, car elle dispose d'une infrastructure Internet plus <strong>traditionnelle</strong>, qui a commencé à se développer de manière décentralisée bien < strong>avant l'arrivée de Poutine</strong>, quand le gouvernement actuel était d'un autre type.</li>
+<li>Pour <strong>la Russie, c'est difficile</strong>, car elle dispose d'une infrastructure Internet plus <strong>traditionnelle</strong>, qui a commencé à se développer de manière décentralisée bien < strong>avant l'arrivée de Poutine</strong>, quand le gouvernement actuel était d'un type différent.</li>
 <li>Pour <strong>la Chine, c'est plus facile</strong>, car le gouvernement en place <strong>à l'époque</strong> (le Parti communiste, comme aujourd'hui), a compris le potentiel d'Internet et a veillé à ce que que le développement s'est fait <strong>immédiatement</strong> selon un schéma <strong>centralisé</strong>.</li>
 </ul>
 
@@ -64,13 +63,13 @@ Tôt ou tard, un incident de <strong>surblocage</strong> se produira, et il y au
 
 <h2>Chasse aux utilisateurs</h2>
 
-<p>En plus de vouloir <strong>contrer</strong> de manière spécifique et désormais sans équivoque la "<strong>diffusion en direct</strong>" de contenus dupliqués - ce qui génère déjà du <strong>mécontentement</strong> strong> parmi les fans de football au <strong>budget serré</strong> - en dehors des contenus habituels en général (audiovisuel, imprimé ou informatique), la loi s'en prend expressément à l'utilisateur final, <a href="https:/ /torrentfreak.com/ew-pirate-iptv-bill-moved-to-senate-as-italy-takes-on-digital-mafias-230324/" rel="noopener nofollow" target ="_blank">au moins un certain catégorie</a>.</p>
+<p>En plus de vouloir <strong>contrer</strong> de manière spécifique et désormais sans équivoque la "<strong>diffusion en direct</strong>" de contenus dupliqués - quelque chose qui génère déjà du <strong>mécontentement</strong> strong> parmi les fans de football au <strong>budget serré</strong> - en dehors des contenus habituels en général (audiovisuel, imprimé ou informatique), la loi s'en prend expressément à l'utilisateur final , <a href="https:/ /torrentfreak.com/ew-pirate-iptv-bill-moved-to-senate-as-italy-takes-on-digital-mafias-230324/" rel="noopener nofollow" target ="_blank">au moins un certain catégorie</a>.</p>
 
-<p>En fait, des <strong>amendes allant jusqu'à 5 000 €</strong> sont prévues en cas de récidive, pour ceux qui (d'après ce que je comprends, après avoir lu la loi et regardé les vidéos d'autrui et articles) achètent des abonnements à des services pirates payants, comme les fameux "<strong>pezzotti</strong>", les forfaits illégaux <em>IPTV</em>.</p>
+<p>En fait, des <strong>amendes allant jusqu'à 5 000 €</strong> sont prévues en cas de récidive, pour ceux qui (d'après ce que je comprends, après avoir lu la loi et regardé les vidéos d'autrui et articles) achètent des abonnements à des services pirates payants, comme les fameux "<strong>pezzotti</strong>", les forfaits <em>IPTV</em> illégaux.</p>
 
 <h3>Est-ce que certains vont bien ?</h3>
 
-<p>Au total, malgré la peur et l'alarmisme général du début, il semble que les seuls utilisateurs qui ont quelque chose à craindre soient précisément ces derniers, car - même s'il faut avouer que je connais relativement peu la loi, et c'est pas facile d'appliquer des compétences génériques de compréhension de texte sur des briques juridiques, alors qui sait - le <strong>texte parle d'achat ou de location</strong>, et <strong>pas</strong> aussi de choses comme <strong>téléchargement gratuit </strong> >.</p>
+<p>Au total, malgré la crainte initiale et l'alarmisme général, il semble que les seuls utilisateurs qui ont quelque chose à craindre soient précisément ces derniers, car - même s'il faut avouer que je connais relativement peu la loi, et c'est pas facile d'appliquer des compétences génériques de compréhension de texte sur des briques juridiques, alors qui sait - le <strong>texte parle d'achat ou de location</strong>, et <strong>pas</strong> aussi de choses comme <strong>téléchargement gratuit </strong> >.</p>
 
 <p>Si donc, jusqu'à présent, surfer sur Internet pour <strong>trouver des liens</strong> vers des matchs de football "nets", avec des pixels n'a jamais été interdit, aussi gros que les biscuits et l'habitude de <em>buffer </em>, ou <strong>télécharger</strong> le dixième film de la semaine via <em>torrent</em>, ou encore <strong>faire le plein</strong> > de jeux vidéo gratuits reconditionnés, on peut imaginez bien que <strong>les choses resteront telles qu'elles sont</strong> dans ce sens.</p>
 
@@ -88,8 +87,6 @@ En Italie, il semble qu'aucun <em>seeder</em> n'ait jamais été poursuivi ni sa
 <p>Peut-être que si cette nouvelle loi ne visait <strong>qu'eux</strong>, <strong>il n'y aurait pas grand-chose à <strong>discuter</strong> : <strong>ils n'ont aucune passion </strong> pour le partage, seulement celui de l'<strong>argent</strong>.<br>
 Il n'y aurait peut-être pas vraiment d'objection même si, en s'attaquant aux plateformes qui mettent à disposition certains liens, on envisageait d'agir <strong>uniquement</strong> contre ces <strong>entreprises à but lucratif</strong> : Google, Microsoft (avec Bing), Facebook, Twitter, etc.</p>
 
-<p>Mais en Italie, ils ont déjà <em>explosé</em> TNTVillage, et je ne veux pas que la <strong>décimation</strong> de tous les autres <strong>marchés en ligne</strong> créés < strong>par le peuple pour le peuple</strong> - à but non lucratif, et en fait <strong>souvent jetable</strong>, tant en temps qu'en argent - simplement parce que <strong>ça dérange quelqu'un</strong> que le < strong>la principale fonctionnalité du Web</strong> est utilisée : les hyperliens, inventés pour encourager le <strong>partage libre et gratuit</strong> de la culture et du divertissement, <strong>sans barrières</strong> </p>.
+<p>Mais en Italie, ils ont déjà <em>explosé</em> TNTVillage, et je ne veux pas que la <strong>décimation</strong> de tous les autres <strong>marchés en ligne</strong> créés < strong>par le peuple pour le peuple</strong> - à but non lucratif, et en fait <strong>souvent jetable</strong>, tant en temps qu'en argent - simplement parce que <strong>cela dérange quelqu'un</strong> que le < strong>la principale fonctionnalité du Web</strong> est utilisée : les liens hypertextes, inventés pour encourager le <strong>partage libre et gratuit</strong> de la culture et du divertissement, <strong>sans barrières</strong> </p. >
 
 <hr>
-
-<p><img src="{{< assetsRoot >}}/Media/Misc/Keep-Seeding-Monitor.webp" alt=""Continuer à semer""></p>

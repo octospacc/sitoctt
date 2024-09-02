@@ -1,7 +1,7 @@
 +++
 Title = "🥸️ How our social digital footprint screws us"
 Description = "For the most varied reasons, even legitimate ones, you can find yourself wanting to hide your past identities. Sometimes, however, the details ruin everything!"
-Dates = 2022-07-17
+Date= 2022-07-17
 Aliases = [
   "/Posts/2022-07-17-Come-la-nostra-Digitale-Sociale-ci-Frega.html",
   "/Posts/2022-07-17-0000-Come-la-nostra-Digitale-Sociale-ci-Frega.html",
@@ -52,7 +52,7 @@ The more I listen to the voice, however, the more familiar everything becomes. I
 ## The investigations begin
 
 I decide to let her friend know this immediately before she, curiously, says she thought the same thing.  
-The stakes this time are really too high to pretend nothing is happening, so we start via chat to collect elements, of any kind, that could coincide between _Censored_ and _Deadname_, cross-referencing everything we can obtain about the person, and the little that we have more left.
+The stakes this time are really too high to pretend nothing is happening, so we start via chat to collect elements, of any kind, that may coincide between _Censored_ and _Deadname_, cross-referencing everything we can obtain about the person, and the little that we have more left.
 
 We start with interests, which all seem to match, even the strangest ones. Even the taste in niche memes seems the same.  
 Even some personal and social details - such as about his family, his cultural status, or the area in which he lives - are consistent with _Deadname_'s past (even if only my investigation partner remembered these details, I didn't).  
@@ -72,7 +72,7 @@ However, we did the really big coup, which removed all doubts, because:
 And it is exactly like this, with both small and large details that fit together perfectly, that the puzzle is officially complete: the two characters investigated are the same individual.
 
 The redpill said without knowing, therefore, turned out to be such.  
-I, however, have no idea why _Censurato_ had to necessarily embark on this undertaking to cover his old tracks. I understand, now, why he wanted to delete his old contents: because the character that appeared in them no longer corresponds to who he is today in terms of gender - but I don't understand why pretend that the past never existed .
+I, however, have no idea why _Censured_ necessarily had to embark on this undertaking to cover his old tracks. I understand, now, why he wanted to delete his old contents: because the character that appeared in them no longer corresponds to who he is today on a gender level - but I don't understand why pretend that the past never existed .
 
 I would say that I am quite happy to have found again, after so many years, even if as a slightly different character, the same person who managed to entertain me in the past, and I am happy that he still has the passion to do what he did well.
 
@@ -91,5 +91,5 @@ As long as you are not doing it to escape, so to speak, the consequences of comp
 But then, how do you do it?  
 Protecting yourself from tracking is possible, but it is not at all simple.   Just as to protect your computers from web tracking you need to use browsers like Tor Browser which - when communicating with other computers - omit some data and mask others, to protect your personal identity from social tracking you need to avoid sharing too much of yourself with the world, even going so far as to lie if necessary.
 
-It is undoubtedly impossible to hide what some of the things we are passionate about are, if we have the desire to share them with the world, and perhaps discover like-minded people.  
+Undoubtedly it is impossible to hide what some of the things we are passionate about are, if we have the desire to share them with the world, and perhaps discover like-minded people.  
 Other things, though - for example, what relatives you have, the name of your first pet, what places you frequent, or how your passion for something began - if you're trying to erase your past and carry yourself as a totally new person, it's better not to tell them out loud.

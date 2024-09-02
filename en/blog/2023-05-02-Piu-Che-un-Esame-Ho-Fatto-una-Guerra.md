@@ -1,12 +1,11 @@
 +++
-Title = "😭 More than an exam, I went to war."
-Dates = 2023-05-02
-Lastmod = 2023-05-03
-Downsync = "/it/posts/Piu-Che-un-Esame-Ho-Fatto-una-Guerra.html"
-Aliases = [
-  "/Posts/2023-05-02-Piu-Che-un-Esame-Ho-Fatto-una-Guerra.html",
-]
-Description = "Because of people who don't know how to read the rules, demons came to me while I was taking an exam that was supposed to be very easy."
+Title= "😭 More than an exam, I went to war."
+Date= 2023-05-02
+Downsync= "/it/blog/Piu-Che-un-Esame-Ho-Fatto-una-Guerra.html"
+Aliases= [ "/Posts/2023-05-02-Piu-Che-un-Esame-Ho-Fatto-una-Guerra.html" ]
+Description= "Because of people who don't know how to read the rules, demons came to me while I was taking an exam that was supposed to be very easy."
+Categories= [ ]
+Lastmod= 2023-05-03
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -17,7 +16,7 @@ Description = "Because of people who don't know how to read the rules, demons ca
 
 <p>As <strong>the title</strong> suggests, this was the <strong>poetic thought</strong> dispensed by my mother today, after I returned home in the afternoon with a <strong>psyche</strong> > completely <strong>obliterated</strong>, unrecognizable.</p>
 
-<p>Until 30 minutes before, <em>good Maremma</em>, <strong>I just wanted</strong> to <strong>explode</strong>. Be careful, though: not for the exam itself (the last in a series of extra-curricular ones, precisely), very simple for me, which I don't care about except the certification!<sup id="fnref1">< a class="footnote-ref" href="#fn1">1</a></sup> Something else happened</strong>.</p>
+<p>Until 30 minutes before, <em>good maremma</em>, <strong>I just wanted</strong> to <strong>explode</strong>. Be careful, though: not for the exam itself (the last in a series of extra-curricular ones, precisely), very simple for me, which I don't care about except the certification!<sup id="fnref1">< a class="footnote-ref" href="#fn1">1</a></sup> Something else happened</strong>.</p>
 
 <h2>Let's go back</h2>
 
@@ -27,7 +26,7 @@ Description = "Because of people who don't know how to read the rules, demons ca
 The <strong>class</strong> at these rounds was always <strong>packed</strong>, and this very thing ended up being a <strong>problem for my soul</strong>.<br>
 I don't think I deserve all this...</p>
 
-<h3>Sounds of trouble</h3>
+<h3>There are problems in the air</h3>
 
 <p><strong>Last month</strong> I took 2 tests out of the 3 I was missing, and already <strong>nothing went</strong> smoothly at all:</p>
 
@@ -68,7 +67,7 @@ I wanted to <strong>kindly</strong> tell him to keep all those who had no right 
 Yes, <strong>that's all</strong>. I can't say anything else about this moment, it immediately crystallized into goodness. From there, until I finished and was able to leave, not a fly flew again.</p>
 
 <p>At that point, unfortunately, I had <strong>accumulated</strong> the <strong>irritation</strong> anyway, and it took me <em>hours and hours and <strong>hours</strong> ></em> <strong>to dispose of it</strong>, between doing various random things and writing this article.<br>
-The only thing I can logically <strong>regret</strong> is not having made that bench resonate a few precious minutes before</strong> seriously reaching the limit, given that gentle methods didn't work. Unfortunately or fortunately, damn, it's not <strong>a reflection that arises in me</strong> too often; <strong>only when</strong> I am already <strong>over</strong> that limit, and perhaps I have <strong>already committed other avoidable</strong> damage.</p>
+The only thing I can logically <strong>regret</strong> is not having made that bench resonate a few precious minutes before</strong> seriously reaching the limit, given that gentle methods didn't work. Unfortunately or fortunately, damn, it's not <strong>a reflex that arises in me</strong> too often; <strong>only when</strong> I am already <strong>over</strong> that limit, and perhaps I have <strong>already committed other avoidable</strong> damage.</p>
 
 <hr>
 
@@ -82,7 +81,7 @@ The only thing I can logically <strong>regret</strong> is not having made that b
 <ol>
 
 <li id="fn1">
-<p>The <strong>certification</strong>... oh God, even the latter, <strong>not that I care</strong> personally: on my <strong>deathbed I don't</strong> strong> I will certainly be <strong>counting the cards</strong> that I could have but didn't want to get; mainly my parents convinced me, so whatever. (<em>If <strong>even this were to expire</strong> before it can be seriously useful for anything, <strong>I'll be seriously pissed off</strong>, but never mind...</em>) < a href="#fnref1">↩</a></p>
+<p>The <strong>certification</strong>... oh God, even this last one, <strong>not that I care</strong> personally: on my <strong>deathbed I don't</strong> strong> I will certainly be <strong>counting the cards</strong> that I could have but didn't want to get; mainly my parents convinced me, so whatever. (<em>If <strong>even this were to expire</strong> before it can be seriously useful for anything, <strong>I'll be seriously pissed off</strong>, but never mind...</em>) < a href="#fnref1">↩</a></p>
 </li>
 
 <li id="fn2">

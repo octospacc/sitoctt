@@ -1,9 +1,9 @@
 +++
-Titre = "Cartes QR"
-Alias ​​= [
+Title = "Cartes QR"
+Aliases = [
   "/Collections/Fritto-Misto/Carte-QR.html",
 ]
-Catégories = [ "Frit-Mélangé" ]
+Categories = [ "Frit-Mélangé" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}

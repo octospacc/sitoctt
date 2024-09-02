@@ -1,6 +1,6 @@
 +++
-Titre = "Notes"
-Alias ​​= [
+Title = "Notes"
+Aliases = [
   "/Catégories/Note.html",
 ]
 +++

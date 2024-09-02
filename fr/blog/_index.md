@@ -1,6 +1,6 @@
 +++
-Titre = "Blog"
-Alias ​​= [
+Title = "Blog"
+Aliases = [
   "/Posts/index.html",
   "/Catégories/Blog.html",
 ]

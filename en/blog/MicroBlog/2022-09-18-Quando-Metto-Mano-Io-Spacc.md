@@ -4,7 +4,7 @@ Aliases = [
   "/Posts/MicroBlog/2022-09-18- Quando-Metto-Mano-Io-Spacc.html",
 ]
 Categories = [ "MicroBlog" ]
-Dates = 2022-09-18
+Date= 2022-09-18
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -46,5 +46,5 @@ Almost all the soldering points have come off, and now there is brown. I know th
 
 There are some very small holes with the conductive diameter around them (just as wide as a single copper wire), testpoint type, which actually appear to be connected to where the solder pads I destroyed were connected. Just to, I try to solder up there, but there's absolutely no way to do it. Those are small and there is no good space around them, so the pond doesn't settle.
 
-I just wasted time, and once again demonstrated to myself that I'm just not capable of doing soldering work that goes beyond connecting 2 wires to huge pads (which I do badly anyway, with a dirty job).  
+I just wasted time, and once again demonstrated to myself that I'm just not capable of doing soldering work that goes beyond connecting 2 wires to huge pads (which I do poorly anyway, with dirty work).  
 I'm going to buy a GBA flashcart now, and use it.. to boot DS software. To my surprise, it's possible, and maybe I'll talk about it next time.

@@ -4,7 +4,7 @@ Aliases = [
   "/Posts/MicroBlog/2022-09-11-Che-Accade.html",
 ]
 Categories = [ "MicroBlog" ]
-Dates = 2022-09-11
+Date= 2022-09-11
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -23,7 +23,7 @@ All this, because I wanted to exaggerate with the idea (as usual), and because e
 
 To this mix we add another distraction: after 5 years, a new chapter of the Splatoon saga has been released, and therefore there is little to do, you have to play. However, after a brief analysis, I am trying not to play with it too much, to try to sip it as much as possible so as not to consume it immediately.  
 Today I didn't play it at all, for example, and I think I'll end the evening without it; but maybe it's because today I had experiments to do regarding dumping digital school books, to have them without DRM.  
-By the way, when I've finished the story and have tried even a minimal amount of multiplayer, I'll publish a review of the game, which I'm already writing along the way.
+By the way, when I finish the story and have tried even a minimal amount of multiplayer, I will publish a review of the game, which I'm already writing along the way.
 
 At the beginning I tried to put the game on a PC emulator, but between glitches (which will soon be resolved), a bit of lag, and the inability to play decently away from the desktop, I had to try on real hardware.  
 My Switch console, however, had been working as a server for 7 months now. Enough, Spoon is vital: I'm putting the Raspino back out.

@@ -1,13 +1,11 @@
 +++
 Title = "📎 Pinces à cheveux, réduites en colle et galets"
-Dates = 2023-09-15
-Downsync = "/it/posts/Mollette-per-Capelli-Colla-e-Sassolini.html"
-Alias ​​= [
-  "/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html",
-]
-Image = "@/Media/Decor/craiyon_182944_small_hair_clip_decorated_with_glitter__worn_on_head__profile_closeup_smiling__anime.webp"
+Date = 2023-09-15
+Downsync = "/it/blog/Mollette-per-Capelli-Colla-e-Sassolini.html"
+Aliases = [ "/Posts/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini.html" ]
+Featured_Image = "@/Media/Decor/craiyon_182944_small_hair_clip_decorated_with_glitter__worn_on_head__profile_closeup_smiling__anime.webp"
 Description = "Toutes mes créations DIY ne sont pas hideuses. Cette fois, pour faire un cadeau à moi-même et aux autres, j'embellis quelques barrettes à cheveux, de la première manière qui me vient à l'esprit."
-Catégories = [ "Bricolage" ]
+Categories = [ "Bricolage" ]
 +++
 
 {{< noticeAutomaticTranslation it >}}
@@ -53,9 +51,9 @@ Catégories = [ "Bricolage" ]
 </ul>
 
 <p>Pendant ce temps, dans la frénésie de tout, j'avais des perles qui allaient à droite, à gauche, sur le bureau, sur moi, puis sur le sol. En faisant l'ouverture et la fermeture, certains ont même éclaboussé dans l'air...<br>
-Cependant, la plupart de ce que j'ai perdu, je l'ai retrouvé dans les jours qui ont immédiatement suivi, lorsque je me suis promené dans ma chambre et que j'ai senti quelque chose de <em>croquant</em> sous mes pantoufles. Je n'ai évidemment pas trouvé une toute petite pièce, d'autant plus que j'ai passé l'aspirateur peu de temps après.</p>
+Cependant, la plupart de ce que j'ai perdu, je l'ai retrouvé au cours des jours suivants, lorsque je me suis promené dans ma chambre et que j'ai senti quelque chose de <em>croquant</em> sous mes pantoufles. Je n'ai évidemment pas trouvé une toute petite pièce, d'autant plus que j'ai passé l'aspirateur peu de temps après.</p>
 
-<p>Au final, après en avoir fait 3 pour ma mère... J'ai presque commencé à vouloir en faire comme ça aussi ! 😅️ <br>
+<p>Au final, après en avoir fait 3 pour ma mère... Mais j'ai presque commencé à vouloir en faire comme ça aussi ! 😅️ <br>
 J'en ai donc fait au moins un de plus, mais cette fois, ayant un temps infini, j'ai essayé avec de la colle vinylique.<br>
 Je ne sais pas si la décoration ainsi réalisée est résistante à l'eau ou non, car ma colle vinylique est dite "lavable", mais je ne sais pas si elle ne peut être lavée qu'à l'eau ou si du savon est également nécessaire. J'éviterai d'avoir la pluie sur la tête quand je le porterai, je suppose.</p>
 
@@ -67,6 +65,6 @@ Je ne sais pas si la décoration ainsi réalisée est résistante à l'eau ou no
 
 <p><img src="{{< assetsRoot >}}/Media/Mollette-Perline/2-Wip.webp" alt="La pince à linge que j'ai réalisée avec de la colle PVA, immédiatement après application.">< /p>
 
-<p>Au final, ma mère avait un produit qui n'était presque même pas vraiment complet, comparé à celui, plus raffiné, que j'ai créé juste un instant plus tard ! 💀️ Son véritable don était donc d'agir en tant que bêta-testeur. Je lui ai alors proposé de réarranger un peu les trois premières pinces à linge, mais elle a dit qu'elle voulait garder au moins ces trois-là comme ça, et tout au plus je lui en ferais d'autres nouvelles. Bon, je ne sais pas quoi dire, il y a ceux qui préfèrent utiliser les bêtas à vie, apparemment (absolument pas <a href="https://spacecraft.altervista.org" rel="noopener nofollow" target=" _blank" >moi à propos de Minecraft</a>...).</p>
+<p>Au final, ma mère avait un produit qui n'était presque même pas vraiment complet, comparé à celui, plus raffiné, que j'ai créé juste un instant plus tard ! 💀️ Son véritable don était donc de jouer le rôle de bêta-testeur. Je lui ai alors proposé de réarranger un peu les trois premières pinces à linge, mais elle a dit qu'elle voulait garder au moins ces trois-là comme ça, et tout au plus je lui en ferais d'autres nouvelles. Bon, je ne sais pas quoi dire, il y a ceux qui préfèrent utiliser les bêtas à vie, apparemment (absolument pas <a href="https://spacecraft.altervista.org" rel="noopener nofollow" target=" _blank" >moi à propos de Minecraft</a>...).</p>
 
 <p><img src="{{< assetsRoot >}}/Media/Mollette-Perline/1-Scene.webp" alt="Les 3 premières pinces à linge réalisées, disposées dans différentes positions, avec une lumière thématique."> < /p>
