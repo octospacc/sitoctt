@@ -182,6 +182,30 @@
                 href="http://http.sitoctt.octt.eu.org/fr/blog/"
                 />
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/blog/2024-04-07-LIBERTY-WINGS-un-court-RPG-sur-la-libert%C3%A9-Critique/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2024-04-07-LIBERTY-WINGS-un-Breve-RPG-sulla-Libert%C3%A0-Recensione/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2024-04-07-LIBERTY-WINGS-a-Short-RPG-about-Freedom-Review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2024-04-07-LIBERTY-WINGS-un-court-RPG-sur-la-libert%C3%A9-Critique/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/categories/Critiques/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/fr/blog/2023-12-31-Le-bilan-de-ce-2023-du-moins-en-termes-de-publication/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -235,9 +259,6 @@
                 hreflang="fr"
                 href="http://http.sitoctt.octt.eu.org/fr/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Gaming-synchronis%C3%A9-entre-PlayStation-2-et-smartphone/"
                 />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/fr/blog/2023-09-15-Pinces-%C3%A0-cheveux-r%C3%A9duites-en-colle-et-galets/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
@@ -461,22 +482,22 @@
                 href="http://http.sitoctt.octt.eu.org/fr/miscellanea/R%C3%A9colte-du-riz/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/Raccolta-Videogiochi/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Videogiochi/"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/miscellanea/Raccolta-Videogiochi/"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Raccolta-Videogiochi/"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/fr/categories/Administrateur-syst%C3%A8me/</loc>
@@ -881,6 +902,23 @@
                 href="http://http.sitoctt.octt.eu.org/fr/blog/2022-05-07-Les-avantages-inattendus-de-la-cl%C3%A9-Linux/"
                 />
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-Pilotwings/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/%EF%B8%8F-Pilotwings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-Pilotwings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-Pilotwings/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Archives-PicoBlog/</loc>
     <xhtml:link
                 rel="alternate"
@@ -898,6 +936,40 @@
                 href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Archives-PicoBlog/"
                 />
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Animal-Crossing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Animal-Crossing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/Animal-Crossing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Animal-Crossing/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Un-chapeau-dans-le-temps/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/A-Hat-in-Time/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/A-Hat-in-Time/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Un-chapeau-dans-le-temps/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-musicale/</loc>
     <xhtml:link
                 rel="alternate"
@@ -913,6 +985,23 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-musicale/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Splatoon/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Splatoon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/Splatoon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Splatoon/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/fr/blog/1-01-01-Archives-du-MicroBlog-de-septembre-2019/</loc>
@@ -983,6 +1072,57 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://http.sitoctt.octt.eu.org/fr/tags/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-SuperTuxKart/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/%EF%B8%8F-SuperTuxKart/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-SuperTuxKart/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-SuperTuxKart/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-C%C3%A9leste/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/%EF%B8%8F-Celeste/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-Celeste/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/%EF%B8%8F-C%C3%A9leste/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Tetris/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Tetris/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/Tetris/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/raccolta-videogiochi/Tetris/"
                 />
   </url>
 </urlset>
