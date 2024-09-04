@@ -36,6 +36,13 @@ theme = ["hugo-notice", "ananke"]
     weight = 2
     [languages.en.params]
       languageEmoji = "🇬🇧"
+  [languages.es]
+    contentDir = "content/es"
+    languageDirection = "ltr"
+    languageName = "Español"
+    weight = 3
+    [languages.es.params]
+      languageEmoji = "🇪🇸️"
   [languages.fr]
     contentDir = "content/fr"
     languageDirection = "ltr"
@@ -45,6 +52,8 @@ theme = ["hugo-notice", "ananke"]
       languageEmoji = "🇫🇷️"
 
 [markup]
+  [markup.tableOfContents]
+    endLevel = 4
   [markup.goldmark]
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]

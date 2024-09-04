@@ -65,22 +65,7 @@
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ if hugo.IsProduction }}
-      {{/*<!--<object data="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p={{ .RelPermalink }}"
-              class="dn" style="width:0; height:0;" type="image/gif">-->
-      <!--<picture class="dn" style="width:0; height:0;">
-        <source type="image/gif" srcset="https://sitoctt.goatcounter.com/count?p={{ .RelPermalink }}" />
-        <source type="image/gif" srcset="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p={{ .RelPermalink }}" />-->
-      <!--<style>
-           .LyticsPixel { /* display: none; width: 0; height: 0;  }
-        img.LyticsPixel { width: 1px; height: 1px; overflow: hidden; background-image: url("https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p={{ .RelPermalink }}"); }
-        img.LyticsPixel:before { content: " "; font-size: 1000px; }
-      </style>-->*/}}
-      <img class="LyticsPixel" src="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p={{ .RelPermalink }}" decoding="async"
-           onerror="this.src='https://sitoctt.goatcounter.com/count?p={{ .RelPermalink }}'" />
-      <!--</picture>-->
-      <!--</object>-->
-    {{ end }}
+    {{ partial "analytics-html.html" . }}
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
     {{ partial "search-applet.html" . }}
   </body>

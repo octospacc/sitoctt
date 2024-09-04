@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-DestinationLanguages = ["it", "en", "fr"] # "de", "eo", "es"
+DestinationLanguages = ["it", "en", "es", "fr"] # "de", "eo"
 IncludePaths = ["/"]
 ExcludePaths = ["/categories"] # "/miscellanea"
 

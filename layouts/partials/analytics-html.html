@@ -1,0 +1,5 @@
+{{ if hugo.IsProduction }}
+  <img src="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p={{ .RelPermalink }}"
+       onerror="this.src='https://sitoctt.goatcounter.com/count?p={{ .RelPermalink }}'"
+       class="OctolyticsPixel" decoding="async" />
+{{ end }}

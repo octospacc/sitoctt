@@ -9,6 +9,6 @@ sh "${swd}/Build.sh"
 
 cd ./build/public
 #zip -9 -r ./offline.zip *
-7z a -tzip -mcp=437 -mx9 ./offline.zip *
+7z a -tzip -mcp=437 -mx9 ./sitoctt-offline.zip *
 
 cd "${owd}"

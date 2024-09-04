@@ -24,3 +24,6 @@ main > .div > section a,
 .nested-links a {
   overflow-wrap: break-word;
 }
+
+.OctolyticsPixel { display: none; width: 0; height: 0;  }
+

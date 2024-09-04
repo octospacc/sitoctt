@@ -1,7 +1,7 @@
 #!/usr/bin/env -S node --experimental-fetch
 require('./Lib/Syncers.js').importAll();
 const JSDOM = require('jsdom').JSDOM;
-// TODO: turndown HTML to Markdown
+const Html2Markdown = require('./Lib/Html2Markdown.js').Transform;
 
 const BlogURL = 'https://listed.to/@u8'; // Full base URL of the Listed blog (any server)
 const SiteName = 'sitoctt';
@@ -18,11 +18,15 @@ const FrontmatterNew = {
 };
 let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 	"<h2>{{% i18n notes-refs %}}</h2>": "<h2>🏷️ Note e Riferimenti</h2>",
-	'<div class="footnotes">': ['<div class="footnotes"><hr>', '<div class="footnotes">\n<hr>'],
-	'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
-	" href=\"{{< assetsRoot >}}/": " href=\"https://sitoctt-assets.octt.eu.org/",
-	" src=\"{{< assetsRoot >}}/": " src=\"https://sitoctt-assets.octt.eu.org/",
+	//'<div class="footnotes">': ['<div class="footnotes"><hr>', '<div class="footnotes">\n<hr>'],
+	//'"><a class="footnote-ref" href="#fn': '"><a href="#fn',
+	'<div class="footnotes"><span class="footnotes"><hr></span>': '<div class="footnotes"><hr>',
+	' href="{{< assetsRoot >}}/': ' href="https://sitoctt-assets.octt.eu.org/',
+	' src="{{< assetsRoot >}}/': ' src="https://sitoctt-assets.octt.eu.org/',
 	// TODO: Fix anchor rels
+};
+let LateReplacements = {
+	"{{< assetsRoot >}}": "{{&lt; assetsRoot &gt;}}",
 };
 const TestURL = 'https://listed.to/p/hDaMhJ2ts7';
 
@@ -227,6 +231,16 @@ const HandlePost = (PostSrc, Output) => {
 	});
 
 	Post.Content = GetFragHTML(ContentDom);
+	Post.Content = Html2Markdown(Post.Content);
+	Object.keys(LateReplacements).forEach((To) => {
+		let FromList = LateReplacements[To];
+		if (typeof(FromList) != 'object') {
+			FromList = [FromList];
+		};
+		FromList.forEach((From) => {
+			Post.Content = Post.Content.replaceAll(From, To);
+		});
+	});
 
 	if (Output == 'file') {
 		TryMkdirSync(PathDir);

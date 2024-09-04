@@ -1,0 +1,11 @@
+[noticeAutomaticTranslation]
+other = "El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de {{ .languageName }}. Por lo tanto, puede contener errores de cualquier tipo."
+
+[notes-refs]
+other = "🏷️ Notas y Referencias"
+
+[search]
+other = "Buscar"
+
+[searchNoJs]
+other = "Buscar No-JS"
