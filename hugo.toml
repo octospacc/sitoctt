@@ -10,7 +10,12 @@ defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
 theme = ["hugo-notice", "ananke"]
 
+[pagination]
+  pagerSize = 9
+
 [permalinks]
+  [permalinks.section]
+    miscellanea = ":sections/"
   [permalinks.page]
     blog = ":section/:year-:month-:day-:slug/"
     note = ":section/:year-:month-:day-:slug/"

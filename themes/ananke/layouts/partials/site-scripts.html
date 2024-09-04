@@ -5,3 +5,6 @@
 <script src="/lib/fuse.min.js"></script>
 <script src="/lib/forge.min.js"></script>
 <script src="/octt-runtime.js"></script>
+{{ if hugo.IsProduction }}
+  <script src="/analytics.js"></script>
+{{ end }}

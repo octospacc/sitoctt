@@ -4,7 +4,15 @@
       {{- .Content -}}
     </section>
     <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range (append .Sections .Paginator.Pages) }}
+      {{/* TODO handle sections accounting for the new pager size */}}
+      {{ $pages := false }}
+      {{ if .Params.PagerSize }}
+        {{ $pages = (.Paginate .Pages (or (and (gt .Params.PagerSize 0) .Params.PagerSize) 2147483647)) }}
+      {{ else }}
+        {{ $pages = (.Paginate .Pages) }}
+      {{ end }}
+      {{ range $pages.Pages }}
+      {{/* range (append .Sections $pages.Pages) */}}
         <div class="relative w-100 w-30-l mb4 bg-white">
           {{ .Render "summary" }}
         </div>

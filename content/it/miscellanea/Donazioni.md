@@ -3,8 +3,7 @@ Title = "💰 Donazioni"
 Alias = [
   "/Donazioni.html",
 ]
-#Index: True
-#Order: 45
+Categories = [ "Meta" ]
 Lastmod = 2022-11-12
 +++
 

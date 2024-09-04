@@ -1,10 +1,8 @@
 (function(){
 
 var publicKeys = [null,
-`-----BEGIN PUBLIC KEY-----
-MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMWyBISJnLZgeSeU6y+eMxlTHdegfxj1
-vaNp2PerVDzUvdLlZKazGYIHXb5xduSnRp4HRHU9TMzSyuP5fr9XohcCAwEAAQ==
------END PUBLIC KEY-----`,
+`MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMWyBISJnLZgeSeU6y+eMxlTHdegfxj1
+vaNp2PerVDzUvdLlZKazGYIHXb5xduSnRp4HRHU9TMzSyuP5fr9XohcCAwEAAQ==`,
 ];
 
 var signatureScheme = 'RSASSA-PKCS1-v1_5';
@@ -20,10 +18,11 @@ async function makeSignedScript (scriptText, keyIndex, pemPrivateKey) {
 }
 
 function verifyAndRunScript (scriptCipher) {
-	var [reserved, publicKeyIndex, scriptSignature, scriptText] = scriptCipher.split(',');
+	var [reserved, publicKeyIndex, scriptSignature, scriptText, metadata] = scriptCipher.split(',');
 	scriptText = atob(base64FromUrlsafe(scriptText));
 	scriptSignature = base64ToArrayBuffer(base64FromUrlsafe(scriptSignature));
-	verifyTextMessage(scriptText, scriptSignature, publicKeys[publicKeyIndex])
+	verifyTextMessage(scriptText, scriptSignature, ('-----BEGIN PUBLIC KEY-----\n'
+			+ publicKeys[publicKeyIndex] + '\n-----END PUBLIC KEY-----'))
 		.then(function(verificationResult){
 			if (verificationResult) {
 				eval(scriptText);
@@ -113,6 +112,10 @@ function verificationKeyFromPublicKeyPEM (pemPublicKey) {
 }
 
 window.OcttRuntime = { makeSignedScript, verifyAndRunScript };
-verifyAndRunScript((new URLSearchParams(location.search)).get('octtRuntime'));
+
+var scriptCipher = (new URLSearchParams(location.search)).get('octtRuntime');
+if (scriptCipher) {
+	verifyAndRunScript(scriptCipher);
+}
 
 })();

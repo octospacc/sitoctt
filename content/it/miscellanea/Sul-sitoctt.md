@@ -3,8 +3,7 @@ Title = "Sul sitoctt"
 Lastmod = 2024-08-25
 #Template = WM.html
 #Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/index.css";
-#Index = True
-#Order = 10
+Categories = [ "Meta" ]
 Featured_Image = "@/RichPreview/index.png"
 +++
 
