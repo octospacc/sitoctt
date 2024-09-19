@@ -1,0 +1,19 @@
+{{- $href := (.Get 0) -}}
+{{- $type := (.Get 1) -}}
+{{- $data := (.Get 2) -}}
+{{- $link := false -}}
+{{- if not $type -}}
+  {{- $type = "embed" -}}
+{{- end -}}
+<figure class="w-100" style="margin:auto;">
+  {{- if (eq $type "embed") -}}
+    {{- $link = $href -}}
+    <iframe class="w-100 bn" src="{{ $href }}" allowfullscreen="allowfullscreen"></iframe>
+  {{- else if in (slice "youtube" "yt") $type -}}
+    {{- $link = (printf "https://youtu.be/%s" $href) -}}
+    {{- $ratio := (split $data ":") -}}
+    <iframe class="YouTube" src="https://www.youtube-nocookie.com/embed/{{ $href }}" allowfullscreen="allowfullscreen"
+            style="height: calc(100vh / {{ index $ratio 0 }} * {{ index $ratio 1 }});"></iframe>
+  {{- end -}}
+  <figcaption>{{ partial "anchor.html" (dict "Params" (dict "href" $link)) }}</figcaption>
+</figure>

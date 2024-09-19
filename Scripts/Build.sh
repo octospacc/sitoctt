@@ -11,6 +11,10 @@ cp -r \
 	../hugo.toml  ../static   \
 ./
 
+if [ -z "${HUGO_ENV}" ]
+then export HUGO_ENV=development
+fi
+
 if [ -n "${sitocttEnv}" ]
 then
 	sed -i -e "s|#${sitocttEnv}:||g" ./hugo.toml

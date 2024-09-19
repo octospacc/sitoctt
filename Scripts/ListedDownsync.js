@@ -27,6 +27,7 @@ let Replacements = { // Format: { ReplaceWithString: [ToFindString] }
 };
 let LateReplacements = {
 	"{{< assetsRoot >}}": "{{&lt; assetsRoot &gt;}}",
+	'<script async="async" defer="defer" src="https://liminalgici.spacc.eu.org/embed.js"></script><iframe title="Pixelfed Post Embed" src="https://liminalgici.spacc.eu.org/': '<iframe title="Pixelfed Post Embed" src="https://liminalgici.spacc.eu.org/',
 };
 const TestURL = 'https://listed.to/p/hDaMhJ2ts7';
 

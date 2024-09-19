@@ -11,7 +11,7 @@ const turndownService = (new TurndownService({
 	strongDelimiter: "**",
 	linkStyle: "inlined",
 }));
-turndownService.keep(['span', 'small', 'sup', 'sub', 'table', 'dl', 'iframe', 'video', 'audio']);
+turndownService.keep(['span', 'small', 'sup', 'sub', 'table', 'dl', 'iframe', 'video', 'audio', 'scripts']);
 
 Exp.Transform = (html) => turndownService.turndown(html);
 

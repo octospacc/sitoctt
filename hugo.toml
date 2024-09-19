@@ -8,7 +8,7 @@ disablePathToLower = true
 sectionPagesMenu = "main"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
-theme = ["hugo-notice", "ananke"]
+theme = [ "hugo-notice", "ananke" ]
 
 [pagination]
   pagerSize = 9

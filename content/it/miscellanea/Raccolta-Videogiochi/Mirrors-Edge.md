@@ -12,8 +12,7 @@ In ogni caso, parliamo di un gioco capace di dare un gran senso di libertà e di
 <cite>Da <a href="https://youtu.be/2N1TJP1cxmo">YouTube/2N1TJP1cxmo</a>.</cite>
 -->
 
-<video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></video>  
-<cite>Da <a href="https://youtu.be/2N1TJP1cxmo">YouTube/2N1TJP1cxmo</a>.</cite>
+{{< embed 2N1TJP1cxmo youtube "16:9" >}}
 
 Il modo migliore per definire **Mirror's Edge** è dire che è un gioco in costante movimento. Stando letteralmente sul bordo dello specchio, i bordi degli enormi vetri di cui sono formati i palazzoni de La Città, si corre e si salta senza alcun freno.
 

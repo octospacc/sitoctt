@@ -147,7 +147,7 @@ La **morale** di questa **storiaccia** si può condensare in:
 
 E chiudo con un **consiglio**, anzi, una **filosofia di sviluppo**, che tutti coloro che disegnano **UI** (anche io, nelle mie cose, non lo nascondo) dimenticano troppo spesso: [L'utente è ubriaco](https://www.youtube.com/watch?v=r2CbbBLVaPk).
 
-<iframe src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk" style="height: calc(80vw / 16 * 9);" frameborder="0" class="YouTube"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/r2CbbBLVaPk" style="height: calc(100vh / 16 * 9);" class="YouTube"></iframe>
 
 Dunque, un saluto. Per il futuro **auguro** di **non perdere dati** in modo stupido (a voi, e a me!). 👋
 

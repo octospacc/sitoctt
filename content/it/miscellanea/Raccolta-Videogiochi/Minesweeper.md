@@ -107,4 +107,4 @@ Sto lavorando per rendere il gioco personalizzabile, per il momento si può solo
 [^Windows_Vista_and_Windows_7]: <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
 [^PageBg]: **Sfondo della Pagina**: [Fonte](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504)
 
-<script src="/Assets/MinesweeperEmbed.js"></script>
+<script src="/MinesweeperEmbed.js"></script>

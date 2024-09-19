@@ -27,3 +27,28 @@ main > .div > section a,
 
 .OctolyticsPixel { display: none; width: 0; height: 0;  }
 
+iframe {
+	max-width: 100%;
+}
+iframe.YouTube {
+	width: 100%;
+	border: none;
+}
+
+iframe.pixelfed__embed {
+	border: 0;
+	width: revert-layer;
+}
+iframe.pixelfed__embed[height] {
+	height: revert-layer !important;
+	max-height: none !important;
+}
+
+main > article > aside nav#TableOfContents ul {
+	padding-left: 1em;
+	list-style-type: revert;
+}
+main > article > aside nav#TableOfContents ul li {
+	margin: 0.5em;
+}
+

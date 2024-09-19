@@ -75,7 +75,7 @@ _Psssss.. se vuoi vedere altre foto del pannello (3) e in qualità un po' più d
 
 ## La realtà dei fatti
 
-A parte questa cosa, che anche se non mi fa guadagnare nel pratico sarebbe utile in quanto benefica per la ricerca scientifica, non avrei in mente utilizzi pratici per il Rasperino Pi 3 Solare. Magari un Pi Zero andrebbe meglio: apparentemente, altra gente in preda alla pazzia (ma meglio attrezzata), ha pensato di usare quello per minare Bitcoin, con un pannellino simile al mio ([YouTube/CbpfNU7oaws](https://invidious.snopyta.org/watch?v=CbpfNU7oaws)).  
+A parte questa cosa, che anche se non mi fa guadagnare nel pratico sarebbe utile in quanto benefica per la ricerca scientifica, non avrei in mente utilizzi pratici per il Rasperino Pi 3 Solare. Magari un Pi Zero andrebbe meglio: apparentemente, altra gente in preda alla pazzia (ma meglio attrezzata), ha pensato di usare quello per minare Bitcoin, con un pannellino simile al mio ([YouTube/CbpfNU7oaws](https://youtube.com/watch?v=CbpfNU7oaws)).  
 Per ora, il pannellino lo uso sporadicamente per caricare i miei powerbank, che scarico quando capita di usarli in giro per ricaricare il mio smartphone.
 
 Se c'è qualcosa che ho imparato da questa storia, è che dovrei comprare il maledetto multimetro USB.  

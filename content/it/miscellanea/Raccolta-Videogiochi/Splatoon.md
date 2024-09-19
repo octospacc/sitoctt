@@ -6,4 +6,6 @@ Sparatutto in terza persona che dire diverso dagli altri è poco. Splatoon rompe
 Giocare in Mischie Mollusche (questo il nome delle battaglie online 4-contro-4) è divertente, ma profondità del gioco e inventiva del team di sviluppo si vedono in modalità storia.  
 	• Splatoon 3: Ottieni: <https://go.octt.eu.org/$8e62cec12c93>
 
+{{< embed kQsZPYB0vMw youtube "16:9" >}}
+
 _In costruzione..._

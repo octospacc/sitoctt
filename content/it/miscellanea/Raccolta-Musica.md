@@ -14,7 +14,7 @@ Principalmente musica del filone future-funk, sottogenere della vaporwave con un
 
 - <span><h3>Moe Shop</h3></span>  
 Canzoni per la maggiore vivaci, con un'atmosfera, per così dire, anime. Le copertine degli album penso si sposino parecchio bene con la sua musica. Alcuni suoi pezzi presentano delle sonorità meno giocose e con caratteri più vicini a tipi più comuni di musica elettronica, ma riesco ad apprezzarli molto comunque.  
-	• [SoundCloud](https://soundcloud.com/moeshop), [YouTube](https://invidious.nerdvpn.de/channel/UCcKTRoHPP2hPaom63QGaiBw), [Bandcamp](https://moeshop.bandcamp.com/music), [Archive.org](https://archive.org/details/Moe-Shop-Full-Discography)
+	• [SoundCloud](https://soundcloud.com/moeshop), [YouTube](https://www.youtube.com/channel/UCcKTRoHPP2hPaom63QGaiBw), [Bandcamp](https://moeshop.bandcamp.com/music), [Archive.org](https://archive.org/details/Moe-Shop-Full-Discography)
 
 - <span><h3>Ujico / Snail's House</h3></span>  
 Sapevo fossero la stessa persona, ma non sapevo che "Ujico" e "Snail's House" fossero effettivamente dei personaggi con identità diverse<sup>[[?](https://en.m.wikipedia.org/wiki/Snail's_House#History)]</sup> per quanto riguarda la composizione musicale. Ho conosciuto inizialmente la sua musica, almeno in parte future-bass, fatta sotto il nome di Snail's House. Lì si vede il suo stile attuale, i cui suoni kawaii elettronici mi sono sempre piaciuti. Più tardi, ho scoperto i suoi album precedenti, che a livello di espressività si orientano più sul complesso della musica in sé, e non sui piccoli dettagli. Due modi molto diversi di creare un genere di musica, con diverse ambientazioni, ma entrambi con lo stesso timbro personale magnifico.  
