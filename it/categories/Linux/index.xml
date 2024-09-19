@@ -6,14 +6,21 @@
     <description>Recent content in Linux on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/it/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🔉️ Output audio in contemporanea HDMI&#43;analogico su Raspberry Pi con ALSA</title>
+      <link>http://http.sitoctt.octt.eu.org/it/note/2024-09-19-%EF%B8%8F-Output-audio-in-contemporanea-HDMI-analogico-su-Raspberry-Pi-con-ALSA/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/note/2024-09-19-%EF%B8%8F-Output-audio-in-contemporanea-HDMI-analogico-su-Raspberry-Pi-con-ALSA/</guid>
+      <description>Nella mia nuova missione per integrare, sotto forma di console da retrogaming casalinga, un qualsiasi computer che funzioni con una configurazione ben consolidata con RetroArch, e che mi permetta di giocare passando ROM e salvataggi tra diversi dispositivi&amp;hellip; il Raspberry Pi, con installata la distro Linux RetroPie, è saltato fuori come pezzo ideale del puzzle.&#xA;Senza divagare sulla faccenda in sé, per cui ho invece più informazioni sul mio MicroBlog (https://octospacc.</description>
+    </item>
     <item>
       <title>🌽 Compilare e installare il kernel Linux da sorgente</title>
       <link>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/</guid>
-      <description>Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto... Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&#39;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&#39;altra volta, dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.</description>
+      <description>Non di frequente mi saltano in mente nuove idee, ma, quando lo fanno, sono sempre bizzarre al punto giusto&amp;hellip; Senza divagare troppo, è proprio per questo svilupparsi delle cose che anni fa, per la prima volta, mi sono trovata a compilare da sorgente il kernel Linux — su un Raspberry Pi 3 tra l&amp;rsquo;altro, cosa che col senno di poi non consiglierei — e adesso, precisamente ieri, di nuovo un&amp;rsquo;altra volta, dopo anni (stavolta sul PC, per fortuna), per un fine che non spoilero.</description>
     </item>
   </channel>
 </rss>

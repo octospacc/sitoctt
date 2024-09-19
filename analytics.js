@@ -6,8 +6,12 @@ if (!["sitoctt.octt.eu.org", "http.sitoctt.octt.eu.org"].includes(location.hostn
 }
 
 window.addEventListener('load', (function(){
-	fetch('https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p='
-		+ location.pathname + location.search /* + '&rnd=' + Date.now() */);
+	var path = (location.pathname + location.search);
+	fetch('https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p=' + path /* + '&rnd=' + Date.now() */)
+		.catch(function(err){
+			console.error(err);
+			fetch('https://sitoctt.goatcounter.com/count?p=' + path);
+		});
 }));
 
 })();

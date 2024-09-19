@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>🚀 LIBERTY WINGS: un breve juego de rol sobre la libertad (revisión) | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Se trata de un juego corto sobre la libertad, ambientado en un futuro no muy lejano, donde la humanidad está esclavizada a un régimen corporativo.">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="http://http.sitoctt.octt.eu.org/ananke/css/main.min.1fb6c03bf4a269ca673fdd95f8d3300412422c03c8c66bf04dd34617132aba8a.css" >
+
+
+
+
+<style>
+.Pixelated, .Pixelated * { image-rendering: pixelated; }
+</style>
+
+    <script> window.Void = (function Void(){}); </script>
+<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/es/searchindex.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/forge.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/octt-runtime.js"></script>
+
+  <script src="http://http.sitoctt.octt.eu.org/analytics.js"></script>
+
+
+
+    
+      
+<link rel="shortcut icon" href="http://http.sitoctt.octt.eu.org/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/es/blog/2024-04-07-LIBERTY-WINGS-un-breve-juego-de-rol-sobre-la-libertad-revisi%C3%B3n/">
+    
+
+    <meta property="og:url" content="http://http.sitoctt.octt.eu.org/es/blog/2024-04-07-LIBERTY-WINGS-un-breve-juego-de-rol-sobre-la-libertad-revisi%C3%B3n/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="🚀 LIBERTY WINGS: un breve juego de rol sobre la libertad (revisión)">
+  <meta property="og:description" content="Se trata de un juego corto sobre la libertad, ambientado en un futuro no muy lejano, donde la humanidad está esclavizada a un régimen corporativo.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-04-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-04-07T00:00:00+00:00">
+
+  <meta itemprop="name" content="🚀 LIBERTY WINGS: un breve juego de rol sobre la libertad (revisión)">
+  <meta itemprop="description" content="Se trata de un juego corto sobre la libertad, ambientado en un futuro no muy lejano, donde la humanidad está esclavizada a un régimen corporativo.">
+  <meta itemprop="datePublished" content="2024-04-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-04-07T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2626">
+  <meta itemprop="keywords" content="Juegos,Reseñas">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="🚀 LIBERTY WINGS: un breve juego de rol sobre la libertad (revisión)">
+  <meta name="twitter:description" content="Se trata de un juego corto sobre la libertad, ambientado en un futuro no muy lejano, donde la humanidad está esclavizada a un régimen corporativo.">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/es/blog/2024-04-07-LIBERTY-WINGS-un-breve-juego-de-rol-sobre-la-libertad-revisi%C3%B3n/"/>
+
+  <meta property="og:image" content="http://http.sitoctt-assets.octt.eu.org/public/Media/Games/LIBERTY-WINGS/COVER-ART.jpg" />
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
+    
+   
+  
+
+  
+  <header id="!/header" class="cover bg-top" style="background-image: url('http://http.sitoctt-assets.octt.eu.org/public/Media/Games/LIBERTY-WINGS/COVER-ART.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://http.sitoctt.octt.eu.org/es/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 f6 tc bg-transparent moon-gray ba b--solid b--moon-gray"
+               type="text" name="_query[]" required="required" placeholder="Buscar No-JS... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="f6 bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Buscar 🔎️" />
+        </div>
+      </form>
+    </div>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/it/blog/2024-04-07-LIBERTY-WINGS-un-Breve-RPG-sulla-Libert%C3%A0-Recensione/"><span>it</span><span>🇮🇹✨️</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/blog/2024-04-07-LIBERTY-WINGS-a-Short-RPG-about-Freedom-Review/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/blog/2024-04-07-LIBERTY-WINGS-un-court-RPG-sur-la-libert%C3%A9-Critique/"><span>fr</span><span>🇫🇷️</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/blog/" title="Blog pagina">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/miscellanea/" title="Miscelánea pagina">
+              Miscelánea
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/note/" title="Notas pagina">
+              Notas
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">🚀 LIBERTY WINGS: un breve juego de rol sobre la libertad (revisión)</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Se trata de un juego corto sobre la libertad, ambientado en un futuro no muy lejano, donde la humanidad está esclavizada a un régimen corporativo.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        <a href="http://http.sitoctt.octt.eu.org/es/blog/">
+          Blog
+        </a>
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">🚀 LIBERTY WINGS: un breve juego de rol sobre la libertad (revisión)</h1>
+      
+      <p class="tracked">
+        Por <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2024-04-07T00:00:00Z">abril 7, 2024</time>
+      
+
+      
+      
+        <span> - Lectura en 13 minutos </span>
+        <span> - 2626 palabras </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info, .notice.caution {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.danger, .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info, .notice.caution {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.danger, .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info, body.dark .notice.caution {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.danger, body.dark .notice.danger {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice caution" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
+</svg>
+
+        </span>Precaución</p><p>El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.</p></div>
+<style> .notranslate[data-lang="it"] { display: none; } </style>
+<!-- Generado automáticamente por ListedDownsync.js. No lo edite (a menos que también establezca "% Downsync = False"); se sobrescribirá. -->
+<p>Precisamente anteayer finalizó un <em>game jam</em>, es decir, una competición (online) de desarrollo de videojuegos, basada en la creación de algo utilizando RPG Maker 95, una versión muy antigua de la serie de motores de juego en cuestión. &hellip; ¿Parece que no fue bien publicitado? Porque buscando en la web no encuentro ni un ápice de una página de anuncios o que recoja los trabajos. Pecado.</p>
+<p>De todos modos, un creador al que sigo participó en el concurso, así que jugué su creación. De hecho, me llevó más tiempo prepararme para jugarlo que empezar y terminarlo, porque estaba obsesionado con querer jugarlo en el móvil en lugar de en la PC. Pero lo importante es haberlo hecho (y <a href="https://octospacc.altervista.org/2024/04/07/android-come-il-95/" target="_blank" rel="noopener" >en mi microblog expliqué cómo</a>, por si acaso te resulta útil). A estas alturas, sin embargo, también me apetecía hacer un pequeño repaso de la obra&hellip; ¿por qué no?</p>
+<h2 id="la-revisión">La revisión</h2>
+<p>Entonces, esto es <strong>LIBERTY WINGS</strong>, &ldquo;<em>un juego simple sobre la libertad, con aeronaves geniales, dictadores y&hellip; ¡una linda chica gótica!</em>&rdquo;. Lo escupiré de inmediato y les diré que sí, es un buen juego de rol, me gustó. Precisamente por eso, y teniendo en cuenta también que es realmente corto - el primer juego hecho completamente a ciegas y sin correr debería durar entre 20 y 40 minutos - en realidad os remito inmediatamente a la página web del videojuego, donde podéis descargarlo y probarlo. por tu cuenta, primero continúa leyendo: <a href="https://yomuu.itch.io/liberty-wings-rm95-game-jam" target="_blank" rel="noopener" >https://yomuu.itch.io/liberty-wings-rm95-game-jam</a>. Si realmente no quieres&hellip; sigamos adelante. Como mínimo, si planeas jugarlo, tal vez consideres saltarte la sección de la historia ahora, o al menos no ir más allá de sus primeros párrafos; Si bien intentaré no revelar todos los detalles y personajes, aún así me expandiré un poco.</p>
+<h3 id="la-historia">La historia</h3>
+<p>El juego, como se puede leer en la descripción (que no queda clara inmediatamente al empezar a jugar, pero que se puede entender a medida que avanza la historia), está ambientado en &ldquo;un futuro no muy lejano&rdquo;, en el que la humanidad se divide en estados establecidos en islas voladoras en el cielo. Con una guerra, un dictador ha tomado el control de estos estados, convirtiéndolos en colonias de un gobierno centralizado, la &ldquo;Compañía&rdquo;.</p>
+<p>El protagonista de la historia es un empleado normal, sin características ni identidad precisas, que se ve obligado a realizar una de sus tareas habituales cuando se abre el juego. En realidad él, al igual que todos los demás trabajadores de la Compañía, evidentemente se caracteriza más como un esclavo: ha trabajado y vivido allí desde que nació, y a todos los efectos vive para trabajar, debido al lavado de cerebro implementado. por el régimen dictatorial. Al igual que sus colegas, está convencido (y en parte autoconvencido) de que la vida se trata de deber.</p>
+<p>Volviendo al día normal del protagonista, por alguna razón se encuentra constantemente lleno de pensamientos, desde que se prepara para realizar sus tareas hasta que se va a la hora del almuerzo. Entre sus cavilaciones surgen continuamente pensamientos que, desde el punto de vista de la ética de la Empresa y del trabajador modelo, son, por decir lo mínimo, erróneos. El niño intenta darle poco peso, pero no puede evitar pasar del ideal de estar agradecido por su vida y su trabajo, a la pregunta más problemática de quién es realmente como persona, y si tal vez en el mundo. hay algo de mayor valor que las obligaciones que le imponen desde arriba. El tono del primer tipo de pensamientos, sin embargo, parece ligeramente falso, forzado, casi como si salieran a la superficie automáticamente sólo para evitar que el trabajador sufra una crisis existencial más grave.</p>
+<p>![Diálogo &ldquo;Sabes que estos pensamientos intrusivos tuyos no son bienvenidos dentro de la civilización perfecta y ordenada construida con sudor y lágrimas por la Compañía.&rdquo;](http://http.sitoctt-assets.octt.eu.org/public/Media/Games/LIBERTY-WINGS/Screenshot_2024 -04-07-01-47-51-986_com.retroarch.aarch64.png)</p>
+<p>Precisamente ese día, en ese momento, se produce una emergencia en el dirigible volador: por enésima vez, los &ldquo;revolucionarios&rdquo; han planeado un atentado contra el vehículo, calificado de terrorista por la Compañía. También llamados &ldquo;piratas del cielo&rdquo;, son en todos los aspectos enemigos del sistema, que los considera perversos, sin dignidad e incluso dignos de ser eliminados a la vista. El suceso en sí no es nada nuevo para el protagonista, pero esta vez termina poniendo completamente su vida patas arriba.</p>
+<h4 id="un-cambio-de-dirección">Un cambio de dirección</h4>
+<p>Mientras intenta dirigirse hacia la zona segura, como le ordenaron sus superiores a través del intercomunicador, el trabajador se encuentra con un revolucionario. Cuando está a punto de huir antes de que sea demasiado tarde, se fija en el trabajador, quien intenta persuadirlo contándole rápidamente su historia: ella también trabajaba en la empresa, hasta que un día comprendió la verdad del mundo y decidió abandonar esa vida banal para siempre. En otro momento las cosas habrían sido diferentes, pero esta vez el alma del protagonista está en total confusión, por lo que decide escuchar al pirata: quiere ver qué hay más allá de las paredes de hierro del dirigible, por lo que huye con su.</p>
+<p>En este punto estaremos conduciendo la pequeña nave espacial de la niña, la atmósfera se vuelve más tensa y las cosas empiezan a complicarse. Navegamos con dificultad por un entorno enorme en el cielo, saliéndonos de paredes irregulares, bombas colocadas aquí y allá para engañar a los que se distraen mientras conducen y, sobre todo, los soldados de la Compañía, que tienen sus propias naves espaciales e intentan encontrarnos cada vez que llegamos. terminan entre sus radares. Debes encontrar dos llaves escondidas en la inmensidad de este entorno, para desbloquear la puerta al otro lado del mapa y continuar tu escape.</p>
+<p>Las dificultades no acaban aquí: en un determinado momento nos encontraremos con varios bloques en el camino y tendremos que ir a buscar el botón de apertura de la única salida de emergencia disponible. Mientras tanto, el barco también se ha quedado sin combustible y el pirata tiene que quedarse allí y llenar el depósito. Así continúa el viaje del protagonista, ahora a pie, por zonas inexploradas de la isla. Sin embargo, en su camino pronto se topa con unos soldados robots dispuestos a desbaratar sus planes a toda costa, acusándolo de traición y gritándole de una manera totalmente fría.</p>
+<p>![Diálogo &ldquo;TRAICIONASTE A LA COMPAÑÍA. ESO ES UN DELITO Y DEBE SER CASTIGO.&rdquo;](http://http.sitoctt-assets.octt.eu.org/public/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-01-44- 108_com.retroarch.aarch64.png)</p>
+<h4 id="punto-crítico">Punto crítico</h4>
+<p>De hecho, el niño también aquí logra superar la adversidad sin mucho esfuerzo&hellip; o casi. Antes de que pueda defenderse a tiempo, uno de los robots lo apuñala cerca del corazón, lo que inmediatamente comienza a preocuparse por su vida. A pesar del daño, algo dentro de él le dice que no puede dejar todo así ahora y, quizás también porque sabe que moriría de todos modos, de alguna manera decide continuar y alcanzar el botón para desbloquear la salida. Incluso la revolucionaria, que lo llama por walkie-talkie porque el tiempo se acaba, no logra que regrese una vez que descubre lo que le pasó. Ya ha probado la libertad y, si tiene que abandonar su mundo, al menos quiere seguir teniendo esperanza.</p>
+<p>Después de sufrir un poco más, arrastrándose a zonas aún más extrañas, el trabajador logra apretar ese maldito botón, pero ya es tarde y siente que está a punto de morir. De alguna manera, sin embargo, aquí ocurre la mayor sorpresa de su historia: una fuerza extraña se libera en un instante directamente desde su corazón, provocando una fuerte explosión que incluso hace volar el techo que había allí. Totalmente incrédulo, salta a la nave espacial de la chica, que lo esperaba como había prometido en lugar de salvarse, para escapar hacia la libertad, esta vez segura y decididamente tangible.</p>
+<p>Al final lo hicieron. El juego termina con el niño y el pirata finalmente a salvo y compartiendo algunas cosas sobre ellos mismos. El futuro que quieren realizar juntos parece ser el de salvar a toda la humanidad, con una próxima aventura. Y es precisamente en este punto, en las últimas líneas del juego, cuando lo que leemos es un extraño giro argumental final&hellip; pero guardo silencio.</p>
+<h3 id="mis-opiniones">Mis opiniones</h3>
+<p>El juego se centra casi por completo en la narrativa, que, sin embargo, como ya he mencionado, no es del todo explícita: algunos detalles se ocultan, se insinúan y se vuelven a contar continuamente. ¡Incluso llego a preguntarme si realmente los entendí todos, o si tal vez tergiversé o omití algo!
+Sin embargo, en realidad me parece una historia convincente, bien condensada y desarrollada armoniosamente; No parece demasiado condensado ni extendido como para que el juego parezca más grande, y las cosas salen como deberían.</p>
+<p>El tema principal, la libertad, se aborda de una manera que parece recordar algunas fealdades del mundo real, sin apartarse por ello de la fantasía que constituye el juego. No es muy profundo, pero tampoco superficial, y alguna reflexión puede arrancarlo al menos por un momento. ¿Lo que hemos creído toda nuestra vida es realmente lo mejor o lo correcto? ¿Es posible que el mundo sea en realidad más grande de lo que nuestro conocimiento necesariamente limitado nos permite imaginar? Es un pequeño juego con un propósito, eso es lo que intento decir.</p>
+<p>Algunos detalles me hicieron levantar un poco la nariz, pero nada importante.
+Hay, como mencioné en la historia, pequeñas secciones de combate estilo RPG en el juego, pero no son nada especiales; se hacen inmediatamente, sin ninguna dificultad, y por momentos parecen estar bien. En realidad, tal vez sea correcto que estén ahí, para justificar lo que sucede al final de ese bloque, pero siento que en mi opinión esta mecánica de juego podría haberse desarrollado un poco más, si realmente tuviera que estar ahí.</p>
+<p>También percibí que la calidad de los diálogos disminuía un poco hacia el final del juego, que en realidad presenta varias expresiones lingüísticas que no son del todo correctas, o en todo caso que suenan un poco mal. Aquí realmente entramos en pedantería, es un defecto mío y reconozco que es una crítica banal, pero quiero ser honesto. Por otro lado, sin embargo, la escritura menos que perfecta me recuerda inconscientemente la naturaleza amateur del juego, en cierto sentido haciéndome apreciarlo más en su esencia como una obra verdaderamente creada sólo por amor&hellip; por lo tanto , no todos los males tienen un lado positivo .</p>
+<p>Me gustó la sección de exploración y rompecabezas a mitad de la historia, lo que hizo que la jugabilidad fuera un poco más activa precisamente por parte de mí que estaba jugando, incluso si estuve atrapado durante más de un cuarto de hora allí y temía hacerlo. No poder avanzar por mi cuenta&hellip; Por suerte, con un golpe de suerte, finalmente pasé el desafío, pero en mi opinión sería un poco más agradable tener algún tipo de sugerencia dentro del juego; Esa parte puede resultar frustrante.</p>
+<h4 id="ambiente-especial">Ambiente especial</h4>
+<p>Hablando de ambiente: a primera vista, en mi opinión, no gustará a todo el mundo, pero a mí me pareció fantástico.
+Aquí tampoco falta el sabor amateur, entre (casi todos) los mosaicos originales con diferentes temáticas, los diferentes <em>sprites</em> y dibujos de los personajes a pantalla completa, y la música de fondo. Los <em>Tiles</em> y sprites están hechos en un estilo pixel-art, mientras que esos otros diseños se hicieron en un estilo más clásico (¡y también hay bocetos en los archivos adicionales del juego!).
+De hecho había escuchado el <em>OST</em> antes de tocar, y ya había pensado que algunas de las canciones eran bonitas sin saber cómo darles quién sabe cuánto peso, pero escuchándolas mientras toco&hellip; algo completamente diferente, encaja perfectamente. Al no tener (si entendí bien) <a href="https://t.me/yomushrine/1843" target="_blank" rel="noopener" >experiencia en composición musical</a>, el trabajo que ha realizado el creador del juego es muy respetable, me apetece decir. Quizás sea un poco extraño pensar que toda la música es de estilo retro/chiptune, excepto una, pero no es algo que me molestó durante el juego.</p>
+<p>Sólo una nota: me pareció, en algunos casos, que el audio estaba mal mezclado: en algunos puntos la música cambia repentinamente, sin desvanecimiento ni silencio suficiente, y algunas canciones al ser loopeadas suenan como si no estuvieran hechas para la cosa. Creo que al menos algunos de estos problemas fueron culpa del emulador, considerando también que el juego tardaba mucho en comenzar a responder a los comandos y reproducir música nueva cuando ocurrían ciertos eventos (a menudo el cambio de escenario, pero no siempre); pero otros probablemente sean un descuido del juego o, probablemente, una limitación del motor.</p>
+<p>Las partes visual y auditiva, por lo tanto, juntas crean un <em>ambiente</em> cohesivo, que se desarrolla de la mano con la narrativa. Muy oscuro al principio, pero de algún modo tranquilo y cómodo; gradualmente menos familiares y luego incluso caóticos a medida que avanzamos; completamente angustiado, pero pacífico, al final de la historia. Algunas zonas son incluso un poco oníricas, etéreas, y no puedo evitar definir algunos de los escenarios como <em><a href="https://www.treccani.it/vocabolario/liminale/" target="_blank" rel="noopener" >liminal</a></em>. Quién sabe si todo fue intencionado o es una coincidencia&hellip;</p>
+<p>![Un área algo liminal, hacia el final del juego (fuera de contexto, sin spoilers).](http://http.sitoctt-assets.octt.eu.org/public/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-07- 22-027_com.retroarch.aarch64.png)</p>
+<p>Esos acontecimientos ligeramente surrealistas, algunos incluso cómicos, repartidos a lo largo de la historia, levantan los momentos más tensos de formas más o menos impredecibles. También percibí algo que realmente no esperaba&hellip; en algunos diálogos, [el sonido del boom de la vid] se insertaba en él (<a href="https://youtube.com/watch?v=Oc7Cin_87H4%29" target="_blank" rel="noopener" >https://youtube.com/watch?v=Oc7Cin_87H4)</a>&hellip; son ahí quedé atónito, realmente esto es demasiado incluso para mi alma <em>muy memética</em>&hellip; este videojuego tiene un lindo personaje.</p>
+<h4 id="pensamientos-finales">Pensamientos finales</h4>
+<p>Casi llegando al final, probablemente me hubiera gustado un juego un poco más largo, porque justo en los últimos compases se había vuelto decididamente emocionante y no tenía ganas de terminarlo así&hellip; pero al mismo tiempo, reitero que la corta duración en este caso tiene un porque: permitió que la narrativa expresara su opinión sin caer en momentos banales. Y, en cualquier caso, toda la obra fue creada por una sola persona, no profesional, en poco más de un mes; Considerando esto también, el resultado final no sólo es más que razonable, sino que creo que tiene aún más valor.</p>
+<p>Para terminar, sólo me queda renovar la invitación inicial para probar el videojuego, que evidentemente es gratuito: entre la corta duración, poder hacerlo correr en dispositivos móviles con un poco de ingenio, y la práctica nada, no tienes excusas. . Me gustaría señalar que para jugarlo en Wine en el escritorio Linux debes abrir el menú del juego y configurar la vista de la ventana; de lo contrario (como me pasó a mí) el personaje no parecerá moverse; Sin embargo, para ejecutar el programa en versiones antiguas de Windows (como en el emulador), el archivo <code>ddraw.dll</code> debe eliminarse de la carpeta del juego.</p>
+<p>Si te quedas atascado, el juego también fue jugado en vivo por (creo) un amigo del desarrollador, así que puedes ver el juego: [https://twitch.tv/videos/2113520874](https://twitch. tv/vídeos/2113520874). Como si la intrigante historia no fuera suficiente, también hay algunos <em>huevos de Pascua</em> más o menos ocultos, que añaden una pizca extra de estilo una vez que hayas terminado de jugar&hellip; Te sugiero que los encuentres tú mismo, es trivial. (A menos que también haya alguien más de quien nadie sabe todavía&hellip;)</p>
+<p>Otro agradecimiento más a <strong>Yomu</strong>, el aterrador pero simpático tipo ghoul que creó esta experiencia, por los buenos cuartos de horas dedicados al juego&hellip; así como por la oportunidad <em>de distraerme de mi vida</em> aún más escribiendo esta reseña! Ah, y también quisiera agradecerte por publicar explícitamente el OST en el dominio público&hellip; así como un archivo WAV en la carpeta del juego, también puedes encontrarlo [en este video de YouTube](https://youtube .com/watch?v= fA8AxESpjaE). (Qué sorpresa, ¿eh?)</p>
+<p><img alt="Diálogo &ldquo;Eres fea como el infierno, niña.&rdquo;" src="http://http.sitoctt-assets.octt.eu.org/public/Media/Games/LIBERTY-WINGS/Screenshot_2024-04-07-15-11-16-713_com.retroarch.aarch64.png"> <em>Terminemos el artículo con un insulto, por qué no&hellip;</em></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Qué hay en este blog</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#la-revisión">La revisión</a>
+      <ul>
+        <li><a href="#la-historia">La historia</a>
+          <ul>
+            <li><a href="#un-cambio-de-dirección">Un cambio de dirección</a></li>
+            <li><a href="#punto-crítico">Punto crítico</a></li>
+          </ul>
+        </li>
+        <li><a href="#mis-opiniones">Mis opiniones</a>
+          <ul>
+            <li><a href="#ambiente-especial">Ambiente especial</a></li>
+            <li><a href="#pensamientos-finales">Pensamientos finales</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+    
+
+
+
+
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=http%3a%2f%2fhttp.sitoctt.octt.eu.org%2f&pageSlug=%2fes%2fblog%2f2024-04-07-LIBERTY-WINGS-un-breve-juego-de-rol-sobre-la-libertad-revisi%25C3%25B3n%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
+
+
+  </article>
+
+    </main>
+    
+  <img src="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p=%2fes%2fblog%2f2024-04-07-LIBERTY-WINGS-un-breve-juego-de-rol-sobre-la-libertad-revisi%25C3%25B3n%2f"
+       onerror="this.src='https://sitoctt.goatcounter.com/count?p=\/es\/blog\/2024-04-07-LIBERTY-WINGS-un-breve-juego-de-rol-sobre-la-libertad-revisi%C3%B3n\/'"
+       class="OctolyticsPixel" decoding="async" />
+
+
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/es/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="10-site"><h4>About this site</h4>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://sitoctt.octt.eu.org/sitoctt-offline.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="20-me"><h4>Myself and my essence</h4>
+  <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="30-thanks"><h4>Made thanks to</h4>
+  <a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="50-fun"><h4>Other things</h4></div><div>
+
+
+  <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.wikipedia.org" rel="nofollow" target="" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.mozilla.org/it/firefox" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.torproject.org/it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://ublockorigin.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+
+  <a href="https://kernel.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.onworks.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.haiku-os.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://jointhefediverse.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://matrix.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.vocaloid.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+</div><div>
+
+
+  <a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <a href="https://www.defectivebydesign.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://fmhy.pages.dev" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" decoding="async" />
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" decoding="async" />
+
+
+
+</div>
+</div>
+</footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://http.sitoctt.octt.eu.org/es/"
+  style="word-break:break-word; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Buscar... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+
+  </body>
+</html>

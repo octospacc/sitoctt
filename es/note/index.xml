@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notas on ✨sitoctt✨</title>
+    <link>http://http.sitoctt.octt.eu.org/es/note/</link>
+    <description>Recent content in Notas on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://http.sitoctt.octt.eu.org/es/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌽 Compile e instale el kernel de Linux desde el código fuente</title>
+      <link>http://http.sitoctt.octt.eu.org/es/note/2024-09-01-Compile-e-instale-el-kernel-de-Linux-desde-el-c%C3%B3digo-fuente/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/note/2024-09-01-Compile-e-instale-el-kernel-de-Linux-desde-el-c%C3%B3digo-fuente/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;No es frecuente que se nos ocurran nuevas ideas, pero cuando lo hacen, siempre tienen la dosis justa de extrañeza&amp;hellip; Sin divagar mucho, es precisamente por este desarrollo de las cosas que hace años, por primera vez, Me encontré compilando el kernel de Linux desde el código fuente (en una Raspberry Pi 3, entre otras cosas, lo que en retrospectiva no recomendaría) y ahora, precisamente ayer, otra vez, después de años (esta vez en la PC, afortunadamente), para un final que no estropearé.</description>
+    </item>
+    <item>
+      <title>2️⃣ Juegos sincronizados entre PlayStation 2 y teléfono inteligente</title>
+      <link>http://http.sitoctt.octt.eu.org/es/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Juegos-sincronizados-entre-PlayStation-2-y-tel%C3%A9fono-inteligente/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/note/2023-10-17-2%EF%B8%8F%E2%83%A3-Juegos-sincronizados-entre-PlayStation-2-y-tel%C3%A9fono-inteligente/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;Quienes han seguido mis aventuras durante bastante tiempo y con la debida atención quizás lo sepan, pero el mayor problema en TI es: cómo conciliar adecuadamente las discrepancias que se crean cuando surge el problema de jugar videojuegos tanto en casa como en una computadora portátil.</description>
+    </item>
+    <item>
+      <title>Consulte estadísticas interesantes y el estado de las particiones en Linux</title>
+      <link>http://http.sitoctt.octt.eu.org/es/note/2022-08-09-Consulte-estad%C3%ADsticas-interesantes-y-el-estado-de-las-particiones-en-Linux/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/note/2022-08-09-Consulte-estad%C3%ADsticas-interesantes-y-el-estado-de-las-particiones-en-Linux/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;Las memorias de almacenamiento, cualquiera que sea su categoría, se degradan con el desgaste.&#xA;No se puede hacer nada para evitar tener que cambiarlos, tarde o temprano, después de tantos años. Sin embargo, es posible vigilar su estado de salud para identificar cualquier problema.</description>
+    </item>
+  </channel>
+</rss>

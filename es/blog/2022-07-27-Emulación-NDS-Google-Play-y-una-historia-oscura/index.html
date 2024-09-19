@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>👾 Emulación NDS, Google Play y una historia oscura | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Lo que comenzó como una búsqueda de un emulador de NDS que se ejecutara, bueno, en mi Android, rápidamente reveló verdades y eventos absurdos...">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="http://http.sitoctt.octt.eu.org/ananke/css/main.min.1fb6c03bf4a269ca673fdd95f8d3300412422c03c8c66bf04dd34617132aba8a.css" >
+
+
+
+
+<style>
+.Pixelated, .Pixelated * { image-rendering: pixelated; }
+</style>
+
+    <script> window.Void = (function Void(){}); </script>
+<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/es/searchindex.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/forge.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/octt-runtime.js"></script>
+
+  <script src="http://http.sitoctt.octt.eu.org/analytics.js"></script>
+
+
+
+    
+      
+<link rel="shortcut icon" href="http://http.sitoctt.octt.eu.org/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/es/blog/2022-07-27-Emulaci%C3%B3n-NDS-Google-Play-y-una-historia-oscura/">
+    
+
+    <meta property="og:url" content="http://http.sitoctt.octt.eu.org/es/blog/2022-07-27-Emulaci%C3%B3n-NDS-Google-Play-y-una-historia-oscura/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="👾 Emulación NDS, Google Play y una historia oscura">
+  <meta property="og:description" content="Lo que comenzó como una búsqueda de un emulador de NDS que se ejecutara, bueno, en mi Android, rápidamente reveló verdades y eventos absurdos...">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-07-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-07-29T00:00:00+00:00">
+
+  <meta itemprop="name" content="👾 Emulación NDS, Google Play y una historia oscura">
+  <meta itemprop="description" content="Lo que comenzó como una búsqueda de un emulador de NDS que se ejecutara, bueno, en mi Android, rápidamente reveló verdades y eventos absurdos...">
+  <meta itemprop="datePublished" content="2022-07-27T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-07-29T00:00:00+00:00">
+  <meta itemprop="wordCount" content="3506">
+  <meta itemprop="keywords" content="Tecnología,Juegos,Móviles">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="👾 Emulación NDS, Google Play y una historia oscura">
+  <meta name="twitter:description" content="Lo que comenzó como una búsqueda de un emulador de NDS que se ejecutara, bueno, en mi Android, rápidamente reveló verdades y eventos absurdos...">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/es/blog/2022-07-27-Emulaci%C3%B3n-NDS-Google-Play-y-una-historia-oscura/"/>
+
+  <meta property="og:image" content="http://http.sitoctt-assets.octt.eu.org/public/Media/Android-NDS-Emulation/ACWW-on-Androids.avif" />
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
+    
+   
+  
+
+  
+  <header id="!/header" class="cover bg-top" style="background-image: url('http://http.sitoctt-assets.octt.eu.org/public/Media/Android-NDS-Emulation/ACWW-on-Androids.avif');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://http.sitoctt.octt.eu.org/es/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 f6 tc bg-transparent moon-gray ba b--solid b--moon-gray"
+               type="text" name="_query[]" required="required" placeholder="Buscar No-JS... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="f6 bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Buscar 🔎️" />
+        </div>
+      </form>
+    </div>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/it/blog/2022-07-27-Lemulazione-NDS-Google-Play-e-una-storia-oscura/"><span>it</span><span>🇮🇹✨️</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/blog/2022-07-27-NDS-emulation-Google-Play-and-a-dark-history/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/blog/2022-07-27-%C3%89mulation-NDS-Google-Play-et-un-sombre-historique/"><span>fr</span><span>🇫🇷️</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/blog/" title="Blog pagina">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/miscellanea/" title="Miscelánea pagina">
+              Miscelánea
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/note/" title="Notas pagina">
+              Notas
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">👾 Emulación NDS, Google Play y una historia oscura</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Lo que comenzó como una búsqueda de un emulador de NDS que se ejecutara, bueno, en mi Android, rápidamente reveló verdades y eventos absurdos...
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        <a href="http://http.sitoctt.octt.eu.org/es/blog/">
+          Blog
+        </a>
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">👾 Emulación NDS, Google Play y una historia oscura</h1>
+      
+      <p class="tracked">
+        Por <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2022-07-27T00:00:00Z">julio 27, 2022</time>
+      
+
+      
+      
+        <span> - Lectura en 17 minutos </span>
+        <span> - 3506 palabras </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info, .notice.caution {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.danger, .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info, .notice.caution {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.danger, .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info, body.dark .notice.caution {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.danger, body.dark .notice.danger {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice caution" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
+</svg>
+
+        </span>Precaución</p><p>El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.</p></div>
+<style> .notranslate[data-lang="it"] { display: none; } </style>
+<p>La Nintendo DS. Basta, no hace falta decir nada más; después de todo, entre los conocedores nos entendemos.
+Una consola que, hace 15 años, supo innovar el mercado con el mismo espíritu con el que innovó la Gameboy en su momento. Una consola cuyas exclusivas siguen siendo, aún hoy, perlas atemporales.</p>
+<p>Por mucho que me gustaría cantar infinitas alabanzas al DS, hoy estoy aquí para hablarles de otra cosa.
+Hoy os hablo de emulación, y de un área concreta del panorama de la emulación <strong>NDS: la de Android</strong>.</p>
+<h2 id="emulación-en-general">Emulación en general</h2>
+<p>Muchas consolas, en sus años de vida e incluso después, son <a href="https://it.wikipedia.org/wiki/Reverse_engineering" target="_blank" rel="noopener" >revertidas</a> por personas apasionadas y capaces que están interesadas en comprender cómo funcionan y luego tal vez crear emuladores. , es decir, un software que replica el funcionamiento de la consola en una máquina completamente diferente.
+La Nintendo DS, por supuesto, no es una excepción.</p>
+<p>Normalmente, el desarrollo del emulador se produce bajo una de dos filosofías:</p>
+<ul>
+<li>Crear algo rápido, que funcione y que permita inmediatamente a la mayor cantidad de personas posible usar el emulador como una alternativa práctica a la consola original;</li>
+<li>Crear algo preciso y lo más parecido técnicamente posible a la consola original, con el fin de preservarla en una forma metafísica para el futuro, dejando en un segundo plano la velocidad, que sólo se puede lograr ejecutando el emulador en una máquina suficientemente potente, incluso si también futuro.</li>
+</ul>
+<h3 id="emulación-aquí-y-ahora">Emulación &ldquo;aquí y ahora&rdquo;</h3>
+<p>Aunque la segunda filosofía es sin duda la más noble, la del &ldquo;aquí y ahora&rdquo; también es muy importante: permite jugar a quienes no pueden permitirse la consola original o la han reducido a <a href="https://wikispacc" target="_blank" rel="noopener" >spacc</a>. miraheze.org/wiki/Spacc), facilita las cosas a quienes quieren desarrollar sus juegos y mejora la vida de los jugadores que, con un emulador, pueden disfrutar de muchas comodidades nunca antes vistas.</p>
+<p>Actualmente soy de las personas que juegan en emuladores a pesar de tener la consola original.
+Tengo una Nintendo 3DS XL, que es retrocompatible con juegos de DS, pero mal, hasta el punto de que para mí es peor que jugar en un teléfono: los juegos tardan mucho en iniciarse, escalan mal en la pantalla y es un dispositivo adicional (más grande y pesado que mi teléfono inteligente) para llevar a todas partes.</p>
+<h2 id="el-estado-de-la-emulación-nds">El estado de la emulación NDS</h2>
+<p>La emulación de DS en los PC convencionales está actualmente en muy buena forma.
+El mejor emulador que existe hasta la fecha es sin duda <a href="https://melonds.kuribo64.net" target="_blank" rel="noopener" >melonDS</a>: gratuito, admite juego en línea, es lo suficientemente rápido y preciso. No funciona muy bien en PC de hace quizás 10 años pero, en esta situación, si te contentas con jugar sin conexión, siempre puedes contar con el excelente <a href="https://desmume.org" target="_blank" rel="noopener" >DeSmuME</a> (que es aparentemente nuevamente en desarrollo durante unos meses?!).</p>
+<p>Sin embargo, el simple hecho de que esté escribiendo este artículo debería hacerle oler problemas; problemas que, de hecho, existen.
+Mientras que en PC podemos decir que estamos bien, <strong>en dispositivos móviles la situación no es nada halagüeña</strong>.
+En general, en dispositivos integrados de gama baja (no sólo teléfonos inteligentes, incluso computadoras de placa única), los dos emuladores que acabo de mencionar no funcionan muy bien.</p>
+<h3 id="mi-experiencia-móvil">Mi experiencia móvil</h3>
+<p>En mi teléfono actual, con sistema operativo Android 10 (variante stock del fabricante Xiaomi, MIUI 12) y SoC <a href="https://en.wikichip.org/wiki/qualcomm/snapdragon_600/662" target="_blank" rel="noopener" >Snapdragon 662</a>, ni melonDS ni DeSmuME hacen que los juegos funcionen satisfactoriamente.
+De ambos emuladores probé los respectivos puertos nativos no oficiales de Android y los núcleos <a href="https://www.libretro.com" target="_blank" rel="noopener" >Libretro</a> disponibles (ya presentes o descargables en la última versión de las respectivas aplicaciones a continuación) para <a href="https://www.retroarch.com" target="_blank" rel="noopener" >RetroArch </a> y <a href="https://github.com/Swordfish90/Lemuroid" target="_blank" rel="noopener" >Lemuroid</a> interfaces.</p>
+<p>Así que antes de continuar tal vez debería hacer una aclaración.
+Las pruebas que he hecho estos últimos días las he hecho con un solo juego, concretamente <em>Animal Crossing Wild World</em>, por una razón muy sencilla: de momento estoy interesado en jugar a este en mi smartphone, y listo. Entonces, lo único que me importa es que este juego funcione perfectamente.
+Ya con esto escucho a la gente gritar por la falta de carácter científico de mis pruebas, que en realidad tienen un alcance limitado; Que se conformen, digo, <strong>este es un blog personal, no un laboratorio de investigación</strong> 🥱️.
+En cualquier caso, he probado todos estos emuladores en el pasado varias veces con otros juegos, y mis opiniones de hoy están más o menos en línea con las del pasado, pero ahora entraré en detalles.</p>
+<h3 id="pruebas-variadas">Pruebas variadas</h3>
+<p>Teniendo en cuenta que estas pruebas se realizaron simplemente observando el rendimiento de la pantalla de título de <em>Animal Crossing Wild World</em> (que requiere aproximadamente el mismo rendimiento que requiere el juego que se ejecuta en el supramundo):</p>
+<dl>
+<dt>• APK compilado el 13 de noviembre de 2021 del port no oficial de <a href="https://github.com/rafaelvcaetano/melonDS-android" target="_blank" rel="noopener" >melonDS para Android</a>:</dt>
+<dd>Funciona prácticamente como lo hacía la versión anterior hace aproximadamente un año, julio de 2021, período en el que obtuve el nuevo teléfono;</dd>
+</dl>
+<meta>
+<dl>
+<dt>• Core Libretro de melonDS, un poco más actualizado:</dt>
+<dd>Funciona un poco mejor que el puerto nativo, pero no del todo perfecto;</dd>
+</dl>
+<meta>
+<dl>
+<dt>• APK compilado el 27 de agosto de 2017 de la bifurcación muerta de [nds4droid por tangalbert919] (<a href="https://github.com/tangalbert919/nds4droid%29" target="_blank" rel="noopener" >https://github.com/tangalbert919/nds4droid)</a>, cuyo proyecto upstream (igualmente muerto) es un puerto no oficial de Android de DeSmuME:</dt>
+<dd>Quizás con frameskip en 3 corre un poco mejor que el APK, pero un poco peor que el núcleo Libretro, por melonDS;</dd>
+</dl>
+<meta>
+<dl>
+<dt>• Libretro principal de DeSmuME:</dt>
+<dd>Básicamente se ejecuta como la última versión de la rama nds4droid original (2016) (sí, también probé ese APK solo, pero no lo diré más que porque no es relevante); Peor que todo lo visto arriba.</dd>
+</dl>
+<p>Como beneficio adicional, también menciono este otro emulador que descubrí por casualidad mientras buscaba cosas: <a href="https://github.com/Hydr8gon/NooDS" target="_blank" rel="noopener" >NooDS</a>. El objetivo es ser un emulador rápido, pero de momento, por lo que he visto y por lo que dice el README, todavía no hemos llegado a ese punto.
+Funciona más o menos como el APK de melonDS que mencioné hasta ahora. Espero que el desarrollo continúe y tenga éxito, pero el proyecto promete.</p>
+<p>Entonces, ¿es este el final de la historia? ¿Debería contentarme con emular el juego ralentizado al menos entre un 7 y un 10 % en melonDS? Bueno, en realidad, no&hellip; <em>tal vez</em>.</p>
+<h2 id="sólo-una-solución">Sólo una solución</h2>
+<p>En la escena de la emulación de Android NDS, todos los emuladores de los que he hablado hasta ahora son en realidad los menos famosos (aunque melonDS ha estado ganando terreno últimamente). Hay uno mucho más conocido, que cualquiera que haya intentado emular al menos una vez el DS en Android sabrá al menos por su nombre.
+Entonces, hablemos un poco sobre <a href="https://play.google.com/store/apps/details?id=com.dsemu.drastic" target="_blank" rel="noopener" >Drástico</a>.</p>
+<p>Drastic es el emulador de Nintendo DS más rápido para Android. No es nada preciso, pero ejecuta todos los juegos sin mayores fallos, y ya en smartphones de gama baja de hace 5 años puede ejecutar prácticamente cualquier juego 2D y 3D a <strong>máxima velocidad</strong>;
+Incluso en dispositivos más antiguos puede resultar un poco dudoso, pero sigue siendo un verdadero milagro. Por ejemplo, mire los videos en &ldquo;<em>[2019-09-17 15:16] Varias pruebas con Galaxy Player</em>&rdquo; en mi página [Archivos MicroBlog de septiembre de 2019](./MicroBlog-Archive/2019/09/index. HTML). Es absolutamente absurdo que ese dispositivo, que compré por apenas 90 euros hace 9 años, ya sea capaz de emular la DS; y mucho menos hacer que un juego como Super Mario 64 DS funcione de manera excelente.</p>
+<p>¿Dónde está el truco? Eh eh, ¿por dónde empezamos?</p>
+<h3 id="problemas-por-delante">Problemas por delante</h3>
+<p>En primer lugar, Drastic es un <strong>software propietario</strong>; Sólo esto, para mí, es malo.
+Aunque lamentablemente no pueda hacerlo al 100%, me gustaría utilizar la mayor cantidad de software gratuito posible. Dado que este emulador es el único que es pequeño, no habría una alternativa real.
+Me quedo con el emulador propietario y no importa, no es el fin del mundo, teniendo en cuenta además que los juegos que quiero emular son en sí propietarios, y que incluso la consola original (en mi caso, con la 3DS, peor aún, porque tiene un sistema operativo completo en lugar de solo un BIOS) es propietario.</p>
+<p>El verdadero obstáculo aquí radica en el hecho de que Drastic integra un <strong>DRM</strong>, es decir, un sistema de gestión de restricciones digitales.
+En teoría, esto significaría: si pagas por el programa, no podrás usarlo a menos que encuentres o crees un crack.
+Al menos, esta es la idea teórica de DRM en general. Sin embargo, en la práctica, y las <a href="https://www.defectivebydesign.org/faq" target="_blank" rel="noopener" >Preguntas frecuentes sobre Defective by Design</a> (una campaña anti-DRM) ciertamente lo explican mejor que yo, <strong>DRM hace</strong> más** daño* * a los consumidores que a los productores.</p>
+<p>En este caso concreto, ¿qué es lo problemático del DRM de Drastic, además de que por diseño niega el acceso a un programa útil a quienes no pueden gastar 4,49€?
+Es problemático porque depende de la compra en Google Play; esto significa que aquellos que no tienen Google Play Services y Google Play Store en su dispositivo - como yo que, por razones de privacidad y rendimiento, siempre los he eliminado del mío durante años - incluso si tal vez realizan la compra desde el sitio de Google Play e instale la aplicación iniciando sesión con la cuenta de Google en <a href="https://f-droid.org/packages/com.aurora.store" target="_blank" rel="noopener" >Aurora Store</a>, no podrá utilizar la aplicación comprada porque no tener la posibilidad de verificar la compra en el dispositivo.</p>
+<h3 id="la-tradición-appikapposa">La tradición appikapposa</h3>
+<p>En definitiva, en cualquier caso, la única solución posible para utilizar realmente el programita es disponer de un parche.
+En el pasado, tanto cuando no podía permitirme Drastic como cuando podía pero ya no tenía Google Play, buscar el APK parcheado en la Web (que hacía cada vez que actualizaba Android o cambiaba de dispositivo) era en sí mismo el juego aburrido que precedió al juego más bonito (el que se emula en la aplicación en funcionamiento).
+A menudo era necesario buscar un nuevo APK, tanto porque el DRM de Drastic siempre ha sido estúpido y los cracks a menudo dejaban de funcionar, como porque la parte interactiva de la aplicación fue y está escrita con los pies: utiliza las API del sistema de maneras extrañas, lo que Con cada nueva versión de Android Google se estropea, y por tanto estropea la aplicación.</p>
+<p>Una versión de Drastic que usaba en mi antiguo teléfono con Android 7, de hecho, no funciona en el actual: el selector de archivos, trivialmente, no ve archivos ni carpetas en la memoria de almacenamiento. Incluso un viejo truco, usar un administrador de archivos externo para abrir una ROM en la aplicación de emulación, ya no funciona en Android 10: la aplicación falla.
+Entonces, me veo obligado a buscar la versión crackeada más actualizada.
+Lo busqué el otro día y aparentemente descargué algo que funcionó. Es una pena que - y este es el DRM de mierda del que hablaba, también según lo que cuenta la gente que, en el foro oficial de Drastic, pide apoyo a pesar de haber pirateado el programa (se necesita coraje oh, una medalla para estos héroes intrépidos ) - después de iniciar un juego solo una o dos veces, cada vez siguiente la aplicación se cierra en tu cara (así es, no falla, se cierra porque el mensaje de error de Android no aparece).</p>
+<p>En este punto, la situación parece realmente mala. ¿Qué hacer?</p>
+<h2 id="qué-esconde-google-play">¿Qué esconde Google Play?</h2>
+<p>Recuerdo que en la propia Play Store (y volveré a las implicaciones de esto al final) puedes encontrar una aplicación gratuita, [Free DS Emulator - For Android](<a href="https://play.google.com/" target="_blank" rel="noopener" >https://play.google.com/</a> tienda/aplicaciones/detalles ?id=com.cpu.free.dsemulatorv6). Lo había probado en el pasado y, sorprendentemente, ejecutaba juegos como Drastic.
+¿Cómo es esto posible? Entonces, ¿existe otro emulador rápido para Android? Absolutamente no, porque esta aplicación <strong>es drástica</strong>.
+Por supuesto, es Drastic el que ha sufrido algunos cambios sustanciales, entre ellos, además de la eliminación de DRM: un cambio de marca total, la reestructuración de los menús, la adición de publicidad invasiva, la reescritura del selector de archivos (que ahora al menos funciona, pero es muy tosco), y, por alguna razón absurda, la eliminación de algunas configuraciones de emulación; pero sigue siendo técnicamente drástico.
+Estamos pues ante una auténtica <strong>copia no autorizada</strong> del famoso emulador, <strong>creada con el único objetivo de lucrar con el trabajo de otros</strong> gracias a la publicidad (que, demos el mérito a quien lo merece, en la aplicación original de Drastic al menos no hay ninguna) - anuncios que no vería de todos modos, porque tengo <a href="https://adaway.org" target="_blank" rel="noopener" >Adaway</a> instalado y siempre bloqueo el acceso a Internet a aplicaciones propietarias.
+Lo único que me sorprende, y bastante, es que encontré esta <strong>aplicación ilegal en la tienda de Google</strong>.</p>
+<p>Sin embargo, los creadores de la aplicación se han esforzado mucho en eliminar cualquier referencia a Drastic. Casi lo lograron.
+El infame nombre nunca aparece en el programa, sino una descompilación del archivo APK a través de <a href="https://ibotpeaches.github.io/Apktool" target="_blank" rel="noopener" >apktool</a>, y luego busca en todos los archivos extraídos (con <code>grep -iR Drastic * </code> ) de la cadena &ldquo;Drastic&rdquo;, muestra que el nombre de la aplicación de la que el sospechoso robó el código está presente 2 veces en total, en 2 archivos diferentes. De todas formas, aquí tenéis la confirmación, por si hubiera alguna duda sobre la naturaleza de esta aplicación.</p>
+<p><img alt="Captura de pantalla del comando grep anterior." src="http://http.sitoctt-assets.octt.eu.org/public/Media/NDS-Android-Emulation/Free-DS-Emulator-Grep-Drastic.avif"></p>
+<h3 id="nueva-investigación">Nueva investigación</h3>
+<p>¿Qué puedo decir? Esta aplicación funciona y sigue siendo una gran solución, a pesar de ser un poco peor que la Drastic original.
+Excepto que, en cierto momento, pienso: ¿es posible que esta sea la única bifurcación <em>ilegítima</em> de Drastic que se encuentra en Play Store?
+En consecuencia, abro Aurora Store y empiezo a buscar, con la esperanza de encontrar algo mejor. Aparte de los diferentes cambios de nombre de nds4droid (estos también existen sólo para permitir a quienes los ponen en línea beneficiarse de la publicidad, dado que la aplicación oficial ya está en Play Store, gratuita y sin basura), algunos otros elementos de la lista me llaman la atención. Atención.</p>
+<p>Descargo 2 apps en particular, muy similares pero con diferentes nombres y colores.
+Las capturas de pantalla en las páginas de las aplicaciones huelen a estafas a kilómetros de distancia, se parecen a esas aplicaciones que encuentras en Aptoide u otras tiendas alternativas cuando buscas programas crackeados. Esas apps que: si todo va bien no hacen más que mostrar decenas de anuncios al abrirlas; si sale mal, son malware, sin rodeos.</p>
+<p>Ambos, cuando los abro, me presentan un botón &ldquo;Play&rdquo; que, al presionarlo, inicia la instalación de un APK (parchado, creo) de Drastic (!!!).
+Has entendido bien: esta <strong>app</strong>, <strong>proveniente de Play Store</strong>, <strong>contiene</strong> en su paquete <strong>un</strong> archivo APK (¡ni siquiera lo descargues de Internet!), * <em>agrietado</em>*, de otra aplicación. Uno de los dos, entre otras cosas, también integra la ROM pirateada de un juego de DS del que nunca había oído hablar: <em>Zoo Quest Puzzle Fun</em>. Que amable, que lindo regalo, no solo el emulador gratuito sino también el juego gratuito. Parece que estamos en tiendas de aplicaciones extrañas, pero en cambio estamos en Google Play.</p>
+<p>![Captura de pantalla de las páginas de Google Play de las 2 aplicaciones, una al lado de la otra, y captura de pantalla de la lista de archivos que infringen derechos de autor en uno de los dos APK.](http://http.sitoctt-assets.octt.eu.org/public/Media/Emulación-NDS-Android /Emulador-Adware-Installers.avif)</p>
+<p>Para los escépticos, no sólo los remito a <a href="https://mastodon.uno/@octo/108709092014240395" target="_blank" rel="noopener">este video</a> que grabé algunos hace días, pero te invito a descargar las aplicaciones en cuestión (y, quizás, <em>bloquear el acceso a la red o desactivar la conexión a Internet</em> antes de iniciarlas) y verlo todo de primera mano: [Green Emu NDS](<a href="https://play.google" target="_blank" rel="noopener" >https://play.google</a> .com/store/apps/details?id=com.nud.ndsemu), <a href="https://play.google.com/store/apps/details?id=com.blackversion.citra_platinum" target="_blank" rel="noopener" >The FrieNDS Emu</a>.
+De cualquier manera, no fue un descubrimiento útil: los beneficios que ofrecen estas aplicaciones tienen los mismos problemas que los APK Drásticos que se encuentran en la web.</p>
+<h3 id="finalmente">Finalmente..</h3>
+<p>En mi visita a la tienda, finalmente, veo otra aplicación que huele a Drastic renombrada, no sé por qué, quizás por la disposición de los botones en las capturas de pantalla: [vDS](https://play. google.com/store/apps/details?id=com.icorewwwi.vDS). Cuesta unos buenos 1,29€ pero, por suerte, en menos de 10 segundos de búsqueda ya encontré el APK resubido por otras personas en la Web, y lo instalé.
+Al abrirlo confirmo mis sospechas: el menú principal es idéntico al de Drastic, excepto por los colores cambiados. Todos los demás menús también son idénticos, al igual que el motor de emulación. Por si fuera poco, la carpeta donde guarda los datos es exactamente la misma que Drastic (<code>/sdcard/Drastic</code>!). ¡Estos tipos ni siquiera intentaron ocultar el robo!</p>
+<p><img alt="Menús de inicio de Drastic y vDS, uno al lado del otro para comparar." src="http://http.sitoctt-assets.octt.eu.org/public/Media/Android-NDS-Emulation/Drastic-VS-vDS-Main-Menu.avif"></p>
+<p>De todos modos, sí, el emulador funciona, abre archivos y no hace el trolling de cerrarlos en tu cara. Llevo 3 días usándolo y no tengo ninguna queja.</p>
+<p>Entonces la historia, al menos para mí, terminó bien&hellip; pero <strong>podría agregar algo</strong>.</p>
+<h2 id="google-maldita-sea">Google, maldita sea.</h2>
+<p>La <a href="https://play.google.com/about/developer-content-policy" target="_blank" rel="noopener" >Política de desarrolladores de Google Play</a> prohíbe categóricamente aplicaciones que, como las que mencioné, violen los derechos de autor. Sin embargo, estos cuatro que literalmente están robando todo el código de otra aplicación, propietaria y vendida por una tarifa, siguen ahí. Algunos desde hace meses, otros desde hace años, pero ahí están.
+Técnicamente, incluso las aplicaciones que integran directa e inmediatamente aplicaciones instalables con el único propósito de ser, a todos los efectos, &ldquo;instaladores empaquetados&rdquo;, como esos dos específicos, irían en contra de las reglas de Google Play, porque contarían como una aplicación alternativa. store~~ violaría reglas específicas con respecto al uso del instalador de paquetes de Android por parte de las aplicaciones.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>En todo esto, sin embargo, <strong>¿Qué hace Google?</strong> ¿Qué hace Google cuando las que violan las reglas no son aplicaciones muy famosas que al mismo tiempo le reportan algo de dinero al propio Google?
+<strong>Realmente le importa un comino.</strong> Pensé que nadie había intentado reportar estas aplicaciones a Google para su eliminación, pero en realidad alguien lo hizo&hellip; y no obtuvo nada. Yo también lo intenté pero, después de 3 días, todo sigue en la tienda y ni siquiera he recibido una respuesta por correo electrónico de Google.</p>
+<p>Y es precisamente así que, con esta historia, hoy reconfirmamos dos hechos importantes.</p>
+<h2 id="qué-aprendimos">¿Qué aprendimos?</h2>
+<ol>
+<li>
+<p><strong>DRM demuestra</strong>, una vez más, no sólo ser inútil (evitable, dado que ahora estaría jugando con una versión modificada de Drastic sin el DRM), sino sobre todo ser <strong>dañino</strong> ( dado que, incluso si compré Drastic de acuerdo con las reglas, todavía no podría usarlo en mis dispositivos);
+En general, los programas que utilizan DRM, es decir, software propietario que ni siquiera garantiza &ldquo;<a href="https://www.gnu.org/philosophy/free-sw.it.html" target="_blank" rel="noopener" >libertad</a> 0&rdquo; (poder ejecutar el software como desee), resultan poco fiables. Es mejor preferir siempre software sin DRM y, cuando sea posible, completamente gratuito y basado en la comunidad.</p>
+</li>
+<li>
+<p><strong>Google</strong>, como muchas otras multinacionales, <strong>no merece ni un ápice de confianza</strong>. Tiene basura en su tienda y deliberadamente no le importa, aunque en teoría tiene sistemas automáticos para controlar la marsitis que, entre otras cosas, [a menudo causa víctimas inocentes](<a href="https://www.ghisler.ch/board/" target="_blank" rel="noopener" >https://www.ghisler.ch/board/</a> ver tema .php?t=76643).
+Antes de que lleguen los fanáticos: no, está bien que Apple App Store esté un poco mejor que Google Play Store, también porque la tarifa por publicar algo allí es una enorme suma de [$99 por año]( <a href="https://developer.apple" target="_blank" rel="noopener" >https://developer.apple</a> .com/it/support/enrollment), en lugar de los [$25 únicos](<a href="https://support.google.com/googleplay/android-developer/answer/6112435?hl=it#" target="_blank" rel="noopener" >https://support.google.com/googleplay/android-developer/answer/6112435?hl=it#</a> zippy=%2Cstep-pay -registration-fee%2Cstep-pay-the-registration-fee) de Google, pero incluso allí de vez en cuando descartan aplicaciones cuestionables, a menudo depredadoras para los usuarios. Sin embargo, al menos Google considera que permitir la instalación de aplicaciones de fuentes no oficiales es una parte estándar de su sistema operativo, mientras que Apple pone freno a la descarga porque &ldquo;es por la seguridad del usuario&rdquo;;
+En general, hay que desconfiar de los padres maestros y preferir las páginas web de los propios desarrolladores para descargar las aplicaciones, o tiendas como <a href="https://f-droid.org" target="_blank" rel="noopener" >F-Droid</a>.</p>
+</li>
+</ol>
+<p>##¡Tengo un regalito..!</p>
+<p>Y, finalmente, puedo decir que he terminado. Os dejo con un <strong>pequeño regalo</strong>: <a href="https://archive.org/details/Emulation-Archive" target="_blank" rel="noopener">archive.org/details/Emulation- Archivo&lt; /a&gt;.
+En esta página de Archive.org que creé puse algunas cosas.
+En primer lugar, el APK vDS, que sin embargo sólo funciona a partir de Android 4.1 y superior; Por esta razón también puse 2 APK parcheados de Drastic vero, uno de hace quizás 3 años y otro aún más antiguo, que en cambio funcionan desde Android 2.3 <em>up</em> (&ldquo;arriba&rdquo; significa: hasta que no aparece el problema del selector de archivos roto, lo cual creo está hasta Android 5, incluido él, en muchos dispositivos). <strong>¡Todos deberían poder jugar!</strong>
+En el archivo también hay otros emuladores dispersos, incluso gratuitos, de los cuales he archivado el código correcto para conservarlos.</p>
+<hr>
+<p>Gracias por leer. ¡Te invito a seguir el blog, aunque no en todos los artículos futuros habrá archivos binarios gratis 😁!
+<strong>P.D.</strong>: ¿Qué lindos son todos mis androides ejecutando <em>ACWW</em> juntos? Os dejo la foto, solo por.</p>
+<p><img alt="Fotos de 3 de mis dispositivos Android de bolsillo, que muestran la pantalla de título de Animal Crossing Wild World." src="http://http.sitoctt-assets.octt.eu.org/public/Media/NDS-Android-Emulation/ACWW-on-Androids.avif"></p>
+<h2 id="heading"></h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><strong>Actualización 2022-07-29</strong>: Corregí esta parte porque recordé que aplicaciones como esta violaban las reglas porque &ldquo;contarían como tiendas de aplicaciones alternativas&rdquo;, pero en realidad no puedo. No verificar el qué. Sin embargo, encontré esta oscura página de ayuda para desarrolladores, que dice claramente con qué fines las aplicaciones pueden llamar al instalador de paquetes del sistema de Android: &lt;https://support.google.com/googleplay/android-developer/answer/ 12085295?hl=en#zippy =%2Usos-permitidos-de-los-paquetes-de-instalación-de-solicitud%2Cautorización-inválida&gt;. El propósito práctico de estas aplicaciones, es decir, ser instaladores triviales y empaquetados, técnicamente no estaría bien.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Qué hay en este blog</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#emulación-en-general">Emulación en general</a>
+      <ul>
+        <li><a href="#emulación-aquí-y-ahora">Emulación &ldquo;aquí y ahora&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#el-estado-de-la-emulación-nds">El estado de la emulación NDS</a>
+      <ul>
+        <li><a href="#mi-experiencia-móvil">Mi experiencia móvil</a></li>
+        <li><a href="#pruebas-variadas">Pruebas variadas</a></li>
+      </ul>
+    </li>
+    <li><a href="#sólo-una-solución">Sólo una solución</a>
+      <ul>
+        <li><a href="#problemas-por-delante">Problemas por delante</a></li>
+        <li><a href="#la-tradición-appikapposa">La tradición appikapposa</a></li>
+      </ul>
+    </li>
+    <li><a href="#qué-esconde-google-play">¿Qué esconde Google Play?</a>
+      <ul>
+        <li><a href="#nueva-investigación">Nueva investigación</a></li>
+        <li><a href="#finalmente">Finalmente..</a></li>
+      </ul>
+    </li>
+    <li><a href="#google-maldita-sea">Google, maldita sea.</a></li>
+    <li><a href="#qué-aprendimos">¿Qué aprendimos?</a></li>
+    <li><a href="#heading"></a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+    
+
+
+
+
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=http%3a%2f%2fhttp.sitoctt.octt.eu.org%2f&pageSlug=%2fes%2fblog%2f2022-07-27-Emulaci%25C3%25B3n-NDS-Google-Play-y-una-historia-oscura%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
+
+
+  </article>
+
+    </main>
+    
+  <img src="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p=%2fes%2fblog%2f2022-07-27-Emulaci%25C3%25B3n-NDS-Google-Play-y-una-historia-oscura%2f"
+       onerror="this.src='https://sitoctt.goatcounter.com/count?p=\/es\/blog\/2022-07-27-Emulaci%C3%B3n-NDS-Google-Play-y-una-historia-oscura\/'"
+       class="OctolyticsPixel" decoding="async" />
+
+
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/es/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="10-site"><h4>About this site</h4>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://sitoctt.octt.eu.org/sitoctt-offline.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="20-me"><h4>Myself and my essence</h4>
+  <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="30-thanks"><h4>Made thanks to</h4>
+  <a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="50-fun"><h4>Other things</h4></div><div>
+
+
+  <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.wikipedia.org" rel="nofollow" target="" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.mozilla.org/it/firefox" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.torproject.org/it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://ublockorigin.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+
+  <a href="https://kernel.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.onworks.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.haiku-os.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://jointhefediverse.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://matrix.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.vocaloid.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+</div><div>
+
+
+  <a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <a href="https://www.defectivebydesign.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://fmhy.pages.dev" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" decoding="async" />
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" decoding="async" />
+
+
+
+</div>
+</div>
+</footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://http.sitoctt.octt.eu.org/es/"
+  style="word-break:break-word; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Buscar... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+
+  </body>
+</html>

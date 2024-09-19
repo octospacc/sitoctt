@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino) | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Servicios que colapsan decretando el fin de mi Reino del Terror, los días perdidos diciendo maldita sea a Rasperino, y 2 meses de vicisitudes...">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="http://http.sitoctt.octt.eu.org/ananke/css/main.min.1fb6c03bf4a269ca673fdd95f8d3300412422c03c8c66bf04dd34617132aba8a.css" >
+
+
+
+
+<style>
+.Pixelated, .Pixelated * { image-rendering: pixelated; }
+</style>
+
+    <script> window.Void = (function Void(){}); </script>
+<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/es/searchindex.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/forge.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/octt-runtime.js"></script>
+
+  <script src="http://http.sitoctt.octt.eu.org/analytics.js"></script>
+
+
+
+    
+      
+<link rel="shortcut icon" href="http://http.sitoctt.octt.eu.org/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/es/blog/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino/">
+    
+
+    <meta property="og:url" content="http://http.sitoctt.octt.eu.org/es/blog/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino)">
+  <meta property="og:description" content="Servicios que colapsan decretando el fin de mi Reino del Terror, los días perdidos diciendo maldita sea a Rasperino, y 2 meses de vicisitudes...">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2023-01-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-01-28T00:00:00+00:00">
+
+  <meta itemprop="name" content="🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino)">
+  <meta itemprop="description" content="Servicios que colapsan decretando el fin de mi Reino del Terror, los días perdidos diciendo maldita sea a Rasperino, y 2 meses de vicisitudes...">
+  <meta itemprop="datePublished" content="2023-01-28T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-28T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2517">
+  <meta itemprop="keywords" content="Administrador De Sistemas,Rasperino">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino)">
+  <meta name="twitter:description" content="Servicios que colapsan decretando el fin de mi Reino del Terror, los días perdidos diciendo maldita sea a Rasperino, y 2 meses de vicisitudes...">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/es/blog/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino/"/>
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
+    
+   
+  
+
+  <header id="!/header">
+    <div class="bg-black" style="background-color: #330066;">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://http.sitoctt.octt.eu.org/es/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 f6 tc bg-transparent moon-gray ba b--solid b--moon-gray"
+               type="text" name="_query[]" required="required" placeholder="Buscar No-JS... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="f6 bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Buscar 🔎️" />
+        </div>
+      </form>
+    </div>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/it/blog/2023-01-28-Quando-i-problemi-hardware-diventano-mentali-maledetto-Raspino/"><span>it</span><span>🇮🇹✨️</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/blog/2023-01-28-Quand-les-probl%C3%A8mes-mat%C3%A9riels-deviennent-mentaux-putain-de-Raspino/"><span>fr</span><span>🇫🇷️</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/blog/" title="Blog pagina">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/miscellanea/" title="Miscelánea pagina">
+              Miscelánea
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/note/" title="Notas pagina">
+              Notas
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        <a href="http://http.sitoctt.octt.eu.org/es/blog/">
+          Blog
+        </a>
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino)</h1>
+      
+      <p class="tracked">
+        Por <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2023-01-28T00:00:00Z">enero 28, 2023</time>
+      
+
+      
+      
+        <span> - Lectura en 12 minutos </span>
+        <span> - 2517 palabras </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info, .notice.caution {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.danger, .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info, .notice.caution {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.danger, .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info, body.dark .notice.caution {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.danger, body.dark .notice.danger {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice caution" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
+</svg>
+
+        </span>Precaución</p><p>El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.</p></div>
+<style> .notranslate[data-lang="it"] { display: none; } </style>
+<!-- Generado automáticamente por ListedDownsync.js. No lo edite (a menos que también establezca "% Downsync = False"); se sobrescribirá. -->
+<p>Hasta ahora, hace 2 meses, mi <strong>reino de Rasperino</strong> estaba en su <strong>máximo esplendor</strong>: la instancia de Misskey, creada apenas 2 semanas antes, iba <strong>muy bien</strong>, y a estas alturas (casi ) todo parecía destinado a seguir bien&hellip;
+Y en cambio, <strong>surgieron problemas</strong>. Digamos que me tomó un poco de tiempo darme cuenta, porque se desarrollaron **de una manera extrañamente <strong>gradual</strong>.</p>
+<h2 id="las-grietas-iniciales">Las grietas iniciales</h2>
+<p>Noté la primera cosa realmente <strong>extraña</strong> a principios de diciembre, cuando me di cuenta de que <strong>el sistema podría fallar</strong> al intentar realizar una operación muy banal pero <strong>específica</strong>: crear un gran archivo de archivos. (comprimido o no)&hellip; con cualquier programa.
+Este pequeño inconveniente ha provocado, a su vez, un <strong>problema secundario</strong>&hellip; Ya llegaré.
+Sin embargo, no le presté demasiada atención. ¿Cómo podría? El resto, si no se toca, <strong>funcionó</strong>, <strong>aparte de</strong> una ligera <strong>degradación del rendimiento</strong> debido al propio trabajo de Misskey.</p>
+<h3 id="el-primer-colapso">El primer colapso</h3>
+<p>Pero luego, esas otras 2 semanas de relativa paz pasaron, y <a href="https://mastodon.uno/@octo/109508472717947364" target="_blank" rel="noopener" >me despierto</a> con el <strong>servidor fallado</strong>, y <strong>muere gravemente</strong> después cualquiera de mis reinicios manuales (desconectar y volver a conectar la fuente de alimentación, es la única forma). <a href="https://mastodon.uno/@octo/109518037875867744" target="_blank" rel="noopener" >Después de 2 días</a> de <strong>investigación muy enojada</strong> no entendía en absoluto cuál era la causa general del problema, sino solo el síntoma más grave, y ahora * estaba casi <strong>a punto de convencerme</strong> de que de alguna manera <em>mística</em> solo Misskey logró derribar todo el servidor, que en cambio volvió a funcionar correctamente sin ese software en particular ejecutándose. Bueno, había algo de lógica en mi razonamiento, dado que en cualquier caso el uso <strong>promedio</strong> de CPU y RAM fue <strong>alto</strong> (incluso si no se saturó por completo).
+En los días siguientes, sin embargo, con <strong>algunas pruebas</strong> descubrí que el servidor no fallaba por el** servidor de microblogging, sino por lo que actúa como una <strong>base de datos</strong>: PostgreSQL (en Docker) . Si ejecutaba Misskey en mi PC, pero dejaba que se conectara a la base de datos de Raspino, a los pocos segundos, con la llegada de tantas notas, el servidor fruity moría.</p>
+<p>A estas alturas, en cualquier caso, tenía clara la necesidad de <strong>instalar algo más</strong>, porque estaba convencido de que Misskey pesaba demasiado, y no importa.
+Durante 2 días <strong>probé Epicyon</strong>, una plataforma que era nada menos que <strong>particular</strong>&hellip; y [la experiencia no fue precisamente agradable](<a href="https://sitoctt.octt.eu.org/Posts/" target="_blank" rel="noopener" >https://sitoctt.octt.eu.org/Posts/</a> 2022-12-26-Epicyon-Piattaforma-del-Fediverso-Durata-2-Giorni.html), pero creo que estaba completo, dado que exprimí cuatro mil palabras en mi artículo dedicado. Inmediatamente después decidí probar otro software que nunca había visto antes, concretamente <a href="https://github.com/superseriousbusiness/gotosocial" target="_blank" rel="noopener" >GoToSocial</a>. Con este último, a pesar de ser declarado calidad alfa (y de hecho tiene algunos problemas), me encontré - porque desgraciadamente ya todo terminó&hellip; Estoy llegando, estoy llegando - muy bien, pero * <em>Ese no es el punto</em> *.</p>
+<h3 id="problemas-cada-vez-más-sospechosos">Problemas cada vez más sospechosos</h3>
+<p>Sólo unos días después, esos extraños <strong>bloqueos</strong> comenzaron a ocurrir nuevamente, pero esta vez definitivamente eran <strong>sospechosos</strong>, porque el <strong>uso general de recursos</strong> del sistema era <strong>bajo</strong>. Intenté leer los <strong>registros del sistema</strong> de manera productiva, pero mi <strong>paciencia</strong> había llegado a <strong>su límite</strong>, y con ella mi lucidez, así que todos los días buscaba el más mínimo error sospechoso pero legible, concentrándome en eso e <strong>ignorando</strong> por completo el error <strong>ilegible</strong> que siempre estaba frente a mí.</p>
+<p>Ahora, simplemente <strong>por desesperación</strong>, pero no porque entendí el razonamiento de que ese era el problema, decido <strong>cambiar</strong> la tarjeta <strong>microSD</strong>, y ahora que lo he hecho ** Me arrepiento** amargamente&hellip; <strong>¡por no haberlo intentado antes</strong>! ¡Ese era el problema, imprudente Maremma!
+Lo bueno es que el día anterior había hecho una comprobación de los sistemas de archivos (ext4), tanto de la tarjeta como de mi HDD USB, y todo había salido (aproximadamente) limpio, por lo que había descartado problemas de hardware a priori: &ldquo;<em>si los archivos no están corruptos&hellip;</em>&rdquo; pensé.
+Casi al mismo tiempo (¡el destino decidió que la ayuda tenía que llegar tarde!), sin embargo, una persona me dio una mano para entender qué carajo decían esas líneas indescifrables, que eran algo así como&hellip;</p>
+<p>.highlight.plaintext: primero de tipo { altura máxima: 80vh; }</p>
+<pre tabindex="0"><code>27 de diciembre 06:32:35 kernel: [27230.964650] INFORMACIÓN: tarea kworker/2:0:21874 bloqueada durante más de 860 segundos.
+27 de diciembre 06:32:35 kernel: [27230.964693] Contaminado: G C 5.15.76-v7+ #1597
+27 de diciembre 06:32:35 kernel: [27230.964709] &#34;echo 0 &gt; /proc/sys/kernel/hung_task_timeout_secs&#34; desactiva este mensaje.
+27 de diciembre 06:32:35 kernel: [27230.964723] tarea:kworker/2:0 estado:D pila: 0 pid:21874 ppid: 2 banderas:0x00000000
+27 de diciembre 06:32:35 kernel: [27230.964760] Cola de trabajo: events_freezable mmc_rescan
+27 de diciembre 06:32:35 kernel: [27230.964801] Seguimiento inverso:
+27 de diciembre 06:32:35 kernel: [27230.964824] [&lt;80a4ff38&gt;] (__schedule) de [&lt;80a50a7c&gt;] (schedule+0x7c/0x134)
+27 de diciembre 06:32:35 kernel: [27230.964868] r10:81f90800 r9:ffffe000 r8:00000000 r7:00000000 r6:60000013 r5:8d368000
+27 de diciembre 06:32:35 kernel: [27230.964884] r4:ffffe000
+27 de diciembre 06:32:35 kernel: [27230.964896] [&lt;80a50a00&gt;] (programación) de [&lt;8083f658&gt;] (__mmc_claim_host+0xe0/0x238)
+27 de diciembre 06:32:35 kernel: [27230.964929] r5:81f90a18 r4:00000002
+27 de diciembre 06:32:35 kernel: [27230.964942] [&lt;8083f578&gt;] (__mmc_claim_host) de [&lt;8083f7e8&gt;] (mmc_get_card+0x38/0x3c)
+27 de diciembre 06:32:35 kernel: [27230.964979] r10:baaf8205 r9:00000000 r8:baaf8200 r7:00000080 r6:baaf4b80 r5:00000000
+27 de diciembre 06:32:35 kernel: [27230.964994] r4:81f91800
+27 de diciembre 06:32:35 kernel: [27230.965007] [&lt;8083f7b0&gt;] (mmc_get_card) de [&lt;80849238&gt;] (mmc_sd_detect+0x24/0x7c)
+27 de diciembre 06:32:35 kernel: [27230.965039] r5:81f90800 r4:81f90800
+27 de diciembre 06:32:35 kernel: [27230.965052] [&lt;80849214&gt;] (mmc_sd_detect) de [&lt;80841ca4&gt;] (mmc_rescan+0xac/0x2d4)
+27 de diciembre 06:32:35 kernel: [27230.965083] r5:81f90800 r4:81f90a7c
+27 de diciembre 06:32:35 kernel: [27230.965096] [&lt;80841bf8&gt;] (mmc_rescan) de [&lt;8013e158&gt;] (process_one_work+0x250/0x57c)
+27 de diciembre 06:32:35 kernel: [27230.965140] r9:00000000 r8:baaf8200 r7:00000080 r6:baaf4b80 r5:8e898f00 r4:81f90a7c
+27 de diciembre 06:32:35 kernel: [27230.965153] [&lt;8013df08&gt;] (process_one_work) de [&lt;8013e4e4&gt;] (worker_thread+0x60/0x5c4)
+27 de diciembre 06:32:35 kernel: [27230.965195] r10:baaf4b80 r9:81003d00 r8:baaf4b98 r7:00000008 r6:baaf4b80 r5:8e898f18
+27 de diciembre 06:32:35 kernel: [27230.965210] r4:8e898f00
+27 de diciembre 06:32:35 kernel: [27230.965223] [&lt;8013e484&gt;] (worker_thread) de [&lt;80146804&gt;] (kthread+0x178/0x194)
+27 de diciembre 06:32:35 kernel: [27230.965264] r10:837c4000 r9:8d3a7e74 r8:00000000 r7:8e898f00 r6:8013e484 r5:8285ee00
+27 de diciembre 06:32:35 kernel: [27230.965279] r4:8d0d3640
+27 de diciembre 06:32:35 kernel: [27230.965291] [&lt;8014668c&gt;] (kthread) de [&lt;801000d4&gt;] (ret_from_fork+0x14/0x20)
+27 de diciembre 06:32:35 kernel: [27230.965321] Pila de excepciones (0x837c5fb0 a 0x837c5ff8)
+27 de diciembre 06:32:35 kernel: [27230.965341] 5fa0: 00000000 00000000 00000000 00000000
+27 de diciembre 06:32:35 kernel: [27230.965363] 5fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+27 de diciembre 06:32:35 kernel: [27230.965383] 5fe0: 00000000 00000000 00000000 00000000 00000013 00000000
+27 de diciembre 06:32:35 kernel: [27230.965405] r10:00000000 r9:00000000 r8:00000000 r7:00000000 r6:00000000 r5:8014668c
+27 de diciembre 06:32:35 kernel: [27230.965420] r4:8285ee00
+</code></pre><p><strong>Cada vez</strong> que ocurría un error como este, todo el <strong>sistema moría</strong> gravemente: <strong>enfermedades</strong> de los pequeños bots, <strong>muerte</strong> del servidor HTTP (nginx), <strong>lesiones</strong> a mi artículo y a los agregadores de feeds (wallabag y FreshRSS), <strong>hola para siempre</strong> a cualquier cosa que me permita abrir una consola a través de Internet en Rasperino (SSH, Telnet e incluso un servidor organizado con netcat). Lo único que siguió funcionando es <strong>escupir constantemente</strong> este tipo exacto de <strong>errores</strong> en el archivo de registro.
+Ahora, sé que soy un monje fuerte, pero con todos estos números extraños involucrados, ¡no podía ver palabras como <code>mmc_get_card</code> o <code>mmc_sd_detect</code>! Y entonces realmente no entendía que tal vez, <em>sólo tal vez</em>, la <strong>microSD</strong> <em>cagona</em> que había elegido para Raspi a principios de septiembre (entre las que hay gratis en casa), cuando volví a poner a funcionar este pobre computador como servidor, estaba <strong>tendiendo hacia la muerte</strong>.</p>
+<p><img alt="La tarjeta microSD que poco a poco logró volverme loco. Tenga en cuenta la ausencia de marcas." src="http://http.sitoctt-assets.octt.eu.org/public/Media/Misc/microSD-8GB-Generic.webp"></p>
+<p>No quiero tener que recurrir a <strong>clichés</strong>, pero esta vez <strong>¡es poco lo que se puede hacer</strong>! Quiero decir, la foto habla por sí sola:</p>
+<blockquote>
+<p><em>La presencia de una marca reconocida no es garantía de calidad, pero la ausencia de una marca es ciertamente una promesa de calidad ausente.</em></p>
+</blockquote>
+<p>Aunque en la PC la *<em>vieja tarjeta basura todavía parece <strong>funcionar</strong> - pude confirmar esto porque al menos pude hacer un volcado de datos - no quiero tener que lidiar más con eso</em> * ¡para cosas de este tipo! Por lo tanto, lo noto mentalmente como &ldquo;mal&rdquo;.
+Luego se <strong>desperdició</strong> aún más <strong>tiempo</strong> al actualizar el volcado en una nueva tarjeta, dado que las únicas otras dos tarjetas que tenía disponibles en ese momento eran de 4 y 32 GB respectivamente, y realmente quería encajar ( después de borrar varios logs y cachés, porque la memoria anterior era de 8 GB) todo en la de 4 GB, pero nada que hacer; y al final fueron 32 GB.</p>
+<h2 id="paz-violada">Paz violada</h2>
+<p>Lo importante es que, <strong>ponga la nueva SD</strong> en el <em>servidor raspberry</em>, esos terroríficos errores ya no ocurrieron, y los grandes <strong>problemas</strong> han <strong>desaparecido</strong>&hellip; o eso <strong>pensé, Quería, esperaba</strong>.
+Si este artículo, que literalmente debería haberse publicado a finales del año pasado, se publica ahora, hay razones para ello. Inmediatamente después de cambiar la tarjeta SD, <strong>preferí esperar</strong> unos días, para ver si realmente las cosas se habían calmado y no cantar victoria demasiado pronto. <strong>¡Lo hice bien!</strong></p>
+<h3 id="el-disco-sufriente">El disco sufriente</h3>
+<p>Desgraciadamente, de hecho, esas otras cosas vistas en los últimos días en los registros <strong>no eran</strong> enormes <strong>agujeros en el agua</strong> (<em>todavía problemáticos</em>), en particular los <strong>errores</strong> que reconocí de inmediato. el <strong>disco USB</strong>.
+Esto es algo que ya me pasó en el pasado con otro adaptador USB para discos SATA de 2,5&quot;, incluso en máquinas diferentes (en la época en la que usaba mi consola Nintendo Switch como servidor&hellip;), pero con este que Lo uso ahora, <strong>nunca ha habido ningún problema</strong> y, sin embargo, ahora, hasta donde puedo ver, se <strong>desconecta</strong> del host <strong>al azar</strong>, <strong>matando</strong> todos esos **procesos. **. que dependen de los archivos que hay en ese disco, como de la nada hay momentos en los que no le llega suficiente energía con cualquier combinación de adaptadores SATA y cables USB (tanto cortos como largos), <strong>. el disco todavía funciona</strong> muy bien <strong>en PC</strong>, así que <strong>el problema</strong> es claramente <strong>el Raspino</strong>&hellip; ¡pero descubre por qué!</p>
+<p>Me dicen que **los <strong>puertos USB-A</strong> del Raspi son naturalmente asquerosos<sup>[<em>cita requerida (?)</em>]</sup>, pero la cuestión es que hasta hace poco <strong>funcionó</strong> (los 4)! ¿Se ha roto un diodo en mi fuente de alimentación? ¿Que en la placa de este maldito ordenador de placa única ha explotado un condensador? ¿Que la electricidad en mi casa ya no es de 230V, sino de 229V, y por tanto el transformador en lugar de dar 5 voltios en salida da 4,98? <strong>&hellip;Pero ¿qué sé yo?</strong>
+Volviendo al mundo real, la única hipótesis sensata me parece ésta: introduciendo y desconectando el conector de alimentación en su puerto (micro USB-B 2.0, <em>¡¡que mierda!!!</em>), los pines de un lado o del las almohadillas del otro se habrán desgastado, por lo que su superficie de contacto es menor, por lo que la resistencia eléctrica es mayor, y por lo tanto el dispositivo se alimenta con un voltaje ligeramente menor, y cuando un periférico necesita absorber mucho, ya está <em>i patatrac</em>.</p>
+<h3 id="para-intentar-resolver">Para intentar resolver</h3>
+<p>Al no tener otro <em>Raspone</em> como este, y al no tener otras fuentes de alimentación de 5V 3A, nunca descubriré la verdad, pero de alguna manera tengo que encontrar la solución.
+Después de <strong>esperar tanto</strong> que los <strong>problemas</strong> del servidor solo se han hecho más grandes y el <strong>tiempo de inactividad</strong> mucho <strong>más frecuente</strong>, decido *<em>comprar un cable USB-A-Y</em> *. En el peor de los casos, aunque no hayas solucionado el problema, siempre es conveniente tener un cable de este tipo porque, aunque <strong>viola los estándares USB</strong> <sup id="fnref1"><a href="#fn1 ">1</a >&gt;sup&gt;- algunos dispositivos causan muchos problemas sin él, y algunos fabricantes de periféricos <em>mierda</em> incluso recomiendan usar cables de este tipo en caso de problemas (y aun así proceden a <strong>no</strong> incluye uno en el paquete, ¡indecente!) .</p>
+<p><strong>Una vez que llega el cable</strong>, organizo todas las conexiones y noto una cosa en particular: <strong>la corriente</strong> que viene de la segunda fuente de alimentación USB para alimentar el disco, <strong>puede</strong> viajar por el cable hasta * <em>reingresando al Pi</em>*. El problema no es tanto el <strong>cable</strong>, que funciona y <strong>respeta</strong> todas las <strong>leyes de la física</strong> (aunque no las del estándar USB), sino más bien el hecho de que la Raspberry no lo hace. Incluso tengo, no lo sé, diodos en los puertos USB-A. Y es un problema que no estoy descubriendo, solo lee <a href="https://forums.raspberrypi.com/viewtopic.php?t=44584" target="_blank" rel="noopener" >en el foro oficial</a>. En cualquier caso, para tener un circuito configurado así:</p>
+<ul>
+<li><strong>Riesgos</strong> para la instrumentación o el entorno circundante <strong>no hay ninguno</strong>, si se utilizan fuentes de alimentación adecuadas aguas arriba, y la mía <em>debería</em> ser<sup id="fnref2"><a href="# fn2"> 2</a></sup>;</li>
+<li><strong>Problemas prácticos</strong> <strong>los hay, pero también soluciones</strong> y arreglos: Podría, como se sugiere en el foro, aplicar cinta aislante en el pad de +5V del conector USB que va al Raspantino; pero por ahora no ha habido una necesidad real, lo único a lo que tengo que prestar atención es a que las cosas se enciendan en este orden, esas pocas veces en las que me encuentro teniendo que hacer un reinicio completo del sistema:</li>
+</ul>
+<ol>
+<li>USB <strong>Disco</strong> (conectado al puerto del cable Y);</li>
+<li><strong>Raspi</strong> (desde su puerto de alimentación);</li>
+<li>Después de esperar al menos ~10 segundos, <strong>disco</strong> conectado a la Raspberry (conector de datos del cable Y conectado a la Raspberry).</li>
+</ol>
+<p>No sé por qué, especialmente considerando que no es necesario para reinicios suaves, pero sin este procedimiento el arranque puede fallar.</p>
+<h2 id="finalmente-descansa">Finalmente, descansa</h2>
+<p>Al final, sin embargo, todo el infierno parece haber terminado y el servidor ahora funciona.
+Sin embargo, las llamas causaron algunos daños: las <strong>bases de datos</strong> de muchos de mis servicios alojados quedaron <strong>corrompidas</strong>, y de 2 en particular (GoToSocial, que mencioné antes, y Peka, un chatbot basado en una cadena de Markov) <strong>Tengo copias de seguridad que son demasiado antiguas</strong> (de hace semanas) porque, con el servidor muriendo, mis scripts de copia de seguridad nunca pudieron funcionar&hellip; y por lo tanto <strong>estos programas</strong> todavía están **fuera de línea ahora **, porque <strong>todavía no</strong> he tenido <strong>la fuerza para resignarme</strong> a restaurar las copias de seguridad antiguas.
+Pero <strong>compro el cable un poco antes</strong> y apago el servidor mientras espero, <strong>no realmente, ¿eh?</strong></p>
+<p><strong>Esperando</strong> que cosas como esta no vuelvan a suceder en el futuro cercano, de lo contrario <strong>me volveré total e irremediablemente loco</strong> debido a estos malditos problemas de hardware, te saludo y espero que nunca tengas que <em>maldita sea</em> tanto como lo hago yo. 😔</p>
+<h2 id="heading"></h2>
+<hr>
+<ol>
+<li>También fue una sorpresa para mí, pero <strong>el estándar USB prohíbe los cables Y</strong>: consulte la <a href="https://compliance.usb.org/index.asp?UpdateFile=Policies#72" target="_blank" rel="noopener" >Actualización 72</a>; traducido al italiano,</li>
+</ol>
+<blockquote>
+<p><em>Está prohibido el uso de un cable &ldquo;Y&rdquo; (un cable con dos conectores A) en cualquier dispositivo USB. Si un dispositivo USB requiere más energía de la que permite la especificación USB para la que fue diseñado, debe ser autoalimentado.</em></p>
+</blockquote>
+<p>Bueno, que bonitas son las reglas, pero luego llega la realidad y piensa un poco diferente. Todo <strong>el mundo real usa cables Y</strong> sin preocuparse demasiado. <a href="#fnref1">↩</a></p>
+<ol start="2">
+<li>(Ambos <strong>5V</strong>)</li>
+</ol>
+<ul>
+<li>Para <strong>Pi</strong>, una fuente de alimentación <strong>3A</strong> (justo encima [la sugerida por la Fundación Raspberry](<a href="https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/" target="_blank" rel="noopener" >https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/</a> computadoras/raspberry -pi/power-supplies.adoc)) que se incluyó en un kit (excluyendo computadora) de accesorios para Raspante, de <strong>Aukru</strong>. Oh, bueno, después de años no explotó, entonces las críticas fueron buenas de todos modos, y aún así esta marca vende fuentes de alimentación nuevas, así que está bien&hellip;</li>
+<li>Para potencia <strong>adicional</strong>, un bloque <strong>1A</strong> que venía incluido en el paquete de mi antiguo teléfono <strong>Huawei</strong> de gama baja (también comercializado en Europa), del 2017.</li>
+</ul>
+<p> <a href="#fnref2">↩</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Qué hay en este blog</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#las-grietas-iniciales">Las grietas iniciales</a>
+      <ul>
+        <li><a href="#el-primer-colapso">El primer colapso</a></li>
+        <li><a href="#problemas-cada-vez-más-sospechosos">Problemas cada vez más sospechosos</a></li>
+      </ul>
+    </li>
+    <li><a href="#paz-violada">Paz violada</a>
+      <ul>
+        <li><a href="#el-disco-sufriente">El disco sufriente</a></li>
+        <li><a href="#para-intentar-resolver">Para intentar resolver</a></li>
+      </ul>
+    </li>
+    <li><a href="#finalmente-descansa">Finalmente, descansa</a></li>
+    <li><a href="#heading"></a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+    
+
+
+
+
+<iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=http%3a%2f%2fhttp.sitoctt.octt.eu.org%2f&pageSlug=%2fes%2fblog%2f2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
+
+
+  </article>
+
+    </main>
+    
+  <img src="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p=%2fes%2fblog%2f2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino%2f"
+       onerror="this.src='https://sitoctt.goatcounter.com/count?p=\/es\/blog\/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino\/'"
+       class="OctolyticsPixel" decoding="async" />
+
+
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707;">⬆️</a>
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/es/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="10-site"><h4>About this site</h4>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://sitoctt.octt.eu.org/sitoctt-offline.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="20-me"><h4>Myself and my essence</h4>
+  <a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="30-thanks"><h4>Made thanks to</h4>
+  <a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" decoding="async" />
+
+
+  <a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" decoding="async" />
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="50-fun"><h4>Other things</h4></div><div>
+
+
+  <a href="https://archive.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.wikipedia.org" rel="nofollow" target="" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.mozilla.org/it/firefox" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.torproject.org/it" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://ublockorigin.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+
+  <a href="https://kernel.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.onworks.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.haiku-os.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://jointhefediverse.net" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://matrix.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://www.vocaloid.com" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+</div><div>
+
+
+  <a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <a href="https://www.defectivebydesign.org" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <a href="https://fmhy.pages.dev" rel="nofollow" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" decoding="async" />
+
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" decoding="async" />
+
+
+
+
+  <img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" decoding="async" />
+
+
+
+</div>
+</div>
+</footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://http.sitoctt.octt.eu.org/es/"
+  style="word-break:break-word; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Buscar... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+
+  </body>
+</html>

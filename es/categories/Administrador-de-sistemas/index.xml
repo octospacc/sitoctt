@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administrador De Sistemas on ✨sitoctt✨</title>
+    <link>http://http.sitoctt.octt.eu.org/es/categories/Administrador-de-sistemas/</link>
+    <description>Recent content in Administrador De Sistemas on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://http.sitoctt.octt.eu.org/es/categories/Administrador-de-sistemas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino)</title>
+      <link>http://http.sitoctt.octt.eu.org/es/blog/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/blog/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;Hasta ahora, hace 2 meses, mi reino de Rasperino estaba en su máximo esplendor: la instancia de Misskey, creada apenas 2 semanas antes, iba muy bien, y a estas alturas (casi ) todo parecía destinado a seguir bien&amp;hellip; Y en cambio, surgieron problemas.</description>
+    </item>
+    <item>
+      <title>🌐️ ¿Cómo y por qué sitectt en Tor?</title>
+      <link>http://http.sitoctt.octt.eu.org/es/blog/2022-06-03-%EF%B8%8F-C%C3%B3mo-y-por-qu%C3%A9-sitectt-en-Tor/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/blog/2022-06-03-%EF%B8%8F-C%C3%B3mo-y-por-qu%C3%A9-sitectt-en-Tor/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;En los últimos días he resuelto las primeras cuestiones relativas a la disponibilidad del sitio en la red Tor. Hay quienes me llamarán exagerado por siquiera tener la idea de hacer algo como esto, pero es poco lo que se puede hacer.</description>
+    </item>
+  </channel>
+</rss>

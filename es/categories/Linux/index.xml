@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on ✨sitoctt✨</title>
+    <link>http://http.sitoctt.octt.eu.org/es/categories/Linux/</link>
+    <description>Recent content in Linux on ✨sitoctt✨</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://http.sitoctt.octt.eu.org/es/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌽 Compile e instale el kernel de Linux desde el código fuente</title>
+      <link>http://http.sitoctt.octt.eu.org/es/note/2024-09-01-Compile-e-instale-el-kernel-de-Linux-desde-el-c%C3%B3digo-fuente/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/note/2024-09-01-Compile-e-instale-el-kernel-de-Linux-desde-el-c%C3%B3digo-fuente/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;No es frecuente que se nos ocurran nuevas ideas, pero cuando lo hacen, siempre tienen la dosis justa de extrañeza&amp;hellip; Sin divagar mucho, es precisamente por este desarrollo de las cosas que hace años, por primera vez, Me encontré compilando el kernel de Linux desde el código fuente (en una Raspberry Pi 3, entre otras cosas, lo que en retrospectiva no recomendaría) y ahora, precisamente ayer, otra vez, después de años (esta vez en la PC, afortunadamente), para un final que no estropearé.</description>
+    </item>
+  </channel>
+</rss>
