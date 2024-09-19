@@ -16,8 +16,7 @@ Dans tous les cas, nous parlons d'un jeu capable de donner un grand sentiment de
 <cite>De <a href="https://youtu.be/2N1TJP1cxmo">YouTube/2N1TJP1cxmo</a>.</cite>
 -->
 
-<video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Hauteur:Calc(80vw / 16 * 9);"></video>  
-<cite>De <a href="https://youtu.be/2N1TJP1cxmo">YouTube/2N1TJP1cxmo</a>.</cite>
+{{< embed 2N1TJP1cxmo youtube "16:9" >}}
 
 La meilleure façon de décrire **Mirror's Edge** est de dire que c'est un jeu en mouvement constant. Littéralement debout au bord du miroir, les bords de l'énorme verre dont sont faits les bâtiments de La Città, on court et saute sans aucun frein.
 

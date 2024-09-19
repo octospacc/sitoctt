@@ -12,7 +12,7 @@ Puzzle game very particular in its simplicity where, as the game difficulty incr
 ## Tetris Effect
 
 Tetris effect adds ambient atmospheres to Tetris with many different themes. Visual and sound effects work to enhance each other, and allow for total immersion, even in a game that remains simply made of falling cubes. Hundreds of thousands of particles everywhere, shapes, colors, attractive music, this is its formula. It has some flaws, such as being particularly heavy for a Tetris and having controls that aren't terribly responsive, but that doesn't mean it should be thrown away. It remains to enjoy.  
-<br/>[:YouTubeEmbedOpen169:]PFVL6t8IHE8[:YouTubeEmbedClose:]  
-<cite>From <a href="https://youtu.be/PFVL6t8IHE8">YouTube/PFVL6t8IHE8</a>.</cite>
+
+{{< embed PFVL6t8IHE8 youtube "16:9" >}}
 
 _Under construction..._

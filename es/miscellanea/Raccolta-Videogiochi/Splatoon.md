@@ -10,4 +10,6 @@ Un shooter en tercera persona que decir que es diferente de los demás es quedar
 Jugar en Mollusc Melee (así se llaman las batallas online 4 contra 4) es divertido, pero la profundidad del juego y la inventiva del equipo de desarrollo se pueden ver en el modo historia.  
 	• Splatoon 3: Obtener: <https://go.octt.eu.org/$8e62cec12c93>
 
+{{< embed kQsZPYB0vMw youtube "16:9" >}}
+
 _Bajo construcción..._

@@ -10,4 +10,6 @@ Third person shooter which to say is different from the others is an understatem
 Playing in Mollusc Melee (this is the name of the 4-on-4 online battles) is fun, but the depth of the game and the inventiveness of the development team can be seen in story mode.  
 	• Splatoon 3: Get: <https://go.octt.eu.org/$8e62cec12c93>
 
+{{< embed kQsZPYB0vMw youtube "16:9" >}}
+
 _Under construction..._

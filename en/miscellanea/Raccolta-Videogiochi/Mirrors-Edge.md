@@ -16,8 +16,7 @@ In any case, we are talking about a game capable of giving a great sense of free
 <cite>From <a href="https://youtu.be/2N1TJP1cxmo">YouTube/2N1TJP1cxmo</a>.</cite>
 -->
 
-<video frameBorder="0" src="[:YouTube360:]2N1TJP1cxmo" style="Height:Calc(80vw / 16 * 9);"></video>  
-<cite>From <a href="https://youtu.be/2N1TJP1cxmo">YouTube/2N1TJP1cxmo</a>.</cite>
+{{< embed 2N1TJP1cxmo youtube "16:9" >}}
 
 The best way to describe **Mirror's Edge** is to say that it's a game in constant motion. Literally standing on the edge of the mirror, the edges of the enormous glass of which the buildings of La Città are made, one runs and jumps without any brakes.
 

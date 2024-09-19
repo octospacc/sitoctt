@@ -12,7 +12,7 @@ Jeu de réflexion très particulier par sa simplicité où, à mesure que la dif
 ## Effet Tetris
 
 L'effet Tetris ajoute des atmosphères ambiantes à Tetris avec de nombreux thèmes différents. Les effets visuels et sonores se complètent mutuellement et permettent une immersion totale, même dans un jeu qui reste simplement constitué de cubes qui tombent. Des centaines de milliers de particules partout, des formes, des couleurs, une musique attractive, telle est sa formule. Il présente quelques défauts, comme être particulièrement lourd pour un Tetris et avoir des commandes qui ne sont pas très réactives, mais cela ne veut pas dire qu'il doit être jeté. Reste à en profiter.  
-<br/>[:YouTubeEmbedOpen169:]PFVL6t8IHE8[:YouTubeEmbedClose:]  
-<cite>De <a href="https://youtu.be/PFVL6t8IHE8">YouTube/PFVL6t8IHE8</a>.</cite>
+
+{{< embed PFVL6t8IHE8 youtube "16:9" >}}
 
 _En cours de construction..._
