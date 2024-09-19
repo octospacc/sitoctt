@@ -9,6 +9,6 @@ sh "${swd}/Produce.sh"
 mv ./build/public ./dist
 
 sh "${swd}/Package.sh"
-mv ./build/public/offline.zip ./dist/
+mv ./build/public/sitoctt-offline.zip ./dist/
 
 cd "${owd}"

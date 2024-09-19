@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 DestinationLanguages = ["it", "en", "es", "fr"] # "de", "eo"
 IncludePaths = ["/"]
-ExcludePaths = ["/categories"] # "/miscellanea"
+ExcludePaths = ["/categories", "/note/2024-09-19-Raspberry-Output-Audio-Both.md"] # "/miscellanea"
 
 import subprocess
 from os import getcwd, listdir
