@@ -3,8 +3,7 @@ Title = "💰 Dons"
 Alias = [
   "/Donations.html",
 ]
-#Index: True
-#Order: 45
+Categories = [ "Méta" ]
 Lastmod = 2022-11-12
 +++
 
@@ -36,7 +35,7 @@ Gardez à l'esprit que le minage ne m'intéresse plus depuis un moment, donc je 
 
 ## Faites un don via des cartes cadeaux
 
-À mon avis, un autre bon moyen d’échanger de l’argent sur Internet consiste à utiliser des cartes-cadeaux.
+À mon avis, un autre bon moyen d’échanger de l’argent via Internet consiste à utiliser des cartes-cadeaux.
 
 J'accepte actuellement les cartes-cadeaux pour ces magasins :
 

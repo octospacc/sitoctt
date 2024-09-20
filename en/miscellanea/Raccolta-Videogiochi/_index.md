@@ -5,7 +5,7 @@ Aliases = [
 ]
 Categories = [ "Gaming" ]
 #Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Videogame-Collection.css";
-Lastmod = 2023-02-01
+Lastmod = 2024-09-20
 PagerSize = -1
 +++
 
@@ -52,4 +52,6 @@ I prefer to have this subsection to mention games that, although I liked them en
 _Titles that have only one of these two characteristics may also be found in sections above._
 -->
 
-It may be that I don't have the time, or maybe I don't want to, or maybe it's Antani's fault, but in any case there would be several other works that I haven't yet mentioned here. Perhaps you can easily find many of them on **OcttKB** anyway, under the tag [Gaming](https://kb.octt.eu.org/#Gaming).
+~~It may be that I don't have the time, or maybe I don't want to, or maybe it's Antani's fault, but in any case there would be several other works that I haven't yet mentioned here. Perhaps you can find many of them easily on **OcttKB** anyway, under the tag [Gaming](https://kb.octt.eu.org/#Gaming).~~
+
+There are also many other games, retro and modern, which I haven't explored in detail here (or haven't included at all), but they are available (with some encyclopedic information to accompany them) to be **played in the browser** on my site dedicated to gaming , **Sala Museo Games**: <https://gamingshitposting.github.io/SalaMuseoGames>!

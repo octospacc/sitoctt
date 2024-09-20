@@ -5,7 +5,7 @@ Aliases = [
 ]
 Categories = [ "Jeux" ]
 #Style = @import "[staticoso:Site:RelativeRoot]Assets/Pages/Videogame-Collection.css";
-Lastmod = 2023-02-01
+Lastmod = 2024-09-20
 PagerSize = -1
 +++
 
@@ -16,7 +16,7 @@ PagerSize = -1
 Pourquoi ne pas faire un recueil pour parler, brièvement, des jeux vidéo que j'apprécie ? <!-- (Par ordre alphabétique) -->  
 Peut-être réussir à mettre en lumière une expérience de jeu à moitié méconnue qui mériterait pourtant bien plus. Et il ne peut être exclu qu'à l'avenir, en trouvant l'inspiration, je puisse prendre et écrire des articles longs et approfondis sur certains des jeux que je loue toujours brièvement ici, pour commencer.
 
-Pour chaque jeu, en plus d'une courte revue ponctuée de quelques avis, j'essaierai également d'inclure du matériel multimédia (photos, vidéos et musique). Enfin, lorsque cela sera possible, il y aura (via une page d'entracte/redirection) des liens d'achat physique et de téléchargement.  
+Pour chaque jeu, en plus d'une courte revue agrémentée de quelques avis, j'essaierai également d'inclure du matériel multimédia (photos, vidéos et musique). Enfin, lorsque cela sera possible, il y aura (via une page d'entracte/redirection) des liens d'achat physique et de téléchargement.  
 <!--
 Les liens externes qui ne sont pas officiels mais **précédés d'une coche verte** (<span class="twa twa-✅">✅</span>) **ont** été personnellement **vérifiés** par mes soins, les deux sont aussi sûrs que ceux qui fonctionnent - ceux non marqués ne sont pas vérifiés, mais pointent toujours vers une source fiable connue.
 --->
@@ -52,4 +52,6 @@ Je préfère avoir cette sous-section pour mentionner des jeux qui, même si je 
 _Les titres qui n'ont qu'une seule de ces deux caractéristiques peuvent également être trouvés dans les sections ci-dessus._
 -->
 
-Il se peut que je n'aie pas le temps, ou que je n'aie pas envie, ou que ce soit la faute d'Antani, mais en tout cas il y aurait plusieurs autres travaux que je n'ai pas encore évoqués ici. Peut-être pouvez-vous facilement en trouver beaucoup sur **OcttKB**, sous la balise [Gaming](https://kb.octt.eu.org/#Gaming).
+~~C'est peut-être que je n'ai pas le temps, ou peut-être que je n'ai pas envie, ou peut-être que c'est la faute d'Antani, mais en tout cas il y aurait plusieurs autres travaux que je n'ai pas encore évoqués ici. Peut-être pouvez-vous en trouver beaucoup facilement sur **OcttKB**, sous la balise [Gaming](https://kb.octt.eu.org/#Gaming).~~
+
+Il existe également de nombreux autres jeux, rétro et modernes, que je n'ai pas explorés en détail ici (ou que je n'ai pas inclus du tout), mais ils sont disponibles (avec quelques informations encyclopédiques pour les accompagner) pour être **joués dans le navigateur** sur mon site dédié au gaming , **Sala Museo Games** : <https://gamingshitposting.github.io/SalaMuseoGames> !
