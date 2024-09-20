@@ -26,12 +26,15 @@ New.innerHTML = `
 	z-index: 4;
 }
 .Minesweeper > iframe {
-	width: 100%;
+	width: 100vw;
 	max-height: none !important;
 	border: none;
+	position: relative;
+	left: -8px;
 }
 .Minesweeper.Locker {
 	position: absolute;
+	width: inherit;
 }
 `;
 document.body.appendChild(New);
@@ -95,7 +98,7 @@ document.querySelectorAll('.Minesweeper').forEach(function(Container){
 			var Margin = MineSquareSize * 2;
 			// LR padding to prevent content spilling
 			LockedEl.style['padding-left'] = `${~~FromStyle['padding-left'].split('px')[0] + 16}px`;
-			LockedEl.style['padding-right'] = `${~~FromStyle['padding-right'].split('px')[0] + 16}px`;
+			LockedEl.style['padding-right'] = `${~~FromStyle['padding-right'].split('px')[0] + 16 + 32}px`;
 			// Ensure game is tall enough and doesn't cover more than needed content
 			Frame.style.height = `${~~FromStyle.height.split('px')[0] + (MineSquareSize * 3.5)}px`;
 			LockedEl.style['margin-top'] = `${Margin}px`;

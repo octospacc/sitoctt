@@ -28,6 +28,19 @@
                 href="http://http.sitoctt.octt.eu.org/it/categories/"
                 />
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Gaming/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Gaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Gaming/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Linux/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -295,19 +308,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/blog/2024-04-07-LIBERTY-WINGS-un-Breve-RPG-sulla-Libert%C3%A0-Recensione/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Gaming/</loc>
-    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Gaming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Gaming/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Recensioni/</loc>
