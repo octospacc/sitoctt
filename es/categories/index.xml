@@ -6,8 +6,15 @@
     <description>Recent content in Categories on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Juegos</title>
+      <link>http://http.sitoctt.octt.eu.org/es/categories/Juegos/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/categories/Juegos/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux</title>
       <link>http://http.sitoctt.octt.eu.org/es/categories/Linux/</link>
@@ -23,10 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Juegos</title>
-      <link>http://http.sitoctt.octt.eu.org/es/categories/Juegos/</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/es/categories/Juegos/</guid>
+      <title>Meta</title>
+      <link>http://http.sitoctt.octt.eu.org/es/categories/Meta/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/categories/Meta/</guid>
       <description></description>
     </item>
     <item>
@@ -53,7 +60,7 @@
     <item>
       <title>Administrador De Sistemas</title>
       <link>http://http.sitoctt.octt.eu.org/es/categories/Administrador-de-sistemas/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/es/categories/Administrador-de-sistemas/</guid>
       <description></description>
     </item>
@@ -62,13 +69,6 @@
       <link>http://http.sitoctt.octt.eu.org/es/categories/Rasperino/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/es/categories/Rasperino/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meta</title>
-      <link>http://http.sitoctt.octt.eu.org/es/categories/Meta/</link>
-      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/es/categories/Meta/</guid>
       <description></description>
     </item>
     <item>

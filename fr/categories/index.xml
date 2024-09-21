@@ -6,8 +6,15 @@
     <description>Recent content in Categories on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jeux</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux</title>
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Linux/</link>
@@ -23,17 +30,17 @@
       <description></description>
     </item>
     <item>
+      <title>Méta</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/categories/M%C3%A9ta/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/categories/M%C3%A9ta/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Critiques</title>
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Critiques/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/fr/categories/Critiques/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jeux</title>
-      <link>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</guid>
       <description></description>
     </item>
     <item>
@@ -53,7 +60,7 @@
     <item>
       <title>Administrateur Système</title>
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Administrateur-syst%C3%A8me/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/fr/categories/Administrateur-syst%C3%A8me/</guid>
       <description></description>
     </item>

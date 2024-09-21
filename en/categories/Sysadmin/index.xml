@@ -6,8 +6,15 @@
     <description>Recent content in Sysadmin on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🥴 Ugly interface? Files all destroyed!</title>
+      <link>http://http.sitoctt.octt.eu.org/en/blog/2023-03-18-Ugly-interface-Files-all-destroyed/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/blog/2023-03-18-Ugly-interface-Files-all-destroyed/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Let&amp;rsquo;s visually compare two PC applications: GNOME Disks, and GParted.&#xA;Both are disk partitioning tools, and broadly serve the same tasks; there is just some difference in extra features or more support in favor of one program or the other. Despite this, the two tools present obvious differences in their graphical interface.</description>
+    </item>
     <item>
       <title>🤯 When hardware problems become mental (damn Raspino)</title>
       <link>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</link>

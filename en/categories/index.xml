@@ -6,8 +6,15 @@
     <description>Recent content in Categories on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming</title>
+      <link>http://http.sitoctt.octt.eu.org/en/categories/Gaming/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/categories/Gaming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux</title>
       <link>http://http.sitoctt.octt.eu.org/en/categories/Linux/</link>
@@ -23,10 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Gaming</title>
-      <link>http://http.sitoctt.octt.eu.org/en/categories/Gaming/</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/categories/Gaming/</guid>
+      <title>Meta</title>
+      <link>http://http.sitoctt.octt.eu.org/en/categories/Meta/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/categories/Meta/</guid>
       <description></description>
     </item>
     <item>
@@ -51,17 +58,17 @@
       <description></description>
     </item>
     <item>
+      <title>Sysadmin</title>
+      <link>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Rasperino</title>
       <link>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sysadmin</title>
-      <link>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</guid>
       <description></description>
     </item>
     <item>
