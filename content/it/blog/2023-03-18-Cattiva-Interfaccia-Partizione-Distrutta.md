@@ -157,10 +157,10 @@ _**P.S:** La distribuzione Linux che ho installato a 'sto giro è [Pop!\_OS](htt
 
 ---
 
-1.  Il sistema che ho tenuto fino a quel momento, Linux Mint, versione 19.3, dopo 3 anni:
+1. <span id="fn1"></span>  Il sistema che ho tenuto fino a quel momento, Linux Mint, versione 19.3, dopo 3 anni:
     
     <dl><dt><strong>È diventato vecchio:</strong></dt><dd>La versione 19.3 è discontinuata, e le repository non ricevono più nuovi software. Dunque, avrei dovuto aggiornare alla corrente versione di Mint, ma a quanto pare <strong>avrei dovuto comunque</strong> farlo reinstallando <strong>da zero</strong> (su <code class="prettyprint">apt dist-upgrade</code> non ci sono nuovi aggiornamenti)</dd><dt><strong>Si è spaccato:</strong></dt><dd>Alcune cose (come i driver video saltati, e l'ambiente desktop che parte solo in modalità fallback) sono sicuramente colpa mia (<em>ho cringiato</em> con i driver <a href="https://en.wikipedia.org/wiki/Nvidia#:%7E:text=Nvidia" rel="noopener nofollow" target="_blank">ACCIDIA</a> nelle scorse settimane), ma altre (il Bluetooth che non funziona più!?) direi di no :/. In ogni caso, <strong>quando il sistema è così spaccato, si fa prima a reinstallare tutto</strong>...</dd></dl>
     
      [↩](#fnref1)
     
-2.  Io magari si, son cretina, ma non fino al punto di andarmi ad impostare volontariamente le partizioni con una struttura per me aliena. Al tempo, molto banalmente, feci l'installazione di Linux Mint con le impostazioni guidate predefinite. Tutte le volte in cui installando Linux ho usato il partizionamento manuale, anziché scegliere di cancellare tutto il disco e far decidere le cose al programma di installazione, ho invece sempre creato partizioni normali. Quindi... **non date la colpa a me**, [kthx](https://en.m.wiktionary.org/wiki/kthx#:%7E:text=\(Internet%20slang\)%20Abbreviation%20of%20okay%2C%20thanks.)? [↩](#fnref2)
+2. <span id="fn2"></span>  Io magari si, son cretina, ma non fino al punto di andarmi ad impostare volontariamente le partizioni con una struttura per me aliena. Al tempo, molto banalmente, feci l'installazione di Linux Mint con le impostazioni guidate predefinite. Tutte le volte in cui installando Linux ho usato il partizionamento manuale, anziché scegliere di cancellare tutto il disco e far decidere le cose al programma di installazione, ho invece sempre creato partizioni normali. Quindi... **non date la colpa a me**, [kthx](https://en.m.wiktionary.org/wiki/kthx#:%7E:text=\(Internet%20slang\)%20Abbreviation%20of%20okay%2C%20thanks.)? [↩](#fnref2)

@@ -118,4 +118,4 @@ C'è fin troppo di cui parlare a proposito, come al solito, quindi tutto ciò sa
 
 ---
 
-1.  Una **revisione hardware silenziosa** ha introdotto una versione riprogettata del SoC _NVIDIA Tegra X1_, con un processo produttivo più compatto, che funziona in modo quasi identico all'originale, ma **richiede meno energia**, quindi ne disperde meno, e quindi **scalda di meno**: [https://wiki.wiidatabase.de/wiki/Mariko](https://wiki.wiidatabase.de/wiki/Mariko). [↩](#fnref1)
+1. <span id="fn1"></span>  Una **revisione hardware silenziosa** ha introdotto una versione riprogettata del SoC _NVIDIA Tegra X1_, con un processo produttivo più compatto, che funziona in modo quasi identico all'originale, ma **richiede meno energia**, quindi ne disperde meno, e quindi **scalda di meno**: [https://wiki.wiidatabase.de/wiki/Mariko](https://wiki.wiidatabase.de/wiki/Mariko). [↩](#fnref1)

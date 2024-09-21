@@ -75,4 +75,4 @@ In vera fine, ecco le risorse aggiuntive per questo articolo:
 
 ---
 
-1.  Su questo riscontro opinioni contrastanti o consigli non troppo chiari, quindi attenzione: non si capisce se questi adattatori funzionino anche come normali memory card per i salvataggi dei giochi (e dunque anche possibilmente come scheda per FMCB), oppure solo come memoria esterna per homebrew come OPL... in ogni caso sarebbe un acquisto potenzialmente valido, considerando le inconvenienze tecniche della USB su PS2. [↩](#fnref1)
+1. <span id="fn1"></span>  Su questo riscontro opinioni contrastanti o consigli non troppo chiari, quindi attenzione: non si capisce se questi adattatori funzionino anche come normali memory card per i salvataggi dei giochi (e dunque anche possibilmente come scheda per FMCB), oppure solo come memoria esterna per homebrew come OPL... in ogni caso sarebbe un acquisto potenzialmente valido, considerando le inconvenienze tecniche della USB su PS2. [↩](#fnref1)

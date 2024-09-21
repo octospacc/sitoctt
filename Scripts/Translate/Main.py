@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 DestinationLanguages = ["it", "en", "es", "fr"] # "de", "eo"
 IncludePaths = ["/"]
-ExcludePaths = ["/categories", "/note/2024-09-19-Raspberry-Output-Audio-Both.md"] # "/miscellanea"
+ExcludePaths = ["/categories", "/note/2024-09-19-Raspberry-Output-Audio-Both.md", "/miscellanea/Devlogs.md"] # "/miscellanea/PicoBlog.md"
 
 import subprocess
 from os import getcwd, listdir
@@ -9,9 +9,7 @@ from os.path import dirname, realpath, isfile, isdir
 from pathlib import Path
 from translate_shell.translate import translate
 
-# TODO handle frontmatter properly, some data must be translated (title, ...) but other must not (date, ...)
-# TODO also somehow handle overriding data for some translation (title, slug, ...)
-# TODO add warning about automatic translation at the beginning
+# TODO somehow handle overriding frontmatter data for some translation (title, slug, ...)
 # TODO handle deleted files? (it should probably be done in another sh script, not here)
 
 def printf(*objects):
@@ -20,20 +18,31 @@ def printf(*objects):
 def get_source_language(document_path):
 	return document_path.split('/')[0]
 
+def read_original_document(document_path):
+	return open(("../content/" + document_path), 'r').read()
+
 def make_destination_path(document_path, destination_language):
-	return ('./translate/' + destination_language + '/'
+	return ("./translate/" + destination_language + '/'
 		+ '/'.join(document_path.split('/')[1:]))
 
-# TODO check for edit date in already translated documents and update them if needed
 def is_translation_uptodate(source_path, destination_path):
+	original_lines = split_text_with_frontmatter(read_original_document(source_path))[1].splitlines()
+	translated_lines = split_text_with_frontmatter(open(destination_path, 'r').read())[1].splitlines()
+	for [index, original_line] in enumerate(original_lines):
+		line_key = original_line.split('=')[0]
+		if line_key.strip().lower() == "lastmod":
+			if original_line != translated_lines[index]:
+				return False
+			break
 	return True
 
 # TODO handle when the same document is available in multiple source languages?
 def needs_translation(source_path, destination_language=None):
-	for folder_path in ExcludePaths:
-		if ('/' + '/'.join(source_path.split('/')[1:])).startswith(folder_path + '/'):
+	for exclude_path in ExcludePaths:
+		document_path = ('/' + '/'.join(source_path.split('/')[1:]))
+		if (document_path == exclude_path) or document_path.startswith(exclude_path + '/'):
 			return False
-	if not open('../content/' + source_path).read().strip():
+	if not read_original_document(source_path).strip():
 		return False
 	if destination_language:
 		destination_path = make_destination_path(source_path, destination_language)
@@ -53,6 +62,12 @@ def find_documents(folder_path):
 				if needs_translation(document, destination_language):
 					documents[document].append(destination_language)
 	return documents
+
+def split_text_with_frontmatter(document_text):
+	text_header = document_text.strip().splitlines()[0].strip()
+	if text_header in ["---", "+++"]:
+		text_tokens = document_text.split(text_header)
+		return [text_header, text_tokens[1], text_header, text_header.join(text_tokens[2:])]
 
 def fix_frontmatter(translated_text, reference_text):
 	result = ''
@@ -75,7 +90,7 @@ def translate_document(document_path, documents):
 	printf(f"* {document_path} ->")
 	for destination_language in documents[document_path]:
 		source_language = get_source_language(document_path)
-		original_text = open(("../content/" + document_path), 'r').read()
+		original_text = read_original_document(document_path)
 		printf('', destination_language)
 		try:
 			is_python_translator = True
@@ -87,7 +102,7 @@ def translate_document(document_path, documents):
 			try:
 				is_python_translator = False
 				translated = subprocess.run(
-					("bash", "../Scripts/Lib/translate-shell.bash", "-brief",
+					("bash", "../Scripts/Lib/translate-shell.bash", "-brief", "-no-autocorrect",
 						"-t", destination_language, "-s", source_language,
 						("file://" + "../content/" + document_path)),
 					stdout=subprocess.PIPE,
@@ -100,16 +115,12 @@ def translate_document(document_path, documents):
 		printf('✅')
 		translated_text = (translated.results[0].paraphrase
 			if is_python_translator else translated.stdout.decode())
-		text_header = translated_text.strip().splitlines()[0].strip()
 		translated_preamble = ("\n\n{{< noticeAutomaticTranslation " + source_language + " >}}\n\n")
-		if text_header in ["---", "+++"]:
-			text_tokens = translated_text.split(text_header)
-			translated_body = text_header.join(text_tokens[2:])
-			translated_text = (text_header +
-				fix_frontmatter(text_tokens[1], original_text.split(text_header)[1]) +
-			text_header)
-			if translated_body.strip():
-				translated_text += (translated_preamble + translated_body)
+		if (translated_tokens := split_text_with_frontmatter(translated_text)):
+			translated_tokens[1] = fix_frontmatter(translated_tokens[1], original_text.split(translated_tokens[0])[1])
+			if translated_tokens[3].strip():
+				translated_tokens.insert(3, translated_preamble)
+			translated_text = ''.join(translated_tokens)
 		elif translated_text.strip():
 			translated_text = (translated_preamble + translated_text)
 		destination_path = make_destination_path(document_path, destination_language)

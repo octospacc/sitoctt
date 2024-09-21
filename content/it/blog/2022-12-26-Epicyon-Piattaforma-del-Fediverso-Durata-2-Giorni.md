@@ -221,4 +221,4 @@ Non vorrei essere nei panni di colui che lo sta mantenendo perché, per come sta
 
 ---
 
-1.  Guardare **tutte le impostazioni disponibili** può dare una buona visione su quali sono alcune delle potenzialità di una qualsiasi piattaforma. Commentarle tutte, specialmente quelle che non ho testato, sarebbe follia; ho però pensato di lasciare [qui una schermata 🖼️]({{< assetsRoot >}}/Media/Epicyon-Dec-2022/Settings.png) completa, chi vuole può almeno leggere le varie opzioni per conto proprio. [↩](#fnref1)
+1. <span id="fn1"></span>  Guardare **tutte le impostazioni disponibili** può dare una buona visione su quali sono alcune delle potenzialità di una qualsiasi piattaforma. Commentarle tutte, specialmente quelle che non ho testato, sarebbe follia; ho però pensato di lasciare [qui una schermata 🖼️]({{< assetsRoot >}}/Media/Epicyon-Dec-2022/Settings.png) completa, chi vuole può almeno leggere le varie opzioni per conto proprio. [↩](#fnref1)

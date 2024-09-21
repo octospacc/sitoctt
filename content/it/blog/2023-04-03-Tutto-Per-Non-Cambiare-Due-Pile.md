@@ -88,13 +88,3 @@ Questo è quanto. Se **dovessi migliorare** la mia soluzione - che, si, è **gre
 
 ---
 
-## Domande scomode
-
-So già che la **domanda arriverà**, quindi rispondo ora:
-
-> _Ma tutte quelle batterie sfuse che hai messo nella foto di copertina?_
-
-Ehhh. Buona domanda.  
-Sono tutte **pile** che **conservo** quando in casa (non per mano mia, in quanto, lo ripeto, evito più possibile le non ricaricabili) vengono **scartate**, perché molto spesso "scariche" significa soltanto "troppo scariche per il dispositivo da cui sono state sostituite". **Per alcuni** telecomandi **vanno** infatti spesso **ancora bene**, inclusi i miei in certi casi.
-
-Allora ho solo **perso tempo** con il progetto di oggi? Nah, **non direi**: da ora posso tranquillamente **tenere il telecomando** un po' più **riposto**, non più necessariamente sempre sulla **scrivania**, che quindi posso tenere _leggerissimamente_ (perché io poi in un attimo rovino i miei stessi sforzi!) **più ordinata**.

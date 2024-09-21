@@ -15,5 +15,8 @@
     <iframe class="YouTube" src="https://www.youtube-nocookie.com/embed/{{ $href }}" allowfullscreen="allowfullscreen"
             style="height: calc(100vh / {{ index $ratio 0 }} * {{ index $ratio 1 }});"></iframe>
   {{- end -}}
-  <figcaption>{{ partial "anchor.html" (dict "Params" (dict "href" $link)) }}</figcaption>
+  <figcaption>{{ partial "anchor.html" (dict "Params" (dict
+    "target" "_blank"
+    "rel" "noopener"
+    "href" $link)) }}</figcaption>
 </figure>

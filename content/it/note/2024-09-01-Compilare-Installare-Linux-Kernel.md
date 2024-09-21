@@ -100,4 +100,4 @@ _L'immagine decorativa di copertina è ottenuta tramite [l'intelligenza artifici
 
 ---
 
-1.  Installkernel e kernel-install (Gentoo Linux): [https://wiki.gentoo.org/wiki/Installkernel](https://wiki.gentoo.org/wiki/Installkernel) [↩](#fnref1)
+1. <span id="fn1"></span>  Installkernel e kernel-install (Gentoo Linux): [https://wiki.gentoo.org/wiki/Installkernel](https://wiki.gentoo.org/wiki/Installkernel) [↩](#fnref1)

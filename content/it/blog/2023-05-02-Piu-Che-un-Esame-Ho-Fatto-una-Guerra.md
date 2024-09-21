@@ -73,6 +73,6 @@ Eppure, quel dubbio mi resta ancora: ma **cosa avrò fatto** di tanto male al mo
 
 ---
 
-1.  La **certificazione**... oddio, anche di quest'ultima, **non è che mi importi** in prima persona: sul mio **letto di morte non** starò certo a **contare le carte** che avrei potuto ma non ho voluto ottenere; principalmente mi convinsero i miei, e allora vabbè. (_Se **dovesse scadere** pure questa prima che possa essere sul serio utile a qualcosa, **mi incazzerò** sul serio, ma lasciamo stare..._) [↩](#fnref1)
+1. <span id="fn1"></span>  La **certificazione**... oddio, anche di quest'ultima, **non è che mi importi** in prima persona: sul mio **letto di morte non** starò certo a **contare le carte** che avrei potuto ma non ho voluto ottenere; principalmente mi convinsero i miei, e allora vabbè. (_Se **dovesse scadere** pure questa prima che possa essere sul serio utile a qualcosa, **mi incazzerò** sul serio, ma lasciamo stare..._) [↩](#fnref1)
     
-2.  **Colpa di Google** (GSuite, cacca), la **rete scolastica** non è riconosciuta come fidata e **non mi fa accedere**. Quel giorno non riuscivo ad accedere nemmeno da smartphone collegandomi alla VPN di casa mia, per qualche motivo! **Spiegai meglio** il problema generale nel mio **articolo sulla chiavetta Puppy**, comunque, quindi rimando lì per chi ha interesse. [↩](#fnref2)
+2. <span id="fn2"></span>  **Colpa di Google** (GSuite, cacca), la **rete scolastica** non è riconosciuta come fidata e **non mi fa accedere**. Quel giorno non riuscivo ad accedere nemmeno da smartphone collegandomi alla VPN di casa mia, per qualche motivo! **Spiegai meglio** il problema generale nel mio **articolo sulla chiavetta Puppy**, comunque, quindi rimando lì per chi ha interesse. [↩](#fnref2)

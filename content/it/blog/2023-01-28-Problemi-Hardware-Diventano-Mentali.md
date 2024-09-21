@@ -124,13 +124,13 @@ Ma io **comprare il cavetto un po' prima**, e spegnere il server nell'attesa, **
 
 ---
 
-1.  È stata una sorpresa anche per me, ma **lo standard USB proibisce i cavi Y**: si veda [Update 72](https://compliance.usb.org/index.asp?UpdateFile=Policies#72); tradotto in italiano,
+1. <span id="fn1"></span>  È stata una sorpresa anche per me, ma **lo standard USB proibisce i cavi Y**: si veda [Update 72](https://compliance.usb.org/index.asp?UpdateFile=Policies#72); tradotto in italiano,
     
     > _L'uso di un cavo a "Y" (un cavo con due connettori A) è vietato su qualsiasi periferica USB. Se una periferica USB richiede una potenza superiore a quella consentita dalla specifica USB per la quale è stata progettata, deve essere auto-alimentata._
     
     E insomma, che belle le regole, però poi arriva la realtà e la pensa un po' diversamente. Tutto **il mondo reale usa cavi Y** senza farsi troppe _paturnie_. [↩](#fnref1)
     
-2.  (Entrambi **5V**)
+2. <span id="fn2"></span>  (Entrambi **5V**)
     
     *   Per il **Pi**, un alimentatore **3A** (appena sopra [il suggerito dalla Raspberry Foundation](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc)) che era incluso in un kit (computerino escluso) di accessori per il Raspante, di **Aukru**. Aò, dopo anni non è esploso, poi le recensioni erano buone comunque, e ancora questa marca vende nuovi alimentatori, e allora va bene...
     *   Per l'alimentazione **supplementare**, un blocchetto **1A** che era incluso nella confezione del mio vecchio telefono **Huawei** (commercializzato anche in Europa) di bassa gamma, del 2017.

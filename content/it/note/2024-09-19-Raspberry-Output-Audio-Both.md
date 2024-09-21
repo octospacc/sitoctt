@@ -137,8 +137,8 @@ P.S: Questo stava per essere un rantolo — o, come direbbe un vocabolario, un'i
 
 ---
 
-1.  "_Switching audio output between jack and HDMI on RetroPie_": [https://lofi-gaming.org.uk/blog/2014/04/switching-audio-output-between-jack-and-hdmi-on-retropie/](https://lofi-gaming.org.uk/blog/2014/04/switching-audio-output-between-jack-and-hdmi-on-retropie/); le foto delle schermate mostrano che su certi sistemi il fantomatico output automatico c'è... [↩](#fnref1)
+1. <span id="fn1"></span>  "_Switching audio output between jack and HDMI on RetroPie_": [https://lofi-gaming.org.uk/blog/2014/04/switching-audio-output-between-jack-and-hdmi-on-retropie/](https://lofi-gaming.org.uk/blog/2014/04/switching-audio-output-between-jack-and-hdmi-on-retropie/); le foto delle schermate mostrano che su certi sistemi il fantomatico output automatico c'è... [↩](#fnref1)
     
-2.  Qui per reference la conversazione avuta con ChatGPT, anche se non è di per sé utilissima: [https://chatgpt.com/share/66ebfd94-b7e8-8001-89c4-e7424dd128a9](https://chatgpt.com/share/66ebfd94-b7e8-8001-89c4-e7424dd128a9). [↩](#fnref2)
+2. <span id="fn2"></span>  Qui per reference la conversazione avuta con ChatGPT, anche se non è di per sé utilissima: [https://chatgpt.com/share/66ebfd94-b7e8-8001-89c4-e7424dd128a9](https://chatgpt.com/share/66ebfd94-b7e8-8001-89c4-e7424dd128a9). [↩](#fnref2)
     
-3.  Da "_Use "alsathread" instead of "alsa" in RetroArch on RPI3+_": [https://forum.batocera.org/d/5509-use-alsathread-instead-of-alsa-in-retroarch-on-rpi3](https://forum.batocera.org/d/5509-use-alsathread-instead-of-alsa-in-retroarch-on-rpi3): "I’ve noticed that using “alsathread” instead of “alsa” driver in RetroArch leads better audio sync and frame smoothing on non-native screen framerates \[...\] less sound cracks and lags on low-performace games/cores." [↩](#fnref3)
+3. <span id="fn3"></span>  Da "_Use "alsathread" instead of "alsa" in RetroArch on RPI3+_": [https://forum.batocera.org/d/5509-use-alsathread-instead-of-alsa-in-retroarch-on-rpi3](https://forum.batocera.org/d/5509-use-alsathread-instead-of-alsa-in-retroarch-on-rpi3): "I’ve noticed that using “alsathread” instead of “alsa” driver in RetroArch leads better audio sync and frame smoothing on non-native screen framerates \[...\] less sound cracks and lags on low-performace games/cores." [↩](#fnref3)

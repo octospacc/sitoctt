@@ -75,6 +75,12 @@ href = "https://mastodon.uno/@octo"
 rel = "me"
 
 [[20-me]]
+alt = "Visita il mio Fritto Misto di OctoSpacc"
+file = "Sites/fritto-misto-di-octospacc-1.png"
+href = "https://octospacc.altervista.org"
+rel = "me"
+
+[[20-me]]
 alt = "Bandiera Octt"
 file = "Octt-Flag.png"
 

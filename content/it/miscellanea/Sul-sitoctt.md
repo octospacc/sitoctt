@@ -84,7 +84,7 @@ Oltre che degli effettivi contenuti, però, voglio che il sito (la versione Web,
 
 Per questo, cercherò di inventarmi di continuo modi di abbellire le pagina con il CSS, non solo con layouting o effetti del testo fissi, ma soprattutto con le animazioni.<br/>Al resto della forma, come l'ordine ad albero delle pagine nel sito o dei paragrafi nelle pagine, non penserò molto, altrimenti mi distraggo dal creare contenuti e la voglia mi passa.
 
-## Disponibilità del siito
+## Disponibilità del sito
 
 Al momento, questo sito è disponibile per la navigazione su vari indirizzi diversi (i contenuti sono sempre identici).
 Per chi non sapesse, comunque, il nome è da un mesetto cambiato in sitoctt da postoctt, perché il vecchio nome mi dava l'impressione di qualche servizio postale...
