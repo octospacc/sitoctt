@@ -2,6 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/it/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -223,29 +246,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Meta/</loc>
@@ -910,13 +910,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/MicroBlog/"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/MicroBlog/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/MicroBlog/"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/MicroBlog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1290,6 +1290,26 @@
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Archivi-PicoBlog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-PicoBlog-Archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Archives-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/%EF%B8%8F-Archivos-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Archivi-PicoBlog/"
+                />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Animal-Crossing/</loc>
     <xhtml:link
@@ -1401,18 +1421,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/blog/1-01-01-Archivi-MicroBlog-di-Settembre-2019/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Blog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Blog/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Carte-QR/</loc>

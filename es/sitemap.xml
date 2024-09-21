@@ -2,6 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/es/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/es/categories/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -187,29 +210,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://http.sitoctt.octt.eu.org/es/categories/Internet/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/es/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/es/miscellanea/En-el-sitio/</loc>
@@ -878,29 +878,6 @@
                 href="http://http.sitoctt.octt.eu.org/es/blog/2022-10-31-Historia-antigua-de-DSpacc/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/es/blog/2022-10-16-Actualizaciones-de-DSpacc-Clave-maldita/</loc>
-    <lastmod>2022-10-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/2022-10-16-Aggiornamenti-DSpacc-Tastino-maledetto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/2022-10-16-DSpacc-Updates-Cursed-Key/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-10-16-Mises-%C3%A0-jour-DSpacc-Cl%C3%A9-maudite/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/blog/2022-10-16-Actualizaciones-de-DSpacc-Clave-maldita/"
-                />
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/es/categories/MicroBlog/</loc>
     <lastmod>2022-10-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -922,6 +899,29 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://http.sitoctt.octt.eu.org/es/categories/MicroBlog/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/es/blog/2022-10-16-Actualizaciones-de-DSpacc-Clave-maldita/</loc>
+    <lastmod>2022-10-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/2022-10-16-Aggiornamenti-DSpacc-Tastino-maledetto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/2022-10-16-DSpacc-Updates-Cursed-Key/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/2022-10-16-Mises-%C3%A0-jour-DSpacc-Cl%C3%A9-maudite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/blog/2022-10-16-Actualizaciones-de-DSpacc-Clave-maldita/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/es/blog/2022-09-23-Nuevas-fronteras/</loc>
@@ -1255,6 +1255,28 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://http.sitoctt.octt.eu.org/es/miscellanea/raccolta-videogiochi/%EF%B8%8F-Pilotwings/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/es/miscellanea/%EF%B8%8F-Archivos-PicoBlog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Archivi-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-PicoBlog-Archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Archives-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/%EF%B8%8F-Archivos-PicoBlog/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/es/miscellanea/raccolta-videogiochi/Animal-Crossing/</loc>

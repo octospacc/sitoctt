@@ -1,0 +1,19 @@
+.Blink_ {
+	display: none;
+}
+.BlinkA {
+	animation: BlinkerA 0.25s Step-Start Infinite;
+}
+@Keyframes BlinkerA {
+	0%   { position: absolute; visibility: hidden;  }
+	50%  { position: static;   visibility: visible; }
+	100% { position: absolute; visibility: hidden;  }
+}
+.BlinkO {
+	animation: BlinkerO 0.25s Step-Start Infinite;
+}
+@Keyframes BlinkerO {
+	0%   { position: static;   visibility: visible; }
+	50%  { position: absolute; visibility: hidden;  }
+	100% { position: static;   visibility: visible; }
+}

@@ -2,6 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/en/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -197,29 +220,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/categories/Internet/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Meta/</loc>
@@ -907,13 +907,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/MicroBlog/"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/MicroBlog/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/MicroBlog/"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/MicroBlog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1286,6 +1286,28 @@
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/%EF%B8%8F-Pilotwings/"
                 />
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-PicoBlog-Archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Archivi-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Archives-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/%EF%B8%8F-Archivos-PicoBlog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-PicoBlog-Archives/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/Animal-Crossing/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1372,18 +1394,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/Splatoon/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Blog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Blog/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Collection-of-Random-Things/</loc>
