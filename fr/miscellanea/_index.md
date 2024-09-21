@@ -1,5 +1,5 @@
 +++
-Title = "Divers"
+Title = "Divers🪁️"
 Aliases = [
   "/Catégories/index.html",
 ]

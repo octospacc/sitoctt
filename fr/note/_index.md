@@ -1,5 +1,5 @@
 +++
-Title = "Notes"
+Title = "Notes📝️"
 Aliases = [
   "/Catégories/Note.html",
 ]
