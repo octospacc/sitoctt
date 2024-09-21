@@ -75,6 +75,12 @@ href = "https://mastodon.uno/@octo"
 rel = "me"
 
 [[20-me]]
+alt = "Visita la OctoSpacc Hub"
+file = "Sites/octospacc-hub-1.png"
+href = "https://hub.octt.eu.org"
+rel = "me"
+
+[[20-me]]
 alt = "Visita il mio Fritto Misto di OctoSpacc"
 file = "Sites/fritto-misto-di-octospacc-1.png"
 href = "https://octospacc.altervista.org"

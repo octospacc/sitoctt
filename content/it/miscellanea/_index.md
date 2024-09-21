@@ -1,5 +1,5 @@
 +++
-Title = "Miscellanea"
+Title = "Miscellanea🪁️"
 Aliases = [
   "/Categories/index.html",
 ]

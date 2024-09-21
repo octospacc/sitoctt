@@ -7,7 +7,7 @@ Aliases = [
 Categories = [ "Tecnologia" ]
 +++
 
-Ho dimenticato di annunciarlo nell'articolo "[🎇 Il resocontoctt di questo 2023, almeno in termini di posting!](./Posts/2023-12-31-Resocontoctt-2023.html#-Il-MicroBlog-nuovissimo-alla-fa)", ma, così come per il PicoBlog e il Vecchio MicroBlog, i Devlogs sono ora deprecati, e non verranno più aggiornati. Quello che segue è l'archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.
+Come annunciato nell'articolo "[🎇 Il resocontoctt di questo 2023, almeno in termini di posting!]({{< relref "/blog/2023-12-31-Resocontoctt-2023/#il-microblog-nuovissimo-alla-faccia-du-rove" >}})", ma, così come per il PicoBlog e il Vecchio MicroBlog, i Devlogs sono ora deprecati, e non verranno più aggiornati. Quello che segue è l'archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.
 
 ---
 
@@ -29,8 +29,10 @@ _Ovviamente, scriverò soltanto la roba interessante, non tutto quello che facci
 
 <div markdown="1" class="BorderBoxContainer" HTMLJournal="1" JournalTitle="💾 Devlogs di Octt">
 
-<details markdown="1" class="Box-sitoctt Box-staticoso" open><summary>
-#### [2022-11-11] Novità estetiche incollate con lo sputo </summary>
+<details markdown="1" class="Box-sitoctt Box-staticoso"><summary>
+
+### [2022-11-11] Novità estetiche incollate con lo sputo
+</summary>
 -> #sitoctt #staticoso
 
 Da quanto che non scrivevo un devlog! Qualcosina però, per **sitoctt e staticoso**, l'ho fatta nel frattempo.
@@ -44,7 +46,7 @@ Non so cosa stavo pensando mentre costruivo il template, e quindi è venuto un *
 
 Il **riposizionamento** in primo piano è molto **facile**: con la pseudo-classe CSS _Hover_, applicato alla classe delle finestre, si imposta un valore Z superiore al default di tutte le altre finestre. In questo modo, la finestra verrà rialzata quando ci si passa il puntatore virtuale sopra.
 
-```{ .css .CodeScroll }
+```css
 .Window:Hover {
 	/* Non ci sono al momento finestre con Z-Index maggiore di questo, quindi va bene */
 	Z-Index: 128;
@@ -53,7 +55,7 @@ Il **riposizionamento** in primo piano è molto **facile**: con la pseudo-classe
 
 **La storia dello shading** delle finestre, invece, è più complicata e mi **ha richiesto** l'uso di qualche **hack**, e ora spiego il tutto. Segue l'HTML rappresentante un'ipotetica finestra, e del relativo CSS.
 
-```{ .html .CodeScroll }
+```html
 <div class="Window" id="ExampleWindow">
 	<div class="TitleBar">
 		<input type="checkbox" class="CheckToggle" id="ExampleWindowCheck">
@@ -69,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit...
 </div>
 ```
 
-```{ .css .CodeScroll }
+```css
 /* Input checkbox della classe specifica per i bottoni no-JS */
 
 /* Impostato come invisibile per motivi estetici */
@@ -102,13 +104,14 @@ Il problema è che, non esistendo alcun selettore per raggiungere elementi genit
 
 Continuando con il vedere le **classi CSS delle finestre** in sé.. i commenti bastano.
 
-```{ .css .CodeScroll }
+```css
 .Window {
 	Position: Absolute;
 	Margin: Var(--WindowMargin);
 	/* Bordo per estetica, 4px nel mio caso */
 	Border: Solid Var(--WindowBorderSize) Var(--TitleBarBackground);
 }
+
 .WindowContent {
 	/* Minima larghezza del div contenuto della finestra pari alla totale finestra */
 	Min-Width: Calc(100% + Var(--WindowMargin)*2 + Var(--WindowBorderSize)*2);
@@ -125,9 +128,8 @@ Continuando con il vedere le **classi CSS delle finestre** in sé.. i commenti b
 
 Questo, infine, è il **CSS applicato alle singole finestre**, che differisce sempre in valori.. e, a parte i commenti, anche qui non so proprio cosa dire! 🤐 _La soluzione funziona? E allora va bene così._
 
-```{ .css .CodeScroll }
-/*
-*/ #ExampleWindow {
+```css
+#ExampleWindow {
 	/* Dimensioni massime della finestra */
 	Max-Width: 80vw;
 	Max-Height: 75vh;
@@ -136,8 +138,8 @@ Questo, infine, è il **CSS applicato alle singole finestre**, che differisce se
 	Left: 16px;
 	Z-Index: 8;
 }
-/*
-*/ #FeedWindow .WindowContent {
+
+#FeedWindow .WindowContent {
 	/* Impostazione della massima altezza del div contenuto della finestra;
 	 * Per qualche motivo, se non esplicito la cosa, il contenuto sborda sempre.
 	 * All'altezza massima dell'intera finestra devo sottrarre, oltre al margine,
@@ -167,7 +169,9 @@ Come ultime cose: al generatore ho aggiunto anche la creazione di **liste di** t
 
 
 <details markdown="1" class="Box-sitoctt"><summary>
-#### [2022-09-05] Filtri intelligenti </summary>
+
+### [2022-09-05] Filtri intelligenti
+</summary>
 -> #sitoctt
 
 _Le soluzioni semplici sono spesso le migliori_.  
@@ -176,21 +180,20 @@ Con questa filosofia, come in altri casi, ho preso e ho implementato questa picc
 Al momento i Devlogs sono ancora un po' vuoti, ma, per quando inizieranno a riempirsi di più, sarebbe carino poter efficacemente **filtrare** le mie scritture **per categoria**.  
 Problema risolto in appena qualche riga di HTML e CSS!
 
-```{ .html .CodeScroll }
+```html
 <input type="checkbox" id="CheckBox-CATEGORIA" checked>
 <label for="CheckBox-CATEGORIA">#CATEGORIA</label>
 ...
 ```
 
-```{ .css .CodeScroll }
+```css
 .Box-CATEGORIA,
 ...
 {
 	Display: None;
 }
 
-/*
-*/ #CheckBox-CATEGORIA:Checked ~ Div > .Box-CATEGORIA,
+#CheckBox-CATEGORIA:Checked ~ Div > .Box-CATEGORIA,
 ...
 {
 	Display: Inherit;
@@ -210,7 +213,9 @@ _Nota: I simboli hash (#) nei nomi **visibili** delle categorie non centrano nul
 
 
 <details markdown="1" class="Box-staticoso"><summary>
-#### [2022-09-01] Ottimizzazioni necessarie </summary>
+
+### [2022-09-01] Ottimizzazioni necessarie
+</summary>
 -> #staticoso
 
 Nei giorni appena passati ho apportato qualche **miglioria interna** a **staticoso**.
@@ -240,7 +245,9 @@ Quei 17 secondi in particolare, comunque, mostrano senza alcun dubbio che il mio
 
 
 <details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
-#### [2022-08-29] Titoli delle sezioni, ma ancora meglio </summary>
+
+### [2022-08-29] Titoli delle sezioni, ma ancora meglio
+</summary>
 -> #staticoso #sitoctt
 
 Soprattutto a causa della necessità di rendere **staticoso** leggermente più adatto alla creazione di siti di documentazione, oltre che di blog e cose così, ho sentito di dover apportare **qualche miglioramento** alla generazione dei _✨magici✨_ **titoli delle sezioni**.
@@ -252,9 +259,8 @@ Dovevo inventarmi qualcos'altro.
 A livello di **HTML**, allora, staticoso genera per ogni titolo la seguente struttura: elemento heading, che contiene prima un elemento span racchiudente l'ancora, a sua volta contenente il semplice testo `»`, e poi un altro span (con id univoco) che ha il titolo in sé.  
 Facendo un esempio pratico, questo è cosa esce fuori:  
 
-```{ .html .CodeScroll }
-<!--
---> <h1 class="SectionHeading">
+```html
+<h1 class="SectionHeading">
 	<span class="SectionLink">
 		<a href="#-Titolo-di-esempio">
 			<span>»</span>
@@ -275,7 +281,7 @@ Sul tema principale del **sitoctt**, infatti, ho personalizzato la cosa in modo 
 - Evidenziazione e sottolineatura di un heading attivato.
 
 In codice **CSS**, la mia visione si è tradotta in queste righe:  
-```{ .css .CodeScroll }
+```css
 .SectionTitle:Target {
 	Color: #EEDDFF !Important;
 	Background: #700070 !Important;
@@ -305,7 +311,9 @@ In tutta onestà, lo ripeto: forse per il sitoctt questa cosa non serviva; ma, p
 
 
 <details markdown="1" class="Box-sitoctt"><summary>
-#### [2022-08-24] Titoli delle sezioni - ora ovunque </summary>
+
+### [2022-08-24] Titoli delle sezioni - ora ovunque
+</summary>
 -> #sitoctt
 
 **Una delle caratteristiche** delle pagine di questo sito, anche quelle di blog - cosa che, riconosco, non si vede tutti i giorni, se non su Wikipedia (_che un blog non è_) - è **il menu con i titoli** delle sezioni della pagina.  
@@ -326,7 +334,9 @@ Un po' con il trova e sostituisci del mio editor di testo, e un po' a manina, **
 
 
 <details markdown="1" class="Box-staticoso Box-sitoctt"><summary>
-#### [2022-08-24] La data di compilazione </summary>
+
+### [2022-08-24] La data di compilazione
+</summary>
 -> #staticoso #sitoctt
 
 È una cosina semplice, quella che ho fatto ieri (e che solo oggi ho tempo di scrivere), ma può secondo me avere **grandi implicazioni**: ho aggiunto a **staticoso** la possibilità di scrivere nell'HTML **il momento** (data e ora) **in cui** il programma **ha compilato** ogni pagina, che posso sfruttare aggiungendo la macro `\[staticoso:BuildTime]` dove preferisco.
@@ -344,6 +354,7 @@ _O almeno, così è al momento in cui scrivo_. Non è mica da escludere che lo s
 </details>
 
 </div>
+<style>details>summary>h3{display:inline-block;}</style>
 
 ## {{% i18n notes-refs %}}
 
