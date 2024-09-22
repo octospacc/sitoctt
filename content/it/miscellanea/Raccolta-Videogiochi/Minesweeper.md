@@ -56,6 +56,8 @@ Parafrasando ciò che scrive [un autore di PCGamesN](https://www.pcgamesn.com/mi
 
 <p markdown="1" style="background: #fde; padding: 0.5em;">...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), vai va...</p>
 
+{{< embed ouCe9OTmTUs youtube "16:9" "LGR — Minesweeper is Hardcore Gaming" >}}
+
 ## Curiosità
 
 <div class="Minesweeper Locker"></div>

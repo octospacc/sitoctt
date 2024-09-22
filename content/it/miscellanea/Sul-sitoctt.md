@@ -31,14 +31,18 @@ Se preferisci, puoi chiamarlo <i class="MainIdTextGradientL">sitocto</i>. O anch
 Nonostante abbia già un po' più di sostanza, tutto questo ambaradan è ancora pesantemente in costruzione. E lo sarà per sempre, perché avrò sempre roba nuova da condividere. ~~E, quando sarò morta, sarà comunque non finito perché nella mia vita non avrò scritto tutto lo scibile universale teoricamente possibile sul sitoctt.~~
 Gli aggiornamenti al sito sono di diverso tipo: la pubblicazione di nuovi articoli di blog succede, boh, 3 volte al mese, è una buona idea usare i <a href="#-Feed-e-notifiche">feed</a> che metto a disposizione; le modifiche per pagine normali sono continue e avvengono a caso, quindi dovresti controllare magari ogni settimana quelle che ti interessano, se ti aspetti novità.
 
+<!--
 <p><b>Da tenere a mente</b> (da Web): quando ci sono per lo schermo i seguenti tastini, è perché possono nascondere menu collassabili.
   Possono stare in posizioni diverse su pagine diverse, perché mi piace sperimentare con diversi temi; però cerco di mantenere il loro significato coerente ovunque.<br/>Un'icona con l'emoji di una pila di libri (<big class="twa twa-books twa-📚">📚</big>) segnala il menu principale del sito, fondamentale per poterlo navigare saltando tra pagine completamente diverse e non collegate.
   Invece, l'icona con l'emoji di un foglio con un segnalibro (<big class="twa twa-bookmark-tabs twa-📑">📑</big>) indica l'elenco delle sezioni della pagina corrente - non è essenziale, ma può tornare utile per saltare tra parti diverse di un lungo testo.
 </p>
 
 ### Script client-side
+-->
 
-<p>Il sito Web non usa alcuno script client-side per le funzioni di base, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: <a href="Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html"><span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni</a>.<br/>Ad ogni modo, però.. per fornire alcune funzionalità extra, devo per forza avere del JS, c'è poco da fare. Qui sotto, la lista di cosa uso. <i>Tutti i file sono caricati dai server del mio sito, quindi è difficile che enti malevoli possano nasconderci malware dentro</i>.</p>
+<p>Il sito Web non usa alcuno script client-side per le funzioni di base, perché non voglio costringere chi (per validi motivi di sicurezza e non solo) non vuole attivare JavaScript ad avere un'esperienza degradata. A proposito della questione spinosa, ho scritto anche un articolo: <a href="Posts/2022-06-14-0000-I-Documenti-Non-Devono-Diventare-Applicazioni.html"><span class="twa twa-page-facing-up"><span>📄</span></span> I documenti non devono diventare applicazioni</a>.<br/>Ad ogni modo, però.. per fornire alcune funzionalità extra, devo per forza avere del JS, c'è poco da fare. <!--Qui sotto, la lista di cosa uso.--> <i>Tutti i file sono caricati dai server del mio sito, quindi è difficile che enti malevoli possano nasconderci malware dentro</i>.</p>
+
+<!--
 <details>
 <summary>
 <h4>Lista di script client-side usati nel sito Web (Espandi)</h4>
@@ -53,7 +57,9 @@ Gli aggiornamenti al sito sono di diverso tipo: la pubblicazione di nuovi artico
 </ul>
 </div>
 </details>
-<p>Di seguito, metto la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori (nel possibile).</p>
+-->
+
+<p>Di seguito, metto anche la mia classifica dei possibili modi per visualizzare questo sito, dal migliore al peggiore. Per standardizzazione, tutti presuppongono supporto completo ai colori (nel possibile).</p>
 <details>
 <summary>
 <h4>Mie inutili digressioni su modi assolutamente assurdi di consultare il sitoctt (Espandi)</h4>
@@ -95,8 +101,11 @@ Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamen
 <p>Il sito Web è disponibile da diverse fonti.</p>
 <ul>
 <li>Sul <b>clearweb</b> HTTPS, sui server di <span style="Color:#fc6d26;">GitLab</span>: <a href="https://sitoctt.octt.eu.org">sitoctt.octt.eu.org</a>.</li>
-<li>Sull'<b>Onion Web</b> (<span style="Color:#59316b;">Tor</span>), sui server di Replit: <a href="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion">sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion</a>. Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, 
+<li>Sull'<b>Onion Web</b> (<span style="Color:#59316b;">Tor</span>), sui server di Replit: <a href="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion">sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion</a>.
+<!--
+Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un carico in meno per il povero serverino di fortuna che ho (al momento, 
     <del>una console Nintendo Switch con Ubuntu</del> il Raspberry Pi 3).
+-->
   </li>
 </ul>
 <details>
@@ -105,8 +114,10 @@ Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamen
 </summary>
 <div>
 <dl>
+<!--
 <dt><b>• Versione HTTP di base</b></dt>
 <dd>Il sito include funzioni CSS complesse e relativamente moderne, per poter fornire effetti grafici (e funzionali) epici. Ironia della sorte, per quanto visualizzando le pagine su browser veramente vecchi, che mancano di supporto CSS totale o quasi, il tutto si vede brutto ma è leggibile.. su browser che sono <i>sia troppo vecchi e sia troppo nuovi</i> si presentano bug parecchio gravi, che rendono impossibile usare alcuni menù o addirittura leggere il testo!<br/>Oltre al fatto che (nel possibile) voglio supportare sistemi vecchi, 'ste maledette rogne si presentano anche su dispositivi meno popolari ma attuali, tipo il Kindle! Insomma, per i troppi browser che non includono un'impostazione per disattivare completamente il CSS, era d'obbligo fare quello che ho fatto: al percorso <a href="./Plain">/Plain</a> sui miei domini del clearweb c'è una root parallela, e pagine con uguale contenuto ma CSS ridotto all'osso.</dd>
+-->
 <dt><b>• HTTP non cifrato</b></dt>
 <dd>Per evitare problemi ci ho dedicato un sottodominio dedicato, tenendo HTTPS forzato sul principale; ma, visto che non mi richiede manutenzione, ho fatto si che dal dominio di quinto (!) livello "<span style="Font-Style: Monospace;">http</span>" si acceda al sito tramite HTTP non cifrato (ospitato da GitHub, stavolta): in poche parole, l'indirizzo è <code style="Text-Decoration:Underline;">http://http.sitoctt.octt.eu.org</code>. I contenuti sono identici, ovviamente, ma finalmente si può navigare il sitoctt su roba come <i>Internet Explorer 4</i> direttamente contattando il server.</dd>
 </dl>
@@ -115,7 +126,7 @@ Dovrei pensare anche a molti altri mirror in cloud da diversi provider (ovviamen
 
 ### Gemini
 
-<p>Da ora, inoltre, il sitoctt è disponibile come capsula Gemini. Per andarci, si deve usare un browser Gemini.<br/>Ovviamente (per chi conosce Gemini), è tutto più castrato, e la forma non è esattamente la migliore perché tutte le pagine sono una diretta conversione dall'HTML del sito Web (e il programma su cui mi appoggio per farla è un po' rotto, per giunta).<br/>Vai alla octocapsula, gentilmente ospitata da koyu.space: <a href="gemini://koyu.space/octt">gemini://koyu.space/octt</a></p>
+<p>Da ora, inoltre, il sitoctt è disponibile come capsula Gemini. Per andarci, si deve usare un browser Gemini.<br/>Ovviamente (per chi conosce Gemini), è tutto più castrato, e la forma non è esattamente la migliore perché tutte le pagine sono una diretta conversione dall'HTML del sito Web (e il programma su cui mi appoggio per farla è un po' rotto, per giunta).<br/>Vai alla octocapsula, gentilmente ospitata da koyu.space: <a href="gemini://koyu.space/octt">gemini://koyu.space/octt</a>.</p>
 
 ### Feed e notifiche
 

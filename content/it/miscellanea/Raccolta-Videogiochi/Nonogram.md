@@ -29,6 +29,6 @@ I **Nonogram** (conosciuti anche come **Picross**, **Crucipixel**, e un'altra ve
 
 WIP... Se vuoi scoprire altre cosine o imparare a giocare, leggi su [Wikipedia](https://it.wikipedia.org/Nonogram).
 
-## {{% i18n notes-refs %}}
+<!-- ## {{% i18n notes-refs %}}
 
-[^PageBg]: **Sfondo della Pagina**: [Fonte](https://stock.adobe.com/it/images/close-up-pen-on-a-sheet-with-a-solved-japanese-crossword-leisure-activities/323111281)
+[^PageBg]: **Sfondo della Pagina**: [Fonte](https://stock.adobe.com/it/images/close-up-pen-on-a-sheet-with-a-solved-japanese-crossword-leisure-activities/323111281) -->
