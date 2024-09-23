@@ -2,11 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Tecnologia-Mista/</loc>
-    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
+    <loc>http://http.sitoctt.octt.eu.org/it/blog/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/"
+                />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
-    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -27,6 +47,48 @@
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/categories/"
                 />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Gaming/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Gaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Gaming/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Internet/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/Internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/Internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Internet/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/blog/2024-09-23-I-guerrieri-del-woke-e-lappiattimento-del-gaming/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Tecnologia-Mista/</loc>
+    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
@@ -75,19 +137,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Gaming/</loc>
-    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Gaming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Gaming/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/</loc>
@@ -208,29 +257,6 @@
                 href="http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Internet/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Internet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/Internet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/Internet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Internet/"
-                />
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -316,29 +342,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/blog/2024-06-22-%EF%B8%8F-Sul-passaggio-dai-diari-ai-blog-ai-social-una-riflessione/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/blog/</loc>
-    <lastmod>2024-06-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/blog/2024-04-07-LIBERTY-WINGS-un-Breve-RPG-sulla-Libert%C3%A0-Recensione/</loc>
