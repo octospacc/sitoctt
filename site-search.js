@@ -1,5 +1,4 @@
 (function(){
-// TODO make links work on file:/// (must be relative)
 // TODO fix ajax navigation to different-language page, doesn't currently load the index for the selected language
 // TODO better perf
 // TODO thumbnails?
@@ -93,8 +92,9 @@ function displaySearch() {
     buildIndex();
   }
   if (!searchVisible) {
-    document.body.style.overflow = "hidden";
-    wrapper.style.visibility = "visible";
+    document.body.style.overflow = 'hidden';
+    wrapper.style.visibility = 'visible';
+    wrapper.style.display = '';
     input.focus();
     searchVisible = true;
   }
@@ -103,8 +103,9 @@ function displaySearch() {
 
 function hideSearch() {
   if (searchVisible) {
-    document.body.style.overflow = "visible";
-    wrapper.style.visibility = "hidden";
+    document.body.style.overflow = 'visible';
+    wrapper.style.visibility = 'hidden';
+    wrapper.style.display = 'none';
     input.value = "";
     document.querySelector('.SiteSearchForm > input').value = "";
     output.innerHTML = "";
@@ -136,7 +137,7 @@ function executeQuery(term) {
 
   if (results.length > 0) {
     results.forEach(function (value, key) {
-      var title = value.item.externalUrl?  value.item.title + '<span class="text-xs ml-2 align-center cursor-default text-neutral-400 dark:text-neutral-500">'+value.item.externalUrl+'</span>' : value.item.title;
+      var title = value.item.externalUrl ? value.item.title + '<span class="text-xs ml-2 align-center cursor-default text-neutral-400 dark:text-neutral-500">'+value.item.externalUrl+'</span>' : value.item.title;
       var linkconfig;
       if (value.item.externalUrl) {
         linkconfig = 'target="_blank" rel="noopener" href="'+value.item.externalUrl+'"';

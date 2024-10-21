@@ -8,6 +8,10 @@ vaNp2PerVDzUvdLlZKazGYIHXb5xduSnRp4HRHU9TMzSyuP5fr9XohcCAwEAAQ==`,
 var signatureScheme = 'RSASSA-PKCS1-v1_5';
 var encryptionType = {name: signatureScheme, hash: {name: "SHA-256"}};
 
+function ensureRequirements () {
+	return SpaccDotWeb.requireScript('./forge.min.js', { useCurrentPath: true });
+}
+
 async function makeSignedScript (scriptText, keyIndex, pemPrivateKey) {
 	return ('1,'
 		+ keyIndex + ','
@@ -111,11 +115,15 @@ function verificationKeyFromPublicKeyPEM (pemPublicKey) {
 		["verify"]);
 }
 
-window.OcttRuntime = { makeSignedScript, verifyAndRunScript };
+window.OcttRuntime = { ensureRequirements, verifyAndRunScript, makeSignedScript };
 
-var scriptCipher = (new URLSearchParams(location.search)).get('octtRuntime');
-if (scriptCipher) {
-	verifyAndRunScript(scriptCipher);
-}
+window.addEventListener('load', (function(){
+	var scriptCipher = (new URLSearchParams(location.search)).get('octtRuntime');
+	if (scriptCipher) {
+		ensureRequirements().then(function(){
+			verifyAndRunScript(scriptCipher);
+		});
+	}
+}));
 
 })();
