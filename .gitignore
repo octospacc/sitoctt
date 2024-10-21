@@ -14,3 +14,6 @@
 tmp.*
 .env
 .hugo_build.lock
+/static/lib/SpaccDotWeb.Alt.min.js
+/static/lib/toastui-editor-all.min.js
+/static/lib/toastui-editor.min.css
