@@ -139,9 +139,12 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
 
 ## Sorgenti e licenze
 
+Vai a ["🔓️ Open Source"]({{< relref "/miscellanea/Open-Source/" >}}).
+
+<del>
 ### Licenze dei contenuti
 
-<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/CC.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/BY.svg"/> <img <="" class="i1em" span="" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
+<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/CC.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/BY.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
 <p>Sono presenti, però, anche contenuti non miei.<br/>In ogni caso, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino. <br/>Per la roba presa in prestito, invece, verrà sempre indicata la fonte da cui ho prelevato e la licenza, che sia questa di dominio pubblico, Creative Commons, o non specificata.<br/>Occhio, che i crediti per le cosine HTML e CSS spesso li lascio soltanto nei sorgenti della pagina.. Quindi, in caso, controlla lì per questo genere di crediti. Per cose come immagini o testi, invece, spesso eventuali crediti sono parte visibile della pagina, vicini all'oggetto preso in prestito (come una descrizione); altre volte, lo stesso oggetto è un link che, se cliccato, riporta alla fonte.<br/>Comunque, ho pensato di creare una sezione della pagina <a href="#-Crediti-speciali">qui sotto</a>, dedicata a crediti speciali (che compilo quando mi ricordo).</p>
 
 ### Codice sorgente
@@ -172,6 +175,7 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
 </ul>
 </div>
 </details>
+</del>
 
 ## Riservatezza e trasparenza
 

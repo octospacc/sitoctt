@@ -28,7 +28,8 @@ it = "Altre cose"
 [[10-site]]
 alt = "CC BY-SA"
 file = "CC-BY-SA.svg"
-href = "https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt.eu.org&creator=OctoSpacc"
+href = "/it/miscellanea/%EF%B8%8F-Open-Source/"
+#href = "https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt.eu.org&creator=OctoSpacc"
 
 [[10-site]]
 alt = "✨sitoctt"

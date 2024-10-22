@@ -3,7 +3,7 @@ ModificationMetadataKey = "lastmod"
 KeepOriginalMetadata = ["draft", "date", "lastmod"]
 DestinationLanguages = ["it", "en", "es", "fr"] # "de", "eo"
 IncludePaths = ["/"]
-ExcludePaths = ["/note/2024-09-19-Raspberry-Output-Audio-Both.md", "/miscellanea/Devlogs.md"] # "/miscellanea/PicoBlog.md"
+ExcludePaths = ["/note/2024-09-19-Raspberry-Output-Audio-Both.md", "/miscellanea/Devlogs.md", "/admin.md"] # "/miscellanea/PicoBlog.md"
 
 import subprocess
 from os import getcwd, listdir
@@ -173,20 +173,20 @@ def translate_document(document_path, documents):
 	printf('\n')
 
 def main():
-	for source_language in listdir('../content'):
+	for source_language in listdir("../content"):
 		for folder_path in IncludePaths:
-			documents = find_documents('../content/' + source_language + folder_path)
+			documents = find_documents("../content/" + source_language + folder_path)
 			for document_path in documents:
 				if len(documents[document_path]):
 					translate_document(document_path, documents)
 
 def read_from_scripts(relative_path:str):
-	return open((dirname(realpath(__file__)) + '/../' + relative_path), 'r').read()
+	return open((dirname(realpath(__file__)) + "/../" + relative_path), 'r').read()
 
 TranslationMagic = ("__" + str(ascii_to_number("sitoctt")))
 
 if __name__ == "__main__":
-	globals_text = read_from_scripts('Lib/Globals.sh')
+	globals_text = read_from_scripts("Lib/Globals.sh")
 	exec(globals_text.split('#' + globals_text.splitlines()[0].split('#!')[1] + '!')[0])
-	#exec(read_from_scripts('../config.toml'))
+	exec(read_from_scripts("../assets/SiteProps.toml"))
 	main()
