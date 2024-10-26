@@ -13,7 +13,7 @@ const markdownOptions = {
 
 const TurndownService = require('turndown');
 const turndownService = (new TurndownService(markdownOptions));
-turndownService.keep(['span', 'small', 'sup', 'sub', 'dl', 'details', 'table', 'iframe', 'video', 'audio', 'scripts']);
+turndownService.keep(['span', 'small', 'sup', 'sub', 'dl', 'details', 'table', 'iframe', 'figure', 'video', 'audio', 'scripts']);
 
 Exp.Transform = (html) => fixFootnoteRefs(turndownService.turndown(html));
 
