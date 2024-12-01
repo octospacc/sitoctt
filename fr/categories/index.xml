@@ -6,12 +6,40 @@
     <description>Recent content in Categories on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Méta</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/categories/M%C3%A9ta/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/categories/M%C3%A9ta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technologie</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/categories/Technologie/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Technologie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frit-Mélangé</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/categories/Frit-M%C3%A9lang%C3%A9/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Frit-M%C3%A9lang%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>http://http.sitoctt.octt.eu.org/fr/categories/Internet/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Internet/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Jeux</title>
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/fr/categories/Jeux/</guid>
       <description></description>
     </item>
@@ -20,20 +48,6 @@
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Linux/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/fr/categories/Linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>http://http.sitoctt.octt.eu.org/fr/categories/Internet/</link>
-      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Internet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Méta</title>
-      <link>http://http.sitoctt.octt.eu.org/fr/categories/M%C3%A9ta/</link>
-      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/fr/categories/M%C3%A9ta/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +62,6 @@
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Bricolage/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/fr/categories/Bricolage/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technologie</title>
-      <link>http://http.sitoctt.octt.eu.org/fr/categories/Technologie/</link>
-      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Technologie/</guid>
       <description></description>
     </item>
     <item>
@@ -90,13 +97,6 @@
       <link>http://http.sitoctt.octt.eu.org/fr/categories/Ecologie/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/fr/categories/Ecologie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Frit-Mélangé</title>
-      <link>http://http.sitoctt.octt.eu.org/fr/categories/Frit-M%C3%A9lang%C3%A9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/fr/categories/Frit-M%C3%A9lang%C3%A9/</guid>
       <description></description>
     </item>
   </channel>

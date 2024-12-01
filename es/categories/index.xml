@@ -6,12 +6,40 @@
     <description>Recent content in Categories on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta</title>
+      <link>http://http.sitoctt.octt.eu.org/es/categories/Meta/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/categories/Meta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tecnología</title>
+      <link>http://http.sitoctt.octt.eu.org/es/categories/Tecnolog%C3%ADa/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/categories/Tecnolog%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frito-Mixto</title>
+      <link>http://http.sitoctt.octt.eu.org/es/categories/Frito-Mixto/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/categories/Frito-Mixto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>http://http.sitoctt.octt.eu.org/es/categories/Internet/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/categories/Internet/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Juegos</title>
       <link>http://http.sitoctt.octt.eu.org/es/categories/Juegos/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/es/categories/Juegos/</guid>
       <description></description>
     </item>
@@ -20,20 +48,6 @@
       <link>http://http.sitoctt.octt.eu.org/es/categories/Linux/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/es/categories/Linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>http://http.sitoctt.octt.eu.org/es/categories/Internet/</link>
-      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/es/categories/Internet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meta</title>
-      <link>http://http.sitoctt.octt.eu.org/es/categories/Meta/</link>
-      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/es/categories/Meta/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +62,6 @@
       <link>http://http.sitoctt.octt.eu.org/es/categories/DIY/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/es/categories/DIY/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tecnología</title>
-      <link>http://http.sitoctt.octt.eu.org/es/categories/Tecnolog%C3%ADa/</link>
-      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/es/categories/Tecnolog%C3%ADa/</guid>
       <description></description>
     </item>
     <item>
@@ -104,13 +111,6 @@
       <link>http://http.sitoctt.octt.eu.org/es/categories/M%C3%B3vil/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/es/categories/M%C3%B3vil/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Frito-Mixto</title>
-      <link>http://http.sitoctt.octt.eu.org/es/categories/Frito-Mixto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/es/categories/Frito-Mixto/</guid>
       <description></description>
     </item>
   </channel>
