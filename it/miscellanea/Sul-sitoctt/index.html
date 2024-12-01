@@ -29,7 +29,10 @@
 .Pixelated, .Pixelated * { image-rendering: pixelated; }
 </style>
 
-    <script> window.sitoctt = {}; window.Void = (function Void(){}); </script>
+    <script>
+window.sitoctt = {};
+window.Void = (function Void(){});window.sitoctt.Props = JSON.parse("{\"GitBranchAssets\":\"main\",\"GitBranchThis\":\"sitoctt-next\",\"GitInstanceUrl\":\"https://gitlab.com\",\"GitRepoAssets\":\"octtspacc/sitoctt-assets\",\"GitRepoThis\":\"octtspacc/sitoctt\"}");window.sitoctt.localStorage = (function localStorage(key, value){ return SpaccDotWeb.LocalStorage('org.eu.octt.sitoctt', key, value); });
+</script>
 <script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
 <script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
 <script src="http://http.sitoctt.octt.eu.org/it/searchindex.js"></script>
@@ -71,7 +74,7 @@
 ✨sitoctt✨ ✨sitoctt✨ ✨sitoctt✨ Da dove viene il nome ✨sitoctt✨? Dal fatto che è letteralmente il mio sito, perchè io sono octt e quindi sito &#43; octt = ✨sitoctt✨ (pronuncia: “sitòctt”).">
   <meta itemprop="datePublished" content="2024-08-25T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-25T00:00:00+00:00">
-  <meta itemprop="wordCount" content="1160">
+  <meta itemprop="wordCount" content="1814">
   <meta itemprop="keywords" content="Meta">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sul sitoctt">
@@ -222,8 +225,8 @@
 
       
       
-        <span> - 6 minuti di lettura </span>
-        <span> - 1160 parole </span>
+        <span> - 9 minuti di lettura </span>
+        <span> - 1814 parole </span>
       
       </div>
       
@@ -337,8 +340,10 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
 <del>Inoltre, se usi una qualunque piattaforma del <b>Fediverso ActivityPub</b> (Mastodon, Pleroma, Misskey, ...) puoi seguire il bot del sitoctt, così da ricevere nel tuo feed Home i nuovi post: <a href="https://botsin.space/@sitoctt" rel="me noopener" target="_blank">@sitoctt@botsin.space</a>!</del> Per alcune complicazioni iniziate a fine agosto 2022, il bot non è accessibile dalla più grande istanza Mastodon italiana, <i>mastodon.uno</i>, quindi è quasi praticamente inutile ora. Non lo tolgo di mezzo solo perché mi costerebbe di più fare ciò che lasciarlo dov'è <b>:P</b>; comunque ne dovrei creare uno nuovo, prima o poi.
 </p>
 <h2 id="sorgenti-e-licenze">Sorgenti e licenze</h2>
-<h3 id="licenze-dei-contenuti">Licenze dei contenuti</h3>
-<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/CC.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/BY.svg"/> <img <="" class="i1em" span="" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
+<p>Vai a <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/">&quot;🔓️ Open Source&quot;</a>.</p>
+<del>
+### Licenze dei contenuti
+<p>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/CC.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/BY.svg"/> <img class="i1em" src="https://sitoctt-assets.octt.eu.org/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.</p>
 <p>Sono presenti, però, anche contenuti non miei.<br/>In ogni caso, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino. <br/>Per la roba presa in prestito, invece, verrà sempre indicata la fonte da cui ho prelevato e la licenza, che sia questa di dominio pubblico, Creative Commons, o non specificata.<br/>Occhio, che i crediti per le cosine HTML e CSS spesso li lascio soltanto nei sorgenti della pagina.. Quindi, in caso, controlla lì per questo genere di crediti. Per cose come immagini o testi, invece, spesso eventuali crediti sono parte visibile della pagina, vicini all'oggetto preso in prestito (come una descrizione); altre volte, lo stesso oggetto è un link che, se cliccato, riporta alla fonte.<br/>Comunque, ho pensato di creare una sezione della pagina <a href="#-Crediti-speciali">qui sotto</a>, dedicata a crediti speciali (che compilo quando mi ricordo).</p>
 <h3 id="codice-sorgente">Codice sorgente</h3>
 <p>Parlando dei sorgenti del sito, quelli HTML dell'effettiva pagina caricata dal browser potrebbero essere difficili da leggere. Questo è perché in realtà non scrivo direttamente l'HTML completo per comporre le pagine.<br/>Non solo sarebbe un casino replicare le mie varie barre e sezioni di navigazione su tutte le pagine, e se devo fare modifiche a queste poi è un inferno replicare la cosa ovunque, ma la sintassi HTML è sporca e faticosa da scrivere.</p>
@@ -363,6 +368,7 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
 </ul>
 </div>
 </details>
+</del>
 <h2 id="riservatezza-e-trasparenza">Riservatezza e trasparenza</h2>
 <p>In quanto mio interesse legittimo, in questo sito web utilizzo un servizio di analitica; sia per poter migliorare ciò che faccio, che per soddisfare la mia pura curiosità di scoprire dati.</p>
 <p>Il servizio di analitica è basato su software completamente <a href="https://github.com/arp242/goatcounter/blob/master/LICENSE" rel="noopener" target="_blank">libero ed open-source</a>, ospitato gratuitamente per siti a basso traffico da <b>GoatCounter.com</b>.</p>
@@ -426,7 +432,6 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
     </li>
     <li><a href="#sorgenti-e-licenze">Sorgenti e licenze</a>
       <ul>
-        <li><a href="#licenze-dei-contenuti">Licenze dei contenuti</a></li>
         <li><a href="#codice-sorgente">Codice sorgente</a>
           <ul>
             <li><a href="#prendi-tutto">Prendi tutto!</a></li>
@@ -484,7 +489,7 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
   <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707; z-index:9;">⬆️</a>
   <p id="--editor-buttons" class="white tr" style="display: none;">
-    📝️ Edit <span class="f7"></span> <button name="this">Current Page</button> <button name="custom">Custom File</button>
+    📝️ Edit <span class="f7"></span> <button name="pin">📌️</button> <button name="this">Current File 🖋️</button> <button name="custom">Custom Path 🖍️</button>
   </p>
   <div class="flex justify-between">
   <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/it/" >
@@ -498,7 +503,7 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
   </div>
   <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
   <div class="white pv3 tc"><div data-group="10-site"><h4>Riguardo questo sito</h4>
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&amp;title=%E2%9C%A8sitoctt%E2%9C%A8&amp;href=https://sitoctt.octt.eu.org&amp;creator=OctoSpacc" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
 
 
 
@@ -526,7 +531,7 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
 
 
 
-  <a href="https://sitoctt.octt.eu.org/sitoctt-offline.zip" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+  <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/#archivi-offline" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
 
 
 </div><div data-group="20-me"><h4>Io e la mia essenza</h4>

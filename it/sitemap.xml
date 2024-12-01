@@ -2,8 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Meta/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Meta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/Meta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Meta/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</loc>
+    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/blog/2024-10-26-Orologi-che-non-segnano-lora-il-caso-della-Mi-Band/</loc>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/blog/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,28 +98,37 @@
                 href="http://http.sitoctt.octt.eu.org/it/blog/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Tecnologia/</loc>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/Music-Collection/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/Colecci%C3%B3n-de-m%C3%BAsica/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-musicale/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/"
                 />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Separatori/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Fritto-Misto/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Gaming/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
@@ -88,32 +170,6 @@
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Tecnologia-Mista/</loc>
-    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/</loc>
-    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Tecnologia/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/</loc>
@@ -278,24 +334,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Siti-Internet/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Meta/</loc>
-    <lastmod>2024-08-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Meta/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/Meta/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Meta/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Sul-sitoctt/</loc>
@@ -1363,28 +1401,6 @@
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/A-Hat-in-Time/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/miscellanea/Music-Collection/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/miscellanea/Colecci%C3%B3n-de-m%C3%BAsica/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-musicale/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/"
-                />
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Splatoon/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1452,8 +1468,6 @@
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/Carte-QR/"
                 />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Fritto-Misto/</loc>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Cose-a-Caso/</loc>
     <xhtml:link

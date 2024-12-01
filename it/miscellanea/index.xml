@@ -6,8 +6,36 @@
     <description>Recent content in Miscellanea🪁️ on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/it/miscellanea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📄 Copie del Sito</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/</guid>
+      <description>Oltre alla versione &amp;ldquo;normale&amp;rdquo; del sito, cioè servita dagli indirizzi web ufficiali, il sitoctt è disponibile sotto forma di copie: archivi e mirror, in linea e offline. Possono essere utili per consultare il sito qualora questo dovesse in qualche momento andare giù, o si voglia per qualche motivo far riferimento ad un suo stato congelato nel passato.&#xA;Archivi Offline A parte il codice sorgente disponibile, che può essere archiviato e riutilizzato da chiunque ne abbia le competenze per rigenerare le pagine dalle loro parti essenziali, il sito è progettato per poter essere agevolmente accessibile a tutti senza dipendere dal mio server.</description>
+    </item>
+    <item>
+      <title>🔓️ Open Source</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</guid>
+      <description>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza &amp;ldquo;Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale&amp;rdquo; (CC BY-SA 4.0) ( ), una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell&amp;rsquo;umanità in generale.&#xA;Sono presenti, però, anche contenuti non miei.&#xA;In genere, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino.</description>
+    </item>
+    <item>
+      <title>🎶 Raccolta Musica</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/</guid>
+      <description>Questa pagina è dedicata a raccogliere varia musica che mi piace; un po&amp;rsquo; per la mia personale goduria, ma anche perché, forse, così ho direttamente un singolo link da dare a giro, quando qualcuno mi chiede &amp;ldquo;che musica ascolti?&amp;rdquo; senza avere la minima idea di cosa potrebbe mai andare incontro. 🥁️&#xA;La divisione principale è per artisti e gruppi che complessivamente mi piacciono, e poi per singoli album sparsi, di musicisti che nel totale non saprei o che sono direttamente creati da più artisti.</description>
+    </item>
+    <item>
+      <title>🚧️ Raccolta Separatori</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Separatori/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Separatori/</guid>
+      <description>Per dei &amp;ldquo;separatori&amp;rdquo; talmente preziosi da meritare una pagina intera non intendo quelli delle cifre decimali&amp;hellip; bensì più in generale un tipo di elemento grafico che serve, come dice il nome, a creare una divisione tra più elementi non di per sé molto distinti, bilanciando il posizionamento dei contenuti con un qualcosa che crea del vuoto riempiendolo.&#xA;Nel nostro mondo reale, anziché quello ideale dei miei scritti, questo significa in sostanza: sticker sottili per le app di messaggistica ad uso di broadcasting (come i canali Telegram), composizioni con testo Unicode che vanno a creare lineette particolari per il testo in qualche pagina, ma anche i ghirigori che facevate sul quaderno di matematica delle elementari tra un esercizio e un altro.</description>
+    </item>
     <item>
       <title>📡️ Raccolta Tecnologia Mista</title>
       <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Tecnologia-Mista/</link>
@@ -56,13 +84,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Archivi-PicoBlog/</guid>
       <description>Come annunciato nell&amp;rsquo;articolo &amp;ldquo;🎇 Il resocontoctt di questo 2023, almeno in termini di posting!&amp;rdquo;, il PicoBlog è ora deprecato, e non verrà più aggiornato. Quello che segue è l&amp;rsquo;archivio dei vecchi contenuti, che rimarrà leggibile. I nuovi post verranno quindi pubblicati sul Nuovo MicroBlog unificato, raggiungibile dal menu del sito.&#xA;Stai avventurandoti in una sezione forse effimera del sitocto, ma che comunque, se esiste, vuol dire che ho pensato che ci debba stare lo stesso.</description>
-    </item>
-    <item>
-      <title>🎶 Raccolta Musica</title>
-      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Musica/</guid>
-      <description>In costruzione&amp;hellip;&#xA;Macross 82-99&#xA;Principalmente musica del filone future-funk, sottogenere della vaporwave con un timbro più ritmato e carino. Ogni album ha dei temi sonori diversi, con rimandi alla cultura pop giapponese degli anni &amp;lsquo;80 e &amp;lsquo;90. Bene o male tutte le sue canzoni riescono ad essere molto calme e rilassanti.&#xA;• SoundCloud, YouTube, Bandcamp, Archive.org&#xA;Moe Shop&#xA;Canzoni per la maggiore vivaci, con un&amp;rsquo;atmosfera, per così dire, anime. Le copertine degli album penso si sposino parecchio bene con la sua musica.</description>
     </item>
     <item>
       <title>💾 Archivi Devlogs</title>

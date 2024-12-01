@@ -1,24 +1,32 @@
-(function(){
+(function(){ // TODO error handling, caching, support GitHub and Gitea
+
+const auth = { ...sitoctt.Props, ...sitoctt.localStorage('gitAuth') };
+const editorData = {};
+let editorHandler;
+let currentFilePath = `content/${document.documentElement.lang}/${document.documentElement.dataset.sourceFilePath}`;
 
 const editorId = '--markdown-editor';
 const resetFileMessage = 'Reset File to Latest from Git';
 const gitPushMessage = 'Commit and Push changes to Git';
 
-// TODO configure this and access token via HTML form
-const G = {
-	instance: 'https://gitlab.com',
-	repo: 'octtspacc/sitoctt',
-	branch: 'sitoctt-next',
-};
+const gitApiUrl = (filePath) => `${auth.GitInstanceUrl}/api/v4/projects/${encodeURIComponent(auth.GitRepoThis)}/repository/files/${encodeURIComponent(filePath)}`;
 
-const editorData = {
-	currentFilePath: `content/${document.documentElement.lang}/${document.documentElement.dataset.sourceFilePath}`,
-};
-let editorHandler;
+const gitReadFile = async (filePath) => (await (await fetch(`${gitApiUrl(filePath)}/raw?ref=${auth.GitBranchThis}`)).text());
 
-const gitReadFile = async (filePath) => (await (await fetch(`${G.instance}/api/v4/projects/${encodeURIComponent(G.repo)}/repository/files/${encodeURIComponent(filePath)}/raw?ref=${G.branch}`)).text());
-
-const gitPushFile = (filePath, fileContent) => null; // TODO
+const gitPushFile = (filePath, fileContent, commitMessage) => fetch(gitApiUrl(filePath), {
+	method: "PUT",
+	headers: { "PRIVATE-TOKEN": auth.GitToken, "Content-Type": "application/json" },
+	body: JSON.stringify({
+		"id": auth.GitRepoThis,
+		"branch": auth.GitBranchThis,
+		"file_path": encodeURIComponent(filePath),
+		"content": fileContent,
+		"commit_message": commitMessage,
+	}),
+}).catch(err => {
+	console.error(err);
+	alert(err);
+});
 
 const readPageFile = async (filePath) => { // TODO read cached file in localStorage, but not when a newer one is on git
 	//if (!filePath) {
@@ -29,7 +37,7 @@ const readPageFile = async (filePath) => { // TODO read cached file in localStor
 
 const cachePageFile = async (filePath, fileContent) => null; // TODO write to localStorage, trigger on any text input
 
-const displayCurrentFile = () => document.querySelector('#--editor-buttons').querySelector('span').innerHTML = `(<code>${editorData.currentFilePath}</code>)`;
+const displayCurrentFile = () => document.querySelector('#--editor-buttons').querySelector('span').innerHTML = `(<code>${currentFilePath}</code>)`;
 
 editorData.close = () => {
 	const editorEl = document.querySelector(`#${editorId}`);
@@ -38,7 +46,7 @@ editorData.close = () => {
 	document.body.style.overflow = null;
 };
 
-editorData.setup = async (/*filePath*/) => {
+editorData.setup = async () => {
 	if (editorHandler) {
 		return;
 	}
@@ -78,6 +86,16 @@ editorData.setup = async (/*filePath*/) => {
 		#${editorId} .toastui-editor-toolbar-divider {
 			display: none;
 		}
+
+		#--editor-buttons[data-pin="1"] {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			z-index: 9;
+			margin: 1em;
+			padding: 1em;
+			background-color: black;
+		}
 	` }));
 
 	document.head.appendChild(Object.assign(document.createElement('link'), {
@@ -96,20 +114,21 @@ editorData.setup = async (/*filePath*/) => {
 		previewStyle: 'tab',
 		hideModeSwitch: true,
 		usageStatistics: false,
-		initialValue: (await readPageFile(editorData.currentFilePath)),
+		initialValue: (await readPageFile(currentFilePath)),
 	});
 
 	editorHandler.addCommand('markdown', 'closeEditor', editorData.close);
 
 	editorHandler.addCommand('markdown', 'resetFile', (() => { // TODO re-pull page source from git
 		if (confirm(`${resetFileMessage}?`)) {
-			gitReadFile(editorData.currentFilePath);
+			gitReadFile(currentFilePath);
 		}
 	}));
 
 	editorHandler.addCommand('markdown', 'gitPush', (() => {
-		if (confirm(`${gitPushMessage}?`)) {
-			gitPushFile(editorData.currentFilePath);
+		const message = prompt(`${gitPushMessage} with Message?`, `Update ${currentFilePath}`);
+		if (message) {
+			gitPushFile(currentFilePath, editorHandler.getMarkdown(), message);
 		}
 	}));
 
@@ -147,21 +166,26 @@ editorData.setupButtons = () => {
 	displayCurrentFile();
 	buttonsEl.querySelector('[name="this"]').onclick = editorData.open;
 	buttonsEl.querySelector('[name="custom"]').onclick = (async () => {
-		const filePath = prompt(`Path of custom File?`);
+		const filePath = prompt(`Path of custom File?`, currentFilePath);
 		if (filePath) {
-			await editorData.setup(/*filePath*/);
-			const fileContent = await readPageFile(editorData.currentFilePath = filePath);
+			await editorData.setup();
+			const fileContent = await readPageFile(currentFilePath = filePath);
 			displayCurrentFile();
 			editorHandler.setMarkdown(fileContent);
 			await editorData.open();
 		}
 	});
+	buttonsEl.querySelector('[name="pin"]').onclick = () => {
+		sitoctt.localStorage('editorButtons.pin',
+			(buttonsEl.dataset.pin = Number(!Number(buttonsEl.dataset.pin))));
+	};
+	buttonsEl.dataset.pin = sitoctt.localStorage('editorButtons.pin');
 	buttonsEl.style.display = null;
 	delete editorData.setupButtons;
 };
 
 editorData.open = async () => {
-	await editorData.setup(/*filePath*/);
+	await editorData.setup();
 	const editorEl = document.querySelector(`#${editorId}`);
 	editorEl.style.display = 'block';
 	editorEl.hidden = false;
@@ -170,7 +194,7 @@ editorData.open = async () => {
 
 window.sitoctt.markdownEditor = editorData;
 
-if (false) { // TODO show edit page button and presetup editor if localStorage contains token
+if (auth.GitToken) {
 	window.addEventListener('load', editorData.setup);
 }
 
