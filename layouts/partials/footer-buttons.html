@@ -1,3 +1,4 @@
+{{- $context := . -}}
 {{- $language := (string .Language) -}}
 {{- with resources.Get "ButtonBadges.toml" -}}
   {{- with . | transform.Unmarshal -}}
@@ -7,7 +8,7 @@
           {{- $src := .src -}}
           {{- if (or .file .src) -}}
             {{- if $src -}}
-              {{ $src = (partial "functions/ParseFileUrl.html" $src) }}
+              {{- $src = (partial "functions/ParseFileUrl.html" $src) -}}
             {{- end -}}
             {{- $newprops := (dict
               "decoding" "async"
@@ -20,7 +21,7 @@
                 "rel" "nofollow noopener"
                 "target" "_blank")) -}}
             {{- end -}}
-            {{ partial "ImgButton.html" (merge . $newprops) }}
+            {{ partial "ImgButton.html" (merge . $newprops (dict "Context" $context)) }}
           {{- else -}}
             <h4>{{ partial "functions/FromLanguageObject.html" (dict "Object" .title "Language" $language) }}</h4>
           {{- end -}}

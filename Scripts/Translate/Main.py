@@ -15,7 +15,7 @@ from translate_shell.translate import translate
 # TODO handle deleted files? (it should probably be done in another sh script, not here)
 
 def printf(*objects):
-	print(*objects, end='')
+	print(*objects, end='', flush=True)
 
 def get_source_language(document_path):
 	return document_path.split('/')[0]
@@ -30,7 +30,7 @@ def make_destination_path(document_path, destination_language):
 def is_translation_uptodate(source_path, destination_path):
 	original_lines = split_with_frontmatter(read_original_document(source_path))[1].splitlines()
 	translated_lines = split_with_frontmatter(open(destination_path, 'r').read())[1].splitlines()
-	for [index, original_line] in enumerate(original_lines):
+	for [index, original_line] in enumerate(original_lines[:len(translated_lines)]):
 		line_key = original_line.split('=')[0]
 		if line_key.strip().lower() == ModificationMetadataKey:
 			if original_line != translated_lines[index]:
@@ -58,6 +58,7 @@ def find_documents(folder_path):
 		if isfile(document_path):
 			documents_queue.append('/'.join(str(document_path).split('/')[2:]))
 	for document in documents_queue:
+		print(f"* {document},", flush=True)
 		if needs_translation(document):
 			documents[document] = []
 			for destination_language in list(set(DestinationLanguages) - {get_source_language(document)}):
@@ -102,22 +103,17 @@ def number_to_ascii(number:int) -> str:
 # TODO handle code blocks and .notranslate HTML elements
 # TODO fix strange bugs
 def wrap_for_translation(original_text):
-	#return original_text
 	original_text = (original_text
 		.replace("{{%", "{{@%").replace("%}}", "%@}}")
 		.replace("{{<", "{{@<").replace(">}}", ">@}}"))
 	original_tokens = original_text.split("{{@")
-	#[(("{{@" if i else '') + c) for [i, c] in enumerate(original_text.split("{{@"))]
 	for i in range(1, len(original_tokens)):
 		token_tokens = original_tokens[i].split("@}}")
 		token_tokens[0] = (f"{TranslationMagic}__" + str(ascii_to_number("{{@" + token_tokens[0] + "@}}")) + "__").replace("9", "9_")
 		original_tokens[i] = ''.join(token_tokens)
-	#print(unwrap_from_translation(''.join(original_tokens)))
-	#exit(1)
 	return ''.join(original_tokens)
 
 def unwrap_from_translation(translated_text):
-	#return translated_text
 	translated_tokens = translated_text.split(f"{TranslationMagic}__")
 	for i in range(1, len(translated_tokens)):
 		token_tokens = translated_tokens[i].split("__")

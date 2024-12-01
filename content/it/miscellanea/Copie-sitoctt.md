@@ -8,7 +8,7 @@ Oltre alla versione "normale" del sito, cioè servita dagli indirizzi web uffici
 
 ## Archivi Offline
 
-A parte [il codice sorgente disponibile]({{< relref "/miscellanea/Open-Source-sitoctt/" >}}), che può essere archiviato e riutilizzato da chiunque ne abbia le competenze per rigenerare le pagine dalle loro parti essenziali, il sito è progettato per poter essere agevolmente accessibile a tutti senza dipendere dal mio server.
+A parte [il codice sorgente disponibile]({{< relref "/miscellanea/Open-Source-sitoctt/#repository" >}}), che può essere archiviato e riutilizzato da chiunque ne abbia le competenze per rigenerare le pagine dalle loro parti essenziali, il sito è progettato per poter essere agevolmente accessibile a tutti senza dipendere dal mio server.
 
 Senza bisogno di strumenti speciali (come ne esistono per clonare qualsiasi sito web), è possibile scaricare una copia precompilata di tutti i file del sito in formato di cartella ZIP, altamente compatibile con qualsiasi sistema. Basta scaricare una delle varianti di seguito, scompattare l'intero archivio, ed aprire `index.html` (o qualsiasi altro file HTML) con il browser per navigare offline.
 
@@ -23,7 +23,7 @@ Il sitoctt non è escluso dall'archivio più grosso al mondo, la _Wayback Machin
 
 Esistono inoltre in giro archivi privati o aperti al pubblico, che potrebbero ospitare anche copie del mio sito. Non ne conosco nessuno, quindi consiglio di esercitare la giusta cautela nel consultarli, casomai dovessero uscirne fuori alcuni.
 
-Chiunque voglia mettere a disposizione una copia del sitoctt su un proprio server può tranquillamente farlo, senza chiedermi esplicito permesso, secondo i termini della licenza; chiedo soltanto che si renda chiaro si tratti di copie (con banner o simili inseriti sulle pagine), e che non si alterino i cosidetti "link canonical" nelle pagine HTML (`<link rel="canonical" ... />`, tag usati dai motori di ricerca per determinare la fonte dei contenuti).
+Chiunque voglia mettere a disposizione una copia del sitoctt su un proprio server può tranquillamente farlo, senza chiedermi esplicito permesso, [secondo i termini della licenza]({{< relref "/miscellanea/Open-Source-sitoctt/" >}}); chiedo soltanto che si renda chiaro si tratti di copie (con banner o simili inseriti sulle pagine), e che non si alterino i cosidetti "link canonical" nelle pagine HTML (`<link rel="canonical" ... />`, tag usati dai motori di ricerca per determinare la fonte dei contenuti).
 
 ## Domini Alternativi
 

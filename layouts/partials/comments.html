@@ -1,18 +1,20 @@
-{{ $repo := "octospacc/sitoctt" }}
-{{ $repoId := "R_kgDOHbCR4A" }}
-{{ $category := "Comments" }}
-{{ $categoryId := "DIC_kwDOHbCR4M4CiAIZ" }}
-{{ $theme := "noborder_light" }}
+{{- $repo := "octospacc/sitoctt" -}}
+{{- $repoId := "R_kgDOHbCR4A" -}}
+{{- $category := "Comments" -}}
+{{- $categoryId := "DIC_kwDOHbCR4M4CiAIZ" -}}
+{{- $theme := "noborder_light" -}}
+{{- $slug := printf "all/%s" (delimit (after 2 (split .RelPermalink "/")) "/") -}}
 <iframe class="GiscusFallback"
         style="width: 100%; box-sizing: border-box; height: 100vh;"
-        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl={{ .Site.BaseURL }}&pageSlug={{ .RelPermalink }}&theme={{ $theme }}&repo={{ $repo }}&repoId={{ $repoId }}&category={{ $category }}&categoryId={{ $categoryId }}"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl={{ .Site.BaseURL }}&pageSlug={{ $slug }}&theme={{ $theme }}&repo={{ $repo }}&repoId={{ $repoId }}&category={{ $category }}&categoryId={{ $categoryId }}"
 ></iframe>
 <script src="https://giscus.app/client.js"
         data-repo="{{ $repo }}"
         data-repo-id="{{ $repoId }}"
         data-category="{{ $category }}"
         data-category-id="{{ $categoryId }}"
-        data-mapping="pathname"
+        data-term="{{ $slug }}"
+        data-mapping="specific"
         data-strict="1"
         data-reactions-enabled="1"
         data-emit-metadata="0"
