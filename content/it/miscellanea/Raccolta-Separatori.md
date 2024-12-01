@@ -15,6 +15,7 @@ Com'è che pure i bambini di 5 anni usano i separatori (e non lo sanno!), ma qui
 Pacchetti bellini:
 
 * _Spacc Inc. Separatori_: https://t.me/addstickers/Separatori0 (questi li ho creati io per Spacc Inc.!)
+* _Separators_ di @uranioh: https://t.me/addstickers/Separators
 * _Separatori - by DonyDeBa_: https://combot.org/stickers/separatoriddb
 * _Separatori belli_: https://t.me/addstickers/MySeparatori
 * _Saperators and Dividers_: https://fullyst.com/sticker_set/ult_Saperators_and_Dividers299247_by_UriBaba_bot

@@ -1,7 +1,7 @@
 +++
 Title = "🔓️ Open Source"
-Categories = [ "Fritto-Misto" ]
-Lastmod = 2024-10-22
+Categories = [ "Meta" ]
+Lastmod = 2024-11-05
 +++
 
 Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt.eu.org&creator=OctoSpacc" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/CC.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/BY.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.
@@ -18,7 +18,35 @@ Tutti i sorgenti del sito sono scaricabili dalle rispettive repo Git (GitLab.com
 * Principale: https://gitlab.com/octtspacc/sitoctt
 * Media: https://gitlab.com/octtspacc/sitoctt-assets
 
-Mirrors, sempre presenti nel caso succeda qualche _patatrac_ alle repository principali:
+Alcuni mirror aggiornati, sempre presenti nel caso succeda qualche _patatrac_ alle repository principali:
 * GitHub: https://github.com/octospacc/sitoctt, https://github.com/octospacc/sitoctt-assets
 * Gitea.it: https://gitea.it/octospacc/sitoctt, https://gitea.it/octospacc/sitoctt-assets
 
+## Struttura dei sorgenti
+
+Il repository secondario serve solo per accumulare file multimediali che embeddo sul sito (sia nelle pagine, che nel layout), eventuali download, e così via. Non è strutturato in branch multipli e i commit sono irrilevanti.
+
+Il repository principale è strutturato secondo questi rami (branch):
+
+#### `sitoctt-next` (principale)
+
+Questo è il branch oggi impostato come predefinito, che ospita i file principali del sito, da quando questo è stato migrato al generatore di siti statici Hugo:
+
+* Sorgenti di pagine e post (principalmente in formato Markdown)
+* Sorgenti del layout delle pagine, quindi template HTML con sintassi Go e fogli di stile CSS
+* Altri elementi di base delle pagine, come script lato client e piccole icone
+* Script molto custom per ogni fase del processo di compilazione del sito: ottenimento delle dipedenze, compilazione delle pagine, sincronizzazione di dati esterni, ecc...
+
+#### `sitoctt-old` (vecchio `main`)
+
+Era il ramo principale del sito prima della migrazione ad Hugo, quando questo era ancora gestito dal mio generatore, staticoso.
+
+La struttura generalizzata è uguale a quella di oggi, ma ovviamente le cartelle e i file erano un po' diversi.
+
+#### `translate-cache`
+
+Ramo dove conservo le versioni automaticamente tradotte di varie pagine e post del sito. Sono conservate separatamente perché sono file rigenerabili in ogni momento, e non ha senso quindi che sporchino la cronologia di commit effettivi del sito. Però, vanno conservati, perché generarli tutti da zero ad ogni compilazione del sito richiederebbe ore...
+
+#### `requirements-cache`
+
+Branch che uso un po' come deposito per varie dipendenze di build o di runtime del sito, visto che alcune sono estremamente fragili ed altre magari è semplicemente conveniente backupparle. Ma freca poco.

@@ -139,7 +139,7 @@ Alla fine non è più ospitato in casa mia, ma forse è meglio così, è un cari
 
 ## Sorgenti e licenze
 
-Vai a ["🔓️ Open Source"]({{< relref "/miscellanea/Open-Source/" >}}).
+Vai a ["🔓️ Open Source"]({{< relref "/miscellanea/Open-Source-sitoctt/" >}}).
 
 <del>
 ### Licenze dei contenuti
