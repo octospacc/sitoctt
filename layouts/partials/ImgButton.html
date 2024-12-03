@@ -1,3 +1,4 @@
+{{- $extended := (eq .Context.Params.extended true) -}}
 {{- $size := (or .size "88x31") -}}
 {{- $sizes := (split $size "x") -}}
 {{- $alt := (or (and .alt (printf "[%s]" .alt)) "") -}}
@@ -18,10 +19,15 @@
   (index $sizes 0) (index $sizes 1)
   (or .decoding "async")
 ) | safeHTML -}}
-{{ if .href }}
-  {{ partial "anchor.html" (dict
-    "Inner" $img
-    "Params" .) }}
-{{ else }}
-  {{ $img }}
-{{ end }}
+{{- $html := $img -}}
+{{- if $extended -}}
+  {{- $html = (printf "%s <span>%s</span>" $img .alt) | safeHTML -}}
+{{- end -}}
+{{- if .href -}}
+  {{- $html = (partial "anchor.html" (dict
+    "Inner" $html
+    "Params" .)) -}}
+{{- end -}}
+{{ if $extended }}<li>{{ end }}
+{{ $html }}
+{{ if $extended }}</li>{{ end }}

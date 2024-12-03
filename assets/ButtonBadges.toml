@@ -67,6 +67,11 @@ alt = "Download Offline Version"
 file = "OFF-LINE-VERSION.png"
 href = "/miscellanea/Copie-sitoctt/#archivi-offline"
 
+[[10-site]]
+alt = "Written by Human, not by AI"
+file = "written-by-human-not-by-ai-white.svg"
+href = "https://notbyai.fyi"
+
 #######################################
 
 [[20-me]]
@@ -183,4 +188,136 @@ file = "Powered-by-THE-VOID.png"
 [[30-thanks]]
 alt = "Powered by Bob"
 file = "POWERED-BY-bob.gif"
+
+#######################################
+
+[[50-fun]]
+alt = "Internet Archive"
+file = "Sites/Internet-Archive.png"
+href = "https://archive.org"
+spam = true
+
+[[50-fun]]
+alt = "Wikipedia"
+file = "Sites/Wikipedia.png"
+href = "https://www.wikipedia.org"
+title = "hu:User:Boro, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"
+linkback = "https://commons.wikimedia.org/wiki/File:Wikipedia-microbar-hu.png"
+spam = true
+
+[[50-fun]]
+alt = "Firefox"
+file = "Firefox-Modern.png"
+href = "https://www.mozilla.org/it/firefox"
+spam = true
+
+[[50-fun]]
+alt = "The Onion Router"
+file = "Tor.png"
+href = "https://www.torproject.org/it"
+spam = true
+
+[[50-fun]]
+alt = "uBlock Origin Now!"
+file = "uBlock-Origin-Now.png"
+href = "https://ublockorigin.com"
+spam = true
+
+# Linux Now badge with Xenia the Linux Fox made by Volt: https://meow.social/@voltbun/109600348286574222
+[[50-fun]]
+alt = "Linux Now!"
+file = "Linux-NOW-Xenia.png"
+href = "https://kernel.org"
+spam = true
+
+[[50-fun]]
+alt = "Use Linux Online"
+file = "Linux-Online.png"
+href = "https://www.onworks.net"
+spam = true
+
+[[50-fun]]
+alt = "Haiku OS Now!"
+file = "HAIKU-NOW.png"
+href = "https://www.haiku-os.org"
+spam = true
+
+[[50-fun]]
+alt = "Join the Fediverse!!!"
+file = "Join-the-Fediverse.gif"
+href = "https://jointhefediverse.net"
+spam = true
+
+[[50-fun]]
+alt = "matrix"
+file = "matrix.png"
+href = "https://matrix.org"
+spam = true
+
+[[50-fun]]
+alt = "VOCALOID Now!"
+file = "VOCALOID-Now.png"
+href = "https://www.vocaloid.com"
+spam = true
+
+#######################################
+
+[[60-fun]]
+alt = "ISO 8601 now!"
+file = "ISO-8601-now.png"
+href = "https://www.w3.org/QA/Tips/iso-date"
+spam = true
+
+[[60-fun]]
+alt = "I support net neutrality"
+file = "I-SUPPORT-NET-NEUTRALITY.png"
+href = "https://en.wikipedia.org/wiki/Net_neutrality"
+spam = true
+
+[[60-fun]]
+alt = "I support right to repair"
+file = "I-SUPPORT-RIGHT-TO-REPAIR.png"
+href = "https://en.wikipedia.org/wiki/Right_to_repair"
+spam = true
+
+[[60-fun]]
+alt = "Trans Your Gender"
+file = "TRANS-YOUR-GENDER.gif"
+
+[[60-fun]]
+alt = "Ban Porn"
+file = "BAN-PORN.png"
+
+[[60-fun]]
+alt = "Defective by Design"
+file = "DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp"
+href = "https://www.defectivebydesign.org"
+spam = true
+
+[[60-fun]]
+alt = "Illegal number"
+file = "aacs.2925462440.png"
+href = "https://en.wikipedia.org/wiki/Illegal_number"
+spam = true
+
+[[60-fun]]
+alt = "Piracy Now!"
+file = "Piracy-Now.png"
+href = "https://fmhy.pages.dev"
+spam = true
+
+[[60-fun]]
+alt = "Sharing is caring, seed your torrents"
+file = "Sharing-is-caring-seed-your-torrents.gif"
+
+# “Emulate Now!” badge from Neon with a Zero on Tumblr: https://ne0nwithazero.tumblr.com/post/702936474323206144
+[[60-fun]]
+alt = "Emulate Now!"
+file = "Emulate-Now.png"
+href = "https://rentry.org/emulation"
+spam = true
+
+[[60-fun]]
+alt = "Campaign against iFrames!"
+file = "Campaign-against-FRAMES.gif"
 

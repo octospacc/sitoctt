@@ -3,7 +3,12 @@ ModificationMetadataKey = "lastmod"
 KeepOriginalMetadata = ["draft", "date", "lastmod"]
 DestinationLanguages = ["it", "en", "es", "fr"] # "de", "eo"
 IncludePaths = ["/"]
-ExcludePaths = ["/note/2024-09-19-Raspberry-Output-Audio-Both.md", "/miscellanea/Devlogs.md", "/admin.md"] # "/miscellanea/PicoBlog.md"
+ExcludePaths = ["/miscellanea/Devlogs.md", "/admin.md"] # "/miscellanea/PicoBlog.md"
+TranslationFixes = {
+	"{{<assetsRoot>}}_/": "{{< assetsRoot>}}/",
+	"{{< assetsRoot >}}_/": "{{< assetsRoot >}}/",
+	"  ```  _": "  ```  ",
+}
 
 import subprocess
 from os import getcwd, listdir
@@ -100,16 +105,18 @@ def number_to_ascii(number:int) -> str:
 	return ''.join(chr(int(binary[(i * 8):((i * 8) + 8)], 2)) for i in range(len(binary) // 8))
 
 # TODO add checks for number-strings to ensure they aren't already in the literal text
-# TODO handle code blocks and .notranslate HTML elements
-# TODO fix strange bugs
+# TODO handle .notranslate HTML elements
+# TODO fix strange bugs, including bug of autoinserted trailing underscores '_', and HTML closing tags breaking
 def wrap_for_translation(original_text):
 	original_text = (original_text
-		.replace("{{%", "{{@%").replace("%}}", "%@}}")
-		.replace("{{<", "{{@<").replace(">}}", ">@}}"))
+		.replace("{{%", "{{@%").replace("%}}", "%@}}") # Hugo shortcodes
+		.replace("{{<", "{{@<").replace(">}}", ">@}}")
+		.replace("```"       ,  "{{@```"   )           # Markdown fenced code blocks
+		.replace("  {{@```  ", "  ```  @}}"))
 	original_tokens = original_text.split("{{@")
 	for i in range(1, len(original_tokens)):
 		token_tokens = original_tokens[i].split("@}}")
-		token_tokens[0] = (f"{TranslationMagic}__" + str(ascii_to_number("{{@" + token_tokens[0] + "@}}")) + "__").replace("9", "9_")
+		token_tokens[0] = (f"{TranslationMagic}__" + str(ascii_to_number("{{@" + token_tokens[0] + "@}}")).replace("1", "1_").replace("9", "9_") + "__")
 		original_tokens[i] = ''.join(token_tokens)
 	return ''.join(original_tokens)
 
@@ -120,8 +127,13 @@ def unwrap_from_translation(translated_text):
 		token_tokens[0] = number_to_ascii(token_tokens[0].replace(' ', '').replace('_', ''))
 		translated_tokens[i] = (token_tokens[0] + "__".join(token_tokens[1:]))
 	return (''.join(translated_tokens)
-		.replace("{{@%", "{{%").replace("%@}}", "%}}")
-		.replace("{{@<", "{{<").replace(">@}}", ">}}"))
+		.replace("{{@%", "{{%").replace("%@}}", "%}}") # Hugo shortcodes
+		.replace("{{@<", "{{<").replace(">@}}", ">}}")
+		.replace("  ```  @}}", "  ```  ")              # Markdown fenced code blocks
+		.replace("{{@```"    , "```"    ))
+		#.replace("{{@```"    , "```"    )
+		#.replace("  ```  @}}", "  ```  ")
+		#.replace("  {{@```  ", "  ```  "))
 
 def translate_document(document_path, documents):
 	printf(f"* {document_path} ->")
@@ -163,9 +175,12 @@ def translate_document(document_path, documents):
 			translated_text = ''.join(translated_tokens)
 		elif translated_text.strip():
 			translated_text = (translated_preamble + translated_text)
+		translated_text = unwrap_from_translation(translated_text)
+		for replacement in TranslationFixes:
+			translated_text = translated_text.replace(replacement, TranslationFixes[replacement])
 		destination_path = make_destination_path(document_path, destination_language)
 		Path('/'.join(destination_path.split('/')[:-1])).mkdir(parents=True, exist_ok=True)
-		open(destination_path, 'w').write(unwrap_from_translation(translated_text))
+		open(destination_path, 'w').write(translated_text)
 	printf('\n')
 
 def main():

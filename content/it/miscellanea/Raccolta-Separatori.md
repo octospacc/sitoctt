@@ -62,13 +62,13 @@ Raccolte: <!-- (basta cercare per parole chiave `separator`, `separatori`, `sepa
 
 Per i separatori di testo, ci sono per fortuna svariati siti e pagine che ne raccolgono di ogni genere, anche se non immediati da trovare. Eccone alcuni che ho beccato sui motori di ricerca e mi sono sembrati decenti:
 
-* Copy Paste 🎉 Text dividers and separators: https://copy-paste.net/en/text-dividers.php
-* Free Text Dividers (ASCII) - InspireMari.nl: https://inspiremari.nl/resources/free-text-dividers-ascii/
-* Aesthetic Divider Symbols ┊ ┊ ┊. ➶ ˚ — https://www.aestheticsymbols.me/dividers.html
-* Aesthetic Text Dividers Symbols Copy and Paste ┆彡 – TextCopyAndPaste: https://textcopyandpaste.org/aesthetic-text-dividers/
-* ♕✦Cute aesthetic borders copy and paste (Headers, Text dividers): https://www.copyandpastesymbols.net/aesthetic-borders-copy-and-paste-text-line.html
-* Dividers | ︶⊹︶︶୨୧︶︶⊹︶… | Copy & Paste: https://emojicombos.com/divider
-* Separadores: https://t.me/dmsusus
+* _Copy Paste 🎉 Text dividers and separators_: https://copy-paste.net/en/text-dividers.php
+* _Free Text Dividers (ASCII) - InspireMari.nl_: https://inspiremari.nl/resources/free-text-dividers-ascii/
+* _Aesthetic Divider Symbols ┊ ┊ ┊. ➶ ˚_ — https://www.aestheticsymbols.me/dividers.html
+* _Aesthetic Text Dividers Symbols Copy and Paste ┆彡 – TextCopyAndPaste_: https://textcopyandpaste.org/aesthetic-text-dividers/
+* _♕✦Cute aesthetic borders copy and paste (Headers, Text dividers)_: https://www.copyandpastesymbols.net/aesthetic-borders-copy-and-paste-text-line.html
+* _Dividers | ︶⊹︶︶୨୧︶︶⊹︶… | Copy & Paste_: https://emojicombos.com/divider
+* _Separadores_: https://t.me/dmsusus
 
 ---
 

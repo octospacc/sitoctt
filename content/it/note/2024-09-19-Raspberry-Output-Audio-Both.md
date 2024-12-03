@@ -40,7 +40,7 @@ Dopo aver invano cercato ovunque, trovando configurazioni lunghe o corte ma tutt
 La configurazione finale quindi è la seguente, assume audio prettamente stereo e si può usare direttamente su Raspberry Pi 3 senza modifiche... oppure può essere un punto di partenza per altri usi e altri dispositivi (dove vanno ovviamente cambiati i parametri). La parte opzionale alla fine rende la scheda analogica la predefinita per il controllo del volume via software (per programmi come `alsamixer`), al posto della predefinita digitale, cosa utile appunto per l'uso con cuffie.  
 Il contenuto è da ricopiare in un nuovo file `/etc/asound.conf`:
 
-```
+ ```
 # Output audio su entrambe le schede
 pcm.!default {
   type plug
@@ -79,7 +79,7 @@ ctl.!default {
   type hw
   card 1
 }
-```
+  ```  
 
 #### Configurazione del trolling 👿️
 
