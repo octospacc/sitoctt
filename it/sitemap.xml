@@ -2,6 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Emblemi/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Emblem-Collection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/%EF%B8%8F-Colecci%C3%B3n-de-emblemas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Collection-dembl%C3%A8mes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Emblemi/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/categories/Fritto-Misto/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -25,29 +97,6 @@
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/"
-                />
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Meta/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -64,29 +113,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/categories/Meta/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</loc>
@@ -206,9 +232,6 @@
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Separatori/"
                 />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/categories/Fritto-Misto/</loc>
-    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Gaming/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
@@ -340,6 +363,26 @@
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/note/2024-09-19-%EF%B8%8F-Output-audio-in-contemporanea-HDMI-analogico-su-Raspberry-Pi-con-ALSA/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/2024-09-19-%EF%B8%8F-Simultaneous-HDMI-analog-audio-output-on-Raspberry-Pi-with-ALSA/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/note/2024-09-19-%EF%B8%8F-Salida-de-audio-HDMI-anal%C3%B3gica-simult%C3%A1nea-en-Raspberry-Pi-con-ALSA/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/2024-09-19-%EF%B8%8F-Output-audio-in-contemporanea-HDMI-analogico-su-Raspberry-Pi-con-ALSA/"
+                />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Linux/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>

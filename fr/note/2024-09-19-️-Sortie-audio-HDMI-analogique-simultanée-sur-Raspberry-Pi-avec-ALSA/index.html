@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" data-source-file-path="note/2024-09-19-Raspberry-Output-Audio-Both.md">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>🔉️ Sortie audio HDMI&#43;analogique simultanée sur Raspberry Pi avec ALSA | ✨sitoctt✨</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Pour tirer le meilleur parti de RetroPie, qui manque de moyens humains pour passer de l&#39;audio HDMI à celui de la prise 3.5 ou vice versa, configurons correctement ALSA et RetroArch.">
+    <meta name="generator" content="Hugo 0.133.0">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "OctoSpacc">
+    
+
+    
+<link rel="stylesheet" href="http://http.sitoctt.octt.eu.org/ananke/css/main.min.ece8cf6eea5dfe06df9a0073c1ace596aa31e59cbd400bc2d4f9c7ced5cd9f84.css" >
+
+
+
+
+<style>
+.Pixelated, .Pixelated * { image-rendering: pixelated; }
+</style>
+
+    <script>
+window.sitoctt = {};
+window.Void = (function Void(){});window.sitoctt.Props = JSON.parse("{\"GitBranchAssets\":\"main\",\"GitBranchThis\":\"sitoctt-next\",\"GitInstanceUrl\":\"https://gitlab.com\",\"GitRepoAssets\":\"octtspacc/sitoctt-assets\",\"GitRepoThis\":\"octtspacc/sitoctt\"}");window.sitoctt.localStorage = (function localStorage(key, value){ return SpaccDotWeb.LocalStorage('org.eu.octt.sitoctt', key, value); });
+</script>
+<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/fr/searchindex.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/lib/SpaccDotWeb.Alt.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/octt-runtime.js"></script>
+
+  <script src="http://http.sitoctt.octt.eu.org/analytics.js"></script>
+
+<script src="http://http.sitoctt.octt.eu.org/markdown-editor.js"></script>
+
+
+    
+      
+<link rel="shortcut icon" href="http://http.sitoctt.octt.eu.org/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://sitoctt.octt.eu.org/fr/note/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA/">
+    
+
+    <meta property="og:url" content="http://http.sitoctt.octt.eu.org/fr/note/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA/">
+  <meta property="og:site_name" content="✨sitoctt✨">
+  <meta property="og:title" content="🔉️ Sortie audio HDMI&#43;analogique simultanée sur Raspberry Pi avec ALSA">
+  <meta property="og:description" content="Pour tirer le meilleur parti de RetroPie, qui manque de moyens humains pour passer de l&#39;audio HDMI à celui de la prise 3.5 ou vice versa, configurons correctement ALSA et RetroArch.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="note">
+    <meta property="article:published_time" content="2024-09-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-19T00:00:00+00:00">
+
+  <meta itemprop="name" content="🔉️ Sortie audio HDMI&#43;analogique simultanée sur Raspberry Pi avec ALSA">
+  <meta itemprop="description" content="Pour tirer le meilleur parti de RetroPie, qui manque de moyens humains pour passer de l&#39;audio HDMI à celui de la prise 3.5 ou vice versa, configurons correctement ALSA et RetroArch.">
+  <meta itemprop="datePublished" content="2024-09-19T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-09-19T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2107">
+  <meta itemprop="keywords" content="Linux,Jeux,Rasperino">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="🔉️ Sortie audio HDMI&#43;analogique simultanée sur Raspberry Pi avec ALSA">
+  <meta name="twitter:description" content="Pour tirer le meilleur parti de RetroPie, qui manque de moyens humains pour passer de l&#39;audio HDMI à celui de la prise 3.5 ou vice versa, configurons correctement ALSA et RetroArch.">
+
+      
+  
+
+
+    
+	<meta http-equiv="onion-location" content="http://sitoctt2fxjvx3lc2iqqef2aeulflprjaasv2xl4zi7sxxbmvjy5b5yd.onion/fr/note/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA/"/>
+
+  <meta property="og:image" content="http://http.sitoctt-assets.octt.eu.org/public/Media/Raspberry-Audio/RasperinoAudio-AlsaMixer.webp" />
+
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white production" style="overflow-wrap: break-word; background-color: #fdf4ff; overflow-x: hidden;">
+    
+    
+   
+  
+
+  
+  <header id="!/header" class="cover bg-top" style="background-image: url('http://http.sitoctt-assets.octt.eu.org/public/Media/Raspberry-Audio/RasperinoAudio-AlsaMixer.webp');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://http.sitoctt.octt.eu.org/fr/" class="f3 fw2 mr3 hover-white no-underline white-90 dib">
+      
+        ✨sitoctt✨
+      
+    </a>
+    <div class="SiteSearchForm di nowrap relative">
+      <form class="di" action="https://hlb0.octt.eu.org/Redirector.php">
+        <input class="mw5 mt2 f6 tc bg-transparent moon-gray ba b--solid b--moon-gray"
+               type="text" name="_query[]" required="required" placeholder="Recherche sans-JS... 🔎️" />
+        <div class="di">
+          <input type="hidden" name="url" value="https://yacy.spacc.eu.org/yacysearch.html">
+          <input type="hidden" name="_query[]" value="site:sitoctt.octt.eu.org" />
+          <input class="f6 bg-transparent moon-gray ba b--solid b--moon-gray" type="submit" value="Rechercher 🔎️" />
+        </div>
+      </form>
+    </div>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/it/note/2024-09-19-%EF%B8%8F-Output-audio-in-contemporanea-HDMI-analogico-su-Raspberry-Pi-con-ALSA/"><span>it</span><span>🇮🇹✨️</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/en/note/2024-09-19-%EF%B8%8F-Simultaneous-HDMI-analog-audio-output-on-Raspberry-Pi-with-ALSA/"><span>en</span><span>🇬🇧</span></a>
+    </li>
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/es/note/2024-09-19-%EF%B8%8F-Salida-de-audio-HDMI-anal%C3%B3gica-simult%C3%A1nea-en-Raspberry-Pi-con-ALSA/"><span>es</span><span>🇪🇸️</span></a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/blog/" title="Blog📚️ page">
+              Blog📚️
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/miscellanea/" title="Divers🪁️ page">
+              Divers🪁️
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="http://http.sitoctt.octt.eu.org/fr/note/" title="Notes📝️ page">
+              Notes📝️
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">🔉️ Sortie audio HDMI&#43;analogique simultanée sur Raspberry Pi avec ALSA</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Pour tirer le meilleur parti de RetroPie, qui manque de moyens humains pour passer de l&#39;audio HDMI à celui de la prise 3.5 ou vice versa, configurons correctement ALSA et RetroArch.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        <a href="http://http.sitoctt.octt.eu.org/fr/note/">
+          Notes📝️
+        </a>
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">🔉️ Sortie audio HDMI&#43;analogique simultanée sur Raspberry Pi avec ALSA</h1>
+      
+      <p class="tracked">
+        Par <strong>OctoSpacc</strong>
+      </p>
+      
+      
+      <div class="f6 mv4 dib tracked">
+      
+      
+      <time datetime="2024-09-19T00:00:00Z">septembre 19, 2024</time>
+      
+
+      
+      
+        <span> - 10 minutes de lecture </span>
+        <span> - 2107 mots </span>
+      
+      </div>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info, .notice.caution {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.danger, .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info, .notice.caution {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.danger, .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info, body.dark .notice.caution {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.danger, body.dark .notice.danger {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice caution" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
+</svg>
+
+        </span>Prudence</p><p>Le contenu de cette page a été entièrement et automatiquement traduit en français, à partir de Italiano. Il peut donc contenir toutes sortes d&rsquo;erreurs.</p></div>
+<style> .notranslate[data-lang="it"] { display: none; } </style>
+<!-- Généré automatiquement par ListedDownsync.js. Ne modifiez pas (sauf si vous définissez également "% Downsync = False") - cela serait écrasé. -->
+<p>Dans ma nouvelle mission d&rsquo;intégrer, sous forme de console rétrogaming domestique, n&rsquo;importe quel ordinateur <em>qui fonctionne</em> avec une configuration bien établie avec RetroArch, et qui me permet de jouer en passant des ROM et de sauvegarder des fichiers entre différents appareils&hellip; le Raspberry Pi , avec la distribution Linux RetroPie installée, est apparu comme la pièce idéale du puzzle.</p>
+<p>Sans m&rsquo;étendre sur le sujet lui-même, pour lequel j&rsquo;ai plutôt plus d&rsquo;informations sur mon MicroBlog ([https://octospacc.altervista.org/series/gaming-1/](<a href="https://octospacc.altervista.org/series/gaming" target="_blank" rel="noopener" >https://octospacc.altervista.org/series/gaming</a> - 1/)), pour chacun des problèmes atténués par cette configuration, autant de problèmes inconfortables sont apparus, <em>en théorie simples</em> à résoudre mais <em>en pratique</em> pas du tout triviaux&hellip; et l&rsquo;un d&rsquo;entre eux concerne l&rsquo;audio.</p>
+<script async="async" defer="defer" src="https://liminalgici.spacc.eu.org/embed.js"></script><iframe title="Pixelfed Post Embed" src="https://liminalgici.spacc.eu.org/p/the_octt/742372822008654489/embed?caption=true&likes=false&layout=full" class="pixelfed__embed" style="largeur : 400 px ; hauteur : 648 px ; hauteur : calc ((100vw / 3*4) + 72px); hauteur maximale : 648px ; /* hauteur : 516px ; */" width="400"></iframe >
+<h2 id="le-problème-de-sortie-">Le problème de sortie 🚰️</h2>
+<p>Voulant profiter au maximum de ce Rasperino ainsi configuré, pour pouvoir jouer en s&rsquo;adaptant aux différentes situations de la maison, il est essentiel de pouvoir choisir à chaque instant quelle sortie audio écouter.
+En gros, il y a l&rsquo;audio transmis via HDMI, choix logique et souvent unique pour utiliser les enceintes du téléviseur&hellip; et puis il y a celui émis sur le port jack analogique 3,5 mm, intégré à l&rsquo;ordinateur monocarte, bien utile en revanche. pour jouer avec un casque ou des écouteurs (car le port est plus proche, et parce que le volume est contrôlable sans être à la merci du terrifiant firmware du téléviseur).</p>
+<p>Tout cela semblait trivial, jusqu&rsquo;à ce que je réalise que, prêt à l&rsquo;emploi, le système ne propose rien ni de modifier la sortie à la volée (par exemple, avec une combinaison de touches, ou un réglage rapide dans le menu principal), ni la possibilité de déclencher l&rsquo;audio sur les deux sorties indépendamment.</p>
+<p>En réalité, il semble que sur certains systèmes, vous puissiez régler la sortie audio en mode automatique<sup id="fnref1"><a href="#fn1">1</a></sup>, c&rsquo;est-à-dire (comme sur n&rsquo;importe quel appareil aujourd&rsquo;hui) va vers ou depuis la sortie externe lorsque le connecteur est branché ou déconnecté, mais&hellip; mis à part le fait qu&rsquo;elle est considérée comme peu fiable, cette fonctionnalité est absente sur mon Raspberry Pi 3, pour une raison quelconque.</p>
+<h2 id="la-solution--tout-">La solution : tout 💡️</h2>
+<p>Dans une situation aussi dégoûtante, où la sortie audio devrait être modifiée manuellement à chaque fois en revenant au menu système, puis en ouvrant le très laid (et depuis une manette de jeu, très inconfortable ; les touches sont toutes usées) « ncurses » menu de configuration, puis revenir en arrière - en soustrayant de précieuses minutes de jeu - la moins mauvaise option était, d&rsquo;une manière ou d&rsquo;une autre, de forcer cette sortie simultanément.
+Cela ne pourrait pas être impossible, étant donné que, d&rsquo;après ce que j&rsquo;ai lu lors de la recherche, Kodi sur Raspino réussit&hellip;</p>
+<p><img alt="AlsaMixer" src="http://http.sitoctt-assets.octt.eu.org/public/Media/Raspberry-Audio/Alsamixer-1.png"></p>
+<h3 id="configuration-alsa-">Configuration ALSA 🔩️</h3>
+<p>Le principal problème était de configurer <a href="https://it.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture" target="_blank" rel="noopener" >ALSA</a>, le système audio Linux de base (et généralement le seul préinstallé sur les distributions non-ordinateur de bureau comme RetroPie), pour fonctionne comme ça ici. Eh bien, c&rsquo;est dommage qu&rsquo;ALSA soit notoirement difficile à gérer, au point qu&rsquo;il y a des tonnes de discussions mortes sur le Web sur la façon exacte de résoudre ce problème ici&hellip;</p>
+<p>Après avoir cherché partout en vain, trouvant des configurations longues ou courtes mais toutes également cassées, je ressens une attaque d&rsquo;art et décide de&hellip; demander à ChatGPT<sup id="fnref2"><a href="#fn2">2 &lt;/ a&gt;</sup>. Ici, au-delà de quelques oublis stupides, qui m&rsquo;ont fait perdre encore plus de temps, l&rsquo;intelligence artificielle m&rsquo;a donné une configuration minimale, compréhensible, qui fonctionne comme il faut.</p>
+<p>La configuration finale est donc la suivante, elle suppose un audio purement stéréo et peut être utilisée directement sur Raspberry Pi 3 sans modifications&hellip; ou elle peut être un point de départ pour d&rsquo;autres utilisations et d&rsquo;autres appareils (dont les paramètres doivent évidemment être modifiés) . La partie optionnelle à la fin fait de la carte analogique la carte par défaut pour le contrôle du volume logiciel (pour des programmes comme « alsamixer »), au lieu de la carte numérique par défaut, ce qui est utile pour une utilisation avec des écouteurs.
+Le contenu doit être copié dans un nouveau fichier <code>/etc/asound.conf</code> :</p>
+<pre tabindex="0"><code># Output audio su entrambe le schede
+pcm.!default {
+  type plug
+  slave.pcm &#34;both&#34;
+}
+pcm.both {
+  type route
+  slave.pcm {
+    type multi
+    slaves {
+      a { # HDMI
+        pcm &#34;hw:0,0&#34;
+        channels 2
+      }
+      b { # Analogico
+        pcm &#34;hw:1,0&#34;
+        channels 2
+      }
+    }
+    bindings {
+      0 { slave a; channel 0 }
+      1 { slave a; channel 1 }
+      2 { slave b; channel 0 }
+      3 { slave b; channel 1 }
+    }
+  }
+  ttable {
+    0.0 = 1 # HDMI Sx
+    1.1 = 1 # HDMI Dx
+    0.2 = 1 # Analogico Sx
+    1.3 = 1 # Analogico Dx
+  }
+}
+# Controllo volume default sull&#39;analogico (opzionale)
+ctl.!default {
+  type hw
+  card 1
+}
+</code></pre><h4 id="configuration-de-la-pêche-à-la-traîne-">Configuration de la pêche à la traîne 👿️</h4>
+<p>Vous devez faire attention aux autres fichiers qui pourraient avoir priorité sur celui inséré (en tant que système) dans <code>/etc/asound.conf</code>, par exemple <code>~/.asoundrc</code> (qui est la configuration utilisateur, précisément dans le dossier personnel de l&rsquo;utilisateur , dans ce cas <code>/home/pi/.asoundrc</code>).</p>
+<p>Ce dernier est créé automatiquement par RetroPie lorsque vous utilisez son menu pour choisir la sortie audio&hellip; ce qui n&rsquo;est pas un problème, car avec la nouvelle configuration on peut aussi supprimer ce menu, mais il faut savoir que ce fichier est maintenant , et à l&rsquo;avenir, il sera (s&rsquo;il est recréé en ouvrant accidentellement ce menu maléfique), supprimé.</p>
+<h4 id="tests-de-configuration-">Tests de configuration 🔉️</h4>
+<p>Cette étape serait facultative, et vous pouvez passer directement à l&rsquo;essai des jeux, surtout si la configuration a été copiée précisément et pour le même matériel, mais&hellip; si vous êtes déjà dans le terminal, ou ne tardez pas à l&rsquo;utiliser , un test ne coûte rien.
+Vous connectez le Rasperino à un appareil HDMI avec des haut-parleurs, puis connectez d&rsquo;autres haut-parleurs ou des écouteurs, peu importe, à la sortie analogique, exécutez simplement le programme « test de haut-parleur » et écoutez pour voir si le bruit sort.</p>
+<p>Si vos oreilles disent que tout va bien, alors tout va bien ici, et vous n&rsquo;avez même pas à vous soucier des horribles écritures qui apparaissent à l&rsquo;écran. Vous pouvez arrêter le programme avec CTRL+C.
+Si vous n&rsquo;entendez rien, il est temps de démarrer <code>alsamixer</code>, de vérifier les niveaux, et de changer les sorties si elles le sont&hellip; Tandis que, si le programme se ferme immédiatement avec des erreurs, je ne sais pas quoi dire : <em>on ma machine fonctionne</em>.
+Si vous percevez que les deux sources audio ne sont pas en parfaite synchronisation&hellip; Je pense que c&rsquo;est tout à fait normal, et qu&rsquo;il n&rsquo;y a aucun moyen d&rsquo;y remédier (aussi parce qu&rsquo;une configuration avec différents plugins ALSA n&rsquo;a pas fonctionné pour moi), mais en cette affaire n&rsquo;a pas d&rsquo;importance de toute façon.</p>
+<h3 id="configuration-de-retroarch-">Configuration de RetroArch 👾️</h3>
+<p>Si vous essayez à juste titre de démarrer un jeu à ce stade, méfiez-vous : la déception est au coin de la rue. En fait, voici la chose encore plus simple sur laquelle j&rsquo;ai perdu encore plus de temps : m&rsquo;assurer que l&rsquo;audio fonctionne bien dans RetroArch, sans grésillements, saccades, sauts de morceaux ou généralement distorsion.</p>
+<p>Dans mon cas, le pilote audio par défaut utilisé par RetroArch est « alsathread »&hellip; ce qui, pour une raison quelconque, pose ces problèmes, alors que le pilote « alsa » normal ne le fait pas.
+Ensuite, lancez simplement l&rsquo;écran principal de RetroArch (à partir du menu EmulationStation : RetroPie &gt; RetroArch), à partir duquel allez dans Paramètres &gt; Pilotes, et réglez Audio sur « alsa ».
+Puis, avant de quitter, pour enregistrer les modifications : Menu principal &gt; Fichier de configuration &gt; Enregistrer la configuration actuelle.</p>
+<p><img alt="Configuration du pilote audio dans RetroArch" src="http://http.sitoctt-assets.octt.eu.org/public/Media/Raspberry-Audio/RetroArch-Driver-Audio.png"></p>
+<p>À ce stade, en revenant au menu système, il est temps d&rsquo;essayer un jeu pour voir si tout va bien&hellip; et dans mon cas, c&rsquo;était le cas.
+En théorie, l&rsquo;utilisation du pilote ALSA sans thread peut avoir un impact négatif sur les performances globales du système<sup id="fnref3"><a href="#fn3">3</a></sup>, et donc sur les émulation, mais lors de mes tests à la volée je n&rsquo;ai remarqué aucune différence&hellip; même si je n&rsquo;ai rien essayé de lourd. Je n&rsquo;ai donc même pas eu besoin de modifier d&rsquo;autres options audio, comme le rééchantillonneur ou la synchronisation, mais en cas de problème, c&rsquo;est une bonne idée d&rsquo;y bricoler ; il n&rsquo;y a pas beaucoup d&rsquo;autres moyens.</p>
+<h2 id="audio-bluetooth-non-">Audio Bluetooth ? (Non.) 💙️</h2>
+<p>J&rsquo;étais presque sur le point de continuer sur la voie de la torture auto-infligée, pour réussir d&rsquo;une manière ou d&rsquo;une autre à intégrer des écouteurs Bluetooth dans toute cette configuration, mais&hellip; aussi utiles soient-ils pour jouer à distance depuis un téléviseur, même si je voulais gaspiller encore plus de temps pour les configurer, cela n&rsquo;en vaut probablement pas la peine. Mieux vaut acheter un adaptateur prise audio vers Bluetooth, ou utiliser directement quelque chose de câblé avec une rallonge !</p>
+<p>Considérant à quel point mon ancien smartphone a commencé à bégayer simplement parce que je lisais des vidéos avec des écouteurs Bluetooth au lieu d&rsquo;écouteurs filaires, je ne pense pas que la même configuration sur un Raspino bénéficierait aux performances.
+Et de toute façon, je ne pouvais même pas connecter une paire d’écouteurs Bluetooth ; lors de l&rsquo;appairage, un traçage d&rsquo;erreur s&rsquo;affiche à l&rsquo;écran, mais ensuite l&rsquo;appareil semble être appairé&hellip; mais ne parvient pas à se connecter. Peut-être que les pilotes audio Bluetooth sont également manquants, ou quelque chose du genre.</p>
+<p><img alt="Erreur Bluez" src="http://http.sitoctt-assets.octt.eu.org/public/Media/Raspberry-Audio/BluezError.png"></p>
+<p>De plus, j&rsquo;ai le sentiment qu&rsquo;il est de toute façon impossible de faire (bien) fonctionner l&rsquo;audio Bluetooth avec ALSA, car, même dans ce cas, le web ne donne pas beaucoup de conseils. Cependant, PulseAudio est une tâche supplémentaire à configurer, ajoutant notoirement une charge supplémentaire sur le processeur et vous obligeant à choisir entre des retards ou des problèmes dans l&rsquo;audio. Son successeur, PipeWire, pose moins de problèmes mais est encore plus encombrant.</p>
+<h2 id="conclusion-">Conclusion 📢️</h2>
+<p>Avec le recul, c’était vraiment de la connerie ; ça ne méritait même pas une si longue note. L&rsquo;important c&rsquo;est que tout fonctionne maintenant, et que je puisse enfin jouer !</p>
+<p>Malheureusement, pour l&rsquo;instant, encore une fois je n&rsquo;ai pas trouvé de moyen de changer le volume émis par le Raspberry pendant que vous êtes en jeu, et pour cela il faudra ouvrir <code>alsamixer</code> (oups) sur un TTY (accessible aussi depuis le menu système en allant dans RetroPie &gt; Audio &gt; Mixer).
+Si j&rsquo;en ai vraiment besoin, j&rsquo;inventerai au pire un programme similaire à AlsaMixer, juste pour changer les volumes, mais qui peut effectivement être utilisé sans clavier&hellip; ou, idéalement, quelque chose qui permette de faire la même chose à tout moment. l&rsquo;heure, sans changer l&rsquo;application active, avec une combinaison de touches ; rien pour l&rsquo;instant !</p>
+<p>P.S : Cela allait être un coup de gueule – ou, comme dirait un dictionnaire, une invective – au sein d&rsquo;un article sur le MicroBlog, mais après avoir écrit 2 paragraphes j&rsquo;avais <em>le pressentiment</em> que je résoudrais le problème assez rapidement pour ne pas justifier j&rsquo;en parle tout de suite&hellip; et, cette fois aussi, je suis contente d&rsquo;avoir écouté les esprits occultes ! Une note a alors été émise, car le texte au vitriol avait perdu son sens, et il valait la peine d&rsquo;y ajouter des détails plus précis.</p>
+<blockquote>
+<p><em>Je le répéterai jusqu&rsquo;à ma mort, c&rsquo;est choquant : sous Linux on peut tout faire si on veut, et en théorie tout est simple (je le dis sincèrement sans ironie), mais en pratique rien ne fonctionne jamais par défaut, et en réparant les choses dans la pratique, il y a toujours des accrocs. Dans ce cas, RetroPie utilise ALSA [&hellip;], qui est la pire chose que l&rsquo;humanité ait jamais inventée pour configurer&hellip; J&rsquo;ai une dizaine de pages Web ouvertes à ce sujet, et jusqu&rsquo;à présent, les seuls résultats que j&rsquo;ai eu \ [ &hellip;] il y avait des erreurs sur le téléscripteur et du silence sur les haut-parleurs, plutôt qu&rsquo;une sortie simultanée. C&rsquo;est la fin. 🗡️</em></p>
+<p>~ Littéralement moi au plus bas.</p>
+</blockquote>
+<h2 id="-notes-et-références_">🏷️ Notes et Références_</h2>
+<hr>
+<ol>
+<li>
+<p><span id="fn1"></span> &ldquo;<em>Commutation de la sortie audio entre prise et HDMI sur RetroPie</em>&rdquo; : [https://lofi-gaming.org.uk/blog/2014/04/switching-audio-output-between-jack-and-hdmi-on-retropie/](<a href="https://lofi-gaming.org.uk" target="_blank" rel="noopener" >https://lofi-gaming.org.uk</a> /blog/2014/04/switching-audio-output-between-jack-and-hdmi-on-retropie/); les photos des écrans montrent que sur certains systèmes il y a la sortie automatique fantôme&hellip; <a href="#fnref1">↩</a></p>
+</li>
+<li>
+<p><span id="fn2"></span> Voici pour référence la conversation que nous avons eue avec ChatGPT, même si elle n&rsquo;est pas très utile en soi : <a href="https://chatgpt.com/share/66ebfd94-b7e8-8001-89c4-e7424dd128a9" target="_blank" rel="noopener" >https://chatgpt.com/share/66ebfd94-b7e8-8001-89c4-e7424dd128a9</a>. <a href="#fnref2">↩</a></p>
+</li>
+<li>
+<p><span id="fn3"></span> De &ldquo;<em>Utilisez &ldquo;alsathread&rdquo; au lieu de &ldquo;alsa&rdquo; dans RetroArch sur RPI3+</em> : [https://forum.batocera.org/d/5509-use-alsathread-instead-of-alsa-in-retroarch-on-rpi3](<a href="https://forum.batocera.org/d/5509-use-" target="_blank" rel="noopener" >https://forum.batocera.org/d/5509-use-</a> alsathread-instead-of-alsa-in-retroarch-on-rpi3) : &ldquo;J&rsquo;ai remarqué que l&rsquo;utilisation de &ldquo;alsathread&rdquo; au lieu du pilote &ldquo;alsa&rdquo; dans RetroArch permet d&rsquo;obtenir un meilleur son. synchronisation et lissage des images sur les fréquences d&rsquo;images d&rsquo;écran non natives [&hellip;] moins de fissures et de décalages sonores sur les jeux/cœurs à faibles performances.&rdquo; <a href="#fnref3">↩</a></p>
+</li>
+</ol>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Ce qu&#39;il y a ici</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#le-problème-de-sortie-">Le problème de sortie 🚰️</a></li>
+    <li><a href="#la-solution--tout-">La solution : tout 💡️</a>
+      <ul>
+        <li><a href="#configuration-alsa-">Configuration ALSA 🔩️</a>
+          <ul>
+            <li><a href="#configuration-de-la-pêche-à-la-traîne-">Configuration de la pêche à la traîne 👿️</a></li>
+            <li><a href="#tests-de-configuration-">Tests de configuration 🔉️</a></li>
+          </ul>
+        </li>
+        <li><a href="#configuration-de-retroarch-">Configuration de RetroArch 👾️</a></li>
+      </ul>
+    </li>
+    <li><a href="#audio-bluetooth-non-">Audio Bluetooth ? (Non.) 💙️</a></li>
+    <li><a href="#conclusion-">Conclusion 📢️</a></li>
+    <li><a href="#-notes-et-références_">🏷️ Notes et Références_</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+    <iframe class="GiscusFallback"
+        style="width: 100%; box-sizing: border-box; height: 100vh;"
+        src="https://hlb0.octt.eu.org/OcttComments.php?baseUrl=http%3a%2f%2fhttp.sitoctt.octt.eu.org%2f&pageSlug=all%2fnote%2f2024-09-19-%25EF%25B8%258F-Sortie-audio-HDMI-analogique-simultan%25C3%25A9e-sur-Raspberry-Pi-avec-ALSA%2f&theme=noborder_light&repo=octospacc%2fsitoctt&repoId=R_kgDOHbCR4A&category=Comments&categoryId=DIC_kwDOHbCR4M4CiAIZ"
+></iframe>
+<script src="https://giscus.app/client.js"
+        data-repo="octospacc/sitoctt"
+        data-repo-id="R_kgDOHbCR4A"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHbCR4M4CiAIZ"
+        data-term="all/note/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA/"
+        data-mapping="specific"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="fr"
+        crossorigin="anonymous"
+        async="async"
+        onload="document.querySelector('iframe.GiscusFallback').remove();"
+></script>
+
+
+  </article>
+
+    </main>
+    
+  <img src="https://private-analytics-not-for-public-use.octt.eu.org/sitoctt/count?p=%2ffr%2fnote%2f2024-09-19-%25EF%25B8%258F-Sortie-audio-HDMI-analogique-simultan%25C3%25A9e-sur-Raspberry-Pi-avec-ALSA%2f"
+       onerror="this.src='https://sitoctt.goatcounter.com/count?p=\/fr\/note\/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA\/'"
+       class="OctolyticsPixel" decoding="async" />
+
+
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo" style="background-color: #330066;">
+  <a href="#!/header" class="fixed bg-dark-gray pa3 br-100 bottom-1 right-1" style="background-color:#707; z-index:9;">⬆️</a>
+  <p id="--editor-buttons" class="white tr" style="display: none;">
+    📝️ Edit <span class="f7"></span> <button name="pin">📌️</button> <button name="this">Current File 🖋️</button> <button name="custom">Custom Path 🖍️</button>
+  </p>
+  <div class="flex justify-between">
+  <a class="fw4 hover-white no-underline white-80 dib-ns pv2 ph3" href="http://http.sitoctt.octt.eu.org/fr/" >
+    &copy;  ✨sitoctt✨ 2022–2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+  <span class="white-80 f6">❤️ Copying is an act of love. <a>Please copy and share</a>.</span>
+  <div class="white pv3 tc"><div data-group="10-site"><h4>About this site</h4>
+<a href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Open-Source/" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CC-BY-SA.svg" style="" alt="[CC BY-SA]" title="[CC BY-SA]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Collection-de-sites-Internet/#il-mio" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/sitoctt-1.png" style="image-rendering: pixelated;" alt="[✨sitoctt]" title="[✨sitoctt]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://listed.to/@u8/guestbook" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sign-guestbook.gif" style="image-rendering: pixelated;" alt="[Sign my guestoobk]" title="[Sign my guestoobk]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Warning-Page-contains-JavaScript.png" style="image-rendering: pixelated;" alt="[Warning: Page contains JavaScript!]" title="[Warning: Page contains JavaScript!]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BEST-viewed-with-ANY-BROWSER.gif" style="image-rendering: pixelated;" alt="[Best viewed with any browser]" title="[Best viewed with any browser]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MOBILE-FRIENDLY.png" style="image-rendering: pixelated;" alt="[Mobile-Friendly]" title="[Mobile-Friendly]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/this-site-is-MIKU-APPROVED.gif" style="image-rendering: pixelated;" alt="[This site is Miku-approved]" title="[This site is Miku-approved]" width="88px" height="31px" decoding="async" />
+
+
+<a href="http://http.sitoctt.octt.eu.org" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Not-secure-defcon1.gif" style="image-rendering: pixelated;" alt="[Not secure (HTTP) version]" title="[Not secure (HTTP) version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="http://http.sitoctt.octt.eu.org/fr/miscellanea/Copies-du-site/#archivi-offline" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/OFF-LINE-VERSION.png" style="image-rendering: pixelated;" alt="[Download Offline Version]" title="[Download Offline Version]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://notbyai.fyi" rel="" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/written-by-human-not-by-ai-white.svg" style="" alt="[Written by Human, not by AI]" title="[Written by Human, not by AI]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="20-me"><h4>Myself and my essence</h4>
+<a href="https://mastodon.uno/@octo" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Follow-me-on-mastodon.png" style="image-rendering: pixelated;" alt="[Follow me on Mastodon]" title="[Follow me on Mastodon]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://hub.octt.eu.org" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/octospacc-hub-1.png" style="image-rendering: pixelated;" alt="[Visita la OctoSpacc Hub]" title="[Visita la OctoSpacc Hub]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://octospacc.altervista.org" rel="me" target="" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/fritto-misto-di-octospacc-1.png" style="image-rendering: pixelated;" alt="[Visita il mio Fritto Misto di OctoSpacc]" title="[Visita il mio Fritto Misto di OctoSpacc]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Octt-Flag.png" style="image-rendering: pixelated;" alt="[Bandiera Octt]" title="[Bandiera Octt]" width="88px" height="31px" decoding="async" />
+
+
+<a href="https://en.wikipedia.org/wiki/Refraction" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/rainbow_bev.png" style="image-rendering: pixelated;" alt="[Rainbow]" title="[Rainbow]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Blink-0.gif" style="image-rendering: pixelated;" alt="[Occhi blink blink]" title="[Occhi blink blink]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-wear-cute-socks.gif" style="image-rendering: pixelated;" alt="[I wear cute socks!]" title="[I wear cute socks!]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/nya.png" style="image-rendering: pixelated;" alt="[nya~]" title="[nya~]" width="88px" height="31px" decoding="async" />
+
+
+<a href="https://www.sanrio.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HELLO-Kitty.gif" style="image-rendering: pixelated;" alt="[Hello Kitty]" title="[Hello Kitty]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/GRL-ROT.gif" style="image-rendering: pixelated;" alt="[Girl rot]" title="[Girl rot]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/CYBER-ROT.gif" style="image-rendering: pixelated;" alt="[Cyber rot]" title="[Cyber rot]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/girls-4-notepad.gif" style="image-rendering: pixelated;" alt="[Girls for Notepad]" title="[Girls for Notepad]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Perfect-Soldier.gif" style="image-rendering: pixelated;" alt="[Perfect Soldier]" title="[Perfect Soldier]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-LIKE-COMPUTER.png" style="image-rendering: pixelated;" alt="[I like computer]" title="[I like computer]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="30-thanks"><h4>Made thanks to</h4>
+<a href="https://gohugo.io" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HUGO.webp" style="image-rendering: pixelated;" alt="[Made with Hugo]" title="[Made with Hugo]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/MADE-WITH-CASCADING-STYLE-SHEETS-cyan.png" style="image-rendering: pixelated;" alt="[Made with CSS]" title="[Made with CSS]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.gnu.org/home.it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-on-GNU-Linux.png" style="image-rendering: pixelated;" alt="[Made on GNU/Linux]" title="[Made on GNU/Linux]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://notepad-plus-plus.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Made-with-Notepad++.png" style="image-rendering: pixelated;" alt="[Made with Notepad++]" title="[Made with Notepad++]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-Microsoft-Notepad.gif" style="image-rendering: pixelated;" alt="[Made with Microsoft Notepad]" title="[Made with Microsoft Notepad]" width="88px" height="31px" decoding="async" />
+
+
+<a href="https://www.gimp.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Graphics-by-Gimp.png" style="image-rendering: pixelated;" alt="[Graphics by GIMP]" title="[Graphics by GIMP]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Fueled-by-COFFEE.gif" style="image-rendering: pixelated;" alt="[Fueled by Coffee]" title="[Fueled by Coffee]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Powered-by-THE-VOID.png" style="image-rendering: pixelated;" alt="[Powered by THE VOID]" title="[Powered by THE VOID]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/POWERED-BY-bob.gif" style="image-rendering: pixelated;" alt="[Powered by Bob]" title="[Powered by Bob]" width="88px" height="31px" decoding="async" />
+
+</div><div data-group="50-fun"><h4>Other things</h4>
+<a href="https://archive.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Internet-Archive.png" style="image-rendering: pixelated;" alt="[Internet Archive]" title="[Internet Archive]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.wikipedia.org" rel="nofollow noopener" target="_blank" title="hu:User:Boro, CC BY-SA 3.0 &amp;lt;https://creativecommons.org/licenses/by-sa/3.0&amp;gt;, via Wikimedia Commons"><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sites/Wikipedia.png" style="image-rendering: pixelated;" alt="[Wikipedia]" title="[Wikipedia]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.mozilla.org/it/firefox" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Firefox-Modern.png" style="image-rendering: pixelated;" alt="[Firefox]" title="[Firefox]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.torproject.org/it" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Tor.png" style="image-rendering: pixelated;" alt="[The Onion Router]" title="[The Onion Router]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://ublockorigin.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/uBlock-Origin-Now.png" style="image-rendering: pixelated;" alt="[uBlock Origin Now!]" title="[uBlock Origin Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://kernel.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-NOW-Xenia.png" style="image-rendering: pixelated;" alt="[Linux Now!]" title="[Linux Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.onworks.net" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Linux-Online.png" style="image-rendering: pixelated;" alt="[Use Linux Online]" title="[Use Linux Online]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.haiku-os.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/HAIKU-NOW.png" style="image-rendering: pixelated;" alt="[Haiku OS Now!]" title="[Haiku OS Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://jointhefediverse.net" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Join-the-Fediverse.gif" style="image-rendering: pixelated;" alt="[Join the Fediverse!!!]" title="[Join the Fediverse!!!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://matrix.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/matrix.png" style="image-rendering: pixelated;" alt="[matrix]" title="[matrix]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://www.vocaloid.com" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/VOCALOID-Now.png" style="image-rendering: pixelated;" alt="[VOCALOID Now!]" title="[VOCALOID Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+</div><div data-group="60-fun">
+<a href="https://www.w3.org/QA/Tips/iso-date" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/ISO-8601-now.png" style="image-rendering: pixelated;" alt="[ISO 8601 now!]" title="[ISO 8601 now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://en.wikipedia.org/wiki/Net_neutrality" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-NET-NEUTRALITY.png" style="image-rendering: pixelated;" alt="[I support net neutrality]" title="[I support net neutrality]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://en.wikipedia.org/wiki/Right_to_repair" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/I-SUPPORT-RIGHT-TO-REPAIR.png" style="image-rendering: pixelated;" alt="[I support right to repair]" title="[I support right to repair]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/TRANS-YOUR-GENDER.gif" style="image-rendering: pixelated;" alt="[Trans Your Gender]" title="[Trans Your Gender]" width="88px" height="31px" decoding="async" />
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/BAN-PORN.png" style="image-rendering: pixelated;" alt="[Ban Porn]" title="[Ban Porn]" width="88px" height="31px" decoding="async" />
+
+
+<a href="https://www.defectivebydesign.org" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/DEFECTIVE-by-design-ELIMINATE-DRM-NOW.webp" style="image-rendering: pixelated;" alt="[Defective by Design]" title="[Defective by Design]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://en.wikipedia.org/wiki/Illegal_number" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/aacs.2925462440.png" style="image-rendering: pixelated;" alt="[Illegal number]" title="[Illegal number]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<a href="https://fmhy.pages.dev" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Piracy-Now.png" style="image-rendering: pixelated;" alt="[Piracy Now!]" title="[Piracy Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Sharing-is-caring-seed-your-torrents.gif" style="image-rendering: pixelated;" alt="[Sharing is caring, seed your torrents]" title="[Sharing is caring, seed your torrents]" width="88px" height="31px" decoding="async" />
+
+
+<a href="https://rentry.org/emulation" rel="nofollow noopener" target="_blank" title=""><img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Emulate-Now.png" style="image-rendering: pixelated;" alt="[Emulate Now!]" title="[Emulate Now!]" width="88px" height="31px" decoding="async" /></a>
+
+
+
+<img src="http://http.sitoctt-assets.octt.eu.org/public/Media/Buttons/88x31/Campaign-against-FRAMES.gif" style="image-rendering: pixelated;" alt="[Campaign against iFrames!]" title="[Campaign against iFrames!]" width="88px" height="31px" decoding="async" />
+
+</div></div>
+</footer>
+
+    <div
+  id="search-wrapper"
+  class="fixed flex top-0 w-100 vh-100 inset-0 flex-col pa4 bg-neutral-500/50 p-4 dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://http.sitoctt.octt.eu.org/fr/"
+  style="word-break:break-word; display:none; visibility:hidden; z-index:500; background-color:rgb(253, 244, 255, 0.9); backdrop-filter:blur(8px);"
+>
+  <div
+    id="search-modal"
+    class="flex flex-column w-100 max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h2 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Rechercher... 🔎️"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w2 h2 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title=""
+      > ❌️
+        
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto" tabindex="-1">
+      <ul id="search-results" class="pa0 ph2">
+      </ul>
+    </section>
+  </div>
+</div>
+<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+
+  </body>
+</html>

@@ -6,8 +6,15 @@
     <description>Recent content in Notes📝️ on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🔉️ Simultaneous HDMI&#43;analog audio output on Raspberry Pi with ALSA</title>
+      <link>http://http.sitoctt.octt.eu.org/en/note/2024-09-19-%EF%B8%8F-Simultaneous-HDMI-analog-audio-output-on-Raspberry-Pi-with-ALSA/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/note/2024-09-19-%EF%B8%8F-Simultaneous-HDMI-analog-audio-output-on-Raspberry-Pi-with-ALSA/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;In my new mission to integrate, in the form of a home retrogaming console, any computer that works with a well-established configuration with RetroArch, and that allows me to play by passing ROMs and save files between different devices&amp;hellip; the Raspberry Pi, with installed the Linux distro RetroPie, popped out as the ideal piece of the puzzle.</description>
+    </item>
     <item>
       <title>🌽 Compile and install the Linux kernel from source</title>
       <link>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</link>

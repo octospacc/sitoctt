@@ -2,6 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Emblem-Collection/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Raccolta-Emblemi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/%EF%B8%8F-Colecci%C3%B3n-de-emblemas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/%EF%B8%8F-Collection-dembl%C3%A8mes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Emblem-Collection/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/miscellanea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/miscellanea/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Site-Copies/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -25,29 +97,6 @@
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/Site-Copies/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/"
-                />
-  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Meta/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -64,29 +113,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/categories/Meta/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/miscellanea/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/miscellanea/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Open-Source/</loc>
@@ -183,9 +209,6 @@
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Separators-Collection/"
                 />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</loc>
-    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Gaming/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
@@ -315,31 +338,31 @@
                 href="http://http.sitoctt.octt.eu.org/en/miscellanea/raccolta-videogiochi/"
                 />
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <loc>http://http.sitoctt.octt.eu.org/en/note/2024-09-19-%EF%B8%8F-Simultaneous-HDMI-analog-audio-output-on-Raspberry-Pi-with-ALSA/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/"
+                href="http://http.sitoctt.octt.eu.org/it/note/2024-09-19-%EF%B8%8F-Output-audio-in-contemporanea-HDMI-analogico-su-Raspberry-Pi-con-ALSA/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/note/2024-09-01-Compile-e-instale-el-kernel-de-Linux-desde-el-c%C3%B3digo-fuente/"
+                href="http://http.sitoctt.octt.eu.org/es/note/2024-09-19-%EF%B8%8F-Salida-de-audio-HDMI-anal%C3%B3gica-simult%C3%A1nea-en-Raspberry-Pi-con-ALSA/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/"
+                href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-19-%EF%B8%8F-Sortie-audio-HDMI-analogique-simultan%C3%A9e-sur-Raspberry-Pi-avec-ALSA/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/"
+                href="http://http.sitoctt.octt.eu.org/en/note/2024-09-19-%EF%B8%8F-Simultaneous-HDMI-analog-audio-output-on-Raspberry-Pi-with-ALSA/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/categories/Linux/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -362,7 +385,7 @@
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/note/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -382,6 +405,52 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/note/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/categories/Rasperino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/categories/Rasperino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/categories/Rasperino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/categories/Rasperino/"
+                />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/note/2024-09-01-Compilare-e-installare-il-kernel-Linux-da-sorgente/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/note/2024-09-01-Compile-e-instale-el-kernel-de-Linux-desde-el-c%C3%B3digo-fuente/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/note/2024-09-01-Compilez-et-installez-le-noyau-Linux-%C3%A0-partir-des-sources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/note/2024-09-01-Compile-and-install-the-Linux-kernel-from-source/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/miscellanea/Collection-of-Internet-Sites/</loc>
@@ -876,29 +945,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://http.sitoctt.octt.eu.org/en/blog/2023-03-18-Ugly-interface-Files-all-destroyed/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/categories/Rasperino/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/categories/Rasperino/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/categories/Rasperino/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/categories/Rasperino/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/en/blog/2023-01-28-When-hardware-problems-become-mental-damn-Raspino/</loc>

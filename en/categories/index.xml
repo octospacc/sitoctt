@@ -6,8 +6,15 @@
     <description>Recent content in Categories on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fried-Mixed</title>
+      <link>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Meta</title>
       <link>http://http.sitoctt.octt.eu.org/en/categories/Meta/</link>
@@ -20,13 +27,6 @@
       <link>http://http.sitoctt.octt.eu.org/en/categories/Technology/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/en/categories/Technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fried-Mixed</title>
-      <link>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</link>
-      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/categories/Fried-Mixed/</guid>
       <description></description>
     </item>
     <item>
@@ -46,8 +46,15 @@
     <item>
       <title>Linux</title>
       <link>http://http.sitoctt.octt.eu.org/en/categories/Linux/</link>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/en/categories/Linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rasperino</title>
+      <link>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +76,6 @@
       <link>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/en/categories/Sysadmin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rasperino</title>
-      <link>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/categories/Rasperino/</guid>
       <description></description>
     </item>
     <item>

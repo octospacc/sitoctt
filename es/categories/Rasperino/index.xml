@@ -6,8 +6,15 @@
     <description>Recent content in Rasperino on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/es/categories/Rasperino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🔉️ Salida de audio HDMI&#43;analógica simultánea en Raspberry Pi con ALSA</title>
+      <link>http://http.sitoctt.octt.eu.org/es/note/2024-09-19-%EF%B8%8F-Salida-de-audio-HDMI-anal%C3%B3gica-simult%C3%A1nea-en-Raspberry-Pi-con-ALSA/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/es/note/2024-09-19-%EF%B8%8F-Salida-de-audio-HDMI-anal%C3%B3gica-simult%C3%A1nea-en-Raspberry-Pi-con-ALSA/</guid>
+      <description>Precaución&#xA;El contenido de esta página ha sido íntegramente traducido por máquina al español, a partir de Italiano. Por lo tanto, puede contener errores de cualquier tipo.&#xA;En mi nueva misión de integrar, en forma de consola de retrogaming doméstica, cualquier ordenador que funcione con una configuración establecida con RetroArch, y que me permita jugar pasando ROMs y guardar archivos entre diferentes dispositivos&amp;hellip; la Raspberry Pi , con la distribución de Linux RetroPie instalada, surgió como la pieza ideal del rompecabezas.</description>
+    </item>
     <item>
       <title>🤯 Cuando los problemas de hardware se vuelven mentales (maldito Raspino)</title>
       <link>http://http.sitoctt.octt.eu.org/es/blog/2023-01-28-Cuando-los-problemas-de-hardware-se-vuelven-mentales-maldito-Raspino/</link>
