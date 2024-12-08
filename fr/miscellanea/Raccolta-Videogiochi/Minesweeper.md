@@ -58,7 +58,8 @@ En accumulant ce lot quotidien simple ou double au fil des semaines, des mois et
 
 Paraphrasant ce qu'écrit [un auteur de PCGamesN] (https://www.pcgamesn.com/minesweeper/get-free) : **Le démineur est l'une des formes les plus pures d'évasion numérique** que vous puissiez expérimenter, car c'est la solution pratique. démonstration de la façon dont un jeu, pour être profondément immersif, n'a pas besoin vital d'un _monde ouvert_ détaillé, d'un récit élaboré ou de personnages auxquels s'attacher.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Désolé, il y a du travail en cours sur cette page, je mets en place des mines pour troller les prochaines personnes qui viendront ici lisez et ils tomberont sur quelques mots... si en attendant vous voulez apprendre à jouer, lisez [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), allez-y...< /p>
+...Désolé, il y a du travail en cours sur cette page, je mets en place des mines pour troller les prochaines personnes qui viendront ici lisez et ils tomberont sur quelques mots... si en attendant vous voulez apprendre à jouer, lisez [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)), allez-y...
+{ style="background: #fde; padding: 0.5em;" }
 
 ## Curiosité
 
@@ -111,4 +112,4 @@ Je travaille à rendre le jeu personnalisable, pour le moment vous ne pouvez jou
 [^Windows_Vista_and_Windows_7] : <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
 [^PageBg] : **Arrière-plan de la page** : [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 )
 
-<script src="/Assets/MinesweeperEmbed.js"></script>
+<script src="/res/MinesweeperEmbed.js"></script>

@@ -58,7 +58,8 @@ By accumulating that single or double daily batch over the weeks, months, and ye
 
 Paraphrasing what [a PCGamesN author] writes (https://www.pcgamesn.com/minesweeper/get-free): **Minesweeper is one of the purest forms of digital escapism** that you can experience, because it is the practical demonstration of how a game, to be deeply immersive, does not have a vital need for a detailed _open world_, elaborate narrative, or characters to become attached to.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Sorry, there's work in progress on this page, I'm setting mines around to troll the next people who come here to read and they will stumble upon a few words... if in the meantime you want to learn how to play read [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), go ahead...</p>
+...Sorry, there's work in progress on this page, I'm setting mines around to troll the next people who come here to read and they will stumble upon a few words... if in the meantime you want to learn how to play read [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)), go ahead...
+{ style="background: #fde; padding: 0.5em;" }
 
 ## Curiosity
 
@@ -111,4 +112,4 @@ I'm working on making the game customizable, for the moment you can only play wi
 [^Windows_Vista_and_Windows_7]: <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
 [^PageBg]: **Page Background**: [Source](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504 )
 
-<script src="/Assets/MinesweeperEmbed.js"></script>
+<script src="/res/MinesweeperEmbed.js"></script>

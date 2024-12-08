@@ -1,14 +1,20 @@
 +++
 Title = "🔓️ Código abierto"
 Categories = [ "Meta" ]
-Lastmod = 2024-11-05
+Lastmod = 2024-12-08
 +++
 
 {{< noticeAutomaticTranslation it >}}
 
 
 
-Todo el contenido de este sitio que creé (mis propios escritos, medios originales y la mayor parte del código fuente) tiene licencia bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt. eu.org&creator=OctoSpacc" rel="noopener" target="_blank">"Atribución Creative Commons - Compartir por igual 4.0 Internacional" (CC BY-SA 4.0) (<span class="CCIcons"><img class="mw1" src="{{< assetsRoot >}}_/Media/Icons/CC/CC.svg"/> <img class="mw1" src="{{< assetsRoot >}}_/Media/Icons/CC/BY.svg"/> <img class="mw1" src="{{< assetsRoot >}}_/Media/Icons/CC/SA.svg"/>)</span></a>, una licencia gratuita que promueve el intercambio y no afecta la derechos legítimos a la cultura y a la colaboración de la humanidad en general.
+Aunque el sitio ctt fue creado principalmente con la intención de ser un hermoso lugar para mi expresión digital personal (no es casualidad [inicialmente se llamó _postoctt_]({{< relref "/blog/2022-08-26-sitoctt-da-3-mesi-ad-oggi/#il-postoctt" >}}_)), También lo concebí como un bien público y un recurso para todos.
+
+Para garantizarlo (y porque, de paso, tener todo así me facilita la gestión técnica), todo el código que hace funcionar el sitio (desde la compilación hasta la visualización) se deja completamente abierto, y los distintos contenidos se declaran a continuación como gratuitos.
+
+## Licencias y derechos de autor
+
+Todo el contenido de este sitio que creé (mis propios escritos, medios originales y la mayor parte del código fuente) tiene licencia bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt. eu.org&creator=OctoSpacc" rel="noopener" target="_blank">"Atribución Creative Commons - Compartir por igual 4.0 Internacional" (CC BY-SA 4.0) (<span class="CCIcons"><img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/CC.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/BY.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/SA.svg"/>)</span></a>, una licencia gratuita que promueve compartir, y no socava los derechos legítimos a la cultura y la colaboración de la humanidad en general.
 
 Sin embargo, también hay contenidos que no son míos.  
 Normalmente, si algo sale de mi mano, no tendrá ningún crédito cerca.  

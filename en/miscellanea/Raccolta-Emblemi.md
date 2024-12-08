@@ -1,14 +1,14 @@
 +++
 Title = "⚜️ Emblem Collection"
 Categories = [ "Fried-Mixed" ]
-Lastmod = 2024-12-02
+Lastmod = 2024-12-08
 +++
 
 {{< noticeAutomaticTranslation it >}}
 
 
 
-Tiled on the ctt site, as well as on the sites of other people _who live on my computer_, are these colorful little images. Sometimes animated, sometimes with something sensible written inside and sometimes not, and some that link to other pages or in any case do something useful.
+Tiled on the ctt site, as well as on other people's sites _who live on my computer_, are these colorful little images. Sometimes animated, sometimes with something sensible written inside and sometimes not, and some that link to other pages or in any case do something useful.
 
 There are different types, with different names: buttons or banners (usually large 88x31 pixels), _blinkie_ (lower and wider, usually 150x20 and animated), or whatever. In the end they are all somehow similar to emblems, and therefore I created this page to collect them; first listing the ones I use in general on the site, adding more information, and maybe placing others that I like found around.
 
@@ -25,18 +25,18 @@ Obviously, there are both sites that collect and catalog industrial quantities o
 * (11K+) _The 88x31 GIF Banner Database_: https://88x31db.com
 * (4K+) _The 88x31 GIF Collection_: https://cyber.dabamos.de/88x31/
    *Mirror: https://www.deadnet.se/88x31/
-* (31K+) _THE 88×31 ARCHIVE_: https://hellnet.work/8831/
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/hellnet_8831.gif) (31K+) _THE 88×31 ARCHIVE_: https://hellnet.work/8831/
 * _88x31 Button Library_: https://lazerdart.uk/buttons
 * (27K+) _The 88x31 GIF Collection_: http://www.textfiles.com/underconstruction/88x31/ (warning: very heavy page)
 * _kate's 88x31 button archive_: https://88x31.kate.pet — https://github.com/ktwrd/88x31
 * ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/the-largest-88x31-collection-2.png) _the largest 88x31 collection on the internet_: https://capstasher.neocities.org/88x31collection-page1
 * _A.N. Lucas's 88x31 button Collection_: https://anlucas.neocities.org/88x31Buttons — https://news.ycombinator.com/item?id=33793273
-* https://winter.entities.org.uk/buttons/
-* _Fustilugz's Button Collection_: https://fustilugz.neocities.org
-* _My 88x31 Button Store_: https://88x31.nekoweb.org/
-* _88x31 (Now) Buttons_: https://dannarchy.com/now
-* _Neko Buttons_: https://buttons.nekoweb.org
-* _DOKODEMO Buttons_: https://dokode.moe/buttons
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/winter-self.png) https://winter.entities.org.uk/buttons/
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/fustilugz-ME%20BUT%20SMALLer.gif) _Fustilugz's Button Collection_: https://fustilugz.neocities.org
+* _My 88x31 Button Store_: https://88x31.nekoweb.org
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/dannarchy-d_now.gif) _88x31 (Now) Buttons_: https://dannarchy.com/now
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/nekobuttons.png) _Neko Buttons_: https://buttons.nekoweb.org
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/dokodemobutton3.gif) _DOKODEMO Buttons_: https://dokode.moe/buttons
 
 There are also creation tools and similar resources, by the way:
 
@@ -46,7 +46,7 @@ There are also creation tools and similar resources, by the way:
 
 Even more information and resources on the topic:
 
-* _How2 - 88x31 Buttons | BMH Online_: https://bmh.neocities.org/how2/buttons — explains more about 88x31 buttons
+* ![]({{< assetsRoot >}}/Media/Buttons/88x31/Sites/bmhonline_button2.png) _How2 - 88x31 Buttons | BMH Online_: https://bmh.neocities.org/how2/buttons — explains more about 88x31 buttons
 * <https://eightyeightthirty.one> — https://breq.dev/projects/eightyeightthirtyone — service that crawls all possible sites following the links of the 88x31 buttons, showing a branch graph
 
-Tip: The emblems used on my site are all re-hosted by me, and in the process of uploading them I make sure to compress them with the best lossless algorithms around, so that they take up as little space as possible while still not losing any degree of image quality . I advise everyone else to work towards doing the same, there are only advantages.
+Tip: The emblems used on my site are all re-hosted by me, and in the process of uploading them I make sure to compress them with the best lossless algorithms around, whenever possible (for example, for PNG files), so that they take up the as little space as possible without losing any degree of image quality. I advise everyone else to work towards doing the same, there are only advantages.

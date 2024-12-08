@@ -38,8 +38,6 @@ Ahora, simplemente **por desesperación**, pero no porque entendí el razonamien
 Lo bueno es que el día anterior había hecho una comprobación de los sistemas de archivos (ext4), tanto de la tarjeta como de mi HDD USB, y todo había salido (aproximadamente) limpio, por lo que había descartado problemas de hardware a priori: "_si los archivos no están corruptos..._" pensé.
 Casi al mismo tiempo (¡el destino decidió que la ayuda tenía que llegar tarde!), sin embargo, una persona me dio una mano para entender qué carajo decían esas líneas indescifrables, que eran algo así como...
 
-.highlight.plaintext: primero de tipo { altura máxima: 80vh; }
-
 ```
 27 de diciembre 06:32:35 kernel: [27230.964650] INFORMACIÓN: tarea kworker/2:0:21874 bloqueada durante más de 860 segundos.
 27 de diciembre 06:32:35 kernel: [27230.964693] Contaminado: G C 5.15.76-v7+ #1597

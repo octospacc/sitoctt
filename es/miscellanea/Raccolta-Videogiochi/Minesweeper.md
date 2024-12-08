@@ -58,7 +58,8 @@ Al acumular ese lote diario único o doble a lo largo de semanas, meses y años,
 
 Parafraseando lo que escribe [un autor de PCGamesN] (https://www.pcgamesn.com/minesweeper/get-free): **Buscaminas es una de las formas más puras de escapismo digital** que puedes experimentar, porque es la práctica demostración de cómo un juego, para ser profundamente inmersivo, no tiene la necesidad vital de un _mundo abierto_ detallado, una narrativa elaborada o personajes a los que apegarse.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Lo siento, hay trabajo en progreso en esta página, estoy colocando minas para trollear a las próximas personas que vengan aquí para lee y se toparán con algunas palabras... si mientras tanto quieres aprender a jugar lee [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), adelante...< /p>
+...Lo siento, hay trabajo en progreso en esta página, estoy colocando minas para trollear a las próximas personas que vengan aquí para lee y se toparán con algunas palabras... si mientras tanto quieres aprender a jugar lee [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)), adelante...
+{ style="background: #fde; padding: 0.5em;" }
 
 ## Curiosidad
 
@@ -111,4 +112,4 @@ Estoy trabajando para que el juego sea personalizable, por el momento solo puede
 [^Windows_Vista_and_Windows_7]: <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
 [^PageBg]: **Fondo de la página**: [Fuente](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504)
 
-<script src="/Assets/BuscaminasEmbed.js"></script>
+<script src="/res/MinesweeperEmbed.js"></script>

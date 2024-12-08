@@ -1,14 +1,20 @@
 +++
 Title = "🔓️ Open Source"
 Categories = [ "Meta" ]
-Lastmod = 2024-11-05
+Lastmod = 2024-12-08
 +++
 
 {{< noticeAutomaticTranslation it >}}
 
 
 
-All content on this site that I created (my own writing, original media, and most source code) is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt. eu.org&creator=OctoSpacc" rel="noopener" target="_blank">"Creative Commons Attribution - Share Alike 4.0 International" (CC BY-SA 4.0) (<span class="CCIcons"><img class="mw1" src="{{< assetsRoot >}}_/Media/Icons/CC/CC.svg"/> <img class="mw1" src="{{< assetsRoot >}}_/Media/Icons/CC/BY.svg"/> <img class="mw1" src="{{< assetsRoot >}}_/Media/Icons/CC/SA.svg"/>)</span></a>, a free license that promotes sharing, and does not affect the legitimate rights to culture and the collaboration of humanity in general.
+Although the ctt site was created mainly with the intention of being a beautiful place for my personal digital expression (it is no coincidence [it was initially called _postoctt_]({{< relref "/blog/2022-08-26-sitoctt-da-3-mesi-ad-oggi/#il-postoctt" >}}_)), I also conceived it as a public good and resource for everyone.
+
+To guarantee this (and because, incidentally, having everything like this makes technical management easier for me), all the code that makes the site work (from compilation to display) is left completely open, and the various contents are declared below as free.
+
+## Licenses and Copyright
+
+All content on this site that I created (my own writing, original media, and most source code) is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt. eu.org&creator=OctoSpacc" rel="noopener" target="_blank">"Creative Commons Attribution - Share Alike 4.0 International" (CC BY-SA 4.0) (<span class="CCIcons"><img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/CC.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/BY.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/SA.svg"/>)</span></a>, a free license that promotes sharing, and not it undermines the legitimate rights to culture and the collaboration of humanity in general.
 
 However, there are also contents that are not mine.  
 Typically, if something comes out of my hand, it won't have any credits near it.  
@@ -36,7 +42,7 @@ The main repository is structured according to these branches:
 
 This is the branch now set as default, which hosts the main site files, since it was migrated to the Hugo static site generator:
 
-* Page and post sources (mostly in Markdown format)
+* Sources of pages and posts (mostly in Markdown format)
 * Page layout sources, so HTML templates with Go syntax and CSS style sheets
 * Other basic page elements, such as client-side scripts and small icons
 * Very custom script for each phase of the site compilation process: obtaining dependencies, compiling pages, synchronizing external data, etc...
