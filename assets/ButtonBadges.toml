@@ -35,6 +35,7 @@ href = "/miscellanea/Open-Source-sitoctt/"
 alt = "✨sitoctt"
 file = "Sites/sitoctt-1.png"
 href = "/miscellanea/Raccolta-Siti-Internet/#il-mio"
+oc = true
 
 [[10-site]]
 alt = "Sign my guestoobk"
@@ -85,16 +86,19 @@ alt = "Visita la OctoSpacc Hub"
 file = "Sites/octospacc-hub-1.png"
 href = "https://hub.octt.eu.org"
 rel = "me"
+oc = true
 
 [[20-me]]
 alt = "Visita il mio Fritto Misto di OctoSpacc"
 file = "Sites/fritto-misto-di-octospacc-1.png"
 href = "https://octospacc.altervista.org"
 rel = "me"
+oc = true
 
 [[20-me]]
 alt = "Bandiera Octt"
 file = "Octt-Flag.png"
+oc = true
 
 [[20-me]]
 alt = "Rainbow"
@@ -210,6 +214,7 @@ alt = "Firefox"
 file = "Firefox-Modern.png"
 href = "https://www.mozilla.org/it/firefox"
 spam = true
+oc = true
 
 [[50-fun]]
 alt = "The Onion Router"

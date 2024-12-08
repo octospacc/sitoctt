@@ -31,7 +31,21 @@ Sapevo fossero la stessa persona, ma non sapevo che "Ujico" e "Snail's House" fo
 
 * [SoundCloud](https://soundcloud.com/ujico), [YouTube](https://www.youtube.com/channel/UCYxBY8mhJ7R2rMIcQ28H_Zw), [Bandcamp](https://0101.bandcamp.com/music), [Archive.org](https://archive.org/details/ujico-snails-house-full-discography)
 
-<!-- ## Album vari -->
+## Album vari
+
+### FÜGENE
+
+* [FÜGENE 01](https://linkco.re/XRuRv8rH?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_khd5b0R0IMDkw0gePLwh5Rrgr9WGHEsvg), [Bandcamp](https://megarex-jp.bandcamp.com/album/fugene-01)
+* [FÜGENE 02](https://linkco.re/mDPeVZRV?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_mWo8vkOoCPpP1lCY8UeiBCSoWYEgx-_ME)
+* [FÜGENE 03](https://linkco.re/AuSy2sZ6?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_l_FdJ96W2OaVCMQebNejLt3VXOnd5qpOY)
+* [FÜGENE 04](https://linkco.re/C3vsXvtq?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_nWn26hNyAqHxJJ40lbYqRczBYDswPLRAc)
+* [FÜGENE Remixes](https://linkco.re/YxcmVDHX?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_lzy3JOHetCfnOMdcQhPxjeM3cKisvYIrk)
+
+### SPD GAR
+
+* [SPD GAR 001](https://linkco.re/cF0ZGmQP?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_mNq8bjZS7WjR0Ir-bB_xiwfo308YKIQB0), [Bandcamp](https://megarex-jp.bandcamp.com/album/spd-gar-001)
+* [SPD GAR 002](https://linkco.re/UMBY67rd?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_mM8EfyV20cZEhVZiLdSZNbI763Jg0KK0s), [Bandcamp](https://megarex-jp.bandcamp.com/album/spd-gar-002)
+* [SPD GAR 003](https://linkco.re/4M5rXzbd?lang=en): [YouTube](https://music.youtube.com/playlist?list=OLAK5uy_lGHiR_5TwywEjY-EDBoIfeDb5LM07MKT0)
 
 ## Menzioni speciali
 
