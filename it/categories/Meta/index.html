@@ -32,16 +32,16 @@
 window.sitoctt = {};
 window.Void = (function Void(){});window.sitoctt.Props = JSON.parse("{\"GitBranchAssets\":\"main\",\"GitBranchThis\":\"sitoctt-next\",\"GitInstanceUrl\":\"https://gitlab.com\",\"GitRepoAssets\":\"octtspacc/sitoctt-assets\",\"GitRepoThis\":\"octtspacc/sitoctt\"}");window.sitoctt.localStorage = (function localStorage(key, value){ return SpaccDotWeb.LocalStorage('org.eu.octt.sitoctt', key, value); });
 </script>
-<script src="http://http.sitoctt.octt.eu.org/ajax-navigation.js"></script>
-<script src="http://http.sitoctt.octt.eu.org/local-file-tweaks.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/ajax-navigation.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/local-file-tweaks.js"></script>
 <script src="http://http.sitoctt.octt.eu.org/it/searchindex.js"></script>
-<script src="http://http.sitoctt.octt.eu.org/lib/fuse.min.js"></script>
-<script src="http://http.sitoctt.octt.eu.org/lib/SpaccDotWeb.Alt.min.js"></script>
-<script src="http://http.sitoctt.octt.eu.org/octt-runtime.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/lib/fuse.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/lib/SpaccDotWeb.Alt.min.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/octt-runtime.js"></script>
 
-  <script src="http://http.sitoctt.octt.eu.org/analytics.js"></script>
+  <script src="http://http.sitoctt.octt.eu.org/res/analytics.js"></script>
 
-<script src="http://http.sitoctt.octt.eu.org/markdown-editor.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/markdown-editor.js"></script>
 
 
     
@@ -69,8 +69,8 @@ window.Void = (function Void(){});window.sitoctt.Props = JSON.parse("{\"GitBranc
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Meta">
-  <meta itemprop="datePublished" content="2024-12-01T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-12-01T00:00:00+00:00">
+  <meta itemprop="datePublished" content="2024-12-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-12-08T00:00:00+00:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Meta">
 
@@ -182,15 +182,15 @@ window.Void = (function Void(){});window.sitoctt.Props = JSON.parse("{\"GitBranc
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Miscellanea🪁️</span>
     <h1 class="f3 near-black">
-      <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/" class="link black dim">
-        📄 Copie del Sito
+      <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-sitoctt-Internals/" class="link black dim">
+        ⚙️ sitoctt Internals
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Oltre alla versione &ldquo;normale&rdquo; del sito, cioè servita dagli indirizzi web ufficiali, il sitoctt è disponibile sotto forma di copie: archivi e mirror, in linea e offline. Possono essere utili per consultare il sito qualora questo dovesse in qualche momento andare giù, o si voglia per qualche motivo far riferimento ad un suo stato congelato nel passato.
-Archivi Offline A parte il codice sorgente disponibile, che può essere archiviato e riutilizzato da chiunque ne abbia le competenze per rigenerare le pagine dalle loro parti essenziali, il sito è progettato per poter essere agevolmente accessibile a tutti senza dipendere dal mio server; per di più, lo si può facilmente ricondividere per intero tramite pennette USB, email, messaggistica istantanea, ecc&hellip;
+      Negli interminabili anni della sua esistenza, il sitoctt si è evoluto e continua ad evolversi, ottenendo funzionalità epiche ed in generale un&rsquo;aura di magia&hellip; e chi vuole diventare come me potrebbe voler iniziare dal creare un proprio sito prendendo anche il mio come ispirazione.
+Per questo, credo sia carino tenere una raccolta dettagliata delle varie specialità tecniche del sito, illustrate per bene; magari spiegate in modo che siano comprensibili anche a coloro che hanno un po&rsquo; di curiosità ma non sono addetti ai lavori.
     </div>
-    <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">leggi di più</a>
+    <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-sitoctt-Internals/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">leggi di più</a>
   </div>
 </div>
 
@@ -206,11 +206,29 @@ Archivi Offline A parte il codice sorgente disponibile, che può essere archivia
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza &ldquo;Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale&rdquo; (CC BY-SA 4.0) ( ), una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell&rsquo;umanità in generale.
-Sono presenti, però, anche contenuti non miei.
-In genere, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino.
+      Per quanto il sitoctt nasca principalmente con l&rsquo;intento di essere un posto tutto bellino per la mia personale espressione digitale (non a caso all&rsquo;inizio si chiamava postoctt), l&rsquo;ho concepito anche come bene pubblico e risorsa per tutti.
+Per garantire ciò (e perché, incidentalmente, il fatto di avere tutto così mi rende più facile la gestione tecnica), tutto il codice che fa funzionare il sito (dalla compilazione alla visualizzazione) è lasciato completamente aperto, e i contenuti vari sono di seguito dichiarati come liberi.
     </div>
     <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">leggi di più</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100  mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Miscellanea🪁️</span>
+    <h1 class="f3 near-black">
+      <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/" class="link black dim">
+        📄 Copie del Sito
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Oltre alla versione &ldquo;normale&rdquo; del sito, cioè servita dagli indirizzi web ufficiali, il sitoctt è disponibile sotto forma di copie: archivi e mirror, in linea e offline. Possono essere utili per consultare il sito qualora questo dovesse in qualche momento andare giù, o si voglia per qualche motivo far riferimento ad un suo stato congelato nel passato.
+Archivi Offline A parte il codice sorgente disponibile, che può essere archiviato e riutilizzato da chiunque ne abbia le competenze per rigenerare le pagine dalle loro parti essenziali, il sito è progettato per poter essere agevolmente accessibile a tutti senza dipendere dal mio server; per di più, lo si può facilmente ricondividere per intero tramite pennette USB, email, messaggistica istantanea, ecc&hellip;
+    </div>
+    <a href="http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">leggi di più</a>
   </div>
 </div>
 
@@ -522,7 +540,7 @@ Se il sitoctt ti piace, e vuoi aiutarmi a migliorarlo ed aggiornarlo più freque
     </section>
   </div>
 </div>
-<script src="http://http.sitoctt.octt.eu.org/site-search.js"></script>
+<script src="http://http.sitoctt.octt.eu.org/res/site-search.js"></script>
 
   </body>
 </html>

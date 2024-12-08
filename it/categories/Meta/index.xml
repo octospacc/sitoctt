@@ -6,21 +6,28 @@
     <description>Recent content in Meta on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/it/categories/Meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⚙️ sitoctt Internals</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-sitoctt-Internals/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-sitoctt-Internals/</guid>
+      <description>Negli interminabili anni della sua esistenza, il sitoctt si è evoluto e continua ad evolversi, ottenendo funzionalità epiche ed in generale un&amp;rsquo;aura di magia&amp;hellip; e chi vuole diventare come me potrebbe voler iniziare dal creare un proprio sito prendendo anche il mio come ispirazione.&#xA;Per questo, credo sia carino tenere una raccolta dettagliata delle varie specialità tecniche del sito, illustrate per bene; magari spiegate in modo che siano comprensibili anche a coloro che hanno un po&amp;rsquo; di curiosità ma non sono addetti ai lavori.</description>
+    </item>
+    <item>
+      <title>🔓️ Open Source</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</guid>
+      <description>Per quanto il sitoctt nasca principalmente con l&amp;rsquo;intento di essere un posto tutto bellino per la mia personale espressione digitale (non a caso all&amp;rsquo;inizio si chiamava postoctt), l&amp;rsquo;ho concepito anche come bene pubblico e risorsa per tutti.&#xA;Per garantire ciò (e perché, incidentalmente, il fatto di avere tutto così mi rende più facile la gestione tecnica), tutto il codice che fa funzionare il sito (dalla compilazione alla visualizzazione) è lasciato completamente aperto, e i contenuti vari sono di seguito dichiarati come liberi.</description>
+    </item>
     <item>
       <title>📄 Copie del Sito</title>
       <link>http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/Copie-del-Sito/</guid>
       <description>Oltre alla versione &amp;ldquo;normale&amp;rdquo; del sito, cioè servita dagli indirizzi web ufficiali, il sitoctt è disponibile sotto forma di copie: archivi e mirror, in linea e offline. Possono essere utili per consultare il sito qualora questo dovesse in qualche momento andare giù, o si voglia per qualche motivo far riferimento ad un suo stato congelato nel passato.&#xA;Archivi Offline A parte il codice sorgente disponibile, che può essere archiviato e riutilizzato da chiunque ne abbia le competenze per rigenerare le pagine dalle loro parti essenziali, il sito è progettato per poter essere agevolmente accessibile a tutti senza dipendere dal mio server; per di più, lo si può facilmente ricondividere per intero tramite pennette USB, email, messaggistica istantanea, ecc&amp;hellip;</description>
-    </item>
-    <item>
-      <title>🔓️ Open Source</title>
-      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</link>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Open-Source/</guid>
-      <description>Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza &amp;ldquo;Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale&amp;rdquo; (CC BY-SA 4.0) ( ), una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell&amp;rsquo;umanità in generale.&#xA;Sono presenti, però, anche contenuti non miei.&#xA;In genere, se qualcosa viene dalla mia mano, non avrà nessuna indicazione di crediti vicino.</description>
     </item>
     <item>
       <title>Sul sitoctt</title>

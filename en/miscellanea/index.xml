@@ -6,14 +6,28 @@
     <description>Recent content in Miscellany🪁️ on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/en/miscellanea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⚙️ sitoctt Internals</title>
+      <link>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-sitoctt-Internals/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-sitoctt-Internals/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;In the endless years of its existence, the ctt site has evolved and continues to evolve, obtaining epic features and in general an aura of magic&amp;hellip; and those who want to become like me might want to start by creating their own site, also taking mine as inspiration.</description>
+    </item>
     <item>
       <title>⚜️ Emblem Collection</title>
       <link>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Emblem-Collection/</link>
-      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Emblem-Collection/</guid>
-      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Tiled on the ctt site, as well as on the sites of other people who live on my computer, are these colorful little images. Sometimes animated, sometimes with something sensible written inside and sometimes not, and some that link to other pages or in any case do something useful.</description>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Tiled on the ctt site, as well as on other people&amp;rsquo;s sites who live on my computer, are these colorful little images. Sometimes animated, sometimes with something sensible written inside and sometimes not, and some that link to other pages or in any case do something useful.</description>
+    </item>
+    <item>
+      <title>🔓️ Open Source</title>
+      <link>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Open-Source/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Open-Source/</guid>
+      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;Although the ctt site was created mainly with the intention of being a beautiful place for my personal digital expression (it is no coincidence it was initially called postoctt), I also conceived it as a public good and resource for everyone.&#xA;To guarantee this (and because, incidentally, having everything like this makes technical management easier for me), all the code that makes the site work (from compilation to display) is left completely open, and the various contents are declared below as free.</description>
     </item>
     <item>
       <title>📄 Site Copies</title>
@@ -21,13 +35,6 @@
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/en/miscellanea/Site-Copies/</guid>
       <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;In addition to the &amp;ldquo;normal&amp;rdquo; version of the site, i.e. served by the official web addresses, the ctt site is available in the form of copies: archives and mirrors, online and offline. They can be useful for consulting the site if it goes down at some point, or for some reason you want to refer to a state frozen in the past.</description>
-    </item>
-    <item>
-      <title>🔓️ Open Source</title>
-      <link>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Open-Source/</link>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://http.sitoctt.octt.eu.org/en/miscellanea/%EF%B8%8F-Open-Source/</guid>
-      <description>Caution&#xA;The content of this page has been entirely machine-translated into English, from Italiano. Therefore, it might contain any kind of errors.&#xA;All content on this site that I created (my own writing, original media, and most source code) is licensed under &amp;ldquo;Creative Commons Attribution - Share Alike 4.0 International&amp;rdquo; (CC BY-SA 4.0) ( ), a free license that promotes sharing, and does not affect the legitimate rights to culture and the collaboration of humanity in general.</description>
     </item>
     <item>
       <title>🚧️ Separators Collection</title>
