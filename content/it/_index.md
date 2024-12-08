@@ -13,4 +13,4 @@ Ora c'è questa lista di tutti i miei ultimissimi articoli, e pagine sfuse che h
 
 <!-- (Lavori in corso per ancora qualche giorno, quindi forse link rotti e pagine sformate, mi dispiace!!!) -->
 
-<link rel="stylesheet" href="/desinenze-blink.css"/>
+<link rel="stylesheet" href="/res/desinenze-blink.css"/>

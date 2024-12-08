@@ -6,7 +6,7 @@ window.SiteInitOnLoad = [];
 var oldUrl = null;
 
 // TODO before deploying this: handle page-specific scripts (comments, etc...)
-//if (location.protocol === 'file:') {
+//if (location.protocol === 'file:' /* && !isSingleFileBuild */) {
 	window.PatchAjaxNavigationAnchor = Void;
 	return; // HTTP requests don't work on local files with default browser configuration
 //}
@@ -22,7 +22,7 @@ function initPage () {
 	}
 	oldUrl = location.href;
 	var langToken = ('/' + document.documentElement.lang + '/');
-	var baseHref = (location.href.split(langToken)[0] + langToken);
+	var baseHref = (location.href.split(langToken)[0] + langToken); // we reload page on language change due to search index differences
 	Array.from(document.querySelectorAll('a[href]')).filter(function(anchorEl){
 		//var tokens = href.split('/' + document.documentElement.lang + '/');
 		//if (location.href.slice(0, href[0]))
@@ -31,26 +31,34 @@ function initPage () {
 	}).forEach(PatchAjaxNavigationAnchor);
 }
 
-function loadContent (url, push) {
-	function useFallback () {
-		location.href = url;
+function setNewPage (html, pushUrl, fallbackTimeout) {
+	var domNew = (new DOMParser).parseFromString(html, 'text/html');
+	if (pushUrl) {
+		history.pushState(null, null, pushUrl);
 	}
-	var fallbackTimeout = setTimeout(useFallback, 3000);
-	fetch(url)
-		.then(function(request){ return request.text(); })
-		.then(function(html){
-			var domNew = (new DOMParser).parseFromString(html, 'text/html');
-			if (push) {
-				history.pushState(null, null, url);
-			}
-			document.head.innerHTML = domNew.head.innerHTML;
-			document.body.innerHTML = domNew.body.innerHTML;
-			initPage();
-			clearTimeout(fallbackTimeout);
-		}).catch(function(err){
-			console.error(err);
-			useFallback();
-		});
+	document.head.innerHTML = domNew.head.innerHTML;
+	document.body.innerHTML = domNew.body.innerHTML;
+	initPage();
+	clearTimeout(fallbackTimeout);
+}
+
+function loadContent (url, push) {
+	//if (isSingleFileBuild) { // TODO
+	//	setNewPage(html, (push && url), fallbackTimeout);
+	//} else {
+		function useFallback () {
+			location.href = url;
+		}
+		var fallbackTimeout = setTimeout(useFallback, 3000);
+		fetch(url)
+			.then(function(request){ return request.text(); })
+			.then(function(html){
+				setNewPage(html, (push && url), fallbackTimeout);
+			}).catch(function(err){
+				console.error(err);
+				useFallback();
+			});
+	//}
 }
 
 window.PatchAjaxNavigationAnchor = (function PatchAjaxNavigationAnchor (anchorEl) {
@@ -64,7 +72,11 @@ window.PatchAjaxNavigationAnchor = (function PatchAjaxNavigationAnchor (anchorEl
 	}
 });
 
-window.addEventListener('DOMContentLoaded', initPage);
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', initPage);
+} else {
+	initPage();
+}
 
 window.addEventListener('popstate', (function(stateEvent){
 	if (toPathUrl(location.href) !== toPathUrl(oldUrl)) {

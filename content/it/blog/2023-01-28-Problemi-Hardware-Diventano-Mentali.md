@@ -34,7 +34,9 @@ Ormai, giusto **per disperazione**, ma non perché avevo capito ragionando fosse
 Il bello è che il giorno prima avevo fatto un controllo dei file system (ext4), sia della schedina che del mio HDD USB, ed era uscito tutto (circa) pulito, perciò avevo escluso problemi hardware a priori: "_se i file non sono corrotti..._" ho pensato.  
 Circa nello stesso momento (il fato ha deciso che l'aiuto dovesse arrivare tardi!), comunque, una persona mi ha dato **una mano a capire** che cavolo dicessero quelle righe indecifrabili, che erano una roba tipo...
 
+<style>
 .highlight.plaintext:first-of-type { max-height: 80vh; }
+</style>
 
 ```
 Dec 27 06:32:35 kernel: [27230.964650] INFO: task kworker/2:0:21874 blocked for more than 860 seconds.

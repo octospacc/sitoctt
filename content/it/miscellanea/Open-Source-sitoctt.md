@@ -1,8 +1,14 @@
 +++
 Title = "🔓️ Open Source"
 Categories = [ "Meta" ]
-Lastmod = 2024-11-05
+Lastmod = 2024-12-08
 +++
+
+Per quanto il sitoctt nasca principalmente con l'intento di essere un posto tutto bellino per la mia personale espressione digitale (non a caso [all'inizio si chiamava _postoctt_]({{< relref "/blog/2022-08-26-sitoctt-da-3-mesi-ad-oggi/#il-postoctt" >}})), l'ho concepito anche come bene pubblico e risorsa per tutti.
+
+Per garantire ciò (e perché, incidentalmente, il fatto di avere tutto così mi rende più facile la gestione tecnica), tutto il codice che fa funzionare il sito (dalla compilazione alla visualizzazione) è lasciato completamente aperto, e i contenuti vari sono di seguito dichiarati come liberi.
+
+## Licenze e Copyright
 
 Tutto il contenuto presente su questo sito che ho creato io (i miei testi, media originali, e maggior parte del codice sorgente) è rilasciato sotto licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it?ref=chooser-v1&title=%E2%9C%A8sitoctt%E2%9C%A8&href=https://sitoctt.octt.eu.org&creator=OctoSpacc" rel="noopener" target="_blank">"Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale" (CC BY-SA 4.0) (<span class="CCIcons"><img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/CC.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/BY.svg"/> <img class="mw1" src="{{< assetsRoot >}}/Media/Icons/CC/SA.svg"/>)</span></a>, una licenza libera che promuove la condivisione, e non intacca i legittimi diritti alla cultura e la collaborazione dell'umanità in generale.
 

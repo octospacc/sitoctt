@@ -22,6 +22,9 @@
 {{- $html := $img -}}
 {{- if $extended -}}
   {{- $html = (printf "%s <span>%s</span>" $img .alt) | safeHTML -}}
+  {{- if .oc -}}
+    {{- $html = (printf "%s [OC]" $html) | safeHTML -}}
+  {{- end -}}
 {{- end -}}
 {{- if .href -}}
   {{- $html = (partial "anchor.html" (dict

@@ -54,7 +54,8 @@ Accumulando quella singola o doppia partita giornaliera nelle settimane, nei mes
 
 Parafrasando ciò che scrive [un autore di PCGamesN](https://www.pcgamesn.com/minesweeper/get-free): **Campo minato è una delle forme di escapismo digitale più pure** di cui si possa fare esperienza, perché è la dimostrazione pratica di come un gioco, per essere profondamente immersivo, non ha un vitale bisogno di un _open world_ dettagliato, narrativa elaborata, o personaggi a cui affezionarsi.
 
-<p markdown="1" style="background: #fde; padding: 0.5em;">...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia](https://it.wikipedia.org/Campo_minato_(videogioco)), vai va...</p>
+...Scusa, ci sono lavori in corso su questa pagina, sto piazzando le mine in giro per trollare le prossime persone che verranno qui a leggere e inciamperanno su qualche parola... se nel frattempo vuoi imparare a giocare leggiti [Wikipedia](https://it.wikipedia.org/wiki/Campo_minato_(videogioco)), vai va...
+{ style="background: #fde; padding: 0.5em;" }
 
 {{< embed ouCe9OTmTUs youtube "16:9" "LGR — Minesweeper is Hardcore Gaming" >}}
 
@@ -109,4 +110,4 @@ Sto lavorando per rendere il gioco personalizzabile, per il momento si può solo
 [^Windows_Vista_and_Windows_7]: <https://en.wikipedia.org/wiki/Microsoft_Minesweeper#Windows_Vista_and_Windows_7>
 [^PageBg]: **Sfondo della Pagina**: [Fonte](https://www.techradar.com/news/gaming/the-most-successful-game-ever-a-history-of-minesweeper-596504)
 
-<script src="/MinesweeperEmbed.js"></script>
+<script src="/res/MinesweeperEmbed.js"></script>
