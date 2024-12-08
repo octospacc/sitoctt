@@ -1,12 +1,11 @@
 (function(){
 // TODO fix ajax navigation to different-language page, doesn't currently load the index for the selected language
-// TODO better perf
 // TODO thumbnails?
 // TODO highlight found word in text summary? we must handle generating summary client-side at different points of text for it to work
 
 function init () {
 
-var fuse;
+var fuse, queryTimeout, lastQueryTerm;
 var hideButton = document.getElementById("close-search-button");
 var wrapper = document.getElementById("search-wrapper");
 var modal = document.getElementById("search-modal");
@@ -31,7 +30,14 @@ document.addEventListener('keydown', SiteSearchOnKeyHandler);
 
 // Update search on each keypress
 input.onkeyup = function (event) {
-  executeQuery(this.value);
+  if (input.value !== lastQueryTerm) {
+    queryTimeout = clearTimeout(queryTimeout);
+    queryTimeout = setTimeout(function(){
+      queryTimeout = null;
+      executeQuery(input.value);
+    }, 300);
+    lastQueryTerm = input.value;
+  }
 };
 
 function documentOnKeyDown (event) {
@@ -48,8 +54,17 @@ function documentOnKeyDown (event) {
     hideSearch();
   }
 
-  if (event.key == "ArrowDown") {
-    if (searchVisible && hasResults) {
+  if ((event.key === 'Enter' || event.key === 'ArrowDown') && searchVisible && queryTimeout) {
+    queryTimeout = clearTimeout(queryTimeout);
+    executeQuery(input.value);
+  }
+
+  if (!searchVisible || !hasResults) {
+    return;
+  }
+
+  switch (event.key) {
+    case 'ArrowDown': {
       event.preventDefault();
       if (document.activeElement == input) {
         first.focus();
@@ -58,11 +73,10 @@ function documentOnKeyDown (event) {
       } else {
         document.activeElement.parentElement.nextSibling.firstElementChild.focus();
       }
+      break;
     }
-  }
 
-  if (event.key == "ArrowUp") {
-    if (searchVisible && hasResults) {
+    case 'ArrowUp': {
       event.preventDefault();
       if (document.activeElement == input) {
         input.focus();
@@ -71,18 +85,18 @@ function documentOnKeyDown (event) {
       } else {
         document.activeElement.parentElement.previousSibling.firstElementChild.focus();
       }
+      break;
     }
-  }
 
-  // Enter to get to results
-  if (event.key == "Enter") {
-    if (searchVisible && hasResults) {
+    // Enter to get to results
+    case 'Enter': {
       event.preventDefault();
       if (document.activeElement == input) {
         first.focus();
       } else {
         document.activeElement.click();
       }
+      break;
     }
   }
 }
@@ -132,8 +146,8 @@ function buildIndex() {
 }
 
 function executeQuery(term) {
-  let results = fuse.search(term);
-  let resultsHTML = "";
+  var results = fuse.search(term);
+  var resultsHTML = "";
 
   if (results.length > 0) {
     results.forEach(function (value, key) {
