@@ -3,7 +3,7 @@
 RepoUrl="https://gitlab.com/octtspacc/sitoctt.git"
 BranchThis="sitoctt-next"
 BranchTranslate="translate-cache"
-HugoVersion="0.133.0"
+HugoVersion="0.133.1" # Templating of content summaries and similar things is broken somewhere since > 0.133.1
 
 #/bin/sh!
 
