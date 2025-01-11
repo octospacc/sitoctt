@@ -6,8 +6,15 @@
     <description>Recent content in Meta on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/it/categories/Meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🧙️ Politica del sitoctt sull&#39;Intelligenza Artificiale Generativa</title>
+      <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Politica-del-sitoctt-sullIntelligenza-Artificiale-Generativa/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-Politica-del-sitoctt-sullIntelligenza-Artificiale-Generativa/</guid>
+      <description>A causa delle controversie concernenti le intelligenze artificiali generative e il loro utilizzo,1 questa pagina vuole, nel possibile, delineare una politica sul loro utilizzo ed inutilizzo nel contesto di questo sito, per garantire un buon livello di trasparenza con il pubblico.&#xA;La data dell&amp;rsquo;ultimo aggiornamento di questo documento è indicata in cima alla pagina, sotto il titolo.&#xA;Le revisioni passate possono essere consultate dalla cronologia di Git: sitoctt-GenAI.md.&#xA;Testi Nessun modello generativo di linguaggio è mai stato usato per nessuna delle tappe del ciclo di vita del contenuto originale di pagine e post.</description>
+    </item>
     <item>
       <title>⚙️ sitoctt Internals</title>
       <link>http://http.sitoctt.octt.eu.org/it/miscellanea/%EF%B8%8F-sitoctt-Internals/</link>
