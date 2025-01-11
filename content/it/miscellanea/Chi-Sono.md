@@ -5,7 +5,7 @@ Title = "😺 Chi sono"
 Aliases = [
   "/Chi-Sono.html",
 ]
-Lastmod = 2023-10-17
+Lastmod = 2025-01-11
 #$SelfhostLineBadge = '<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;">SELFHOST!</small>'
 +++
 
@@ -53,7 +53,13 @@ Ah, e devo anche ancora andare a scuola... no, università mi dicono ora, credo.
 
 ## I miei contatti
 
-Mi puoi trovare sul Fediverso, ai contatti da me preferiti che lascio qui sotto.
+Quando i commenti su questo sito non bastano, se vuoi contattarmi in privato per qualche motivo, puoi:
+
+- Scrivermi attraverso il form di contatto su <https://octospacc.altervista.org/contatti-%F0%9F%98%BA%EF%B8%8F/>
+- Inviarmi un'email a <code class="octt-contact">[Attiva JavaScript]</code> o <code class="octt-contact">[Attiva JavaScript]</code>
+- Scrivermi un messaggio tramite ActivityPub a <code class="octt-contact">[Attiva JavaScript]</code>
+
+Alternativamente, ma li controllo poco, mi puoi trovare sulle piattaforme del Fediverso che lascio qui sotto:
 
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt)  
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo)  
@@ -83,3 +89,5 @@ Qui sul sito, comunque, non ho ancora avuto le idee abbastanza chiare, né la pa
 ![Me su Animal Crossing Wild World.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
 _Io? Cutie. Assolutamente indiscutibile._  
 _Voi? Meh, forse.. penso???_
+
+<script src="/res/Contatti.js"></script>

@@ -164,23 +164,27 @@ def translate_document(document_path, documents):
 			except Exception as exception:
 				printf('❌', exception)
 				continue
-		printf('✅')
-		translated_text = (translated.results[0].paraphrase
-			if is_python_translator else translated.stdout.decode())
-		translated_preamble = ("\n\n{{< noticeAutomaticTranslation " + source_language + " >}}\n\n")
-		if (translated_tokens := split_with_frontmatter(translated_text)):
-			translated_tokens[1] = fix_frontmatter(translated_tokens[1], original_text.split(translated_tokens[0])[1])
-			if translated_tokens[3].strip():
-				translated_tokens.insert(3, translated_preamble)
-			translated_text = ''.join(translated_tokens)
-		elif translated_text.strip():
-			translated_text = (translated_preamble + translated_text)
-		translated_text = unwrap_from_translation(translated_text)
-		for replacement in TranslationFixes:
-			translated_text = translated_text.replace(replacement, TranslationFixes[replacement])
-		destination_path = make_destination_path(document_path, destination_language)
-		Path('/'.join(destination_path.split('/')[:-1])).mkdir(parents=True, exist_ok=True)
-		open(destination_path, 'w').write(translated_text)
+		try:
+			translated_text = (translated.results[0].paraphrase
+				if is_python_translator else translated.stdout.decode())
+			translated_preamble = ("\n\n{{< noticeAutomaticTranslation " + source_language + " >}}\n\n")
+			if (translated_tokens := split_with_frontmatter(translated_text)):
+				translated_tokens[1] = fix_frontmatter(translated_tokens[1], original_text.split(translated_tokens[0])[1])
+				if translated_tokens[3].strip():
+					translated_tokens.insert(3, translated_preamble)
+				translated_text = ''.join(translated_tokens)
+			elif translated_text.strip():
+				translated_text = (translated_preamble + translated_text)
+			translated_text = unwrap_from_translation(translated_text)
+			for replacement in TranslationFixes:
+				translated_text = translated_text.replace(replacement, TranslationFixes[replacement])
+			destination_path = make_destination_path(document_path, destination_language)
+			Path('/'.join(destination_path.split('/')[:-1])).mkdir(parents=True, exist_ok=True)
+			open(destination_path, 'w').write(translated_text)
+			printf('✅')
+		except Exception as exception:
+			printf('❌', exception)
+			continue
 	printf('\n')
 
 def main():
