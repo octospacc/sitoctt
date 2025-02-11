@@ -1,5 +1,5 @@
 <script>
-window.sitoctt = {};
+window.sitoctt = { utils: {} };
 window.Void = (function Void(){});
 {{- with resources.Get "SiteProps.toml" -}}
   {{- with . | transform.Unmarshal -}}
@@ -8,6 +8,7 @@ window.Void = (function Void(){});
 {{- end -}}
 window.sitoctt.localStorage = (function localStorage(key, value){ return SpaccDotWeb.LocalStorage('org.eu.octt.sitoctt', key, value); });
 </script>
+<script src="/res/sitoctt-utils.js"></script>
 <script src="/res/ajax-navigation.js"></script>
 <script src="/res/local-file-tweaks.js"></script>
 <script src="/{{ .Lang }}/searchindex.js"></script>

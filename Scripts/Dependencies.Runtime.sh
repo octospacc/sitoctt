@@ -5,8 +5,12 @@ cd "${swd}/.."
 mkdir -p ./static/res/lib
 cd ./static/res/lib
 
-wget --continue "https://spaccinc.gitlab.io/SpaccDotWeb/SpaccDotWeb.Alt.min.js"
-wget --continue "https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"
-wget --continue "https://uicdn.toast.com/editor/latest/toastui-editor.min.css"
+downloadfile(){
+	wget -O "./$2" "https://$1/$2"
+}
+
+downloadfile spaccinc.gitlab.io/SpaccDotWeb SpaccDotWeb.Alt.min.js
+downloadfile uicdn.toast.com/editor/latest toastui-editor-all.min.js
+downloadfile uicdn.toast.com/editor/latest toastui-editor.min.css
 
 cd "${owd}"
