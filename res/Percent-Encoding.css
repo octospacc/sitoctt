@@ -1,0 +1,6 @@
+.Percent-Encoding > div {
+	/* display: grid;
+	grid-template-columns: auto auto; */
+}
+.Percent-Encoding textarea { width: 100%; min-height: 10em; }
+

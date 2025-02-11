@@ -41,7 +41,8 @@ input.onkeyup = function (event) {
 };
 
 function documentOnKeyDown (event) {
-  if (event.key == "/") {
+
+  if (event.key == '/' && event.ctrlKey) {
     if (!searchVisible) {
       event.preventDefault();
       displaySearch();
@@ -50,7 +51,7 @@ function documentOnKeyDown (event) {
     }
   }
 
-  if (event.key == "Escape") {
+  if (event.key == 'Escape') {
     hideSearch();
   }
 
