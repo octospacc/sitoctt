@@ -51,6 +51,13 @@
       <description>https://archivioctt-61aad6.gitlab.io/ </description>
     </item>
     <item>
+      <title>BloccSpacc</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/BloccSpacc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/BloccSpacc/</guid>
+      <description>https://hlb0.octt.eu.org/Misc/BloccSpacc/ Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/BloccSpacc https://github.com/octospacc/BloccSpacc https://gitea.it/octospacc/BloccSpacc LEGGIMI originale BloccSpacc BloccSpacc is a portable isometric voxel sandbox game, mainly focused on building.&#xA;Development status and compatibility note The game is still in heavy development.</description>
+    </item>
+    <item>
       <title>DroidScriptin&#39;</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/DroidScriptin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -62,7 +69,7 @@
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/FrameNX/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/FrameNX/</guid>
-      <description>Tutte le informazioni, i pacchetti eseguibili e il codice sorgente sono disponibili su itch.io:&#xA;https://octt.itch.io/framenx Pagina originale FrameNX is a simple unofficial desktop app for centralizing everything about on-PC mirroring and controlling of genuine Nintendo Switch consoles.&#xA;Essentially, this brings together screen and audio mirroring via (standard) capture cards, and sending of simulated gamepad inputs from gamepads that your console can&amp;#x27;t use directly. (The latter requires the sys-botbase homebrew, and thus a modded console).</description>
+      <description>Tutte le informazioni, i pacchetti eseguibili e il codice sorgente sono disponibili su itch.io:&#xA;https://octt.itch.io/framenx Pagina originale FrameNX is a simple unofficial desktop app for centralizing everything about on-PC mirroring and controlling of genuine Nintendo Switch consoles.&#xA;Essentially, this brings together screen and audio mirroring via (standard) capture cards, and sending of simulated gamepad inputs from gamepads that your console can&amp;#x27;t use directly.</description>
     </item>
     <item>
       <title>HyperTextMetaLister</title>
@@ -76,21 +83,35 @@
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/Mi-Fitness-Private-Server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Mi-Fitness-Private-Server/</guid>
-      <description>Mi Fitness Private Server è un esperimento di reverse-engineering per reimplementare da zero un server API e CDN completamente indipendente per la app Mi Fitness di Xiaomi, per sostituire quello ufficiale, in modo da sbloccare più funzionalità e, in futuro, garantire il funzionamento della app in completa privacy e senza dipendenza dal server ufficiale.&#xA;Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/Mi-Fitness-Private-Server https://github.com/octospacc/Mi-Fitness-Private-Server https://gitea.it/octospacc/Mi-Fitness-Private-Server LEGGIMI originale Mi Fitness Private Server Want to get started quick?</description>
+      <description>Mi Fitness Private Server è un esperimento di reverse-engineering per reimplementare da zero un server API e CDN completamente indipendente per la app Mi Fitness di Xiaomi, per sostituire quello ufficiale, in modo da sbloccare più funzionalità e, in futuro, garantire il funzionamento della app in completa privacy e senza dipendenza dal server ufficiale.</description>
+    </item>
+    <item>
+      <title>MultiSpaccSDK</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/MultiSpaccSDK/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/MultiSpaccSDK/</guid>
+      <description>Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/MultiSpaccSDK https://github.com/octospacc/MultiSpaccSDK https://gitea.it/octospacc/MultiSpaccSDK </description>
+    </item>
+    <item>
+      <title>Naples NDS</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/Naples-NDS/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Naples-NDS/</guid>
+      <description>https://gamingshitposting.github.io/naplesnds/ Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://github.com/GamingShitposting/naplesnds https://gitea.it/octospacc/naplesnds </description>
     </item>
     <item>
       <title>nekotsume IME</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/nekotsume-IME/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/nekotsume-IME/</guid>
-      <description>Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/nekotsume-ime https://github.com/octospacc/nekotsume-ime https://gitea.it/octospacc/nekotsume-ime LEGGIMI originale nekotsume IME | ネコツメIME nekotsume IME is an efficient and privacy-friendly Japanese IME for (almost) any website in your web browser. It works fully locally: what you type is never sent on the Internet and stays private. With this, it&amp;rsquo;s also pretty fast, and the suggestions dictionary should be decent.&#xA;Usage General:&#xA;You can toggle the IME to ON [あ] to enable conversion of for all standard text input fields (&amp;lt;input type=&amp;quot;text&amp;quot;&amp;gt; and &amp;lt;textarea&amp;gt;) of the current window, and to OFF [A] to disable conversion and write normally.</description>
+      <description>Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/nekotsume-ime https://github.com/octospacc/nekotsume-ime https://gitea.it/octospacc/nekotsume-ime LEGGIMI originale nekotsume IME | ネコツメIME nekotsume IME is an efficient and privacy-friendly Japanese IME for (almost) any website in your web browser. It works fully locally: what you type is never sent on the Internet and stays private.</description>
     </item>
     <item>
       <title>Offline Caching</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/Offline-Caching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Offline-Caching/</guid>
-      <description>Tutte le informazioni e il codice sorgente sono disponibili su:&#xA;https://addons.mozilla.org/firefox/addon/offline-caching/ </description>
+      <description>Tutte le informazioni e il codice sorgente sono disponibili su:&#xA;https://addons.mozilla.org/firefox/addon/offline-caching/ LEGGIMI originale ScreenshotsAbout this extensionThis add-on enables offline caching on any web site or app, even those that aren&#39;t developed with this feature in mind, allowing use when Internet isn&#39;t available.</description>
     </item>
     <item>
       <title>Pattor Radio</title>
@@ -100,11 +121,39 @@
       <description> https://gitlab.com/octospacc/pattor-radio </description>
     </item>
     <item>
+      <title>Sala Museo Games</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/Sala-Museo-Games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Sala-Museo-Games/</guid>
+      <description>https://gamingshitposting.github.io/SalaMuseoGames/ Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://github.com/GamingShitposting/SalaMuseoGames https://gitea.it/octospacc/SalaMuseoGames </description>
+    </item>
+    <item>
+      <title>Spacc BBS</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/Spacc-BBS/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Spacc-BBS/</guid>
+      <description>https://bbs.spacc.eu.org/ </description>
+    </item>
+    <item>
+      <title>SpaccCraft</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/SpaccCraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/SpaccCraft/</guid>
+      <description>https://SpaccCraft.altervista.org/ </description>
+    </item>
+    <item>
+      <title>Spaccogram (Web)</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/Spaccogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Spaccogram/</guid>
+      <description>https://1.tgweb.octt.eu.org/ Tutte le informazioni sono disponibili sul canale Telegram:&#xA;https://t.me/+ujaob63Vy705Mzgx Il codice sorgente è disponibile su Git:&#xA;https://gitea.it/octospacc/Spaccogram </description>
+    </item>
+    <item>
       <title>Triangle Got High</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/Triangle-Got-High/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Triangle-Got-High/</guid>
-      <description>Tutte le informazioni, i pacchetti eseguibili e il codice sorgente sono disponibili su itch.io:&#xA;https://octt.itch.io/triangle-got-high Pagina originale He&amp;#x27;s funny. He dances. He smokes crack&amp;nbsp;and gets high.&amp;nbsp;He&amp;#x27;s the swaggest triangle our universe has ever known.&#xA;This game is a 3D platformer with elements of parkour, mazes, jumping and exploring. You play as the swag triangle, which is the talking Triforce from The Legend of Zelda that became a meme in 2007 thanks to YouTube user DancingTriforce.</description>
+      <description>Tutte le informazioni, i pacchetti eseguibili e il codice sorgente sono disponibili su itch.io:&#xA;https://octt.itch.io/triangle-got-high Pagina originale He&amp;#x27;s funny. He dances. He smokes crack&amp;nbsp;and gets high.&amp;nbsp;He&amp;#x27;s the swaggest triangle our universe has ever known.&#xA;This game is a 3D platformer with elements of parkour, mazes, jumping and exploring.</description>
     </item>
     <item>
       <title>ViewUltra</title>
@@ -114,11 +163,18 @@
       <description>https://hlb0.octt.eu.org/ViewUltra.php </description>
     </item>
     <item>
+      <title>WebPinBoard / Bachecoctt</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/WebPinBoard-Bachecoctt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/WebPinBoard-Bachecoctt/</guid>
+      <description>https://octtspacc.gitlab.io/bachecoctt/ Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/WebPinBoard https://github.com/octospacc/WebPinBoard https://gitea.it/octospacc/WebPinBoard https://codeberg.org/octt-mirror/WebPinBoard LEGGIMI originale WebPinBoard WebPinBoard is a Personal Static HTML Pinboard for Links and Images.&#xA;It works like this:&#xA;You write all the links to webpages and images you want to organize in a Markdown file, located in Source/Data.</description>
+    </item>
+    <item>
       <title>WinDog</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/WinDog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/WinDog/</guid>
-      <description>https://gitlab.com/octospacc/WinDog https://github.com/octospacc/WinDog https://gitea.it/octospacc/WinDog https://windog.octt.eu.org/ LEGGIMI originale WinDog WinDog/WinDogBot is a chatbot I&amp;rsquo;ve been (lazily) developing for years, with some special characteristics:&#xA;multi-purpose: it&amp;rsquo;s created for doing a myriad of different things, from the funny to the useful (moderation features will be implemented in the future). multi-platform: it&amp;rsquo;s an experiment in automagical multiplatform compatibility, with modules targeting a common abstracted API. modular: in all of this, the bot is modular, and allows features to be easily activated or removed at will (like some other ones).</description>
+      <description>https://gitlab.com/octospacc/WinDog https://github.com/octospacc/WinDog https://gitea.it/octospacc/WinDog https://windog.octt.eu.org/ LEGGIMI originale WinDog WinDog/WinDogBot is a chatbot I&amp;rsquo;ve been (lazily) developing for years, with some special characteristics:&#xA;multi-purpose: it&amp;rsquo;s created for doing a myriad of different things, from the funny to the useful (moderation features will be implemented in the future).</description>
     </item>
     <item>
       <title>👁️‍🗨️️ MBViewer</title>
@@ -132,7 +188,7 @@
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/SpiderADB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/SpiderADB/</guid>
-      <description>https://hub.octt.eu.org/SpiderADB/ </description>
+      <description>https://hub.octt.eu.org/SpiderADB/#/about </description>
     </item>
     <item>
       <title>🧲 HashyMagnet</title>
