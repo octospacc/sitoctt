@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 ModificationMetadataKey = "lastmod"
-KeepOriginalMetadata = ["draft", "date", "lastmod"]
+KeepOriginalMetadata = ["draft", "date", "lastmod", "slug"]
 DestinationLanguages = ["it", "en", "es", "fr"] # "de", "eo"
 IncludePaths = ["/"]
-ExcludePaths = ["/miscellanea/Devlogs.md", "/admin.md"] # "/miscellanea/PicoBlog.md"
+ExcludePaths = ["/miscellanea/Devlogs.md", "/miscellanea/Percent-Encoding.md", "/admin.md"] # "/miscellanea/PicoBlog.md"
 TranslationFixes = {
 	"{{<assetsRoot>}}_/": "{{< assetsRoot>}}/",
 	"{{< assetsRoot >}}_/": "{{< assetsRoot >}}/",
@@ -108,6 +108,7 @@ def number_to_ascii(number:int) -> str:
 # TODO handle .notranslate HTML elements
 # TODO fix strange bugs, including bug of autoinserted trailing underscores '_', and HTML closing tags breaking
 def wrap_for_translation(original_text):
+	external_tokens = []
 	original_text = (original_text
 		.replace("{{%", "{{@%").replace("%}}", "%@}}") # Hugo shortcodes
 		.replace("{{<", "{{@<").replace(">}}", ">@}}")
@@ -116,15 +117,18 @@ def wrap_for_translation(original_text):
 	original_tokens = original_text.split("{{@")
 	for i in range(1, len(original_tokens)):
 		token_tokens = original_tokens[i].split("@}}")
+		external_tokens.append("{{@" + token_tokens[0] + "@}}")
 		token_tokens[0] = (f"{TranslationMagic}__" + str(ascii_to_number("{{@" + token_tokens[0] + "@}}")).replace("1", "1_").replace("9", "9_") + "__")
 		original_tokens[i] = ''.join(token_tokens)
-	return ''.join(original_tokens)
+	return (''.join(original_tokens), external_tokens)
 
-def unwrap_from_translation(translated_text):
+def unwrap_from_translation(translated_text, external_tokens):
 	translated_tokens = translated_text.split(f"{TranslationMagic}__")
 	for i in range(1, len(translated_tokens)):
 		token_tokens = translated_tokens[i].split("__")
-		token_tokens[0] = number_to_ascii(token_tokens[0].replace(' ', '').replace('_', ''))
+		token_tokens[0] = external_tokens.pop(0) #number_to_ascii(token_tokens[0].replace(' ', '').replace('_', ''))
+		if (token_tokens[1].startswith('_')):
+			token_tokens[1] = token_tokens[1][1:] # Extra underscore insertion workaround
 		translated_tokens[i] = (token_tokens[0] + "__".join(token_tokens[1:]))
 	return (''.join(translated_tokens)
 		.replace("{{@%", "{{%").replace("%@}}", "%}}") # Hugo shortcodes
@@ -139,7 +143,7 @@ def translate_document(document_path, documents):
 	printf(f"* {document_path} ->")
 	for destination_language in documents[document_path]:
 		source_language = get_source_language(document_path)
-		original_text = wrap_for_translation(read_original_document(document_path))
+		original_text, external_tokens = wrap_for_translation(read_original_document(document_path))
 		printf('', destination_language)
 		try:
 			is_python_translator = True
@@ -175,7 +179,7 @@ def translate_document(document_path, documents):
 				translated_text = ''.join(translated_tokens)
 			elif translated_text.strip():
 				translated_text = (translated_preamble + translated_text)
-			translated_text = unwrap_from_translation(translated_text)
+			translated_text = unwrap_from_translation(translated_text, external_tokens)
 			for replacement in TranslationFixes:
 				translated_text = translated_text.replace(replacement, TranslationFixes[replacement])
 			destination_path = make_destination_path(document_path, destination_language)
@@ -198,7 +202,7 @@ def main():
 def read_from_scripts(relative_path:str):
 	return open((dirname(realpath(__file__)) + "/../" + relative_path), 'r').read()
 
-TranslationMagic = ("__" + str(ascii_to_number("sitoctt")))
+TranslationMagic = ("__" + str(ascii_to_number("sito.octt")))
 
 if __name__ == "__main__":
 	globals_text = read_from_scripts("Lib/Globals.sh")

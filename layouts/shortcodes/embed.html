@@ -6,18 +6,18 @@
   {{- $type = "embed" -}}
 {{- end -}}
 {{- $iswindow := (in (slice "app" "window") $type) -}}
-<figure class="w-100" style="margin: auto;">
+<figure class="w-100" style="margin: auto; {{ $data | safeCSS }} height: auto;">
   {{- if (eq $type "embed") -}}
     {{- $link = $href -}}
-    <iframe class="w-100 vh-75 {{ $data }}" src="{{ $href }}" allowfullscreen="allowfullscreen"></iframe>
+    <iframe class="w-100 vh-75" src="{{ $href }}" allowfullscreen="allowfullscreen"></iframe>
   {{- else if $iswindow -}}
     <figcaption style="background: #330066; padding: 0.25em; border: 4px solid #330066;">{{ partial "anchor.html" (dict "Params" (dict
       "style" "color: rgba(255,255,255,.9); text-decoration: none;"
       "target" "_blank"
       "rel" "noopener"
       "href" $href)) }}</figcaption>
-    <div class="vh-75" style="resize: vertical; overflow: hidden; border: 4px solid #330066;">
-      <iframe class="w-100 h-100 bn" src="{{ $href }}" allowfullscreen="allowfullscreen"></iframe>
+    <div class="vh-75" style="resize: vertical; overflow: hidden; border: 4px solid #330066; {{ $data | safeCSS }}">
+      <iframe class="w-100 h-100 bn" src="{{ $href }}" allowfullscreen="allowfullscreen" onload="this.focus()"></iframe>
     </div>
   {{- else if in (slice "youtube" "yt") $type -}}
     {{- $link = (printf "https://youtu.be/%s" $href) -}}

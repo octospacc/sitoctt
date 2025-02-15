@@ -6,6 +6,7 @@ title = "✨sitoctt✨"
 canonifyURLs = true
 disablePathToLower = true
 sectionPagesMenu = "main"
+summaryLength = 40
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
 theme = [ "hugo-notice", "ananke" ]
