@@ -5,7 +5,7 @@ Title = "😺 Who I am"
 Aliases = [
   "/Who-I-Am.html",
 ]
-Lastmod = 2023-10-17
+Lastmod = 2025-01-11
 #$SelfhostLineBadge = '<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;" >SELFHOST!</small>'
 +++
 
@@ -35,7 +35,7 @@ I often sleep too, ahhh it's nice when you sleep you stay there like that, ohhh,
 
 I also write actual programs sometimes. More than anything, little programmers, because if I embark on big undertakings then I risk <small>(no no, it happens often, what "risk", it's a certainty)</small> of leaving stuff abandoned halfway...
 
-Furthermore, think about it: when I have time, I also play video games, or read things like particularly interesting articles (not just the title) or manga. In the past, much more, but today I use my time on many other things, so the game is nice but, now, it always lasts too short.
+Furthermore, think about it: when I have time, I also play video games, or read things like particularly interesting articles (not just the title) or manga. In the past, much more, but today I spend my time on many other things, so the game is nice but, now, it always lasts too short.
 
 Here are some video games that I recommend (exhaustive noj list): [Raccolta Videogiochi](./Raccolte/Gaming/Raccolta-Videogiochi.html), while for the other things I haven't assembled lists yet.
 
@@ -57,7 +57,13 @@ Oh, and I also still have to go to school... no, university they tell me now, I 
 
 ## My contacts
 
-You can find me on the Fediverse, at my favorite contacts that I leave below.
+When comments on this site are not enough, if you want to contact me privately for some reason, you can:
+
+- Write to me through the contact form on <https://octospacc.altervista.org/contatti-%F0%9F%98%BA%EF%B8%8F/>
+- Email me at <code class="octt-contact">[Enable JavaScript]</code> or <code class="octt-contact">[Enable JavaScript]</code>
+- Write me a message via ActivityPub at <code class="octt-contact">[Enable JavaScript]</code>
+
+Alternatively, but I don't check them much, you can find me on the Fediverse platforms that I leave below:
 
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt)  
 - <b style="Color:#3088D4;">Mastodon</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo)  
@@ -80,10 +86,12 @@ It is also possible to take my public PGP key, or use the convenient interface o
 
 For now, I'm sorry, but that's all. If you want to know more, you'll first have to wait until I think of new stuff to write. Don't hope too much, though, considering that this page hasn't expanded substantially for months and months 😬.
 
-Here on the site, however, I have not yet had clear enough ideas, nor the necessary patience, to create enormous collections on all those elements of knowledge that I possess on very particular subjects. For the moment, at the cost of almost never adding anything, I avoid filling the post with **too much** information; However, I throw them all on [OcttKB](https://kb.octt.eu.org).
+Here on the site, however, I have not yet had clear enough ideas, nor the necessary patience, to create huge collections on all those elements of knowledge that I possess on very particular subjects. For the moment, at the cost of almost never adding anything, I avoid filling the post with **too much** information; However, I throw them all on [OcttKB](https://kb.octt.eu.org).
 
 ---
 
 ![Me on Animal Crossing Wild World.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
 _I? Cutie. Absolutely indisputable._  
 _You? Meh, maybe.. I think???_
+
+<script src="/res/Contacts.js"></script>

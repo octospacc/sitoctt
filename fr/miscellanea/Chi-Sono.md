@@ -5,7 +5,7 @@ Title = "😺 Qui je suis"
 Aliases = [
   "/Qui-je-suis.html",
 ]
-Lastmod = 2023-10-17
+Lastmod = 2025-01-11
 #$SelfhostLineBadge = '<small style="Color:#CC0000; Font-Size:X-Small; Display:Inline-Block; Rotate:35deg; Margin-Left:-1.5em; Margin-Right:-1.5em;" >AUTO-HÉBERGEMENT !</small>'
 +++
 
@@ -16,8 +16,8 @@ Lastmod = 2023-10-17
 A juste titre, en venant ici, que vous ayez lu ou non les informations générales du site sur [Accueil](./index.html), vous vous demanderez qui je suis.
 
 Je suis oct. Oui, c'est vrai, Octt dont sitoctt, mon site, tire son nom.  
-_Octt_ se prononce "òctt" - [comme sitoctt, mais sans "sit"]({{<assetsRoot >}}/Media/sitoctt-pronunciation.flac).  
-Je suis le webmaster de cet endroit. Ou, peut-être, [webmistress](https://www.dictionary.com/browse/webmistress) serait plus correct, dommage que les personnes qui connaissent même l'existence de ce mot puissent se compter sur les doigts d'une personne coupée main.
+_Octt_ se prononce "òctt" - [comme sitoctt, mais sans "assis"]({{< assetsRoot >}}/Media/sitoctt-pronunciation.flac).  
+Je suis le webmaster de cet endroit. Ou, peut-être, [webmistress](https://www.dictionary.com/browse/webmistress) serait plus correct, dommage que le nombre de personnes qui connaissent même l'existence de ce mot puisse se compter sur les doigts de une main coupée.
 
 Bon, j'ai compris qu'il y avait un besoin pour ce site dans le monde <small>(mais quand jamais ??)</small>, j'ai imaginé le site, j'ai commencé à construire le site, j'ai mis en place des stratégies pour simplifier ma création du site <small>(eee, quels gros mots, j'ai écrit un petit programme en Python)</small>, et voici le résultat.
 
@@ -39,12 +39,12 @@ Et puis, réfléchissez-y : quand j'ai du temps, je joue aussi à des jeux vidé
 
 Voici quelques jeux vidéo que je recommande (liste exhaustive de noj) : [Raccolta Videogiochi](./Raccolte/Gaming/Raccolta-Videogiochi.html), tandis que pour les autres choses je n'ai pas encore constitué de listes.
 
-Oh, et je dois aussi encore aller à l'école... non, à l'université, me dit-on maintenant, je pense. C'est un peu gênant, d'accord, on ne peut pas faire grand-chose.
+Oh, et je dois aussi encore aller à l'école... non, à l'université, me dit-on maintenant, je pense. C'est un peu gênant, d'accord, vous ne pouvez pas faire grand-chose.
 
 ## Certaines de mes propriétés particulières
 
 • Je suis un loli avec des propriétés spéciales
-: La chose simple est en soi une propriété particulière.
+: La chose simple est elle-même une propriété particulière.
 
 • Ma couleur préférée est la couleur de fond du site
 : C'est-à-dire #eeddff. Je suis pauvre et je n'ai pas de couleurs Pantone, c'est la précision maximale que je peux garantir. J'espère que votre écran est calibré comme le mien.
@@ -57,7 +57,13 @@ Oh, et je dois aussi encore aller à l'école... non, à l'université, me dit-o
 
 ## Mes contacts
 
-Vous pouvez me retrouver sur le Fediverse, chez mes contacts favoris que je laisse ci-dessous.
+Lorsque les commentaires sur ce site ne suffisent pas, si vous souhaitez me contacter en privé pour une raison quelconque, vous pouvez :
+
+- Écrivez-moi via le formulaire de contact sur <https://octospacc.altervista.org/contatti-%F0%9F%98%BA%EF%B8%8F/>
+- Envoyez-moi un e-mail à <code class="octt-contact">[Activer JavaScript]</code> ou <code class="octt-contact">[Activer JavaScript]</code>
+- Écrivez-moi un message via ActivityPub à <code class="octt-contact">[Activer JavaScript]</code>
+
+Alternativement, mais je ne les vérifie pas beaucoup, vous pouvez me retrouver sur les plateformes Fediverse que je laisse ci-dessous :
 
 - <b style="Color:#FFA020;">Friendica</b> : [@octt@poliverso.org](https://poliverso.org/profile/octt)  
 - <b style="Color:#3088D4;">Mastodon</b> : [@octo@mastodon.uno](https://mastodon.uno/@octo)  
@@ -80,10 +86,12 @@ Il est également possible de prendre ma clé publique PGP, ou d'utiliser l'inte
 
 Pour l'instant, je suis désolé, mais c'est tout. Si vous voulez en savoir plus, il faudra d'abord attendre que je pense à des nouveautés à écrire. N'espérez pas trop, cependant, étant donné que cette page ne s'est pas considérablement développée depuis des mois et des mois 😬.
 
-Ici, sur le site, cependant, je n'ai pas encore les idées assez claires, ni la patience nécessaire, pour créer d'énormes collections sur tous ces éléments de connaissances que je possède sur des sujets très particuliers. Pour le moment, au prix de ne presque jamais rien ajouter, j'évite de remplir le message avec **trop** d'informations ; Cependant, je les jette tous sur [OcttKB](https://kb.octt.eu.org).
+Mais ici, sur le site, je n'ai pas encore les idées assez claires, ni la patience nécessaire, pour créer d'immenses collections sur tous ces éléments de connaissances que je possède sur des sujets très particuliers. Pour le moment, au prix de ne presque jamais rien ajouter, j'évite de remplir le message avec **trop** d'informations ; Cependant, je les jette tous sur [OcttKB](https://kb.octt.eu.org).
 
 ---
 
-![Moi sur Animal Crossing Wild World.]({{<assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
+![Moi sur Animal Crossing Wild Monde.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
 _JE? Mignonne. Absolument incontestable._  
 _Toi? Meh, peut-être.. je pense ???_
+
+<script src="/res/Contacts.js"></script>

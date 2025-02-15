@@ -5,7 +5,7 @@ Title = "😺 Quién soy"
 Aliases = [
   "/Quien-soy.html",
 ]
-Lastmod = 2023-10-17
+Lastmod = 2025-01-11
 #$SelfhostLineBadge = '<small style="Color:#CC0000; Tamaño de fuente:X-Small; Pantalla:Bloque en línea; Girar:35 grados; Margen izquierdo:-1,5 em; Margen derecho:-1,5 em;" >¡AUTOHOST!</small>'
 +++
 
@@ -16,7 +16,7 @@ Lastmod = 2023-10-17
 Con razón, al venir aquí, haya leído o no la información general en el sitio [Inicio](./index.html), se preguntará quién soy.
 
 Soy octubre. Sí, así es, Octt del que toma su nombre sitoctt, mi sitio.  
-_Octt_ se pronuncia "òctt" - [como sitoctt, pero sin "sit"]({{<assetsRoot >}}/Media/sitoctt-pronunciation.flac).  
+_Octt_ se pronuncia "òctt" - [como sitoctt, pero sin "sentarse"]({{< assetsRoot >}}/Media/sitoctt-pronunciation.flac).  
 Soy el webmaster de este lugar. O, quizás, [webmistress](https://www.dictionary.com/browse/webmistress) sería más correcto, lástima que el número de personas que siquiera conocen la existencia de esta palabra se pueden contar con los dedos de una mano cortada.
 
 Bien, entendí que había una necesidad de este sitio en el mundo <small>(¿pero cuándo??)</small>, imaginé el sitio, comencé a construirlo, puse en marcha estrategias para simplificar mi creación. del sitio <small>(eee, que palabras tan grandes, escribí un programita en Python)</small>, y aquí está el resultado.
@@ -29,9 +29,9 @@ Soy la Diosa y loli de [Spacc](https://wikispacc.miraheze.org/wiki/Spacc), así 
 
 Luego, por mucho que trate de dedicarle el menor tiempo posible, tengo mi servidor para administrar cuando algo falla o es necesario actualizar algo; de lo contrario, ¿quién se encargará de todo? Entre software de servidor para diferentes usos, incluidos los web, varios bots para diferentes plataformas, [SpaccCraft](https://wikispacc.miraheze.org/wiki/SpaccCraft), y algunas otras cosas que ahora estoy aburrido de recordar, es una bestia, aunque al menos hoy no tengo la dificultad de utilizar demasiado hardware improvisado.
 
-Desafortunadamente, ahora a menudo no encuentro el tiempo adecuado para dedicarlo a Fediverse, como solía hacer allí antes de escribir y compartir cosas, en las diferentes plataformas gratuitas.
+Desafortunadamente, ahora a menudo no encuentro el tiempo adecuado para dedicarlo a Fediverse, como solía hacer allí antes de escribir y compartir cosas, en las distintas y agradables plataformas gratuitas.
 
-Yo también duermo muchas veces, ahhh que bonito cuando duermes te quedas ahí así, ohhh, y a veces es necesario, oh.
+Yo también duermo muchas veces, ahhh que lindo cuando duermes te quedas ahí así, ohhh, y a veces es necesario, oh.
 
 A veces también escribo programas reales. Más que nada, pequeños programadores, porque si me embarco en grandes proyectos me arriesgo <small>(no no, pasa a menudo, qué "riesgo", es una certeza)</small> de dejar cosas abandonadas a medio camino...
 
@@ -57,7 +57,13 @@ Ah, y también todavía tengo que ir a la escuela... no, a la universidad me dic
 
 ## Mis contactos
 
-Puedes encontrarme en Fediverse, en mis contactos favoritos que te dejo a continuación.
+Cuando los comentarios en este sitio no son suficientes, si deseas contactarme de forma privada por algún motivo, puedes:
+
+- Escríbeme a través del formulario de contacto en <https://octospacc.altervista.org/contatti-%F0%9F%98%BA%EF%B8%8F/>
+- Envíeme un correo electrónico a <code class="octt-contact">[Habilitar JavaScript]</code> o <code class="octt-contact">[Habilitar JavaScript]</code>
+- Escríbeme un mensaje a través de ActivityPub en <code class="octt-contact">[Activar JavaScript]</code>
+
+Alternativamente, pero no las reviso mucho, puedes encontrarme en las plataformas Fediverse que te dejo a continuación:
 
 - <b style="Color:#FFA020;">Friendica</b>: [@octt@poliverso.org](https://poliverso.org/profile/octt)  
 - <b style="Color:#3088D4;">Mastodonte</b>: [@octo@mastodon.uno](https://mastodon.uno/@octo)  
@@ -78,12 +84,14 @@ También es posible tomar mi clave PGP pública o utilizar la conveniente interf
 
 # ¿Fin?
 
-Por ahora lo siento, pero eso es todo. Si quieres saber más, primero tendrás que esperar hasta que piense en cosas nuevas para escribir. Sin embargo, no se haga ilusiones demasiado, considerando que esta página no se ha expandido sustancialmente durante meses y meses 😬.
+Por ahora lo siento, pero eso es todo. Si quieres saber más, primero tendrás que esperar hasta que piense en cosas nuevas para escribir. Sin embargo, no esperes demasiado, considerando que esta página no se ha expandido sustancialmente durante meses y meses 😬.
 
 Aquí en el sitio, sin embargo, todavía no he tenido las ideas suficientemente claras, ni la paciencia necesaria, para crear enormes colecciones sobre todos aquellos elementos de conocimiento que poseo sobre temas muy particulares. Por el momento, a costa de casi no añadir nada, evito llenar el post con **demasiada** información; Sin embargo, los coloco todos en [OcttKB](https://kb.octt.eu.org).
 
 ---
 
-![Yo en Animal Crossing Wild World.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
+![Yo en Animal Crossing Wild Mundo.]({{< assetsRoot >}}/Media/Animal-Crossing/ACWW-Me-2022-08-01.avif)  
 _¿I? Chica. Absolutamente indiscutible._  
 _¿Tú? Meh, tal vez... creo???_
+
+<script src="/res/Contacts.js"></script>
