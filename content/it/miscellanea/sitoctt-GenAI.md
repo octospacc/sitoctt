@@ -26,6 +26,7 @@ Per i post che fanno parte di questo gruppo, di seguito riportati, è in ogni ca
 * [{{< relref "/blog/2023-08-11-Recensione-Pipi-Nel-Mar-Tirreno/" >}}]({{< relref "/blog/2023-08-11-Recensione-Pipi-Nel-Mar-Tirreno/" >}})
 * [{{< relref "/blog/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini/" >}}]({{< relref "/blog/2023-09-15-Mollette-per-Capelli-Colla-e-Sassolini/" >}})
 * [{{< relref "/blog/2024-06-22-Diari-Blog-Social-Riflessione/" >}}]({{< relref "/blog/2024-06-22-Diari-Blog-Social-Riflessione/" >}})
+* [{{< relref "/note/2024-09-01-Compilare-Installare-Linux-Kernel/" >}}]({{< relref "/note/2024-09-01-Compilare-Installare-Linux-Kernel/" >}})
 * [{{< relref "/blog/2024-09-23-Anti-Woke-Gaming/" >}}]({{< relref "/blog/2024-09-23-Anti-Woke-Gaming/" >}})
 
 Considerata la loro natura, queste immagini vengono considerate come tappabuchi temporanei, e possono venir sostituite in futuro con delle versioni definitive non generate con intelligenza artificiale, qualora dei sostituti adeguati diventino disponibili.  

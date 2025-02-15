@@ -40,10 +40,10 @@
       {{ end }}
     {{ end }}
 
-    {{ if .Site.Params.canonicalUrlOverride }}
-      <link rel="canonical" href="{{ .Site.Params.canonicalUrlOverride }}{{ .RelPermalink }}">
-    {{ else if .Params.canonicalUrl }}
+    {{ if .Params.canonicalUrl }}
       <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else if .Site.Params.canonicalUrlOverride }}
+      <link rel="canonical" href="{{ .Site.Params.canonicalUrlOverride }}{{ .RelPermalink }}">
     {{ else }}
       <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}

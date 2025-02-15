@@ -1,0 +1,10 @@
+{{- $content := (resources.GetRemote (.Get 0)).Content -}}
+{{- if eq (.Get 2) "split" -}}
+    {{- $content = index (split (index (split $content (.Get 3)) (.Get 4)) (.Get 5)) (.Get 6) -}}
+{{- end -}}
+{{- if eq (.Get 1) "markdown" -}}
+    {{- $content = $content | markdownify -}}
+{{- else if eq (.Get 1) "html" -}}
+    {{- $content = $content | safeHTML -}}
+{{- end -}}
+{{- $content -}}

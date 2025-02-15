@@ -2,4 +2,4 @@
 {{- if hasPrefix $url "/" -}}
   {{- $url = (relref .Params.Context $url) -}}
 {{- end -}}
-<a href="{{ $url }}" rel="{{ .Params.rel }}" target="{{ .Params.target }}" title="{{ .Params.title }}">{{ or .Inner .Params.href }}</a>
+<a style="{{ .Params.style | safeCSS }}" href="{{ $url }}" rel="{{ .Params.rel }}" target="{{ .Params.target }}" title="{{ .Params.title }}">{{ or .Inner .Params.href }}</a>
