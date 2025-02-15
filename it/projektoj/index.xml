@@ -6,6 +6,7 @@
     <description>Recent content in Progetti⚒️ on ✨sitoctt✨</description>
     <generator>Hugo</generator>
     <language>it</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://http.sitoctt.octt.eu.org/it/projektoj/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>☘️ WuppìMini</title>
@@ -29,6 +30,13 @@
       <description>https://proxatore.octt.eu.org/ </description>
     </item>
     <item>
+      <title>🎵️ TiktOctt</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/TiktOctt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/TiktOctt/</guid>
+      <description>https://hub.octt.eu.org/TiktOctt/ </description>
+    </item>
+    <item>
       <title>📺️ TiVuOcto</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/TiVuOcto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,6 +51,20 @@
       <description>https://archivioctt-61aad6.gitlab.io/ </description>
     </item>
     <item>
+      <title>DroidScriptin&#39;</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/DroidScriptin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/DroidScriptin/</guid>
+      <description> https://gitlab.com/octtspacc/DroidScriptin https://gitea.it/octospacc/DroidScriptin </description>
+    </item>
+    <item>
+      <title>FrameNX</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/FrameNX/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/FrameNX/</guid>
+      <description>Tutte le informazioni, i pacchetti eseguibili e il codice sorgente sono disponibili su itch.io:&#xA;https://octt.itch.io/framenx Pagina originale FrameNX is a simple unofficial desktop app for centralizing everything about on-PC mirroring and controlling of genuine Nintendo Switch consoles.&#xA;Essentially, this brings together screen and audio mirroring via (standard) capture cards, and sending of simulated gamepad inputs from gamepads that your console can&amp;#x27;t use directly. (The latter requires the sys-botbase homebrew, and thus a modded console).</description>
+    </item>
+    <item>
       <title>HyperTextMetaLister</title>
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/HyperTextMetaLister/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -54,7 +76,21 @@
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/Mi-Fitness-Private-Server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Mi-Fitness-Private-Server/</guid>
-      <description> https://gitlab.com/octospacc/Mi-Fitness-Private-Server https://github.com/octospacc/Mi-Fitness-Private-Server </description>
+      <description>Mi Fitness Private Server è un esperimento di reverse-engineering per reimplementare da zero un server API e CDN completamente indipendente per la app Mi Fitness di Xiaomi, per sostituire quello ufficiale, in modo da sbloccare più funzionalità e, in futuro, garantire il funzionamento della app in completa privacy e senza dipendenza dal server ufficiale.&#xA;Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/Mi-Fitness-Private-Server https://github.com/octospacc/Mi-Fitness-Private-Server https://gitea.it/octospacc/Mi-Fitness-Private-Server LEGGIMI originale Mi Fitness Private Server Want to get started quick?</description>
+    </item>
+    <item>
+      <title>nekotsume IME</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/nekotsume-IME/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/nekotsume-IME/</guid>
+      <description>Tutte le informazioni e il codice sorgente sono disponibili su Git:&#xA;https://gitlab.com/octospacc/nekotsume-ime https://github.com/octospacc/nekotsume-ime https://gitea.it/octospacc/nekotsume-ime LEGGIMI originale nekotsume IME | ネコツメIME nekotsume IME is an efficient and privacy-friendly Japanese IME for (almost) any website in your web browser. It works fully locally: what you type is never sent on the Internet and stays private. With this, it&amp;rsquo;s also pretty fast, and the suggestions dictionary should be decent.&#xA;Usage General:&#xA;You can toggle the IME to ON [あ] to enable conversion of for all standard text input fields (&amp;lt;input type=&amp;quot;text&amp;quot;&amp;gt; and &amp;lt;textarea&amp;gt;) of the current window, and to OFF [A] to disable conversion and write normally.</description>
+    </item>
+    <item>
+      <title>Offline Caching</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/Offline-Caching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Offline-Caching/</guid>
+      <description>Tutte le informazioni e il codice sorgente sono disponibili su:&#xA;https://addons.mozilla.org/firefox/addon/offline-caching/ </description>
     </item>
     <item>
       <title>Pattor Radio</title>
@@ -62,6 +98,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Pattor-Radio/</guid>
       <description> https://gitlab.com/octospacc/pattor-radio </description>
+    </item>
+    <item>
+      <title>Triangle Got High</title>
+      <link>http://http.sitoctt.octt.eu.org/it/projektoj/Triangle-Got-High/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://http.sitoctt.octt.eu.org/it/projektoj/Triangle-Got-High/</guid>
+      <description>Tutte le informazioni, i pacchetti eseguibili e il codice sorgente sono disponibili su itch.io:&#xA;https://octt.itch.io/triangle-got-high Pagina originale He&amp;#x27;s funny. He dances. He smokes crack&amp;nbsp;and gets high.&amp;nbsp;He&amp;#x27;s the swaggest triangle our universe has ever known.&#xA;This game is a 3D platformer with elements of parkour, mazes, jumping and exploring. You play as the swag triangle, which is the talking Triforce from The Legend of Zelda that became a meme in 2007 thanks to YouTube user DancingTriforce.</description>
     </item>
     <item>
       <title>ViewUltra</title>
@@ -75,7 +118,7 @@
       <link>http://http.sitoctt.octt.eu.org/it/projektoj/WinDog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://http.sitoctt.octt.eu.org/it/projektoj/WinDog/</guid>
-      <description> https://gitlab.com/octospacc/WinDog https://github.com/octospacc/WinDog </description>
+      <description>https://gitlab.com/octospacc/WinDog https://github.com/octospacc/WinDog https://gitea.it/octospacc/WinDog https://windog.octt.eu.org/ LEGGIMI originale WinDog WinDog/WinDogBot is a chatbot I&amp;rsquo;ve been (lazily) developing for years, with some special characteristics:&#xA;multi-purpose: it&amp;rsquo;s created for doing a myriad of different things, from the funny to the useful (moderation features will be implemented in the future). multi-platform: it&amp;rsquo;s an experiment in automagical multiplatform compatibility, with modules targeting a common abstracted API. modular: in all of this, the bot is modular, and allows features to be easily activated or removed at will (like some other ones).</description>
     </item>
     <item>
       <title>👁️‍🗨️️ MBViewer</title>

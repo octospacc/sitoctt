@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Chi-sono/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -1596,6 +1599,8 @@
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/projektoj/Proxatore/</loc>
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/TiktOctt/</loc>
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/raccolta-videogiochi/Splatoon/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1670,13 +1675,19 @@
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Codifica-URL/</loc>
   </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/DroidScriptin/</loc>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/FrameNX/</loc>
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/projektoj/HyperTextMetaLister/</loc>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/projektoj/Mi-Fitness-Private-Server/</loc>
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/Pattor-Radio/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/nekotsume-IME/</loc>
   </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/</loc>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/Offline-Caching/</loc>
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/Pattor-Radio/</loc>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/miscellanea/Raccolta-Cose-a-Caso/</loc>
     <xhtml:link
@@ -1721,6 +1732,8 @@
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/tags/"
                 />
+  </url><url>
+    <loc>http://http.sitoctt.octt.eu.org/it/projektoj/Triangle-Got-High/</loc>
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/projektoj/ViewUltra/</loc>
   </url><url>
