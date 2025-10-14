@@ -1,6 +1,6 @@
 +++
 Title = "☠️ Il sitoctt è morto? E altre risposte a domande toste"
-Date = 2025-10-15
+Date = 2025-10-14
 +++
  
 Chi segue il sitoctt (...sarà mica rimasto qualcuno?) avrà purtroppo notato una certa mancanza di contenuti nell'ormai ultimo anno, su questo sito... e non solo in post, che già da 2 annetti erano decisamente traballanti, ma anche per quanto riguarda varie pagine del sito, che ormai prendono la polvere oltre ogni ombra di dubbio.
