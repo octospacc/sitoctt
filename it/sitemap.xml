@@ -2,6 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://http.sitoctt.octt.eu.org/it/blog/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://http.sitoctt.octt.eu.org/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://http.sitoctt.octt.eu.org/es/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://http.sitoctt.octt.eu.org/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://http.sitoctt.octt.eu.org/it/blog/"
+                />
+  </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/projektoj/</loc>
     <lastmod>2025-02-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -256,29 +279,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://http.sitoctt.octt.eu.org/it/blog/2024-10-26-Orologi-che-non-segnano-lora-il-caso-della-Mi-Band/"
-                />
-  </url><url>
-    <loc>http://http.sitoctt.octt.eu.org/it/blog/</loc>
-    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://http.sitoctt.octt.eu.org/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://http.sitoctt.octt.eu.org/es/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://http.sitoctt.octt.eu.org/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://http.sitoctt.octt.eu.org/it/blog/"
                 />
   </url><url>
     <loc>http://http.sitoctt.octt.eu.org/it/categories/Tecnologia/</loc>
